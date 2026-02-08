@@ -25,6 +25,7 @@
 - [작품별 정리(목차)](works-characters.md)
 - [SNS/공식 채널](sns.md)
 - [방송/예능/행사(출연 기록)](appearances.md)
+- [스케줄(공식 공개 일정)](schedule.md)
 
 ## 관리/규칙
 - [작품 페이지 템플릿](templates/work-template.md)

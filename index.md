@@ -15,6 +15,7 @@
 - [수상/노미네이트](pages/awards.md)
 - [타임라인(연도별)](pages/timeline.md)
 - [작품별 캐릭터 정리(목차)](pages/works-characters.md)
+- [스케줄(공식 공개 일정)](pages/schedule.md)
 - [인터뷰/기사 아카이브](pages/interviews.md)
 - [광고/엠버서더(목차)](pages/endorsements.md)
 - [사진/화보 아카이브(목차)](pages/pictorials.md)
