@@ -32,6 +32,10 @@
 - Harper’s BAZAAR Korea: https://www.harpersbazaar.co.kr/
 - W Korea: https://www.wkorea.com/
 
+## SNS(공식)
+- 고윤정 Instagram(추정/검색 결과 기반 — 공식 표기는 MAA/공식 인터뷰 등으로 교차확인 권장): https://www.instagram.com/goyounjung/
+- MAA Instagram: https://www.instagram.com/maakorea/
+
 ## 유튜브(공식 채널)
 - 채널 십오야(나영석 관련 콘텐츠 업로드): https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ
 - (참고) 나영석의 나불나불/와글와글 플레이리스트(검색/목록): https://www.youtube.com/playlist?list=PLr0T5CaHaPwVWLdtQIwORp6OT6hlvfVAN

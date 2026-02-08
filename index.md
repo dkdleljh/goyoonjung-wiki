@@ -20,6 +20,7 @@
 - [태그 인덱스](pages/index-by-tag.md)
 - [편집 규칙](pages/style-guide.md)
 - [표기 규칙](pages/naming.md)
+- [권리/저작권 원칙](pages/legal.md)
 - [날짜별 업데이트](news/)
 - [변경 이력](CHANGELOG.md)
 - [출처](sources/sources.md)
