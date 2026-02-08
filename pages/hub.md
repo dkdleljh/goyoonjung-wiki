@@ -28,6 +28,7 @@
 - [스케줄(공식 공개 일정)](schedule.md)
 
 ## 관리/규칙
+- [나무위키 참고 보강 백로그](namu-backlog.md)
 - [작품 페이지 템플릿](templates/work-template.md)
 - [편집 규칙](style-guide.md)
 - [표기 규칙](naming.md)
