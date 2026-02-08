@@ -33,8 +33,10 @@
 - W Korea: https://www.wkorea.com/
 
 ## SNS(공식)
-- 고윤정 Instagram(추정/검색 결과 기반 — 공식 표기는 MAA/공식 인터뷰 등으로 교차확인 권장): https://www.instagram.com/goyounjung/
 - MAA Instagram: https://www.instagram.com/maakorea/
+
+## SNS(교차확인 필요)
+- 고윤정 Instagram: https://www.instagram.com/goyounjung/  (MAA/공식 인터뷰 등에서 공식 표기 확인 후 '공식'으로 승격)
 
 ## 유튜브(공식 채널)
 - 채널 십오야(나영석 관련 콘텐츠 업로드): https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ

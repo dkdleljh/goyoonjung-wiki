@@ -3,11 +3,13 @@
 > 원칙: 공식/검증 가능한 계정만 기록합니다. (동명이인/사칭 방지)
 
 ## 배우 본인
-- Instagram: https://www.instagram.com/goyounjung/  
-  - 상태: (MAA/공식 인터뷰 등으로 교차확인 권장)
+- Instagram: https://www.instagram.com/goyounjung/
+  - 상태: 공식 계정 여부 **교차확인 진행 중** (MAA 프로필/공식 인터뷰 등에 직접 표기되면 `공식확정`으로 상향)
+  - 비고: 현재는 검색 결과 기반으로만 등록
 
 ## 소속사
 - MAA 공식 사이트: https://maa.co.kr/
+- MAA 아티스트 프로필(고윤정): https://maa.co.kr/artists/go-younjung
 - MAA Instagram: https://www.instagram.com/maakorea/
 
 ## 방송/콘텐츠 채널
