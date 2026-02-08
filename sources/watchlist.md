@@ -10,29 +10,31 @@
 ---
 
 ## 소속사/공식
-- (추가 예정) MAA 공식 사이트/프로필 페이지: 
+- MAA 공식 사이트: https://maa.co.kr/
+- MAA 아티스트(고윤정) 프로필: https://maa.co.kr/artists/go-younjung
 
 ## OTT/방송사(공식)
-- Netflix 작품 페이지(배우/작품별): 
-- Disney+ 작품 페이지: 
-- tvN 공식 작품 페이지: 
-- JTBC 공식 작품 페이지: 
-- TVING 공식 작품 페이지: 
+- Netflix(검색: 고윤정): https://www.netflix.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- Disney+(검색): https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95
+- tvN 공식: https://tvn.cjenm.com/ko/
+- JTBC 공식: https://www.jtbc.co.kr/
+- TVING 공식: https://www.tving.com/
 
 ## 시상식(공식)
-- 백상예술대상: 
-- 청룡시리즈어워즈: 
-- 청룡영화상: 
-- 대종상: 
+- 백상예술대상: https://www.baeksangawards.co.kr/
+- 청룡시리즈어워즈: https://bsa.blueaward.co.kr/
+- 청룡영화상: http://www.blueaward.co.kr/
+- 대종상영화제: https://daejong.or.kr/
 
 ## 매거진/화보(공식)
-- ELLE Korea: 
-- Vogue Korea: 
-- Harper’s BAZAAR Korea: 
-- W Korea: 
+- ELLE Korea: https://www.elle.co.kr/
+- Vogue Korea: https://www.vogue.co.kr/
+- Harper’s BAZAAR Korea: https://www.harpersbazaar.co.kr/
+- W Korea: https://www.wkorea.com/
 
 ## 유튜브(공식 채널)
-- (추가 예정) 나영석의 와글와글(공식 채널/플레이리스트 링크): 
+- 채널 십오야(나영석 관련 콘텐츠 업로드): https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ
+- (참고) 나영석의 나불나불/와글와글 플레이리스트(검색/목록): https://www.youtube.com/playlist?list=PLr0T5CaHaPwVWLdtQIwORp6OT6hlvfVAN
 
 ## 주요 언론(원문)
-- (추가 예정) 자주 인용할 매체 링크/검색 페이지
+- (추가 예정) 자주 인용할 매체의 ‘검색 페이지’ 또는 ‘인물/연예’ 섹션 URL
