@@ -32,11 +32,12 @@ done < <(find "$BASE/pages" -type f -name "*.md" -print0)
   echo
   echo "## 태그 목록"
 
-  # sort tags
-  for tag in $(printf "%s\n" "${!tag_to_files[@]}" | LC_ALL=C sort); do
+  # sort tags (safe iteration: preserve spaces)
+  printf "%s\n" "${!tag_to_files[@]}" | LC_ALL=C sort | while IFS= read -r tag; do
+    [ -z "$tag" ] && continue
     echo "### $tag"
     # unique + sort files
-    printf "%b" "${tag_to_files[$tag]}" | sort -u | while IFS= read -r rel; do
+    printf "%b" "${tag_to_files["$tag"]-}" | sort -u | while IFS= read -r rel; do
       [ -z "$rel" ] && continue
       name=$(basename "$rel" .md)
       echo "- [$name]($rel)"
