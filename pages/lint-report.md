@@ -11,7 +11,6 @@ pages/works/hunt.md:14:- 공식 페이지:
 pages/works/moving.md:15:- 공식 페이지: 
 pages/works/alchemy-of-souls.md:15:- 공식 페이지: 
 pages/works/sweethome.md:14:- 공식 페이지: 
-- 없음
 
 ## 2) 상태 태그 누락(인터뷰/화보/광고 템플릿 준수 여부)
 

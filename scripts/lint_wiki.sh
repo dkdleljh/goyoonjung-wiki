@@ -13,7 +13,7 @@ REPORT="pages/lint-report.md"
 
   echo "## 1) 빈 링크(\"공식 페이지:\" 등 콜론 뒤가 비어있는 줄)"
   echo
-  grep -RIn --exclude-dir=.git --exclude="*.tar.gz" -E "(공식 페이지|링크)\s*:\s*$" pages || echo "- 없음"
+  grep -RIn --exclude-dir=.git --exclude="*.tar.gz" --exclude="lint-report.md" -E "(공식 페이지|링크)\s*:\s*$" pages || echo "- 없음"
   echo
 
   echo "## 2) 상태 태그 누락(인터뷰/화보/광고 템플릿 준수 여부)"
@@ -27,7 +27,7 @@ REPORT="pages/lint-report.md"
 
   echo "## 3) 날짜 형식(YYYY-MM-DD) 의심 라인"
   echo
-  grep -RIn --exclude-dir=.git --exclude="*.tar.gz" -E "[0-9]{4}\.[0-9]{2}\.[0-9]{2}" . || echo "- 없음"
+  grep -RIn --exclude-dir=.git --exclude="*.tar.gz" --exclude="lint-report.md" -E "[0-9]{4}\.[0-9]{2}\.[0-9]{2}" . || echo "- 없음"
   echo
 } > "$REPORT"
 
