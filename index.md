@@ -1,0 +1,21 @@
+# 고윤정 (Go Youn-jung) — 개인 위키
+
+> 마지막 업데이트: 2026-02-08
+
+## 빠른 요약
+- 출생: 1996-04-22
+- 직업: 배우
+- 활동: 2018–현재
+- 대표작(드라마): *스위트홈*, *로스쿨*, *환혼: 빛과 그림자*, *무빙* 등
+
+## 바로가기
+- [프로필](pages/profile.md)
+- [필모그래피](pages/filmography.md)
+- [수상/노미네이트](pages/awards.md)
+- [타임라인(연도별)](pages/timeline.md)
+- [작품별 캐릭터 정리](pages/works-characters.md)
+- [인터뷰/기사 아카이브](pages/interviews.md)
+- [광고/엠버서더(공식 발표만)](pages/endorsements.md)
+- [사진/화보 아카이브](pages/pictorials.md)
+- [날짜별 업데이트](news/)
+- [출처](sources/sources.md)
