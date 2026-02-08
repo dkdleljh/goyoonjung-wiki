@@ -12,6 +12,8 @@
 
 ## 덕질 섹션
 - [인터뷰/기사](interviews.md)
+- [브랜드 링크 허브(자동 후보)](brands/index.md)
+- [매거진 링크 허브(자동 후보)](magazines/index.md)
 - [기타 자료/메모](notes/index.md)
 - [화보/사진(목차)](pictorials.md)
   - [커버/표지](pictorials/cover.md)
