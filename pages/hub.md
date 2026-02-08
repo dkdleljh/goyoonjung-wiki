@@ -12,6 +12,7 @@
 
 ## 덕질 섹션
 - [인터뷰/기사](interviews.md)
+- [기타 자료/메모](notes/index.md)
 - [화보/사진(목차)](pictorials.md)
   - [커버/표지](pictorials/cover.md)
   - [에디토리얼/화보](pictorials/editorial.md)
