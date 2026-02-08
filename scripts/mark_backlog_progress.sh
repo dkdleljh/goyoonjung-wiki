@@ -49,8 +49,14 @@ fi
 CONTENT=$(cat "$NEWS")
 
 if grep -q "$START" "$NEWS" && grep -q "$END" "$NEWS"; then
-  # Replace existing block
-  perl -0777 -i -pe "s/\Q$START\E.*?\Q$END\E/$BLOCK/s" "$NEWS"
+  # Replace existing block (without perl): rewrite file and replace the marked region.
+  awk -v start="$START" -v end="$END" -v block="$BLOCK" '
+    BEGIN{skip=0}
+    $0==start {print block; skip=1; next}
+    skip==1 && $0==end {skip=0; next}
+    skip==1 {next}
+    {print}
+  ' "$NEWS" > "$NEWS.tmp" && mv "$NEWS.tmp" "$NEWS"
 else
   # Insert right after '## 실행 상태' section (after 메모 line if present), else near top.
   if grep -q "^## 실행 상태" "$NEWS"; then
