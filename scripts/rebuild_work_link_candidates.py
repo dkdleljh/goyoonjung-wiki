@@ -215,12 +215,29 @@ def build_candidates():
     return per_work
 
 
+def existing_candidate_urls(txt: str):
+    if START not in txt or END not in txt:
+        return None
+    block = re.search(re.escape(START) + r"(.*?)" + re.escape(END), txt, flags=re.S)
+    if not block:
+        return None
+    b = block.group(1)
+    # Extract urls only from bullet lines to avoid picking up unrelated URLs
+    urls = []
+    for ln in b.splitlines():
+        ln = ln.strip()
+        if not ln.startswith("-"):
+            continue
+        m = re.search(r"\((https?://[^\s)]+)\)", ln)
+        if m:
+            urls.append(m.group(1))
+    return urls
+
+
 def update_work_file(work_path: Path, items):
     txt = read_text(work_path)
     if not txt:
         return False
-
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     # Deduplicate by url
     seen = set()
@@ -234,6 +251,16 @@ def update_work_file(work_path: Path, items):
 
     # Limit to top N to avoid spam
     cleaned = cleaned[:20]
+
+    new_urls = [u for _, _, u in cleaned]
+    old_urls = existing_candidate_urls(txt)
+
+    # If the auto-candidate block exists and URLs didn't change, do nothing
+    if old_urls is not None and old_urls == new_urls:
+        return False
+
+    # Otherwise, rebuild block with a fresh timestamp
+    now = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     auto = []
     auto.append("## 관련 링크(자동 후보)\n")

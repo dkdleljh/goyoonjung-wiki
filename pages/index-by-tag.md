@@ -39,6 +39,9 @@
 ### 영화
 - [hunt](works/hunt.md)
 
+### 작품명
+- [work-template](templates/work-template.md)
+
 ### 장희수
 - [moving](works/moving.md)
 
@@ -50,6 +53,12 @@
 
 ### 진부연
 - [alchemy-of-souls](works/alchemy-of-souls.md)
+
+### 캐릭터명
+- [work-template](templates/work-template.md)
+
+### 플랫폼
+- [work-template](templates/work-template.md)
 
 ### 헌트
 - [hunt](works/hunt.md)
