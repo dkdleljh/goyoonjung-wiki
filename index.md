@@ -23,4 +23,5 @@
 - [권리/저작권 원칙](pages/legal.md)
 - [날짜별 업데이트](news/)
 - [변경 이력](CHANGELOG.md)
+- [매체 Watch(대량 수집용)](sources/media-watch.md)
 - [출처](sources/sources.md)

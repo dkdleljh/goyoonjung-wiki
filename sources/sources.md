@@ -12,6 +12,7 @@
 - 다음 뉴스 검색(고윤정): https://search.daum.net/search?w=news&q=%EA%B3%A0%EC%9C%A4%EC%A0%95 (접근: 2026-02-08)
 - 구글 뉴스 검색(고윤정): https://news.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&hl=ko&gl=KR&ceid=KR%3Ako (접근: 2026-02-08)
 - KBS 스타박스(고윤정): https://kstar.kbs.co.kr/person_view.html?idx=220921 (접근: 2026-02-08)
+- 매체 Watch(대량 수집용 링크 모음): sources/media-watch.md (접근: 2026-02-08)
 
 ## 향후 추가 예정(공식/2차)
 - 소속사(MAA) 공식 프로필/보도자료

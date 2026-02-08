@@ -40,24 +40,7 @@
 - 채널 십오야(나영석 관련 콘텐츠 업로드): https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ
 - (참고) 나영석의 나불나불/와글와글 플레이리스트(검색/목록): https://www.youtube.com/playlist?list=PLr0T5CaHaPwVWLdtQIwORp6OT6hlvfVAN
 
-## 주요 언론(원문)
-> 팁: ‘사이트 내 검색’은 매일 같은 링크로 확인 가능해서 누락 방지에 좋습니다.
+## 주요 언론/매거진(대량 수집용)
+- 상세 목록 및 사이트별 검색 링크 모음: `sources/media-watch.md`
 
-### 통합 뉴스 검색
-- 네이버 뉴스 검색(고윤정): https://search.naver.com/search.naver?where=news&query=%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 다음 뉴스 검색(고윤정): https://search.daum.net/search?w=news&q=%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 구글 뉴스 검색(고윤정): https://news.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&hl=ko&gl=KR&ceid=KR%3Ako
-
-### 방송/공영 계열
-- KBS 스타박스(고윤정): https://kstar.kbs.co.kr/person_view.html?idx=220921
-
-### 연예/문화 매체(홈/섹션)
-- 연합뉴스 연예: https://www.yna.co.kr/entertainment
-- 뉴스1 연예: https://www.news1.kr/entertain/celebrity
-- 뉴시스 연예/문화: https://www.newsis.com/entertainment/
-- OSEN: https://www.osen.co.kr/
-- 스포츠조선 연예: https://sports.chosun.com/entertainment/
-- 스타뉴스: https://www.starnewskorea.com/
-- 텐아시아: https://tenasia.hankyung.com/
-
-(원하시면 자주 보는 매체를 더 추가로 고정해드릴게요.)
+(매일 9시 업데이트 시에는 위 파일을 참고해 ‘많이 수집 → 잘 분류’ 흐름으로 정리합니다.)
