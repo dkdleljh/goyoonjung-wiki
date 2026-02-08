@@ -8,7 +8,8 @@ REPORT="pages/lint-report.md"
 {
   echo "# 위키 점검 리포트"
   echo
-  echo "> 생성: $(date +"%Y-%m-%d %H:%M" ) (Asia/Seoul)"
+  # Note: we avoid timestamps here so the report doesn't change when findings don't change
+  echo "> 생성: (자동 생성)"
   echo
 
   echo "## 1) 빈 링크(\"공식 페이지:\" 등 콜론 뒤가 비어있는 줄)"
