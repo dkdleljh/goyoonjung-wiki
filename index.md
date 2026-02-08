@@ -9,6 +9,7 @@
 - 대표작(드라마): *스위트홈*, *로스쿨*, *환혼: 빛과 그림자*, *무빙* 등
 
 ## 바로가기
+- [덕질 허브(추천)](pages/hub.md)
 - [프로필](pages/profile.md)
 - [필모그래피](pages/filmography.md)
 - [수상/노미네이트](pages/awards.md)

@@ -1,12 +1,59 @@
 # 태그 인덱스
 
-> 목적: 위키가 커져도 빠르게 탐색할 수 있도록 태그별 링크를 모읍니다.
+> 자동 생성 파일입니다. (스크립트: scripts/rebuild_tag_index.sh)
 
-## 태그 규칙
-- 각 페이지/항목에 `키워드:` 줄을 추가해도 좋습니다. (예: `키워드: 무빙, Disney+, 장희수`)
-- 이 페이지는 중요한 태그만 수동으로 누적해도 충분합니다.
+## 태그 목록
+### Disney+
+- [moving](works/moving.md)
 
-## 예시 태그
-- 작품: [무빙](works/moving.md), [환혼](works/alchemy-of-souls.md)
-- 플랫폼: Netflix, Disney+, tvN, JTBC, TVING
-- 분야: 인터뷰, 화보, 광고, 수상
+### JTBC
+- [law-school](works/law-school.md)
+
+### Netflix
+- [sweethome](works/sweethome.md)
+
+### tvN
+- [alchemy-of-souls](works/alchemy-of-souls.md)
+
+### 낙수
+- [alchemy-of-souls](works/alchemy-of-souls.md)
+
+### 드라마
+- [alchemy-of-souls](works/alchemy-of-souls.md)
+- [law-school](works/law-school.md)
+- [moving](works/moving.md)
+- [sweethome](works/sweethome.md)
+
+### 로스쿨
+- [law-school](works/law-school.md)
+
+### 무빙
+- [moving](works/moving.md)
+
+### 박유리
+- [sweethome](works/sweethome.md)
+
+### 스위트홈
+- [sweethome](works/sweethome.md)
+
+### 영화
+- [hunt](works/hunt.md)
+
+### 장희수
+- [moving](works/moving.md)
+
+### 전예슬
+- [law-school](works/law-school.md)
+
+### 조유정
+- [hunt](works/hunt.md)
+
+### 진부연
+- [alchemy-of-souls](works/alchemy-of-souls.md)
+
+### 헌트
+- [hunt](works/hunt.md)
+
+### 환혼
+- [alchemy-of-souls](works/alchemy-of-souls.md)
+
