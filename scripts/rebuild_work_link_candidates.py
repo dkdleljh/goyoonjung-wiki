@@ -7,7 +7,10 @@ BASE = Path("/home/zenith/바탕화면/goyoonjung-wiki")
 PAGES = BASE / "pages"
 WORKS_DIR = PAGES / "works"
 
-WORKS = {
+CONFIG_YML = BASE / "config" / "works-keywords.yml"
+
+# Fallback defaults (used only if config file is missing)
+DEFAULT_WORKS = {
     "moving.md": {
         "title": "무빙",
         "keywords": ["무빙", "장희수", "Disney+", "디즈니+"],
@@ -29,6 +32,81 @@ WORKS = {
         "keywords": ["헌트", "조유정"],
     },
 }
+
+
+def parse_works_keywords_yml(yml_text: str):
+    """Tiny, purpose-built parser for config/works-keywords.yml.
+
+    Supported format:
+
+    works:
+      filename.md:
+        title: "..."
+        keywords: ["a", "b"]
+
+    This is NOT a general YAML parser.
+    """
+    works = {}
+    cur_file = None
+
+    for raw in yml_text.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line == "works:" or line.startswith("works:"):
+            continue
+
+        m_file = re.match(r"^([A-Za-z0-9_.-]+\.md):\s*$", line)
+        if m_file:
+            cur_file = m_file.group(1)
+            works[cur_file] = {"title": cur_file.replace(".md", ""), "keywords": []}
+            continue
+
+        if cur_file is None:
+            continue
+
+        # title: "..."
+        if line.startswith("title:"):
+            val = line.split(":", 1)[1].strip()
+            val = val.strip('"').strip("'")
+            works[cur_file]["title"] = val
+            continue
+
+        # keywords: ["a", "b"]
+        if line.startswith("keywords:"):
+            val = line.split(":", 1)[1].strip()
+            # Expect [ ... ]
+            if val.startswith("[") and val.endswith("]"):
+                inner = val[1:-1].strip()
+                if inner:
+                    # split by commas not inside quotes (simple)
+                    parts = [p.strip() for p in inner.split(",")]
+                    kws = []
+                    for p in parts:
+                        p = p.strip()
+                        p = p.strip('"').strip("'")
+                        if p:
+                            kws.append(p)
+                    works[cur_file]["keywords"] = kws
+            continue
+
+    return works
+
+
+def load_works_config():
+    if CONFIG_YML.exists():
+        try:
+            text = CONFIG_YML.read_text(encoding="utf-8")
+            cfg = parse_works_keywords_yml(text)
+            # Basic validation
+            if cfg:
+                return cfg
+        except Exception:
+            pass
+    return DEFAULT_WORKS
+
+
+WORKS = load_works_config()
 
 # Files to scan for links/mentions
 SCAN_FILES = [

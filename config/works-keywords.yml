@@ -1,0 +1,26 @@
+# works-keywords.yml
+# 작품별 자동 후보 링크 생성(키워드 매칭) 설정
+# - work_file: pages/works/ 아래 파일명
+# - title: 표시용 제목
+# - keywords: 매칭 키워드(작품명/캐릭터명/플랫폼/별칭 등)
+
+works:
+  moving.md:
+    title: "무빙"
+    keywords: ["무빙", "장희수", "Disney+", "디즈니+"]
+
+  alchemy-of-souls.md:
+    title: "환혼: 빛과 그림자"
+    keywords: ["환혼", "빛과 그림자", "진부연", "낙수", "tvN"]
+
+  law-school.md:
+    title: "로스쿨"
+    keywords: ["로스쿨", "전예슬", "JTBC"]
+
+  sweethome.md:
+    title: "스위트홈"
+    keywords: ["스위트홈", "스위트 홈", "박유리", "Netflix", "넷플릭스"]
+
+  hunt.md:
+    title: "헌트"
+    keywords: ["헌트", "조유정"]
