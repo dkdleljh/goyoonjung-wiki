@@ -1,3 +1,40 @@
 # 광고/엠버서더 — 패션/주얼리
 
-(공식 출처 링크 확보 후 채워 넣습니다.)
+> 원칙: 공식 발표/브랜드 공식 채널(유튜브/인스타/공식 사이트)로 확인 가능한 건만 기록합니다.
+
+## 목록
+- 브랜드/회사명: 마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)
+  - 카테고리: 패션
+  - 역할: 뮤즈
+  - 발표일/시작일: (확인 필요)
+  - 링크(공식): https://youtu.be/76aAMPpCTb4
+  - 상태: 공식확정
+  - id: https://youtu.be/76aAMPpCTb4
+  - 비고: 캠페인 영상(시즌별 영상은 추가로 누적)
+
+- 브랜드/회사명: 디스커버리 익스페디션(Discovery Expedition)
+  - 카테고리: 패션
+  - 역할: 모델
+  - 발표일/시작일: (확인 필요)
+  - 링크(공식): https://youtu.be/ZH1Y1l1OmTY
+  - 상태: 공식확정
+  - id: https://youtu.be/ZH1Y1l1OmTY
+  - 비고: 공식 캠페인 영상
+
+- 브랜드/회사명: 샤넬(CHANEL)
+  - 카테고리: 패션
+  - 역할: (앰버서더/프렌즈 여부 공식 확인 필요)
+  - 발표일/시작일: 2024-05-03 (공식 인스타 게시물)
+  - 링크(공식): https://www.instagram.com/p/C6gW0vQNU1_/
+  - 상태: 공식확정
+  - id: https://www.instagram.com/p/C6gW0vQNU1_/
+  - 비고: 공식 계정 게시물(정확한 역할 명칭은 추후 공식 발표로 보강)
+
+- 브랜드/회사명: 부쉐론(Boucheron)
+  - 카테고리: 주얼리
+  - 역할: 앰버서더
+  - 발표일/시작일: (확인 필요)
+  - 링크(공식): https://www.instagram.com/p/CWvduIJt1P2/
+  - 상태: 공식확정
+  - id: https://www.instagram.com/p/CWvduIJt1P2/
+  - 비고: 공식 계정 게시물(다수 게시물은 추후 정리)
