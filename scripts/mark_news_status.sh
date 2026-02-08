@@ -62,19 +62,24 @@ if ! grep -q "^## 실행 상태" "$FILE"; then
   mv "$tmp" "$FILE"
 else
   # Replace 실행/결과, and optionally 메모 if NOTE provided.
-  sed -i -E "s/^(- 실행: ).*$/\1$NOW ($TZ)/" "$FILE"
-  sed -i -E "s/^(- 결과: ).*$/\1$STATUS/" "$FILE"
+  # Use a safe delimiter and escape replacement to avoid sed churn/errors.
+  esc_repl() {
+    # Escape backslashes and ampersands (sed replacement special chars)
+    printf '%s' "$1" | sed -e 's/\\/\\\\/g' -e 's/&/\\&/g'
+  }
+
+  NOW_ESC=$(esc_repl "$NOW ($TZ)")
+  STATUS_ESC=$(esc_repl "$STATUS")
+  sed -i -E "s|^(- 실행: ).*$|\\1${NOW_ESC}|" "$FILE"
+  sed -i -E "s|^(- 결과: ).*$|\\1${STATUS_ESC}|" "$FILE"
+
   if [ -n "$NOTE" ]; then
+    NOTE_ESC=$(esc_repl "$NOTE")
     if grep -q "^- 메모:" "$FILE"; then
-      sed -i -E "s/^(- 메모: ).*$/\1$NOTE/" "$FILE"
+      sed -i -E "s|^(- 메모: ).*$|\\1${NOTE_ESC}|" "$FILE"
     else
-      # append memo under the section
-      awk -v note="$NOTE" '
-        {print}
-        $0=="## 실행 상태" {insec=1; next}
-      ' "$FILE" >/dev/null
-      # simple append near section end (after 결과 line)
-      sed -i -E "/^- 결과:/a - 메모: $NOTE" "$FILE"
+      # Insert memo after 결과 line
+      sed -i -E "/^- 결과:/a - 메모: ${NOTE_ESC}" "$FILE"
     fi
   fi
 fi
