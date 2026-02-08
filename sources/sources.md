@@ -26,3 +26,6 @@
 
 ## 참고(2차)
 - 나무위키 「고윤정」: https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 (접근: 2026-02-09)
+
+## 1차(추가)
+- Marie Claire Korea: https://www.marieclairekorea.com/ (접근: 2026-02-09)
