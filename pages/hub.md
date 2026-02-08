@@ -26,6 +26,7 @@
 - [방송/예능/행사(출연 기록)](appearances.md)
 
 ## 관리/규칙
+- [작품 페이지 템플릿](templates/work-template.md)
 - [편집 규칙](style-guide.md)
 - [표기 규칙](naming.md)
 - [권리/저작권](legal.md)
