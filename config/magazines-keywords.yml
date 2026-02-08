@@ -1,0 +1,28 @@
+# magazines-keywords.yml
+# 매거진 자동 후보(키워드 매칭) 설정
+
+magazines:
+  marieclaire:
+    title: "Marie Claire Korea"
+    keywords: ["마리끌레르", "Marie Claire"]
+  vogue:
+    title: "Vogue Korea"
+    keywords: ["보그", "Vogue"]
+  elle:
+    title: "ELLE Korea"
+    keywords: ["엘르", "ELLE"]
+  bazaar:
+    title: "Harper's BAZAAR Korea"
+    keywords: ["바자", "BAZAAR", "Harper"]
+  wkorea:
+    title: "W Korea"
+    keywords: ["더블유", "W Korea"]
+  gq:
+    title: "GQ Korea"
+    keywords: ["지큐", "GQ"]
+  esquire:
+    title: "Esquire Korea"
+    keywords: ["에스콰이어", "Esquire"]
+  cosmopolitan:
+    title: "Cosmopolitan Korea"
+    keywords: ["코스모폴리탄", "Cosmopolitan"]

@@ -2,6 +2,13 @@
 
 > 생성: (자동 생성)
 
+## 0) 커버리지(요약)
+
+- 광고/엠버서더: 뷰티 4 / 패션 4 / 라이프 5
+- 화보/사진: 커버 1 / 에디토리얼 1 / 캠페인 0 / 메이킹 1
+- 출연/행사: 1
+- 인터뷰/기사: 2
+
 ## 1) 빈 링크("공식 페이지:" 등 콜론 뒤가 비어있는 줄)
 
 pages/pictorials/index.md:16:- 링크:
@@ -10,16 +17,6 @@ pages/templates/work-template.md:27:- 공식 페이지:
 pages/templates/entry-interview.md:6:- 링크:
 pages/templates/entry-pictorial.md:6:- 링크:
 pages/interviews.md:11:- 링크:
-pages/works/law-school.md:14:- 공식 페이지: 
-pages/works/law-school.md:28:- 공식 페이지:
-pages/works/hunt.md:14:- 공식 페이지: 
-pages/works/hunt.md:28:- 공식 페이지:
-pages/works/moving.md:15:- 공식 페이지: 
-pages/works/moving.md:29:- 공식 페이지:
-pages/works/alchemy-of-souls.md:15:- 공식 페이지: 
-pages/works/alchemy-of-souls.md:29:- 공식 페이지:
-pages/works/sweethome.md:14:- 공식 페이지: 
-pages/works/sweethome.md:28:- 공식 페이지:
 
 ## 2) 상태 태그 누락(인터뷰/화보/광고 템플릿 준수 여부)
 
@@ -29,4 +26,13 @@ pages/works/sweethome.md:28:- 공식 페이지:
 ## 3) 날짜 형식(YYYY-MM-DD) 의심 라인
 
 - 없음
+
+## 4) 커버리지 목표 미달 경고(권장)
+
+- 경고: endorsements/beauty.md 항목이 10개 미만입니다.
+- 경고: endorsements/fashion.md 항목이 10개 미만입니다.
+- 경고: endorsements/lifestyle.md 항목이 10개 미만입니다.
+- 경고: pictorials/cover.md 항목이 3개 미만입니다.
+- 경고: pictorials/editorial.md 항목이 3개 미만입니다.
+- 경고: appearances.md 항목이 3개 미만입니다.
 

@@ -29,6 +29,7 @@
 
 ## 관리/규칙
 - [나무위키 참고 보강 백로그](namu-backlog.md)
+- [브랜드 Watch(광고/캠페인)](../sources/brands-watch.md)
 - [작품 페이지 템플릿](templates/work-template.md)
 - [편집 규칙](style-guide.md)
 - [표기 규칙](naming.md)

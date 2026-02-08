@@ -1,0 +1,31 @@
+# brands-keywords.yml
+# 브랜드/캠페인 자동 후보(키워드 매칭) 설정
+
+brands:
+  chanel:
+    title: "CHANEL"
+    keywords: ["샤넬", "CHANEL", "코코 마드모아젤", "서블리마지", "루쥬 코코"]
+  boucheron:
+    title: "Boucheron"
+    keywords: ["부쉐론", "Boucheron", "콰트로", "Quatre"]
+  marithe:
+    title: "MARITHÉ FRANÇOIS GIRBAUD"
+    keywords: ["마리떼", "MARITHÉ", "GIRBAUD"]
+  discovery:
+    title: "Discovery Expedition"
+    keywords: ["디스커버리", "Discovery", "프레시벤트", "베르텍스"]
+  goodal:
+    title: "goodal"
+    keywords: ["구달", "goodal", "어성초", "수딩"]
+  vodana:
+    title: "VODANA"
+    keywords: ["보다나", "VODANA", "봉고데기", "글램웨이브"]
+  lensme:
+    title: "LENSME"
+    keywords: ["렌즈미", "LENSME", "원데이 렌즈"]
+  carrot:
+    title: "Carrot"
+    keywords: ["캐롯", "Carrot", "캐롯자동차보험"]
+  puradak:
+    title: "PURADAK"
+    keywords: ["푸라닭", "PURADAK", "고추마요", "블랙알리오"]
