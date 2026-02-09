@@ -123,6 +123,26 @@ SCAN_FILES = [
 
 URL_RE = re.compile(r"https?://[^\s)]+")
 
+# S-tier domains (official / primary sources) for auto recommendations
+S_TIER_DOMAINS = (
+    "netflix.com",
+    "disneyplus.com",
+    "disneyplus.kr",
+    "tvn.cjenm.com",
+    "jtbc.co.kr",
+    "youtube.com",
+    "youtu.be",
+    "instagram.com",
+    "maac.co.kr",
+    "marieclairekorea.com",
+    "vogue.co.kr",
+    "elle.co.kr",
+    "wkorea.com",
+    "harpersbazaar.co.kr",
+    "gqkorea.co.kr",
+    "esquirekorea.co.kr",
+)
+
 START = "<!-- AUTO-CANDIDATES:START -->"
 END = "<!-- AUTO-CANDIDATES:END -->"
 
@@ -234,6 +254,14 @@ def existing_candidate_urls(txt: str):
     return urls
 
 
+def is_s_tier(url: str) -> bool:
+    try:
+        host = re.sub(r"^www\\.", "", url.split("//", 1)[1].split("/", 1)[0].lower())
+    except Exception:
+        return False
+    return any(host == d or host.endswith("." + d) for d in S_TIER_DOMAINS)
+
+
 def update_work_file(work_path: Path, items):
     txt = read_text(work_path)
     if not txt:
@@ -262,13 +290,25 @@ def update_work_file(work_path: Path, items):
     # Otherwise, rebuild block with a fresh timestamp
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
 
+    # split recommendations (S-tier) vs the rest
+    rec = [(rel, title, url) for rel, title, url in cleaned if is_s_tier(url)][:5]
+    rest = [(rel, title, url) for rel, title, url in cleaned if (rel, title, url) not in rec]
+
     auto = []
     auto.append("## 관련 링크(자동 후보)\n")
     auto.append(f"> 생성: {now} (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.\n")
+
     if not cleaned:
         auto.append("- (후보 없음)\n")
     else:
-        for rel, title, url in cleaned:
+        if rec:
+            auto.append("### 자동 추천(S급 우선)\n")
+            for rel, title, url in rec:
+                auto.append(f"- ⭐ [{title}]({url})  _(출처: {rel})_\n")
+            auto.append("\n")
+
+        auto.append("### 전체 후보\n")
+        for rel, title, url in (rec + rest):
             auto.append(f"- [{title}]({url})  _(출처: {rel})_\n")
 
     auto_block = "\n".join([START, "\n".join(auto).rstrip(), END])

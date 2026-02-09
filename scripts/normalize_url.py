@@ -19,7 +19,17 @@ DROP_KEYS = {
     "mc_eid",
     "ref",
     "spm",
+    "cmpid",
+    "ns_mchannel",
+    "ns_source",
+    "ns_campaign",
+    "ns_linkname",
 }
+
+STRIP_HOST_PREFIXES = (
+    "m.",
+    "mobile.",
+)
 
 
 def norm(url: str) -> str:
@@ -30,6 +40,11 @@ def norm(url: str) -> str:
     sp = urlsplit(url)
     scheme = (sp.scheme or "https").lower()
     netloc = sp.netloc.lower()
+
+    # strip mobile prefixes
+    for pref in STRIP_HOST_PREFIXES:
+        if netloc.startswith(pref):
+            netloc = netloc[len(pref):]
 
     # Some inputs might be missing scheme
     if not netloc and sp.path.startswith("www."):
@@ -51,7 +66,15 @@ def norm(url: str) -> str:
     # strip fragment
     frag = ""
 
-    return urlunsplit((scheme, netloc, sp.path, query, frag))
+    path = sp.path or "/"
+    # normalize duplicate slashes
+    while "//" in path:
+        path = path.replace("//", "/")
+    # normalize trailing slash (keep root '/')
+    if path != "/" and path.endswith("/"):
+        path = path[:-1]
+
+    return urlunsplit((scheme, netloc, path, query, frag))
 
 
 if __name__ == "__main__":

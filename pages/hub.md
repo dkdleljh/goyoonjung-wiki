@@ -38,3 +38,5 @@
 - [표기 규칙](naming.md)
 - [권리/저작권](legal.md)
 - [태그 인덱스](index-by-tag.md)
+- [완성도 대시보드](progress.md)
+- [링크 건강검진](link-health.md)
