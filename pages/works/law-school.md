@@ -14,6 +14,14 @@
 - 공식 페이지(JTBC): https://tv.jtbc.co.kr/lawschool
 - 등장인물 소개(JTBC): https://tv.jtbc.co.kr/cast/PR10011289/1
 
+<!-- AUTO-CANDIDATES:START -->
+## 관련 링크(자동 후보)
+
+> 생성: 2026-02-09 01:16 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+- (후보 없음)
+<!-- AUTO-CANDIDATES:END -->
+
 ## 링크 박스
 - 공식 페이지: https://tv.jtbc.co.kr/lawschool
 - 등장인물: https://tv.jtbc.co.kr/cast/PR10011289/1

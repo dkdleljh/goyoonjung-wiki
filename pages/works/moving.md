@@ -15,6 +15,16 @@
 - 티저 예고편(공식/YouTube): https://www.youtube.com/watch?v=pyrwTv8aS-E
 - 비하인드 메이킹(공식/YouTube): https://www.youtube.com/watch?v=wZR6s3rB6tk
 
+<!-- AUTO-CANDIDATES:START -->
+## 관련 링크(자동 후보)
+
+> 생성: 2026-02-09 01:16 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+- [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
+
+- [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)  _(출처: pictorials/making.md)_
+<!-- AUTO-CANDIDATES:END -->
+
 ## 링크 박스
 - 공식 페이지: https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
 - 예고편/클립: https://www.youtube.com/watch?v=pyrwTv8aS-E
