@@ -30,6 +30,7 @@
 - [스케줄(공식 공개 일정)](schedule.md)
 
 ## 관리/규칙
+- [운영 전략/로드맵](strategy.md)
 - [나무위키 참고 보강 백로그](namu-backlog.md)
 - [브랜드 Watch(광고/캠페인)](../sources/brands-watch.md)
 - [작품 페이지 템플릿](templates/work-template.md)
