@@ -23,3 +23,11 @@
 - (기타 위키백과 기재 항목 추후 정리)
 
 > 출처: 위키백과(한국어) 「고윤정」 (접근: 2026-02-08)
+
+---
+
+## 공식 교차검증(진행 중)
+- 백상예술대상(공식): https://www.baeksangawards.co.kr/
+- 청룡시리즈어워즈(공식): https://bsa.blueaward.co.kr/
+- 청룡영화상(공식): http://www.blueaward.co.kr/
+- 대종상영화제(공식): https://daejong.or.kr/

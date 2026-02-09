@@ -1,42 +1,32 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-09 16:20 (Asia/Seoul)
+> 갱신: 2026-02-09 16:28 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 2a37908 2026-02-09 16:20:19 +0900 feat: dashboards, link health, data templates, better candidates & dedupe
+- 8c34a2f 2026-02-09 16:20:30 +0900 daily: update 2026-02-09
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- .locks/daily-update.lock
+- news/2026-02-09.md
 - pages/daily-report.md
-- pages/hub.md
-- pages/link-health.md
-- pages/progress.md
-- pages/style-guide.md
-- pages/templates/item-frontmatter.md
-- pages/templates/work-template.md
-- scripts/add_seen_url.sh
-- scripts/check_links.py
-- scripts/normalize_url.py
-- scripts/rebuild_daily_report.sh
-- scripts/rebuild_progress.py
-- scripts/rebuild_work_link_candidates.py
-- scripts/run_weekly_link_health.sh
-- scripts/update_indexes.sh
+- pages/lint-report.md
 
 ## 3) 오늘 실행 상태(news/2026-02-09.md)
 
 ## 실행 상태
 - 실행: 2026-02-09 16:20 (Asia/Seoul)
 - 실행(10시대 기록): 2026-02-09 10:58 (Asia/Seoul)
-- 결과: 진행중
+- 결과: 성공
 - 상태전환: 진행중 → 부분성공 (2026-02-09 13:33 Asia/Seoul)
-- 메모: auto: daily update running
+- 메모: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-09_1620.tar.gz), work-candidates:OK
 <!-- AUTO-BACKLOG-PROGRESS:START -->
-- C(완성도 우선) 백로그 진행률: 2/8 (25%)
+- C(완성도 우선) 백로그 진행률: 3/20 (15%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 ## 실행 이력
 
+- 2026-02-09 16:20 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-09_1620.tar.gz), work-candidates:OK
 - 2026-02-09 16:20 (Asia/Seoul) · 진행중 · auto: daily update running
 
 - 상태전환: 진행중 → 성공 (2026-02-09 14:18 Asia/Seoul)
