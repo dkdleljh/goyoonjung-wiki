@@ -17,6 +17,7 @@
 - Netflix(검색: 고윤정): https://www.netflix.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95
 - Disney+(검색): https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95
 - tvN 공식: https://tvn.cjenm.com/ko/
+  - (작품) 언젠가는 슬기로울 전공의생활(공식): https://tvn.cjenm.com/ko/resident-playbook/
 - JTBC 공식: https://www.jtbc.co.kr/
 - TVING 공식: https://www.tving.com/
 
@@ -27,10 +28,12 @@
 - 대종상영화제: https://daejong.or.kr/
 
 ## 매거진/화보(공식)
-- ELLE Korea: https://www.elle.co.kr/
-- Vogue Korea: https://www.vogue.co.kr/
-- Harper’s BAZAAR Korea: https://www.harpersbazaar.co.kr/
-- W Korea: https://www.wkorea.com/
+- ELLE Korea(검색: 고윤정): https://www.elle.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- Vogue Korea(검색: 고윤정): https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- Harper’s BAZAAR Korea(검색: 고윤정): https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- Harper’s BAZAAR Korea(태그: 고윤정 화보): https://www.harpersbazaar.co.kr/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%99%94%EB%B3%B4
+- Marie Claire Korea(태그: 고윤정): https://www.marieclairekorea.com/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95/
+- W Korea(검색: 고윤정): https://www.wkorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
 
 ## SNS(공식)
 - MAA Instagram: https://www.instagram.com/maakorea/
