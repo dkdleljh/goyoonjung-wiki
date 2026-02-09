@@ -17,9 +17,9 @@
 > 규칙: 아래 체크박스 1개를 ‘전진’시키려면 **S/A급(공식/원문) 링크 1~3개 확보 → 해당 페이지에 착지 → sources/seen-urls에 등록**까지 완료합니다.
 
 ### 화보/사진(우선)
-- [ ] (화보) Marie Claire Korea 추가 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
+- [x] (화보) Marie Claire Korea 추가 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
 - [ ] (화보) Vogue Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
-- [ ] (화보) ELLE Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
+- [x] (화보) ELLE Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
 - [ ] (캠페인) 브랜드 캠페인/룩북 원문 1건 확보 → `pages/pictorials/campaign.md` 착지
 - [ ] (메이킹) 공식 유튜브/매거진 메이킹 1건 확보 → `pages/pictorials/making.md` 착지
 

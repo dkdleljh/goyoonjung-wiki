@@ -33,6 +33,7 @@
 
 ## 2025
 - 드라마: *언젠가는 슬기로울 전공의생활*
+  - 공식: https://tvn.cjenm.com/ko/resident-playbook/
 
 ## 2026
 - 드라마: *이 사랑 통역 되나요?*

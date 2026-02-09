@@ -1,10 +1,10 @@
 # 완성도 대시보드
 
-> 갱신: 2026-02-09 16:28 (Asia/Seoul)
+> 갱신: 2026-02-09 16:29 (Asia/Seoul)
 
 ## 1) 백로그 진행률(과거 이력 보강)
 
-- 완료: **3/20** (**15.0%**)
+- 완료: **5/20** (**25.0%**)
 
 ### 항목
 - [x] 광고/엠버서더 전체 확장 (현재: 13개 항목)
@@ -15,9 +15,9 @@
 - [ ] 수상/노미네이트 교차검증(시상식 공식 페이지)
 - [x] 작품별 페이지 링크 박스 보강
 - [ ] 스케줄(공식 공개 ‘미래 일정’) 채우기
-- [ ] (화보) Marie Claire Korea 추가 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
+- [x] (화보) Marie Claire Korea 추가 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
 - [ ] (화보) Vogue Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
-- [ ] (화보) ELLE Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
+- [x] (화보) ELLE Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
 - [ ] (캠페인) 브랜드 캠페인/룩북 원문 1건 확보 → `pages/pictorials/campaign.md` 착지
 - [ ] (메이킹) 공식 유튜브/매거진 메이킹 1건 확보 → `pages/pictorials/making.md` 착지
 - [ ] (출연) 방송사/공식 유튜브 기반 예능/홍보 출연 1건 추가 → `pages/appearances.md`

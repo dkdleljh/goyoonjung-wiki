@@ -1,17 +1,25 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-09 16:28 (Asia/Seoul)
+> 갱신: 2026-02-09 16:29 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 8c34a2f 2026-02-09 16:20:30 +0900 daily: update 2026-02-09
+- d7f15d4 2026-02-09 16:28:24 +0900 chore: expand templates + backlog into actionable units
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- .locks/daily-update.lock
 - news/2026-02-09.md
+- pages/appearances.md
+- pages/awards.md
 - pages/daily-report.md
-- pages/lint-report.md
+- pages/filmography.md
+- pages/interviews.md
+- pages/namu-backlog.md
+- pages/pictorials/campaign.md
+- pages/pictorials/cover.md
+- pages/pictorials/editorial.md
+- pages/pictorials/making.md
+- pages/progress.md
 
 ## 3) 오늘 실행 상태(news/2026-02-09.md)
 
@@ -22,7 +30,7 @@
 - 상태전환: 진행중 → 부분성공 (2026-02-09 13:33 Asia/Seoul)
 - 메모: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-09_1620.tar.gz), work-candidates:OK
 <!-- AUTO-BACKLOG-PROGRESS:START -->
-- C(완성도 우선) 백로그 진행률: 3/20 (15%)
+- C(완성도 우선) 백로그 진행률: 5/20 (25%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 ## 실행 이력
 

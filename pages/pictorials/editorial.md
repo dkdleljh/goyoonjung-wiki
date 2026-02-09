@@ -17,10 +17,22 @@
 (아직 추가된 항목이 없습니다.)
 
 ## 2025
-(아직 추가된 항목이 없습니다.)
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 커버 관련(인터뷰/화보)
+- 제목: 엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체
+- 링크(원문): https://www.elle.co.kr/article/1880222
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1880222
 
 ## 2024
-(아직 추가된 항목이 없습니다.)
+- 날짜: 2024-07
+- 매체: Marie Claire Korea (마리끌레르 코리아)
+- 구분: 화보+인터뷰
+- 제목: 고윤정과 함께한 화보와 인터뷰
+- 링크(원문): https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 
 ## 2023
 (아직 추가된 항목이 없습니다.)
