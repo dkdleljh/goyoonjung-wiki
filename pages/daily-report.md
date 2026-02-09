@@ -4,24 +4,40 @@
 
 ## 1) 최신 커밋
 
-- 0bfbfa4 2026-02-09 16:04:00 +0900 docs: adopt no-manual-run policy
+- 2a37908 2026-02-09 16:20:19 +0900 feat: dashboards, link health, data templates, better candidates & dedupe
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- README.md
-- pages/strategy.md
+- pages/daily-report.md
+- pages/hub.md
+- pages/link-health.md
+- pages/progress.md
+- pages/style-guide.md
+- pages/templates/item-frontmatter.md
+- pages/templates/work-template.md
+- scripts/add_seen_url.sh
+- scripts/check_links.py
+- scripts/normalize_url.py
+- scripts/rebuild_daily_report.sh
+- scripts/rebuild_progress.py
+- scripts/rebuild_work_link_candidates.py
+- scripts/run_weekly_link_health.sh
+- scripts/update_indexes.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-09.md)
 
 ## 실행 상태
-- 실행: 2026-02-09 15:37 (Asia/Seoul)
+- 실행: 2026-02-09 16:20 (Asia/Seoul)
 - 실행(10시대 기록): 2026-02-09 10:58 (Asia/Seoul)
-- 결과: 성공
+- 결과: 진행중
 - 상태전환: 진행중 → 부분성공 (2026-02-09 13:33 Asia/Seoul)
-- 메모: 수동 즉시 1회 실행 완료: update_indexes + lint + backup 생성 + 커밋/푸시
+- 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
 - C(완성도 우선) 백로그 진행률: 2/8 (25%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
+## 실행 이력
+
+- 2026-02-09 16:20 (Asia/Seoul) · 진행중 · auto: daily update running
 
 - 상태전환: 진행중 → 성공 (2026-02-09 14:18 Asia/Seoul)
 

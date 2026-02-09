@@ -12,8 +12,8 @@
 ## 1) 빈 링크("공식 페이지:" 등 콜론 뒤가 비어있는 줄)
 
 pages/pictorials/index.md:16:- 링크:
-pages/templates/work-template.md:17:- 공식 페이지: 
-pages/templates/work-template.md:27:- 공식 페이지:
+pages/templates/work-template.md:22:- 공식 페이지: 
+pages/templates/work-template.md:32:- 공식 페이지:
 pages/templates/entry-interview.md:6:- 링크:
 pages/templates/entry-pictorial.md:6:- 링크:
 pages/interviews.md:11:- 링크:
