@@ -54,6 +54,9 @@ fi
 # Cleanup stale '진행중' status from crashed runs (best-effort)
 ./scripts/cleanup_stale_running.sh >/dev/null 2>&1 || true
 
+# Apply any user-approved promotions from today's news (best-effort)
+./scripts/apply_approved_promotions.py >/dev/null 2>&1 || true
+
 # Mark running
 lock_touch
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
@@ -101,6 +104,10 @@ RC_COLLECT=$?
 # 2) Write daily encyclopedia-promotion suggestions
 retry 2 5 ./scripts/suggest_encyclopedia_promotions.py
 RC_SUGGEST=$?
+
+# 2.5) Suggest one daily promotion task (approval-based)
+retry 2 5 ./scripts/suggest_daily_promotion_task.py
+RC_DAILY_TASK=$?
 
 # 3) Suggest lead paragraphs
 retry 2 5 ./scripts/suggest_lead_paragraphs.py
@@ -181,6 +188,11 @@ if [ "${RC_SUGGEST:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-suggest:SKIP"
 else
   NOTE="$NOTE, promote-suggest:OK"
+fi
+if [ "${RC_DAILY_TASK:-0}" -ne 0 ]; then
+  NOTE="$NOTE, daily-task:SKIP"
+else
+  NOTE="$NOTE, daily-task:OK"
 fi
 if [ "${RC_LEAD:-0}" -ne 0 ]; then
   NOTE="$NOTE, lead-suggest:SKIP"
