@@ -54,8 +54,8 @@ fi
 # Cleanup stale '진행중' status from crashed runs (best-effort)
 ./scripts/cleanup_stale_running.sh >/dev/null 2>&1 || true
 
-# Apply any user-approved promotions from today's news (best-effort)
-./scripts/apply_approved_promotions.py >/dev/null 2>&1 || true
+# NOTE: Unmanned mode: no human approvals required.
+# (If approvals exist, they are ignored by default to avoid manual dependency.)
 
 # Mark running
 lock_touch
@@ -105,7 +105,7 @@ RC_COLLECT=$?
 retry 2 5 ./scripts/suggest_encyclopedia_promotions.py
 RC_SUGGEST=$?
 
-# 2.5) Suggest one daily promotion task (approval-based)
+# 2.5) Suggest one daily promotion task (auto-only; no approvals required)
 retry 2 5 ./scripts/suggest_daily_promotion_task.py
 RC_DAILY_TASK=$?
 
@@ -138,6 +138,9 @@ RC_PROMOTE_SAFE=$?
 set +e
 timeout 45 ./scripts/promote_endorsements_official_announcements.py >/dev/null 2>&1
 RC_ENDO_ANNOUNCE=$?
+# Fallback: if official sites are blocked, use the already-linked official channel post/video as '공식 발표'
+timeout 20 ./scripts/promote_endorsements_announce_fallback.py >/dev/null 2>&1
+RC_ENDO_ANNOUNCE_FALLBACK=$?
 set -e
 
 # 4.5) Endorsements date promotion (can be slow due to yt-dlp/network)
@@ -234,6 +237,11 @@ if [ "${RC_ENDO_ANNOUNCE:-0}" -ne 0 ]; then
   NOTE="$NOTE, endo-announce:SKIP"
 else
   NOTE="$NOTE, endo-announce:OK"
+fi
+if [ "${RC_ENDO_ANNOUNCE_FALLBACK:-0}" -ne 0 ]; then
+  NOTE="$NOTE, endo-announce-fallback:SKIP"
+else
+  NOTE="$NOTE, endo-announce-fallback:OK"
 fi
 if [ "${RC_ENDO_DATES:-0}" -ne 0 ]; then
   NOTE="$NOTE, endo-dates:SKIP"

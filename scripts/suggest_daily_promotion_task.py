@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
-"""Suggest one small, high-impact promotion task per day (approval-based).
+"""Suggest one small, high-impact promotion task per day (unmanned mode).
 
 Writes into news/YYYY-MM-DD.md under a marker block.
 No web fetching.
 
-The task focuses on reducing placeholders like:
-- 교차검증 필요 (profile)
-- (확인 필요) for endorsements official announcement links
-- awards proof empty
-
-It also documents a lightweight approval syntax the user can paste into the news file.
+This does NOT ask the user to provide URLs.
+Instead it summarizes what the automation will attempt next and why something may remain unfilled
+(e.g., site blocked / official page not discoverable).
 """
 
 from __future__ import annotations
@@ -96,13 +93,9 @@ def find_first_endo_needing_announce(md: str) -> tuple[str, str] | None:
 def build_block() -> str:
     lines: list[str] = [
         MARK_START,
-        "## 오늘의 ‘1개 승격’ 미션(자동)",
-        "> 목표: 매일 1개만이라도 ‘(확인 필요)/(교차검증 필요)’를 공식/원문 근거로 승격해서 품질 리포트 숫자를 줄입니다.",
-        "",
-        "### 승인 입력 규칙(주인님이 직접 붙여넣기)",
-        "- 프로필: `APPROVE_PROFILE|출생지|<근거URL>` 또는 `APPROVE_PROFILE|학력|<근거URL>`",
-        "- 광고/엠버서더: `APPROVE_ENDO|<브랜드/회사명 그대로>|<공식발표URL>`",
-        "- 수상: `APPROVE_AWARD|<연도>|<시상식>|<공식근거URL>`",
+        "## 오늘의 ‘자동 승격’ 미션(무인)",
+        "> 목표: 매일 1개 이상 ‘(확인 필요)/(교차검증 필요)’를 자동으로 줄이도록 시도합니다.",
+        "> 원칙: 사람(주인님) 입력 없이 가능한 범위에서만 자동 보강하며, 불가능한 경우는 ‘이유’를 기록하고 스킵합니다.",
         "",
     ]
 
