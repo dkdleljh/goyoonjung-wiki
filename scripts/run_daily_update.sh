@@ -113,17 +113,11 @@ RC_DAILY_TASK=$?
 retry 2 5 ./scripts/suggest_lead_paragraphs.py
 RC_LEAD=$?
 
-# 3.2) Suggest official/primary proof candidates for profile fields (no auto-apply)
-retry 2 5 ./scripts/suggest_profile_official_proofs.py
-RC_PROFILE_PROOF=$?
-
-# 3.3) Suggest official announcement link candidates for endorsements (no auto-apply)
-retry 2 5 ./scripts/suggest_endorsements_official_announcements.py
-RC_ENDO_PROOF_SUGGEST=$?
-
-# 3.5) Suggest official proof links for awards (no auto-apply)
-retry 2 5 ./scripts/suggest_awards_official_proofs.py
-RC_AWARD_PROOF=$?
+# 3.2) (Unmanned) No user-facing URL-hunting suggestion steps here.
+#     Proof-link discovery is handled by strict auto-promoters only.
+RC_PROFILE_PROOF=0
+RC_ENDO_PROOF_SUGGEST=0
+RC_AWARD_PROOF=0
 
 # 3.6) Auto-fill official proof links for awards when verified (strict allowlist)
 # Keep this best-effort and time-bounded to avoid delaying the whole pipeline.
@@ -208,21 +202,10 @@ if [ "${RC_LEAD:-0}" -ne 0 ]; then
 else
   NOTE="$NOTE, lead-suggest:OK"
 fi
-if [ "${RC_PROFILE_PROOF:-0}" -ne 0 ]; then
-  NOTE="$NOTE, profile-proof-suggest:SKIP"
-else
-  NOTE="$NOTE, profile-proof-suggest:OK"
-fi
-if [ "${RC_ENDO_PROOF_SUGGEST:-0}" -ne 0 ]; then
-  NOTE="$NOTE, endo-proof-suggest:SKIP"
-else
-  NOTE="$NOTE, endo-proof-suggest:OK"
-fi
-if [ "${RC_AWARD_PROOF:-0}" -ne 0 ]; then
-  NOTE="$NOTE, awards-proof-suggest:SKIP"
-else
-  NOTE="$NOTE, awards-proof-suggest:OK"
-fi
+# (Unmanned) suggestion steps removed
+NOTE="$NOTE, profile-proof-suggest:SKIP"
+NOTE="$NOTE, endo-proof-suggest:SKIP"
+NOTE="$NOTE, awards-proof-suggest:SKIP"
 if [ "${RC_AWARD_PROOF_AUTO:-0}" -ne 0 ]; then
   NOTE="$NOTE, awards-proof-auto:SKIP"
 else

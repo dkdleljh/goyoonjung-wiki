@@ -40,7 +40,7 @@
   - 카테고리: 뷰티
   - 역할: 글로벌 앰버서더
   - 발표일/시작일: 2023-04-04 (YouTube datePublished)
-  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 발표): https://youtu.be/dmS_nEQYv2I (자동: 공식 채널 게시물로 대체)
   - 링크(공식 영상/캠페인): https://youtu.be/dmS_nEQYv2I
   - 상태: 공식확정
   - id: https://youtu.be/dmS_nEQYv2I

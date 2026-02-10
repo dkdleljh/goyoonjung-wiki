@@ -20,7 +20,7 @@
   - 카테고리: 패션
   - 역할: 뮤즈
   - 발표일/시작일: 2022-11-28 (YouTube datePublished)
-  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 발표): https://youtu.be/76aAMPpCTb4 (자동: 공식 채널 게시물로 대체)
   - 링크(공식 영상/캠페인): https://youtu.be/76aAMPpCTb4
   - 상태: 공식확정
   - id: https://youtu.be/76aAMPpCTb4

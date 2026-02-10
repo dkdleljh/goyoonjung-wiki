@@ -1,23 +1,25 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 20:52 (Asia/Seoul)
+> 갱신: 2026-02-10 20:56 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- c746e5b 2026-02-10 20:44:32 +0900 daily: update 2026-02-10
+- e3432ad 2026-02-10 20:52:51 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-10.md
 - pages/daily-report.md
+- pages/endorsements/beauty.md
 - pages/interviews.md
 - pages/lint-report.md
 - pages/progress.md
 - pages/quality-report.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- scripts/promote_endorsements_official_announcements.py
+- scripts/promote_endorsements_announce_fallback.py
 - scripts/run_daily_update.sh
+- scripts/suggest_daily_promotion_task.py
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
@@ -44,10 +46,10 @@
 - pages/awards.md:26 · | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:27 · | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:28 · | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
-- pages/interviews.md:86 · - (요약 보강 필요) 배우 커리어/작품 관련 기사 원문 기반.
-- pages/interviews.md:148 · - (요약 보강 필요) KBS연예 인터뷰 원문 기반으로 정리.
-- pages/interviews.md:210 · - (요약 보강 필요) 작품/프로모션 기사 원문 기반으로 정리.
-- pages/interviews.md:249 · - (요약 보강 필요) 작품 관련 기사 원문 기반.
+- pages/interviews.md:90 · - (요약 보강 필요) 배우 커리어/작품 관련 기사 원문 기반.
+- pages/interviews.md:156 · - (요약 보강 필요) KBS연예 인터뷰 원문 기반으로 정리.
+- pages/interviews.md:222 · - (요약 보강 필요) 작품/프로모션 기사 원문 기반으로 정리.
+- pages/interviews.md:261 · - (요약 보강 필요) 작품 관련 기사 원문 기반.
 
 <!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
 
@@ -65,82 +67,82 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-<!-- AUTO-AWARDS-PROOF-SUGGEST:START -->
-## 수상/노미네이트 근거 링크 후보(자동)
-> 목표: `pages/awards.md`의 빈 `근거(공식)` 칸을 채우기 위한 ‘공식 링크 후보’를 자동으로 제안합니다. (자동 적용하지 않음)
-
-### 검색 링크(빠른 승격용)
-- 2025 대한민국 대중문화예술상 / 문화체육관광부 장관 표창 (수상)
-  - Google site search: https://www.google.com/search?q=site%3Awww.mcst.go.kr%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20%EB%8C%80%EC%A4%91%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%EC%83%81%202025%20%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 2025 코리아 드라마 어워즈 / 여자 우수연기상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Akoreadramaawards.com%20%EC%BD%94%EB%A6%AC%EC%95%84%20%EB%93%9C%EB%9D%BC%EB%A7%88%20%EC%96%B4%EC%9B%8C%EC%A6%88%202025%20%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 2024 청룡시리즈어워즈 / 신인여우상 (수상)
-  - Google site search: https://www.google.com/search?q=site%3Absa.blueaward.co.kr%20%EC%B2%AD%EB%A3%A1%EC%8B%9C%EB%A6%AC%EC%A6%88%EC%96%B4%EC%9B%8C%EC%A6%88%202024%20%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 2024 백상예술대상(TV) / 여자 신인연기상 (후보)
-  - Google search: https://www.google.com/search?q=백상예술대상(TV)+2024+고윤정
-- 2023 백상예술대상(영화) / 여자 신인연기상 (후보)
-  - Google search: https://www.google.com/search?q=백상예술대상(영화)+2023+고윤정
-- 2023 아시아콘텐츠어워즈 & 글로벌OTT어워즈 / 여자 신인연기상 (수상)
-  - Google search: https://www.google.com/search?q=아시아콘텐츠어워즈+&+글로벌OTT어워즈+2023+고윤정
-- 2023 씨네21 / 올해의 시리즈: 올해의 신인 여자배우 (수상)
-  - Google site search: https://www.google.com/search?q=site%3Awww.cine21.com%20%EC%94%A8%EB%84%A421%202023%20%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 2022 부일영화상 / 신인 여자연기상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Awww.builfilmawards.com%20%EB%B6%80%EC%9D%BC%EC%98%81%ED%99%94%EC%83%81%202022%20%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 2022 대종상 / 신인여우상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Adaejong.or.kr%20%EB%8C%80%EC%A2%85%EC%83%81%202022%20%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 2022 청룡영화상 / 신인여우상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Awww.blueaward.co.kr%20%EC%B2%AD%EB%A3%A1%EC%98%81%ED%99%94%EC%83%81%202022%20%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 2022 춘사국제영화제 / 신인여우상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Awww.chunsa.kr%20%EC%B6%98%EC%82%AC%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C%202022%20%EA%B3%A0%EC%9C%A4%EC%A0%95
-
-<!-- AUTO-AWARDS-PROOF-SUGGEST:END -->
-
-- 실행: 2026-02-10 20:50 (Asia/Seoul)
+- 실행: 2026-02-10 20:53 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
 - C(완성도 우선) 백로그 진행률: 6/20 (30%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 
-<!-- AUTO-PROFILE-PROOF-SUGGEST:START -->
-## 프로필(출생지/학력) 근거 링크 후보(자동)
-> 목표: `pages/profile.md`의 ‘교차검증 필요’ 항목을 공식/원문 근거로 승격하기 위한 검색 링크 후보입니다.
-> 주의: 자동 적용하지 않습니다. 링크를 열어 본문에 해당 정보가 명시돼 있는지 확인 후 반영하세요.
+<!-- AUTO-DAILY-PROMOTION-TASK:START -->
+## 오늘의 ‘자동 승격’ 미션(무인)
+> 목표: 매일 1개 이상 ‘(확인 필요)/(교차검증 필요)’를 자동으로 줄이도록 시도합니다.
+> 원칙: 사람(주인님) 입력 없이 가능한 범위에서만 자동 보강하며, 불가능한 경우는 ‘이유’를 기록하고 스킵합니다.
 
-### 출생지(교차검증)
-- 소속사(MAA) 프로필 내 표기 확인:
-  - https://www.google.com/search?q=site%3Amaa.co.kr%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EC%B6%9C%EC%83%9D
-- 주요 1차/원문 인터뷰 기반 확인(방송사/매체):
-  - https://www.google.com/search?q=site%3Akbs.co.kr%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EC%B6%9C%EC%83%9D
-  - https://www.google.com/search?q=site%3Ajtbc.co.kr%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EC%B6%9C%EC%83%9D
-  - https://www.google.com/search?q=site%3Atvn.cjenm.com%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EC%B6%9C%EC%83%9D
-  - https://www.google.com/search?q=site%3Avogue.co.kr%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EC%B6%9C%EC%83%9D
-- 일반 검색(공식 페이지가 나오는지 확인):
-  - https://www.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EC%B6%9C%EC%83%9D%EC%A7%80%20%EA%B3%B5%EC%8B%9D
+### 1순위: endorsements ‘공식 발표’ 링크 1개 확정
+- 대상: 려(RYO)
+- 빠른 검색: https://www.google.com/search?q=%EB%A0%A4%28RYO%29%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EB%AA%A8%EB%8D%B8%20%EA%B3%B5%EC%8B%9D%20%EB%B0%9C%ED%91%9C
+- 참고(캠페인/영상): https://youtu.be/dmS_nEQYv2I
+- 찾으면 아래 형태로 한 줄 추가:
+  - `APPROVE_ENDO|려(RYO)|https://...`
 
-### 학력(교차검증)
-- 소속사(MAA) 프로필 내 표기 확인:
-  - https://www.google.com/search?q=site%3Amaa.co.kr%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%95%99%EB%A0%A5
-- 원문 인터뷰/프로필 기사 기반 확인:
-  - https://www.google.com/search?q=site%3Akbs.co.kr%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%95%99%EB%A0%A5
-  - https://www.google.com/search?q=site%3Anaver.com%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%95%99%EB%A0%A5%20%EC%9D%B8%ED%84%B0%EB%B7%B0
-  - https://www.google.com/search?q=site%3Amarieclairekorea.com%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EC%9D%B8%ED%84%B0%EB%B7%B0%20%ED%95%99%EB%A0%A5
-  - https://www.google.com/search?q=site%3Aallurekorea.com%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EC%9D%B8%ED%84%B0%EB%B7%B0
-- 일반 검색:
-  - https://www.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%95%99%EB%A0%A5%20%EC%9D%B8%ED%84%B0%EB%B7%B0%20%EC%9B%90%EB%AC%B8
+<!-- AUTO-DAILY-PROMOTION-TASK:END -->
 
-<!-- AUTO-PROFILE-PROOF-SUGGEST:END -->
-
-<!-- AUTO-ENDORSEMENTS-OFFICIAL-ANNOUNCE-SUGGEST:START -->
-## 광고/엠버서더 ‘공식 발표’ 링크 후보(자동)
-> 목표: `pages/endorsements/*`의 `링크(공식 발표): (확인 필요)` 항목을 공식 도메인 근거로 보강하기 위한 검색 링크입니다.
-> 주의: 자동 적용하지 않습니다. 브랜드 공식 사이트/공식 뉴스/공식 보도자료에서 ‘모델/뮤즈/앰버서더’ 문구를 확인 후 반영하세요.
-
-### 구달(goodal) (pages/endorsements/beauty.md)
-- site search(공식 도메인): https://www.google.com/search?q=site%3Awww.goodal.com%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EB%AA%A8%EB%8D%B8
-- site search(뮤즈/앰버서더): https://www.google.com/search?q=site%3Awww.goodal.com%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EB%AE%A4%EC%A6%88
-- site search(영문/국문 병행): https://www.google.com/search?q=site%3Awww.goodal.com%20Go%20Youn-jung%20ambassador
-- 참고(캠페인/영상): https://youtu.be/p3lwXW6nT5U
+## 실행 이력
+- 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:53 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:52 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:52 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:50 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:44 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-announce:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:44 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-announce:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:42 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:40 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:39 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:37 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:36 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:36 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:34 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:33 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:33 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:31 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:28 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:28 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:26 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:24 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:23 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:22 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:17 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:15 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:11 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:09 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:08 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:53 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:50 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:48 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:46 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:11 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:09 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:07 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:03 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 19:00 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 18:59 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 18:56 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 18:55 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 18:52 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 18:51 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 18:50 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 18:49 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 18:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
+- 2026-02-10 18:12 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 18:09 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
+- 2026-02-10 18:08 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 18:07 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
+- 2026-02-10 18:06 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:56 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1756.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
+- 2026-02-10 17:55 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:55 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1755.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 
 ## 4) 권장 체크
 
