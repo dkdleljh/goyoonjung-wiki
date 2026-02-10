@@ -18,11 +18,23 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-09 01:16 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-10 13:49 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 자동 추천(S급 우선)
+
+- ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
+
+- ⭐ [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)  _(출처: pictorials/making.md)_
+
+
+
+### 전체 후보
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
 - [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)  _(출처: pictorials/making.md)_
+
+- [Disney+ 오리지널 시리즈 <무빙> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=274438)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

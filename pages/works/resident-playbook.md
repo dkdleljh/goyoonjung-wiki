@@ -1,0 +1,26 @@
+# 언젠가는 슬기로울 전공의생활 (tvN)
+
+키워드: 언젠가는 슬기로울 전공의생활, Resident Playbook, tvN, 드라마, 오이영, 고윤정
+
+## 기본 정보
+- 작품: 언젠가는 슬기로울 전공의생활
+- 플랫폼/방송사: tvN
+- 고윤정 역할: 오이영
+
+## 공식 소개(요약)
+- (보강 예정) tvN 공식 소개 문구/시놉시스를 기반으로 요약합니다.
+
+## 관련 링크
+- 공식 페이지(tvN): https://tvn.cjenm.com/ko/resident-playbook/
+
+<!-- AUTO-CANDIDATES:START -->
+## 관련 링크(자동 후보)
+
+> 생성: (자동 생성 시각) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+<!-- AUTO-CANDIDATES:END -->
+
+## 링크 박스(확정)
+- 공식 페이지: https://tvn.cjenm.com/ko/resident-playbook/
+
+## 출처
+- 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
