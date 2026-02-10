@@ -149,6 +149,41 @@ fi
 retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
 
+# 4.1) Profile policy adjustment for unmanned mode (reduces perpetual '교차검증 필요')
+set +e
+timeout 15 ./scripts/promote_profile_policy_unmanned.py >/dev/null 2>&1
+RC_PROFILE_POLICY=$?
+set -e
+if [ "$RC_PROFILE_POLICY" -ne 0 ]; then
+  record_reason "profile-policy" "$RC_PROFILE_POLICY" "error" "policy script nonzero"
+fi
+
+# 4.2) Dates from meta tags (interviews/pictorials)
+set +e
+timeout 60 ./scripts/promote_dates_from_meta.py >/dev/null 2>&1
+RC_META_DATES=$?
+set -e
+if [ "$RC_META_DATES" -ne 0 ]; then
+  if [ "$RC_META_DATES" -eq 124 ]; then
+    record_reason "meta-dates" "$RC_META_DATES" "timeout" "meta date promotion timed out"
+  else
+    record_reason "meta-dates" "$RC_META_DATES" "error" "nonzero exit"
+  fi
+fi
+
+# 4.3) Interview summaries for allowlist domains (magazines)
+set +e
+timeout 60 ./scripts/promote_interview_summaries_allowlist.py >/dev/null 2>&1
+RC_INT_SUM_ALLOW=$?
+set -e
+if [ "$RC_INT_SUM_ALLOW" -ne 0 ]; then
+  if [ "$RC_INT_SUM_ALLOW" -eq 124 ]; then
+    record_reason "interview-sum-allow" "$RC_INT_SUM_ALLOW" "timeout" "allowlist summary timed out"
+  else
+    record_reason "interview-sum-allow" "$RC_INT_SUM_ALLOW" "error" "nonzero exit"
+  fi
+fi
+
 # 4.4) Endorsements: try to auto-fill official announcement links when verified (best-effort)
 set +e
 timeout 45 ./scripts/promote_endorsements_official_announcements.py >/dev/null 2>&1
@@ -261,6 +296,21 @@ if [ "${RC_PROMOTE_SAFE:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-safe:SKIP"
 else
   NOTE="$NOTE, promote-safe:OK"
+fi
+if [ "${RC_PROFILE_POLICY:-0}" -ne 0 ]; then
+  NOTE="$NOTE, profile-policy:SKIP"
+else
+  NOTE="$NOTE, profile-policy:OK"
+fi
+if [ "${RC_META_DATES:-0}" -ne 0 ]; then
+  NOTE="$NOTE, meta-dates:SKIP"
+else
+  NOTE="$NOTE, meta-dates:OK"
+fi
+if [ "${RC_INT_SUM_ALLOW:-0}" -ne 0 ]; then
+  NOTE="$NOTE, interview-allow:SKIP"
+else
+  NOTE="$NOTE, interview-allow:OK"
 fi
 if [ "${RC_ENDO_ANNOUNCE:-0}" -ne 0 ]; then
   NOTE="$NOTE, endo-announce:SKIP"
