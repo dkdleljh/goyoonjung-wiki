@@ -106,6 +106,14 @@ RC_SUGGEST=$?
 retry 2 5 ./scripts/suggest_lead_paragraphs.py
 RC_LEAD=$?
 
+# 3.2) Suggest official/primary proof candidates for profile fields (no auto-apply)
+retry 2 5 ./scripts/suggest_profile_official_proofs.py
+RC_PROFILE_PROOF=$?
+
+# 3.3) Suggest official announcement link candidates for endorsements (no auto-apply)
+retry 2 5 ./scripts/suggest_endorsements_official_announcements.py
+RC_ENDO_PROOF_SUGGEST=$?
+
 # 3.5) Suggest official proof links for awards (no auto-apply)
 retry 2 5 ./scripts/suggest_awards_official_proofs.py
 RC_AWARD_PROOF=$?
@@ -178,6 +186,16 @@ if [ "${RC_LEAD:-0}" -ne 0 ]; then
   NOTE="$NOTE, lead-suggest:SKIP"
 else
   NOTE="$NOTE, lead-suggest:OK"
+fi
+if [ "${RC_PROFILE_PROOF:-0}" -ne 0 ]; then
+  NOTE="$NOTE, profile-proof-suggest:SKIP"
+else
+  NOTE="$NOTE, profile-proof-suggest:OK"
+fi
+if [ "${RC_ENDO_PROOF_SUGGEST:-0}" -ne 0 ]; then
+  NOTE="$NOTE, endo-proof-suggest:SKIP"
+else
+  NOTE="$NOTE, endo-proof-suggest:OK"
 fi
 if [ "${RC_AWARD_PROOF:-0}" -ne 0 ]; then
   NOTE="$NOTE, awards-proof-suggest:SKIP"
