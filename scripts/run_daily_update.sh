@@ -123,7 +123,17 @@ RC_SUGGEST=$?
 retry 2 5 ./scripts/suggest_daily_promotion_task.py
 RC_DAILY_TASK=$?
 
-# 3) Suggest lead paragraphs
+# 2.6) Rebuild fixed lead blocks (index/profile)
+set +e
+timeout 10 ./scripts/rebuild_fixed_lead_blocks.py >/dev/null 2>&1
+RC_FIXED_LEAD=$?
+set -e
+if [ "$RC_FIXED_LEAD" -ne 0 ]; then
+  record_reason "fixed-lead" "$RC_FIXED_LEAD" "error" "fixed lead script nonzero"
+fi
+lock_touch
+
+# 3) Suggest lead paragraphs (draft, written to news)
 retry 2 5 ./scripts/suggest_lead_paragraphs.py
 RC_LEAD=$?
 
@@ -292,6 +302,16 @@ set -e
 RC_CAND=$?
 set -e
 
+# 5.1) Rebuild narrative timeline block
+set +e
+timeout 10 ./scripts/rebuild_timeline_narrative.py >/dev/null 2>&1
+RC_TL_NARR=$?
+set -e
+if [ "$RC_TL_NARR" -ne 0 ]; then
+  record_reason "timeline-narr" "$RC_TL_NARR" "error" "timeline narrative script nonzero"
+fi
+lock_touch
+
 lock_touch
 ./scripts/update_indexes.sh >/dev/null
 lock_touch
@@ -325,6 +345,11 @@ if [ "${RC_DAILY_TASK:-0}" -ne 0 ]; then
   NOTE="$NOTE, daily-task:SKIP"
 else
   NOTE="$NOTE, daily-task:OK"
+fi
+if [ "${RC_FIXED_LEAD:-0}" -ne 0 ]; then
+  NOTE="$NOTE, fixed-lead:SKIP"
+else
+  NOTE="$NOTE, fixed-lead:OK"
 fi
 if [ "${RC_LEAD:-0}" -ne 0 ]; then
   NOTE="$NOTE, lead-suggest:SKIP"
@@ -391,6 +416,11 @@ if [ "$RC_CAND" -ne 0 ]; then
   NOTE="$NOTE, work-candidates:SKIP"
 else
   NOTE="$NOTE, work-candidates:OK"
+fi
+if [ "${RC_TL_NARR:-0}" -ne 0 ]; then
+  NOTE="$NOTE, timeline-narr:SKIP"
+else
+  NOTE="$NOTE, timeline-narr:OK"
 fi
 FINAL_STATUS="성공"
 FINAL_NOTE="$NOTE"
