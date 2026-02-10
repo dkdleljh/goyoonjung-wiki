@@ -52,8 +52,12 @@ def extract_sentences(text: str, limit: int = 5) -> list[str]:
         p = p.strip()
         if len(p) < 25:
             continue
-        # avoid nav/footer
-        if any(bad in p for bad in ["개인정보", "저작권", "쿠키", "로그인", "구독", "정기구독", "회사소개"]):
+        # avoid nav/footer/boilerplate
+        if any(bad in p for bad in [
+            "개인정보","저작권","쿠키","로그인","구독","정기구독","회사소개",
+            "본문영역","상세페이지","랭킹뉴스","URL복사","글씨 작게보기","글씨 크게보기",
+            "페이스북","트위터","네이버",
+        ]):
             continue
         out.append(p)
         if len(out) >= limit:
@@ -82,19 +86,27 @@ def extract_article_text(html: str) -> str:
 
 def replace_summary_block(lines: list[str], start: int, end: int, bullets: list[str]) -> bool:
     changed = False
-    # find '요약(3~5줄):' line and subsequent bullet lines beginning with '  -'
     for i in range(start, end):
         if lines[i].strip() == "- 요약(3~5줄):":
             j = i + 1
-            # consume existing bullets
-            while j < end and lines[j].lstrip().startswith("-") is False and lines[j].lstrip().startswith("  -"):
+            # consume existing bullets ("  - ...")
+            while j < end and lines[j].lstrip().startswith("  -"):
                 j += 1
-            # build new bullets
             new = ["  - " + b.strip() + "\n" for b in bullets]
-            # if placeholder exists, it is within this range; just replace the bullet region
             lines[i+1:j] = new
             changed = True
             break
+
+    # Remove leftover placeholder bullets inside this entry block
+    if changed:
+        k = start
+        while k < end and k < len(lines):
+            if lines[k].lstrip().startswith("  -") and "요약 보강 필요" in lines[k]:
+                lines.pop(k)
+                end -= 1
+                continue
+            k += 1
+
     return changed
 
 
