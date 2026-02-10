@@ -50,8 +50,8 @@
   - 카테고리: 뷰티
   - 역할: 뮤즈
   - 발표일/시작일: 2022-12-01 (공식 게시글)
-  - 링크(공식 발표): (확인 필요)
-  - 링크(공식 영상/캠페인): https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157
+  - 링크(공식 발표): https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157
+  - 링크(공식 영상/캠페인): (추가 보강 필요)
   - 상태: 공식확정
   - id: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157
   - 비고: 공식 사이트 공지
