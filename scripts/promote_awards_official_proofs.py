@@ -12,8 +12,9 @@ Approach (conservative, best-effort):
   4) If verified, write the URL into the proof column.
 
 Limits:
-- Max rows to fill per run: 3 (to avoid too many web calls)
+- Max rows to fill per run: 2 (to avoid too many web calls)
 - Max candidates per row: 5
+- Per-run time budget: 60s (soft via internal checks)
 
 Safety:
 - Never uses non-official domains for proof.
@@ -28,19 +29,21 @@ import re
 import sys
 import time
 from dataclasses import dataclass
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, urlparse, urljoin
 
+import json
 import requests
 from bs4 import BeautifulSoup
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 AWARDS_PATH = os.path.join(BASE, "pages", "awards.md")
+HINTS_PATH = os.path.join(BASE, "config", "awards-url-hints.json")
 
 UA = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
 }
-TIMEOUT = 25
+TIMEOUT = 15
 
 # Official domains allowlist
 OFFICIAL_DOMAINS = {
@@ -103,13 +106,48 @@ def domain_of(u: str) -> str:
         return ""
 
 
-def fetch_text(u: str) -> str:
+def fetch_html(u: str) -> str:
     r = requests.get(u, headers=UA, timeout=TIMEOUT)
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    return r.text
+
+
+def fetch_text(u: str) -> str:
+    html = fetch_html(u)
+    soup = BeautifulSoup(html, "html.parser")
     for t in soup(["script", "style", "noscript"]):
         t.decompose()
     return soup.get_text(" ", strip=True)
+
+
+def extract_links_same_domain(html: str, base_url: str, domain: str, limit: int = 80) -> list[str]:
+    soup = BeautifulSoup(html, "html.parser")
+    urls = []
+    seen = set()
+    for a in soup.select("a[href]"):
+        href = a.get("href")
+        if not href:
+            continue
+        u = urljoin(base_url, href)
+        if domain_of(u) != domain:
+            continue
+        u = u.split("#")[0]
+        if u in seen:
+            continue
+        seen.add(u)
+        urls.append(u)
+        if len(urls) >= limit:
+            break
+    return urls
+
+
+def load_hints() -> dict[str, list[str]]:
+    if not os.path.exists(HINTS_PATH):
+        return {}
+    try:
+        return json.loads(read_text(HINTS_PATH))
+    except Exception:
+        return {}
 
 
 def verify(text: str, year: str, must_tokens: list[str]) -> bool:
@@ -158,42 +196,69 @@ def main() -> int:
     md = read_text(AWARDS_PATH)
     lines = md.splitlines(True)
     rows = parse_awards_table(md)
+    hints = load_hints()
 
+    start_ts = time.time()
     filled = 0
     for row in rows:
-        if filled >= 3:
+        if filled >= 2:
+            break
+        if time.time() - start_ts > 60:
             break
         year, award, category, work, result, status, proof, note = row.cols[:8]
         official_domain = OFFICIAL_DOMAINS.get(award)
         if not official_domain:
             continue
 
-        q = f"{award} {year} 고윤정"
-        try:
-            results = ddg_search(q)
-        except Exception:
-            continue
-
-        candidates = [u for u in results if domain_of(u) == official_domain][:5]
-        if not candidates:
-            continue
-
         must_tokens = [award, category]
         ok_url = None
-        for u in candidates:
+
+        # Phase 1) Hint pages crawl (more deterministic than search)
+        for seed in hints.get(award, [])[:3]:
+            if domain_of(seed) != official_domain:
+                continue
             try:
-                text = fetch_text(u)
+                html = fetch_html(seed)
             except Exception:
                 continue
-            if verify(text, year, must_tokens):
-                ok_url = u
+            # collect same-domain links and try those that contain year first
+            links = extract_links_same_domain(html, seed, official_domain, limit=80)
+            year_links = [u for u in links if year in u][:20]
+            other_links = [u for u in links if u not in year_links][:20]
+            for u in year_links + other_links:
+                try:
+                    text = fetch_text(u)
+                except Exception:
+                    continue
+                if verify(text, year, must_tokens):
+                    ok_url = u
+                    break
+                time.sleep(0.15)
+            if ok_url:
                 break
-            time.sleep(0.2)
+
+        # Phase 2) DuckDuckGo search fallback
+        if not ok_url:
+            q = f"{award} {year} 고윤정"
+            try:
+                results = ddg_search(q)
+            except Exception:
+                results = []
+
+            candidates = [u for u in results if domain_of(u) == official_domain][:5]
+            for u in candidates:
+                try:
+                    text = fetch_text(u)
+                except Exception:
+                    continue
+                if verify(text, year, must_tokens):
+                    ok_url = u
+                    break
+                time.sleep(0.2)
 
         if not ok_url:
             continue
 
-        # Patch the specific line in file
         line_index = row.line_no - 1
         old = lines[line_index]
         if not old.startswith("|"):

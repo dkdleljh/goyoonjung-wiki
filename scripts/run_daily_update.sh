@@ -73,20 +73,34 @@ retry 2 5 ./scripts/suggest_awards_official_proofs.py
 RC_AWARD_PROOF=$?
 
 # 3.6) Auto-fill official proof links for awards when verified (strict allowlist)
-retry 2 20 ./scripts/promote_awards_official_proofs.py
+# Keep this best-effort and time-bounded to avoid delaying the whole pipeline.
+timeout 90 ./scripts/promote_awards_official_proofs.py >/dev/null 2>&1
 RC_AWARD_PROOF_AUTO=$?
 
 # 4) Safe metadata promotion
 retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
 
-# 4.5) Endorsements date promotion
-retry 2 15 ./scripts/promote_endorsement_dates.py
-RC_ENDO_DATES=$?
+# 4.5) Endorsements date promotion (can be slow due to yt-dlp/network)
+# Run at most once per day.
+ENDO_STAMP_FILE="$LOCK_DIR/endo-dates.${TODAY}.done"
+RC_ENDO_DATES=0
+if [ -f "$ENDO_STAMP_FILE" ]; then
+  RC_ENDO_DATES=0
+else
+  set +e
+  timeout 60 ./scripts/promote_endorsement_dates.py >/dev/null 2>&1
+  RC_ENDO_DATES=$?
+  set -e
+  # Mark done even if it times out; retry tomorrow.
+  : > "$ENDO_STAMP_FILE" || true
+fi
 
-# 4.6) Interviews: auto-fill short summaries for KBS entries
-retry 2 20 ./scripts/promote_interview_summaries_kbs.py
+# 4.6) Interviews: auto-fill short summaries for KBS entries — hard timeout
+set +e
+timeout 60 ./scripts/promote_interview_summaries_kbs.py >/dev/null 2>&1
 RC_INT_SUM=$?
+set -e
 
 # 5) Rebuild candidates for work pages
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1

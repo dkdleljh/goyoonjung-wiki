@@ -14,6 +14,7 @@
 
 ## 덕질 섹션
 - [인터뷰/기사](interviews.md)
+  - [연도별 인덱스(자동)](interviews/by-year.md)
 - [브랜드 링크 허브(자동 후보)](brands/index.md)
 - [매거진 링크 허브(자동 후보)](magazines/index.md)
 - [기타 자료/메모](notes/index.md)
@@ -46,4 +47,5 @@
 - [권리/저작권](legal.md)
 - [태그 인덱스](index-by-tag.md)
 - [완성도 대시보드](progress.md)
+- [품질 리포트(자동)](quality-report.md)
 - [링크 건강검진](link-health.md)
