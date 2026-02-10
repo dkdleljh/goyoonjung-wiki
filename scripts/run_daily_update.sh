@@ -72,6 +72,10 @@ RC_LEAD=$?
 retry 2 5 ./scripts/suggest_awards_official_proofs.py
 RC_AWARD_PROOF=$?
 
+# 3.6) Auto-fill official proof links for awards when verified (strict allowlist)
+retry 2 20 ./scripts/promote_awards_official_proofs.py
+RC_AWARD_PROOF_AUTO=$?
+
 # 4) Safe metadata promotion
 retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
@@ -125,6 +129,11 @@ if [ "${RC_AWARD_PROOF:-0}" -ne 0 ]; then
   NOTE="$NOTE, awards-proof-suggest:SKIP"
 else
   NOTE="$NOTE, awards-proof-suggest:OK"
+fi
+if [ "${RC_AWARD_PROOF_AUTO:-0}" -ne 0 ]; then
+  NOTE="$NOTE, awards-proof-auto:SKIP"
+else
+  NOTE="$NOTE, awards-proof-auto:OK"
 fi
 if [ "${RC_PROMOTE_SAFE:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-safe:SKIP"
