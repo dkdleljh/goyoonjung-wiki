@@ -1,19 +1,21 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 17:54 (Asia/Seoul)
+> 갱신: 2026-02-10 17:55 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- c0d0b89 2026-02-10 17:48:33 +0900 daily: update 2026-02-10
+- cd4a4fb 2026-02-10 17:54:17 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-10.md
 - pages/daily-report.md
+- pages/endorsements/beauty.md
+- pages/endorsements/fashion.md
+- pages/endorsements/lifestyle.md
 - pages/progress.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- scripts/promote_endorsement_dates.py
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
@@ -61,7 +63,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-10 17:53 (Asia/Seoul)
+- 실행: 2026-02-10 17:54 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -70,6 +72,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:54 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:54 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1754.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 - 2026-02-10 17:53 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 17:48 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1748.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 - 2026-02-10 17:47 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -135,8 +139,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-10 13:56 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 13:50 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1350.tar.gz), work-candidates:OK
 - 2026-02-10 13:49 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-10 13:19 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1319.tar.gz), work-candidates:OK
-- 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
 
 ## 4) 권장 체크
 

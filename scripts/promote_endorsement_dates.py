@@ -145,7 +145,7 @@ def process_file(rel: str) -> int:
 
                 # 2) URL date inference (safe, objective)
                 if not date:
-                    um = re.search(r"-\s*링크\(공식\):\s*(https?://\S+)", block)
+                    um = re.search(r"-\s*링크\(공식\s*발표\):\s*(https?://\S+)", block)
                     if um:
                         u = um.group(1)
                         d2 = infer_date_from_url(u)
