@@ -16,9 +16,13 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-09 01:16 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-10 14:03 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
-- (후보 없음)
+### 전체 후보
+
+- [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)  _(출처: interviews.md)_
+
+- [당신의 언어는 나한테 너무 어려워요.. 넷플릭스 '이 사랑 통역 되나요?'](https://kstar.kbs.co.kr/list_view.html?idx=389107)  _(출처: interviews.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

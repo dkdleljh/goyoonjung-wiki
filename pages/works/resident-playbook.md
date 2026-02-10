@@ -20,7 +20,13 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스(확정)
-- 공식 페이지: https://tvn.cjenm.com/ko/resident-playbook/
+- 공식 페이지(스틸/정보): https://tvn.cjenm.com/ko/resident-playbook/
+- KBS연예 기사(보도 1차):
+  - https://kstar.kbs.co.kr/list_view.html?idx=361830
+  - https://kstar.kbs.co.kr/list_view.html?idx=362628
+  - https://kstar.kbs.co.kr/list_view.html?idx=362734
+  - https://kstar.kbs.co.kr/list_view.html?idx=362920
+  - https://kstar.kbs.co.kr/list_view.html?idx=363033
 
 ## 출처
 - 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

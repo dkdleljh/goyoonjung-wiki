@@ -21,7 +21,14 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스(확정)
-- 공식 페이지: (TBD)
+- 제작발표회/포토타임(보도 1차): https://kstar.kbs.co.kr/list_view.html?idx=389846
+- 관련 기사/인터뷰(보도 1차):
+  - https://kstar.kbs.co.kr/list_view.html?idx=389107
+  - https://kstar.kbs.co.kr/list_view.html?idx=387125
+  - https://kstar.kbs.co.kr/list_view.html?idx=391146
+  - https://kstar.kbs.co.kr/list_view.html?idx=391253
+
+> 메모: Netflix 작품 공식 페이지 링크는 공개 후 확정 반영합니다.
 
 ## 출처
 - 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

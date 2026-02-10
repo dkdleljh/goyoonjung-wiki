@@ -18,7 +18,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-10 13:59 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-10 14:03 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -38,6 +38,7 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 공식 페이지: https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
-- 예고편/클립: https://www.youtube.com/watch?v=pyrwTv8aS-E
-- 메이킹/비하인드: https://www.youtube.com/watch?v=wZR6s3rB6tk
+- 공식 페이지(스틸/정보): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
+- 예고편/클립(공식): https://www.youtube.com/watch?v=pyrwTv8aS-E
+- 메이킹/비하인드(공식): https://www.youtube.com/watch?v=wZR6s3rB6tk
+- 제작발표회/포토타임(보도 1차): https://kstar.kbs.co.kr/list_view.html?idx=274438
