@@ -272,17 +272,31 @@ def vogue_collect(limit: int = 12) -> list[Entry]:
     return out
 
 
-def apply_entries(path: str, entries: Iterable[Entry]) -> int:
+def apply_entries(path: str, entries: Iterable[Entry]) -> tuple[int, list[str]]:
     md = read_text(path)
     changed = 0
+    added_urls: list[str] = []
     for e in sorted(entries, key=lambda x: (x.year, x.url)):
         before = md
         md = insert_entry_under_year(md, e.year, e.block, e.url)
         if md != before:
             changed += 1
+            added_urls.append(e.url)
     if changed:
         write_text(path, md)
-    return changed
+    return changed, added_urls
+
+
+def add_to_seen(urls: Iterable[str]) -> None:
+    """Best-effort: call scripts/add_seen_url.sh for each url."""
+    import subprocess
+
+    add_seen = os.path.join(BASE, "scripts", "add_seen_url.sh")
+    for u in urls:
+        try:
+            subprocess.run([add_seen, u], cwd=BASE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=False)
+        except Exception:
+            pass
 
 
 def main() -> int:
@@ -297,15 +311,22 @@ def main() -> int:
     vogue_entries = [e for e in vogue_collect() if e.url not in seen]
 
     ch = 0
-    ch += apply_entries(EVENTS_MD, events)
-    ch += apply_entries(APPEARANCES_MD, appearances)
-    ch += apply_entries(INTERVIEWS_MD, interviews)
-    ch += apply_entries(EDITORIAL_MD, vogue_entries)
+    added_all: list[str] = []
 
-    # Note: we do NOT auto-add to seen-urls here.
-    # The daily runner (or caller) should run add_seen_url.sh if desired.
+    c, u = apply_entries(EVENTS_MD, events)
+    ch += c; added_all += u
+    c, u = apply_entries(APPEARANCES_MD, appearances)
+    ch += c; added_all += u
+    c, u = apply_entries(INTERVIEWS_MD, interviews)
+    ch += c; added_all += u
+    c, u = apply_entries(EDITORIAL_MD, vogue_entries)
+    ch += c; added_all += u
 
-    print(f"auto_collect_visual_links: added blocks: {ch}")
+    # Auto-add to seen-urls (best-effort)
+    if added_all:
+        add_to_seen(added_all)
+
+    print(f"auto_collect_visual_links: added blocks: {ch}, added_to_seen: {len(added_all)}")
     return 0
 
 

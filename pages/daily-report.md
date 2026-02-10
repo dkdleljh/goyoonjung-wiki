@@ -1,24 +1,24 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 14:24 (Asia/Seoul)
+> 갱신: 2026-02-10 14:25 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 31706a5 2026-02-10 14:23:32 +0900 daily: update 2026-02-10
+- 1cbb478 2026-02-10 14:24:15 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- .gitignore
 - news/2026-02-10.md
 - pages/daily-report.md
 - pages/progress.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- scripts/__pycache__/auto_collect_visual_links.cpython-312.pyc
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
 ## 실행 상태
-- 실행: 2026-02-10 14:23 (Asia/Seoul)
+- 실행: 2026-02-10 14:25 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -27,6 +27,8 @@
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 14:25 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 14:24 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1424.tar.gz), collect:OK, work-candidates:OK
 - 2026-02-10 14:23 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 14:23 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1423.tar.gz), collect:OK, work-candidates:OK
 - 2026-02-10 14:23 (Asia/Seoul) · 진행중 · auto: daily update running
