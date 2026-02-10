@@ -135,11 +135,11 @@ RC_AWARD_PROOF=0
 
 # 3.6) Auto-fill official proof links for awards when verified (strict allowlist)
 # Keep this best-effort and time-bounded to avoid delaying the whole pipeline.
-timeout 90 ./scripts/promote_awards_official_proofs.py >/dev/null 2>&1
+timeout 60 ./scripts/promote_awards_official_proofs.py >/dev/null 2>&1
 RC_AWARD_PROOF_AUTO=$?
 if [ "$RC_AWARD_PROOF_AUTO" -ne 0 ]; then
   if [ "$RC_AWARD_PROOF_AUTO" -eq 124 ]; then
-    record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "timeout" "auto-verify step timed out"
+    record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "timeout" "auto-verify step timed out (may be slow official sites)"
   else
     record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "error" "nonzero exit"
   fi
