@@ -41,6 +41,23 @@ ALLOW = {
     "www.marieclairekorea.com",
     "www.vogue.co.kr",
     "www.elle.co.kr",
+    "www.gqkorea.co.kr",
+    "www.wkorea.com",
+    "www.harpersbazaar.co.kr",
+    "www.esquirekorea.co.kr",
+    "www.cosmopolitan.co.kr",
+}
+
+SELECTORS_BY_DOMAIN = {
+    # magazines (best-effort)
+    "www.vogue.co.kr": ["article", ".article", ".post", ".entry-content", ".content"],
+    "www.elle.co.kr": ["article", ".article", ".post", ".content", ".view"],
+    "www.marieclairekorea.com": ["article", ".article", ".post", ".entry", ".content"],
+    "www.gqkorea.co.kr": ["article", ".article", ".post", ".content"],
+    "www.wkorea.com": ["article", ".article", ".post", ".content"],
+    "www.harpersbazaar.co.kr": ["article", ".article", ".post", ".content"],
+    "www.esquirekorea.co.kr": ["article", ".article", ".post", ".content"],
+    "www.cosmopolitan.co.kr": ["article", ".article", ".post", ".content"],
 }
 
 URL_RE = re.compile(r"https?://[^\s)]+")
@@ -52,13 +69,16 @@ def fetch(url: str) -> str:
     return r.text
 
 
-def extract_text(html: str) -> str:
+def extract_text(html: str, dom: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
     for t in soup(["script", "style", "noscript"]):
         t.decompose()
-    # pick the longest among common article containers
+
+    sels = SELECTORS_BY_DOMAIN.get(dom) or ["article", ".article", ".post", ".entry", ".content", ".article-body", ".view"]
+
+    # pick the longest among candidate containers
     candidates = []
-    for sel in ["article", ".article", ".post", ".entry", ".content", ".article-body", ".view"]:
+    for sel in sels:
         node = soup.select_one(sel)
         if node:
             txt = node.get_text(" ", strip=True)
@@ -133,7 +153,7 @@ def main() -> int:
                 continue
             try:
                 html = fetch(url)
-                text = extract_text(html)
+                text = extract_text(html, d)
                 bullets = split_sentences(text, limit=3)
             except Exception:
                 bullets = []

@@ -38,6 +38,7 @@ from bs4 import BeautifulSoup
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 AWARDS_PATH = os.path.join(BASE, "pages", "awards.md")
 HINTS_PATH = os.path.join(BASE, "config", "awards-url-hints.json")
+CACHE_PATH = os.path.join(BASE, "config", "awards-official-cache.json")
 
 UA = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
@@ -150,6 +151,15 @@ def load_hints() -> dict[str, list[str]]:
         return {}
 
 
+def load_cache() -> dict[str, list[str]]:
+    if not os.path.exists(CACHE_PATH):
+        return {}
+    try:
+        return json.loads(read_text(CACHE_PATH))
+    except Exception:
+        return {}
+
+
 def verify(text: str, year: str, must_tokens: list[str]) -> bool:
     if year not in text:
         return False
@@ -197,6 +207,7 @@ def main() -> int:
     lines = md.splitlines(True)
     rows = parse_awards_table(md)
     hints = load_hints()
+    cache = load_cache()
 
     start_ts = time.time()
     filled = 0
@@ -213,29 +224,44 @@ def main() -> int:
         must_tokens = [award, category]
         ok_url = None
 
-        # Phase 1) Hint pages crawl (more deterministic than search)
-        for seed in hints.get(award, [])[:3]:
-            if domain_of(seed) != official_domain:
-                continue
+        # Phase 0) Cached official links (fast path)
+        cached = [u for u in cache.get(award, []) if domain_of(u) == official_domain]
+        year_cached = [u for u in cached if year in u][:10]
+        other_cached = [u for u in cached if u not in year_cached][:10]
+        for u in year_cached + other_cached:
             try:
-                html = fetch_html(seed)
+                text = fetch_text(u)
             except Exception:
                 continue
-            # collect same-domain links and try those that contain year first
-            links = extract_links_same_domain(html, seed, official_domain, limit=80)
-            year_links = [u for u in links if year in u][:20]
-            other_links = [u for u in links if u not in year_links][:20]
-            for u in year_links + other_links:
+            if verify(text, year, must_tokens):
+                ok_url = u
+                break
+            time.sleep(0.12)
+
+        # Phase 1) Hint pages crawl (more deterministic than search)
+        if not ok_url:
+            for seed in hints.get(award, [])[:3]:
+                if domain_of(seed) != official_domain:
+                    continue
                 try:
-                    text = fetch_text(u)
+                    html = fetch_html(seed)
                 except Exception:
                     continue
-                if verify(text, year, must_tokens):
-                    ok_url = u
+                # collect same-domain links and try those that contain year first
+                links = extract_links_same_domain(html, seed, official_domain, limit=80)
+                year_links = [u for u in links if year in u][:20]
+                other_links = [u for u in links if u not in year_links][:20]
+                for u in year_links + other_links:
+                    try:
+                        text = fetch_text(u)
+                    except Exception:
+                        continue
+                    if verify(text, year, must_tokens):
+                        ok_url = u
+                        break
+                    time.sleep(0.15)
+                if ok_url:
                     break
-                time.sleep(0.15)
-            if ok_url:
-                break
 
         # Phase 2) DuckDuckGo search fallback
         if not ok_url:

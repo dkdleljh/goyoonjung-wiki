@@ -61,16 +61,33 @@ def fetch(url: str) -> str:
 
 def parse_iso_date(s: str) -> str | None:
     m = ISO_DATE_RE.search(s)
-    if not m:
-        return None
-    y, mo, d = m.group(1), int(m.group(2)), int(m.group(3))
-    if not (1 <= mo <= 12 and 1 <= d <= 31):
-        return None
-    return f"{y}-{mo:02d}-{d:02d}"
+    if m:
+        y, mo, d = m.group(1), int(m.group(2)), int(m.group(3))
+        if not (1 <= mo <= 12 and 1 <= d <= 31):
+            return None
+        return f"{y}-{mo:02d}-{d:02d}"
+
+    mk = KOR_DATE_RE.search(s)
+    if mk:
+        y, mo, d = mk.group(1), int(mk.group(2)), int(mk.group(3))
+        if not (1 <= mo <= 12 and 1 <= d <= 31):
+            return None
+        return f"{y}-{mo:02d}-{d:02d}"
+
+    return None
+
+
+KOR_DATE_RE = re.compile(r"(20\d{2})\s*년\s*(\d{1,2})\s*월\s*(\d{1,2})\s*일")
 
 
 def extract_date_from_html(html: str) -> str | None:
     soup = BeautifulSoup(html, "html.parser")
+
+    # <time datetime>
+    for t in soup.select("time[datetime]"):
+        dt = parse_iso_date(t.get("datetime") or "")
+        if dt:
+            return dt
 
     # JSON-LD
     for tag in soup.select('script[type="application/ld+json"]'):
@@ -130,6 +147,13 @@ def update_file(path: str, max_updates: int, budget: list[int]) -> int:
             try:
                 html = fetch(url)
                 dt = extract_date_from_html(html)
+                # URL pattern fallback (common for magazines): /YYYY/MM/
+                if not dt:
+                    murl = re.search(r"/(20\d{2})/(\d{1,2})/", url)
+                    if murl:
+                        y, mo = murl.group(1), int(murl.group(2))
+                        if 1 <= mo <= 12:
+                            dt = f"{y}-{mo:02d}-01"
             except Exception:
                 dt = None
             if dt:

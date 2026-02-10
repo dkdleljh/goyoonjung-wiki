@@ -133,10 +133,21 @@ RC_PROFILE_PROOF=0
 RC_ENDO_PROOF_SUGGEST=0
 RC_AWARD_PROOF=0
 
+# 3.55) Rebuild small cache of official award-site URLs (best-effort)
+set +e
+timeout 30 ./scripts/rebuild_awards_official_cache.py >/dev/null 2>&1
+RC_AWARDS_CACHE=$?
+set -e
+if [ "$RC_AWARDS_CACHE" -ne 0 ] && [ "$RC_AWARDS_CACHE" -eq 124 ]; then
+  record_reason "awards-cache" "$RC_AWARDS_CACHE" "timeout" "cache rebuild timed out"
+fi
+
 # 3.6) Auto-fill official proof links for awards when verified (strict allowlist)
 # Keep this best-effort and time-bounded to avoid delaying the whole pipeline.
+set +e
 timeout 60 ./scripts/promote_awards_official_proofs.py >/dev/null 2>&1
 RC_AWARD_PROOF_AUTO=$?
+set -e
 if [ "$RC_AWARD_PROOF_AUTO" -ne 0 ]; then
   if [ "$RC_AWARD_PROOF_AUTO" -eq 124 ]; then
     record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "timeout" "auto-verify step timed out (may be slow official sites)"
