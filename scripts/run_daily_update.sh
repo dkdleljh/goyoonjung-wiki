@@ -52,6 +52,10 @@ RC_LEAD=$?
 ./scripts/promote_safe_metadata.py >/dev/null 2>&1
 RC_PROMOTE_SAFE=$?
 
+# 4.5) Endorsements: fill dates from official YouTube datePublished when available
+./scripts/promote_endorsement_dates.py >/dev/null 2>&1
+RC_ENDO_DATES=$?
+
 # 5) Rebuild candidates for work pages
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1
 RC_CAND=$?
@@ -84,6 +88,11 @@ if [ "${RC_PROMOTE_SAFE:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-safe:SKIP"
 else
   NOTE="$NOTE, promote-safe:OK"
+fi
+if [ "${RC_ENDO_DATES:-0}" -ne 0 ]; then
+  NOTE="$NOTE, endo-dates:SKIP"
+else
+  NOTE="$NOTE, endo-dates:OK"
 fi
 if [ "$RC_CAND" -ne 0 ]; then
   NOTE="$NOTE, work-candidates:SKIP"
