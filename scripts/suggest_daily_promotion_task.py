@@ -106,19 +106,31 @@ def build_block() -> str:
         "",
     ]
 
-    # Choose priority: profile -> awards -> endorsements
-    prof = read(PROFILE) if os.path.exists(PROFILE) else ""
-    if "교차검증 필요" in prof:
-        lines += [
-            "### 1순위: 프로필(출생지/학력) 교차검증 1개 끝내기",
-            "- 추천 액션: 소속사(MAA) 또는 방송사/매체 원문에서 해당 정보가 명시된 페이지 1개를 찾기",
-            f"- 빠른 검색: {google('site:maa.co.kr 고윤정 출생 학력')}",
-            "- 찾으면 아래 형태로 한 줄 추가(예시):",
-            "  - `APPROVE_PROFILE|출생지|https://...`",
-            "",
-            MARK_END,
-        ]
-        return "\n".join(lines)
+    # Choose priority (pragmatic for high success rate):
+    # endorsements -> awards -> profile
+    # Rationale: profile birthplace/education often isn't present on official pages.
+
+    # endorsements
+    for f in ENDO_FILES:
+        if not os.path.exists(f):
+            continue
+        e = find_first_endo_needing_announce(read(f))
+        if e:
+            brand, camp = e
+            lines += [
+                "### 1순위: endorsements ‘공식 발표’ 링크 1개 확정",
+                f"- 대상: {brand}",
+                f"- 빠른 검색: {google(f'{brand} 고윤정 모델 공식 발표')}",
+            ]
+            if camp:
+                lines.append(f"- 참고(캠페인/영상): {camp}")
+            lines += [
+                "- 찾으면 아래 형태로 한 줄 추가:",
+                f"  - `APPROVE_ENDO|{brand}|https://...`",
+                "",
+                MARK_END,
+            ]
+            return "\n".join(lines)
 
     aw = read(AWARDS) if os.path.exists(AWARDS) else ""
     first = find_first_award_needing_proof(aw)
@@ -135,27 +147,18 @@ def build_block() -> str:
         ]
         return "\n".join(lines)
 
-    # endorsements
-    for f in ENDO_FILES:
-        if not os.path.exists(f):
-            continue
-        e = find_first_endo_needing_announce(read(f))
-        if e:
-            brand, camp = e
-            lines += [
-                "### 3순위: endorsements ‘공식 발표’ 링크 1개 확정",
-                f"- 대상: {brand}",
-                f"- 빠른 검색: {google(f'{brand} 고윤정 모델 공식 발표')}",
-            ]
-            if camp:
-                lines.append(f"- 참고(캠페인/영상): {camp}")
-            lines += [
-                "- 찾으면 아래 형태로 한 줄 추가:",
-                f"  - `APPROVE_ENDO|{brand}|https://...`",
-                "",
-                MARK_END,
-            ]
-            return "\n".join(lines)
+    prof = read(PROFILE) if os.path.exists(PROFILE) else ""
+    if "교차검증 필요" in prof:
+        lines += [
+            "### 3순위: 프로필(출생지/학력) 교차검증 1개 끝내기",
+            "- 추천 액션: 소속사(MAA) 또는 방송사/매체 원문에서 해당 정보가 명시된 페이지 1개를 찾기",
+            f"- 빠른 검색: {google('site:maa.co.kr 고윤정 출생 학력')}",
+            "- 찾으면 아래 형태로 한 줄 추가(예시):",
+            "  - `APPROVE_PROFILE|출생지|https://...`",
+            "",
+            MARK_END,
+        ]
+        return "\n".join(lines)
 
     lines += ["- (현재 자동으로 뽑을 미션이 없습니다)", "", MARK_END]
     return "\n".join(lines)
