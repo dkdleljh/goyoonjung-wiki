@@ -29,7 +29,6 @@
 
 ## 2023
 - 2023-09-22 · [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)
-- 2023-09-22 · [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)
 - 2023-08-03 · [Disney+ 오리지널 시리즈 <무빙> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=274438)
 
 ## 2022

@@ -1,22 +1,23 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 17:26 (Asia/Seoul)
+> 갱신: 2026-02-10 17:27 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 3931d67 2026-02-10 17:02:13 +0900 daily: update 2026-02-10
+- baf2920 2026-02-10 17:26:28 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-10.md
-- pages/appearances.md
+- pages/appearances/by-year.md
 - pages/daily-report.md
-- pages/pictorials/events.md
+- pages/hub.md
+- pages/pictorials/by-year.md
 - pages/progress.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- scripts/promote_safe_metadata.py
-- scripts/run_daily_update.sh
+- scripts/rebuild_year_indexes.py
+- scripts/update_indexes.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
@@ -48,7 +49,7 @@
 
 <!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
 
-- 실행: 2026-02-10 17:25 (Asia/Seoul)
+- 실행: 2026-02-10 17:26 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -57,6 +58,8 @@
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:26 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:26 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1726.tar.gz), collect:OK, promote-suggest:OK, promote-safe:OK, work-candidates:OK
 - 2026-02-10 17:25 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 17:02 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1702.tar.gz), collect:OK, promote-suggest:OK, promote-safe:OK, work-candidates:OK
 - 2026-02-10 17:01 (Asia/Seoul) · 진행중 · auto: daily update running

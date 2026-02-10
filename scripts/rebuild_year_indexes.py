@@ -147,12 +147,19 @@ def main() -> int:
             continue
         pict_items.extend(parse_items(md, source=rel))
 
+    # global de-dupe (same URL can appear in multiple pictorial categories)
+    pict_by_url = {it.url: it for it in pict_items}
+    pict_items = list(pict_by_url.values())
+
     app_items: list[Item] = []
     try:
         md = read_text(APPEARANCES_FILE)
         app_items = parse_items(md, source=APPEARANCES_FILE)
     except FileNotFoundError:
         pass
+
+    app_by_url = {it.url: it for it in app_items}
+    app_items = list(app_by_url.values())
 
     pict_md = build_year_index(
         title="사진/화보/행사 — 연도별 인덱스",
