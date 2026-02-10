@@ -7,9 +7,10 @@
   - 카테고리:
   - 역할:
   - 발표일/시작일: YYYY-MM-DD (또는 YYYY)
-  - 링크(공식):
+  - 링크(공식 발표): (브랜드/기관/매체의 공식 발표 페이지)
+  - 링크(공식 영상/캠페인): (YouTube/공식 사이트 캠페인)
   - 상태: 공식확정 | 공식예고 | 보도(1차)
-  - id: (URL)
+  - id: (대표 URL 1개)
   - 비고:
 
 ---
@@ -19,7 +20,8 @@
   - 카테고리: 패션
   - 역할: 뮤즈
   - 발표일/시작일: 2022-11-28 (YouTube datePublished)
-  - 링크(공식): https://youtu.be/76aAMPpCTb4
+  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 영상/캠페인): https://youtu.be/76aAMPpCTb4
   - 상태: 공식확정
   - id: https://youtu.be/76aAMPpCTb4
   - 비고: 캠페인 영상(시즌별 영상은 추가로 누적)
@@ -28,7 +30,8 @@
   - 카테고리: 패션
   - 역할: 모델
   - 발표일/시작일: 2023-11-28 (YouTube datePublished)
-  - 링크(공식): https://youtu.be/ZH1Y1l1OmTY
+  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 영상/캠페인): https://youtu.be/ZH1Y1l1OmTY
   - 상태: 공식확정
   - id: https://youtu.be/ZH1Y1l1OmTY
   - 비고: 공식 캠페인 영상
@@ -37,7 +40,8 @@
   - 카테고리: 패션
   - 역할: (앰버서더/프렌즈 여부 공식 확인 필요)
   - 발표일/시작일: 2024-05-03 (공식 인스타 게시물)
-  - 링크(공식): https://www.instagram.com/p/C6gW0vQNU1_/
+  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 영상/캠페인): https://www.instagram.com/p/C6gW0vQNU1_/
   - 상태: 공식확정
   - id: https://www.instagram.com/p/C6gW0vQNU1_/
   - 비고: 공식 계정 게시물(정확한 역할 명칭은 추후 공식 발표로 보강)
@@ -46,7 +50,8 @@
   - 카테고리: 주얼리
   - 역할: 앰버서더
   - 발표일/시작일: (확인 필요)
-  - 링크(공식): https://www.instagram.com/p/CWvduIJt1P2/
+  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 영상/캠페인): https://www.instagram.com/p/CWvduIJt1P2/
   - 상태: 공식확정
   - id: https://www.instagram.com/p/CWvduIJt1P2/
   - 비고: 공식 계정 게시물(다수 게시물은 추후 정리)
