@@ -22,4 +22,5 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 예고편/홍보: https://www.youtube.com/watch?v=CSOb8gia_mg
+- 예고편/홍보(공식): https://www.youtube.com/watch?v=CSOb8gia_mg
+- 시사회/현장(보도 1차): https://kstar.kbs.co.kr/list_view.html?idx=220920

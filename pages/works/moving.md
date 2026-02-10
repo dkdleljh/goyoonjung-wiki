@@ -18,7 +18,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-10 14:03 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-10 14:06 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -33,6 +33,8 @@
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
 - [Disney Plus Korea](https://www.youtube.com/watch?v=wZR6s3rB6tk)  _(출처: pictorials/campaign.md)_
+
+- [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
 
 - [Disney+ 오리지널 시리즈 <무빙> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=274438)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->

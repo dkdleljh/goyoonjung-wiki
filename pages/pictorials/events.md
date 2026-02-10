@@ -26,10 +26,62 @@
 - 메모: 행사 사진/현장 기록이 포함될 수 있는 보도 링크.
 
 ## 2025
-(추가 보강 필요)
+- 날짜: 2025-05-10
+- 구분: 기타(기사/스틸)
+- 행사명: <언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)
+- 주최/플랫폼: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=361830
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=361830
+
+- 날짜: 2025-05-17
+- 구분: 기타(기사/스틸)
+- 행사명: <언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)
+- 주최/플랫폼: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=362628
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=362628
+
+- 날짜: 2025-05-18
+- 구분: 기타(기사/스틸)
+- 행사명: <언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)
+- 주최/플랫폼: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=362734
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=362734
+
+- 날짜: 2025-05-20
+- 구분: 기타(기사/스틸)
+- 행사명: <언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)
+- 주최/플랫폼: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=362920
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=362920
+
+- 날짜: 2025-05-21
+- 구분: 기타(기사/스틸)
+- 행사명: <언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)
+- 주최/플랫폼: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=363033
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=363033
+
+- 날짜: 2025-12-11
+- 구분: 기타(기사/스틸)
+- 행사명: <이 사랑 통역 되나요?> 관련 기사(사진/스틸 포함 가능)
+- 주최/플랫폼: Netflix / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=387125
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=387125
 
 ## 2024
-(추가 보강 필요)
+- 날짜: 2024-12-26
+- 구분: 기타(기사/스틸)
+- 행사명: <조명가게> 관련 기사/리뷰(사진/스틸 포함 가능)
+- 주최/플랫폼: Disney+ / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=343890
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=343890
 
 ## 2023
 - 날짜: 2023-08-03

@@ -1,36 +1,31 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 14:03 (Asia/Seoul)
+> 갱신: 2026-02-10 14:06 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 331aa62 2026-02-10 13:59:40 +0900 daily: update 2026-02-10
+- 34222b5 2026-02-10 14:04:00 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-10.md
-- pages/brands/boucheron.md
-- pages/brands/chanel.md
-- pages/brands/discovery.md
-- pages/brands/lensme.md
-- pages/brands/puradak.md
-- pages/brands/vodana.md
 - pages/daily-report.md
+- pages/interviews.md
 - pages/lint-report.md
-- pages/magazines/vogue.md
-- pages/pictorials/campaign.md
-- pages/pictorials/editorial.md
-- pages/pictorials/stills-posters.md
+- pages/pictorials/events.md
 - pages/progress.md
 - pages/works/alchemy-of-souls.md
+- pages/works/can-this-love-be-translated.md
 - pages/works/moving.md
+- pages/works/resident-playbook.md
+- pages/works/sweethome.md
 - sources/seen-urls.jsonl
 - sources/seen-urls.txt
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
 ## 실행 상태
-- 실행: 2026-02-10 14:03 (Asia/Seoul)
+- 실행: 2026-02-10 14:06 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -39,6 +34,8 @@
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 14:06 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 14:04 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1403.tar.gz), work-candidates:OK
 - 2026-02-10 14:03 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 13:59 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1359.tar.gz), work-candidates:OK
 - 2026-02-10 13:59 (Asia/Seoul) · 진행중 · auto: daily update running
