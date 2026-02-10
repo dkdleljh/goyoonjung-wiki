@@ -18,7 +18,7 @@
 - 브랜드/회사명: 구달(goodal)
   - 카테고리: 뷰티
   - 역할: 모델/뮤즈
-  - 발표일/시작일: (확인 필요)
+  - 발표일/시작일: 2024-02-27 (YouTube datePublished)
   - 링크(공식): https://youtu.be/p3lwXW6nT5U
   - 상태: 공식확정
   - id: https://youtu.be/p3lwXW6nT5U
@@ -36,7 +36,7 @@
 - 브랜드/회사명: 려(RYO)
   - 카테고리: 뷰티
   - 역할: 글로벌 앰버서더
-  - 발표일/시작일: (확인 필요)
+  - 발표일/시작일: 2023-04-04 (YouTube datePublished)
   - 링크(공식): https://youtu.be/dmS_nEQYv2I
   - 상태: 공식확정
   - id: https://youtu.be/dmS_nEQYv2I

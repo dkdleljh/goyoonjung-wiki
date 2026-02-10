@@ -18,7 +18,7 @@
 - 브랜드/회사명: 마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)
   - 카테고리: 패션
   - 역할: 뮤즈
-  - 발표일/시작일: (확인 필요)
+  - 발표일/시작일: 2022-11-28 (YouTube datePublished)
   - 링크(공식): https://youtu.be/76aAMPpCTb4
   - 상태: 공식확정
   - id: https://youtu.be/76aAMPpCTb4
@@ -27,7 +27,7 @@
 - 브랜드/회사명: 디스커버리 익스페디션(Discovery Expedition)
   - 카테고리: 패션
   - 역할: 모델
-  - 발표일/시작일: (확인 필요)
+  - 발표일/시작일: 2023-11-28 (YouTube datePublished)
   - 링크(공식): https://youtu.be/ZH1Y1l1OmTY
   - 상태: 공식확정
   - id: https://youtu.be/ZH1Y1l1OmTY

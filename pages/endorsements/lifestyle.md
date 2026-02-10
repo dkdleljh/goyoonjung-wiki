@@ -18,7 +18,7 @@
 - 브랜드/회사명: 캐롯손해보험(캐롯자동차보험)
   - 카테고리: 라이프스타일
   - 역할: 모델
-  - 발표일/시작일: (확인 필요)
+  - 발표일/시작일: 2023-07-31 (YouTube datePublished)
   - 링크(공식): https://youtu.be/jXCnrLQJfzE
   - 상태: 공식확정
   - id: https://youtu.be/jXCnrLQJfzE
@@ -27,7 +27,7 @@
 - 브랜드/회사명: 푸라닭치킨
   - 카테고리: 라이프스타일
   - 역할: 모델
-  - 발표일/시작일: (확인 필요)
+  - 발표일/시작일: 2024-01-25 (YouTube datePublished)
   - 링크(공식): https://youtu.be/NdogLAtlyys
   - 상태: 공식확정
   - id: https://youtu.be/NdogLAtlyys
@@ -36,7 +36,7 @@
 - 브랜드/회사명: 상쾌환(EASY TOMORROW)
   - 카테고리: 라이프스타일
   - 역할: 모델
-  - 발표일/시작일: (확인 필요)
+  - 발표일/시작일: 2024-04-07 (YouTube datePublished)
   - 링크(공식): https://youtu.be/TrDLHYVJ4w8
   - 상태: 공식확정
   - id: https://youtu.be/TrDLHYVJ4w8
@@ -54,7 +54,7 @@
 - 브랜드/회사명: LENSME(렌즈미)
   - 카테고리: 라이프스타일
   - 역할: 뮤즈
-  - 발표일/시작일: (확인 필요)
+  - 발표일/시작일: 2023-08-02 (YouTube datePublished)
   - 링크(공식): https://youtu.be/aRrlD-9WIbk
   - 상태: 공식확정
   - id: https://youtu.be/aRrlD-9WIbk

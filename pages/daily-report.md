@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 17:39 (Asia/Seoul)
+> 갱신: 2026-02-10 17:46 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- e757a92 2026-02-10 17:38:04 +0900 daily: update 2026-02-10
+- 9da170c 2026-02-10 17:39:35 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -14,7 +14,6 @@
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
 - scripts/promote_endorsement_dates.py
-- scripts/run_daily_update.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
@@ -62,7 +61,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-10 17:38 (Asia/Seoul)
+- 실행: 2026-02-10 17:44 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -71,6 +70,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:44 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:39 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1739.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 - 2026-02-10 17:38 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 17:38 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1738.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 - 2026-02-10 17:37 (Asia/Seoul) · 진행중 · auto: daily update running

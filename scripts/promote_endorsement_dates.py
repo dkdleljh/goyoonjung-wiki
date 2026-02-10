@@ -60,19 +60,41 @@ def to_watch_url(url: str) -> str:
 
 
 def fetch_date_published(youtube_url: str) -> str | None:
+    """Try multiple safe methods to obtain an objective upload/publish date."""
     url = to_watch_url(youtube_url)
+
+    # Method 1) Parse HTML (fast, no extra deps)
     try:
         r = requests.get(url, headers=UA, timeout=TIMEOUT)
         r.raise_for_status()
+        html = r.text
     except Exception:
-        return None
-    m = DATE_PUBLISHED_RE.search(r.text)
-    if m:
-        return m.group(1)
-    m2 = DATE_TEXT_RE.search(r.text)
-    if m2:
-        y, mo, d = int(m2.group(1)), int(m2.group(2)), int(m2.group(3))
-        return f"{y:04d}-{mo:02d}-{d:02d}"
+        html = ""
+
+    if html:
+        m = DATE_PUBLISHED_RE.search(html)
+        if m:
+            return m.group(1)
+        m2 = DATE_TEXT_RE.search(html)
+        if m2:
+            y, mo, d = int(m2.group(1)), int(m2.group(2)), int(m2.group(3))
+            return f"{y:04d}-{mo:02d}-{d:02d}"
+
+    # Method 2) yt-dlp (more robust; still objective)
+    # upload_date is typically YYYYMMDD
+    try:
+        import subprocess
+
+        out = subprocess.check_output(
+            ["yt-dlp", "--no-warnings", "--skip-download", "--print", "%(upload_date)s", url],
+            stderr=subprocess.DEVNULL,
+            timeout=30,
+        ).decode("utf-8", "ignore").strip()
+        if re.fullmatch(r"20\d{2}[01]\d[0-3]\d", out):
+            return f"{out[0:4]}-{out[4:6]}-{out[6:8]}"
+    except Exception:
+        pass
+
     return None
 
 
