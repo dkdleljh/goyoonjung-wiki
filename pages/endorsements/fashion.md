@@ -50,7 +50,7 @@
   - 카테고리: 주얼리
   - 역할: 앰버서더
   - 발표일/시작일: (확인 필요)
-  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 발표): https://www.instagram.com/p/CWvduIJt1P2/ (자동: 공식 채널 게시물로 대체)
   - 링크(공식 영상/캠페인): https://www.instagram.com/p/CWvduIJt1P2/
   - 상태: 공식확정
   - id: https://www.instagram.com/p/CWvduIJt1P2/

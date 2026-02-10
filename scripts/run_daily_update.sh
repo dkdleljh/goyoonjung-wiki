@@ -17,6 +17,7 @@ NOW=$(TZ="$TZ" date +"%Y-%m-%d %H:%M")
 LOCK_DIR="$BASE/.locks"
 mkdir -p "$LOCK_DIR"
 LOCK_FILE="$LOCK_DIR/daily-update.lock"
+REASONS_JSON="$LOCK_DIR/last-run-reasons.json"
 
 # Acquire lock (avoid concurrent cron runs)
 exec 9>"$LOCK_FILE"
@@ -97,6 +98,19 @@ retry() {
   done
 }
 
+# Record skip/failure reasons (unmanned transparency)
+REASONS_TMP="$LOCK_DIR/last-run-reasons.tmp"
+: > "$REASONS_TMP" || true
+record_reason() {
+  # args: name rc reason note
+  local name="$1"; shift
+  local rc="$1"; shift
+  local reason="$1"; shift
+  local note="${1:-}"
+  printf '%s\t%s\t%s\t%s\n' "$name" "$rc" "$reason" "$note" >> "$REASONS_TMP" || true
+}
+
+
 # 1) Collect
 retry 3 20 ./scripts/auto_collect_visual_links.py
 RC_COLLECT=$?
@@ -123,6 +137,13 @@ RC_AWARD_PROOF=0
 # Keep this best-effort and time-bounded to avoid delaying the whole pipeline.
 timeout 90 ./scripts/promote_awards_official_proofs.py >/dev/null 2>&1
 RC_AWARD_PROOF_AUTO=$?
+if [ "$RC_AWARD_PROOF_AUTO" -ne 0 ]; then
+  if [ "$RC_AWARD_PROOF_AUTO" -eq 124 ]; then
+    record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "timeout" "auto-verify step timed out"
+  else
+    record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "error" "nonzero exit"
+  fi
+fi
 
 # 4) Safe metadata promotion
 retry 2 10 ./scripts/promote_safe_metadata.py
@@ -132,9 +153,23 @@ RC_PROMOTE_SAFE=$?
 set +e
 timeout 45 ./scripts/promote_endorsements_official_announcements.py >/dev/null 2>&1
 RC_ENDO_ANNOUNCE=$?
+if [ "$RC_ENDO_ANNOUNCE" -ne 0 ]; then
+  if [ "$RC_ENDO_ANNOUNCE" -eq 124 ]; then
+    record_reason "endo-announce" "$RC_ENDO_ANNOUNCE" "timeout" "official-site crawl timed out"
+  else
+    record_reason "endo-announce" "$RC_ENDO_ANNOUNCE" "error" "nonzero exit"
+  fi
+fi
 # Fallback: if official sites are blocked, use the already-linked official channel post/video as '공식 발표'
 timeout 20 ./scripts/promote_endorsements_announce_fallback.py >/dev/null 2>&1
 RC_ENDO_ANNOUNCE_FALLBACK=$?
+if [ "$RC_ENDO_ANNOUNCE_FALLBACK" -ne 0 ]; then
+  if [ "$RC_ENDO_ANNOUNCE_FALLBACK" -eq 124 ]; then
+    record_reason "endo-announce-fallback" "$RC_ENDO_ANNOUNCE_FALLBACK" "timeout" "fallback step timed out"
+  else
+    record_reason "endo-announce-fallback" "$RC_ENDO_ANNOUNCE_FALLBACK" "error" "nonzero exit"
+  fi
+fi
 set -e
 
 # 4.5) Endorsements date promotion (can be slow due to yt-dlp/network)
@@ -148,6 +183,13 @@ else
   timeout 60 ./scripts/promote_endorsement_dates.py >/dev/null 2>&1
   RC_ENDO_DATES=$?
   set -e
+  if [ "$RC_ENDO_DATES" -ne 0 ]; then
+    if [ "$RC_ENDO_DATES" -eq 124 ]; then
+      record_reason "endo-dates" "$RC_ENDO_DATES" "timeout" "yt-dlp/network step timed out"
+    else
+      record_reason "endo-dates" "$RC_ENDO_DATES" "error" "nonzero exit"
+    fi
+  fi
   # Mark done even if it times out; retry tomorrow.
   : > "$ENDO_STAMP_FILE" || true
 fi
@@ -156,6 +198,13 @@ fi
 set +e
 timeout 60 ./scripts/promote_interview_summaries_kbs.py >/dev/null 2>&1
 RC_INT_SUM=$?
+if [ "$RC_INT_SUM" -ne 0 ]; then
+  if [ "$RC_INT_SUM" -eq 124 ]; then
+    record_reason "interview-sum" "$RC_INT_SUM" "timeout" "KBS fetch/parse timed out"
+  else
+    record_reason "interview-sum" "$RC_INT_SUM" "error" "nonzero exit"
+  fi
+fi
 set -e
 
 # 5) Rebuild candidates for work pages
@@ -240,6 +289,27 @@ else
 fi
 FINAL_STATUS="성공"
 FINAL_NOTE="$NOTE"
+# Write skip reasons JSON + insert into news (best-effort)
+{
+  echo "{";
+  echo "  \"timestamp\": \"$NOW\",";
+  echo "  \"steps\": [";
+  first=1;
+  while IFS=$'\t' read -r name rc reason note; do
+    [ -z "${name:-}" ] && continue
+    if [ $first -eq 0 ]; then echo "    ,"; fi
+    first=0
+    # naive JSON escaping for quotes
+    note_esc=$(printf '%s' "$note" | sed 's/"/\\"/g')
+    reason_esc=$(printf '%s' "$reason" | sed 's/"/\\"/g')
+    name_esc=$(printf '%s' "$name" | sed 's/"/\\"/g')
+    echo "    {\"name\": \"$name_esc\", \"rc\": $rc, \"reason\": \"$reason_esc\", \"note\": \"$note_esc\"}";
+  done < "$REASONS_TMP";
+  echo "  ]";
+  echo "}";
+} > "$REASONS_JSON" 2>/dev/null || true
+./scripts/write_skip_reasons_to_news.py >/dev/null 2>&1 || true
+
 ./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
 
 # Commit only if there are changes (excluding backups)
