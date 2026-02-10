@@ -22,3 +22,12 @@
 - 상태: 공식확정
 - id: https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
 - 메모: Disney+ 작품 페이지에 공식 이미지/정보가 포함될 수 있어 1차 앵커로 사용.
+
+## 언젠가는 슬기로울 전공의생활 (tvN)
+- 작품: 언젠가는 슬기로울 전공의생활
+- 연도: 2025
+- 구분: 공식 페이지(포스터/프로그램 정보)
+- 링크(공식/원문): https://tvn.cjenm.com/ko/resident-playbook/
+- 상태: 공식확정
+- id: https://tvn.cjenm.com/ko/resident-playbook/
+- 메모: tvN 공식 페이지(이미지/프로그램 정보).

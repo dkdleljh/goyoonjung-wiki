@@ -37,3 +37,29 @@
 ## 2023
 (아직 추가된 항목이 없습니다.)
 
+## 2022
+- 날짜: 2022-02-21
+- 매체: Vogue Korea (보그 코리아)
+- 구분: 화보(프로모션)
+- 제목: 고윤정의 봄, 봄, 봄
+- 링크(원문): https://www.vogue.co.kr/2022/02/21/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%98-%EB%B4%84-%EB%B4%84-%EB%B4%84/
+- 상태: 공식확정
+- id: https://www.vogue.co.kr/2022/02/21/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%98-%EB%B4%84-%EB%B4%84-%EB%B4%84/
+
+- 날짜: 2022-08-26
+- 매체: Vogue Korea (보그 코리아)
+- 구분: 화보/캠페인(주얼리)
+- 제목: 부쉐론의 여신, 고윤정
+- 링크(원문): https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/
+- 상태: 공식확정
+- id: https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/
+
+## 2021
+- 날짜: 2021-02-17
+- 매체: Vogue Korea (보그 코리아)
+- 구분: 인터뷰/화보
+- 제목: 한없이 투명에 가까운, 고윤정
+- 링크(원문): https://www.vogue.co.kr/2021/02/17/%ED%95%9C%EC%97%86%EC%9D%B4-%ED%88%AC%EB%AA%85%EC%97%90-%EA%B0%80%EA%B9%8C%EC%9A%B4-%EA%B3%A0%EC%9C%A4%EC%A0%95/
+- 상태: 공식확정
+- id: https://www.vogue.co.kr/2021/02/17/%ED%95%9C%EC%97%86%EC%9D%B4-%ED%88%AC%EB%AA%85%EC%97%90-%EA%B0%80%EA%B9%8C%EC%9A%B4-%EA%B3%A0%EC%9C%A4%EC%A0%95/
+
