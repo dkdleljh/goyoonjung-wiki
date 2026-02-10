@@ -134,6 +134,12 @@ RC_AWARD_PROOF_AUTO=$?
 retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
 
+# 4.4) Endorsements: try to auto-fill official announcement links when verified (best-effort)
+set +e
+timeout 45 ./scripts/promote_endorsements_official_announcements.py >/dev/null 2>&1
+RC_ENDO_ANNOUNCE=$?
+set -e
+
 # 4.5) Endorsements date promotion (can be slow due to yt-dlp/network)
 # Run at most once per day.
 ENDO_STAMP_FILE="$LOCK_DIR/endo-dates.${TODAY}.done"
@@ -223,6 +229,11 @@ if [ "${RC_PROMOTE_SAFE:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-safe:SKIP"
 else
   NOTE="$NOTE, promote-safe:OK"
+fi
+if [ "${RC_ENDO_ANNOUNCE:-0}" -ne 0 ]; then
+  NOTE="$NOTE, endo-announce:SKIP"
+else
+  NOTE="$NOTE, endo-announce:OK"
 fi
 if [ "${RC_ENDO_DATES:-0}" -ne 0 ]; then
   NOTE="$NOTE, endo-dates:SKIP"
