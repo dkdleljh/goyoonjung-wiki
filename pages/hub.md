@@ -20,6 +20,8 @@
   - [에디토리얼/화보](pictorials/editorial.md)
   - [캠페인/룩북](pictorials/campaign.md)
   - [메이킹/비하인드](pictorials/making.md)
+  - [행사/포토월/시상식](pictorials/events.md)
+  - [작품 스틸/포스터](pictorials/stills-posters.md)
 - [광고/엠버서더(목차)](endorsements.md)
   - [뷰티](endorsements/beauty.md)
   - [패션/주얼리](endorsements/fashion.md)

@@ -7,3 +7,5 @@
   - [에디토리얼/화보](pictorials/editorial.md)
   - [캠페인/룩북/브랜드 컷](pictorials/campaign.md)
   - [메이킹/비하인드/영상 스틸](pictorials/making.md)
+  - [행사/포토월/시상식](pictorials/events.md)
+  - [작품 스틸/포스터](pictorials/stills-posters.md)

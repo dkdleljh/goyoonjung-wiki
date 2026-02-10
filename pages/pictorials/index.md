@@ -8,6 +8,8 @@
 - [에디토리얼/화보](editorial.md)
 - [캠페인/룩북/브랜드 컷](campaign.md)
 - [메이킹/비하인드/영상 스틸](making.md)
+- [행사/포토월/시상식](events.md)
+- [작품 스틸/포스터](stills-posters.md)
 
 ## 항목 템플릿
 - 날짜: YYYY-MM-DD (또는 YYYY-MM)
