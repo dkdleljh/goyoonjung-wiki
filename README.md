@@ -7,8 +7,10 @@
 
 ## ✅ 바로 시작하기 (포털)
 
-- **덕질 허브(추천)** → [`pages/hub.md`](pages/hub.md)
-- 메인 요약/바로가기 → [`index.md`](index.md)
+**언어 / Language:** [한국어](index.md) | [English](index.en.md)
+
+- **덕질 허브(추천)** → [`pages/hub.md`](pages/hub.md)  /  [English hub](pages/hub.en.md)
+- 메인 요약/바로가기 → [`index.md`](index.md)  /  [`index.en.md`](index.en.md)
 - 최근 업데이트(7일 요약) → [`news/README.md`](news/README.md)
 
 > 팁: GitHub에서 `/` 키를 누르면 파일 검색이 열립니다. `hub.md`만 검색해도 바로 이동됩니다.
