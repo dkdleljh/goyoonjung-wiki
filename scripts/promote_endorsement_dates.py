@@ -41,6 +41,9 @@ YOUTUBE_URL_RE = re.compile(r"https?://(?:www\.)?(?:youtu\.be/|youtube\.com/watc
 DATE_PUBLISHED_RE = re.compile(r"\"datePublished\"\s*:\s*\"(20\d{2}-\d{2}-\d{2})\"")
 DATE_TEXT_RE = re.compile(r"\"dateText\"\s*:\s*\{\s*\"simpleText\"\s*:\s*\"(20\d{2})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?\"", re.S)
 
+# Safe URL date inference for official pages that embed a date in the path
+URL_DATE_RE = re.compile(r"/(20\d{2})/(\d{2})/(\d{2})/|/(20\d{2})/(\d{2})/")
+
 
 def read_lines(rel: str) -> list[str]:
     with open(os.path.join(BASE, rel), "r", encoding="utf-8") as f:
@@ -98,6 +101,17 @@ def fetch_date_published(youtube_url: str) -> str | None:
     return None
 
 
+def infer_date_from_url(url: str) -> str | None:
+    m = URL_DATE_RE.search(url)
+    if not m:
+        return None
+    if m.group(1):
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    if m.group(4):
+        return f"{m.group(4)}-{m.group(5)}"  # YYYY-MM (month only)
+    return None
+
+
 def block_range(lines: list[str], start: int) -> tuple[int, int]:
     # endorsement blocks start with '- 브랜드/회사명:' and continue until next same or section header
     i = start
@@ -118,19 +132,36 @@ def process_file(rel: str) -> int:
 
             # only if date is missing/unknown
             if re.search(r"발표일/시작일:\s*\(확인 필요\)", block) or re.search(r"발표일/시작일:\s*$", block):
+                date = None
+                note = None
+
+                # 1) YouTube date
                 ym = YOUTUBE_URL_RE.search(block)
                 if ym:
                     yt_url = ym.group(0)
                     date = fetch_date_published(yt_url)
                     if date:
-                        # replace only the first occurrence in the block
-                        for k in range(s, e):
-                            if "발표일/시작일:" in lines[k]:
-                                indent = re.match(r"^\s*", lines[k]).group(0)
-                                lines[k] = f"{indent}- 발표일/시작일: {date} (YouTube datePublished)\n"
-                                changed += 1
-                                break
-                    time.sleep(0.4)
+                        note = "YouTube upload_date"
+
+                # 2) URL date inference (safe, objective)
+                if not date:
+                    um = re.search(r"-\s*링크\(공식\):\s*(https?://\S+)", block)
+                    if um:
+                        u = um.group(1)
+                        d2 = infer_date_from_url(u)
+                        if d2:
+                            date = d2
+                            note = "URL date"
+
+                if date:
+                    for k in range(s, e):
+                        if "발표일/시작일:" in lines[k]:
+                            indent = re.match(r"^\s*", lines[k]).group(0)
+                            lines[k] = f"{indent}- 발표일/시작일: {date} ({note})\n"
+                            changed += 1
+                            break
+
+                time.sleep(0.4)
 
             i = e
         else:
