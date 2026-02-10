@@ -31,7 +31,7 @@ from bs4 import BeautifulSoup
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 FILE = os.path.join(BASE, "pages", "interviews.md")
 UA = {"User-Agent": "Mozilla/5.0"}
-TIMEOUT = 25
+TIMEOUT = 15
 
 KBS_URL_RE = re.compile(r"https?://kstar\.kbs\.co\.kr/list_view\.html\?idx=\d+")
 
@@ -45,20 +45,37 @@ def http_get(url: str) -> str:
 def extract_sentences(text: str, limit: int = 5) -> list[str]:
     # normalize spaces
     text = re.sub(r"\s+", " ", text).strip()
+
+    # drop common boilerplate chunks early
+    for bad in [
+        "랭킹뉴스", "URL복사", "페이스북", "트위터", "카카오", "네이버",
+        "기사제보", "기자", "무단전재", "재배포", "저작권",
+        "로그인", "회원가입", "개인정보", "쿠키",
+    ]:
+        text = text.replace(bad, " ")
+    text = re.sub(r"\s+", " ", text).strip()
+
     # crude sentence split for Korean/English
     parts = re.split(r"(?<=[\.!?。])\s+|(?<=다\.)\s+|(?<=요\.)\s+", text)
-    out = []
+
+    out: list[str] = []
+    seen = set()
     for p in parts:
         p = p.strip()
         if len(p) < 25:
             continue
+        if len(p) > 200:
+            p = p[:197] + "…"
         # avoid nav/footer/boilerplate
         if any(bad in p for bad in [
-            "개인정보","저작권","쿠키","로그인","구독","정기구독","회사소개",
-            "본문영역","상세페이지","랭킹뉴스","URL복사","글씨 작게보기","글씨 크게보기",
-            "페이스북","트위터","네이버",
+            "본문영역", "상세페이지", "글씨 작게보기", "글씨 크게보기",
+            "공유", "좋아요", "댓글", "추천",
         ]):
             continue
+        key = re.sub(r"\s+", "", p)
+        if key in seen:
+            continue
+        seen.add(key)
         out.append(p)
         if len(out) >= limit:
             break
@@ -117,6 +134,7 @@ def main() -> int:
     lines = open(FILE, "r", encoding="utf-8").read().splitlines(True)
 
     changed_blocks = 0
+    max_updates = 3
     i = 0
     while i < len(lines):
         if lines[i].lstrip().startswith("- 날짜:"):
@@ -155,6 +173,8 @@ def main() -> int:
 
                 if replace_summary_block(lines, start, end, bullets):
                     changed_blocks += 1
+                    if changed_blocks >= max_updates:
+                        break
             except Exception:
                 pass
 

@@ -14,5 +14,6 @@ set -euo pipefail
 /home/zenith/바탕화면/goyoonjung-wiki/scripts/rebuild_endorsements_year_index.py >/dev/null || true
 /home/zenith/바탕화면/goyoonjung-wiki/scripts/rebuild_interviews_year_index.py >/dev/null || true
 /home/zenith/바탕화면/goyoonjung-wiki/scripts/rebuild_quality_report.py >/dev/null || true
+/home/zenith/바탕화면/goyoonjung-wiki/scripts/rebuild_works_year_index.py >/dev/null || true
 
 echo "OK"

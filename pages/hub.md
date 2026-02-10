@@ -9,6 +9,7 @@
 ## 핵심 정리
 - [프로필](profile.md)
 - [필모그래피](filmography.md)
+  - [작품 연도별 인덱스(자동)](works/by-year.md)
 - [타임라인](timeline.md)
 - [수상/노미네이트](awards.md)
 

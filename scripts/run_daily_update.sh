@@ -51,9 +51,25 @@ if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   git checkout main >/dev/null 2>&1 || true
 fi
 
+# Cleanup stale '진행중' status from crashed runs (best-effort)
+./scripts/cleanup_stale_running.sh >/dev/null 2>&1 || true
+
 # Mark running
 lock_touch
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
+
+FINAL_STATUS="실패"
+FINAL_NOTE="auto: crashed"
+
+on_exit() {
+  local rc=$?
+  lock_touch
+  if [ "$FINAL_STATUS" != "" ]; then
+    ./scripts/mark_news_status.sh "$FINAL_STATUS" "$FINAL_NOTE" >/dev/null 2>&1 || true
+  fi
+  exit $rc
+}
+trap on_exit EXIT
 
 # Core tasks
 # 1) Collect new link-only items (events/photos/interviews) from reliable sources
@@ -193,6 +209,8 @@ if [ "$RC_CAND" -ne 0 ]; then
 else
   NOTE="$NOTE, work-candidates:OK"
 fi
+FINAL_STATUS="성공"
+FINAL_NOTE="$NOTE"
 ./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
 
 # Commit only if there are changes (excluding backups)
