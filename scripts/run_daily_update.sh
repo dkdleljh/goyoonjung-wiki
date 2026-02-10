@@ -37,23 +37,43 @@ fi
 # 1) Collect new link-only items (events/photos/interviews) from reliable sources
 #    (best-effort; never fail the whole run)
 set +e
-./scripts/auto_collect_visual_links.py >/dev/null 2>&1
+
+retry() {
+  local tries="$1"; shift
+  local delay="$1"; shift
+  local n=1
+  while true; do
+    "$@" >/dev/null 2>&1
+    local rc=$?
+    if [ $rc -eq 0 ]; then
+      return 0
+    fi
+    if [ $n -ge $tries ]; then
+      return $rc
+    fi
+    sleep $delay
+    n=$((n+1))
+  done
+}
+
+# 1) Collect
+retry 3 20 ./scripts/auto_collect_visual_links.py
 RC_COLLECT=$?
 
-# 2) Write daily encyclopedia-promotion suggestions into today's news log
-./scripts/suggest_encyclopedia_promotions.py >/dev/null 2>&1
+# 2) Write daily encyclopedia-promotion suggestions
+retry 2 5 ./scripts/suggest_encyclopedia_promotions.py
 RC_SUGGEST=$?
 
-# 3) Suggest lead paragraphs (drafts only; no auto-apply)
-./scripts/suggest_lead_paragraphs.py >/dev/null 2>&1
+# 3) Suggest lead paragraphs
+retry 2 5 ./scripts/suggest_lead_paragraphs.py
 RC_LEAD=$?
 
-# 4) Safe metadata promotion (fill objective dates/titles)
-./scripts/promote_safe_metadata.py >/dev/null 2>&1
+# 4) Safe metadata promotion
+retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
 
-# 4.5) Endorsements: fill dates from official YouTube datePublished when available
-./scripts/promote_endorsement_dates.py >/dev/null 2>&1
+# 4.5) Endorsements date promotion
+retry 2 15 ./scripts/promote_endorsement_dates.py
 RC_ENDO_DATES=$?
 
 # 5) Rebuild candidates for work pages
