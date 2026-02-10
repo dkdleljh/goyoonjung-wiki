@@ -1,8 +1,8 @@
-# 스케줄 (공식 공개 일정)
+# 🗓️ 스케줄 (공식 공개 일정)
 
 <!-- AUTO-SCHEDULE-HIGHLIGHTS:START -->
 ## 오늘/이번주 일정 (자동)
-> 기준: 2026-02-10 ~ 2026-02-17 (Asia/Seoul)
+> 기준: 2026-02-11 ~ 2026-02-18 (Asia/Seoul)
 
 - (7일 내 등록된 공식 일정이 없습니다.)
 <!-- AUTO-SCHEDULE-HIGHLIGHTS:END -->

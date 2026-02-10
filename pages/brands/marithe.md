@@ -1,4 +1,4 @@
-# MARITHÉ FRANÇOIS GIRBAUD
+# 🧾 MARITHÉ FRANÇOIS GIRBAUD
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 

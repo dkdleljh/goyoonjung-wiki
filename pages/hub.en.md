@@ -1,4 +1,4 @@
-# Fan Hub (Quick Navigation)
+# 🧾 Fan Hub (Quick Navigation)
 
 > This page is an English portal for the wiki. Most content pages are currently in Korean.
 
