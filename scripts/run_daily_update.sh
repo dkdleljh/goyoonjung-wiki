@@ -44,11 +44,15 @@ RC_COLLECT=$?
 ./scripts/suggest_encyclopedia_promotions.py >/dev/null 2>&1
 RC_SUGGEST=$?
 
-# 3) Safe metadata promotion (fill objective dates/titles)
+# 3) Suggest lead paragraphs (drafts only; no auto-apply)
+./scripts/suggest_lead_paragraphs.py >/dev/null 2>&1
+RC_LEAD=$?
+
+# 4) Safe metadata promotion (fill objective dates/titles)
 ./scripts/promote_safe_metadata.py >/dev/null 2>&1
 RC_PROMOTE_SAFE=$?
 
-# 4) Rebuild candidates for work pages
+# 5) Rebuild candidates for work pages
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1
 RC_CAND=$?
 set -e
@@ -70,6 +74,11 @@ if [ "${RC_SUGGEST:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-suggest:SKIP"
 else
   NOTE="$NOTE, promote-suggest:OK"
+fi
+if [ "${RC_LEAD:-0}" -ne 0 ]; then
+  NOTE="$NOTE, lead-suggest:SKIP"
+else
+  NOTE="$NOTE, lead-suggest:OK"
 fi
 if [ "${RC_PROMOTE_SAFE:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-safe:SKIP"

@@ -26,6 +26,7 @@
   - [행사/포토월/시상식](pictorials/events.md)
   - [작품 스틸/포스터](pictorials/stills-posters.md)
 - [광고/엠버서더(목차)](endorsements.md)
+  - [연도별 인덱스(자동)](endorsements/by-year.md)
   - [뷰티](endorsements/beauty.md)
   - [패션/주얼리](endorsements/fashion.md)
   - [라이프스타일](endorsements/lifestyle.md)
