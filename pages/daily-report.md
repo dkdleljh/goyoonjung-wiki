@@ -1,30 +1,26 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 14:13 (Asia/Seoul)
+> 갱신: 2026-02-10 14:16 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 2c36f09 2026-02-10 14:10:50 +0900 daily: update 2026-02-10
+- 192ffac 2026-02-10 14:13:48 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-10.md
 - pages/appearances.md
 - pages/daily-report.md
-- pages/interviews.md
 - pages/lint-report.md
-- pages/pictorials/stills-posters.md
+- pages/pictorials/events.md
 - pages/progress.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- pages/works/sweethome.md
-- sources/seen-urls.jsonl
-- sources/seen-urls.txt
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
 ## 실행 상태
-- 실행: 2026-02-10 14:13 (Asia/Seoul)
+- 실행: 2026-02-10 14:16 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -33,6 +29,8 @@
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 14:16 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 14:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1413.tar.gz), work-candidates:OK
 - 2026-02-10 14:13 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 14:10 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1410.tar.gz), work-candidates:OK
 - 2026-02-10 14:10 (Asia/Seoul) · 진행중 · auto: daily update running

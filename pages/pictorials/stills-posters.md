@@ -29,6 +29,25 @@
 - id: https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 메모: 작품별 공식 페이지 링크 확정 전, 검색 앵커로 사용.
 
+- 플랫폼: tvN
+- 구분: 공식 홈(작품/포스터 탐색)
+- 링크(공식/원문): https://tvn.cjenm.com/ko/
+- 상태: 공식확정
+- id: https://tvn.cjenm.com/ko/
+- 메모: tvN 작품별 공식 페이지/프로그램 정보(이미지 포함 가능) 탐색용 앵커.
+
+- 플랫폼: JTBC
+- 구분: 공식 홈(작품/프로그램 탐색)
+- 링크(공식/원문): https://www.jtbc.co.kr/
+- 상태: 공식확정
+- id: https://www.jtbc.co.kr/
+
+- 플랫폼: TVING
+- 구분: 공식 홈(작품 탐색)
+- 링크(공식/원문): https://www.tving.com/
+- 상태: 공식확정
+- id: https://www.tving.com/
+
 ## 무빙 (Disney+)
 - 작품: 무빙
 - 연도: 2023

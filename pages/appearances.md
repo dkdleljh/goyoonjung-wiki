@@ -57,6 +57,46 @@
 - id: https://star.ytn.co.kr/_sn/0117_202505091128555812
 - 메모: 실제 라이브/본편 유튜브 원링크는 추후 확보하여 S급으로 교체 권장.
 
+- 날짜: 2025-05-10
+- 구분: 기타(작품/홍보)
+- 프로그램/행사명: <언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)
+- 플랫폼/방송사: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=361830
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=361830
+
+- 날짜: 2025-05-17
+- 구분: 기타(작품/홍보)
+- 프로그램/행사명: <언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)
+- 플랫폼/방송사: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=362628
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=362628
+
+- 날짜: 2025-05-18
+- 구분: 기타(작품/홍보)
+- 프로그램/행사명: <언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)
+- 플랫폼/방송사: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=362734
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=362734
+
+- 날짜: 2025-05-20
+- 구분: 기타(작품/홍보)
+- 프로그램/행사명: <언젠가는 슬기로울 전공의생활> 관련 보도/인터뷰(사진/스틸 포함 가능)
+- 플랫폼/방송사: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=362920
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=362920
+
+- 날짜: 2025-05-21
+- 구분: 기타(작품/홍보)
+- 프로그램/행사명: <언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)
+- 플랫폼/방송사: tvN / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=363033
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=363033
+
 ## 2024
 - 날짜: 2024-12-26
 - 구분: 기타(작품/홍보)
