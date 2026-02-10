@@ -34,7 +34,13 @@ fi
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
 
 # Core tasks
+# 1) Collect new link-only items (events/photos/interviews) from reliable sources
+#    (best-effort; never fail the whole run)
 set +e
+./scripts/auto_collect_visual_links.py >/dev/null 2>&1
+RC_COLLECT=$?
+
+# 2) Rebuild candidates for work pages
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1
 RC_CAND=$?
 set -e
@@ -47,6 +53,11 @@ BACKUP_PATH=$(./scripts/daily_backup.sh)
 
 # Mark success (include key results)
 NOTE="auto: done (indexes:OK,lint:OK,backup:$(basename "$BACKUP_PATH"))"
+if [ "${RC_COLLECT:-0}" -ne 0 ]; then
+  NOTE="$NOTE, collect:SKIP"
+else
+  NOTE="$NOTE, collect:OK"
+fi
 if [ "$RC_CAND" -ne 0 ]; then
   NOTE="$NOTE, work-candidates:SKIP"
 else

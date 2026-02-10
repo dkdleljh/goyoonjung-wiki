@@ -25,7 +25,7 @@ pages/interviews.md:11:- 링크:
 
 ## 3) 날짜 형식(YYYY-MM-DD) 의심 라인
 
-- 없음
+./scripts/auto_collect_visual_links.py:82:    # KBS pages often include 2025.05.10 or 2025-05-10
 
 ## 4) 커버리지 목표 미달 경고(권장)
 
