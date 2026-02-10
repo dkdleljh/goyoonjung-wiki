@@ -31,3 +31,12 @@
 - 상태: 공식확정
 - id: https://tvn.cjenm.com/ko/resident-playbook/
 - 메모: tvN 공식 페이지(이미지/프로그램 정보).
+
+## 조명가게 (Disney+)
+- 작품: 조명가게
+- 연도: 2024
+- 구분: 기사/리뷰(스틸 포함 가능)
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=343890
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=343890
+- 메모: 보도(1차) 링크. Disney+ 공식 작품 페이지 링크는 추후 확보하여 1차 앵커로 추가.
