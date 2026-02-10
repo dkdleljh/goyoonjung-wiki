@@ -18,6 +18,7 @@
 - [매거진 링크 허브(자동 후보)](magazines/index.md)
 - [기타 자료/메모](notes/index.md)
 - [화보/사진(목차)](pictorials.md)
+  - [연도별 인덱스(자동)](pictorials/by-year.md)
   - [커버/표지](pictorials/cover.md)
   - [에디토리얼/화보](pictorials/editorial.md)
   - [캠페인/룩북](pictorials/campaign.md)
@@ -31,6 +32,7 @@
 - [작품별 정리(목차)](works-characters.md)
 - [SNS/공식 채널](sns.md)
 - [방송/예능/행사(출연 기록)](appearances.md)
+  - [연도별 인덱스(자동)](appearances/by-year.md)
 - [스케줄(공식 공개 일정)](schedule.md)
 
 ## 관리/규칙
