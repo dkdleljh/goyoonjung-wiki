@@ -144,16 +144,25 @@ fi
 
 # 3.6) Auto-fill official proof links for awards when verified (strict allowlist)
 # Keep this best-effort and time-bounded to avoid delaying the whole pipeline.
-set +e
-timeout 60 ./scripts/promote_awards_official_proofs.py >/dev/null 2>&1
-RC_AWARD_PROOF_AUTO=$?
-set -e
-if [ "$RC_AWARD_PROOF_AUTO" -ne 0 ]; then
-  if [ "$RC_AWARD_PROOF_AUTO" -eq 124 ]; then
-    record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "timeout" "auto-verify step timed out (may be slow official sites)"
-  else
-    record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "error" "nonzero exit"
+# Circuit breaker: run at most once per day.
+AWARDS_PROOF_STAMP_FILE="$LOCK_DIR/awards-proof-auto.${TODAY}.done"
+RC_AWARD_PROOF_AUTO=0
+if [ -f "$AWARDS_PROOF_STAMP_FILE" ]; then
+  RC_AWARD_PROOF_AUTO=0
+else
+  set +e
+  timeout 60 ./scripts/promote_awards_official_proofs.py >/dev/null 2>&1
+  RC_AWARD_PROOF_AUTO=$?
+  set -e
+  if [ "$RC_AWARD_PROOF_AUTO" -ne 0 ]; then
+    if [ "$RC_AWARD_PROOF_AUTO" -eq 124 ]; then
+      record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "timeout" "auto-verify step timed out (may be slow official sites)"
+    else
+      record_reason "awards-proof-auto" "$RC_AWARD_PROOF_AUTO" "error" "nonzero exit"
+    fi
   fi
+  # Mark done even if it times out; retry tomorrow.
+  : > "$AWARDS_PROOF_STAMP_FILE" || true
 fi
 
 # 4) Safe metadata promotion

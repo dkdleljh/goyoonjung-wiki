@@ -89,6 +89,14 @@ def extract_date_from_html(html: str) -> str | None:
         if dt:
             return dt
 
+    # common date elements by class/id
+    for sel in [".date", ".time", ".created", ".article_date", ".article-date", "#date", "#pubdate"]:
+        node = soup.select_one(sel)
+        if node:
+            dt = parse_iso_date(node.get_text(" ", strip=True))
+            if dt:
+                return dt
+
     # JSON-LD
     for tag in soup.select('script[type="application/ld+json"]'):
         try:

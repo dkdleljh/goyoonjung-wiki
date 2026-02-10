@@ -37,7 +37,7 @@ UA = {
 }
 TIMEOUT = 12
 
-ALLOW = {
+ALL_DOMAINS = [
     "www.marieclairekorea.com",
     "www.vogue.co.kr",
     "www.elle.co.kr",
@@ -46,7 +46,43 @@ ALLOW = {
     "www.harpersbazaar.co.kr",
     "www.esquirekorea.co.kr",
     "www.cosmopolitan.co.kr",
-}
+]
+
+KNOWN_GOOD_PATH = os.path.join(BASE, ".locks", "interview-allow-known-good.json")
+
+def load_known_good() -> set[str]:
+    try:
+        import json
+        if os.path.exists(KNOWN_GOOD_PATH):
+            return set(json.loads(open(KNOWN_GOOD_PATH, "r", encoding="utf-8").read()))
+    except Exception:
+        pass
+    return set()
+
+
+def save_known_good(domains: set[str]) -> None:
+    try:
+        import json
+        os.makedirs(os.path.dirname(KNOWN_GOOD_PATH), exist_ok=True)
+        with open(KNOWN_GOOD_PATH, "w", encoding="utf-8") as f:
+            f.write(json.dumps(sorted(domains), ensure_ascii=False, indent=2) + "\n")
+    except Exception:
+        pass
+
+
+def domains_to_try() -> set[str]:
+    good = load_known_good()
+    # Always try known-good domains; plus 1 exploratory domain in rotation.
+    # Rotation key: day-of-year from system date.
+    try:
+        import datetime
+        doy = int(datetime.datetime.now().strftime("%j"))
+    except Exception:
+        doy = 0
+    extra = ALL_DOMAINS[doy % len(ALL_DOMAINS)] if ALL_DOMAINS else None
+    if extra:
+        good.add(extra)
+    return good
 
 SELECTORS_BY_DOMAIN = {
     # magazines (best-effort)
@@ -130,6 +166,7 @@ def main() -> int:
     lines = open(FILE, "r", encoding="utf-8").read().splitlines(True)
 
     updated = 0
+    good = load_known_good()
     i = 0
     while i < len(lines) and updated < 2:
         if lines[i].lstrip().startswith("- 날짜:"):
@@ -148,7 +185,8 @@ def main() -> int:
                 continue
             url = m.group(0)
             d = urlparse(url).netloc
-            if d not in ALLOW:
+            allow = domains_to_try()
+            if d not in allow:
                 i = end
                 continue
             try:
@@ -159,6 +197,8 @@ def main() -> int:
                 bullets = []
             if bullets and replace_summary(lines, start, end, bullets):
                 updated += 1
+                good.add(d)
+                save_known_good(good)
             time.sleep(0.35)
             i = end
         else:

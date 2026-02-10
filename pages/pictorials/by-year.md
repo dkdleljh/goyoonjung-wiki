@@ -14,6 +14,7 @@
 ## 2025
 - 2025-12-11 · [<이 사랑 통역 되나요?> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=387125)
 - 2025-08-29 · [샤넬과 만난 신비로운 고윤정의 모습으로 채운 마리끌레르 9월호 디지털 커버](https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/)
+- 2025-06-17 · [고윤정, ‘하퍼스 바자’ 7월호 커버 장식](https://www.harpersbazaar.co.kr/article/1883281)
 - 2025-05-26 · [Go ZERO, Now ZERO](https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/)
 - 2025-05-21 · [<언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=363033)
 - 2025-05-20 · [<언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=362920)
@@ -22,6 +23,7 @@
 - 2025-05-10 · [<언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=361830)
 - 2025-05-09 · [채널십오야 라이브 방송 출격(기사 기반 공지)](https://star.ytn.co.kr/_sn/0117_202505091128555812)
 - 2025-05-01 · [유 퀴즈 온 더 블럭 — 고윤정 출연 하이라이트(공식 업로드)](https://www.youtube.com/watch?v=TiTWX_KfEc0)
+- 2025-04-17 · [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)
 
 ## 2024
 - 2024-12-26 · [<조명가게> 관련 기사/리뷰(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=343890)
