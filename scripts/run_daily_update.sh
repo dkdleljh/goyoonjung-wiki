@@ -195,6 +195,16 @@ if [ "$RC_META_DATES" -ne 0 ]; then
 fi
 lock_touch
 
+# 4.25) Profile infobox (table) rebuild
+set +e
+timeout 10 ./scripts/rebuild_profile_infobox.py >/dev/null 2>&1
+RC_INFOBOX=$?
+set -e
+if [ "$RC_INFOBOX" -ne 0 ]; then
+  record_reason "infobox" "$RC_INFOBOX" "error" "infobox script nonzero"
+fi
+lock_touch
+
 # 4.3) Interview summaries for allowlist domains (magazines)
 set +e
 timeout 60 ./scripts/promote_interview_summaries_allowlist.py >/dev/null 2>&1
@@ -206,6 +216,16 @@ if [ "$RC_INT_SUM_ALLOW" -ne 0 ]; then
   else
     record_reason "interview-sum-allow" "$RC_INT_SUM_ALLOW" "error" "nonzero exit"
   fi
+fi
+lock_touch
+
+# 4.35) Sanitize interview summaries (dedupe/cap bullets)
+set +e
+timeout 15 ./scripts/sanitize_interview_summaries.py >/dev/null 2>&1
+RC_INT_SAN=$?
+set -e
+if [ "$RC_INT_SAN" -ne 0 ]; then
+  record_reason "interview-sanitize" "$RC_INT_SAN" "error" "sanitize script nonzero"
 fi
 lock_touch
 
@@ -336,6 +356,16 @@ if [ "${RC_INT_SUM_ALLOW:-0}" -ne 0 ]; then
   NOTE="$NOTE, interview-allow:SKIP"
 else
   NOTE="$NOTE, interview-allow:OK"
+fi
+if [ "${RC_INFOBOX:-0}" -ne 0 ]; then
+  NOTE="$NOTE, infobox:SKIP"
+else
+  NOTE="$NOTE, infobox:OK"
+fi
+if [ "${RC_INT_SAN:-0}" -ne 0 ]; then
+  NOTE="$NOTE, interview-sanitize:SKIP"
+else
+  NOTE="$NOTE, interview-sanitize:OK"
 fi
 if [ "${RC_ENDO_ANNOUNCE:-0}" -ne 0 ]; then
   NOTE="$NOTE, endo-announce:SKIP"
