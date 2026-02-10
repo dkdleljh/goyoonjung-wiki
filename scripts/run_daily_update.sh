@@ -68,6 +68,10 @@ RC_SUGGEST=$?
 retry 2 5 ./scripts/suggest_lead_paragraphs.py
 RC_LEAD=$?
 
+# 3.5) Suggest official proof links for awards (no auto-apply)
+retry 2 5 ./scripts/suggest_awards_official_proofs.py
+RC_AWARD_PROOF=$?
+
 # 4) Safe metadata promotion
 retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
@@ -116,6 +120,11 @@ if [ "${RC_LEAD:-0}" -ne 0 ]; then
   NOTE="$NOTE, lead-suggest:SKIP"
 else
   NOTE="$NOTE, lead-suggest:OK"
+fi
+if [ "${RC_AWARD_PROOF:-0}" -ne 0 ]; then
+  NOTE="$NOTE, awards-proof-suggest:SKIP"
+else
+  NOTE="$NOTE, awards-proof-suggest:OK"
 fi
 if [ "${RC_PROMOTE_SAFE:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-safe:SKIP"
