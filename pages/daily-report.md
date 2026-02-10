@@ -1,13 +1,14 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 14:31 (Asia/Seoul)
+> 갱신: 2026-02-10 14:33 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 4af8251 2026-02-10 14:29:00 +0900 daily: update 2026-02-10
+- 90620b1 2026-02-10 14:31:52 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- index.en.md
 - index.md
 - news/2026-02-10.md
 - pages/daily-report.md
@@ -18,7 +19,7 @@
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
 ## 실행 상태
-- 실행: 2026-02-10 14:31 (Asia/Seoul)
+- 실행: 2026-02-10 14:33 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -27,6 +28,8 @@
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 14:33 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 14:31 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1431.tar.gz), collect:OK, work-candidates:OK
 - 2026-02-10 14:31 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 14:29 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1429.tar.gz), collect:OK, work-candidates:OK
 - 2026-02-10 14:28 (Asia/Seoul) · 진행중 · auto: daily update running

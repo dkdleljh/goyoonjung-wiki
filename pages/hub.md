@@ -1,5 +1,7 @@
 # 덕질 허브 (빠른 탐색)
 
+**언어 / Language:** **한국어** | [English](hub.en.md)
+
 ## 오늘/최근
 - [날짜별 업데이트](../news/)
 - [최근 7일 요약](../news/README.md)
