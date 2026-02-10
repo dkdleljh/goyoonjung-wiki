@@ -68,6 +68,34 @@ def domain(url: str) -> str:
         return ""
 
 
+def norm_keys(name: str) -> list[str]:
+    """Generate multiple matching keys for brand strings like 'A(B)' or 'A (B)'."""
+    name = name.strip()
+    keys = set()
+    keys.add(name)
+    keys.add(name.split("(", 1)[0].strip())
+
+    m = re.match(r"^(.*?)\((.*?)\)\s*$", name)
+    if m:
+        a = m.group(1).strip()
+        b = m.group(2).strip()
+        if a:
+            keys.add(a)
+        if b:
+            keys.add(b)
+        if a and b:
+            keys.add(f"{a}({b})")
+            keys.add(f"{b}({a})")
+            keys.add(f"{a} ({b})")
+            keys.add(f"{b} ({a})")
+
+    # latin lower
+    for k in list(keys):
+        if re.search(r"[A-Za-z]", k):
+            keys.add(k.lower())
+    return [k for k in keys if k]
+
+
 def parse_brand_domains(md: str) -> dict[str, str]:
     """Return mapping of normalized brand token -> domain (netloc)."""
     out: dict[str, str] = {}
@@ -80,12 +108,8 @@ def parse_brand_domains(md: str) -> dict[str, str]:
         d = domain(url)
         if not d:
             continue
-        # normalize: take token before '(' as simple key too
-        key = name
-        out[key] = d
-        key2 = name.split("(", 1)[0].strip()
-        if key2 and key2 not in out:
-            out[key2] = d
+        for k in norm_keys(name):
+            out.setdefault(k, d)
     return out
 
 
@@ -137,10 +161,10 @@ def build_block(domains: dict[str, str], entries: list[Entry]) -> str:
 
     for e in entries:
         d = None
-        # try match direct key or prefix before '(' 
-        k1 = e.brand
-        k2 = e.brand.split("(", 1)[0].strip()
-        d = domains.get(k1) or domains.get(k2)
+        for k in norm_keys(e.brand):
+            d = domains.get(k)
+            if d:
+                break
 
         lines.append(f"### {e.brand} ({e.file})")
         if d:
