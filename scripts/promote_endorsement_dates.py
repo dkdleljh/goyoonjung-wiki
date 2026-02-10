@@ -39,6 +39,7 @@ FILES = [
 
 YOUTUBE_URL_RE = re.compile(r"https?://(?:www\.)?(?:youtu\.be/|youtube\.com/watch\?v=)([A-Za-z0-9_-]{6,})")
 DATE_PUBLISHED_RE = re.compile(r"\"datePublished\"\s*:\s*\"(20\d{2}-\d{2}-\d{2})\"")
+DATE_TEXT_RE = re.compile(r"\"dateText\"\s*:\s*\{\s*\"simpleText\"\s*:\s*\"(20\d{2})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?\"", re.S)
 
 
 def read_lines(rel: str) -> list[str]:
@@ -66,9 +67,13 @@ def fetch_date_published(youtube_url: str) -> str | None:
     except Exception:
         return None
     m = DATE_PUBLISHED_RE.search(r.text)
-    if not m:
-        return None
-    return m.group(1)
+    if m:
+        return m.group(1)
+    m2 = DATE_TEXT_RE.search(r.text)
+    if m2:
+        y, mo, d = int(m2.group(1)), int(m2.group(2)), int(m2.group(3))
+        return f"{y:04d}-{mo:02d}-{d:02d}"
+    return None
 
 
 def block_range(lines: list[str], start: int) -> tuple[int, int]:
