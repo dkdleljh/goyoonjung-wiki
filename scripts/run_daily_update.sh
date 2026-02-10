@@ -76,6 +76,10 @@ RC_PROMOTE_SAFE=$?
 retry 2 15 ./scripts/promote_endorsement_dates.py
 RC_ENDO_DATES=$?
 
+# 4.6) Interviews: auto-fill short summaries for KBS entries
+retry 2 20 ./scripts/promote_interview_summaries_kbs.py
+RC_INT_SUM=$?
+
 # 5) Rebuild candidates for work pages
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1
 RC_CAND=$?
@@ -122,6 +126,11 @@ if [ "${RC_ENDO_DATES:-0}" -ne 0 ]; then
   NOTE="$NOTE, endo-dates:SKIP"
 else
   NOTE="$NOTE, endo-dates:OK"
+fi
+if [ "${RC_INT_SUM:-0}" -ne 0 ]; then
+  NOTE="$NOTE, interview-sum:SKIP"
+else
+  NOTE="$NOTE, interview-sum:OK"
 fi
 if [ "$RC_CAND" -ne 0 ]; then
   NOTE="$NOTE, work-candidates:SKIP"

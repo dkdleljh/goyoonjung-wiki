@@ -17,7 +17,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-10 18:13 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-10 18:50 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -33,15 +33,17 @@
 
 - [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
 
+- ['의사 오이영' 고윤정, “매 순간 값지고 소중했던 작품](https://kstar.kbs.co.kr/list_view.html?idx=362920)  _(출처: interviews.md)_
+
+- [고윤정, 오이영으로 한 뼘 더 성장](https://kstar.kbs.co.kr/list_view.html?idx=363033)  _(출처: interviews.md)_
+
+- [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
+
 - [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=361830)  _(출처: appearances.md)_
 
 - [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=362628)  _(출처: appearances.md)_
 
 - [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=362734)  _(출처: appearances.md)_
-
-- [<언젠가는 슬기로울 전공의생활> 관련 보도/인터뷰(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=362920)  _(출처: appearances.md)_
-
-- [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=363033)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

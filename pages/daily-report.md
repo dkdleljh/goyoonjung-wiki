@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 18:13 (Asia/Seoul)
+> 갱신: 2026-02-10 18:50 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- b3f8004 2026-02-10 18:09:07 +0900 daily: update 2026-02-10
+- 673a4ae 2026-02-10 18:13:47 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -13,7 +13,8 @@
 - pages/progress.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- scripts/run_daily_update.sh
+- scripts/update_index_last_updated.py
+- scripts/update_indexes.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
@@ -61,7 +62,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-10 18:12 (Asia/Seoul)
+- 실행: 2026-02-10 18:49 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -70,6 +71,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 18:49 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 18:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 - 2026-02-10 18:12 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 18:09 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 - 2026-02-10 18:08 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -135,8 +138,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-10 14:10 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 14:09 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1409.tar.gz), work-candidates:OK
 - 2026-02-10 14:08 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-10 14:06 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1406.tar.gz), work-candidates:OK
-- 2026-02-10 14:06 (Asia/Seoul) · 진행중 · auto: daily update running
 
 ## 4) 권장 체크
 
