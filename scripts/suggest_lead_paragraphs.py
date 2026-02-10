@@ -35,14 +35,40 @@ def today_ymd() -> str:
 
 
 def extract_notable_works(filmography_md: str, limit: int = 6) -> list[str]:
-    # pull from the table rows if present
-    works = []
-    for m in re.finditer(r"\|\s*(20\d{2}|\(공개예정\))\s*\|[^\n]*\|\s*([^|]+?)\s*\|", filmography_md):
-        w = m.group(2).strip()
-        if w and w not in works:
-            works.append(w)
-        if len(works) >= limit:
-            break
+    """Extract works from the first markdown table under '## 드라마/시리즈'.
+
+    This avoids accidental matches in other paragraphs containing pipes.
+    """
+    works: list[str] = []
+    lines = filmography_md.splitlines()
+
+    in_table = False
+    for ln in lines:
+        if ln.strip() == "## 드라마/시리즈":
+            in_table = False
+            continue
+        if ln.startswith("## ") and "드라마/시리즈" not in ln:
+            # stop when next section begins
+            if works:
+                break
+        if ln.startswith("|") and "연도" in ln and "작품" in ln:
+            in_table = True
+            continue
+        if in_table:
+            if not ln.startswith("|"):
+                # end of table
+                if works:
+                    break
+                continue
+            cols = [c.strip() for c in ln.strip().strip("|").split("|")]
+            # expected columns: 연도 | 플랫폼/방송사 | 작품 | 역할 | 비고 | 근거
+            if len(cols) >= 3 and cols[2] and cols[2] != "작품":
+                w = cols[2]
+                if w not in works:
+                    works.append(w)
+            if len(works) >= limit:
+                break
+
     return works
 
 

@@ -1,20 +1,29 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 17:31 (Asia/Seoul)
+> 갱신: 2026-02-10 17:33 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- bc50fdd 2026-02-10 17:27:31 +0900 daily: update 2026-02-10
+- 21d499c 2026-02-10 17:31:53 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-10.md
+- pages/awards.md
 - pages/daily-report.md
-- pages/pictorials/by-year.md
+- pages/endorsements/beauty.md
+- pages/endorsements/by-year.md
+- pages/endorsements/fashion.md
+- pages/endorsements/lifestyle.md
+- pages/hub.md
+- pages/lint-report.md
 - pages/progress.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- scripts/rebuild_year_indexes.py
+- scripts/rebuild_endorsements_year_index.py
+- scripts/run_daily_update.sh
+- scripts/suggest_lead_paragraphs.py
+- scripts/update_indexes.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
@@ -55,19 +64,14 @@
 ### 한국어 리드문(초안)
 - (index/profile 공용)
 
-고윤정(Go Youn-jung, 1996년 4월 22일~)은 대한민국의 배우이다. 주요 출연작으로 *> 메모: 작품별 공식 페이지 링크(플랫폼/방송사) 및 캐릭터 표기는 `pages/works/*.md`에서 추가 보강합니다.
-
-## 추가 기록(2차 참고 — 공식 교차검증 필요)
-> 아래 항목은 현재 위키백과 등 2차 출처에서 확인된 기록이며, **플랫폼/방송사 공식 페이지** 또는 **소속사/제작사 공식 발표**로 교차검증 후 본표(1차 근거)로 편입합니다.
-
-- 2023* 등이 있다. 이 위키는 작품·화보·광고·인터뷰·출연/행사 기록을 링크 중심(저작권 안전)으로 수집·정리한다.
+고윤정(Go Youn-jung, 1996년 4월 22일~)은 대한민국의 배우이다. 주요 출연작으로 *---*, *사이코메트리 그녀석*, *보건교사 안은영*, *스위트홈*, *로스쿨*, *환혼* 등이 있다. 이 위키는 작품·화보·광고·인터뷰·출연/행사 기록을 링크 중심(저작권 안전)으로 수집·정리한다.
 
 ### English lead (draft)
 Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a link-first (copyright-safe) archive of her works, pictorials, endorsements, interviews, and appearances/events, with a focus on official and primary sources.
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-10 17:31 (Asia/Seoul)
+- 실행: 2026-02-10 17:32 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -76,6 +80,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:32 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 17:31 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1731.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, work-candidates:OK
 - 2026-02-10 17:31 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 17:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1727.tar.gz), collect:OK, promote-suggest:OK, promote-safe:OK, work-candidates:OK
 - 2026-02-10 17:26 (Asia/Seoul) · 진행중 · auto: daily update running
