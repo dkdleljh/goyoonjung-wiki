@@ -64,8 +64,9 @@ def extract_notable_works(filmography_md: str, limit: int = 6) -> list[str]:
             # expected columns: 연도 | 플랫폼/방송사 | 작품 | 역할 | 비고 | 근거
             if len(cols) >= 3 and cols[2] and cols[2] != "작품":
                 w = cols[2]
-                if w not in works:
-                    works.append(w)
+                if w != "---" and not set(w) <= {"-"}:
+                    if w not in works:
+                        works.append(w)
             if len(works) >= limit:
                 break
 
