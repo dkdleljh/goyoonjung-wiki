@@ -30,7 +30,7 @@
   - 카테고리: 라이프스타일
   - 역할: 모델
   - 발표일/시작일: 2024-01-25 (YouTube datePublished)
-  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 발표): https://youtu.be/NdogLAtlyys (자동: 공식 채널 게시물로 대체)
   - 링크(공식 영상/캠페인): https://youtu.be/NdogLAtlyys
   - 상태: 공식확정
   - id: https://youtu.be/NdogLAtlyys
@@ -40,7 +40,7 @@
   - 카테고리: 라이프스타일
   - 역할: 모델
   - 발표일/시작일: 2024-04-07 (YouTube datePublished)
-  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 발표): https://youtu.be/TrDLHYVJ4w8 (자동: 공식 채널 게시물로 대체)
   - 링크(공식 영상/캠페인): https://youtu.be/TrDLHYVJ4w8
   - 상태: 공식확정
   - id: https://youtu.be/TrDLHYVJ4w8
