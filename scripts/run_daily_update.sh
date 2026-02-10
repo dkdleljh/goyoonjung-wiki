@@ -65,10 +65,19 @@ set -e
 ./scripts/lint_wiki.sh >/dev/null
 
 # Backup (doesn't enter git)
-BACKUP_PATH=$(./scripts/daily_backup.sh)
+# Frequent runs can create too many tar.gz files. By default, create at most 1 backup per day.
+BACKUP_PATH=""
+BACKUP_NOTE="backup:SKIP"
+TODAY_STAMP="$TODAY"
+if ls "$BASE/backups/goyoonjung-wiki_${TODAY_STAMP}_"*.tar.gz >/dev/null 2>&1; then
+  : # already backed up today
+else
+  BACKUP_PATH=$(./scripts/daily_backup.sh)
+  BACKUP_NOTE="backup:$(basename "$BACKUP_PATH")"
+fi
 
 # Mark success (include key results)
-NOTE="auto: done (indexes:OK,lint:OK,backup:$(basename "$BACKUP_PATH"))"
+NOTE="auto: done (indexes:OK,lint:OK,${BACKUP_NOTE})"
 if [ "${RC_COLLECT:-0}" -ne 0 ]; then
   NOTE="$NOTE, collect:SKIP"
 else
