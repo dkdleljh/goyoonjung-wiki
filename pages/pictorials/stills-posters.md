@@ -48,6 +48,15 @@
 - 상태: 공식확정
 - id: https://www.tving.com/
 
+## 스위트홈 (Netflix)
+- 작품: 스위트홈
+- 연도: 2020
+- 구분: 공식 페이지(스틸/포스터/프로그램 정보)
+- 링크(공식/원문): https://www.netflix.com/title/81061734
+- 상태: 공식확정
+- id: https://www.netflix.com/title/81061734
+- 메모: Netflix 작품 공식 페이지(이미지/정보).
+
 ## 무빙 (Disney+)
 - 작품: 무빙
 - 연도: 2023

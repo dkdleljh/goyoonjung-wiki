@@ -30,4 +30,4 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 공식 페이지: https://www.netflix.com/title/81061734
+- 공식 페이지(스틸/정보): https://www.netflix.com/title/81061734
