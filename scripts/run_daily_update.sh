@@ -21,9 +21,30 @@ LOCK_FILE="$LOCK_DIR/daily-update.lock"
 # Acquire lock (avoid concurrent cron runs)
 exec 9>"$LOCK_FILE"
 if ! flock -n 9; then
-  echo "Another update is already running. Exiting."
-  exit 0
+  # Stale-lock guard: if the lock file hasn't been touched for a while,
+  # assume a crashed job and try once to recover.
+  NOW_EPOCH=$(date +%s)
+  LOCK_MTIME=$(stat -c %Y "$LOCK_FILE" 2>/dev/null || echo 0)
+  AGE=$((NOW_EPOCH - LOCK_MTIME))
+  if [ "$LOCK_MTIME" -gt 0 ] && [ "$AGE" -gt 2700 ]; then
+    echo "Stale lock detected (age=${AGE}s). Retrying lock acquisition." >&2
+    rm -f "$LOCK_FILE" 2>/dev/null || true
+    exec 9>"$LOCK_FILE"
+    if ! flock -n 9; then
+      echo "Another update is already running. Exiting." >&2
+      exit 0
+    fi
+  else
+    echo "Another update is already running. Exiting." >&2
+    exit 0
+  fi
 fi
+
+lock_touch() {
+  # keep lock mtime fresh so other runners can detect true staleness
+  touch "$LOCK_FILE" 2>/dev/null || true
+}
+lock_touch
 
 # Ensure main branch
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
@@ -31,6 +52,7 @@ if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 fi
 
 # Mark running
+lock_touch
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
 
 # Core tasks
@@ -107,7 +129,9 @@ set -e
 RC_CAND=$?
 set -e
 
+lock_touch
 ./scripts/update_indexes.sh >/dev/null
+lock_touch
 ./scripts/lint_wiki.sh >/dev/null
 
 # Backup (doesn't enter git)
@@ -173,6 +197,7 @@ fi
 
 # Commit only if there are changes (excluding backups)
 # Stage everything except backups (already excluded by .gitignore, but be explicit)
+lock_touch
 git add -A ":(exclude)backups" >/dev/null 2>&1 || true
 
 if git diff --cached --quiet; then
