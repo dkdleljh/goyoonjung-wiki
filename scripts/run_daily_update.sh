@@ -40,7 +40,11 @@ set +e
 ./scripts/auto_collect_visual_links.py >/dev/null 2>&1
 RC_COLLECT=$?
 
-# 2) Rebuild candidates for work pages
+# 2) Write daily encyclopedia-promotion suggestions into today's news log
+./scripts/suggest_encyclopedia_promotions.py >/dev/null 2>&1
+RC_SUGGEST=$?
+
+# 3) Rebuild candidates for work pages
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1
 RC_CAND=$?
 set -e
@@ -57,6 +61,11 @@ if [ "${RC_COLLECT:-0}" -ne 0 ]; then
   NOTE="$NOTE, collect:SKIP"
 else
   NOTE="$NOTE, collect:OK"
+fi
+if [ "${RC_SUGGEST:-0}" -ne 0 ]; then
+  NOTE="$NOTE, promote-suggest:SKIP"
+else
+  NOTE="$NOTE, promote-suggest:OK"
 fi
 if [ "$RC_CAND" -ne 0 ]; then
   NOTE="$NOTE, work-candidates:SKIP"

@@ -1,24 +1,55 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 16:40 (Asia/Seoul)
+> 갱신: 2026-02-10 16:49 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- acb044c 2026-02-10 14:46:55 +0900 daily: update 2026-02-10
+- 2c50abe 2026-02-10 16:40:57 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- README.md
 - news/2026-02-10.md
+- pages/awards.md
 - pages/daily-report.md
+- pages/encyclopedia-roadmap.md
+- pages/profile.md
 - pages/progress.md
+- pages/strategy.md
+- pages/timeline.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
 ## 실행 상태
-- 실행: 2026-02-10 16:40 (Asia/Seoul)
+
+<!-- AUTO-ENCYCLOPEDIA-PROMOTE:START -->
+## 백과사전 승격 제안(자동)
+> 목표: 오늘 ‘참고(2차)/보강 필요’ 항목 중 최소 1개를 S/A급(공식/원문) 근거로 승격.
+
+### 후보(자동 스캔)
+- pages/profile.md:19 · - 출생지: (교차검증 필요) 대한민국 서울특별시 영등포구 문래동
+- pages/profile.md:20 · - 상태: 참고(2차)
+- pages/profile.md:23 · - (교차검증 필요) 서울문래초등학교 졸업
+- pages/profile.md:24 · - (교차검증 필요) 양화중학교 졸업
+- pages/profile.md:25 · - (교차검증 필요) 서울미술고등학교(서양화 전공) 졸업
+- pages/profile.md:26 · - (교차검증 필요) 서울여자대학교 아트앤디자인스쿨 현대미술전공(휴학)
+- pages/profile.md:27 · - 상태: 참고(2차)
+- pages/filmography.md:27 · ## 추가 기록(2차 참고 — 공식 교차검증 필요)
+- pages/interviews.md:34 · - (요약 보강 필요) 배우 커리어/작품 관련 기사 원문 기반.
+- pages/interviews.md:44 · - (요약 보강 필요) KBS연예 인터뷰 원문 기반으로 정리.
+- pages/interviews.md:54 · - (요약 보강 필요) 작품/프로모션 기사 원문 기반으로 정리.
+- pages/interviews.md:65 · - (요약 보강 필요) 작품 관련 기사 원문 기반.
+- pages/interviews.md:75 · - (요약 보강 필요) 작품 관련 인터뷰/발언 정리.
+- pages/interviews.md:85 · - (요약 보강 필요) 작품/캐릭터 관련 기사.
+- pages/interviews.md:88 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:95 · - (요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
+- pages/pictorials/cover.md:6 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/pictorials/editorial.md:20 · - 날짜: (페이지 내 표기 확인 필요)
+
+<!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
+
+- 실행: 2026-02-10 16:48 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -27,6 +58,8 @@
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 16:48 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 16:40 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1640.tar.gz), collect:OK, work-candidates:OK
 - 2026-02-10 16:40 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 14:46 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1446.tar.gz), collect:OK, work-candidates:OK
 - 2026-02-10 14:46 (Asia/Seoul) · 진행중 · auto: daily update running
