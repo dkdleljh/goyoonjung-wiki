@@ -2,6 +2,8 @@
 
 **Language / 언어:** [한국어](index.md) | **English**
 
+> Tip: Click **한국어** above to switch back.
+
 > **Goal:** A link-first (copyright-safe) personal wiki collecting and organizing **Go Youn-jung**’s works, pictorials, endorsements, interviews, appearances, and events.
 
 - Last updated: **2026-02-10**
