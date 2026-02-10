@@ -25,6 +25,30 @@
 - id: https://kstar.kbs.co.kr/list_view.html?idx=389846
 - 메모: 행사 사진/현장 기록이 포함될 수 있는 보도 링크.
 
+- 날짜: 2026-01-05
+- 구분: 기타(기사/스틸)
+- 행사명: 넷플릭스 <이 사랑 통역 되나요?> 관련 보도(사진/스틸 포함 가능)
+- 주최/플랫폼: Netflix / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=389107
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=389107
+
+- 날짜: 2026-01-27
+- 구분: 기타(인터뷰/스틸)
+- 행사명: (인터뷰) 넷플릭스 <이 사랑 통역 되나요?> 관련
+- 주최/플랫폼: Netflix / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=391146
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=391146
+
+- 날짜: 2026-01-28
+- 구분: 기타(기사/스틸)
+- 행사명: (기사) 고윤정 커리어/작품 관련(사진 포함 가능)
+- 주최/플랫폼: KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=391253
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=391253
+
 ## 2025
 - 날짜: 2025-05-10
 - 구분: 기타(기사/스틸)

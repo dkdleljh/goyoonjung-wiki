@@ -58,19 +58,33 @@
 - 메모: 실제 라이브/본편 유튜브 원링크는 추후 확보하여 S급으로 교체 권장.
 
 ## 2024
-(아직 추가된 항목이 없습니다.)
+- 날짜: 2024-12-26
+- 구분: 기타(작품/홍보)
+- 프로그램/행사명: Disney+ <조명가게> 관련 보도/리뷰
+- 플랫폼/방송사: Disney+ / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=343890
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=343890
+- 메모: 보도(1차) 기반. Disney+ 공식 링크 확보 시 상향.
 
 ## 2023
 - 날짜: 2023-08-03
 - 구분: 제작발표회
 - 프로그램/행사명: Disney+ 오리지널 시리즈 <무빙> 제작발표회
-- 플랫폼/방송사: 디즈니+ / 보도
+- 플랫폼/방송사: Disney+ / KBS연예
 - 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=274438
 - 상태: 보도(1차)
 - id: https://kstar.kbs.co.kr/list_view.html?idx=274438
-- 메모: KBS연예 보도 기반. 가능하면 Disney+ Korea 공식 영상/보도자료 링크로 S급(공식확정) 교체 권장.
+- 메모: KBS연예 보도 기반. Disney+ Korea 공식 포토/영상 링크 확보 시 상향.
 
-(추가 보강 필요)
+- 날짜: 2023-08-24
+- 구분: 기타(인터뷰/홍보)
+- 프로그램/행사명: (인터뷰) <무빙> 관련
+- 플랫폼/방송사: Disney+ / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=277651
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=277651
+- 메모: 인터뷰 보도(사진 포함 가능).
 
 ## 2022
 - 날짜: 2022-07-28
