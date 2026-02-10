@@ -30,6 +30,15 @@
 > 메모: 항목을 추가할 때는 위 템플릿을 따르고, 링크는 `scripts/add_seen_url.sh`로 정규화 후 `sources/seen-urls.*`에 등록합니다.
 
 ## 2025
+- 날짜: 2025-12-11
+- 구분: 기타(작품/홍보)
+- 프로그램/행사명: 넷플릭스 <이 사랑 통역 되나요?> 관련 보도
+- 플랫폼/방송사: Netflix / KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=387125
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=387125
+- 메모: 작품 프로모션 보도(사진/스틸 포함 가능).
+
 - 날짜: 2025-05-01
 - 구분: 예능(하이라이트)
 - 프로그램/행사명: 유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트
