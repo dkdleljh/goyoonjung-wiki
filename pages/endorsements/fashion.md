@@ -30,7 +30,7 @@
   - 카테고리: 패션
   - 역할: 모델
   - 발표일/시작일: 2023-11-28 (YouTube datePublished)
-  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 발표): https://youtu.be/ZH1Y1l1OmTY (자동: 공식 채널 게시물로 대체)
   - 링크(공식 영상/캠페인): https://youtu.be/ZH1Y1l1OmTY
   - 상태: 공식확정
   - id: https://youtu.be/ZH1Y1l1OmTY
@@ -40,7 +40,7 @@
   - 카테고리: 패션
   - 역할: (앰버서더/프렌즈 여부 공식 확인 필요)
   - 발표일/시작일: 2024-05-03 (공식 인스타 게시물)
-  - 링크(공식 발표): (확인 필요)
+  - 링크(공식 발표): https://www.instagram.com/p/C6gW0vQNU1_/ (자동: 공식 채널 게시물로 대체)
   - 링크(공식 영상/캠페인): https://www.instagram.com/p/C6gW0vQNU1_/
   - 상태: 공식확정
   - id: https://www.instagram.com/p/C6gW0vQNU1_/

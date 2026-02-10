@@ -1,25 +1,25 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-10 20:56 (Asia/Seoul)
+> 갱신: 2026-02-10 20:59 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- e3432ad 2026-02-10 20:52:51 +0900 daily: update 2026-02-10
+- 234a222 2026-02-10 20:56:02 +0900 daily: update 2026-02-10
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-10.md
 - pages/daily-report.md
 - pages/endorsements/beauty.md
+- pages/endorsements/fashion.md
 - pages/interviews.md
 - pages/lint-report.md
 - pages/progress.md
 - pages/quality-report.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- scripts/promote_endorsements_announce_fallback.py
 - scripts/run_daily_update.sh
-- scripts/suggest_daily_promotion_task.py
+- scripts/strip_url_hunt_blocks.py
 
 ## 3) 오늘 실행 상태(news/2026-02-10.md)
 
@@ -46,10 +46,10 @@
 - pages/awards.md:26 · | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:27 · | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:28 · | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
-- pages/interviews.md:90 · - (요약 보강 필요) 배우 커리어/작품 관련 기사 원문 기반.
-- pages/interviews.md:156 · - (요약 보강 필요) KBS연예 인터뷰 원문 기반으로 정리.
-- pages/interviews.md:222 · - (요약 보강 필요) 작품/프로모션 기사 원문 기반으로 정리.
-- pages/interviews.md:261 · - (요약 보강 필요) 작품 관련 기사 원문 기반.
+- pages/interviews.md:94 · - (요약 보강 필요) 배우 커리어/작품 관련 기사 원문 기반.
+- pages/interviews.md:164 · - (요약 보강 필요) KBS연예 인터뷰 원문 기반으로 정리.
+- pages/interviews.md:234 · - (요약 보강 필요) 작품/프로모션 기사 원문 기반으로 정리.
+- pages/interviews.md:273 · - (요약 보강 필요) 작품 관련 기사 원문 기반.
 
 <!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
 
@@ -67,7 +67,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-10 20:53 (Asia/Seoul)
+- 실행: 2026-02-10 20:57 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -79,17 +79,22 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 > 목표: 매일 1개 이상 ‘(확인 필요)/(교차검증 필요)’를 자동으로 줄이도록 시도합니다.
 > 원칙: 사람(주인님) 입력 없이 가능한 범위에서만 자동 보강하며, 불가능한 경우는 ‘이유’를 기록하고 스킵합니다.
 
-### 1순위: endorsements ‘공식 발표’ 링크 1개 확정
-- 대상: 려(RYO)
-- 빠른 검색: https://www.google.com/search?q=%EB%A0%A4%28RYO%29%20%EA%B3%A0%EC%9C%A4%EC%A0%95%20%EB%AA%A8%EB%8D%B8%20%EA%B3%B5%EC%8B%9D%20%EB%B0%9C%ED%91%9C
-- 참고(캠페인/영상): https://youtu.be/dmS_nEQYv2I
-- 찾으면 아래 형태로 한 줄 추가:
-  - `APPROVE_ENDO|려(RYO)|https://...`
+### 자동 처리 우선순위(무인)
+- 1) endorsements: 공식 사이트 접근 가능 시 ‘공식 발표’ 링크 자동 확정, 불가 시 ‘공식 채널 게시물(유튜브/인스타)’로 자동 대체
+- 2) awards: 공식 도메인/본문 검증 통과 시에만 근거(공식) 자동 채움(검색/접근 불가 시 스킵)
+- 3) profile(출생지/학력): 공식/원문 페이지에서 명시가 확인되는 경우에만 자동 반영(대부분 스킵될 수 있음)
+
+### 오늘의 예상 결과
+- 사이트 차단/타임아웃/검색 제한이 있으면 일부 항목은 ‘(확인 필요)’로 남을 수 있습니다.
+- 대신 파이프라인은 멈추지 않고 다음 실행에서 계속 재시도합니다.
 
 <!-- AUTO-DAILY-PROMOTION-TASK:END -->
 
 ## 실행 이력
 - 2026-02-10 13:19 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:57 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-10 20:56 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:SKIP, endo-proof-suggest:SKIP, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
+- 2026-02-10 20:56 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:SKIP, endo-proof-suggest:SKIP, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
 - 2026-02-10 20:53 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 20:52 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
 - 2026-02-10 20:52 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, profile-proof-suggest:OK, endo-proof-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
@@ -138,11 +143,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-10 18:12 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-10 18:09 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 - 2026-02-10 18:08 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-10 18:07 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
-- 2026-02-10 18:06 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-10 17:56 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1756.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
-- 2026-02-10 17:55 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-10 17:55 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-10_1755.tar.gz), collect:OK, promote-suggest:OK, lead-suggest:OK, promote-safe:OK, endo-dates:OK, work-candidates:OK
 
 ## 4) 권장 체크
 

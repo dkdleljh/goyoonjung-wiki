@@ -202,10 +202,7 @@ if [ "${RC_LEAD:-0}" -ne 0 ]; then
 else
   NOTE="$NOTE, lead-suggest:OK"
 fi
-# (Unmanned) suggestion steps removed
-NOTE="$NOTE, profile-proof-suggest:SKIP"
-NOTE="$NOTE, endo-proof-suggest:SKIP"
-NOTE="$NOTE, awards-proof-suggest:SKIP"
+# (Unmanned) user-facing URL-hunting suggestions removed
 if [ "${RC_AWARD_PROOF_AUTO:-0}" -ne 0 ]; then
   NOTE="$NOTE, awards-proof-auto:SKIP"
 else

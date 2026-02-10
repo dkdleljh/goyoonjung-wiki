@@ -99,59 +99,22 @@ def build_block() -> str:
         "",
     ]
 
-    # Choose priority (pragmatic for high success rate):
-    # endorsements -> awards -> profile
-    # Rationale: profile birthplace/education often isn't present on official pages.
+    # Unmanned mode: we do NOT ask the user to find URLs.
+    # Instead we describe what the automation will attempt next.
 
-    # endorsements
-    for f in ENDO_FILES:
-        if not os.path.exists(f):
-            continue
-        e = find_first_endo_needing_announce(read(f))
-        if e:
-            brand, camp = e
-            lines += [
-                "### 1순위: endorsements ‘공식 발표’ 링크 1개 확정",
-                f"- 대상: {brand}",
-                f"- 빠른 검색: {google(f'{brand} 고윤정 모델 공식 발표')}",
-            ]
-            if camp:
-                lines.append(f"- 참고(캠페인/영상): {camp}")
-            lines += [
-                "- 찾으면 아래 형태로 한 줄 추가:",
-                f"  - `APPROVE_ENDO|{brand}|https://...`",
-                "",
-                MARK_END,
-            ]
-            return "\n".join(lines)
-
-    aw = read(AWARDS) if os.path.exists(AWARDS) else ""
-    first = find_first_award_needing_proof(aw)
-    if first:
-        y, award, cat = first
-        lines += [
-            "### 2순위: awards 근거(공식) 1개 채우기",
-            f"- 대상: {y} / {award} / {cat}",
-            f"- 빠른 검색: {google(f'{award} {y} 고윤정 {cat} 공식')}",
-            "- 찾으면 아래 형태로 한 줄 추가:",
-            f"  - `APPROVE_AWARD|{y}|{award}|https://...`",
-            "",
-            MARK_END,
-        ]
-        return "\n".join(lines)
-
-    prof = read(PROFILE) if os.path.exists(PROFILE) else ""
-    if "교차검증 필요" in prof:
-        lines += [
-            "### 3순위: 프로필(출생지/학력) 교차검증 1개 끝내기",
-            "- 추천 액션: 소속사(MAA) 또는 방송사/매체 원문에서 해당 정보가 명시된 페이지 1개를 찾기",
-            f"- 빠른 검색: {google('site:maa.co.kr 고윤정 출생 학력')}",
-            "- 찾으면 아래 형태로 한 줄 추가(예시):",
-            "  - `APPROVE_PROFILE|출생지|https://...`",
-            "",
-            MARK_END,
-        ]
-        return "\n".join(lines)
+    lines += [
+        "### 자동 처리 우선순위(무인)",
+        "- 1) endorsements: 공식 사이트 접근 가능 시 ‘공식 발표’ 링크 자동 확정, 불가 시 ‘공식 채널 게시물(유튜브/인스타)’로 자동 대체",
+        "- 2) awards: 공식 도메인/본문 검증 통과 시에만 근거(공식) 자동 채움(검색/접근 불가 시 스킵)",
+        "- 3) profile(출생지/학력): 공식/원문 페이지에서 명시가 확인되는 경우에만 자동 반영(대부분 스킵될 수 있음)",
+        "",
+        "### 오늘의 예상 결과", 
+        "- 사이트 차단/타임아웃/검색 제한이 있으면 일부 항목은 ‘(확인 필요)’로 남을 수 있습니다.",
+        "- 대신 파이프라인은 멈추지 않고 다음 실행에서 계속 재시도합니다.",
+        "",
+        MARK_END,
+    ]
+    return "\n".join(lines)
 
     lines += ["- (현재 자동으로 뽑을 미션이 없습니다)", "", MARK_END]
     return "\n".join(lines)
