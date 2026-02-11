@@ -1,0 +1,43 @@
+# 허용 도메인 allowlist (품질/안전용)
+# - 뉴스/참고 링크 자동 수집 단계에서 이 목록에 없는 출처는 원칙적으로 제외합니다.
+# - 필요 시 언제든 추가 가능
+
+# 공영/방송/공식/대형 포털(기사 원문)
+kstar.kbs.co.kr
+news.kbs.co.kr
+www.sports.khan.co.kr
+www.joongang.co.kr
+www.hani.co.kr
+www.chosun.com
+www.donga.com
+www.hankookilbo.com
+www.mk.co.kr
+www.edaily.co.kr
+www.yna.co.kr
+www.newsis.com
+www.sedaily.com
+www.sportsseoul.com
+www.sportalkorea.com
+sports.donga.com
+isplus.com
+www.mbn.co.kr
+www.koreatimes.co.kr
+
+# 매거진/패션
+www.vogue.co.kr
+www.elle.co.kr
+www.wkorea.com
+www.harpersbazaar.co.kr
+www.gqkorea.co.kr
+www.marieclairekorea.com
+
+# 브랜드/기관/공식
+www.chanel.com
+www.chanel.com/kr
+
+# 플랫폼/영상(링크는 허용하되, 링크체크는 무거워서 WARN 처리)
+youtu.be
+youtube.com
+www.youtube.com
+
+# (추가 필요 시 아래에 도메인만 한 줄씩)

@@ -34,6 +34,7 @@ sys.path.append(str(SCRIPT_DIR))
 import db_manager
 
 CONF_PATH = BASE / "config" / "google-news-sites.txt"
+ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 TIMEOUT = 15
@@ -74,6 +75,19 @@ def get_today_news_path() -> Path:
     return BASE / "news" / f"{today}.md"
 
 
+def load_allowlist() -> set[str]:
+    if not ALLOWLIST.exists():
+        return set()
+    out: set[str] = set()
+    for raw in ALLOWLIST.read_text(encoding="utf-8").splitlines():
+        ln = raw.strip()
+        if not ln or ln.startswith('#'):
+            continue
+        ln = ln.replace('https://', '').replace('http://', '')
+        out.add(ln.strip('/'))
+    return out
+
+
 def load_sites() -> list[Site]:
     if not CONF_PATH.exists():
         return []
@@ -112,6 +126,7 @@ def append_items(path: Path, items: list[dict]) -> None:
 
 def main() -> int:
     db_manager.init_db()
+    allow = load_allowlist()
     sites = load_sites()
     if not sites:
         return 0
@@ -152,6 +167,12 @@ def main() -> int:
             real_url = decode_google_news_url(origin_link)
             if "news.google.com" in real_url:
                 continue
+            if allow:
+                from urllib.parse import urlsplit
+                host = urlsplit(real_url).netloc.lower().split(':', 1)[0]
+                if host not in allow:
+                    continue
+
             if db_manager.is_url_seen(real_url):
                 continue
 

@@ -4,6 +4,7 @@
 Rules (conservative):
 - Remove lines that contain a URL pointing to news.google.com/rss/articles (unresolved redirect)
 - Remove duplicate URLs (keep first)
+- Remove URLs whose domain is NOT in config/allowlist-domains.txt (quality gate)
 
 Does NOT attempt semantic relevance ranking.
 """
@@ -14,9 +15,11 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlsplit
 
 BASE = Path(__file__).resolve().parent.parent
 NEWS_DIR = BASE / "news"
+ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
 
 URL_RE = re.compile(r"https?://[^\s)]+")
 
@@ -26,16 +29,33 @@ def today_path() -> Path:
     return NEWS_DIR / f"{today}.md"
 
 
+def load_allowlist() -> set[str]:
+    if not ALLOWLIST.exists():
+        return set()
+    out: set[str] = set()
+    for raw in ALLOWLIST.read_text(encoding="utf-8").splitlines():
+        ln = raw.strip()
+        if not ln or ln.startswith('#'):
+            continue
+        # allow accidental scheme
+        ln = ln.replace('https://', '').replace('http://', '')
+        out.add(ln.strip('/'))
+    return out
+
+
 def main() -> int:
     path = today_path()
     if not path.exists():
         print("sanitize_news_log: no file")
         return 0
 
+    allow = load_allowlist()
+
     lines = path.read_text(encoding="utf-8").splitlines(True)
     out: list[str] = []
     seen: set[str] = set()
     removed = 0
+    removed_allow = 0
     deduped = 0
 
     for ln in lines:
@@ -49,6 +69,14 @@ def main() -> int:
             removed += 1
             continue
 
+        # quality gate: allowlist domains only (if allowlist is configured)
+        if allow:
+            host = urlsplit(url).netloc.lower()
+            host = host.split(':', 1)[0]
+            if host not in allow:
+                removed_allow += 1
+                continue
+
         if url in seen:
             deduped += 1
             continue
@@ -59,7 +87,7 @@ def main() -> int:
     if out != lines:
         path.write_text("".join(out), encoding="utf-8")
 
-    print(f"sanitize_news_log: removed_google={removed} deduped={deduped}")
+    print(f"sanitize_news_log: removed_google={removed} removed_allow={removed_allow} deduped={deduped}")
     return 0
 
 

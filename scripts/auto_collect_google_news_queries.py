@@ -28,6 +28,7 @@ sys.path.append(str(SCRIPT_DIR))
 import db_manager
 
 CONF_PATH = BASE / "config" / "google-news-queries.txt"
+ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 TIMEOUT = 15
@@ -83,6 +84,19 @@ def append_lines(path: Path, lines: list[str]) -> None:
             f.write(ln + "\n")
 
 
+def load_allowlist() -> set[str]:
+    if not ALLOWLIST.exists():
+        return set()
+    out: set[str] = set()
+    for raw in ALLOWLIST.read_text(encoding="utf-8").splitlines():
+        ln = raw.strip()
+        if not ln or ln.startswith('#'):
+            continue
+        ln = ln.replace('https://', '').replace('http://', '')
+        out.add(ln.strip('/'))
+    return out
+
+
 def load_queries() -> list[tuple[str, str]]:
     if not CONF_PATH.exists():
         return []
@@ -100,6 +114,7 @@ def load_queries() -> list[tuple[str, str]]:
 
 def main() -> int:
     db_manager.init_db()
+    allow = load_allowlist()
     qlist = load_queries()
     if not qlist:
         return 0
@@ -138,6 +153,13 @@ def main() -> int:
             # 품질: 리다이렉트 해소 실패(여전히 news.google.com)이면 스킵
             if "news.google.com" in real_url:
                 continue
+            # allowlist gate (optional)
+            if allow:
+                from urllib.parse import urlsplit
+                host = urlsplit(real_url).netloc.lower().split(':', 1)[0]
+                if host not in allow:
+                    continue
+
             if db_manager.is_url_seen(real_url):
                 continue
 
