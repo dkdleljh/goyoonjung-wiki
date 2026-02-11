@@ -77,6 +77,10 @@ RC_COLLECT=$?
 retry 3 10 ./scripts/auto_collect_google_news.py
 RC_GNEWS=$?
 
+# 1.55) Collect portal news links (Naver/Daum) (best-effort)
+retry 2 5 timeout 120 ./scripts/auto_collect_news_links.py
+RC_PORTAL_NEWS=$?
+
 # 1.6) Estimate Schedule (New)
 retry 3 5 ./scripts/auto_collect_schedule.py
 RC_SCHED=$?
@@ -169,6 +173,11 @@ if [ "${RC_SCHED:-0}" -ne 0 ]; then
   NOTE="$NOTE, sched:SKIP"
 else
   NOTE="$NOTE, sched:OK"
+fi
+if [ "${RC_PORTAL_NEWS:-0}" -ne 0 ]; then
+  NOTE="$NOTE, portal-news:SKIP"
+else
+  NOTE="$NOTE, portal-news:OK"
 fi
 if [ "${RC_AGENCY:-0}" -ne 0 ]; then
   NOTE="$NOTE, agency:SKIP"
