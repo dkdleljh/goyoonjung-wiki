@@ -20,6 +20,11 @@ LOCK_DIR="$BASE/.locks"
 mkdir -p "$LOCK_DIR"
 LOCK_FILE="$LOCK_DIR/daily-update.lock"
 
+# Notification throttle state (avoid spam)
+NOTIFY_DIR="$LOCK_DIR"
+SUCCESS_STAMP="$NOTIFY_DIR/last-success-notify.${TODAY}.stamp"
+FAIL_STAMP="$NOTIFY_DIR/last-fail-notify.stamp"
+
 # Run log (for detailed notifications)
 RUN_LOG="$LOCK_DIR/run_${TODAY}.log"
 : > "$RUN_LOG" 2>/dev/null || true
@@ -50,15 +55,18 @@ on_exit() {
   if [ "$RUN_OK" -ne 1 ]; then
     ./scripts/mark_news_status.sh 실패 "auto: daily update aborted (rc=$rc)" >/dev/null 2>&1 || true
     # Debounce FAIL notifications: at most once per 30 minutes
+    local now last
     now=$(date +%s)
     last=0
-    if [ -f "$FAIL_STAMP" ]; then last=$(cat "$FAIL_STAMP" 2>/dev/null || echo 0); fi
+    if [ -n "${FAIL_STAMP:-}" ] && [ -f "${FAIL_STAMP}" ]; then
+      last=$(cat "${FAIL_STAMP}" 2>/dev/null || echo 0)
+    fi
     if [ $((now - last)) -ge 1800 ]; then
-      echo "$now" > "$FAIL_STAMP" 2>/dev/null || true
+      [ -n "${FAIL_STAMP:-}" ] && echo "$now" > "${FAIL_STAMP}" 2>/dev/null || true
       # include step + last error-ish lines from log
-      err_tail=$(tail -n 25 "$RUN_LOG" 2>/dev/null | grep -E "Traceback|ERROR|ERR:|Error|Failed|denied|403|404|timeout" | tail -n 6 | tr -d '\r' | sed -e 's/[`]/"/g' || true)
-      legend="\n---\nLegend: GREEN=전체 성공(스킵 없음), YELLOW=전체 성공(일부 스킵/경고), RED=실패/중단"
-      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "step=${CURRENT_STEP}\nrc=${rc}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)$legend" red >/dev/null 2>&1 || true
+      err_tail=$(tail -n 40 "${RUN_LOG:-/dev/null}" 2>/dev/null | grep -E "Traceback|ERROR|ERR:|Error|Failed|denied|403|404|timeout" | tail -n 8 | tr -d '\r' | sed -e 's/[`]/"/g' || true)
+      legend="\n---\nLegend: GREEN=핵심 수집/정리 단계 모두 성공, YELLOW=핵심 단계 일부 스킵(그러나 전체 런은 성공), RED=실패/중단"
+      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "step=${CURRENT_STEP:-unknown}\nrc=${rc}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)$legend" red >/dev/null 2>&1 || true
     fi
   fi
 }
@@ -75,10 +83,7 @@ fi
 # Best-effort: flush any queued notifications first
 python3 ./scripts/flush_notify_queue.py >/dev/null 2>&1 || true
 
-# Notification throttle state (avoid spam)
-NOTIFY_DIR="$LOCK_DIR"
-SUCCESS_STAMP="$NOTIFY_DIR/last-success-notify.${TODAY}.stamp"
-FAIL_STAMP="$NOTIFY_DIR/last-fail-notify.stamp"
+# Notification throttle state already initialized above
 
 # Core tasks
 # 1) Collect new link-only items (events/photos/interviews) from reliable sources
