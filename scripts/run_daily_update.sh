@@ -122,7 +122,8 @@ retry 2 5 ./scripts/suggest_awards_official_proofs.py
 RC_AWARD_PROOF=$?
 
 # 3.6) Auto-fill official proof links for awards when verified (strict allowlist)
-retry 2 20 ./scripts/promote_awards_official_proofs.py
+# Keep bounded: official sites/search can be slow or block.
+retry 2 20 timeout 90 ./scripts/promote_awards_official_proofs.py
 RC_AWARD_PROOF_AUTO=$?
 
 # 4) Safe metadata promotion
@@ -130,11 +131,12 @@ retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
 
 # 4.5) Endorsements date promotion
-retry 2 15 ./scripts/promote_endorsement_dates.py
+# Bounded: may call network/yt-dlp.
+retry 2 15 timeout 120 ./scripts/promote_endorsement_dates.py
 RC_ENDO_DATES=$?
 
 # 4.6) Interviews: auto-fill short summaries for KBS entries
-retry 2 20 ./scripts/promote_interview_summaries_kbs.py
+retry 2 20 timeout 90 ./scripts/promote_interview_summaries_kbs.py
 RC_INT_SUM=$?
 
 # 5) Rebuild candidates for work pages
