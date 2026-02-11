@@ -16,6 +16,9 @@ TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 NOW=$(TZ="$TZ" date +"%Y-%m-%d %H:%M")
 
+# Unique run id for notification correlation
+RUN_ID="$(TZ=\"$TZ\" date +%Y%m%d-%H%M%S)"
+
 LOCK_DIR="$BASE/.locks"
 mkdir -p "$LOCK_DIR"
 LOCK_FILE="$LOCK_DIR/daily-update.lock"
@@ -66,7 +69,7 @@ on_exit() {
       # include step + last error-ish lines from log
       err_tail=$(tail -n 40 "${RUN_LOG:-/dev/null}" 2>/dev/null | grep -E "Traceback|ERROR|ERR:|Error|Failed|denied|403|404|timeout" | tail -n 8 | tr -d '\r' | sed -e 's/[`]/"/g' || true)
       legend="\n---\nLegend: GREEN=핵심 수집/정리 단계 모두 성공, YELLOW=핵심 단계 일부 스킵(그러나 전체 런은 성공), RED=실패/중단"
-      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "step=${CURRENT_STEP:-unknown}\nrc=${rc}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)$legend" red >/dev/null 2>&1 || true
+      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL (#${RUN_ID})" "step=${CURRENT_STEP:-unknown}\nrc=${rc}\n${FLUSH_SUM}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)$legend" red >/dev/null 2>&1 || true
     fi
   fi
 }
@@ -81,7 +84,8 @@ fi
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
 
 # Best-effort: flush any queued notifications first
-python3 ./scripts/flush_notify_queue.py >/dev/null 2>&1 || true
+FLUSH_SUM=$(python3 ./scripts/flush_notify_queue.py 2>/dev/null || true)
+if [ -z "${FLUSH_SUM:-}" ]; then FLUSH_SUM="flush: (no output)"; fi
 
 # Notification throttle state already initialized above
 
@@ -427,7 +431,7 @@ EOF
   fi
 
   legend="\n---\nLegend: GREEN=핵심 수집/정리 단계 모두 성공, YELLOW=핵심 단계 일부 스킵(그러나 전체 런은 성공), RED=실패/중단"
-  python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
+  python3 ./scripts/notify_status.py "goyoonjung-wiki: OK (#${RUN_ID})" "$MSG\n$NOTE\n${FLUSH_SUM}\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
 fi
 
 echo "OK: $MSG"
