@@ -26,6 +26,7 @@ LOCK_FILE="$LOCK_DIR/daily-update.lock"
 # Notification throttle state (avoid spam)
 NOTIFY_DIR="$LOCK_DIR"
 SUCCESS_STAMP="$NOTIFY_DIR/last-success-notify.${TODAY}.stamp"
+SUCCESS_COMMIT_FILE="$NOTIFY_DIR/last-success-notify.commit"
 FAIL_STAMP="$NOTIFY_DIR/last-fail-notify.stamp"
 STATUS_FILE="$NOTIFY_DIR/last-run-status.txt"
 RECOVERY_STAMP="$NOTIFY_DIR/last-recovery-notify.${TODAY}.stamp"
@@ -384,12 +385,18 @@ git commit -m "$MSG" >/dev/null
 
 git push origin main >/dev/null
 
+NEW_HEAD=$(git rev-parse --short HEAD 2>/dev/null || echo unknown)
+
 # Success notification:
-# - normal OK: once per day
-# - recovery: if last status was FAIL, send once even if daily OK already sent
+# - send if HEAD changed since last notified success (prevents missing notifications but avoids spam)
+# - also send a one-off RECOVERED if last status was FAIL
 SEND_KIND=""
-if [ ! -f "$SUCCESS_STAMP" ]; then
+LAST_OK_COMMIT=""
+if [ -f "$SUCCESS_COMMIT_FILE" ]; then LAST_OK_COMMIT=$(cat "$SUCCESS_COMMIT_FILE" 2>/dev/null || true); fi
+
+if [ "$NEW_HEAD" != "unknown" ] && [ "$NEW_HEAD" != "$LAST_OK_COMMIT" ]; then
   SEND_KIND="ok"
+  echo "$NEW_HEAD" > "$SUCCESS_COMMIT_FILE" 2>/dev/null || true
   date -Iseconds > "$SUCCESS_STAMP" 2>/dev/null || true
 elif [ -f "$STATUS_FILE" ] && grep -q '^fail ' "$STATUS_FILE" 2>/dev/null && [ ! -f "$RECOVERY_STAMP" ]; then
   SEND_KIND="recovered"
@@ -450,7 +457,7 @@ EOF
   if [ "$SEND_KIND" = "recovered" ]; then
     title="goyoonjung-wiki: RECOVERED (#${RUN_ID})"
   fi
-  python3 ./scripts/notify_status.py "$title" "$MSG\n$NOTE\n${FLUSH_SUM}\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
+  python3 ./scripts/notify_status.py "$title" "$MSG (commit=$NEW_HEAD)\n$NOTE\n${FLUSH_SUM}\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
 fi
 
 echo "OK: $MSG"
