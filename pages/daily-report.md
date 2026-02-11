@@ -1,17 +1,19 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-12 00:18 (Asia/Seoul)
+> 갱신: 2026-02-12 00:21 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 6707022 2026-02-12 00:17:27 +0900 chore: expand official TV/OTT sources (reduce omissions)
+- 58d049e 2026-02-12 00:18:35 +0900 daily: update 2026-02-12
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- config/allowlist-domains.txt
-- config/google-news-queries.txt
-- config/google-news-sites.txt
-- sources/watchlist.md
+- news/2026-02-12.md
+- pages/daily-report.md
+- pages/progress.md
+- pages/system_status.md
+- pages/works/alchemy-of-souls.md
+- pages/works/moving.md
 
 ## 3) 오늘 실행 상태(news/2026-02-12.md)
 
@@ -51,14 +53,16 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-12 00:14 (Asia/Seoul)
+- 실행: 2026-02-12 00:20 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
-- C(완성도 우선) 백로그 진행률: 6/20 (30%)
+- C(완성도 우선) 백로그 진행률: 11/20 (55%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 ## 실행 이력
 
+- 2026-02-12 00:20 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-12 00:18 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-12 00:14 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-12 00:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-12 00:09 (Asia/Seoul) · 진행중 · auto: daily update running

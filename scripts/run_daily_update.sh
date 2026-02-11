@@ -44,6 +44,7 @@ on_exit() {
   # if not marked success, mark failure (prevents stuck '진행중')
   if [ "$RUN_OK" -ne 1 ]; then
     ./scripts/mark_news_status.sh 실패 "auto: daily update aborted (rc=$rc)" >/dev/null 2>&1 || true
+    python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "daily update aborted (rc=$rc). Check news/${TODAY}.md" red >/dev/null 2>&1 || true
   fi
 }
 trap on_exit EXIT
@@ -323,5 +324,7 @@ MSG="daily: update ${TODAY}"
 git commit -m "$MSG" >/dev/null
 
 git push origin main >/dev/null
+
+python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE" green >/dev/null 2>&1 || true
 
 echo "OK: $MSG"

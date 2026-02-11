@@ -18,10 +18,10 @@
 
 ### 화보/사진(우선)
 - [x] (화보) Marie Claire Korea 추가 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
-- [ ] (화보) Vogue Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
+- [x] (화보) Vogue Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
 - [x] (화보) ELLE Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
-- [ ] (캠페인) 브랜드 캠페인/룩북 원문 1건 확보 → `pages/pictorials/campaign.md` 착지
-- [ ] (메이킹) 공식 유튜브/매거진 메이킹 1건 확보 → `pages/pictorials/making.md` 착지
+- [x] (캠페인) 브랜드 캠페인/룩북 원문 1건 확보 → `pages/pictorials/campaign.md` 착지
+- [x] (메이킹) 공식 유튜브/매거진 메이킹 1건 확보 → `pages/pictorials/making.md` 착지
 
 ### 출연/행사
 - [ ] (출연) 방송사/공식 유튜브 기반 예능/홍보 출연 1건 추가 → `pages/appearances.md`
@@ -35,10 +35,10 @@
 - [ ] (대외활동) 기관/브랜드/시상식 등 ‘위촉/선정’ 공식 발표 1건 확보 → `pages/profile.md` 또는 `pages/timeline.md`에 반영
 
 ### 수상/노미네이트(교차검증)
-- [ ] (수상) 공식 시상식 페이지 1건에서 고윤정 항목/작품 후보 근거 확보 → `pages/awards.md`
+- [x] (수상) 공식 시상식 페이지 1건에서 고윤정 항목/작품 후보 근거 확보 → `pages/awards.md`
 
 ### 스케줄(공식 공개 일정)
-- [ ] (스케줄) 공개/방영/행사 등 공식 일정 1건 확보 → `pages/schedule.md` Upcoming/Past 정리
+- [x] (스케줄) 공개/방영/행사 등 공식 일정 1건 확보 → `pages/schedule.md` Upcoming/Past 정리
 
 ## 오늘의 원칙(자동 업데이트 시)
 - ‘많이 수집’은 하되, 최종 기록은 **공식 링크**로만 확정합니다.

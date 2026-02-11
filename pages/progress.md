@@ -1,10 +1,10 @@
 # 완성도 대시보드
 
-> 갱신: 2026-02-12 00:18 (Asia/Seoul)
+> 갱신: 2026-02-12 00:23 (Asia/Seoul)
 
 ## 1) 백로그 진행률(과거 이력 보강)
 
-- 완료: **6/20** (**30.0%**)
+- 완료: **11/20** (**55.0%**)
 
 ### 항목
 - [x] 광고/엠버서더 전체 확장 (현재: 13개 항목)
@@ -16,17 +16,17 @@
 - [x] 작품별 페이지 링크 박스 보강
 - [ ] 스케줄(공식 공개 ‘미래 일정’) 채우기
 - [x] (화보) Marie Claire Korea 추가 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
-- [ ] (화보) Vogue Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
+- [x] (화보) Vogue Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
 - [x] (화보) ELLE Korea 원문 1건 확보 → `pages/pictorials/editorial.md` 착지
-- [ ] (캠페인) 브랜드 캠페인/룩북 원문 1건 확보 → `pages/pictorials/campaign.md` 착지
-- [ ] (메이킹) 공식 유튜브/매거진 메이킹 1건 확보 → `pages/pictorials/making.md` 착지
+- [x] (캠페인) 브랜드 캠페인/룩북 원문 1건 확보 → `pages/pictorials/campaign.md` 착지
+- [x] (메이킹) 공식 유튜브/매거진 메이킹 1건 확보 → `pages/pictorials/making.md` 착지
 - [ ] (출연) 방송사/공식 유튜브 기반 예능/홍보 출연 1건 추가 → `pages/appearances.md`
 - [ ] (행사) 제작발표회/시사회/포토월 1건(공식 기사) 추가 → `pages/appearances.md`
 - [ ] (시상식) 참석/수상/노미네이트 1건(공식 페이지 or 공식 영상) 추가 → `pages/appearances.md` + `pages/awards.md`
 - [ ] (MV) 공식 MV 링크 1건 확보 → `pages/appearances.md`(구분: 기타/MV)
 - [ ] (대외활동) 기관/브랜드/시상식 등 ‘위촉/선정’ 공식 발표 1건 확보 → `pages/profile.md` 또는 `pages/timeline.md`에 반영
-- [ ] (수상) 공식 시상식 페이지 1건에서 고윤정 항목/작품 후보 근거 확보 → `pages/awards.md`
-- [ ] (스케줄) 공개/방영/행사 등 공식 일정 1건 확보 → `pages/schedule.md` Upcoming/Past 정리
+- [x] (수상) 공식 시상식 페이지 1건에서 고윤정 항목/작품 후보 근거 확보 → `pages/awards.md`
+- [x] (스케줄) 공개/방영/행사 등 공식 일정 1건 확보 → `pages/schedule.md` Upcoming/Past 정리
 
 ## 2) 커버리지(요약)
 
