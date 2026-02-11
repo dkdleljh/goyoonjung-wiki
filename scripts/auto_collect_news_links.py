@@ -30,6 +30,10 @@ from urllib.parse import quote_plus, urljoin
 import requests
 from bs4 import BeautifulSoup
 
+SCRIPT_DIR = os.path.dirname(__file__)
+sys.path.append(SCRIPT_DIR)
+import relevance
+
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SEEN_TXT = os.path.join(BASE, "sources", "seen-urls.txt")
 INTERVIEWS_MD = os.path.join(BASE, "pages", "interviews.md")
@@ -217,8 +221,8 @@ def build_entries(urls: list[str], seen: set[str], source_label: str) -> list[En
         title = og_title(u)
         if not title:
             continue
-        if QUERY not in title:
-            # still allow, but it's often false positive; skip conservatively
+        # Precision-first relevance gate
+        if not relevance.is_relevant(title, u, source_label):
             continue
         date = extract_date_from_url(u) or "(페이지 내 표기 확인 필요)"
         year = int(date[:4]) if date[:4].isdigit() else time.gmtime().tm_year

@@ -22,6 +22,8 @@ NEWS_DIR = BASE / "news"
 ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
 
 URL_RE = re.compile(r"https?://[^\s)]+")
+MD_LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)]+)\)")
+NAME = "고윤정"
 
 
 def today_path() -> Path:
@@ -65,6 +67,14 @@ def main() -> int:
             continue
         url = m.group(0)
 
+        # 제목 기반 품질 게이트: 마크다운 링크 텍스트에 '고윤정'이 없으면 제거
+        mm = MD_LINK_RE.search(ln)
+        if mm:
+            title = mm.group(1)
+            if NAME not in title:
+                removed_allow += 1
+                continue
+
         if "news.google.com/rss/articles" in url:
             removed += 1
             continue
@@ -87,7 +97,7 @@ def main() -> int:
     if out != lines:
         path.write_text("".join(out), encoding="utf-8")
 
-    print(f"sanitize_news_log: removed_google={removed} removed_allow={removed_allow} deduped={deduped}")
+    print(f"sanitize_news_log: removed_google={removed} removed_other={removed_allow} deduped={deduped}")
     return 0
 
 
