@@ -40,6 +40,10 @@ EDITORIAL_MD = os.path.join(BASE, "pages", "pictorials", "editorial.md")
 
 KBS_PERSON = "https://kstar.kbs.co.kr/person_view.html?idx=220921"  # 고윤정
 VOGUE_SEARCH = "https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95"
+ELLE_SEARCH = "https://www.elle.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95"
+W_SEARCH = "https://www.wkorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95"
+BAZAAR_SEARCH = "https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95"
+GQ_SEARCH = "https://www.gqkorea.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95"
 
 
 @dataclass(frozen=True)
@@ -272,6 +276,82 @@ def vogue_collect(limit: int = 12) -> list[Entry]:
     return out
 
 
+def generic_search_collect(site: str, search_url: str, brand: str, limit: int = 10) -> list[Entry]:
+    """Generic collector for magazine sites with a server-rendered search page.
+
+    This is best-effort and conservative:
+    - parse hrefs from search HTML
+    - visit candidate URLs and use og:title
+    - infer date from URL when possible
+
+    If anything is blocked/slow, it returns [] (no hard failure).
+    """
+    try:
+        html = http_get(search_url)
+    except Exception:
+        return []
+
+    links = re.findall(r"href=[\"']([^\"']+)[\"']", html, flags=re.I)
+    urls: list[str] = []
+    seen_local: set[str] = set()
+    for href in links:
+        u = urljoin(search_url, href).split("#")[0]
+        if site not in u:
+            continue
+        # avoid obvious non-content pages
+        if any(x in u for x in ["/wp-admin", "/feed", "/tag/", "/category/"]):
+            continue
+        if u in seen_local:
+            continue
+        seen_local.add(u)
+        urls.append(u)
+
+    urls = sorted(urls)
+
+    out: list[Entry] = []
+    for u in urls:
+        if len(out) >= limit:
+            break
+        try:
+            page = http_get(u)
+        except Exception:
+            continue
+        soup = BeautifulSoup(page, "html.parser")
+        title = ""
+        og = soup.find("meta", property="og:title")
+        if og and og.get("content"):
+            title = " ".join(og["content"].split())
+        elif soup.title and soup.title.string:
+            title = " ".join(soup.title.string.split())
+        if "고윤정" not in title:
+            continue
+
+        date = "(페이지 내 표기 확인 필요)"
+        year = None
+        # try: /YYYY/MM/DD/
+        m = re.search(r"/(20\d{2})/(\d{2})/(\d{2})/", u)
+        if m:
+            year = int(m.group(1))
+            date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+
+        if not year:
+            continue
+
+        block = "\n".join([
+            f"- 날짜: {date}",
+            f"- 매체: {brand}",
+            "- 구분: 화보/기사",
+            f"- 제목: {title}",
+            f"- 링크(원문): {u}",
+            "- 상태: 공식확정",
+            f"- id: {u}",
+        ])
+        out.append(Entry(year=year, block=block, url=u))
+        time.sleep(0.2)
+
+    return out
+
+
 def apply_entries(path: str, entries: Iterable[Entry]) -> tuple[int, list[str]]:
     md = read_text(path)
     changed = 0
@@ -309,6 +389,10 @@ def main() -> int:
     interviews = [e for e in interviews if e.url not in seen]
 
     vogue_entries = [e for e in vogue_collect() if e.url not in seen]
+    elle_entries = [e for e in generic_search_collect("www.elle.co.kr", ELLE_SEARCH, "ELLE Korea", limit=8) if e.url not in seen]
+    w_entries = [e for e in generic_search_collect("www.wkorea.com", W_SEARCH, "W Korea", limit=8) if e.url not in seen]
+    bazaar_entries = [e for e in generic_search_collect("www.harpersbazaar.co.kr", BAZAAR_SEARCH, "Harper’s BAZAAR Korea", limit=8) if e.url not in seen]
+    gq_entries = [e for e in generic_search_collect("www.gqkorea.co.kr", GQ_SEARCH, "GQ Korea", limit=8) if e.url not in seen]
 
     ch = 0
     added_all: list[str] = []
@@ -320,6 +404,14 @@ def main() -> int:
     c, u = apply_entries(INTERVIEWS_MD, interviews)
     ch += c; added_all += u
     c, u = apply_entries(EDITORIAL_MD, vogue_entries)
+    ch += c; added_all += u
+    c, u = apply_entries(EDITORIAL_MD, elle_entries)
+    ch += c; added_all += u
+    c, u = apply_entries(EDITORIAL_MD, w_entries)
+    ch += c; added_all += u
+    c, u = apply_entries(EDITORIAL_MD, bazaar_entries)
+    ch += c; added_all += u
+    c, u = apply_entries(EDITORIAL_MD, gq_entries)
     ch += c; added_all += u
 
     # Auto-add to seen-urls (best-effort)

@@ -114,14 +114,23 @@ record_reason() {
 # 1) Collect
 retry 3 20 ./scripts/auto_collect_visual_links.py
 RC_COLLECT=$?
+if [ "$RC_COLLECT" -ne 0 ]; then
+  record_reason "collect" "$RC_COLLECT" "error" "auto_collect_visual_links failed"
+fi
 
 # 2) Write daily encyclopedia-promotion suggestions
 retry 2 5 ./scripts/suggest_encyclopedia_promotions.py
 RC_SUGGEST=$?
+if [ "$RC_SUGGEST" -ne 0 ]; then
+  record_reason "promote-suggest" "$RC_SUGGEST" "error" "suggest_encyclopedia_promotions failed"
+fi
 
 # 2.5) Suggest one daily promotion task (auto-only; no approvals required)
 retry 2 5 ./scripts/suggest_daily_promotion_task.py
 RC_DAILY_TASK=$?
+if [ "$RC_DAILY_TASK" -ne 0 ]; then
+  record_reason "daily-task" "$RC_DAILY_TASK" "error" "suggest_daily_promotion_task failed"
+fi
 
 # 2.6) Rebuild fixed lead blocks (index/profile)
 set +e
@@ -136,6 +145,9 @@ lock_touch
 # 3) Suggest lead paragraphs (draft, written to news)
 retry 2 5 ./scripts/suggest_lead_paragraphs.py
 RC_LEAD=$?
+if [ "$RC_LEAD" -ne 0 ]; then
+  record_reason "lead-suggest" "$RC_LEAD" "error" "suggest_lead_paragraphs failed"
+fi
 
 # 3.2) (Unmanned) No user-facing URL-hunting suggestion steps here.
 #     Proof-link discovery is handled by strict auto-promoters only.
@@ -301,6 +313,9 @@ set -e
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1
 RC_CAND=$?
 set -e
+if [ "$RC_CAND" -ne 0 ]; then
+  record_reason "work-candidates" "$RC_CAND" "error" "rebuild_work_link_candidates failed"
+fi
 
 # 5.1) Rebuild narrative timeline block
 set +e
@@ -330,7 +345,7 @@ else
 fi
 
 # Mark success (include key results)
-NOTE="auto: done (indexes:OK,lint:OK,${BACKUP_NOTE})"
+NOTE="auto: done (indexes:OK,lint:OK,${BACKUP_NOTE})"  # push 상태는 아래에서 후속으로 추가됨
 if [ "${RC_COLLECT:-0}" -ne 0 ]; then
   NOTE="$NOTE, collect:SKIP"
 else
@@ -458,8 +473,48 @@ if git diff --cached --quiet; then
 fi
 
 MSG="daily: update ${TODAY}"
-git commit -m "$MSG" >/dev/null
 
-git push origin main >/dev/null
+# 1일 1커밋 강제:
+# - 이미 오늘 daily 커밋이 HEAD라면 amend
+# - 아니라면 새 커밋 생성
+AMEND=0
+LAST_SUBJ=$(git log -1 --pretty=%s 2>/dev/null || echo "")
+if [ "$LAST_SUBJ" = "$MSG" ]; then
+  AMEND=1
+fi
+
+if [ $AMEND -eq 1 ]; then
+  git commit --amend --no-edit >/dev/null
+else
+  git commit -m "$MSG" >/dev/null
+fi
+
+# Push (amend 시에는 force-with-lease)
+set +e
+if [ $AMEND -eq 1 ]; then
+  git push --force-with-lease origin main >/dev/null 2>&1
+  RC_PUSH=$?
+else
+  git push origin main >/dev/null 2>&1
+  RC_PUSH=$?
+fi
+set -e
+
+# NOTE: push 결과에 따라 FINAL_NOTE/FINAL_STATUS를 조정한다.
+if [ $RC_PUSH -ne 0 ]; then
+  record_reason "push" "$RC_PUSH" "error" "git push failed"
+  FINAL_STATUS="부분성공"
+  FINAL_NOTE="${FINAL_NOTE}, push:FAIL"
+else
+  # Post-push integrity check
+  git fetch -q origin main >/dev/null 2>&1 || true
+  if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+    record_reason "push" 2 "error" "HEAD != origin/main after push"
+    FINAL_STATUS="부분성공"
+    FINAL_NOTE="${FINAL_NOTE}, push:DESYNC"
+  else
+    FINAL_NOTE="${FINAL_NOTE}, push:OK"
+  fi
+fi
 
 echo "OK: $MSG"
