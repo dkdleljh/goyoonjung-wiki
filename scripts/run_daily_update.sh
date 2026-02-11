@@ -72,8 +72,8 @@ on_exit() {
       [ -n "${FAIL_STAMP:-}" ] && echo "$now" > "${FAIL_STAMP}" 2>/dev/null || true
       # include step + last error-ish lines from log
       err_tail=$(tail -n 40 "${RUN_LOG:-/dev/null}" 2>/dev/null | grep -E "Traceback|ERROR|ERR:|Error|Failed|denied|403|404|timeout" | tail -n 8 | tr -d '\r' | sed -e 's/[`]/"/g' || true)
-      legend="\n---\nLegend: GREEN=핵심 수집/정리 단계 모두 성공, YELLOW=핵심 단계 일부 스킵(그러나 전체 런은 성공), RED=실패/중단"
-      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL (#${RUN_ID})" "step=${CURRENT_STEP:-unknown}\nrc=${rc}\n${FLUSH_SUM}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)$legend" red >/dev/null 2>&1 || true
+      legend="\n---\n레전드/Legend: GREEN=핵심 성공(스킵 없음) | YELLOW=성공(일부 스킵/경고) | RED=실패/중단"
+      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL/실패 (#${RUN_ID})" "step=${CURRENT_STEP:-unknown}\nrc=${rc}\n${FLUSH_SUM}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)$legend" red >/dev/null 2>&1 || true
     fi
   fi
 }
@@ -456,10 +456,10 @@ EOF
     color="yellow"
   fi
 
-  legend="\n---\nLegend: GREEN=핵심 수집/정리 단계 모두 성공, YELLOW=핵심 단계 일부 스킵(그러나 전체 런은 성공), RED=실패/중단"
-  title="goyoonjung-wiki: OK (#${RUN_ID})"
+  legend="\n---\n레전드/Legend: GREEN=핵심 성공(스킵 없음) | YELLOW=성공(일부 스킵/경고) | RED=실패/중단"
+  title="goyoonjung-wiki: OK/성공 (#${RUN_ID})"
   if [ "$SEND_KIND" = "recovered" ]; then
-    title="goyoonjung-wiki: RECOVERED (#${RUN_ID})"
+    title="goyoonjung-wiki: RECOVERED/복구 (#${RUN_ID})"
   fi
   python3 ./scripts/notify_status.py "$title" "$MSG (commit=$NEW_HEAD)\n$NOTE\n${FLUSH_SUM}\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
 fi
