@@ -1,28 +1,14 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-11 12:05 (Asia/Seoul)
+> 갱신: 2026-02-11 12:22 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 12d3781 2026-02-11 02:01:26 +0900 daily: update 2026-02-11
+- cb059d9 2026-02-11 12:05:52 +0900 chore: log daily update run (2026-02-11 12:05)
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- config/awards-official-cache.json
-- index.en.md
-- index.md
 - news/2026-02-11.md
-- pages/daily-report.md
-- pages/interviews.md
-- pages/lint-report.md
-- pages/progress.md
-- pages/quality-report.md
-- pages/timeline.md
-- pages/works/alchemy-of-souls.md
-- pages/works/moving.md
-- scripts/rebuild_fixed_lead_blocks.py
-- scripts/rebuild_timeline_narrative.py
-- scripts/run_daily_update.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-11.md)
 
@@ -44,14 +30,14 @@
 - pages/awards.md:26 · | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:27 · | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:28 · | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
-- pages/interviews.md:138 · - (요약 보강 필요) 배우 커리어/작품 관련 기사 원문 기반.
-- pages/interviews.md:252 · - (요약 보강 필요) KBS연예 인터뷰 원문 기반으로 정리.
-- pages/interviews.md:366 · - (요약 보강 필요) 작품/프로모션 기사 원문 기반으로 정리.
-- pages/interviews.md:405 · - (요약 보강 필요) 작품 관련 기사 원문 기반.
-- pages/interviews.md:443 · - (요약 보강 필요) 작품 관련 인터뷰/발언 정리.
-- pages/interviews.md:481 · - (요약 보강 필요) 작품/캐릭터 관련 기사.
-- pages/interviews.md:518 · - (요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
-- pages/interviews.md:570 · - (요약 보강 필요) 무빙(장희수) 관련 인터뷰 원문 기반으로 정리.
+- pages/interviews.md:142 · - (요약 보강 필요) 배우 커리어/작품 관련 기사 원문 기반.
+- pages/interviews.md:260 · - (요약 보강 필요) KBS연예 인터뷰 원문 기반으로 정리.
+- pages/interviews.md:378 · - (요약 보강 필요) 작품/프로모션 기사 원문 기반으로 정리.
+- pages/interviews.md:417 · - (요약 보강 필요) 작품 관련 기사 원문 기반.
+- pages/interviews.md:455 · - (요약 보강 필요) 작품 관련 인터뷰/발언 정리.
+- pages/interviews.md:493 · - (요약 보강 필요) 작품/캐릭터 관련 기사.
+- pages/interviews.md:533 · - (요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
+- pages/interviews.md:585 · - (요약 보강 필요) 무빙(장희수) 관련 인터뷰 원문 기반으로 정리.
 
 <!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
 
@@ -69,7 +55,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-11 12:03 (Asia/Seoul)
+- 실행: 2026-02-11 12:21 (Asia/Seoul)
 - 결과: 진행중
 - 메모:
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -95,7 +81,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 <!-- AUTO-SKIP-REASONS:START -->
 ## 자동화 스킵/실패 사유(무인 로그)
 > 목적: 무인 자동화에서 일부 항목이 채워지지 않는 ‘이유’를 기록합니다. (조치 필요 없음)
-> 갱신: 2026-02-11 02:00 (Asia/Seoul)
+> 갱신: 2026-02-11 12:03 (Asia/Seoul)
 
 - (특이사항 없음)
 
@@ -103,6 +89,9 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 
+- 2026-02-11 12:21 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 12:05 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, fixed-lead:OK, lead-suggest:OK, awards-proof-auto:OK, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, infobox:OK, interview-sanitize:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, timeline-narr:OK
+- 2026-02-11 12:05 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, fixed-lead:OK, lead-suggest:OK, awards-proof-auto:OK, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, infobox:OK, interview-sanitize:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, timeline-narr:OK
 - 2026-02-11 12:03 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 02:01 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, fixed-lead:OK, lead-suggest:OK, awards-proof-auto:OK, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, infobox:OK, interview-sanitize:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, timeline-narr:OK
 - 2026-02-11 02:01 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, fixed-lead:OK, lead-suggest:OK, awards-proof-auto:OK, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, infobox:OK, interview-sanitize:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, timeline-narr:OK
