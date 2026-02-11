@@ -14,12 +14,19 @@
 - MAA 아티스트(고윤정) 프로필: https://maa.co.kr/artists/go-younjung
 
 ## OTT/방송사(공식)
+- Netflix(공식/보도자료/회사소식): https://about.netflix.com/
 - Netflix(검색: 고윤정): https://www.netflix.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- Disney+(KR, 공식): https://www.disneypluskr.com/
 - Disney+(검색): https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95
 - tvN 공식: https://tvn.cjenm.com/ko/
   - (작품) 언젠가는 슬기로울 전공의생활(공식): https://tvn.cjenm.com/ko/resident-playbook/
 - JTBC 공식: https://www.jtbc.co.kr/
 - TVING 공식: https://www.tving.com/
+- Wavve 공식: https://www.wavve.com/
+- KBS 뉴스: https://news.kbs.co.kr/
+- MBC 뉴스: https://imnews.imbc.com/
+- SBS 뉴스: https://news.sbs.co.kr/
+- JTBC 뉴스: https://news.jtbc.co.kr/
 
 ## 시상식(공식)
 - 백상예술대상: https://www.baeksangawards.co.kr/
