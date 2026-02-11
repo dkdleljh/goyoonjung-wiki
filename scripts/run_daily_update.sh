@@ -20,12 +20,23 @@ LOCK_DIR="$BASE/.locks"
 mkdir -p "$LOCK_DIR"
 LOCK_FILE="$LOCK_DIR/daily-update.lock"
 
-# Acquire lock (avoid concurrent cron runs)
-if ! mkdir "$LOCK_DIR/lock"; then
-  echo "Another update is already running (lock exists). Exiting."
-  exit 0
+# Acquire lock (avoid concurrent runs)
+LOCK_PATH="$LOCK_DIR/lock"
+if ! mkdir "$LOCK_PATH" 2>/dev/null; then
+  # Stale-lock guard: if the lock dir is old, assume a crashed job and recover.
+  NOW_EPOCH=$(date +%s)
+  LOCK_MTIME=$(stat -c %Y "$LOCK_PATH" 2>/dev/null || echo 0)
+  AGE=$((NOW_EPOCH - LOCK_MTIME))
+  if [ "$LOCK_MTIME" -gt 0 ] && [ "$AGE" -gt 2700 ]; then
+    echo "Stale lock detected (age=${AGE}s). Removing and retrying." >&2
+    rm -rf "$LOCK_PATH" 2>/dev/null || true
+    mkdir "$LOCK_PATH" 2>/dev/null || { echo "Another update is already running. Exiting." >&2; exit 0; }
+  else
+    echo "Another update is already running (lock exists). Exiting." >&2
+    exit 0
+  fi
 fi
-trap 'rmdir "$LOCK_DIR/lock"' EXIT
+trap 'rmdir "$LOCK_PATH" 2>/dev/null || true' EXIT
 
 # Ensure main branch
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
