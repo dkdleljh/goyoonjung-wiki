@@ -1,141 +1,26 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-11 23:57 (Asia/Seoul)
+> 갱신: 2026-02-12 00:02 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 925e39b 2026-02-11 23:53:40 +0900 feat: enforce domain allowlist for news collection
+- c1b6089 2026-02-12 00:01:53 +0900 chore: apply relevance gate to portal news + sanitize titles
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- config/allowlist-domains.txt
-- news/2026-02-11.md
-- scripts/auto_collect_google_news_queries.py
-- scripts/auto_collect_google_news_sites.py
+- scripts/auto_collect_news_links.py
 - scripts/sanitize_news_log.py
 
-## 3) 오늘 실행 상태(news/2026-02-11.md)
+## 3) 오늘 실행 상태(news/2026-02-12.md)
 
 ## 실행 상태
-
-
-<!-- AUTO-REF-SOURCES:START -->
-## 참고 출처 업데이트 신호(무인)
-> 목적: 위키/공식/커뮤니티의 '변경 신호'만 감지합니다(원문 복사 없음).
-
-<!-- AUTO-REF-SOURCES:END -->
-
-<!-- AUTO-ENCYCLOPEDIA-PROMOTE:START -->
-## 백과사전 승격 제안(자동)
-> 목표: 오늘 ‘참고(2차)/보강 필요’ 항목 중 최소 1개를 S/A급(공식/원문) 근거로 승격.
-
-### 후보(자동 스캔)
-- pages/profile.md:30 · - 상태: 참고(2차)
-- pages/profile.md:37 · - 상태: 참고(2차)
-- pages/filmography.md:29 · ## 추가 기록(2차 참고 — 공식 교차검증 필요)
-- pages/awards.md:18 · > - 상태: 공식확정 | 교차검증 필요(2차 참고)
-- pages/awards.md:22 · | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
-- pages/awards.md:23 · | 2025 | 코리아 드라마 어워즈 | 여자 우수연기상 | *언젠가는 슬기로울 전공의생활* | 후보 | 교차검증 필요(2차 참고) |  |  |
-- pages/awards.md:24 · | 2024 | 청룡시리즈어워즈 | 신인여우상 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
-- pages/awards.md:25 · | 2024 | 백상예술대상(TV) | 여자 신인연기상 |  | 후보 | 교차검증 필요(2차 참고) |  |  |
-- pages/awards.md:26 · | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 교차검증 필요(2차 참고) |  |  |
-- pages/awards.md:27 · | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 교차검증 필요(2차 참고) |  |  |
-- pages/awards.md:28 · | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
-- pages/interviews.md:116 · - 요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
-
-<!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
-
-<!-- AUTO-LEAD-DRAFT:START -->
-## 리드 문단(초안) 제안(자동)
-> 목적: 위키백과 느낌의 ‘소개 문단’을 만들기 위한 초안 후보입니다. (자동 적용하지 않음)
-
-### 한국어 리드문(초안)
-- (index/profile 공용)
-
-고윤정(Go Youn-jung, 1996년 4월 22일~)은 대한민국의 배우이다. 주요 출연작으로 *사이코메트리 그녀석*, *보건교사 안은영*, *스위트홈*, *로스쿨*, *환혼*, *환혼 빛과 그림자* 등이 있다. 이 위키는 작품·화보·광고·인터뷰·출연/행사 기록을 링크 중심(저작권 안전)으로 수집·정리한다.
-
-### English lead (draft)
-Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a link-first (copyright-safe) archive of her works, pictorials, endorsements, interviews, and appearances/events, with a focus on official and primary sources.
-
-<!-- AUTO-LEAD-DRAFT:END -->
-
-<!-- AUTO-AWARDS-PROOF-SUGGEST:START -->
-## 수상/노미네이트 근거 링크 후보(자동)
-> 목표: `pages/awards.md`의 빈 `근거(공식)` 칸을 채우기 위한 ‘공식 링크 후보’를 자동으로 제안합니다. (자동 적용하지 않음)
-
-### 검색 링크(빠른 승격용)
-- 2025 대한민국 대중문화예술상 / 문화체육관광부 장관 표창 (수상)
-- 2025 코리아 드라마 어워즈 / 여자 우수연기상 (후보)
-- 2024 청룡시리즈어워즈 / 신인여우상 (수상)
-- 2024 백상예술대상(TV) / 여자 신인연기상 (후보)
-- 2023 백상예술대상(영화) / 여자 신인연기상 (후보)
-- 2023 아시아콘텐츠어워즈 & 글로벌OTT어워즈 / 여자 신인연기상 (수상)
-- 2023 씨네21 / 올해의 시리즈: 올해의 신인 여자배우 (수상)
-- 2022 부일영화상 / 신인 여자연기상 (후보)
-- 2022 대종상 / 신인여우상 (후보)
-- 2022 청룡영화상 / 신인여우상 (후보)
-- 2022 춘사국제영화제 / 신인여우상 (후보)
-
-<!-- AUTO-AWARDS-PROOF-SUGGEST:END -->
-
-- 실행: 2026-02-11 23:53 (Asia/Seoul)
+- 실행: (자동)
 - 결과: 진행중
-- 메모: auto: daily update running
+- 메모:
 <!-- AUTO-BACKLOG-PROGRESS:START -->
 - C(완성도 우선) 백로그 진행률: 6/20 (30%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 
-<!-- AUTO-DAILY-PROMOTION-TASK:START -->
-## 오늘의 ‘자동 승격’ 미션(무인)
-> 목표: 매일 1개 이상 ‘(확인 필요)/(교차검증 필요)’를 자동으로 줄이도록 시도합니다.
-> 원칙: 사람(주인님) 입력 없이 가능한 범위에서만 자동 보강하며, 불가능한 경우는 ‘이유’를 기록하고 스킵합니다.
-
-### 자동 처리 우선순위(무인)
-- 1) endorsements: 공식 사이트 접근 가능 시 ‘공식 발표’ 링크 자동 확정, 불가 시 ‘공식 채널 게시물(유튜브/인스타)’로 자동 대체
-- 2) awards: 공식 도메인/본문 검증 통과 시에만 근거(공식) 자동 채움(검색/접근 불가 시 스킵)
-- 3) profile(출생지/학력): 공식/원문 페이지에서 명시가 확인되는 경우에만 자동 반영(대부분 스킵될 수 있음)
-
-### 오늘의 예상 결과
-- 사이트 차단/타임아웃/검색 제한이 있으면 일부 항목은 ‘(확인 필요)’로 남을 수 있습니다.
-- 대신 파이프라인은 멈추지 않고 다음 실행에서 계속 재시도합니다.
-
-<!-- AUTO-DAILY-PROMOTION-TASK:END -->
-
-## 실행 이력
-
-- 2026-02-11 23:53 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:53 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:SKIP, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 23:47 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:45 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 23:41 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:39 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 23:35 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:35 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 23:29 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 23:23 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:21 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 23:17 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:15 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 23:11 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:09 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 23:05 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 23:03 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 22:59 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 22:57 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 22:53 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 22:51 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 22:47 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 22:45 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 22:41 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 22:39 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 22:35 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 22:33 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 22:29 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 22:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 22:23 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 22:21 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 22:17 (Asia/Seoul) · 진행중 · auto: daily update running
 
 ## 4) 권장 체크
 
