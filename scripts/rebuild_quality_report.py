@@ -20,6 +20,10 @@ OUT = os.path.join(BASE, "pages", "quality-report.md")
 TARGET_DIRS = [
     os.path.join(BASE, "pages"),
 ]
+EXCLUDE_BASENAMES = {
+    "quality-report.md",
+    "daily-report.md",
+}
 
 PATTERNS = [
     "교차검증 필요",
@@ -34,7 +38,7 @@ def iter_md_files():
     for d in TARGET_DIRS:
         for root, _, files in os.walk(d):
             for fn in files:
-                if fn.endswith(".md"):
+                if fn.endswith(".md") and fn not in EXCLUDE_BASENAMES:
                     yield os.path.join(root, fn)
 
 

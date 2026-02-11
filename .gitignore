@@ -4,6 +4,8 @@ backups/*.tar.gz
 # Python
 __pycache__/
 *.pyc
+*.pyo
+scripts/__pycache__/
 
 # runtime locks
 .locks/

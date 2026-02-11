@@ -10,6 +10,7 @@ Conservative by design (timeouts, limited concurrency).
 
 from __future__ import annotations
 
+import os
 import re
 import socket
 import sys
@@ -19,7 +20,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
-BASE = Path('/home/zenith/바탕화면/goyoonjung-wiki')
+BASE = Path(__file__).resolve().parent.parent
 PAGES = BASE / 'pages'
 SOURCES = BASE / 'sources'
 OUT = PAGES / 'link-health.md'
@@ -90,7 +91,14 @@ def fetch_status(url: str) -> Result:
     return Result(url=url, status='bad', code=code, note=note)
 
 
-def main():
+def write_report(text: str) -> None:
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    tmp = OUT.with_suffix(f"{OUT.suffix}.tmp")
+    tmp.write_text(text, encoding='utf-8')
+    os.replace(tmp, OUT)
+
+
+def main() -> int:
     socket.setdefaulttimeout(TIMEOUT)
 
     seen = set()
@@ -148,7 +156,16 @@ def main():
     render('BAD (수정/교체 권장)', bad)
     render('WARN (차단/리다이렉트/확인 필요)', warn)
 
-    OUT.write_text('\n'.join(lines).rstrip() + '\n', encoding='utf-8')
+    report = '\n'.join(lines).rstrip() + '\n'
+    try:
+        write_report(report)
+    except Exception as e:
+        print(
+            f"ERR: failed to write report: path={OUT} reason={e}",
+            file=sys.stderr,
+        )
+        return 1
+    return 0
 
 
 if __name__ == '__main__':

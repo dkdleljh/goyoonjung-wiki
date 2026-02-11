@@ -13,6 +13,40 @@ fail() {
   exit 1
 }
 
+diagnose_fetch_failure() {
+  local rc="$1"
+  local remote_url upstream head_ref local_head origin_head
+
+  remote_url=$(git remote get-url origin 2>/dev/null || echo "(missing)")
+  upstream=$(git rev-parse --abbrev-ref --symbolic-full-name '@{u}' 2>/dev/null || echo "(none)")
+  head_ref=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "(unknown)")
+  local_head=$(git rev-parse --short HEAD 2>/dev/null || echo "(unknown)")
+  origin_head=$(git rev-parse --short origin/main 2>/dev/null || echo "(unknown)")
+
+  {
+    echo "DIAG: git fetch failed (rc=$rc)"
+    echo "DIAG: branch=${head_ref} upstream=${upstream}"
+    echo "DIAG: origin=${remote_url}"
+    echo "DIAG: local_head=${local_head} origin_main=${origin_head}"
+  } >&2
+
+  if [ "$rc" -eq 255 ]; then
+    echo "DIAG: rc=255 usually means network/auth/host-key issue. Check VPN/SSH key/token/remote URL." >&2
+  fi
+
+  if command -v timeout >/dev/null 2>&1; then
+    set +e
+    timeout 5 git ls-remote --heads origin main >/dev/null 2>&1
+    local rc_ls=$?
+    set -e
+    if [ "$rc_ls" -ne 0 ]; then
+      echo "DIAG: git ls-remote origin main also failed (rc=$rc_ls)." >&2
+    else
+      echo "DIAG: git ls-remote origin main succeeded (remote reachable)." >&2
+    fi
+  fi
+}
+
 if [ ! -f "$NEWS" ]; then
   fail "missing news file: $NEWS"
 fi
@@ -62,6 +96,7 @@ git fetch -q origin main >/dev/null 2>&1
 RC_FETCH=$?
 set -e
 if [ $RC_FETCH -ne 0 ]; then
+  diagnose_fetch_failure "$RC_FETCH"
   fail "git fetch failed (rc=$RC_FETCH)"
 fi
 

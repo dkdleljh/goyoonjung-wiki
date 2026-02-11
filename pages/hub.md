@@ -50,3 +50,5 @@
 - [완성도 대시보드](progress.md)
 - [품질 리포트(자동)](quality-report.md)
 - [링크 건강검진](link-health.md)
+- [위키 완성 체크리스트](checklists/wiki-completeness-checklist.md)
+- [자동화 완성 체크리스트](checklists/automation-reliability-checklist.md)

@@ -39,6 +39,8 @@
 - Tag index: [`index-by-tag.md`](index-by-tag.md)
 - Progress dashboard: [`progress.md`](progress.md)
 - Link health: [`link-health.md`](link-health.md)
+- Wiki completeness checklist: [`checklists/wiki-completeness-checklist.md`](checklists/wiki-completeness-checklist.md)
+- Automation reliability checklist: [`checklists/automation-reliability-checklist.md`](checklists/automation-reliability-checklist.md)
 
 ---
 

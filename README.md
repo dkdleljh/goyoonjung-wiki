@@ -98,6 +98,8 @@
 - 편집 규칙 → [`pages/style-guide.md`](pages/style-guide.md)
 - 표기 규칙 → [`pages/naming.md`](pages/naming.md)
 - 권리/저작권 → [`pages/legal.md`](pages/legal.md)
+- 위키 완성 체크리스트 → [`pages/checklists/wiki-completeness-checklist.md`](pages/checklists/wiki-completeness-checklist.md)
+- 자동화 완성 체크리스트 → [`pages/checklists/automation-reliability-checklist.md`](pages/checklists/automation-reliability-checklist.md)
 
 ---
 

@@ -143,8 +143,10 @@ fi
 lock_touch
 
 # 3) Suggest lead paragraphs (draft, written to news)
+set +e
 retry 2 5 ./scripts/suggest_lead_paragraphs.py
 RC_LEAD=$?
+set -e
 if [ "$RC_LEAD" -ne 0 ]; then
   record_reason "lead-suggest" "$RC_LEAD" "error" "suggest_lead_paragraphs failed"
 fi
@@ -162,6 +164,8 @@ RC_AWARDS_CACHE=$?
 set -e
 if [ "$RC_AWARDS_CACHE" -ne 0 ] && [ "$RC_AWARDS_CACHE" -eq 124 ]; then
   record_reason "awards-cache" "$RC_AWARDS_CACHE" "timeout" "cache rebuild timed out"
+elif [ "$RC_AWARDS_CACHE" -ne 0 ]; then
+  record_reason "awards-cache" "$RC_AWARDS_CACHE" "error" "cache rebuild nonzero exit"
 fi
 
 # 3.6) Auto-fill official proof links for awards when verified (strict allowlist)
@@ -188,8 +192,13 @@ else
 fi
 
 # 4) Safe metadata promotion
+set +e
 retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
+set -e
+if [ "$RC_PROMOTE_SAFE" -ne 0 ]; then
+  record_reason "promote-safe" "$RC_PROMOTE_SAFE" "error" "promote_safe_metadata failed"
+fi
 
 lock_touch
 
@@ -310,6 +319,7 @@ fi
 set -e
 
 # 5) Rebuild candidates for work pages
+set +e
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1
 RC_CAND=$?
 set -e
