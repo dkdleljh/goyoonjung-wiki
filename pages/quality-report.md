@@ -8,9 +8,9 @@
 ## 카운트
 - `교차검증 필요`: **14**
 - `참고(2차)`: **6**
-- `요약 보강 필요`: **9**
+- `요약 보강 필요`: **5**
 - `(페이지 내 표기 확인 필요)`: **0**
-- `(확인 필요)`: **12**
+- `(확인 필요)`: **5**
 
 ---
 
@@ -38,30 +38,19 @@
 - pages/encyclopedia-roadmap.md:33 · - [ ] “공식확정/보도(1차)/참고(2차)” 상태 태그 통일
 - pages/checklists/wiki-completeness-checklist.md:8 · - [ ] 상태 태그 체계 통일: `공식확정`, `보도(1차)`, `참고(2차)`, `확인 필요`
 
-## 요약 보강 필요 (상위 9개 위치)
-- pages/interviews.md:154 · - (요약 보강 필요) 배우 커리어/작품 관련 기사 원문 기반.
-- pages/interviews.md:284 · - (요약 보강 필요) KBS연예 인터뷰 원문 기반으로 정리.
-- pages/interviews.md:414 · - (요약 보강 필요) 작품/프로모션 기사 원문 기반으로 정리.
-- pages/interviews.md:453 · - (요약 보강 필요) 작품 관련 기사 원문 기반.
-- pages/interviews.md:491 · - (요약 보강 필요) 작품 관련 인터뷰/발언 정리.
-- pages/interviews.md:529 · - (요약 보강 필요) 작품/캐릭터 관련 기사.
-- pages/interviews.md:578 · - (요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
-- pages/interviews.md:630 · - (요약 보강 필요) 무빙(장희수) 관련 인터뷰 원문 기반으로 정리.
+## 요약 보강 필요 (상위 5개 위치)
+- pages/interviews.md:81 · - 요약 보강 필요) 작품 관련 기사 원문 기반.
+- pages/interviews.md:119 · - (요약 보강 필요) 작품 관련 인터뷰/발언 정리.
+- pages/interviews.md:133 · - 요약 보강 필요) 작품/캐릭터 관련 기사.
+- pages/interviews.md:146 · - 요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
 - pages/checklists/wiki-completeness-checklist.md:29 · - [ ] `요약 보강 필요` 항목 감소율 주간 5% 이상
 
 ## (페이지 내 표기 확인 필요) (상위 0개 위치)
 - (없음)
 
-## (확인 필요) (상위 12개 위치)
-- pages/pictorials/campaign.md:30 · - 날짜: (확인 필요)
-- pages/pictorials/campaign.md:38 · - 날짜: (확인 필요)
-- pages/pictorials/campaign.md:46 · - 날짜: (확인 필요)
-- pages/pictorials/campaign.md:54 · - 날짜: (확인 필요)
+## (확인 필요) (상위 5개 위치)
 - pages/pictorials/campaign.md:62 · - 날짜: (확인 필요)
-- pages/pictorials/campaign.md:70 · - 날짜: (확인 필요)
-- pages/pictorials/campaign.md:105 · - 날짜: (확인 필요)
 - pages/pictorials/campaign.md:113 · - 날짜: (확인 필요)
-- pages/pictorials/campaign.md:121 · - 날짜: (확인 필요)
 - pages/endorsements/lifestyle.md:52 · - 발표일/시작일: (확인 필요)
 - pages/endorsements/fashion.md:52 · - 발표일/시작일: (확인 필요)
 - pages/endorsements/beauty.md:32 · - 발표일/시작일: (확인 필요)

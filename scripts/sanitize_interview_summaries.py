@@ -36,6 +36,8 @@ BAD_SUBSTR = [
     "네이버",
     "카카오",
     "공유",
+    "본문영역",
+    "(요약 보강 필요)",
 ]
 
 
@@ -62,10 +64,21 @@ def main() -> int:
                     b0 = k + 1
                     b1 = b0
                     bullets = []
-                    while b1 < end and lines[b1].lstrip().startswith("  -"):
-                        txt = lines[b1].strip()[3:].strip()
-                        bullets.append(txt)
+                    # Summary bullets are stored as indented markdown bullets: "  - ..."
+                    # Some blocks accidentally inserted blank lines between bullets.
+                    while b1 < end and (lines[b1].startswith("  -") or lines[b1].strip() == ""):
+                        if lines[b1].startswith("  -"):
+                            txt = lines[b1].strip()[3:].strip()
+                            bullets.append(txt)
                         b1 += 1
+
+                    # Drop any stray indented bullets elsewhere in the block (some scripts
+                    # accidentally duplicated bullets outside the summary section).
+                    for t in range(start, end):
+                        if t < b0 or t >= b1:
+                            if lines[t].startswith("  -"):
+                                lines[t] = ""
+                                changed = True
 
                     if bullets:
                         # sanitize
