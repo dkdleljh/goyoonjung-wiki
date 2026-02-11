@@ -384,15 +384,28 @@ $(fmt visuals "$RC_VISUAL")
 EOF
 )
 
-  # Color policy for SUCCESS runs:
-  # - green: all key modules OK
-  # - yellow: run succeeded but at least one module SKIP
+  # Color policy for SUCCESS runs (unmanned practical):
+  # - green: all CRITICAL modules OK
+  # - yellow: run succeeded but at least one CRITICAL module SKIP
+  # Optional modules (do not affect color): encyclopedia, awards-proof-suggest, yt-dates, endo-dates, interview-sum, work-candidates
   color="green"
-  if echo "$detail_lines" | grep -q "SKIP"; then
+  critical=$(cat <<EOF
+$(fmt collect "$RC_COLLECT")
+$(fmt gnews "$RC_GNEWS")
+$(fmt gnews-sites "$RC_GNEWS_SITES")
+$(fmt gnews-queries "$RC_GNEWS_QUERIES")
+$(fmt mag-rss "$RC_MAG_RSS")
+$(fmt portal-news "$RC_PORTAL_NEWS")
+$(fmt san-news "$RC_SAN_NEWS")
+$(fmt schedule "$RC_SCHED")
+$(fmt agency "$RC_AGENCY")
+EOF
+)
+  if echo "$critical" | grep -q "SKIP"; then
     color="yellow"
   fi
 
-  legend="\n---\nLegend: GREEN=전체 성공(스킵 없음), YELLOW=전체 성공(일부 스킵/경고), RED=실패/중단"
+  legend="\n---\nLegend: GREEN=핵심 수집/정리 단계 모두 성공, YELLOW=핵심 단계 일부 스킵(그러나 전체 런은 성공), RED=실패/중단"
   python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
 fi
 
