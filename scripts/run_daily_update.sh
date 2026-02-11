@@ -16,6 +16,11 @@ TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 NOW=$(TZ="$TZ" date +"%Y-%m-%d %H:%M")
 
+# Run log (for detailed notifications)
+RUN_LOG="$LOCK_DIR/run_${TODAY}.log"
+: > "$RUN_LOG" 2>/dev/null || true
+CURRENT_STEP="(init)"
+
 LOCK_DIR="$BASE/.locks"
 mkdir -p "$LOCK_DIR"
 LOCK_FILE="$LOCK_DIR/daily-update.lock"
@@ -50,7 +55,9 @@ on_exit() {
     if [ -f "$FAIL_STAMP" ]; then last=$(cat "$FAIL_STAMP" 2>/dev/null || echo 0); fi
     if [ $((now - last)) -ge 1800 ]; then
       echo "$now" > "$FAIL_STAMP" 2>/dev/null || true
-      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "daily update aborted (rc=$rc). Check news/${TODAY}.md" red >/dev/null 2>&1 || true
+      # include step + last error-ish lines from log
+      err_tail=$(tail -n 25 "$RUN_LOG" 2>/dev/null | grep -E "Traceback|ERROR|ERR:|Error|Failed|denied|403|404|timeout" | tail -n 6 | tr -d '\r' | sed -e 's/[`]/"/g' || true)
+      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "step=${CURRENT_STEP}\nrc=${rc}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)" red >/dev/null 2>&1 || true
     fi
   fi
 }
@@ -79,7 +86,8 @@ retry() {
   local delay="$1"; shift
   local n=1
   while true; do
-    "$@" >/dev/null 2>&1
+    echo "[STEP:$CURRENT_STEP] run: $*" >>"$RUN_LOG"
+    "$@" >>"$RUN_LOG" 2>&1
     local rc=$?
     if [ $rc -eq 0 ]; then
       return 0
@@ -93,34 +101,42 @@ retry() {
 }
 
 # 1) Collect
+CURRENT_STEP="collect:visual-links"
 retry 3 20 ./scripts/auto_collect_visual_links.py
 RC_COLLECT=$?
 
-# 1.5) Collect News RSS (New)
+# 1.5) Collect News RSS (Google News)
+CURRENT_STEP="collect:gnews"
 retry 3 10 ./scripts/auto_collect_google_news.py
 RC_GNEWS=$?
 
-# 1.51) Collect Google News site-filtered RSS (magazines/press) (stable)
+# 1.51) Collect Google News site-filtered RSS (magazines/press)
+CURRENT_STEP="collect:gnews-sites"
 retry 2 5 timeout 90 ./scripts/auto_collect_google_news_sites.py
 RC_GNEWS_SITES=$?
 
-# 1.515) Collect Google News custom queries (brands/ads/etc) (stable)
+# 1.515) Collect Google News custom queries (brands/ads/etc)
+CURRENT_STEP="collect:gnews-queries"
 retry 2 5 timeout 90 ./scripts/auto_collect_google_news_queries.py
 RC_GNEWS_QUERIES=$?
 
-# 1.52) Collect magazine RSS feeds (ELLE/W/BAZAAR/GQ) (stable)
+# 1.52) Collect magazine RSS feeds
+CURRENT_STEP="collect:mag-rss"
 retry 2 5 timeout 90 ./scripts/auto_collect_magazine_rss.py
 RC_MAG_RSS=$?
 
-# 1.55) Collect portal news links (Naver/Daum) (best-effort)
+# 1.55) Collect portal news links (Naver/Daum)
+CURRENT_STEP="collect:portal-news"
 retry 2 5 timeout 120 ./scripts/auto_collect_news_links.py
 RC_PORTAL_NEWS=$?
 
-# 1.6) Sanitize today's news log (remove unresolved Google RSS links, dedupe)
+# 1.6) Sanitize today's news log
+CURRENT_STEP="collect:sanitize-news"
 retry 2 2 timeout 30 ./scripts/sanitize_news_log.py
 RC_SAN_NEWS=$?
 
-# 1.6) Estimate Schedule (New)
+# 1.6) Estimate Schedule
+CURRENT_STEP="collect:schedule"
 retry 3 5 ./scripts/auto_collect_schedule.py
 RC_SCHED=$?
 
@@ -134,10 +150,12 @@ else
 fi
 
 # 1.8) Agency (MAA) Monitoring
+CURRENT_STEP="collect:agency"
 retry 2 10 ./scripts/auto_collect_agency.py
 RC_AGENCY=$?
 
 # 1.9) Encyclopedia Monitoring
+CURRENT_STEP="collect:encyclopedia"
 retry 2 10 ./scripts/auto_collect_encyclopedia.py
 RC_ENCY=$?
 
@@ -340,7 +358,9 @@ git push origin main >/dev/null
 # Success notification: once per day
 if [ ! -f "$SUCCESS_STAMP" ]; then
   date -Iseconds > "$SUCCESS_STAMP" 2>/dev/null || true
-  python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE" green >/dev/null 2>&1 || true
+  # include compact per-module rc list for accuracy
+  detail="collect=${RC_COLLECT}, gnews=${RC_GNEWS}, gnews-sites=${RC_GNEWS_SITES}, gnews-queries=${RC_GNEWS_QUERIES}, mag-rss=${RC_MAG_RSS}, portal-news=${RC_PORTAL_NEWS}, san-news=${RC_SAN_NEWS}, sched=${RC_SCHED}, agency=${RC_AGENCY}, ency=${RC_ENCY}, awards-auto=${RC_AWARD_PROOF_AUTO}, safe=${RC_PROMOTE_SAFE}, yt-dates=${RC_YT_DATES}, endo-dates=${RC_ENDO_DATES}, int-sum=${RC_INT_SUM}, candidates=${RC_CAND}, dash=${RC_DASH}, visual=${RC_VISUAL}"
+  python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE\n---\n$detail" green >/dev/null 2>&1 || true
 fi
 
 echo "OK: $MSG"
