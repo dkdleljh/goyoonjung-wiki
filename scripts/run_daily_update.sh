@@ -118,6 +118,17 @@ if [ "$RC_COLLECT" -ne 0 ]; then
   record_reason "collect" "$RC_COLLECT" "error" "auto_collect_visual_links failed"
 fi
 
+# 1.1) Reference sources signal (wikipedia/namu/agency)
+set +e
+timeout 20 ./scripts/collect_reference_sources.py >/dev/null 2>&1
+RC_REF=$?
+set -e
+if [ "$RC_REF" -ne 0 ] && [ "$RC_REF" -ne 124 ]; then
+  record_reason "ref-sources" "$RC_REF" "error" "collect_reference_sources failed"
+elif [ "$RC_REF" -eq 124 ]; then
+  record_reason "ref-sources" "$RC_REF" "timeout" "collect_reference_sources timed out"
+fi
+
 # 2) Write daily encyclopedia-promotion suggestions
 retry 2 5 ./scripts/suggest_encyclopedia_promotions.py
 RC_SUGGEST=$?

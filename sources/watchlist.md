@@ -41,6 +41,13 @@
 ## SNS(교차확인 필요)
 - 고윤정 Instagram: https://www.instagram.com/goyounjung/  (MAA/공식 인터뷰 등에서 공식 표기 확인 후 '공식'으로 승격)
 
+## 위키/백과(참고/2차)
+- 위키백과(ko): https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95
+- 나무위키: https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95
+
+## 팬 커뮤니티(공식 여부 확인 필요)
+- 공식 팬카페: (URL 확정 필요 — 주인님이 주소 알려주시면 무인 점검 항목에 추가)
+
 ## 유튜브(공식 채널)
 - 채널 십오야(나영석 관련 콘텐츠 업로드): https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ
 - (참고) 나영석의 나불나불/와글와글 플레이리스트(검색/목록): https://www.youtube.com/playlist?list=PLr0T5CaHaPwVWLdtQIwORp6OT6hlvfVAN
