@@ -460,6 +460,62 @@ else
 fi
 FINAL_STATUS="성공"
 FINAL_NOTE="$NOTE"
+
+# Commit only if there are changes (excluding backups)
+# Stage everything except backups (already excluded by .gitignore, but be explicit)
+lock_touch
+git add -A ":(exclude)backups" >/dev/null 2>&1 || true
+
+if git diff --cached --quiet; then
+  # Even if there are no changes, still record skip reasons / status once.
+  :
+else
+  MSG="daily: update ${TODAY}"
+
+  # 1일 1커밋 강제:
+  # - 이미 오늘 daily 커밋이 HEAD라면 amend
+  # - 아니라면 새 커밋 생성
+  AMEND=0
+  LAST_SUBJ=$(git log -1 --pretty=%s 2>/dev/null || echo "")
+  if [ "$LAST_SUBJ" = "$MSG" ]; then
+    AMEND=1
+  fi
+
+  if [ $AMEND -eq 1 ]; then
+    git commit --amend --no-edit >/dev/null
+  else
+    git commit -m "$MSG" >/dev/null
+  fi
+
+  # Push (amend 시에는 force-with-lease)
+  set +e
+  if [ $AMEND -eq 1 ]; then
+    git push --force-with-lease origin main >/dev/null 2>&1
+    RC_PUSH=$?
+  else
+    git push origin main >/dev/null 2>&1
+    RC_PUSH=$?
+  fi
+  set -e
+
+  # NOTE: push 결과에 따라 FINAL_NOTE/FINAL_STATUS를 조정한다.
+  if [ $RC_PUSH -ne 0 ]; then
+    record_reason "push" "$RC_PUSH" "error" "git push failed"
+    FINAL_STATUS="부분성공"
+    FINAL_NOTE="${FINAL_NOTE}, push:FAIL"
+  else
+    # Post-push integrity check
+    git fetch -q origin main >/dev/null 2>&1 || true
+    if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+      record_reason "push" 2 "error" "HEAD != origin/main after push"
+      FINAL_STATUS="부분성공"
+      FINAL_NOTE="${FINAL_NOTE}, push:DESYNC"
+    else
+      FINAL_NOTE="${FINAL_NOTE}, push:OK"
+    fi
+  fi
+fi
+
 # Write skip reasons JSON + insert into news (best-effort)
 {
   echo "{";
@@ -481,61 +537,9 @@ FINAL_NOTE="$NOTE"
 } > "$REASONS_JSON" 2>/dev/null || true
 ./scripts/write_skip_reasons_to_news.py >/dev/null 2>&1 || true
 
-./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+# Mark final status ONCE (prevents duplicated history lines)
+./scripts/mark_news_status.sh "$FINAL_STATUS" "$FINAL_NOTE" >/dev/null
+# prevent EXIT trap from writing another line
+FINAL_STATUS=""
 
-# Commit only if there are changes (excluding backups)
-# Stage everything except backups (already excluded by .gitignore, but be explicit)
-lock_touch
-git add -A ":(exclude)backups" >/dev/null 2>&1 || true
-
-if git diff --cached --quiet; then
-  echo "No changes to commit."
-  exit 0
-fi
-
-MSG="daily: update ${TODAY}"
-
-# 1일 1커밋 강제:
-# - 이미 오늘 daily 커밋이 HEAD라면 amend
-# - 아니라면 새 커밋 생성
-AMEND=0
-LAST_SUBJ=$(git log -1 --pretty=%s 2>/dev/null || echo "")
-if [ "$LAST_SUBJ" = "$MSG" ]; then
-  AMEND=1
-fi
-
-if [ $AMEND -eq 1 ]; then
-  git commit --amend --no-edit >/dev/null
-else
-  git commit -m "$MSG" >/dev/null
-fi
-
-# Push (amend 시에는 force-with-lease)
-set +e
-if [ $AMEND -eq 1 ]; then
-  git push --force-with-lease origin main >/dev/null 2>&1
-  RC_PUSH=$?
-else
-  git push origin main >/dev/null 2>&1
-  RC_PUSH=$?
-fi
-set -e
-
-# NOTE: push 결과에 따라 FINAL_NOTE/FINAL_STATUS를 조정한다.
-if [ $RC_PUSH -ne 0 ]; then
-  record_reason "push" "$RC_PUSH" "error" "git push failed"
-  FINAL_STATUS="부분성공"
-  FINAL_NOTE="${FINAL_NOTE}, push:FAIL"
-else
-  # Post-push integrity check
-  git fetch -q origin main >/dev/null 2>&1 || true
-  if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
-    record_reason "push" 2 "error" "HEAD != origin/main after push"
-    FINAL_STATUS="부분성공"
-    FINAL_NOTE="${FINAL_NOTE}, push:DESYNC"
-  else
-    FINAL_NOTE="${FINAL_NOTE}, push:OK"
-  fi
-fi
-
-echo "OK: $MSG"
+echo "OK"
