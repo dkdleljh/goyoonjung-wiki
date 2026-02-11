@@ -72,6 +72,9 @@ fi
 # Mark running
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
 
+# Best-effort: flush any queued notifications first
+python3 ./scripts/flush_notify_queue.py >/dev/null 2>&1 || true
+
 # Notification throttle state (avoid spam)
 NOTIFY_DIR="$LOCK_DIR"
 SUCCESS_STAMP="$NOTIFY_DIR/last-success-notify.${TODAY}.stamp"
