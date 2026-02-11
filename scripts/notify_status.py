@@ -28,11 +28,25 @@ COLORS = {
     "yellow": 16776960 # Warning
 }
 
-def send_discord_message(title, message, color_name="green"):
+def queue_notification(title: str, message: str, color_name: str) -> None:
+    try:
+        from pathlib import Path
+        import json
+        base = Path(__file__).resolve().parent.parent
+        q = base / '.locks' / 'notify-queue.jsonl'
+        q.parent.mkdir(parents=True, exist_ok=True)
+        item = {"title": title, "message": message, "color": color_name}
+        with q.open('a', encoding='utf-8') as f:
+            f.write(json.dumps(item, ensure_ascii=False) + '\n')
+    except Exception:
+        pass
+
+
+def send_discord_message(title, message, color_name="green", force: bool = False):
     if not WEBHOOK_URL:
         print(f"[Create Discord Webhook] {title}: {message}")
         print("Tip: Set DISCORD_WEBHOOK_URL to enable real notifications.")
-        return
+        return False
 
     color = COLORS.get(color_name, COLORS["green"])
     
@@ -55,14 +69,27 @@ def send_discord_message(title, message, color_name="green"):
         headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'}
     )
     
-    try:
-        with urlopen(req) as response:
-            if response.status == 204:
-                print("Notification sent successfully.")
-            else:
-                print(f"Notification sent but unexpected status: {response.status}")
-    except URLError as e:
-        print(f"Failed to send notification: {e}")
+    # Retry a few times; queue on failure
+    import time
+    for attempt in range(1, 4):
+        try:
+            with urlopen(req, timeout=10) as response:
+                if response.status == 204:
+                    print("Notification sent successfully.")
+                    return True
+                else:
+                    print(f"Notification sent but unexpected status: {response.status}")
+                    return True
+        except URLError as e:
+            print(f"Failed to send notification (attempt {attempt}/3): {e}")
+            time.sleep(1.5 * attempt)
+        except Exception as e:
+            print(f"Failed to send notification (attempt {attempt}/3): {e}")
+            time.sleep(1.5 * attempt)
+
+    # If we reach here, all attempts failed
+    queue_notification(title, message, color_name)
+    return False
 
 def main():
     if len(sys.argv) < 3:
@@ -73,7 +100,10 @@ def main():
     message = sys.argv[2]
     color = sys.argv[3] if len(sys.argv) > 3 else "green"
     
-    send_discord_message(title, message, color)
+    ok = send_discord_message(title, message, color)
+    # exit nonzero if not delivered (so callers can notice in logs)
+    if not ok:
+        sys.exit(2)
 
 if __name__ == "__main__":
     main()
