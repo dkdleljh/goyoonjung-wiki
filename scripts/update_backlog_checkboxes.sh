@@ -77,9 +77,10 @@ has_making_entry() {
 }
 
 has_mv_entry() {
-  local f="$BASE/pages/appearances.md"
+  local f="$BASE/pages/videos/mv.md"
   [ -f "$f" ] || { echo 0; return; }
-  grep -Eqi "뮤직비디오|\bMV\b" "$f" && echo 1 || echo 0
+  # Any official mv link block
+  grep -Eq "^- 링크\(공식 MV\): https?://" "$f" && echo 1 || echo 0
 }
 
 awards_has_official_proof() {
@@ -92,8 +93,11 @@ awards_has_official_proof() {
 schedule_has_upcoming() {
   local f="$BASE/pages/schedule.md"
   [ -f "$f" ] || { echo 0; return; }
-  # any explicit Upcoming marker
-  grep -Eq "^## +Upcoming|\bUpcoming\b" "$f" && echo 1 || echo 0
+  # detect upcoming section (Korean header includes '(Upcoming)') + at least one URL in that section
+  awk 'BEGIN{u=0; url=0}
+       /^## /{ if($0 ~ /다가오는 일정/ || $0 ~ /\(Upcoming\)/) {u=1; next} else if(u==1){u=0} }
+       u==1 && $0 ~ /https?:\/\// {url=1}
+       END{print url}' "$f"
 }
 
 VOGUE_OK=$(has_vogue_editorial)
@@ -102,6 +106,36 @@ MAKING_OK=$(has_making_entry)
 MV_OK=$(has_mv_entry)
 AWARDS_OK=$(awards_has_official_proof)
 SCHED_OK=$(schedule_has_upcoming)
+
+# Major checklist items
+has_ambassador_activity() {
+  # treat endorsement ambassador roles as external activity evidence (must include an official link)
+  grep -Rqi "역할: .*앰버서더" "$BASE/pages/endorsements" 2>/dev/null || { echo 0; return; }
+  grep -RqiF "링크(공식 발표): http" "$BASE/pages/endorsements" 2>/dev/null && echo 1 || echo 0
+}
+
+has_award_event_entry() {
+  local f="$BASE/pages/appearances.md"
+  [ -f "$f" ] || { echo 0; return; }
+  grep -Eq "^- 구분: 시상식" "$f" && echo 1 || echo 0
+}
+
+has_show_appearance_entry() {
+  local f="$BASE/pages/appearances.md"
+  [ -f "$f" ] || { echo 0; return; }
+  grep -Eq "^- 구분: (예능|유튜브)" "$f" && echo 1 || echo 0
+}
+
+has_event_entry() {
+  local f="$BASE/pages/appearances.md"
+  [ -f "$f" ] || { echo 0; return; }
+  grep -Eq "^- 구분: (제작발표회|행사)" "$f" && echo 1 || echo 0
+}
+
+AMB_OK=$(has_ambassador_activity)
+AWARD_EVENT_OK=$(has_award_event_entry)
+SHOW_OK=$(has_show_appearance_entry)
+EVENT_OK=$(has_event_entry)
 
 # --- Update backlog checkboxes ---
 # We only auto-check items when a minimal threshold is met.
@@ -140,6 +174,34 @@ while IFS= read -r line; do
     "- [ ] 방송/예능/행사/시상식 출연 기록 확장"*)
       if [ "$APPR" -ge 5 ]; then
         echo "- [x] 방송/예능/행사/시상식 출연 기록 확장 (현재: ${APPR}개 항목)" >> "$TMP"
+      else
+        echo "$line" >> "$TMP"
+      fi
+      ;;
+    "- [ ] 뮤직비디오 출연 기록 정리"*)
+      if [ "$MV_OK" -eq 1 ]; then
+        echo "- [x] 뮤직비디오 출연 기록 정리(공식 MV 링크)" >> "$TMP"
+      else
+        echo "$line" >> "$TMP"
+      fi
+      ;;
+    "- [ ] 홍보대사/대외활동 정리"*)
+      if [ "$AMB_OK" -eq 1 ]; then
+        echo "- [x] 홍보대사/대외활동 정리(브랜드 앰버서더 근거 포함)" >> "$TMP"
+      else
+        echo "$line" >> "$TMP"
+      fi
+      ;;
+    "- [ ] 수상/노미네이트 교차검증"*)
+      if [ "$AWARDS_OK" -eq 1 ]; then
+        echo "- [x] 수상/노미네이트 교차검증(시상식 공식 페이지 링크 확보)" >> "$TMP"
+      else
+        echo "$line" >> "$TMP"
+      fi
+      ;;
+    "- [ ] 스케줄(공식 공개 ‘미래 일정’) 채우기"*)
+      if [ "$SCHED_OK" -eq 1 ]; then
+        echo "- [x] 스케줄(공식 공개 ‘미래 일정’) 채우기" >> "$TMP"
       else
         echo "$line" >> "$TMP"
       fi
@@ -189,6 +251,34 @@ while IFS= read -r line; do
     "- [ ] (스케줄) 공개/방영/행사 등 공식 일정 1건 확보"*)
       if [ "$SCHED_OK" -eq 1 ]; then
         printf '%s\n' "- [x] (스케줄) 공개/방영/행사 등 공식 일정 1건 확보 → pages/schedule.md Upcoming/Past 정리" >> "$TMP"
+      else
+        echo "$line" >> "$TMP"
+      fi
+      ;;
+    "- [ ] (대외활동) 기관/브랜드/시상식 등 ‘위촉/선정’ 공식 발표 1건 확보"*)
+      if [ "$AMB_OK" -eq 1 ]; then
+        printf '%s\n' "- [x] (대외활동) 기관/브랜드/시상식 등 ‘위촉/선정’ 공식 발표 1건 확보 → pages/profile.md 또는 pages/timeline.md" >> "$TMP"
+      else
+        echo "$line" >> "$TMP"
+      fi
+      ;;
+    "- [ ] (출연) 방송사/공식 유튜브 기반 예능/홍보 출연 1건 추가"*)
+      if [ "$SHOW_OK" -eq 1 ]; then
+        printf '%s\n' "- [x] (출연) 방송사/공식 유튜브 기반 예능/홍보 출연 1건 추가 → pages/appearances.md" >> "$TMP"
+      else
+        echo "$line" >> "$TMP"
+      fi
+      ;;
+    "- [ ] (행사) 제작발표회/시사회/포토월 1건(공식 기사) 추가"*)
+      if [ "$EVENT_OK" -eq 1 ]; then
+        printf '%s\n' "- [x] (행사) 제작발표회/시사회/포토월 1건(공식 기사) 추가 → pages/appearances.md" >> "$TMP"
+      else
+        echo "$line" >> "$TMP"
+      fi
+      ;;
+    "- [ ] (시상식) 참석/수상/노미네이트 1건(공식 페이지 or 공식 영상) 추가"*)
+      if [ "$AWARD_EVENT_OK" -eq 1 ]; then
+        printf '%s\n' "- [x] (시상식) 참석/수상/노미네이트 1건(공식 페이지 or 공식 영상) 추가 → pages/appearances.md + pages/awards.md" >> "$TMP"
       else
         echo "$line" >> "$TMP"
       fi
