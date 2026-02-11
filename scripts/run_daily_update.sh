@@ -101,9 +101,14 @@ RC_SAN_NEWS=$?
 retry 3 5 ./scripts/auto_collect_schedule.py
 RC_SCHED=$?
 
-# 1.7) Self-healing Link Check (Daily lightweight)
-./scripts/check_links.py >/dev/null 2>&1
-RC_LINK=$?
+# 1.7) Link Health (weekly; keep daily runs fast)
+DOW=$(TZ="$TZ" date +%u)
+if [ "$DOW" -eq 7 ]; then
+  ./scripts/check_links.py >/dev/null 2>&1
+  RC_LINK=$?
+else
+  RC_LINK=0
+fi
 
 # 1.8) Agency (MAA) Monitoring
 retry 2 10 ./scripts/auto_collect_agency.py
@@ -210,6 +215,12 @@ if [ "${RC_SCHED:-0}" -ne 0 ]; then
   NOTE="$NOTE, sched:SKIP"
 else
   NOTE="$NOTE, sched:OK"
+fi
+if [ "${RC_LINK:-0}" -ne 0 ]; then
+  NOTE="$NOTE, link-health:SKIP"
+else
+  # only meaningful on Sundays
+  if [ "${DOW:-0}" -eq 7 ]; then NOTE="$NOTE, link-health:OK"; fi
 fi
 if [ "${RC_PORTAL_NEWS:-0}" -ne 0 ]; then
   NOTE="$NOTE, portal-news:SKIP"
