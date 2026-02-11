@@ -1,8 +1,9 @@
 # 태그 인덱스
 
-> 자동 생성 파일입니다. (스크립트: scripts/rebuild_tag_index.sh)
+> 자동 생성 파일입니다. (스크립트: scripts/rebuild_tag_index.py)
 
 ## 태그 목록
+
 ### Can This Love Be Translated
 - [can-this-love-be-translated](works/can-this-love-be-translated.md)
 

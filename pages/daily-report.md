@@ -1,28 +1,23 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-11 19:59 (Asia/Seoul)
+> 갱신: 2026-02-11 20:03 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 43ed8c7 2026-02-11 19:44:13 +0900 chore: enforce portability (remove hardcoded paths)
+- a27fe49 2026-02-11 19:59:52 +0900 chore: sync lint report and config loader fixes
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- scripts/add_seen_url.sh
-- scripts/daily_backup.sh
-- scripts/diff_summary.sh
-- scripts/mark_backlog_progress.sh
-- scripts/mark_news_status.sh
-- scripts/rebuild_daily_report.sh
-- scripts/rebuild_group_link_candidates.py
-- scripts/rebuild_progress.py
-- scripts/rebuild_recent_summary.sh
-- scripts/rebuild_schedule_highlights.py
-- scripts/rebuild_tag_index.sh
-- scripts/rebuild_work_link_candidates.py
-- scripts/run_weekly_link_health.sh
-- scripts/update_backlog_checkboxes.sh
-- scripts/update_indexes.sh
+- .obsidian/app.json
+- .obsidian/appearance.json
+- .obsidian/core-plugins.json
+- .obsidian/workspace.json
+- news/2026-02-11.md
+- pages/lint-report.md
+- pages/system_status.md
+- pages/works/alchemy-of-souls.md
+- pages/works/moving.md
+- scripts/config_loader.py
 
 ## 3) 오늘 실행 상태(news/2026-02-11.md)
 
@@ -105,7 +100,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-AWARDS-PROOF-SUGGEST:END -->
 
-- 실행: 2026-02-11 19:29 (Asia/Seoul)
+- 실행: 2026-02-11 19:42 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -130,6 +125,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 
+- 2026-02-11 19:42 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 19:29 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 19:23 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 19:21 (Asia/Seoul) · 진행중 · auto: daily update running
