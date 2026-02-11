@@ -11,12 +11,12 @@
 
 ## 1) 빈 링크("공식 페이지:" 등 콜론 뒤가 비어있는 줄)
 
-pages/pictorials/index.md:18:- 링크:
+pages/interviews.md:11:- 링크:
+pages/templates/entry-pictorial.md:6:- 링크:
+pages/templates/entry-interview.md:6:- 링크:
 pages/templates/work-template.md:22:- 공식 페이지: 
 pages/templates/work-template.md:32:- 공식 페이지:
-pages/templates/entry-interview.md:6:- 링크:
-pages/templates/entry-pictorial.md:6:- 링크:
-pages/interviews.md:11:- 링크:
+pages/pictorials/index.md:18:- 링크:
 
 ## 2) 상태 태그 누락(인터뷰/화보/광고 템플릿 준수 여부)
 
