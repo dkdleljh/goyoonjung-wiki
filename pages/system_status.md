@@ -1,11 +1,11 @@
 # 🖥️ System Status Dashboard
-> Last Refreshed: 2026-02-11 21:25:55
+> Last Refreshed: 2026-02-11 21:31:46
 
 ## 🚦 Automation Health
 | Metric | Status | Note |
 | :--- | :--- | :--- |
 | **Daily Update** | **Running/Unknown** | Check `news/` for details |
-| **Database** | 113 URLs | `wiki.db` size: 61440 bytes |
+| **Database** | 115 URLs | `wiki.db` size: 65536 bytes |
 | **Config** | Active | `config.yaml` loaded |
 
 ## 📊 Modules
