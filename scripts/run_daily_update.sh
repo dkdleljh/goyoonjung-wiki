@@ -167,7 +167,7 @@ RC_YT_DATES=$?
 
 # 4.5) Endorsements date promotion
 # Bounded: may call network/yt-dlp.
-retry 2 15 timeout 120 ./scripts/promote_endorsement_dates.py
+retry 2 15 timeout 60 ./scripts/promote_endorsement_dates.py
 RC_ENDO_DATES=$?
 
 # 4.6) Interviews: auto-fill short summaries for KBS entries
