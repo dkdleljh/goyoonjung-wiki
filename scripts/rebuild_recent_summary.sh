@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-BASE="/Users/zenith/Documents/goyoonjung-wiki"
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 NEWS="$BASE/news"
 OUT="$NEWS/README.md"
 

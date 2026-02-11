@@ -1,16 +1,23 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-/Users/zenith/Documents/goyoonjung-wiki/scripts/update_index_last_updated.py >/dev/null || true
-/Users/zenith/Documents/goyoonjung-wiki/scripts/rebuild_recent_summary.sh >/dev/null
-/Users/zenith/Documents/goyoonjung-wiki/scripts/rebuild_tag_index.sh >/dev/null
-/Users/zenith/Documents/goyoonjung-wiki/scripts/rebuild_schedule_highlights.py >/dev/null || true
-/Users/zenith/Documents/goyoonjung-wiki/scripts/rebuild_group_link_candidates.py >/dev/null || true
-/Users/zenith/Documents/goyoonjung-wiki/scripts/update_backlog_checkboxes.sh >/dev/null || true
-/Users/zenith/Documents/goyoonjung-wiki/scripts/mark_backlog_progress.sh >/dev/null || true
-/Users/zenith/Documents/goyoonjung-wiki/scripts/rebuild_progress.py >/dev/null || true
-/Users/zenith/Documents/goyoonjung-wiki/scripts/rebuild_daily_report.sh >/dev/null || true
-/Users/zenith/Documents/goyoonjung-wiki/scripts/rebuild_year_indexes.py >/dev/null || true
-/Users/zenith/Documents/goyoonjung-wiki/scripts/rebuild_endorsements_year_index.py >/dev/null || true
+# Resolve BASE directory relative to this script
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+BASE="$( cd "$SCRIPT_DIR/.." && pwd )"
+
+"$SCRIPT_DIR/update_index_last_updated.py" >/dev/null || true
+"$SCRIPT_DIR/rebuild_recent_summary.sh" >/dev/null
+"$SCRIPT_DIR/rebuild_tag_index.sh" >/dev/null
+"$SCRIPT_DIR/rebuild_schedule_highlights.py" >/dev/null || true
+"$SCRIPT_DIR/rebuild_group_link_candidates.py" >/dev/null || true
+"$SCRIPT_DIR/update_backlog_checkboxes.sh" >/dev/null || true
+"$SCRIPT_DIR/mark_backlog_progress.sh" >/dev/null || true
+
+# rebuild_progress.py often needs BASE or might import modules, run from BASE
+(cd "$BASE" && "$SCRIPT_DIR/rebuild_progress.py") >/dev/null || true
+
+"$SCRIPT_DIR/rebuild_daily_report.sh" >/dev/null || true
+"$SCRIPT_DIR/rebuild_year_indexes.py" >/dev/null || true
+"$SCRIPT_DIR/rebuild_endorsements_year_index.py" >/dev/null || true
 
 echo "OK"

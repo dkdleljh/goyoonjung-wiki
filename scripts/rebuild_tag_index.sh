@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-BASE="/Users/zenith/Documents/goyoonjung-wiki"
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 OUT="$BASE/pages/index-by-tag.md"
 
 # Collect "키워드:" lines and map keywords -> files

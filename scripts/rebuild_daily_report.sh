@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE="/Users/zenith/Documents/goyoonjung-wiki"
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 cd "$BASE"
 TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")

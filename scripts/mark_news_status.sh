@@ -12,7 +12,7 @@ STATUS="${1:-}"
 NOTE="${2:-}"
 TZ="Asia/Seoul"
 
-BASE="/Users/zenith/Documents/goyoonjung-wiki"
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 NEWS_DIR="$BASE/news"
 
 if [ -z "$STATUS" ]; then

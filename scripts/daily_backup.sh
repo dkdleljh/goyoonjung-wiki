@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE_DIR="/Users/zenith/Documents/goyoonjung-wiki"
+BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 BACKUP_DIR="$BASE_DIR/backups"
 
 mkdir -p "$BACKUP_DIR"

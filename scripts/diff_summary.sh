@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-cd /Users/zenith/Documents/goyoonjung-wiki
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+cd "$BASE"
 
 # Print changed files between last two commits (if possible)
 if git rev-parse --verify HEAD~1 >/dev/null 2>&1; then

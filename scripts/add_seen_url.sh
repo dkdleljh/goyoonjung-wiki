@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Usage: add_seen_url.sh <url>
 
-BASE="/Users/zenith/Documents/goyoonjung-wiki"
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 SEEN="$BASE/sources/seen-urls.txt"
 SEEN_JSONL="$BASE/sources/seen-urls.jsonl"
 URL="${1:-}"

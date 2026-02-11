@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 from datetime import datetime
 
-BASE = Path('/Users/zenith/Documents/goyoonjung-wiki')
+BASE = Path(__file__).resolve().parent.parent
 PAGES = BASE / 'pages'
 
 BACKLOG = PAGES / 'namu-backlog.md'

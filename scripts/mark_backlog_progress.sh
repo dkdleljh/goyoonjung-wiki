@@ -5,7 +5,7 @@ set -euo pipefail
 # Source checklist: pages/namu-backlog.md
 
 TZ="Asia/Seoul"
-BASE="/Users/zenith/Documents/goyoonjung-wiki"
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 BACKLOG="$BASE/pages/namu-backlog.md"
 NEWS_DIR="$BASE/news"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
