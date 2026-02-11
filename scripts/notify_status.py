@@ -57,7 +57,7 @@ def send_discord_message(title, message, color_name="green", force: bool = False
                 "description": message,
                 "color": color,
                 "footer": {
-                    "text": f"Goyoonjung Wiki Automation • {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+                    "text": f"고윤정 위키 자동화 • {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
                 }
             }
         ]
