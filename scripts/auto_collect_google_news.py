@@ -29,7 +29,18 @@ import relevance
 
 # Configuration
 CONF = config_loader.load_config()
-RSS_URL = CONF.get('rss_url', "https://news.google.com/rss/search?q=고윤정+when:1d&hl=ko&gl=KR&ceid=KR:ko") # Fallback
+from urllib.parse import quote
+
+RSS_URL = CONF.get('rss_url', "https://news.google.com/rss/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95+when:1d&hl=ko&gl=KR&ceid=KR:ko") # Fallback
+
+
+def normalize_rss_url(url: str) -> str:
+    # If url contains raw non-ascii (e.g., q=고윤정), percent-encode it.
+    try:
+        url.encode('ascii')
+        return url
+    except Exception:
+        return quote(url, safe=':/?&=+%')
 BASE = SCRIPT_DIR.parent
 # SEEN_TXT removed in favor of DB
 
@@ -61,7 +72,8 @@ def decode_google_news_url(source_url):
         return source_url
 
 def fetch_rss():
-    req = Request(RSS_URL, headers={'User-Agent': 'Mozilla/5.0'})
+    url = normalize_rss_url(RSS_URL)
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     with urlopen(req) as response:
         return response.read()
 
