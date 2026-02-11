@@ -1,19 +1,20 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-12 00:21 (Asia/Seoul)
+> 갱신: 2026-02-12 00:25 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 58d049e 2026-02-12 00:18:35 +0900 daily: update 2026-02-12
+- 8a00096 2026-02-12 00:24:08 +0900 chore: fix backlog auto-progress + add discord notifications
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-12.md
 - pages/daily-report.md
+- pages/namu-backlog.md
 - pages/progress.md
 - pages/system_status.md
-- pages/works/alchemy-of-souls.md
-- pages/works/moving.md
+- scripts/run_daily_update.sh
+- scripts/update_backlog_checkboxes.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-12.md)
 
