@@ -11,4 +11,7 @@ MARITHE	"고윤정" "마리떼" when:30d
 LENSME	"고윤정" 렌즈미 when:30d
 PURADAK	"고윤정" 푸라닭 when:30d
 CARROT	"고윤정" 캐롯손해보험 when:30d
+AWARDS	"고윤정" "백상" OR "청룡" OR "대종상" OR "부일" when:90d
+FASHION	"고윤정" 화보 OR 인터뷰 OR 샤넬 OR 보그 OR 엘르 when:60d
+WORKS	"고윤정" 드라마 OR 영화 OR 캐스팅 OR 제작발표회 OR 티저 when:60d
 KBS연예	site:kstar.kbs.co.kr "고윤정" when:30d
