@@ -77,6 +77,10 @@ RC_COLLECT=$?
 retry 3 10 ./scripts/auto_collect_google_news.py
 RC_GNEWS=$?
 
+# 1.52) Collect magazine RSS feeds (ELLE/W/BAZAAR/GQ) (stable)
+retry 2 5 timeout 90 ./scripts/auto_collect_magazine_rss.py
+RC_MAG_RSS=$?
+
 # 1.55) Collect portal news links (Naver/Daum) (best-effort)
 retry 2 5 timeout 120 ./scripts/auto_collect_news_links.py
 RC_PORTAL_NEWS=$?
@@ -170,6 +174,11 @@ if [ "${RC_GNEWS:-0}" -ne 0 ]; then
   NOTE="$NOTE, gnews:SKIP"
 else
   NOTE="$NOTE, gnews:OK"
+fi
+if [ "${RC_MAG_RSS:-0}" -ne 0 ]; then
+  NOTE="$NOTE, mag-rss:SKIP"
+else
+  NOTE="$NOTE, mag-rss:OK"
 fi
 if [ "${RC_SCHED:-0}" -ne 0 ]; then
   NOTE="$NOTE, sched:SKIP"
