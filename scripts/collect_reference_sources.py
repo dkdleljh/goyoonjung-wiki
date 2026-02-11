@@ -42,7 +42,7 @@ WIKIPEDIA_URL = "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95"
 NAMU_URL = "https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95"
 MAA_ARTIST_URL = "https://maa.co.kr/artists/go-younjung"
 INSTAGRAM_URL = "https://www.instagram.com/goyounjung/"
-FANCAFE_URL = None  # unknown; keep as None until user provides
+FANCAFE_URL = "https://cafe.daum.net/goyounjung.fans"  # user-provided (official confirmation pending)
 
 
 def today_ymd() -> str:
