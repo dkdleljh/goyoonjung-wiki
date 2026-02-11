@@ -25,7 +25,7 @@ import sys
 import time
 from dataclasses import dataclass
 from typing import Iterable
-from urllib.parse import quote_plus, urljoin
+from urllib.parse import quote_plus, urljoin, urlsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -37,6 +37,7 @@ import relevance
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SEEN_TXT = os.path.join(BASE, "sources", "seen-urls.txt")
 INTERVIEWS_MD = os.path.join(BASE, "pages", "interviews.md")
+ALLOWLIST = os.path.join(BASE, "config", "allowlist-domains.txt")
 
 UA = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
@@ -213,9 +214,27 @@ def daum_collect(limit: int = 8) -> list[str]:
     return out
 
 
-def build_entries(urls: list[str], seen: set[str], source_label: str) -> list[Entry]:
+def load_allowlist() -> set[str]:
+    if not os.path.exists(ALLOWLIST):
+        return set()
+    out: set[str] = set()
+    with open(ALLOWLIST, 'r', encoding='utf-8') as f:
+        for raw in f:
+            ln = raw.strip()
+            if not ln or ln.startswith('#'):
+                continue
+            ln = ln.replace('https://', '').replace('http://', '')
+            out.add(ln.strip('/'))
+    return out
+
+
+def build_entries(urls: list[str], seen: set[str], source_label: str, allow: set[str]) -> list[Entry]:
     out: list[Entry] = []
     for u in urls:
+        if allow:
+            host = urlsplit(u).netloc.lower().split(':', 1)[0]
+            if host not in allow:
+                continue
         if u in seen:
             continue
         title = og_title(u)
@@ -253,9 +272,11 @@ def main() -> int:
     n_urls = naver_collect()
     d_urls = daum_collect()
 
+    allow = load_allowlist()
+
     entries = []
-    entries += build_entries(n_urls, seen, "네이버 뉴스")
-    entries += build_entries(d_urls, seen, "다음 뉴스")
+    entries += build_entries(n_urls, seen, "네이버 뉴스", allow)
+    entries += build_entries(d_urls, seen, "다음 뉴스", allow)
 
     changed = apply_entries(INTERVIEWS_MD, entries)
     print(f"auto_collect_news_links: urls={len(n_urls)+len(d_urls)} entries={len(entries)} changed={changed}")

@@ -36,7 +36,17 @@ if ! mkdir "$LOCK_PATH" 2>/dev/null; then
     exit 0
   fi
 fi
-trap 'rmdir "$LOCK_PATH" 2>/dev/null || true' EXIT
+RUN_OK=0
+on_exit() {
+  local rc=$?
+  # release lock
+  rmdir "$LOCK_PATH" 2>/dev/null || true
+  # if not marked success, mark failure (prevents stuck '진행중')
+  if [ "$RUN_OK" -ne 1 ]; then
+    ./scripts/mark_news_status.sh 실패 "auto: daily update aborted (rc=$rc)" >/dev/null 2>&1 || true
+  fi
+}
+trap on_exit EXIT
 
 # Ensure main branch
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
@@ -298,6 +308,7 @@ else
   NOTE="$NOTE, dashboard:OK"
 fi
 ./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+RUN_OK=1
 
 # Commit only if there are changes (excluding backups)
 # Stage everything except backups (already excluded by .gitignore, but be explicit)
