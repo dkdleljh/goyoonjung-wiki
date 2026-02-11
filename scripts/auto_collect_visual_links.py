@@ -312,6 +312,11 @@ def generic_search_collect(site: str, search_url: str, brand: str, limit: int = 
     for u in urls:
         if len(out) >= limit:
             break
+
+        # Hard filter: only visit pages with a date-like path (/YYYY/MM/DD/). This keeps runtime bounded.
+        if not re.search(r"/(20\d{2})/(\d{2})/(\d{2})/", u):
+            continue
+
         try:
             page = http_get(u)
         except Exception:
