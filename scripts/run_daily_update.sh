@@ -27,6 +27,8 @@ LOCK_FILE="$LOCK_DIR/daily-update.lock"
 NOTIFY_DIR="$LOCK_DIR"
 SUCCESS_STAMP="$NOTIFY_DIR/last-success-notify.${TODAY}.stamp"
 FAIL_STAMP="$NOTIFY_DIR/last-fail-notify.stamp"
+STATUS_FILE="$NOTIFY_DIR/last-run-status.txt"
+RECOVERY_STAMP="$NOTIFY_DIR/last-recovery-notify.${TODAY}.stamp"
 
 # Run log (for detailed notifications)
 RUN_LOG="$LOCK_DIR/run_${TODAY}.log"
@@ -56,6 +58,7 @@ on_exit() {
   rmdir "$LOCK_PATH" 2>/dev/null || true
   # if not marked success, mark failure (prevents stuck '진행중')
   if [ "$RUN_OK" -ne 1 ]; then
+    echo "fail run_id=${RUN_ID:-unknown} at=${NOW:-unknown} step=${CURRENT_STEP:-unknown} rc=${rc}" > "${STATUS_FILE:-/dev/null}" 2>/dev/null || true
     ./scripts/mark_news_status.sh 실패 "auto: daily update aborted (rc=$rc)" >/dev/null 2>&1 || true
     # Debounce FAIL notifications: at most once per 30 minutes
     local now last
@@ -363,6 +366,8 @@ else
   NOTE="$NOTE, dashboard:OK"
 fi
 ./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+# record last status for recovery notifications
+echo "ok run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
 RUN_OK=1
 
 # Commit only if there are changes (excluding backups)
@@ -379,9 +384,19 @@ git commit -m "$MSG" >/dev/null
 
 git push origin main >/dev/null
 
-# Success notification: once per day
+# Success notification:
+# - normal OK: once per day
+# - recovery: if last status was FAIL, send once even if daily OK already sent
+SEND_KIND=""
 if [ ! -f "$SUCCESS_STAMP" ]; then
+  SEND_KIND="ok"
   date -Iseconds > "$SUCCESS_STAMP" 2>/dev/null || true
+elif [ -f "$STATUS_FILE" ] && grep -q '^fail ' "$STATUS_FILE" 2>/dev/null && [ ! -f "$RECOVERY_STAMP" ]; then
+  SEND_KIND="recovered"
+  date -Iseconds > "$RECOVERY_STAMP" 2>/dev/null || true
+fi
+
+if [ -n "$SEND_KIND" ]; then
   # Readable per-module summary
   fmt() { local name="$1"; local rc="$2"; if [ "${rc:-0}" -eq 0 ]; then echo "$name:OK"; else echo "$name:SKIP(rc=$rc)"; fi; }
 
@@ -431,7 +446,11 @@ EOF
   fi
 
   legend="\n---\nLegend: GREEN=핵심 수집/정리 단계 모두 성공, YELLOW=핵심 단계 일부 스킵(그러나 전체 런은 성공), RED=실패/중단"
-  python3 ./scripts/notify_status.py "goyoonjung-wiki: OK (#${RUN_ID})" "$MSG\n$NOTE\n${FLUSH_SUM}\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
+  title="goyoonjung-wiki: OK (#${RUN_ID})"
+  if [ "$SEND_KIND" = "recovered" ]; then
+    title="goyoonjung-wiki: RECOVERED (#${RUN_ID})"
+  fi
+  python3 ./scripts/notify_status.py "$title" "$MSG\n$NOTE\n${FLUSH_SUM}\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
 fi
 
 echo "OK: $MSG"
