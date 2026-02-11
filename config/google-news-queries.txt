@@ -1,0 +1,13 @@
+# label<TAB>query (without hl/gl/ceid; script adds those)
+# 목적: 브랜드/작품/행사 등 '누락 쉬운 컨텐츠'를 키워드로 더 넓게 포착합니다.
+# 원칙: 링크만 수집
+
+VODANA	보다나 고윤정 when:30d
+RYO	려 고윤정 when:30d
+GOODAL	구달 고윤정 when:30d
+DISCOVERY	디스커버리 익스페디션 고윤정 when:30d
+MARITHE	마리떼 고윤정 when:30d
+LENSME	렌즈미 고윤정 when:30d
+PURADAK	푸라닭 고윤정 when:30d
+CARROT	캐롯손해보험 고윤정 when:30d
+KBS연예	site:kstar.kbs.co.kr 고윤정 when:30d

@@ -9,3 +9,6 @@ scripts/__pycache__/
 
 # runtime locks
 .locks/
+
+# local state (do not version)
+data/wiki.db

@@ -81,6 +81,10 @@ RC_GNEWS=$?
 retry 2 5 timeout 90 ./scripts/auto_collect_google_news_sites.py
 RC_GNEWS_SITES=$?
 
+# 1.515) Collect Google News custom queries (brands/ads/etc) (stable)
+retry 2 5 timeout 90 ./scripts/auto_collect_google_news_queries.py
+RC_GNEWS_QUERIES=$?
+
 # 1.52) Collect magazine RSS feeds (ELLE/W/BAZAAR/GQ) (stable)
 retry 2 5 timeout 90 ./scripts/auto_collect_magazine_rss.py
 RC_MAG_RSS=$?
@@ -187,6 +191,11 @@ if [ "${RC_GNEWS_SITES:-0}" -ne 0 ]; then
   NOTE="$NOTE, gnews-sites:SKIP"
 else
   NOTE="$NOTE, gnews-sites:OK"
+fi
+if [ "${RC_GNEWS_QUERIES:-0}" -ne 0 ]; then
+  NOTE="$NOTE, gnews-queries:SKIP"
+else
+  NOTE="$NOTE, gnews-queries:OK"
 fi
 if [ "${RC_MAG_RSS:-0}" -ne 0 ]; then
   NOTE="$NOTE, mag-rss:SKIP"
