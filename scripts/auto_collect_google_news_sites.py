@@ -53,8 +53,8 @@ def decode_google_news_url(source_url: str) -> str:
     import urllib.request
 
     try:
-        req = urllib.request.Request(source_url, method="HEAD")
-        with urllib.request.urlopen(req, timeout=5) as resp:
+        req = urllib.request.Request(source_url, method="GET", headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=8) as resp:
             return resp.geturl()
     except Exception:
         return source_url
@@ -150,6 +150,8 @@ def main() -> int:
                 continue
 
             real_url = decode_google_news_url(origin_link)
+            if "news.google.com" in real_url:
+                continue
             if db_manager.is_url_seen(real_url):
                 continue
 

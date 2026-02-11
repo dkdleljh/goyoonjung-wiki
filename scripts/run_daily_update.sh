@@ -93,6 +93,10 @@ RC_MAG_RSS=$?
 retry 2 5 timeout 120 ./scripts/auto_collect_news_links.py
 RC_PORTAL_NEWS=$?
 
+# 1.6) Sanitize today's news log (remove unresolved Google RSS links, dedupe)
+retry 2 2 timeout 30 ./scripts/sanitize_news_log.py
+RC_SAN_NEWS=$?
+
 # 1.6) Estimate Schedule (New)
 retry 3 5 ./scripts/auto_collect_schedule.py
 RC_SCHED=$?
@@ -211,6 +215,11 @@ if [ "${RC_PORTAL_NEWS:-0}" -ne 0 ]; then
   NOTE="$NOTE, portal-news:SKIP"
 else
   NOTE="$NOTE, portal-news:OK"
+fi
+if [ "${RC_SAN_NEWS:-0}" -ne 0 ]; then
+  NOTE="$NOTE, san-news:SKIP"
+else
+  NOTE="$NOTE, san-news:OK"
 fi
 if [ "${RC_AGENCY:-0}" -ne 0 ]; then
   NOTE="$NOTE, agency:SKIP"

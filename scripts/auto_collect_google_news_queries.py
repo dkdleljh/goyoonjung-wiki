@@ -35,11 +35,19 @@ RSS_TEMPLATE = "https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
 
 
 def decode_google_news_url(source_url: str) -> str:
-    import urllib.request
+    """Resolve Google News redirect URL.
 
+    Quality rule:
+    - If it can't be resolved away from news.google.com, we skip the item later.
+    """
+    import urllib.request
     try:
-        req = urllib.request.Request(source_url, method="HEAD")
-        with urllib.request.urlopen(req, timeout=5) as resp:
+        req = urllib.request.Request(
+            source_url,
+            method="GET",
+            headers={"User-Agent": UA},
+        )
+        with urllib.request.urlopen(req, timeout=8) as resp:
             return resp.geturl()
     except Exception:
         return source_url
@@ -127,6 +135,9 @@ def main() -> int:
                 continue
 
             real_url = decode_google_news_url(origin_link)
+            # 품질: 리다이렉트 해소 실패(여전히 news.google.com)이면 스킵
+            if "news.google.com" in real_url:
+                continue
             if db_manager.is_url_seen(real_url):
                 continue
 

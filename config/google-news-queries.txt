@@ -2,12 +2,13 @@
 # 목적: 브랜드/작품/행사 등 '누락 쉬운 컨텐츠'를 키워드로 더 넓게 포착합니다.
 # 원칙: 링크만 수집
 
-VODANA	보다나 고윤정 when:30d
-RYO	려 고윤정 when:30d
-GOODAL	구달 고윤정 when:30d
-DISCOVERY	디스커버리 익스페디션 고윤정 when:30d
-MARITHE	마리떼 고윤정 when:30d
-LENSME	렌즈미 고윤정 when:30d
-PURADAK	푸라닭 고윤정 when:30d
-CARROT	캐롯손해보험 고윤정 when:30d
-KBS연예	site:kstar.kbs.co.kr 고윤정 when:30d
+# NOTE: 품질 우선. 반드시 "고윤정"을 따옴표로 고정해 잡음 기사 유입을 줄입니다.
+VODANA	"고윤정" 보다나 when:30d
+RYO	"고윤정" 려 when:30d
+GOODAL	"고윤정" 구달 when:30d
+DISCOVERY	"고윤정" "디스커버리 익스페디션" when:30d
+MARITHE	"고윤정" "마리떼" when:30d
+LENSME	"고윤정" 렌즈미 when:30d
+PURADAK	"고윤정" 푸라닭 when:30d
+CARROT	"고윤정" 캐롯손해보험 when:30d
+KBS연예	site:kstar.kbs.co.kr "고윤정" when:30d
