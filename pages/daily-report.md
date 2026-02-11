@@ -1,20 +1,19 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-12 01:11 (Asia/Seoul)
+> 갱신: 2026-02-12 01:17 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 4dfd643 2026-02-12 01:06:02 +0900 daily: update 2026-02-12
+- d3d5ff2 2026-02-12 01:16:52 +0900 chore: reach 100% backlog (mv + award page + heuristics)
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-12.md
-- pages/daily-report.md
+- pages/appearances.md
+- pages/namu-backlog.md
 - pages/progress.md
-- pages/system_status.md
-- pages/works/alchemy-of-souls.md
-- pages/works/moving.md
-- sources/awards-official.md
+- pages/videos/mv.md
+- scripts/update_backlog_checkboxes.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-12.md)
 
@@ -37,6 +36,7 @@
 - pages/awards.md:27 · | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:28 · | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
 - pages/interviews.md:116 · - 요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
+- pages/appearances.md:110 · - 날짜: (페이지 내 표기 확인 필요)
 
 <!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
 
@@ -54,14 +54,16 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-12 01:06 (Asia/Seoul)
+- 실행: 2026-02-12 01:12 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
-- C(완성도 우선) 백로그 진행률: 11/20 (55%)
+- C(완성도 우선) 백로그 진행률: 20/20 (100%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 ## 실행 이력
 
+- 2026-02-12 01:12 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-12 01:11 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-12 01:06 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-12 01:06 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-12 01:01 (Asia/Seoul) · 진행중 · auto: daily update running
