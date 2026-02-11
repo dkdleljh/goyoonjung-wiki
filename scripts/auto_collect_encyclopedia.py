@@ -78,7 +78,7 @@ def main():
         except: pass
         
         if wiki_status not in content:
-            f.write(f "- [Encyclopedia] {wiki_status}\n")
+            f.write(f"- [Encyclopedia] {wiki_status}\n")
         if namu_status not in content:
             f.write(f"- [Encyclopedia] {namu_status}\n")
 
