@@ -27,7 +27,7 @@
 - id: https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/
 - 메모: 보그 프로모션 페이지(이미지 포함 가능). 세부 날짜/캠페인 컷은 원문 기준으로 보강.
 
-- 날짜: (확인 필요)
+- 날짜: 2022-11-28 (YouTube upload_date)
 - 매체/브랜드: 마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)
 - 구분: 캠페인(영상)
 - 제목: 마리떼 프랑소와 저버 캠페인 영상
@@ -35,7 +35,7 @@
 - 상태: 공식확정
 - id: https://youtu.be/76aAMPpCTb4
 
-- 날짜: (확인 필요)
+- 날짜: 2023-11-28 (YouTube upload_date)
 - 매체/브랜드: 디스커버리 익스페디션(Discovery Expedition)
 - 구분: 캠페인(영상)
 - 제목: 디스커버리 캠페인 영상
@@ -43,7 +43,7 @@
 - 상태: 공식확정
 - id: https://youtu.be/ZH1Y1l1OmTY
 
-- 날짜: (확인 필요)
+- 날짜: 2023-07-31 (YouTube upload_date)
 - 매체/브랜드: 캐롯손해보험
 - 구분: 광고(영상)
 - 제목: 캐롯 TVC
@@ -51,7 +51,7 @@
 - 상태: 공식확정
 - id: https://youtu.be/jXCnrLQJfzE
 
-- 날짜: (확인 필요)
+- 날짜: 2024-01-25 (YouTube upload_date)
 - 매체/브랜드: 푸라닭치킨
 - 구분: 광고(영상)
 - 제목: 푸라닭 광고 영상
@@ -67,7 +67,7 @@
 - 상태: 공식확정
 - id: https://youtu.be/c_VCPdtEA6A
 
-- 날짜: (확인 필요)
+- 날짜: 2023-08-02 (YouTube upload_date)
 - 매체/브랜드: LENSME(렌즈미)
 - 구분: 캠페인(영상)
 - 제목: 렌즈미 캠페인 영상
@@ -102,7 +102,7 @@
 - 상태: 공식확정
 - id: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157
 
-- 날짜: (확인 필요)
+- 날짜: 2024-02-27 (YouTube upload_date)
 - 매체/브랜드: 구달(goodal)
 - 구분: 광고(영상)
 - 제목: 구달 공식 광고 영상
@@ -118,7 +118,7 @@
 - 상태: 공식확정
 - id: https://youtu.be/hV1sOJLuMN8
 
-- 날짜: (확인 필요)
+- 날짜: 2023-04-04 (YouTube upload_date)
 - 매체/브랜드: 려(RYO)
 - 구분: 광고(영상)
 - 제목: 려 공식 광고 영상
