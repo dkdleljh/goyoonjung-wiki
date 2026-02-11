@@ -162,7 +162,7 @@ retry 2 10 ./scripts/promote_safe_metadata.py
 RC_PROMOTE_SAFE=$?
 
 # 4.1) Auto-fill missing dates from YouTube metadata (safe)
-retry 2 5 timeout 120 ./scripts/promote_youtube_dates.py
+retry 2 5 timeout 45 ./scripts/promote_youtube_dates.py
 RC_YT_DATES=$?
 
 # 4.5) Endorsements date promotion
