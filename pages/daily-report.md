@@ -1,23 +1,18 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-11 20:03 (Asia/Seoul)
+> 갱신: 2026-02-11 20:11 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- a27fe49 2026-02-11 19:59:52 +0900 chore: sync lint report and config loader fixes
+- a29c0d7 2026-02-11 20:03:59 +0900 docs: Update indexes, timeline, and dashboard
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- .obsidian/app.json
-- .obsidian/appearance.json
-- .obsidian/core-plugins.json
-- .obsidian/workspace.json
-- news/2026-02-11.md
-- pages/lint-report.md
+- pages/daily-report.md
+- pages/index-by-tag.md
+- pages/progress.md
 - pages/system_status.md
-- pages/works/alchemy-of-souls.md
-- pages/works/moving.md
-- scripts/config_loader.py
+- pages/timeline.md
 
 ## 3) 오늘 실행 상태(news/2026-02-11.md)
 
@@ -42,7 +37,7 @@
 ### 후보(자동 스캔)
 - pages/profile.md:30 · - 상태: 참고(2차)
 - pages/profile.md:37 · - 상태: 참고(2차)
-- pages/filmography.md:27 · ## 추가 기록(2차 참고 — 공식 교차검증 필요)
+- pages/filmography.md:29 · ## 추가 기록(2차 참고 — 공식 교차검증 필요)
 - pages/awards.md:18 · > - 상태: 공식확정 | 교차검증 필요(2차 참고)
 - pages/awards.md:22 · | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:23 · | 2025 | 코리아 드라마 어워즈 | 여자 우수연기상 | *언젠가는 슬기로울 전공의생활* | 후보 | 교차검증 필요(2차 참고) |  |  |
@@ -51,8 +46,7 @@
 - pages/awards.md:26 · | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:27 · | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 교차검증 필요(2차 참고) |  |  |
 - pages/awards.md:28 · | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 교차검증 필요(2차 참고) |  |  |
-- pages/interviews.md:106 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/interviews.md:113 · - (요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
+- pages/interviews.md:116 · - 요약 보강 필요) 엘르 원문 기반으로 커버/화보/인터뷰 관련 내용을 정리합니다.
 
 <!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
 
@@ -100,7 +94,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-AWARDS-PROOF-SUGGEST:END -->
 
-- 실행: 2026-02-11 19:42 (Asia/Seoul)
+- 실행: 2026-02-11 20:08 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -125,6 +119,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 
+- 2026-02-11 20:08 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 20:08 (Asia/Seoul) · 성공 · sync: test
 - 2026-02-11 19:42 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 19:29 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 19:23 (Asia/Seoul) · 진행중 · auto: daily update running
