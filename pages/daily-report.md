@@ -1,14 +1,19 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-11 19:27 (Asia/Seoul)
+> 갱신: 2026-02-11 19:35 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 3d14078 2026-02-11 19:21:29 +0900 chore: cap collector runtime (timeout)
+- 7f2e8e9 2026-02-11 19:32:24 +0900 daily: update 2026-02-11
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- scripts/run_daily_update.sh
+- config/awards-official-cache.json
+- pages/daily-report.md
+- pages/interviews.md
+- pages/progress.md
+- pages/works/alchemy-of-souls.md
+- pages/works/moving.md
 
 ## 3) 오늘 실행 상태(news/2026-02-11.md)
 
@@ -59,7 +64,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-11 19:21 (Asia/Seoul)
+- 실행: 2026-02-11 19:34 (Asia/Seoul)
 - 결과: 진행중
 - 메모:
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -85,7 +90,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 <!-- AUTO-SKIP-REASONS:START -->
 ## 자동화 스킵/실패 사유(무인 로그)
 > 목적: 무인 자동화에서 일부 항목이 채워지지 않는 ‘이유’를 기록합니다. (조치 필요 없음)
-> 갱신: 2026-02-11 19:15 (Asia/Seoul)
+> 갱신: 2026-02-11 19:29 (Asia/Seoul)
 
 - (특이사항 없음)
 
@@ -93,6 +98,10 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 
+- 2026-02-11 19:34 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 19:32 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, fixed-lead:OK, lead-suggest:OK, awards-proof-auto:OK, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, infobox:OK, interview-sanitize:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, timeline-narr:OK, push:OK
+- 2026-02-11 19:29 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 19:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, fixed-lead:OK, lead-suggest:OK, awards-proof-auto:OK, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, infobox:OK, interview-sanitize:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, timeline-narr:OK, push:OK
 - 2026-02-11 19:21 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 19:18 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, fixed-lead:OK, lead-suggest:OK, awards-proof-auto:OK, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, infobox:OK, interview-sanitize:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, timeline-narr:OK, push:OK
 - 2026-02-11 19:15 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -128,10 +137,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-11 01:26 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
 - 2026-02-11 01:26 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
 - 2026-02-11 01:24 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 01:16 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
-- 2026-02-11 01:16 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
-- 2026-02-11 01:14 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 01:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-11_0113.tar.gz), collect:OK, promote-suggest:OK, daily-task:OK, lead-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, profile-policy:OK, meta-dates:OK, interview-allow:OK, endo-announce:OK, endo-announce-fallback:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK
 
 ## 4) 권장 체크
 
