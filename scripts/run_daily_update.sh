@@ -112,10 +112,15 @@ record_reason() {
 
 
 # 1) Collect
-retry 3 20 ./scripts/auto_collect_visual_links.py
+# Guard total runtime: collectors can expand over time; keep a hard upper bound.
+retry 3 20 timeout 180 ./scripts/auto_collect_visual_links.py
 RC_COLLECT=$?
 if [ "$RC_COLLECT" -ne 0 ]; then
-  record_reason "collect" "$RC_COLLECT" "error" "auto_collect_visual_links failed"
+  if [ "$RC_COLLECT" -eq 124 ]; then
+    record_reason "collect" "$RC_COLLECT" "timeout" "auto_collect_visual_links timed out"
+  else
+    record_reason "collect" "$RC_COLLECT" "error" "auto_collect_visual_links failed"
+  fi
 fi
 
 # 1.1) Reference sources signal (wikipedia/namu/agency)
