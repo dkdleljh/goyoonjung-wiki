@@ -383,6 +383,10 @@ fi
 MSG="daily: update ${TODAY}"
 git commit -m "$MSG" >/dev/null
 
+# Prevent git hooks from sending duplicate notifications for automation pushes
+export NO_HOOK_NOTIFY=1
+export GOYOONJUNG_WIKI_AUTOMATION_PUSH=1
+
 git push origin main >/dev/null
 
 NEW_HEAD=$(git rev-parse --short HEAD 2>/dev/null || echo unknown)

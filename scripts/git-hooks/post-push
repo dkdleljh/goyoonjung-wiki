@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Git post-push hook: send a Discord notification for manual pushes.
+# Avoid double notifications when the automation pipeline pushes.
+
+if [ "${NO_HOOK_NOTIFY:-}" = "1" ] || [ "${GOYOONJUNG_WIKI_AUTOMATION_PUSH:-}" = "1" ]; then
+  exit 0
+fi
+
+BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+cd "$BASE"
+
+# Best-effort: don't block push on failures
+
+HEAD_SHA=$(git rev-parse --short HEAD 2>/dev/null || echo unknown)
+BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo main)
+
+# Create a compact change list
+CHANGED=$(git diff --name-only HEAD~1..HEAD 2>/dev/null | head -n 20 | sed 's/^/- /' || true)
+
+TITLE="goyoonjung-wiki: MANUAL PUSH"
+MSG="branch=${BRANCH}\ncommit=${HEAD_SHA}\nchanges:\n${CHANGED}"
+
+python3 "$BASE/scripts/notify_status.py" "$TITLE" "$MSG\n---\nLegend: GREEN=핵심 수집/정리 단계 모두 성공, YELLOW=핵심 단계 일부 스킵(그러나 전체 런은 성공), RED=실패/중단" yellow >/dev/null 2>&1 || true

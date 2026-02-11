@@ -17,6 +17,9 @@ fi
 TODAY=$(TZ='Asia/Seoul' date +"%Y-%m-%d")
 git commit -m "chore: link health ${TODAY}" >/dev/null
 
+export NO_HOOK_NOTIFY=1
+export GOYOONJUNG_WIKI_AUTOMATION_PUSH=1
+
 git push origin main >/dev/null
 
 echo "OK"
