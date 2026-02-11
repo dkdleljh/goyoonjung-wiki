@@ -25,6 +25,37 @@
 - 상태: 공식확정
 - id: https://www.elle.co.kr/article/1880222
 
+- 날짜: 2025-11-12
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 2025 마리끌레르 아시아스타어워즈 비욘드 시네마상 수상자, 배우 고윤정
+- 링크(원문): https://www.marieclairekorea.com/celebrity/2025/11/2025-asa-beyondcinema-2/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/celebrity/2025/11/2025-asa-beyondcinema-2/
+
+- 날짜: 2025-10-29
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 제니와 고윤정의 가죽 재킷 스타일은?
+- 링크(원문): https://www.marieclairekorea.com/fashion/2025/10/leather-jacket-4/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/fashion/2025/10/leather-jacket-4/
+
+- 날짜: 2025-11-15
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 샤넬과 고윤정이 함께한 영화적 순간 #1
+- 링크(원문): https://www.marieclairekorea.com/fashion/2025/11/chanel-70/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/fashion/2025/11/chanel-70/
+
+- 날짜: 2025-11-15
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 샤넬과 고윤정이 함께한 영화적 순간 #2
+- 링크(원문): https://www.marieclairekorea.com/fashion/2025/11/chanel-71/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/fashion/2025/11/chanel-71/
 ## 2024
 - 날짜: 2024-07
 - 매체: Marie Claire Korea (마리끌레르 코리아)

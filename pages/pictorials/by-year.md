@@ -13,6 +13,10 @@
 
 ## 2025
 - 2025-12-11 · [<이 사랑 통역 되나요?> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=387125)
+- 2025-11-15 · [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)
+- 2025-11-15 · [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)
+- 2025-11-12 · [2025 마리끌레르 아시아스타어워즈 비욘드 시네마상 수상자, 배우 고윤정](https://www.marieclairekorea.com/celebrity/2025/11/2025-asa-beyondcinema-2/)
+- 2025-10-29 · [제니와 고윤정의 가죽 재킷 스타일은?](https://www.marieclairekorea.com/fashion/2025/10/leather-jacket-4/)
 - 2025-08-29 · [샤넬과 만난 신비로운 고윤정의 모습으로 채운 마리끌레르 9월호 디지털 커버](https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/)
 - 2025-06-17 · [고윤정, ‘하퍼스 바자’ 7월호 커버 장식](https://www.harpersbazaar.co.kr/article/1883281)
 - 2025-05-26 · [Go ZERO, Now ZERO](https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/)

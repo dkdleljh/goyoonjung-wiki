@@ -1,15 +1,19 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-11 21:03 (Asia/Seoul)
+> 갱신: 2026-02-11 21:06 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- b751586 2026-02-11 21:00:18 +0900 feat: add stable magazine RSS collection
+- d8368d1 2026-02-11 21:03:35 +0900 daily: update 2026-02-11
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- scripts/auto_collect_magazine_rss.py
-- scripts/run_daily_update.sh
+- news/2026-02-11.md
+- pages/daily-report.md
+- pages/progress.md
+- pages/system_status.md
+- pages/works/alchemy-of-souls.md
+- pages/works/moving.md
 
 ## 3) 오늘 실행 상태(news/2026-02-11.md)
 
@@ -91,7 +95,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-AWARDS-PROOF-SUGGEST:END -->
 
-- 실행: 2026-02-11 21:00 (Asia/Seoul)
+- 실행: 2026-02-11 21:04 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -116,6 +120,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 
+- 2026-02-11 21:04 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 21:03 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-11 21:00 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 20:59 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-11 20:56 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -131,8 +137,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-11 20:17 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 20:16 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, sched:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-11 20:12 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-11 20:11 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, sched:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-11 20:08 (Asia/Seoul) · 진행중 · auto: daily update running
 
 ## 4) 권장 체크
 
