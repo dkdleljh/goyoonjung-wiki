@@ -146,7 +146,9 @@ def main() -> int:
             if title_el is None or link_el is None:
                 continue
             title = (title_el.text or "").replace("<b>", "").replace("</b>", "").strip()
-            if not relevance.is_relevant(title, "", label):
+            desc_el = item.find("description")
+            desc = desc_el.text if desc_el is not None and desc_el.text else ""
+            if not relevance.is_relevant(title, "", label, desc):
                 continue
             origin_link = (link_el.text or "").strip()
             if not title or not origin_link:

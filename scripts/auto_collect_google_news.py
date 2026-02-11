@@ -105,8 +105,11 @@ def main():
 
         source_text = source_elem.text if source_elem is not None else "Google News"
 
+        desc_el = item.find("description")
+        desc = desc_el.text if desc_el is not None and desc_el.text else ""
+
         # Relevance gate (precision-first)
-        if not relevance.is_relevant(title, real_url, source_text):
+        if not relevance.is_relevant(title, real_url, source_text, desc):
             continue
 
         category = classify(title)

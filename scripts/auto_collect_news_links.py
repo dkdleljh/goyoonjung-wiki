@@ -241,7 +241,7 @@ def build_entries(urls: list[str], seen: set[str], source_label: str, allow: set
         if not title:
             continue
         # Precision-first relevance gate
-        if not relevance.is_relevant(title, u, source_label):
+        if not relevance.is_relevant(title, u, source_label, ""):
             continue
         date = extract_date_from_url(u) or "(페이지 내 표기 확인 필요)"
         year = int(date[:4]) if date[:4].isdigit() else time.gmtime().tm_year

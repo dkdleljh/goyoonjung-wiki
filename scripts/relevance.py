@@ -78,21 +78,27 @@ def load_blacklist() -> set[str]:
     return bl
 
 
-def is_relevant(title: str, url: str = "", source: str = "") -> bool:
+def is_relevant(title: str, url: str = "", source: str = "", description: str = "") -> bool:
     title = (title or "").strip()
-    if NAME not in title:
+    description = (description or "").strip()
+
+    # Hard rule: name must appear in title OR description
+    if NAME not in title and NAME not in description:
         return False
 
     bl = load_blacklist()
     # if title looks like finance/real-estate noise, drop
-    if any(kw in title for kw in bl):
+    text_all = title + " " + description
+    if any(kw in text_all for kw in bl):
         # allow if strong entertainment context appears
-        if not any(tok in title for tok in CONTEXT_TOKENS):
+        if not any(tok in text_all for tok in CONTEXT_TOKENS):
             return False
 
     score = 0
     if NAME in title:
         score += 3
+    if NAME in description:
+        score += 2
     if any(tok in title for tok in CONTEXT_TOKENS):
         score += 1
 
