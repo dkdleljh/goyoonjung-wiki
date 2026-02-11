@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE_DIR="/home/zenith/바탕화면/goyoonjung-wiki"
+BASE_DIR="/Users/zenith/Documents/goyoonjung-wiki"
 BACKUP_DIR="$BASE_DIR/backups"
 
 mkdir -p "$BACKUP_DIR"

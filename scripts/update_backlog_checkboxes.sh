@@ -4,7 +4,7 @@ set -euo pipefail
 # Heuristically auto-check items in pages/namu-backlog.md based on current wiki contents.
 # Goal: make backlog progress reflect reality without manual checkbox edits.
 
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+BASE="/Users/zenith/Documents/goyoonjung-wiki"
 BACKLOG="$BASE/pages/namu-backlog.md"
 
 [ -f "$BACKLOG" ] || { echo "ERR: missing $BACKLOG" >&2; exit 2; }

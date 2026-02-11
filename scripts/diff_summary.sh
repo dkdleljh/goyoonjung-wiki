@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-cd /home/zenith/바탕화면/goyoonjung-wiki
+cd /Users/zenith/Documents/goyoonjung-wiki
 
 # Print changed files between last two commits (if possible)
 if git rev-parse --verify HEAD~1 >/dev/null 2>&1; then

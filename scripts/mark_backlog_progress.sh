@@ -5,7 +5,7 @@ set -euo pipefail
 # Source checklist: pages/namu-backlog.md
 
 TZ="Asia/Seoul"
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+BASE="/Users/zenith/Documents/goyoonjung-wiki"
 BACKLOG="$BASE/pages/namu-backlog.md"
 NEWS_DIR="$BASE/news"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")

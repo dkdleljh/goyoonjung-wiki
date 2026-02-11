@@ -1,0 +1,32 @@
+# Goyoonjung Wiki Automation Configuration
+
+# News Collection
+rss_url: "https://news.google.com/rss/search?q=고윤정+when:1d&hl=ko&gl=KR&ceid=KR:ko"
+maa_url: "https://maa.co.kr/artists/go-younjung"
+encyclopedia_urls:
+  wikipedia_api: "https://ko.wikipedia.org/w/api.php?action=query&titles=%EA%B3%A0%EC%9C%A4%EC%A0%95&prop=revisions&rvprop=timestamp|user|comment&format=json"
+  namuwiki: "https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95"
+
+# Context Awareness Keywords
+# Format: "Keyword": "Status to set"
+profile_status_keywords:
+  "촬영": "촬영 중"
+  "크랭크인": "촬영 중"
+  "캐스팅": "차기작 준비/검토"
+  "검토": "차기작 검토 중"
+  "공개": "홍보 활동 중"
+  "종영": "휴식/차기작 검토"
+  "제작발표회": "작품 홍보/공개 중"
+
+# Schedule Estimation
+schedule_keywords:
+  - "공개"
+  - "첫방"
+  - "방송"
+  - "개봉"
+  - "참석"
+  - "개최"
+  - "발매"
+
+# System
+discord_webhook_url: "https://discord.com/api/webhooks/1471091835735638038/bP_MrmWgVHRxbYgIlcOaUcXvqeuFf-2YXLkoVPyOE6v7LvGvVEKbBle-GWoZWSsxLCjp"

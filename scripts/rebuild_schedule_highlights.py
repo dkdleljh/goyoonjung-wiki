@@ -3,7 +3,7 @@ import re
 from datetime import datetime, timedelta
 from pathlib import Path
 
-BASE = Path("/home/zenith/바탕화면/goyoonjung-wiki")
+BASE = Path("/Users/zenith/Documents/goyoonjung-wiki")
 SCHEDULE = BASE / "pages" / "schedule.md"
 
 START = "<!-- AUTO-SCHEDULE-HIGHLIGHTS:START -->"

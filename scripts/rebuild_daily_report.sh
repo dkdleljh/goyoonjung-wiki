@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+BASE="/Users/zenith/Documents/goyoonjung-wiki"
 cd "$BASE"
 TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")

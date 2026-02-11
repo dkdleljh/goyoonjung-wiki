@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+BASE="/Users/zenith/Documents/goyoonjung-wiki"
 cd "$BASE"
 
 git checkout main >/dev/null 2>&1 || true

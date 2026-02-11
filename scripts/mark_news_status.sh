@@ -12,7 +12,7 @@ STATUS="${1:-}"
 NOTE="${2:-}"
 TZ="Asia/Seoul"
 
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+BASE="/Users/zenith/Documents/goyoonjung-wiki"
 NEWS_DIR="$BASE/news"
 
 if [ -z "$STATUS" ]; then
@@ -100,12 +100,14 @@ NOW_ESC=$(esc_repl "$NOW ($TZ)")
 STATUS_ESC=$(esc_repl "$STATUS")
 NOTE_ESC=$(esc_repl "${NOTE:-}")
 
-sed -i -E "s|^(- 실행: ).*$|\\1${NOW_ESC}|" "$FILE"
-sed -i -E "s|^(- 결과: ).*$|\\1${STATUS_ESC}|" "$FILE"
+sed -i '' -E "s|^(- 실행: ).*$|\\1${NOW_ESC}|" "$FILE"
+sed -i '' -E "s|^(- 결과: ).*$|\\1${STATUS_ESC}|" "$FILE"
 if grep -q "^- 메모:" "$FILE"; then
-  sed -i -E "s|^(- 메모: ).*$|\\1${NOTE_ESC}|" "$FILE"
+  sed -i '' -E "s|^(- 메모: ).*$|\\1${NOTE_ESC}|" "$FILE"
 else
-  sed -i -E "/^- 결과:/a - 메모: ${NOTE_ESC}" "$FILE"
+  sed -i '' -E "/^- 결과:/a\\
+- 메모: ${NOTE_ESC}\\
+" "$FILE"
 fi
 
 # Append history line (always)

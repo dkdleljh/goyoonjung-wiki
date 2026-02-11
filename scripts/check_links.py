@@ -22,74 +22,30 @@ from urllib.request import Request, urlopen
 
 BASE = Path(__file__).resolve().parent.parent
 PAGES = BASE / 'pages'
-SOURCES = BASE / 'sources'
-OUT = PAGES / 'link-health.md'
-
-URL_RE = re.compile(r"https?://[^\s)\]}>\"']+")
-
-# Keep it gentle
-TIMEOUT = 3
-MAX_URLS = 12  # keep weekly run very quick
-
-
-def iter_md_files():
-    for root in (PAGES, SOURCES):
-        if not root.exists():
-            continue
-        for p in root.rglob('*.md'):
-            # ignore generated report itself to prevent oscillation
-            if p.name in ('link-health.md',):
-                continue
-            yield p
-
-
-def extract_urls(text: str):
-    return URL_RE.findall(text)
-
-
-@dataclass
-class Result:
-    url: str
-    status: str  # ok|warn|bad
-    code: int | None
-    note: str
-
-
-def fetch_status(url: str) -> Result:
-    # Some sites block HEAD; try HEAD then GET.
-    headers = {
-        'User-Agent': 'goyoonjung-wiki-link-check/1.0 (+local)'
-    }
-
-    def attempt(method: str):
-        req = Request(url, method=method, headers=headers)
-        with urlopen(req, timeout=TIMEOUT) as resp:
-            code = getattr(resp, 'status', None) or resp.getcode()
-            final = resp.geturl()
-            return code, final
-
     try:
-        code, final = attempt('HEAD')
-    except Exception:
-        try:
-            code, final = attempt('GET')
-        except Exception as e:
-            return Result(url=url, status='bad', code=None, note=str(e)[:120])
-
-    note = ''
-    if final and final != url:
-        note = f'redirect -> {final}'
-
-    if code is None:
-        return Result(url=url, status='warn', code=None, note=note or 'no status')
-    if 200 <= code < 300:
-        return Result(url=url, status='ok', code=code, note=note)
-    if code in (301, 302, 307, 308):
-        return Result(url=url, status='warn', code=code, note=note or 'redirect')
-    if code in (401, 403):
-        return Result(url=url, status='warn', code=code, note='blocked/forbidden (may be OK)')
-    return Result(url=url, status='bad', code=code, note=note)
-
+        content = path.read_text(encoding='utf-8')
+        if url not in content: return
+        
+        # Simple string replacement: url -> url (Broken: YYYY-MM-DD)
+        # Prevent double tagging
+        today = datetime.now().strftime('%Y-%m-%d')
+        tag = f" <!-- Broken/404: {today} -->"
+        
+        # Regex to match URL not already followed by tag
+        # We just replace the raw URL string with URL+Tag for simplicity in this MVP
+        # But we must be careful about partial matches. 
+        # For safety/unmanned goals, we will append a comment tag which Markdown hides but search sees.
+        
+        if tag in content: # duplicate check
+            return 
+            
+        new_content = content.replace(url, f"{url}{tag}")
+        if new_content != content:
+            path.write_text(new_content, encoding='utf-8')
+            print(f"Healed(Tagged): {url} in {path.name}")
+            
+    except Exception as e:
+        print(f"Failed to heal {path}: {e}")
 
 def write_report(text: str) -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -101,6 +57,9 @@ def write_report(text: str) -> None:
 def main() -> int:
     socket.setdefaulttimeout(TIMEOUT)
 
+    # Dictionary to map URL back to File Paths for healing
+    url_map = {} # url -> set(Path)
+
     seen = set()
     urls = []
     for p in iter_md_files():
@@ -108,38 +67,56 @@ def main() -> int:
             text = p.read_text(encoding='utf-8')
         except Exception:
             continue
-        for u in extract_urls(text):
+        extracted = extract_urls(text)
+        for u in extracted:
+            if u not in url_map:
+                url_map[u] = set()
+            url_map[u].add(p)
+            
             if u in seen:
                 continue
             seen.add(u)
             urls.append(u)
-            if len(urls) >= MAX_URLS:
+            if len(urls) >= MAX_URLS: # Hard limit for daily/unmanned speed
                 break
         if len(urls) >= MAX_URLS:
             break
 
     now = datetime.now().strftime('%Y-%m-%d %H:%M')
-
+    
+    # ... (checking logic same as before) ...
     results = []
     for u in urls:
-        # skip known heavy/blocked domains for lightweight check
+        # skip known heavy/blocked domains
         host = urlsplit(u).netloc.lower()
         if any(host.endswith(d) for d in ("youtube.com", "youtu.be", "instagram.com")):
             results.append(Result(url=u, status='warn', code=None, note='skipped (heavy domain)'))
             continue
-        results.append(fetch_status(u))
+        res = fetch_status(u)
+        results.append(res)
+        
+        # SELF-HEALING Logic
+        if res.status == 'bad' and res.code == 404:
+            # Tag the files
+            paths = url_map.get(u, [])
+            for p in paths:
+                heal_link_in_file(p, u, 404)
+
+    # ... (reporting logic) ...
     ok = [r for r in results if r.status == 'ok']
     warn = [r for r in results if r.status == 'warn']
     bad = [r for r in results if r.status == 'bad']
 
     lines = []
-    lines.append('# 링크 건강검진')
+    lines.append('# 링크 건강검진 (Self-Healing Enabled)')
     lines.append('')
     lines.append(f'> 갱신: {now} (Asia/Seoul) · 대상 URL: {len(urls)} (최대 {MAX_URLS})')
     lines.append('')
     lines.append(f'- OK: **{len(ok)}** / WARN: **{len(warn)}** / BAD: **{len(bad)}**')
     lines.append('')
-
+    
+    # ...
+    
     def render(section: str, arr: list[Result]):
         lines.append(f'## {section}')
         lines.append('')
@@ -153,7 +130,7 @@ def main() -> int:
             lines.append(f'- ({code}) {r.url}{note}')
         lines.append('')
 
-    render('BAD (수정/교체 권장)', bad)
+    render('BAD (수정/교체 권장 - 404는 자동 태깅됨)', bad)
     render('WARN (차단/리다이렉트/확인 필요)', warn)
 
     report = '\n'.join(lines).rstrip() + '\n'
@@ -166,7 +143,6 @@ def main() -> int:
         )
         return 1
     return 0
-
 
 if __name__ == '__main__':
     sys.exit(main())

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 cd "$BASE"
 
 REPORT="pages/lint-report.md"
