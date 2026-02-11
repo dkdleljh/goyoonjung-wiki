@@ -1,0 +1,18 @@
+# Magazine RSS feeds (keyword search)
+# 목적: 무인 자동 수집을 RSS 기반으로 안정화합니다.
+# 원칙: 링크만 수집(원문 복사 금지)
+
+keyword: "고윤정"
+feeds:
+  - name: "ELLE Korea"
+    url: "https://www.elle.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2"
+    type_hint: "pictorial"
+  - name: "W Korea"
+    url: "https://www.wkorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2"
+    type_hint: "pictorial"
+  - name: "Harper’s BAZAAR Korea"
+    url: "https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2"
+    type_hint: "pictorial"
+  - name: "GQ Korea"
+    url: "https://www.gqkorea.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2"
+    type_hint: "interview"
