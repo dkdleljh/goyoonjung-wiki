@@ -207,8 +207,19 @@ retry 2 20 timeout 90 ./scripts/promote_interview_summaries_kbs.py
 RC_INT_SUM=$?
 
 # 5) Rebuild candidates for work pages
+CURRENT_STEP="build:work-candidates"
 ./scripts/rebuild_work_link_candidates.py >/dev/null 2>&1
 RC_CAND=$?
+
+# 5.1) Backlog candidate promotions (safe)
+CURRENT_STEP="promote:mv-candidates"
+retry 2 2 timeout 20 ./scripts/promote_mv_candidates_from_news.py
+RC_MV_CAND=$?
+
+CURRENT_STEP="promote:tv-ott-candidates"
+retry 2 2 timeout 20 ./scripts/promote_official_tv_ott_candidates.py
+RC_TVOTT_CAND=$?
+
 set -e
 
 ./scripts/update_indexes.sh >/dev/null
@@ -381,6 +392,8 @@ $(fmt interview-sum "$RC_INT_SUM")
 $(fmt work-candidates "$RC_CAND")
 $(fmt dashboard "$RC_DASH")
 $(fmt visuals "$RC_VISUAL")
+$(fmt mv-candidates "$RC_MV_CAND")
+$(fmt tv-ott-candidates "$RC_TVOTT_CAND")
 EOF
 )
 

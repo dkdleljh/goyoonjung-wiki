@@ -20,4 +20,7 @@ BASE="$( cd "$SCRIPT_DIR/.." && pwd )"
 "$SCRIPT_DIR/rebuild_year_indexes.py" >/dev/null || true
 "$SCRIPT_DIR/rebuild_endorsements_year_index.py" >/dev/null || true
 
+# Reference lists
+"$SCRIPT_DIR/collect_awards_official_pages.py" >/dev/null || true
+
 echo "OK"
