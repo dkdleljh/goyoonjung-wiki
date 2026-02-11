@@ -16,14 +16,14 @@ TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 NOW=$(TZ="$TZ" date +"%Y-%m-%d %H:%M")
 
+LOCK_DIR="$BASE/.locks"
+mkdir -p "$LOCK_DIR"
+LOCK_FILE="$LOCK_DIR/daily-update.lock"
+
 # Run log (for detailed notifications)
 RUN_LOG="$LOCK_DIR/run_${TODAY}.log"
 : > "$RUN_LOG" 2>/dev/null || true
 CURRENT_STEP="(init)"
-
-LOCK_DIR="$BASE/.locks"
-mkdir -p "$LOCK_DIR"
-LOCK_FILE="$LOCK_DIR/daily-update.lock"
 
 # Acquire lock (avoid concurrent runs)
 LOCK_PATH="$LOCK_DIR/lock"
