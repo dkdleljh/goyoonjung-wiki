@@ -25,6 +25,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.append(str(SCRIPT_DIR))
 import db_manager
 import config_loader
+import relevance
 
 # Configuration
 CONF = config_loader.load_config()
@@ -102,6 +103,12 @@ def main():
         if db_manager.is_url_seen(real_url):
             continue
 
+        source_text = source_elem.text if source_elem is not None else "Google News"
+
+        # Relevance gate (precision-first)
+        if not relevance.is_relevant(title, real_url, source_text):
+            continue
+
         category = classify(title)
         
         date_str = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -111,8 +118,6 @@ def main():
                 date_str = dt.strftime("%Y-%m-%d %H:%M")
             except:
                 pass
-
-        source_text = source_elem.text if source_elem is not None else "Google News"
 
         new_items.append({
             "title": title,

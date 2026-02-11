@@ -1,0 +1,7 @@
+# Google News relevance blacklist (optional)
+# 아래 키워드가 제목에 있고, 엔터/배우/화보 등 컨텍스트가 약하면 자동 제외됩니다.
+# 한 줄에 하나씩.
+
+# 예시:
+# 주가
+# 코스피

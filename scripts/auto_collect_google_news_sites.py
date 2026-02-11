@@ -32,6 +32,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 BASE = SCRIPT_DIR.parent
 sys.path.append(str(SCRIPT_DIR))
 import db_manager
+import relevance
 
 CONF_PATH = BASE / "config" / "google-news-sites.txt"
 ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
@@ -158,6 +159,8 @@ def main() -> int:
             if title_el is None or link_el is None:
                 continue
             title = (title_el.text or "").replace("<b>", "").replace("</b>", "").strip()
+            if not relevance.is_relevant(title, "", s.label):
+                continue
             origin_link = (link_el.text or "").strip()
             if not title or not origin_link:
                 continue
