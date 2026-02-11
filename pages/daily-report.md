@@ -1,14 +1,18 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-11 23:53 (Asia/Seoul)
+> 갱신: 2026-02-11 23:57 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 7ce00e9 2026-02-11 23:50:53 +0900 chore: run link health weekly (keep daily fast)
+- 925e39b 2026-02-11 23:53:40 +0900 feat: enforce domain allowlist for news collection
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- scripts/run_daily_update.sh
+- config/allowlist-domains.txt
+- news/2026-02-11.md
+- scripts/auto_collect_google_news_queries.py
+- scripts/auto_collect_google_news_sites.py
+- scripts/sanitize_news_log.py
 
 ## 3) 오늘 실행 상태(news/2026-02-11.md)
 
@@ -19,11 +23,6 @@
 ## 참고 출처 업데이트 신호(무인)
 > 목적: 위키/공식/커뮤니티의 '변경 신호'만 감지합니다(원문 복사 없음).
 
-- 위키백과: https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95 (latest rev: 41320174, ts: 2026-02-10T14:11:36Z)
-- 나무위키: https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 (status: 200, etag: None, lm: None)
-- 소속사(MAA): https://maa.co.kr/artists/go-younjung (status: 200, etag: "18ac0-qvij/FMjOsHv0zItomjFVtxNtXU", lm: None)
-- 인스타그램(공식): https://www.instagram.com/goyounjung/ (무인 수집: 로그인/동적 로딩 이슈로 링크만 유지)
-- 팬카페(공식): https://cafe.daum.net/goyounjung.fans (무인 수집: 정책/접근 방식 확정 필요)
 <!-- AUTO-REF-SOURCES:END -->
 
 <!-- AUTO-ENCYCLOPEDIA-PROMOTE:START -->
@@ -66,31 +65,20 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ### 검색 링크(빠른 승격용)
 - 2025 대한민국 대중문화예술상 / 문화체육관광부 장관 표창 (수상)
-  - Google site search: https://www.google.com/search?q=site%3Awww.mcst.go.kr%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20%EB%8C%80%EC%A4%91%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%EC%83%81%202025%20%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 2025 코리아 드라마 어워즈 / 여자 우수연기상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Akoreadramaawards.com%20%EC%BD%94%EB%A6%AC%EC%95%84%20%EB%93%9C%EB%9D%BC%EB%A7%88%20%EC%96%B4%EC%9B%8C%EC%A6%88%202025%20%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 2024 청룡시리즈어워즈 / 신인여우상 (수상)
-  - Google site search: https://www.google.com/search?q=site%3Absa.blueaward.co.kr%20%EC%B2%AD%EB%A3%A1%EC%8B%9C%EB%A6%AC%EC%A6%88%EC%96%B4%EC%9B%8C%EC%A6%88%202024%20%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 2024 백상예술대상(TV) / 여자 신인연기상 (후보)
-  - Google search: https://www.google.com/search?q=백상예술대상(TV)+2024+고윤정
 - 2023 백상예술대상(영화) / 여자 신인연기상 (후보)
-  - Google search: https://www.google.com/search?q=백상예술대상(영화)+2023+고윤정
 - 2023 아시아콘텐츠어워즈 & 글로벌OTT어워즈 / 여자 신인연기상 (수상)
-  - Google search: https://www.google.com/search?q=아시아콘텐츠어워즈+&+글로벌OTT어워즈+2023+고윤정
 - 2023 씨네21 / 올해의 시리즈: 올해의 신인 여자배우 (수상)
-  - Google site search: https://www.google.com/search?q=site%3Awww.cine21.com%20%EC%94%A8%EB%84%A421%202023%20%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 2022 부일영화상 / 신인 여자연기상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Awww.builfilmawards.com%20%EB%B6%80%EC%9D%BC%EC%98%81%ED%99%94%EC%83%81%202022%20%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 2022 대종상 / 신인여우상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Adaejong.or.kr%20%EB%8C%80%EC%A2%85%EC%83%81%202022%20%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 2022 청룡영화상 / 신인여우상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Awww.blueaward.co.kr%20%EC%B2%AD%EB%A3%A1%EC%98%81%ED%99%94%EC%83%81%202022%20%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 2022 춘사국제영화제 / 신인여우상 (후보)
-  - Google site search: https://www.google.com/search?q=site%3Awww.chunsa.kr%20%EC%B6%98%EC%82%AC%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C%202022%20%EA%B3%A0%EC%9C%A4%EC%A0%95
 
 <!-- AUTO-AWARDS-PROOF-SUGGEST:END -->
 
-- 실행: 2026-02-11 23:47 (Asia/Seoul)
+- 실행: 2026-02-11 23:53 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -115,6 +103,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 
+- 2026-02-11 23:53 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 23:53 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:SKIP, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-11 23:47 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 23:45 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-11 23:41 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -132,6 +122,20 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-11 23:05 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-11 23:03 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-11 22:59 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 22:57 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+- 2026-02-11 22:53 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 22:51 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+- 2026-02-11 22:47 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 22:45 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+- 2026-02-11 22:41 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 22:39 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+- 2026-02-11 22:35 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 22:33 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+- 2026-02-11 22:29 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 22:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+- 2026-02-11 22:23 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-11 22:21 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, agency:OK, ency:SKIP, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:SKIP, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+- 2026-02-11 22:17 (Asia/Seoul) · 진행중 · auto: daily update running
 
 ## 4) 권장 체크
 
