@@ -57,7 +57,8 @@ on_exit() {
       echo "$now" > "$FAIL_STAMP" 2>/dev/null || true
       # include step + last error-ish lines from log
       err_tail=$(tail -n 25 "$RUN_LOG" 2>/dev/null | grep -E "Traceback|ERROR|ERR:|Error|Failed|denied|403|404|timeout" | tail -n 6 | tr -d '\r' | sed -e 's/[`]/"/g' || true)
-      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "step=${CURRENT_STEP}\nrc=${rc}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)" red >/dev/null 2>&1 || true
+      legend="\n---\nLegend: GREEN=전체 성공(스킵 없음), YELLOW=전체 성공(일부 스킵/경고), RED=실패/중단"
+      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "step=${CURRENT_STEP}\nrc=${rc}\nlog_tail=${err_tail}\n(see news/${TODAY}.md)$legend" red >/dev/null 2>&1 || true
     fi
   fi
 }
@@ -358,9 +359,41 @@ git push origin main >/dev/null
 # Success notification: once per day
 if [ ! -f "$SUCCESS_STAMP" ]; then
   date -Iseconds > "$SUCCESS_STAMP" 2>/dev/null || true
-  # include compact per-module rc list for accuracy
-  detail="collect=${RC_COLLECT}, gnews=${RC_GNEWS}, gnews-sites=${RC_GNEWS_SITES}, gnews-queries=${RC_GNEWS_QUERIES}, mag-rss=${RC_MAG_RSS}, portal-news=${RC_PORTAL_NEWS}, san-news=${RC_SAN_NEWS}, sched=${RC_SCHED}, agency=${RC_AGENCY}, ency=${RC_ENCY}, awards-auto=${RC_AWARD_PROOF_AUTO}, safe=${RC_PROMOTE_SAFE}, yt-dates=${RC_YT_DATES}, endo-dates=${RC_ENDO_DATES}, int-sum=${RC_INT_SUM}, candidates=${RC_CAND}, dash=${RC_DASH}, visual=${RC_VISUAL}"
-  python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE\n---\n$detail" green >/dev/null 2>&1 || true
+  # Readable per-module summary
+  fmt() { local name="$1"; local rc="$2"; if [ "${rc:-0}" -eq 0 ]; then echo "$name:OK"; else echo "$name:SKIP(rc=$rc)"; fi; }
+
+  detail_lines=$(cat <<EOF
+$(fmt collect "$RC_COLLECT")
+$(fmt gnews "$RC_GNEWS")
+$(fmt gnews-sites "$RC_GNEWS_SITES")
+$(fmt gnews-queries "$RC_GNEWS_QUERIES")
+$(fmt mag-rss "$RC_MAG_RSS")
+$(fmt portal-news "$RC_PORTAL_NEWS")
+$(fmt san-news "$RC_SAN_NEWS")
+$(fmt schedule "$RC_SCHED")
+$(fmt agency "$RC_AGENCY")
+$(fmt encyclopedia "$RC_ENCY")
+$(fmt awards-auto "$RC_AWARD_PROOF_AUTO")
+$(fmt promote-safe "$RC_PROMOTE_SAFE")
+$(fmt yt-dates "$RC_YT_DATES")
+$(fmt endo-dates "$RC_ENDO_DATES")
+$(fmt interview-sum "$RC_INT_SUM")
+$(fmt work-candidates "$RC_CAND")
+$(fmt dashboard "$RC_DASH")
+$(fmt visuals "$RC_VISUAL")
+EOF
+)
+
+  # Color policy for SUCCESS runs:
+  # - green: all key modules OK
+  # - yellow: run succeeded but at least one module SKIP
+  color="green"
+  if echo "$detail_lines" | grep -q "SKIP"; then
+    color="yellow"
+  fi
+
+  legend="\n---\nLegend: GREEN=전체 성공(스킵 없음), YELLOW=전체 성공(일부 스킵/경고), RED=실패/중단"
+  python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE\n---\n$detail_lines$legend" "$color" >/dev/null 2>&1 || true
 fi
 
 echo "OK: $MSG"
