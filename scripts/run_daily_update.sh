@@ -44,7 +44,14 @@ on_exit() {
   # if not marked success, mark failure (prevents stuck '진행중')
   if [ "$RUN_OK" -ne 1 ]; then
     ./scripts/mark_news_status.sh 실패 "auto: daily update aborted (rc=$rc)" >/dev/null 2>&1 || true
-    python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "daily update aborted (rc=$rc). Check news/${TODAY}.md" red >/dev/null 2>&1 || true
+    # Debounce FAIL notifications: at most once per 30 minutes
+    now=$(date +%s)
+    last=0
+    if [ -f "$FAIL_STAMP" ]; then last=$(cat "$FAIL_STAMP" 2>/dev/null || echo 0); fi
+    if [ $((now - last)) -ge 1800 ]; then
+      echo "$now" > "$FAIL_STAMP" 2>/dev/null || true
+      python3 ./scripts/notify_status.py "goyoonjung-wiki: FAIL" "daily update aborted (rc=$rc). Check news/${TODAY}.md" red >/dev/null 2>&1 || true
+    fi
   fi
 }
 trap on_exit EXIT
@@ -56,6 +63,11 @@ fi
 
 # Mark running
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
+
+# Notification throttle state (avoid spam)
+NOTIFY_DIR="$LOCK_DIR"
+SUCCESS_STAMP="$NOTIFY_DIR/last-success-notify.${TODAY}.stamp"
+FAIL_STAMP="$NOTIFY_DIR/last-fail-notify.stamp"
 
 # Core tasks
 # 1) Collect new link-only items (events/photos/interviews) from reliable sources
@@ -325,6 +337,10 @@ git commit -m "$MSG" >/dev/null
 
 git push origin main >/dev/null
 
-python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE" green >/dev/null 2>&1 || true
+# Success notification: once per day
+if [ ! -f "$SUCCESS_STAMP" ]; then
+  date -Iseconds > "$SUCCESS_STAMP" 2>/dev/null || true
+  python3 ./scripts/notify_status.py "goyoonjung-wiki: OK" "$MSG\n$NOTE" green >/dev/null 2>&1 || true
+fi
 
 echo "OK: $MSG"
