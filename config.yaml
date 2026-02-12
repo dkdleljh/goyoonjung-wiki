@@ -1,11 +1,11 @@
 # Goyoonjung Wiki Automation Configuration
 
-# News Collection
-rss_url: "https://news.google.com/rss/search?q=고윤정+when:1d&hl=ko&gl=KR&ceid=KR:ko"
-maa_url: "https://maa.co.kr/artists/go-younjung"
+# News Collection (loaded from environment variables for security)
+rss_url: "${RSS_URL}"
+maa_url: "${MAA_URL}"
 encyclopedia_urls:
-  wikipedia_api: "https://ko.wikipedia.org/w/api.php?action=query&titles=%EA%B3%A0%EC%9C%A4%EC%A0%95&prop=revisions&rvprop=timestamp|user|comment&format=json"
-  namuwiki: "https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95"
+  wikipedia_api: "${WIKIPEDIA_API_URL}"
+  namuwiki: "${NAMUWIKI_URL}"
 
 # Context Awareness Keywords
 # Format: "Keyword": "Status to set"
@@ -28,5 +28,5 @@ schedule_keywords:
   - "개최"
   - "발매"
 
-# System
-discord_webhook_url: "https://discord.com/api/webhooks/1471091835735638038/bP_MrmWgVHRxbYgIlcOaUcXvqeuFf-2YXLkoVPyOE6v7LvGvVEKbBle-GWoZWSsxLCjp"
+# System (loaded from environment variables for security)
+discord_webhook_url: "${DISCORD_WEBHOOK_URL}"

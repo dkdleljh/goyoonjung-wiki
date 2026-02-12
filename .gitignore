@@ -13,3 +13,15 @@ scripts/__pycache__/
 
 # local state (do not version)
 data/wiki.db
+
+# Environment variables (SECURITY: Never commit!)
+.env
+.env.local
+.env.production
+.env.development
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
