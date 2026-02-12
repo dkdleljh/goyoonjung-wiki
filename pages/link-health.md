@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-02-11 23:50 (Asia/Seoul) · 대상 URL: 256 (최대 700)
+> 갱신: 2026-02-12 19:17 (Asia/Seoul) · 대상 URL: 256 (최대 700)
 
-- OK: **221** / WARN: **35** / BAD: **0**
+- OK: **218** / WARN: **38** / BAD: **0**
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
 
@@ -11,11 +11,11 @@
 ## WARN (차단/리다이렉트/확인 필요)
 
 - (-) https://www.instagram.com/goyounjung/ · skipped (heavy domain)
+- (-) https://www.instagram.com/maakorea/ · skipped (heavy domain)
+- (-) https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ · skipped (heavy domain)
 - (-) https://www.google.com/search?q=백상예술대상(TV · error: UnicodeEncodeError
 - (-) https://www.google.com/search?q=백상예술대상(영화 · error: UnicodeEncodeError
 - (-) https://www.google.com/search?q=아시아콘텐츠어워즈+&+글로벌OTT어워즈+2023+고윤정 · error: UnicodeEncodeError
-- (-) https://www.instagram.com/maakorea/ · skipped (heavy domain)
-- (-) https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ · skipped (heavy domain)
 - (-) https://www.youtube.com/watch?v=TiTWX_KfEc0 · skipped (heavy domain)
 - (-) https://www.tving.com/contents/P001715360 · error: HTTPError
 - (-) http://program.tving.com/tvn/alchemyofsouls2 · error: HTTPError
@@ -45,3 +45,6 @@
 - (-) https://www.easytomorrow.co.kr/ · error: URLError
 - (-) https://www.lensme.co.kr/ · error: URLError
 - (-) https://www.youtube.com/playlist?list=PLr0T5CaHaPwVWLdtQIwORp6OT6hlvfVAN · skipped (heavy domain)
+- (-) https://www.youtube.com/watch?v=jtqfYE4zZuw · skipped (heavy domain)
+- (-) https://about.netflix.com/ · error: HTTPError
+- (-) https://www.disneypluskr.com/ · error: URLError
