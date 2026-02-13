@@ -6,8 +6,8 @@
 
 > **Goal:** A link-first (copyright-safe) personal wiki collecting and organizing **Go Youn-jung**’s works, pictorials, endorsements, interviews, appearances, and events.
 
-- Last updated: **2026-02-13**
-- Today’s log: [`news/2026-02-13.md`](news/2026-02-13.md)
+- Last updated: **2026-02-14**
+- Today’s log: [`news/2026-02-14.md`](news/2026-02-14.md)
 - Last 7 days summary: [`news/README.md`](news/README.md)
 
 ---
