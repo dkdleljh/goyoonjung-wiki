@@ -6,15 +6,22 @@
   - news_archive (Future): Store full parsed news items.
 """
 
+from __future__ import annotations
+
+import logging
 import sqlite3
 import os
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
+
+logger = logging.getLogger(__name__)
 
 BASE = Path(__file__).resolve().parent.parent
 DB_PATH = BASE / 'data' / 'wiki.db'
 
-def get_db_connection():
+
+def get_db_connection() -> sqlite3.Connection:
     """Ensure DB exists and return connection."""
     if not os.path.exists(DB_PATH.parent):
         os.makedirs(DB_PATH.parent)
@@ -23,7 +30,9 @@ def get_db_connection():
     conn.row_factory = sqlite3.Row
     return conn
 
-def init_db():
+
+def init_db() -> None:
+    """Initialize database with required tables."""
     conn = get_db_connection()
     c = conn.cursor()
     
@@ -47,8 +56,9 @@ def init_db():
     
     conn.commit()
     conn.close()
+    logger.info(f"Database initialized at {DB_PATH}")
 
-def is_url_seen(url):
+def is_url_seen(url: str) -> bool:
     conn = get_db_connection()
     c = conn.cursor()
     c.execute('SELECT 1 FROM seen_urls WHERE url = ?', (url,))
@@ -56,19 +66,23 @@ def is_url_seen(url):
     conn.close()
     return result is not None
 
-def add_seen_url(url, source='unknown'):
+
+def add_seen_url(url: str, source: str = 'unknown') -> bool:
     try:
         conn = get_db_connection()
         c = conn.cursor()
         c.execute('INSERT OR IGNORE INTO seen_urls (url, source) VALUES (?, ?)', (url, source))
         conn.commit()
         conn.close()
-    except Exception as e:
-        print(f"DB Error add_seen_url: {e}")
+        return True
+    except sqlite3.Error as e:
+        logger.error(f"Database error in add_seen_url: {e}")
+        return False
 
-def migrate_from_txt(txt_path):
-    """Import lines from a text file into the DB."""
+
+def migrate_from_txt(txt_path: str) -> int:
     if not os.path.exists(txt_path):
+        logger.warning(f"Migration file not found: {txt_path}")
         return 0
         
     count = 0
@@ -77,14 +91,17 @@ def migrate_from_txt(txt_path):
         c = conn.cursor()
         for line in f:
             url = line.strip()
-            if not url: continue
+            if not url:
+                continue
             try:
                 c.execute('INSERT OR IGNORE INTO seen_urls (url, source) VALUES (?, ?)', (url, 'migration'))
                 if c.rowcount > 0:
                     count += 1
-            except: pass
+            except sqlite3.Error as e:
+                logger.debug(f"Skipping URL due to error: {url} - {e}")
         conn.commit()
         conn.close()
+    logger.info(f"Migrated {count} URLs from {txt_path}")
     return count
 
 if __name__ == "__main__":
