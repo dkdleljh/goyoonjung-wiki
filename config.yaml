@@ -1,7 +1,8 @@
 # Goyoonjung Wiki Automation Configuration
 
 # News Collection (loaded from environment variables for security)
-rss_url: "${RSS_URL}"
+# RSS URL is not secret; keep a safe default so cron jobs work even without env.
+rss_url: "https://news.google.com/rss/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95+when:1d&hl=ko&gl=KR&ceid=KR:ko"
 maa_url: "${MAA_URL}"
 encyclopedia_urls:
   wikipedia_api: "${WIKIPEDIA_API_URL}"
