@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-14 23:50 (Asia/Seoul)
+> 갱신: 2026-02-15 00:00 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 59540b2 2026-02-14 23:36:50 +0900 daily: update 2026-02-14
+- 2ccdbdb 2026-02-14 23:50:51 +0900 daily: update 2026-02-14
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -15,128 +15,16 @@
 - pages/works/moving.md
 - sources/awards-official.md
 
-## 3) 오늘 실행 상태(news/2026-02-14.md)
+## 3) 오늘 실행 상태(news/2026-02-15.md)
 
 ## 실행 상태
-
-<!-- AUTO-ENCYCLOPEDIA-PROMOTE:START -->
-## 백과사전 승격 제안(자동)
-> 목표: 오늘 ‘참고(2차)/보강 필요’ 항목 중 최소 1개를 S/A급(공식/원문) 근거로 승격.
-
-- (현재 자동 스캔으로 잡힌 보강 후보가 없습니다.)
-
-<!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
-
-<!-- AUTO-LEAD-DRAFT:START -->
-## 리드 문단(초안) 제안(자동)
-> 목적: 위키백과 느낌의 ‘소개 문단’을 만들기 위한 초안 후보입니다. (자동 적용하지 않음)
-
-### 한국어 리드문(초안)
-- (index/profile 공용)
-
-고윤정(Go Youn-jung, 1996년 4월 22일~)은 대한민국의 배우이다. 주요 출연작으로 *사이코메트리 그녀석*, *보건교사 안은영*, *스위트홈*, *로스쿨*, *환혼*, *환혼 빛과 그림자* 등이 있다. 이 위키는 작품·화보·광고·인터뷰·출연/행사 기록을 링크 중심(저작권 안전)으로 수집·정리한다.
-
-### English lead (draft)
-Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a link-first (copyright-safe) archive of her works, pictorials, endorsements, interviews, and appearances/events, with a focus on official and primary sources.
-
-<!-- AUTO-LEAD-DRAFT:END -->
-
-- 실행: 2026-02-14 23:44 (Asia/Seoul)
+- 실행: (자동)
 - 결과: 진행중
-- 메모: auto: daily update running
+- 메모:
 <!-- AUTO-BACKLOG-PROGRESS:START -->
 - C(완성도 우선) 백로그 진행률: 20/20 (100%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
-## 실행 이력
 
-- 2026-02-14 23:44 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 23:36 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 23:32 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 23:24 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 23:20 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 23:14 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 23:08 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 23:00 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 22:56 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 22:50 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 22:45 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 22:37 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 22:33 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 22:25 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 22:21 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 22:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 22:09 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 22:01 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 21:57 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 21:51 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 21:45 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 21:37 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 21:33 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 21:25 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 21:21 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 21:15 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 21:09 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 21:01 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 20:57 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 20:51 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 20:45 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 20:37 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 20:33 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 20:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 20:21 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 20:15 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 20:09 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 20:03 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 19:57 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 19:49 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 19:45 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 19:37 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 19:33 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 19:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 19:21 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 19:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 19:09 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 19:03 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 18:57 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 18:49 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 18:45 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 18:39 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 18:33 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 18:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 18:21 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 18:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 18:09 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 18:01 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 17:57 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 17:49 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 17:45 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 17:37 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 17:33 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 17:25 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 17:21 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 17:15 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 17:09 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 17:01 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 16:57 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 16:51 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 16:45 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 16:37 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 16:33 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 16:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 16:22 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 16:17 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 16:11 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 16:10 (Asia/Seoul) · 실패 · sync: pull/rebase failed (manual resolve needed)
-- 2026-02-14 16:05 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 16:00 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 15:55 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 15:48 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 15:40 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 15:36 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 15:25 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 15:21 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-14 15:13 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 15:09 (Asia/Seoul) · 진행중 · auto: daily update running
 
 ## 4) 권장 체크
 

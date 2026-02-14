@@ -7,8 +7,8 @@
 > **Operating principles (3 lines)**
 > 1) **Prefer primary/official sources** · 2) **No rumors/private-life speculation** · 3) **Minimal quoting (link/metadata first)**
 
-- Last updated: **2026-02-14**
-- Today’s log (automation run/success): [`news/2026-02-14.md`](news/2026-02-14.md)
+- Last updated: **2026-02-15**
+- Today’s log (automation run/success): [`news/2026-02-15.md`](news/2026-02-15.md)
 - Last 7 days summary: [`news/README.md`](news/README.md)
 - Today’s report (auto): [`pages/daily-report.md`](pages/daily-report.md)
 

@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-02-14
+> Updated: 2026-02-15
 
 ## wiki_completeness: **100/100**
 
@@ -11,6 +11,7 @@ placeholder debt score: debt=0
 - 요약 보강 필요: 0
 - 참고(2차): 0
 
-## automation_health: **100/100**
+## automation_health: **40/100**
 
-check_automation_health: RUNNING (treated OK)
+check_automation_health: FAIL
+FAIL: news header missing run/result
