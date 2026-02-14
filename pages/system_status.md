@@ -13,4 +13,4 @@ placeholder debt score: debt=0
 
 ## automation_health: **100/100**
 
-check_automation_health: OK
+check_automation_health: RUNNING (treated OK)

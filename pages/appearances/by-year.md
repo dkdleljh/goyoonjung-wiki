@@ -20,6 +20,7 @@
 
 ## 2024
 - 2024-12-26 · [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)
+- 2024-07-19 · [제3회 청룡시리즈어워즈](https://bsa.blueaward.co.kr/bbs/board.php?bo_table=bsa_awards&history_no=3)
 
 ## 2023
 - 2023-08-24 · [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)
