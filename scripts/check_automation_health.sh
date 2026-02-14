@@ -100,8 +100,14 @@ if [ $RC_FETCH -ne 0 ]; then
   fail "git fetch failed (rc=$RC_FETCH)"
 fi
 
-if ! git diff --quiet; then
-  fail "working tree dirty"
+# Allow auto-generated system status file to be dirty (it is written by wiki_score.py).
+DIRTY_FILES=$(git diff --name-only)
+if [ -n "${DIRTY_FILES:-}" ]; then
+  if [ "${DIRTY_FILES}" = "pages/system_status.md" ]; then
+    : # allow
+  else
+    fail "working tree dirty"
+  fi
 fi
 
 HEAD=$(git rev-parse HEAD)
