@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-02-15 04:45 (Asia/Seoul) · 대상 URL: 257 (최대 700)
+> 갱신: 2026-02-15 04:59 (Asia/Seoul) · 대상 URL: 257 (최대 700)
 
-- OK: **219** / WARN: **38** / BAD: **0**
+- OK: **218** / WARN: **39** / BAD: **0**
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
 
@@ -48,3 +48,4 @@
 - (-) https://www.youtube.com/watch?v=jtqfYE4zZuw · skipped (heavy domain)
 - (-) https://about.netflix.com/ · error: HTTPError
 - (-) https://www.disneypluskr.com/ · error: URLError
+- (-) https://bsa.blueaward.co.kr/bbs/board.php?bo_table=bsa_awards&history_no=3 · error: TimeoutError
