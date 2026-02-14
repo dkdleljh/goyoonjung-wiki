@@ -18,6 +18,8 @@ BASE="$( cd "$SCRIPT_DIR/.." && pwd )"
 (cd "$BASE" && "$SCRIPT_DIR/rebuild_progress.py") >/dev/null || true
 
 "$SCRIPT_DIR/rebuild_daily_report.sh" >/dev/null || true
+"$SCRIPT_DIR/rebuild_quality_report.py" >/dev/null || true
+"$SCRIPT_DIR/wiki_score.py" >/dev/null || true
 "$SCRIPT_DIR/rebuild_year_indexes.py" >/dev/null || true
 "$SCRIPT_DIR/rebuild_endorsements_year_index.py" >/dev/null || true
 

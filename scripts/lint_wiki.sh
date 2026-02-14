@@ -31,7 +31,8 @@ REPORT="pages/lint-report.md"
 
   echo "## 1) 빈 링크(\"공식 페이지:\" 등 콜론 뒤가 비어있는 줄)"
   echo
-  grep -RIn --exclude-dir=.git --exclude="*.tar.gz" --exclude="lint-report.md" -E "(공식 페이지|링크)\s*:\s*$" pages || echo "- 없음"
+  # Exclude templates/ because they intentionally contain blanks.
+  grep -RIn --exclude-dir=.git --exclude-dir=templates --exclude="*.tar.gz" --exclude="lint-report.md" -E "(공식 페이지|링크)\s*:\s*$" pages || echo "- 없음"
   echo
 
   echo "## 2) 상태 태그 누락(인터뷰/화보/광고 템플릿 준수 여부)"

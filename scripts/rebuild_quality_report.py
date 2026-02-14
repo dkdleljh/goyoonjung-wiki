@@ -20,9 +20,17 @@ OUT = os.path.join(BASE, "pages", "quality-report.md")
 TARGET_DIRS = [
     os.path.join(BASE, "pages"),
 ]
+
+# Exclude auto-generated reports + meta/backlog docs that intentionally contain placeholders.
 EXCLUDE_BASENAMES = {
     "quality-report.md",
     "daily-report.md",
+    "namu-backlog.md",
+    "encyclopedia-roadmap.md",
+}
+EXCLUDE_DIR_PARTS = {
+    os.path.join("pages", "checklists"),
+    os.path.join("pages", "templates"),
 }
 
 PATTERNS = [
@@ -37,6 +45,9 @@ PATTERNS = [
 def iter_md_files():
     for d in TARGET_DIRS:
         for root, _, files in os.walk(d):
+            rp = os.path.relpath(root, BASE)
+            if any(rp.startswith(p) for p in EXCLUDE_DIR_PARTS):
+                continue
             for fn in files:
                 if fn.endswith(".md") and fn not in EXCLUDE_BASENAMES:
                     yield os.path.join(root, fn)
