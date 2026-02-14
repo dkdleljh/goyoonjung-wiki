@@ -172,6 +172,20 @@
 
 ---
 
+## 🧰 개발/점검(로컬)
+
+이 저장소는 시스템 Python에 직접 pip 설치하지 않도록(PEP 668) **가상환경(.venv)** 기준을 권장합니다.
+
+```bash
+make venv
+make check
+```
+
+- `make check`는 Ruff/Bandit/py_compile/pytest를 한 번에 실행합니다.
+- ShellCheck는 GitHub Actions에서 자동으로 수행됩니다.
+
+---
+
 ## 🙋 FAQ
 
 ### Q. “관련 링크(자동 후보)”는 뭔가요?

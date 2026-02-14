@@ -52,6 +52,24 @@ if ! mkdir "$LOCK_PATH" 2>/dev/null; then
     exit 0
   fi
 fi
+
+# Debounce: avoid hammering news logs with repeated runs triggered close together.
+# (Cron retries / manual triggers can otherwise create many '진행중' entries.)
+LAST_RUN_EPOCH_FILE="$LOCK_DIR/last-daily-run.epoch"
+DEBOUNCE_SECONDS=600
+now_epoch=$(date +%s)
+last_epoch=0
+if [ -f "$LAST_RUN_EPOCH_FILE" ]; then
+  last_epoch=$(cat "$LAST_RUN_EPOCH_FILE" 2>/dev/null || echo 0)
+fi
+if [ "$last_epoch" -gt 0 ] && [ $((now_epoch - last_epoch)) -lt "$DEBOUNCE_SECONDS" ]; then
+  echo "Debounce: last run was $((now_epoch - last_epoch))s ago (<${DEBOUNCE_SECONDS}s). Skipping." >&2
+  rmdir "$LOCK_PATH" 2>/dev/null || true
+  exit 0
+fi
+# Stamp immediately (we already hold the lock).
+echo "$now_epoch" > "$LAST_RUN_EPOCH_FILE" 2>/dev/null || true
+
 RUN_OK=0
 on_exit() {
   local rc=$?
