@@ -4,19 +4,16 @@
 
 ## 1) 최신 커밋
 
-- b107bd9 2026-02-14 12:21:48 +0900 daily: update 2026-02-14
+- e0f4331 2026-02-14 12:27:44 +0900 daily: update 2026-02-14
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- README.md
 - news/2026-02-14.md
 - pages/daily-report.md
 - pages/progress.md
 - pages/system_status.md
 - pages/works/alchemy-of-souls.md
 - pages/works/moving.md
-- scripts/update_indexes.sh
-- scripts/update_readme_today_links.py
 - sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-02-14.md)
@@ -58,14 +55,15 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-14 12:23 (Asia/Seoul)
-- 결과: 진행중
-- 메모: auto: daily update running
+- 실행: 2026-02-14 12:27 (Asia/Seoul)
+- 결과: 성공
+- 메모: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 <!-- AUTO-BACKLOG-PROGRESS:START -->
 - C(완성도 우선) 백로그 진행률: 20/20 (100%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 ## 실행 이력
 
+- 2026-02-14 12:27 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-14 12:23 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-14 12:21 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-14_0013.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-14 12:17 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -140,7 +138,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-14 08:55 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-14 08:51 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-14 08:49 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:SKIP), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-14 08:45 (Asia/Seoul) · 진행중 · auto: daily update running
 
 ## 4) 권장 체크
 

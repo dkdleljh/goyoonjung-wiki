@@ -22,7 +22,6 @@ Go Youn-jung (born 1996-04-22) is a South Korean actress.
 Notable works include 사이코메트리 그녀석, 보건교사 안은영, 스위트홈, 로스쿨, 환혼, 환혼 빛과 그림자.
 This wiki is a link-first (copyright-safe) archive of works, pictorials, endorsements, interviews, and appearances/events, with primary-source verification when available.
 <!-- AUTO-FIXED-LEAD:END -->
-
 ## 0) 30-second guide (recommended path)
 - Need the “map” first → **Hub (portal)**: [`pages/hub.md`](pages/hub.md)
 - Want to see what changed today → **Today’s log**: [`news/2026-02-14.md`](news/2026-02-14.md)
