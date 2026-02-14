@@ -88,7 +88,8 @@ def automation_score() -> Score:
 
 
 def write_status(scores: list[Score]) -> None:
-    now = datetime.now(TZ).strftime("%Y-%m-%d %H:%M %Z")
+    # Keep deterministic enough to avoid commit spam: date only.
+    now = datetime.now(TZ).strftime("%Y-%m-%d")
     lines = [
         "# System status (auto)",
         "",
