@@ -30,7 +30,7 @@ def get_db_stats():
         count = c.fetchone()[0]
         conn.close()
         return {"urls": count}
-    except:
+    except (sqlite3.Error, OSError, IOError):
         return {"urls": "Error"}
 
 def get_last_run_status():

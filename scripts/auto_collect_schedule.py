@@ -70,7 +70,8 @@ def extract_future_date(text, anchor_date):
             if d < anchor_date: # If looking back, maybe next year? (e.g. in Dec news says Jan)
                  d = datetime(anchor_date.year + 1, month, day)
             return d
-        except: pass
+        except (ValueError, OSError):
+            pass
         
     return None
 

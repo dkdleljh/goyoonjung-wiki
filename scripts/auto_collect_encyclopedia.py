@@ -75,7 +75,8 @@ def main():
         try:
             with open(log_path, "r", encoding="utf-8") as r:
                 content = r.read()
-        except: pass
+        except (IOError, OSError, UnicodeDecodeError):
+            pass
         
         if wiki_status not in content:
             f.write(f"- [Encyclopedia] {wiki_status}\n")

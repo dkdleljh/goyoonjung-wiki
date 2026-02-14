@@ -176,7 +176,7 @@ class FinalVerification:
                     has_metrics = 'system_metrics' in dashboard_data
                     has_health = 'health_status' in dashboard_data
                     dashboard_valid = has_metrics and has_health
-                except:
+                except (json.JSONDecodeError, TypeError, KeyError):
                     dashboard_valid = False
             else:
                 dashboard_valid = False
@@ -291,7 +291,7 @@ class FinalVerification:
                 git_works = True  # Git command itself works
                 changed_files = len(result.stdout.strip().split('\n')) if result.stdout.strip() else 0
                 git_reasonable = changed_files <= 5  # Some changes expected after our work
-            except:
+            except (subprocess.TimeoutExpired, FileNotFoundError, OSError):
                 git_works = False
                 git_reasonable = False
             

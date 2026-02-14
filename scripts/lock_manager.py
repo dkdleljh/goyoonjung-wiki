@@ -198,7 +198,7 @@ class LockManager:
                             "status": "active",
                             "info": lock_info
                         }
-                    except:
+                    except (json.JSONDecodeError, IOError, OSError):
                         status[lock_path.name] = {"status": "unknown"}
                 else:
                     status[lock_path.name] = {"status": "no_info"}

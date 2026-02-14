@@ -15,6 +15,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 from datetime import datetime
 from typing import Optional
 import xml.etree.ElementTree as ET
@@ -71,7 +72,7 @@ def decode_google_news_url(source_url):
         req = urllib.request.Request(source_url, method='HEAD')
         with urllib.request.urlopen(req, timeout=5) as resp:
             return resp.geturl()
-    except:
+    except Exception:
         return source_url
 
 def fetch_rss():
@@ -134,7 +135,7 @@ def main():
             try:
                 dt = parsedate_to_datetime(pubDate_elem.text)
                 date_str = dt.strftime("%Y-%m-%d %H:%M")
-            except:
+            except (ValueError, TypeError, AttributeError):
                 pass
 
         new_items.append({

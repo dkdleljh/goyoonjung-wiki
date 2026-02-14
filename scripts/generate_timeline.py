@@ -18,7 +18,7 @@ def parse_date(date_str):
     # Handles YYYY-MM-DD
     try:
         return datetime.strptime(date_str.strip(), "%Y-%m-%d")
-    except:
+    except (ValueError, TypeError, AttributeError):
         return None
 
 def extract_events():

@@ -71,7 +71,7 @@ class MonitoringSystem:
                 cmdline = ' '.join(proc.info['cmdline'] or [])
                 if 'goyoonjung-wiki' in cmdline or 'auto_collect' in cmdline:
                     active_processes += 1
-            except:
+            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
                 continue
         
         return SystemMetric(
@@ -218,7 +218,7 @@ class MonitoringSystem:
                         "cpu_percent": proc.info['cpu_percent'],
                         "memory_percent": proc.info['memory_percent']
                     })
-            except:
+            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
                 continue
         
         status = "ok" if len(automation_processes) <= 5 else "warning"
@@ -302,7 +302,7 @@ class MonitoringSystem:
                             if age_hours > 2:
                                 proc.terminate()
                                 recovery_actions.append(f"Terminated hanging process PID {proc.info['pid']}")
-                    except:
+                    except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
                         continue
             except Exception as e:
                 logger.error(f"Process cleanup failed: {e}")

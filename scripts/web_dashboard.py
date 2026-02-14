@@ -6,6 +6,7 @@ Provides comprehensive system status, metrics, and control interface.
 import asyncio
 import json
 import os
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -13,6 +14,7 @@ from typing import Dict, List, Any
 
 import psutil
 import uvicorn
+import websockets
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
@@ -60,7 +62,7 @@ class ConnectionManager:
         for connection in self.active_connections:
             try:
                 await connection.send_text(message)
-            except:
+            except (RuntimeError, OSError):
                 # Remove dead connections
                 self.active_connections.remove(connection)
 

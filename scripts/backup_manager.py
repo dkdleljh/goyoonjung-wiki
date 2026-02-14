@@ -59,7 +59,7 @@ class BackupManager:
                 time_part = parts[2]
                 datetime_str = f"{date_part}_{time_part}"
                 return datetime.strptime(datetime_str, "%Y-%m-%d_%H%M")
-        except:
+        except (ValueError, IndexError, AttributeError):
             pass
         return filepath.stat().st_mtime
     
