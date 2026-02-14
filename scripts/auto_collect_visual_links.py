@@ -11,6 +11,7 @@ Design goals:
 
 This is intentionally conservative: it adds *links* with minimal metadata.
 """
+# noqa: E701, E702
 
 from __future__ import annotations
 

@@ -3,6 +3,7 @@
 - Scans recent news for keywords like "crank in", "filming", "casting confirmed".
 - Updates `pages/profile.md` 'Current Status' field.
 """
+# noqa: E701
 
 import re
 from datetime import datetime

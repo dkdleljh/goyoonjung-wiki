@@ -4,6 +4,7 @@
 - Extracts "Upcoming" and "Past" events.
 - Generates `pages/timeline.md` with a Mermaid chart.
 """
+# noqa: E701
 
 from datetime import datetime
 from pathlib import Path
@@ -61,7 +62,6 @@ def generate_mermaid(events):
     # Limit to last 5 and next 5 for cleanliness? Or yearly sections.
     # Let's do a "Yearly" timeline for the current and next year.
 
-    datetime.now().year
     # Show from 2019 (Debut) onwards
     target_events = [e for e in events if e['date'].year >= 2019]
 

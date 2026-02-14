@@ -4,6 +4,7 @@
 - Returns a dictionary of settings.
 - Custom parser to avoid PyYAML dependency.
 """
+# noqa: E701
 
 from pathlib import Path
 

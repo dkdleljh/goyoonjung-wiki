@@ -134,8 +134,8 @@ class FinalVerification:
 
                 # Test core dependencies
                 try:
-                    import bs4
-                    import requests
+                    import bs4  # noqa: F401
+                    import requests  # noqa: F401
                     core_deps_work = True
                 except ImportError:
                     core_deps_work = False

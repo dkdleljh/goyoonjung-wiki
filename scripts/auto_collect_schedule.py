@@ -3,7 +3,7 @@
 - Analyzes `news/YYYY-MM-DD.md` (recent logs)
 - Looks for keywords: "공개", "첫방", "개봉", "침석", "제작발표회" combined with future dates.
 - Heuristic: strict pattern matching for dates in titles.
-- Updates `pages/schedule.md` with [Upcoimg] Suggestions.
+- Updates `pages/schedule.md` with [Upcoming] Suggestions.
 """
 # noqa: E701, E702
 

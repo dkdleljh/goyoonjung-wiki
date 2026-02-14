@@ -11,10 +11,14 @@ select = [
 ]
 ignore = [
   "E501",                 # allow long lines in markdown-ish generators
+  "E701",                 # allow multiple statements on one line (colon)
+  "E702",                 # allow multiple statements on one line (semicolon)
+  "E741",                 # allow ambiguous variable names (l, I, O)
 ]
 
 [tool.ruff.lint.per-file-ignores]
 "scripts/config_loader.py" = ["E741"]
+"tests/*" = ["E741", "B017"]
 
 [tool.bandit]
 exclude_dirs = ["tests", "data", "backups", ".git", ".obsidian", ".locks"]
