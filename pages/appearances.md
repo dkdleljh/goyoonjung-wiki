@@ -107,14 +107,14 @@
 - id: https://kstar.kbs.co.kr/list_view.html?idx=343890
 - 메모: 보도(1차) 기반. Disney+ 공식 링크 확보 시 상향.
 
-- 날짜: (페이지 내 표기 확인 필요)
+- 날짜: 2024-07-19
 - 구분: 시상식
-- 프로그램/행사명: 청룡시리즈어워즈(공식)
-- 플랫폼/방송사: 공식 사이트
-- 링크(공식/원문): https://bsa.blueaward.co.kr/
-- 상태: 보도(1차)
-- id: https://bsa.blueaward.co.kr/
-- 메모: (자동 보강) 시상식 공식 페이지 링크 확보. 구체 연도/참석/수상/노미네이트 근거는 `pages/awards.md`에서 교차검증.
+- 프로그램/행사명: 제3회 청룡시리즈어워즈
+- 플랫폼/방송사: 청룡시리즈어워즈(공식)
+- 링크(공식/원문): https://bsa.blueaward.co.kr/bbs/board.php?bo_table=bsa_awards&history_no=3
+- 상태: 공식확정
+- id: https://bsa.blueaward.co.kr/bbs/board.php?bo_table=bsa_awards&history_no=3
+- 메모: 행사 일시는 공식 HISTORY 페이지 기준. 수상/부문 상세는 `pages/awards.md`에 반영.
 
 ## 2023
 - 날짜: 2023-08-03

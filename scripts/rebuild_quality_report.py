@@ -27,6 +27,7 @@ EXCLUDE_BASENAMES = {
     "daily-report.md",
     "namu-backlog.md",
     "encyclopedia-roadmap.md",
+    "system_status.md",
 }
 EXCLUDE_DIR_PARTS = {
     os.path.join("pages", "checklists"),

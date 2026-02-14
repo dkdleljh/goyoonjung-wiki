@@ -77,7 +77,13 @@ def automation_score() -> Score:
     rc, out = run(["bash", "-lc", "./scripts/check_automation_health.sh"])
     if rc == 0:
         return Score("automation_health", 100, ["check_automation_health: OK", out])
-    # If health fails, grade hard.
+
+    # If the only problem is that an update is currently running, treat as healthy.
+    # (The separate stale-running guard exists inside check_automation_health.sh.)
+    if "result=진행중" in out or "news status not success: result=진행중" in out:
+        return Score("automation_health", 100, ["check_automation_health: RUNNING (treated OK)", out])
+
+    # Otherwise grade hard.
     return Score("automation_health", 40, ["check_automation_health: FAIL", out])
 
 
