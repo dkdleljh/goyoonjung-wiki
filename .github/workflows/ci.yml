@@ -1,0 +1,44 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Ruff (lint)
+        run: ruff check scripts
+
+      - name: Bandit (security scan)
+        run: bandit -q -r scripts
+
+      - name: Python compile check
+        run: python - <<'PY'
+          import pathlib, py_compile
+          for p in pathlib.Path('scripts').rglob('*.py'):
+              py_compile.compile(str(p), doraise=True)
+          print('py_compile: OK')
+          PY
+
+      - name: Install shellcheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+
+      - name: ShellCheck
+        run: shellcheck scripts/*.sh ultrawork_verification.sh
+
+      - name: Pytest
+        run: pytest -q

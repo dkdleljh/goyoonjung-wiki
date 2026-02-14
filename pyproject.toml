@@ -1,0 +1,24 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+  "E", "F", "W",          # pycodestyle/pyflakes
+  "I",                    # isort
+  "B",                    # flake8-bugbear
+  "UP",                   # pyupgrade
+]
+ignore = [
+  "E501",                 # allow long lines in markdown-ish generators
+]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/config_loader.py" = ["E741"]
+
+[tool.bandit]
+exclude_dirs = ["tests", "data", "backups", ".git", ".obsidian", ".locks"]
+skips = ["B101"]  # allow assert in tests
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
