@@ -22,7 +22,6 @@ from __future__ import annotations
 
 import json
 import os
-import sys
 import time
 from urllib.parse import urljoin, urlparse
 
@@ -76,7 +75,7 @@ def extract_links(html: str, base_url: str, want_domain: str, limit: int = 60) -
 def main() -> int:
     if not os.path.exists(HINTS):
         return 0
-    hints = json.loads(open(HINTS, "r", encoding="utf-8").read())
+    hints = json.loads(open(HINTS, encoding="utf-8").read())
 
     cache: dict[str, list[str]] = {}
 

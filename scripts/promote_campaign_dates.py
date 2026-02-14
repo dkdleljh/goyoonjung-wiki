@@ -18,7 +18,6 @@ from __future__ import annotations
 
 import os
 import re
-import sys
 import time
 
 import requests
@@ -92,7 +91,7 @@ def main() -> int:
         print("promote_campaign_dates: missing file")
         return 0
 
-    lines = open(FILE, "r", encoding="utf-8").read().splitlines(True)
+    lines = open(FILE, encoding="utf-8").read().splitlines(True)
     changed = 0
 
     i = 0

@@ -7,25 +7,21 @@ import asyncio
 import json
 import os
 import sys
-import time
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Any
 
 import psutil
 import uvicorn
-import websockets
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
-from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 # Add base directory to path
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, BASE)
 
-from scripts.secure_config import create_secure_config
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -46,7 +42,7 @@ app.add_middleware(
 # WebSocket connections for real-time updates
 class ConnectionManager:
     def __init__(self):
-        self.active_connections: List[WebSocket] = []
+        self.active_connections: list[WebSocket] = []
 
     async def connect(self, websocket: WebSocket):
         await websocket.accept()
@@ -74,8 +70,8 @@ class SystemStatus(BaseModel):
     status: str
     cpu_percent: float
     memory_percent: float
-    disk_usage: Dict[str, Any]
-    network_io: Dict[str, Any]
+    disk_usage: dict[str, Any]
+    network_io: dict[str, Any]
     process_count: int
 
 class CollectorStatus(BaseModel):
@@ -88,9 +84,9 @@ class CollectorStatus(BaseModel):
 
 class DashboardData(BaseModel):
     system_status: SystemStatus
-    collectors: List[CollectorStatus]
-    recent_logs: List[Dict[str, Any]]
-    performance_metrics: Dict[str, Any]
+    collectors: list[CollectorStatus]
+    recent_logs: list[dict[str, Any]]
+    performance_metrics: dict[str, Any]
 
 # System monitoring functions
 def get_system_status() -> SystemStatus:
@@ -99,7 +95,7 @@ def get_system_status() -> SystemStatus:
     memory = psutil.virtual_memory()
     disk = psutil.disk_usage('/')
     network = psutil.net_io_counters()
-    
+
     return SystemStatus(
         timestamp=datetime.now().isoformat(),
         status="healthy" if cpu_percent < 80 and memory.percent < 80 else "warning",
@@ -120,18 +116,18 @@ def get_system_status() -> SystemStatus:
         process_count=len(psutil.pids())
     )
 
-def get_collector_status() -> List[CollectorStatus]:
+def get_collector_status() -> list[CollectorStatus]:
     """Get status of all data collectors."""
     collectors = [
         "visual-links", "gnews", "gnews-sites", "gnews-queries",
         "mag-rss", "portal-news", "sanitize-news", "schedule",
         "agency", "encyclopedia", "link-health"
     ]
-    
+
     status_list = []
-    
+
     for collector in collectors:
-        # Simulate collector status - in real implementation, 
+        # Simulate collector status - in real implementation,
         # this would read from actual status files
         status_list.append(CollectorStatus(
             name=collector,
@@ -141,18 +137,18 @@ def get_collector_status() -> List[CollectorStatus]:
             success_rate=95.5,
             error_count=2
         ))
-    
+
     return status_list
 
-def get_recent_logs() -> List[Dict[str, Any]]:
+def get_recent_logs() -> list[dict[str, Any]]:
     """Get recent system logs."""
     logs = []
-    
+
     # Read from daily report or log files
     daily_report_path = Path(BASE) / "pages" / "daily-report.md"
     if daily_report_path.exists():
         try:
-            with open(daily_report_path, 'r', encoding='utf-8') as f:
+            with open(daily_report_path, encoding='utf-8') as f:
                 content = f.read()
                 # Extract recent execution history
                 lines = content.split('\n')
@@ -169,10 +165,10 @@ def get_recent_logs() -> List[Dict[str, Any]]:
                 "level": "error",
                 "message": f"Failed to read daily report: {e}"
             })
-    
+
     return logs
 
-def get_performance_metrics() -> Dict[str, Any]:
+def get_performance_metrics() -> dict[str, Any]:
     """Get performance metrics."""
     return {
         "avg_execution_time": 9.5,  # minutes
@@ -227,7 +223,7 @@ async def trigger_collector(collector: str):
         "collector": collector,
         "timestamp": datetime.now().isoformat()
     }))
-    
+
     return {"status": "triggered", "collector": collector}
 
 # WebSocket endpoint for real-time updates
@@ -253,10 +249,10 @@ async def broadcast_updates():
             # Get current system status
             status = get_system_status().dict()
             status["type"] = "system_update"
-            
+
             # Broadcast to all connections
             await manager.broadcast(json.dumps(status))
-            
+
             await asyncio.sleep(10)  # Update every 10 seconds
         except Exception as e:
             print(f"Broadcast error: {e}")
@@ -281,7 +277,7 @@ DASHBOARD_HTML = """
 <body class="bg-gray-100">
     <div class="container mx-auto p-4">
         <h1 class="text-3xl font-bold mb-6">goyoonjung-wiki 실시간 대시보드</h1>
-        
+
         <!-- System Status -->
         <div class="bg-white rounded-lg shadow p-6 mb-6">
             <h2 class="text-xl font-semibold mb-4">시스템 상태</h2>
@@ -300,7 +296,7 @@ DASHBOARD_HTML = """
                 </div>
             </div>
         </div>
-        
+
         <!-- Collectors Status -->
         <div class="bg-white rounded-lg shadow p-6 mb-6">
             <h2 class="text-xl font-semibold mb-4">데이터 수집기 상태</h2>
@@ -308,7 +304,7 @@ DASHBOARD_HTML = """
                 <!-- Collector status will be populated by JavaScript -->
             </div>
         </div>
-        
+
         <!-- Recent Logs -->
         <div class="bg-white rounded-lg shadow p-6 mb-6">
             <h2 class="text-xl font-semibold mb-4">최근 로그</h2>
@@ -316,7 +312,7 @@ DASHBOARD_HTML = """
                 <!-- Logs will be populated by JavaScript -->
             </div>
         </div>
-        
+
         <!-- Performance Metrics -->
         <div class="bg-white rounded-lg shadow p-6">
             <h2 class="text-xl font-semibold mb-4">성능 지표</h2>
@@ -332,28 +328,28 @@ DASHBOARD_HTML = """
             </div>
         </div>
     </div>
-    
+
     <script>
         // WebSocket connection for real-time updates
         const ws = new WebSocket('ws://localhost:8000/ws');
-        
+
         ws.onmessage = function(event) {
             const data = JSON.parse(event.data);
             if (data.type === 'system_update') {
                 updateSystemStatus(data);
             }
         };
-        
+
         function updateSystemStatus(data) {
             document.getElementById('cpu-percent').textContent = data.cpu_percent.toFixed(1) + '%';
             document.getElementById('memory-percent').textContent = data.memory_percent.toFixed(1) + '%';
             document.getElementById('disk-percent').textContent = data.disk_usage.percent.toFixed(1) + '%';
-            
+
             // Update colors based on status
             const cpuElement = document.getElementById('cpu-percent');
             cpuElement.className = data.cpu_percent > 80 ? 'text-2xl font-bold status-error' : 'text-2xl font-bold status-healthy';
         }
-        
+
         // Fetch initial data
         fetch('/api/status')
             .then(response => response.json())
@@ -363,7 +359,7 @@ DASHBOARD_HTML = """
                 updateLogs(data.recent_logs);
                 updateMetrics(data.performance_metrics);
             });
-        
+
         function updateCollectors(collectors) {
             const collectorsDiv = document.getElementById('collectors');
             collectorsDiv.innerHTML = collectors.map(collector => `
@@ -375,7 +371,7 @@ DASHBOARD_HTML = """
                 </div>
             `).join('');
         }
-        
+
         function updateLogs(logs) {
             const logsDiv = document.getElementById('logs');
             logsDiv.innerHTML = logs.map(log => `
@@ -385,7 +381,7 @@ DASHBOARD_HTML = """
                 </div>
             `).join('');
         }
-        
+
         function updateMetrics(metrics) {
             document.getElementById('avg-execution').textContent = metrics.avg_execution_time.toFixed(1) + '분';
             document.getElementById('success-rate').textContent = metrics.success_rate.toFixed(1) + '%';
@@ -406,7 +402,7 @@ if __name__ == "__main__":
     print("📊 Real-time monitoring enabled")
     print("🌐 Dashboard will be available at http://localhost:8000")
     print("🔌 WebSocket endpoint: ws://localhost:8000/ws")
-    
+
     uvicorn.run(
         app,
         host="0.0.0.0",

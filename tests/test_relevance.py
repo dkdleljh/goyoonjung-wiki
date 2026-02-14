@@ -2,8 +2,6 @@
 """Tests for relevance module."""
 from __future__ import annotations
 
-import pytest
-
 import scripts.relevance as rel
 
 

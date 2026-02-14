@@ -43,7 +43,7 @@ def count_placeholders() -> dict[str, int]:
     q = os.path.join(BASE, "pages", "quality-report.md")
     counts: dict[str, int] = {}
     if os.path.exists(q):
-        txt = open(q, "r", encoding="utf-8").read().splitlines()
+        txt = open(q, encoding="utf-8").read().splitlines()
         for ln in txt:
             m = re.match(r"^- `(.+?)`: \*\*(\d+)\*\*", ln.strip())
             if m:

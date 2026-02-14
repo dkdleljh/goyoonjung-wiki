@@ -14,7 +14,6 @@ Design goals:
 
 from __future__ import annotations
 
-import os
 import re
 import socket
 import sys
@@ -55,8 +54,7 @@ def iter_md_files():
     for root in (PAGES_DIR, SOURCES_DIR):
         if not root.exists():
             continue
-        for p in root.rglob("*.md"):
-            yield p
+        yield from root.rglob("*.md")
 
 
 def extract_urls(text: str) -> list[str]:

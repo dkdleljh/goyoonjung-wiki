@@ -22,7 +22,6 @@ from __future__ import annotations
 
 import os
 import re
-import sys
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -94,7 +93,7 @@ def main() -> int:
         if rel.startswith("news/"):
             continue
 
-        lines = open(path, "r", encoding="utf-8").read().splitlines(True)
+        lines = open(path, encoding="utf-8").read().splitlines(True)
         # find first non-empty
         idx = None
         for i, ln in enumerate(lines):

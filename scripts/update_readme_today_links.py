@@ -15,7 +15,6 @@ from __future__ import annotations
 
 import os
 import re
-import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -28,7 +27,7 @@ def today_ymd() -> str:
 
 
 def read(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 

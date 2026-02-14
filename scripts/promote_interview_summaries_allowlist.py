@@ -21,7 +21,6 @@ from __future__ import annotations
 
 import os
 import re
-import sys
 import time
 from urllib.parse import urlparse
 
@@ -54,7 +53,7 @@ def load_known_good() -> set[str]:
     try:
         import json
         if os.path.exists(KNOWN_GOOD_PATH):
-            return set(json.loads(open(KNOWN_GOOD_PATH, "r", encoding="utf-8").read()))
+            return set(json.loads(open(KNOWN_GOOD_PATH, encoding="utf-8").read()))
     except Exception:
         pass
     return set()
@@ -163,7 +162,7 @@ def replace_summary(lines: list[str], start: int, end: int, bullets: list[str]) 
 def main() -> int:
     if not os.path.exists(FILE):
         return 0
-    lines = open(FILE, "r", encoding="utf-8").read().splitlines(True)
+    lines = open(FILE, encoding="utf-8").read().splitlines(True)
 
     updated = 0
     good = load_known_good()

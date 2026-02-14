@@ -30,7 +30,7 @@ def test_validate_url_rejects_empty():
     """Test validate_url rejects empty strings."""
     with pytest.raises(eh.ValidationError):
         eh.validate_url("")
-    
+
     with pytest.raises(eh.ValidationError):
         eh.validate_url(None)  # type: ignore
 
@@ -39,7 +39,7 @@ def test_validate_url_rejects_invalid_scheme():
     """Test validate_url rejects invalid URL schemes."""
     with pytest.raises(eh.ValidationError):
         eh.validate_url("javascript:alert(1)")
-    
+
     with pytest.raises(eh.ValidationError):
         eh.validate_url("not-a-url")
 
@@ -55,7 +55,7 @@ def test_validate_path_rejects_empty():
     """Test validate_path rejects empty paths."""
     with pytest.raises(eh.ValidationError):
         eh.validate_path("")
-    
+
     with pytest.raises(eh.ValidationError):
         eh.validate_path(None)  # type: ignore
 
@@ -65,7 +65,7 @@ def test_handle_errors_returns_default():
     @eh.handle_errors(default_return="error")
     def failing_func():
         raise ValueError("test")
-    
+
     result = failing_func()
     assert result == "error"
 
@@ -75,7 +75,7 @@ def test_handle_errors_reraises_when_requested():
     @eh.handle_errors(reraise=True)
     def failing_func():
         raise ValueError("test")
-    
+
     with pytest.raises(ValueError):
         failing_func()
 
@@ -84,7 +84,7 @@ def test_safe_execute_returns_success():
     """Test safe_execute returns success tuple."""
     def successful_func():
         return "success"
-    
+
     success, result, error = eh.safe_execute(successful_func)
     assert success is True
     assert result == "success"
@@ -95,7 +95,7 @@ def test_safe_execute_returns_failure():
     """Test safe_execute returns failure tuple."""
     def failing_func():
         raise ValueError("test error")
-    
+
     success, result, error = eh.safe_execute(failing_func)
     assert success is False
     assert result is None

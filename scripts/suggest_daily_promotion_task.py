@@ -36,7 +36,7 @@ def today() -> str:
 
 
 def read(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 
@@ -108,7 +108,7 @@ def build_block() -> str:
         "- 2) awards: 공식 도메인/본문 검증 통과 시에만 근거(공식) 자동 채움(검색/접근 불가 시 스킵)",
         "- 3) profile(출생지/학력): 공식/원문 페이지에서 명시가 확인되는 경우에만 자동 반영(대부분 스킵될 수 있음)",
         "",
-        "### 오늘의 예상 결과", 
+        "### 오늘의 예상 결과",
         "- 사이트 차단/타임아웃/검색 제한이 있으면 일부 항목은 ‘(확인 필요)’로 남을 수 있습니다.",
         "- 대신 파이프라인은 멈추지 않고 다음 실행에서 계속 재시도합니다.",
         "",

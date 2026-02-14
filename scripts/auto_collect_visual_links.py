@@ -18,8 +18,8 @@ import os
 import re
 import sys
 import time
+from collections.abc import Iterable
 from dataclasses import dataclass
-from typing import Iterable
 from urllib.parse import urljoin
 
 import requests
@@ -54,7 +54,7 @@ class Entry:
 
 
 def read_text(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 
@@ -67,7 +67,7 @@ def load_seen_urls() -> set[str]:
     if not os.path.exists(SEEN_TXT):
         return set()
     s = set()
-    with open(SEEN_TXT, "r", encoding="utf-8") as f:
+    with open(SEEN_TXT, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if not line:
@@ -166,7 +166,7 @@ def kbs_collect() -> tuple[list[Entry], list[Entry], list[Entry]]:
             continue
 
         # heuristics
-        lower = title.lower()
+        title.lower()
         is_press = any(k in title for k in ["제작발표회", "시사회", "포토", "포토타임", "포토월"]) or "현장" in title
         is_interview = "[인터뷰]" in title or "인터뷰" in title
 

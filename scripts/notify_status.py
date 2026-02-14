@@ -7,12 +7,12 @@ Configuration:
 - Or fails gracefully if not found (logs to stdout).
 """
 
+import json
 import os
 import sys
-import json
 from datetime import datetime
-from urllib.request import Request, urlopen
 from urllib.error import URLError
+from urllib.request import Request, urlopen
 
 # Configuration
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -30,8 +30,8 @@ COLORS = {
 
 def queue_notification(title: str, message: str, color_name: str) -> None:
     try:
-        from pathlib import Path
         import json
+        from pathlib import Path
         base = Path(__file__).resolve().parent.parent
         q = base / '.locks' / 'notify-queue.jsonl'
         q.parent.mkdir(parents=True, exist_ok=True)
@@ -49,7 +49,7 @@ def send_discord_message(title, message, color_name="green", force: bool = False
         return False
 
     color = COLORS.get(color_name, COLORS["green"])
-    
+
     payload = {
         "embeds": [
             {
@@ -62,13 +62,13 @@ def send_discord_message(title, message, color_name="green", force: bool = False
             }
         ]
     }
-    
+
     req = Request(
         WEBHOOK_URL,
         data=json.dumps(payload).encode('utf-8'),
         headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'}
     )
-    
+
     # Retry a few times; queue on failure
     import time
     for attempt in range(1, 4):
@@ -95,11 +95,11 @@ def main():
     if len(sys.argv) < 3:
         print("Usage: notify_status.py <Title> <Message> [Color]")
         sys.exit(1)
-        
+
     title = sys.argv[1]
     message = sys.argv[2]
     color = sys.argv[3] if len(sys.argv) > 3 else "green"
-    
+
     ok = send_discord_message(title, message, color)
     # exit nonzero if not delivered (so callers can notice in logs)
     if not ok:

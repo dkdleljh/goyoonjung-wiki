@@ -14,14 +14,14 @@ SEEN_TXT = BASE / 'sources' / 'seen-urls.txt'
 def main():
     print("Migrating seen-urls.txt to SQLite...")
     db_manager.init_db()
-    
+
     if not SEEN_TXT.exists():
         print("No legacy text file found.")
         return
-        
+
     count = db_manager.migrate_from_txt(SEEN_TXT)
     print(f"Migrated {count} URLs to database.")
-    
+
     # Rename legacy file to backup
     # os.rename(SEEN_TXT, str(SEEN_TXT) + ".bak")
     # print("Renamed legacy file to .bak")

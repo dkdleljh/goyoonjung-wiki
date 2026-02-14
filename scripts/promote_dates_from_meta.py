@@ -25,10 +25,7 @@ from __future__ import annotations
 import json
 import os
 import re
-import sys
 import time
-from dataclasses import dataclass
-from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -136,7 +133,7 @@ def update_file(path: str, max_updates: int, budget: list[int]) -> int:
     if not os.path.exists(path):
         return 0
 
-    lines = open(path, "r", encoding="utf-8").read().splitlines(True)
+    lines = open(path, encoding="utf-8").read().splitlines(True)
     updated = 0
 
     i = 0

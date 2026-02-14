@@ -18,8 +18,8 @@ import os
 import re
 import sys
 from collections import defaultdict
+from collections.abc import Iterable
 from dataclasses import dataclass
-from typing import Iterable
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -50,7 +50,7 @@ class Item:
 
 def read_text(rel: str) -> str:
     path = os.path.join(BASE, rel)
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 

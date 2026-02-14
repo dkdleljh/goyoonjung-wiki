@@ -9,11 +9,9 @@
 from __future__ import annotations
 
 import logging
-import sqlite3
 import os
-from datetime import datetime
+import sqlite3
 from pathlib import Path
-from typing import Optional
 
 logger = logging.getLogger(__name__)
 
@@ -25,7 +23,7 @@ def get_db_connection() -> sqlite3.Connection:
     """Ensure DB exists and return connection."""
     if not os.path.exists(DB_PATH.parent):
         os.makedirs(DB_PATH.parent)
-        
+
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     return conn
@@ -35,7 +33,7 @@ def init_db() -> None:
     """Initialize database with required tables."""
     conn = get_db_connection()
     c = conn.cursor()
-    
+
     # Table: seen_urls
     c.execute('''
         CREATE TABLE IF NOT EXISTS seen_urls (
@@ -44,7 +42,7 @@ def init_db() -> None:
             source TEXT
         )
     ''')
-    
+
     # Table: key_value_store (for generic metadata like 'last_wiki_revision')
     c.execute('''
         CREATE TABLE IF NOT EXISTS kv_store (
@@ -53,7 +51,7 @@ def init_db() -> None:
             updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     ''')
-    
+
     conn.commit()
     conn.close()
     logger.info(f"Database initialized at {DB_PATH}")
@@ -84,9 +82,9 @@ def migrate_from_txt(txt_path: str) -> int:
     if not os.path.exists(txt_path):
         logger.warning(f"Migration file not found: {txt_path}")
         return 0
-        
+
     count = 0
-    with open(txt_path, 'r', encoding='utf-8') as f:
+    with open(txt_path, encoding='utf-8') as f:
         conn = get_db_connection()
         c = conn.cursor()
         for line in f:

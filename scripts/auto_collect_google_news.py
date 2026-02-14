@@ -12,27 +12,22 @@
 
 import logging
 import os
-import re
 import sys
-import time
-import urllib.error
-from datetime import datetime
-from typing import Optional
 import xml.etree.ElementTree as ET
-from urllib.error import HTTPError, URLError
-from urllib.parse import quote
-from urllib.request import urlopen, Request
+from datetime import datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import quote
+from urllib.request import Request, urlopen
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.append(str(SCRIPT_DIR))
-import db_manager
-import config_loader
-import relevance
+import config_loader  # noqa: E402
+import db_manager  # noqa: E402
+import relevance  # noqa: E402
 
 CONF = config_loader.load_config()
 RSS_URL = CONF.get('rss_url', "https://news.google.com/rss/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95+when:1d&hl=ko&gl=KR&ceid=KR:ko")
@@ -108,13 +103,13 @@ def main():
 
         title = clean_title(title_elem.text)
         origin_link = link_elem.text
-        
+
         # Check duplicate title in current batch
         if any(x['title'] == title for x in new_items):
             continue
 
         real_url = decode_google_news_url(origin_link)
-        
+
         # Check DB
         if db_manager.is_url_seen(real_url):
             continue
@@ -129,7 +124,7 @@ def main():
             continue
 
         category = classify(title)
-        
+
         date_str = datetime.now().strftime("%Y-%m-%d %H:%M")
         if pubDate_elem is not None:
             try:
@@ -145,7 +140,7 @@ def main():
             "category": category,
             "source": source_text
         })
-        
+
         db_manager.add_seen_url(real_url, source='google_news')
 
     if not new_items:
@@ -160,7 +155,7 @@ def main():
     with open(log_path, "a", encoding="utf-8") as f:
         for item in new_items:
             f.write(f"- [{item['category']}] [{item['title']}]({item['url']}) - {item['source']} ({item['date']})\n")
-    
+
     print(f"Added {len(new_items)} items to {log_path}")
 
 if __name__ == "__main__":

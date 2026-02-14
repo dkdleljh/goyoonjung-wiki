@@ -12,7 +12,6 @@ This does not copy any article text.
 from __future__ import annotations
 
 import re
-import sys
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -106,7 +105,7 @@ def main() -> int:
         block = "\n".join(
             [
                 "- 날짜: (페이지 내 표기 확인 필요)",
-                f"- 구분: 출연/행사(공식 기사 후보)",
+                "- 구분: 출연/행사(공식 기사 후보)",
                 f"- 제목: {title}",
                 f"- 링크(원문): {url}",
                 "- 상태: 보도(1차)",

@@ -2,10 +2,8 @@
 """Tests for notify_status module."""
 from __future__ import annotations
 
-import pytest
-from unittest.mock import patch, MagicMock
-import sys
 import os
+import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 
@@ -35,9 +33,9 @@ def test_webhook_url_from_config():
 def test_send_discord_message_no_webhook(capsys):
     """Test send_discord_message prints message when no webhook."""
     ns.WEBHOOK_URL = None
-    
+
     result = ns.send_discord_message("Test", "Message", "green")
-    
+
     assert result is False
     captured = capsys.readouterr()
     assert "Test" in captured.out

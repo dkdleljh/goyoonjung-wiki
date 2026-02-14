@@ -8,8 +8,6 @@ No web access.
 from __future__ import annotations
 
 import os
-import re
-import sys
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PROFILE = os.path.join(BASE, "pages", "profile.md")
@@ -19,7 +17,7 @@ END = "<!-- AUTO-INFOBOX:END -->"
 
 
 def read(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 

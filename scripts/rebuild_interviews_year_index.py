@@ -34,7 +34,7 @@ def year_from_date(d: str) -> str | None:
 def main() -> int:
     if not os.path.exists(IN_FILE):
         return 0
-    lines = open(IN_FILE, "r", encoding="utf-8").read().splitlines()
+    lines = open(IN_FILE, encoding="utf-8").read().splitlines()
 
     items = []
     i = 0

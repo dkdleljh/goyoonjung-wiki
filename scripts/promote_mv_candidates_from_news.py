@@ -13,7 +13,6 @@ No downloading, no scraping.
 from __future__ import annotations
 
 import re
-import sys
 from datetime import datetime
 from pathlib import Path
 

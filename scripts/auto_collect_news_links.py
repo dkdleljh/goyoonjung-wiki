@@ -23,8 +23,8 @@ import os
 import re
 import sys
 import time
+from collections.abc import Iterable
 from dataclasses import dataclass
-from typing import Iterable
 from urllib.parse import quote_plus, urljoin, urlsplit
 
 import requests
@@ -32,7 +32,7 @@ from bs4 import BeautifulSoup
 
 SCRIPT_DIR = os.path.dirname(__file__)
 sys.path.append(SCRIPT_DIR)
-import relevance
+import relevance  # noqa: E402
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SEEN_TXT = os.path.join(BASE, "sources", "seen-urls.txt")
@@ -57,7 +57,7 @@ class Entry:
 
 
 def read_text(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 
@@ -70,7 +70,7 @@ def load_seen_urls() -> set[str]:
     if not os.path.exists(SEEN_TXT):
         return set()
     out: set[str] = set()
-    with open(SEEN_TXT, "r", encoding="utf-8") as f:
+    with open(SEEN_TXT, encoding="utf-8") as f:
         for line in f:
             s = line.strip()
             if s:
@@ -218,7 +218,7 @@ def load_allowlist() -> set[str]:
     if not os.path.exists(ALLOWLIST):
         return set()
     out: set[str] = set()
-    with open(ALLOWLIST, 'r', encoding='utf-8') as f:
+    with open(ALLOWLIST, encoding='utf-8') as f:
         for raw in f:
             ln = raw.strip()
             if not ln or ln.startswith('#'):

@@ -21,7 +21,7 @@ NEWS_DIR = os.path.join(BASE, "news")
 
 
 def read_text(rel: str) -> str:
-    with open(os.path.join(BASE, rel), "r", encoding="utf-8") as f:
+    with open(os.path.join(BASE, rel), encoding="utf-8") as f:
         return f.read()
 
 

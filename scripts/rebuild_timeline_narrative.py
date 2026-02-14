@@ -17,7 +17,6 @@ from __future__ import annotations
 
 import os
 import re
-import sys
 from collections import defaultdict
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -32,7 +31,7 @@ TABLE_ROW_RE = re.compile(r"^\|\s*(20\d{2})\s*\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]
 
 
 def read(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 

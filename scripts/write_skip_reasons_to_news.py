@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import json
 import os
-import sys
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 LOCKS = os.path.join(BASE, ".locks")
@@ -28,7 +27,7 @@ def today() -> str:
 
 
 def read(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 

@@ -52,7 +52,7 @@ class Block:
 
 
 def read_lines(path: str) -> list[str]:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read().splitlines(True)
 
 
@@ -82,7 +82,7 @@ def main() -> int:
                 i += 1
                 continue
             start = i
-            brand_line = lines[i].strip()
+            lines[i].strip()
             end = i + 1
             while end < len(lines) and not lines[end].startswith("- 브랜드/회사명:") and not lines[end].startswith("## "):
                 end += 1

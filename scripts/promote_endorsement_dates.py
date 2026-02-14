@@ -20,7 +20,6 @@ import os
 import re
 import sys
 import time
-from urllib.parse import urlparse, parse_qs
 
 import requests
 
@@ -46,7 +45,7 @@ URL_DATE_RE = re.compile(r"/(20\d{2})/(\d{2})/(\d{2})/|/(20\d{2})/(\d{2})/")
 
 
 def read_lines(rel: str) -> list[str]:
-    with open(os.path.join(BASE, rel), "r", encoding="utf-8") as f:
+    with open(os.path.join(BASE, rel), encoding="utf-8") as f:
         return f.read().splitlines(True)
 
 

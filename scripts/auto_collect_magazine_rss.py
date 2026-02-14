@@ -15,16 +15,15 @@ No article text is copied.
 
 from __future__ import annotations
 
-import os
 import re
 import sys
 import time
 import xml.etree.ElementTree as ET
+from collections.abc import Iterable
 from dataclasses import dataclass
 from datetime import datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from typing import Iterable
 from urllib.request import Request, urlopen
 
 BASE = Path(__file__).resolve().parent.parent

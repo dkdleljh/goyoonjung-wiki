@@ -39,7 +39,7 @@ def load_work_pages() -> dict[str, str]:
             continue
         path = os.path.join(WORKS_DIR, fn)
         try:
-            first = open(path, "r", encoding="utf-8").read().splitlines()[:20]
+            first = open(path, encoding="utf-8").read().splitlines()[:20]
         except Exception:
             continue
         title = None
@@ -58,7 +58,7 @@ def parse_filmography() -> list[tuple[str, str, str, str, str, str]]:
     if not os.path.exists(FILM):
         return []
     out = []
-    for ln in open(FILM, "r", encoding="utf-8").read().splitlines():
+    for ln in open(FILM, encoding="utf-8").read().splitlines():
         if not ln.startswith("|"):
             continue
         if "| 연도 |" in ln:

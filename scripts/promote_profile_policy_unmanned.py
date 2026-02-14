@@ -15,7 +15,6 @@ This does NOT add any new facts; it only re-labels uncertainty.
 from __future__ import annotations
 
 import os
-import sys
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PROFILE = os.path.join(BASE, "pages", "profile.md")
@@ -27,7 +26,7 @@ def main() -> int:
     if not os.path.exists(PROFILE):
         return 0
 
-    lines = open(PROFILE, "r", encoding="utf-8").read().splitlines(True)
+    lines = open(PROFILE, encoding="utf-8").read().splitlines(True)
     changed = False
 
     for i, ln in enumerate(lines):

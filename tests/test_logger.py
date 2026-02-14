@@ -3,9 +3,6 @@
 from __future__ import annotations
 
 import logging
-import tempfile
-
-import pytest
 
 import scripts.logger as lg
 
@@ -28,7 +25,7 @@ def test_setup_logger_creates_file_handler(tmp_path):
     log_file = tmp_path / "test.log"
     logger = lg.setup_logger("test-file", log_file=log_file)
     assert len(logger.handlers) == 2  # console + file
-    
+
     logger.info("test message")
     assert log_file.exists()
     assert "test message" in log_file.read_text()
@@ -45,10 +42,10 @@ def test_log_context_changes_level():
     """Test LogContext temporarily changes log level."""
     logger = lg.get_logger("test-context")
     original_level = logger.level
-    
+
     with lg.LogContext(logger, logging.DEBUG):
         assert logger.level == logging.DEBUG
-    
+
     assert logger.level == original_level
 
 
@@ -59,6 +56,6 @@ def test_log_exception_logs_traceback(caplog):
         raise ValueError("test error")
     except ValueError as e:
         lg.log_exception(logger, "Test context", e)
-    
+
     assert "test error" in caplog.text
     assert "Traceback" in caplog.text

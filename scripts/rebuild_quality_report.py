@@ -10,9 +10,7 @@ No web access.
 from __future__ import annotations
 
 import os
-import re
 import sys
-from collections import Counter
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OUT = os.path.join(BASE, "pages", "quality-report.md")
@@ -63,7 +61,7 @@ def main() -> int:
     hits = {p: [] for p in PATTERNS}
 
     for path in iter_md_files():
-        txt = open(path, "r", encoding="utf-8").read().splitlines()
+        txt = open(path, encoding="utf-8").read().splitlines()
         for i, ln in enumerate(txt, start=1):
             for p in PATTERNS:
                 if p in ln:

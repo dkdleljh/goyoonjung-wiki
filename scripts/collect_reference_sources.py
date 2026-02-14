@@ -13,7 +13,6 @@ This is intended to answer: "Did anything change on Wikipedia/agency/etc?" witho
 
 from __future__ import annotations
 
-import json
 import os
 import re
 import sys
@@ -93,7 +92,7 @@ def upsert_news_block(news_path: str, body: str) -> None:
     start = "<!-- AUTO-REF-SOURCES:START -->"
     end = "<!-- AUTO-REF-SOURCES:END -->"
 
-    with open(news_path, "r", encoding="utf-8") as f:
+    with open(news_path, encoding="utf-8") as f:
         text = f.read()
 
     block = f"{start}\n{body}{end}"

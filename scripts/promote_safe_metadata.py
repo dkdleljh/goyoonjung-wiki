@@ -21,7 +21,6 @@ import re
 import sys
 import time
 from dataclasses import dataclass
-from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -48,8 +47,8 @@ DATE_ANY_RE = re.compile(r"(20\d{2})[\.-](\d{2})[\.-](\d{2})")
 @dataclass
 class Meta:
     url: str
-    date: Optional[str] = None
-    title: Optional[str] = None
+    date: str | None = None
+    title: str | None = None
 
 
 def http_get(url: str) -> str:
@@ -78,7 +77,7 @@ def fetch_kbs_meta(url: str) -> Meta:
     return Meta(url=url, date=date, title=title)
 
 
-def infer_vogue_date(url: str) -> Optional[str]:
+def infer_vogue_date(url: str) -> str | None:
     m = VOGUE_DATE_RE.search(url)
     if not m:
         return None
@@ -86,7 +85,7 @@ def infer_vogue_date(url: str) -> Optional[str]:
 
 
 def read_lines(path: str) -> list[str]:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return f.read().splitlines(True)
 
 

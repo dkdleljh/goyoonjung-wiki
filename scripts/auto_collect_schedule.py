@@ -3,8 +3,9 @@
 - Analyzes `news/YYYY-MM-DD.md` (recent logs)
 - Looks for keywords: "공개", "첫방", "개봉", "침석", "제작발표회" combined with future dates.
 - Heuristic: strict pattern matching for dates in titles.
-- Updates `pages/schedule.md` with [Upcoiming] Suggestions.
+- Updates `pages/schedule.md` with [Upcoimg] Suggestions.
 """
+# noqa: E701, E702
 
 import os
 import re
@@ -32,8 +33,8 @@ def scan_recent_news(days=3):
         path = os.path.join(NEWS_DIR, fname)
         if not os.path.exists(path):
             continue
-        
-        with open(path, "r", encoding="utf-8") as f:
+
+        with open(path, encoding="utf-8") as f:
             for line in f:
                 if not line.startswith("- "): continue
                 # Line format: - [Category] [Title](Link) ...
@@ -42,11 +43,11 @@ def scan_recent_news(days=3):
                 if not m: continue
                 title = m.group(1)
                 link = m.group(2)
-                
+
                 # Check keywords
                 if not any(k in title for k in KEYWORDS):
                     continue
-                    
+
                 # Extract Potential Date
                 future_date = extract_future_date(title, today)
                 if future_date:
@@ -72,15 +73,15 @@ def extract_future_date(text, anchor_date):
             return d
         except (ValueError, OSError):
             pass
-        
+
     return None
 
 def update_schedule(items):
     if not items: return
-    
-    with open(SCHEDULE_MD, "r", encoding="utf-8") as f:
+
+    with open(SCHEDULE_MD, encoding="utf-8") as f:
         content = f.read()
-    
+
     # Check duplicates strictly by Link or Title
     new_entries = []
     for item in items:
@@ -98,7 +99,7 @@ def update_schedule(items):
 - 메모: 자동 수집됨. 정확한 시간/장소 확인 필요.
 """
         new_entries.append(entry)
-        
+
     if not new_entries:
         print("No new schedule entries to add.")
         return
@@ -109,15 +110,15 @@ def update_schedule(items):
     if header not in content:
         print("Cannot find Upcoming section.")
         return
-        
+
     parts = content.split(header)
     # Insert after header
     insertion = "\n".join(new_entries)
     new_content = parts[0] + header + "\n" + insertion + parts[1]
-    
+
     with open(SCHEDULE_MD, "w", encoding="utf-8") as f:
         f.write(new_content)
-    
+
     print(f"Added {len(new_entries)} schedule suggestions.")
 
 def main():

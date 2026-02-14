@@ -2,8 +2,9 @@
 """Tests for auto_collect_google_news module."""
 from __future__ import annotations
 
+from unittest.mock import MagicMock, patch
+
 import pytest
-from unittest.mock import patch, MagicMock
 
 import scripts.auto_collect_google_news as gnews
 
@@ -48,7 +49,7 @@ def test_classify_work():
     """Test classify returns Work for drama/movie titles."""
     result = gnews.classify("고윤정 무빙 드라마")
     assert result == "Work"
-    
+
     result = gnews.classify("고윤정 환혼")
     assert result == "Work"
 
@@ -57,7 +58,7 @@ def test_classify_pictorial():
     """Test classify returns Pictorial for magazine titles."""
     result = gnews.classify("고윤정 화보")
     assert result == "Pictorial"
-    
+
     result = gnews.classify("고윤정 보그")
     assert result == "Pictorial"
 
@@ -76,7 +77,7 @@ def test_fetch_rss_success(mock_urlopen):
     mock_response.__enter__ = MagicMock(return_value=mock_response)
     mock_response.__exit__ = MagicMock(return_value=False)
     mock_urlopen.return_value = mock_response
-    
+
     result = gnews.fetch_rss()
     assert isinstance(result, bytes)
 
@@ -86,7 +87,7 @@ def test_fetch_rss_failure(mock_urlopen):
     """Test fetch_rss raises on failure."""
     from urllib.error import URLError
     mock_urlopen.side_effect = URLError("Connection failed")
-    
+
     with pytest.raises(URLError):
         gnews.fetch_rss()
 

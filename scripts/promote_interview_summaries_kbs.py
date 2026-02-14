@@ -23,7 +23,6 @@ import os
 import re
 import sys
 import time
-from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -131,7 +130,7 @@ def main() -> int:
     if not os.path.exists(FILE):
         return 0
 
-    lines = open(FILE, "r", encoding="utf-8").read().splitlines(True)
+    lines = open(FILE, encoding="utf-8").read().splitlines(True)
 
     changed_blocks = 0
     max_updates = 3

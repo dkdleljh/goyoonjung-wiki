@@ -12,7 +12,6 @@ Best-effort, always returns 0.
 
 from __future__ import annotations
 
-import re
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -25,8 +24,8 @@ from urllib.request import Request, urlopen
 SCRIPT_DIR = Path(__file__).resolve().parent
 BASE = SCRIPT_DIR.parent
 sys.path.append(str(SCRIPT_DIR))
-import db_manager
-import relevance
+import db_manager  # noqa: E402
+import relevance  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-queries.txt"
 ALLOWLIST = BASE / "config" / "allowlist-domains.txt"

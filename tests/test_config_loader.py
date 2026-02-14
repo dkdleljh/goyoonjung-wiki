@@ -2,10 +2,7 @@
 """Tests for config_loader module."""
 from __future__ import annotations
 
-import tempfile
 from pathlib import Path
-
-import pytest
 
 import scripts.config_loader as cfg
 
@@ -20,9 +17,9 @@ schedule_keywords:
   - "공개"
   - "개봉"
 """)
-    
+
     monkeypatch.setattr(cfg, 'CONFIG_PATH', config_file)
-    
+
     config = cfg.load_config()
     assert isinstance(config, dict)
 
@@ -31,9 +28,9 @@ def test_load_config_parses_simple_key_value(tmp_path, monkeypatch):
     """Test loading simple key-value pairs."""
     config_file = tmp_path / "config.yaml"
     config_file.write_text('test_key: "test_value"')
-    
+
     monkeypatch.setattr(cfg, 'CONFIG_PATH', config_file)
-    
+
     config = cfg.load_config()
     assert config.get("test_key") == "test_value"
 
@@ -45,9 +42,9 @@ def test_load_config_parses_nested_keys(tmp_path, monkeypatch):
 parent:
   child: "value"
 """)
-    
+
     monkeypatch.setattr(cfg, 'CONFIG_PATH', config_file)
-    
+
     config = cfg.load_config()
     assert "parent" in config
     assert config["parent"]["child"] == "value"
@@ -61,9 +58,9 @@ items:
   - "item1"
   - "item2"
 """)
-    
+
     monkeypatch.setattr(cfg, 'CONFIG_PATH', config_file)
-    
+
     config = cfg.load_config()
     assert "items" in config
     assert "item1" in config["items"]
@@ -77,9 +74,9 @@ def test_load_config_ignores_comments(tmp_path, monkeypatch):
 # This is a comment
 key: "value"
 """)
-    
+
     monkeypatch.setattr(cfg, 'CONFIG_PATH', config_file)
-    
+
     config = cfg.load_config()
     assert config.get("key") == "value"
 
@@ -87,7 +84,7 @@ key: "value"
 def test_load_config_handles_missing_file():
     """Test that missing config file returns empty dict."""
     cfg.CONFIG_PATH = Path("/nonexistent/config.yaml")
-    
+
     config = cfg.load_config()
     assert config == {}
 
@@ -99,9 +96,9 @@ def test_load_config_strips_quotes(tmp_path, monkeypatch):
 key1: "value1"
 key2: 'value2'
 ''')
-    
+
     monkeypatch.setattr(cfg, 'CONFIG_PATH', config_file)
-    
+
     config = cfg.load_config()
     assert config.get("key1") == "value1"
     assert config.get("key2") == "value2"

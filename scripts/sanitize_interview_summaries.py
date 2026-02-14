@@ -19,7 +19,6 @@ from __future__ import annotations
 
 import os
 import re
-import sys
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 FILE = os.path.join(BASE, "pages", "interviews.md")
@@ -45,7 +44,7 @@ def main() -> int:
     if not os.path.exists(FILE):
         return 0
 
-    lines = open(FILE, "r", encoding="utf-8").read().splitlines(True)
+    lines = open(FILE, encoding="utf-8").read().splitlines(True)
 
     changed = False
     i = 0
