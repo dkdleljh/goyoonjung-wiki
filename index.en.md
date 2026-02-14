@@ -2,13 +2,14 @@
 
 **Language / 언어:** [한국어](index.md) | **English**
 
-> Tip: Click **한국어** above to switch back.
-
 > **Goal:** A link-first (copyright-safe) personal wiki collecting and organizing **Go Youn-jung**’s works, pictorials, endorsements, interviews, appearances, and events.
+>
+> **Principles:** (1) Prefer primary/official sources (2) No rumors/private life speculation (3) Minimal quoting, link/metadata first
 
 - Last updated: **2026-02-14**
-- Today’s log: [`news/2026-02-14.md`](news/2026-02-14.md)
+- Today’s log (run/success): [`news/2026-02-14.md`](news/2026-02-14.md)
 - Last 7 days summary: [`news/README.md`](news/README.md)
+- Today’s report (auto): [`pages/daily-report.md`](pages/daily-report.md)
 
 ---
 
@@ -20,11 +21,11 @@ Go Youn-jung (born 1996-04-22) is a South Korean actress.
 Notable works include 사이코메트리 그녀석, 보건교사 안은영, 스위트홈, 로스쿨, 환혼, 환혼 빛과 그림자.
 This wiki is a link-first (copyright-safe) archive of works, pictorials, endorsements, interviews, and appearances/events, with primary-source verification when available.
 <!-- AUTO-FIXED-LEAD:END -->
-## Quick summary
-- Born: 1996-04-22
-- Occupation: Actress
-- Active: 2018–present
-- Notable series: *Sweet Home*, *Law School*, *Alchemy of Souls: Light and Shadow*, *Moving*, etc.
+
+## Fastest ways to use this wiki
+- First time: **Hub (portal)** → [`pages/hub.md`](pages/hub.md)
+- What changed today: **Today’s log** → [`news/2026-02-14.md`](news/2026-02-14.md)
+- What still needs work: **Quality/Lint reports** → [`pages/quality-report.md`](pages/quality-report.md), [`pages/lint-report.md`](pages/lint-report.md)
 
 ---
 
@@ -39,18 +40,29 @@ This wiki is a link-first (copyright-safe) archive of works, pictorials, endorse
 - Filmography: [`pages/filmography.md`](pages/filmography.md)
 - Timeline (by year): [`pages/timeline.md`](pages/timeline.md)
 - Awards / Nominations: [`pages/awards.md`](pages/awards.md)
-- Works index: [`pages/works-characters.md`](pages/works-characters.md)
+- Works index (characters): [`pages/works-characters.md`](pages/works-characters.md)
 - Schedule (official public schedule): [`pages/schedule.md`](pages/schedule.md)
 
 ---
 
-## Fan archive
+## Archive (link collections)
 - Interviews / Articles: [`pages/interviews.md`](pages/interviews.md)
 - Pictorials / Photos (index): [`pages/pictorials.md`](pages/pictorials.md)
 - Endorsements (index): [`pages/endorsements.md`](pages/endorsements.md)
 - Appearances / Events log: [`pages/appearances.md`](pages/appearances.md)
 - SNS / Official channels: [`pages/sns.md`](pages/sns.md)
 - Tag index: [`pages/index-by-tag.md`](pages/index-by-tag.md)
+
+---
+
+## Verification / confidence levels
+This wiki tracks evidence level alongside each item.
+
+- **S/A**: Verified via official/primary sources
+- **Secondary**: Only secondary sources exist (promotion candidate)
+- **Needs work**: Missing proof link, date/context needs improvement
+
+Promotion candidates are auto-listed daily in `news/YYYY-MM-DD.md`.
 
 ---
 
@@ -70,7 +82,10 @@ This wiki is a link-first (copyright-safe) archive of works, pictorials, endorse
 
 ---
 
-## Automation (summary)
-- Default: scheduled **daily 09:00 (Asia/Seoul)** update.
-- Retries / backup / push jobs follow.
-- Logs are written to `news/YYYY-MM-DD.md` (`## Status` / `## History`).
+## Automation (unmanned)
+- **Daily 09:00 (Asia/Seoul)**: update/collect/index/lint/reports
+- **Daily 09:10**: tar.gz backup saved to `backups/`
+- **Daily 21:00**: Discord daily summary via webhook
+- Retries (09:05 / 09:15) + failure monitor (alerts only on failure)
+
+Logs live in `news/YYYY-MM-DD.md`.
