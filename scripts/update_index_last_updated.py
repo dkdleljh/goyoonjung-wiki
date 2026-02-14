@@ -38,12 +38,26 @@ def update_index_md(path: str, ymd: str) -> bool:
     s2 = s
 
     # KR
-    s2 = re.sub(r"^- 마지막 업데이트: \*\*(\d{4}-\d{2}-\d{2})\*\*\s*$", f"- 마지막 업데이트: **{ymd}**", s2, flags=re.M)
-    s2 = re.sub(r"^- 오늘 로그: \[`news/(\d{4}-\d{2}-\d{2})\.md`\]\(news/\1\.md\)\s*$", f"- 오늘 로그: [`news/{ymd}.md`](news/{ymd}.md)", s2, flags=re.M)
+    s2 = re.sub(r"^- 마지막 업데이트:\s*\*\*(\d{4}-\d{2}-\d{2})\*\*\s*$", f"- 마지막 업데이트: **{ymd}**", s2, flags=re.M)
+
+    # Any '- 오늘 로그...' line that links to news/YYYY-MM-DD.md
+    s2 = re.sub(
+        r"^(-\s*오늘\s*로그[^:]*:\s*\[`news/)(\d{4}-\d{2}-\d{2})(\.md`\]\(news/)\2(\.md\)\s*)$",
+        rf"\g<1>{ymd}\g<3>{ymd}\g<4>",
+        s2,
+        flags=re.M,
+    )
 
     # EN
-    s2 = re.sub(r"^- Last updated: \*\*(\d{4}-\d{2}-\d{2})\*\*\s*$", f"- Last updated: **{ymd}**", s2, flags=re.M)
-    s2 = re.sub(r"^- Today’s log: \[`news/(\d{4}-\d{2}-\d{2})\.md`\]\(news/\1\.md\)\s*$", f"- Today’s log: [`news/{ymd}.md`](news/{ymd}.md)", s2, flags=re.M)
+    s2 = re.sub(r"^- Last updated:\s*\*\*(\d{4}-\d{2}-\d{2})\*\*\s*$", f"- Last updated: **{ymd}**", s2, flags=re.M)
+
+    # Any '- Today’s log...' line that links to news/YYYY-MM-DD.md
+    s2 = re.sub(
+        r"^(-\s*Today[’']s\s*log[^:]*:\s*\[`news/)(\d{4}-\d{2}-\d{2})(\.md`\]\(news/)\2(\.md\)\s*)$",
+        rf"\g<1>{ymd}\g<3>{ymd}\g<4>",
+        s2,
+        flags=re.M,
+    )
 
     if s2 != s:
         write(path, s2)
