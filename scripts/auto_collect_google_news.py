@@ -10,41 +10,44 @@
   - Append to pages/news/YYYY-MM-DD.md
 """
 
+import logging
 import os
 import re
 import sys
 import time
 from datetime import datetime
+from typing import Optional
 import xml.etree.ElementTree as ET
+from urllib.error import HTTPError, URLError
+from urllib.parse import quote
 from urllib.request import urlopen, Request
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
-# Script directory
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.append(str(SCRIPT_DIR))
 import db_manager
 import config_loader
 import relevance
 
-# Configuration
 CONF = config_loader.load_config()
-from urllib.parse import quote
-
-RSS_URL = CONF.get('rss_url', "https://news.google.com/rss/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95+when:1d&hl=ko&gl=KR&ceid=KR:ko") # Fallback
+RSS_URL = CONF.get('rss_url', "https://news.google.com/rss/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95+when:1d&hl=ko&gl=KR&ceid=KR:ko")
 
 
 def normalize_rss_url(url: str) -> str:
-    # If url contains raw non-ascii (e.g., q=고윤정), percent-encode it.
     try:
         url.encode('ascii')
         return url
-    except Exception:
-        return quote(url, safe=':/?&=+%')
-BASE = SCRIPT_DIR.parent
-# SEEN_TXT removed in favor of DB
+    except UnicodeEncodeError:
+        return quote(url, safe=':/?&=+%\'')
 
-def get_today_news_path():
+BASE = SCRIPT_DIR.parent
+
+
+def get_today_news_path() -> str:
     today = datetime.now().strftime("%Y-%m-%d")
     return os.path.join(BASE, "news", f"{today}.md")
 
