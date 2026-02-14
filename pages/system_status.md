@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-02-14 13:47 KST
+> Updated: 2026-02-14 13:48 KST
 
 ## wiki_completeness: **67/100**
 
@@ -11,7 +11,7 @@ placeholder debt score: debt=33
 - 요약 보강 필요: 1
 - 참고(2차): 2
 
-## automation_health: **40/100**
+## automation_health: **100/100**
 
-check_automation_health: FAIL
-FAIL: news status not success: result=진행중 run=2026-02-14 13:43
+check_automation_health: OK
+OK: news=성공 run=2026-02-14 13:47 | last=ad8344c (HEAD -> main, origin/main) daily: update 2026-02-14
