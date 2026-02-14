@@ -243,11 +243,13 @@ set -e
 
 # Backup (doesn't enter git)
 # Frequent runs can create too many tar.gz files. By default, create at most 1 backup per day.
+# But for observability, always record which backup exists/was created.
 BACKUP_PATH=""
 BACKUP_NOTE="backup:SKIP"
 TODAY_STAMP="$TODAY"
-if ls "$BASE/backups/goyoonjung-wiki_${TODAY_STAMP}_"*.tar.gz >/dev/null 2>&1; then
-  : # already backed up today
+EXISTING_BACKUP=$(ls -1t "$BASE/backups/goyoonjung-wiki_${TODAY_STAMP}_"*.tar.gz 2>/dev/null | head -n 1 || true)
+if [ -n "${EXISTING_BACKUP:-}" ]; then
+  BACKUP_NOTE="backup:$(basename "$EXISTING_BACKUP")"
 else
   BACKUP_PATH=$(./scripts/daily_backup.sh)
   BACKUP_NOTE="backup:$(basename "$BACKUP_PATH")"
