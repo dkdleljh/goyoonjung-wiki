@@ -1,89 +1,89 @@
-# 고윤정 개인 위키 (Go Youn-jung)
+# 고윤정 개인 위키 (Go Youn-jung Wiki)
 
-배우 **고윤정**에 대한 정보를 **마크다운 파일 기반**으로 수집·분류·축적하는 개인 위키입니다.  
-매일 자동 업데이트로 최신 링크를 모으고, 중복을 줄이고, 작품/화보/광고/출연 기록까지 깔끔하게 정리하는 것을 목표로 합니다.
+배우 **고윤정**의 작품/화보/광고/인터뷰/출연/행사 기록을 **마크다운 기반**으로 수집·정리하는 개인 위키입니다.
+
+- **링크 중심(저작권 안전)**: 원문을 복사해 쌓기보다, **공식/원문 링크 + 최소 메타데이터**로 축적합니다.
+- **근거 수준 표시**: “확실함(S/A)”과 “2차 참고/보강 필요”를 함께 기록해서, 시간이 지나도 신뢰도를 관리합니다.
+- **무인 자동화 운영**: 정해진 스케줄로 수집/정리/인덱스/린트/리포트를 자동으로 갱신합니다.
 
 ---
 
-## ✅ 바로 시작하기 (포털)
+## ✅ 바로 시작하기 (Start here)
 
 **언어 / Language:** [한국어](index.md) | [English](index.en.md)
 
-- **덕질 허브(추천)** → [`pages/hub.md`](pages/hub.md)  /  [English hub](pages/hub.en.md)
-- 메인 요약/바로가기 → [`index.md`](index.md)  /  [`index.en.md`](index.en.md)
-- 최근 업데이트(7일 요약) → [`news/README.md`](news/README.md)
+- **허브(포털, 추천)**: [`pages/hub.md`](pages/hub.md)  /  (EN) [`pages/hub.en.md`](pages/hub.en.md)
+- **메인 요약/바로가기**: [`index.md`](index.md) / [`index.en.md`](index.en.md)
+- **최근 7일 요약**: [`news/README.md`](news/README.md)
+- **오늘 로그(자동 실행/결과)**: `news/YYYY-MM-DD.md` (예: [`news/2026-02-14.md`](news/2026-02-14.md))
 
-> 팁: GitHub에서 `/` 키를 누르면 파일 검색이 열립니다. `hub.md`만 검색해도 바로 이동됩니다.
-
----
-
-## 🗂️ 무엇이 정리되어 있나요?
-
-- **프로필/필모/수상**: 핵심 사실 기반 정리
-- **타임라인**: 연도별 활동 흐름
-- **작품별 페이지**: 작품별로 관련 링크를 한눈에 모음
-  - 자동 후보 링크(키워드 매칭) + 사람이 최종 선별하는 링크 박스
-- **인터뷰/기사 아카이브**: 원문 링크 + 3~5줄 요약 + 키워드
-- **화보/사진 아카이브**: 커버/에디토리얼/캠페인/메이킹으로 분류
-- **광고/엠버서더**: 뷰티/패션/라이프스타일로 분류
-- **출연/행사 기록**: 예능/유튜브/시상식/제작발표회 등
+> 팁: GitHub에서 `/` 키를 누르면 파일 검색이 열립니다. `hub.md`로 바로 점프하면 편합니다.
 
 ---
 
 ## 🧭 추천 탐색 루트
 
-1) [`pages/hub.md`](pages/hub.md)에서 전체 구조 확인
-2) 작품이 궁금하면 → [`pages/works-characters.md`](pages/works-characters.md)
-3) 화보/광고는 아래 카테고리로 바로 이동
+1) 전체 구조가 궁금하면 → [`pages/hub.md`](pages/hub.md)
+2) “작품 단위로” 보고 싶으면 → [`pages/works-characters.md`](pages/works-characters.md)
+3) “연도 흐름”이 궁금하면 → [`pages/timeline.md`](pages/timeline.md)
+4) 화보/광고만 모아서 보고 싶으면
    - 화보(목차) → [`pages/pictorials.md`](pages/pictorials.md)
    - 광고(목차) → [`pages/endorsements.md`](pages/endorsements.md)
-4) “오늘 뭐 바뀜?” → `news/YYYY-MM-DD.md`
+5) “오늘 뭐 바뀜?” → `news/YYYY-MM-DD.md`
 
 ---
 
-## 🗓️ 자동 업데이트/백업/푸시(스케줄)
+## 🗂️ 무엇이 정리되어 있나요?
 
-이 위키는 OpenClaw 기반 자동화로 운영됩니다(시간대: **Asia/Seoul**).
+### 핵심 정리(정리본)
+- 프로필: [`pages/profile.md`](pages/profile.md)
+- 필모그래피: [`pages/filmography.md`](pages/filmography.md)
+- 수상/노미네이트: [`pages/awards.md`](pages/awards.md)
+- 타임라인: [`pages/timeline.md`](pages/timeline.md)
+- 스케줄(공식 공개 일정): [`pages/schedule.md`](pages/schedule.md)
 
-- **09:00** 위키 업데이트(수집/분류/인덱스 갱신)
-- **09:05, 09:15** 업데이트 재시도(실패 대비)
-- **09:10** 압축 백업 생성(`backups/`)
-- **09:20** GitHub 자동 푸시
-- **(월) 09:30** 주간 점검(린트/빈 링크 점검)
+### 아카이브(링크 모음)
+- 인터뷰/기사: [`pages/interviews.md`](pages/interviews.md)
+- 화보/사진(목차): [`pages/pictorials.md`](pages/pictorials.md)
+- 광고/엠버서더(목차): [`pages/endorsements.md`](pages/endorsements.md)
+- 방송/예능/행사 기록: [`pages/appearances.md`](pages/appearances.md)
+- SNS/공식 채널: [`pages/sns.md`](pages/sns.md)
+
+---
+
+## 🧪 신뢰도(근거 수준) 표기
+
+이 위키는 단정 대신 **근거 수준을 같이 적는 방식**으로 운영합니다.
+
+- **S/A급**: 공식/원문/1차 출처(기관·제작사·플랫폼·공식 채널 등)로 확인됨
+- **2차 참고**: 언론/포털 등 2차 출처만 있는 상태(추후 S/A로 승격 대상)
+- **보강 필요**: 근거 링크/날짜/맥락이 더 필요한 상태
+
+자동 보강:
+- 승격 후보는 매일 자동 스캔되어 `news/YYYY-MM-DD.md` 상단에 “승격 제안”으로 남습니다.
+
+---
+
+## 🗓️ 자동 업데이트/백업/요약(스케줄)
+
+이 위키는 OpenClaw 기반 자동화로 운영됩니다. (시간대: **Asia/Seoul**)
+
+- **매일 09:00**: 자동 업데이트(수집/정리/인덱스 갱신/린트/리포트 생성)
+- **매일 09:05, 09:15**: 업데이트 재시도(실패 대비)
+- **매일 09:10**: 압축 백업 생성 → `backups/`
+- **매일 21:00**: 디스코드 일일 요약 전송(웹훅)
+- **매 30분(08:00~23:00)**: 자동화 실패 감지(실패 시에만 경고)
+- **매주 월 09:30~09:40**: 린트/링크 건강검진(주간 점검)
 
 ### 실행 상태 확인(중요)
 매일 로그 파일(`news/YYYY-MM-DD.md`)에 아래 2개 섹션으로 남습니다.
 
-- `## 실행 상태` → **가장 최신 실행** 1회 요약(진행중/성공/부분성공/실패)
-- `## 실행 이력` → **모든 실행 기록이 누적**되는 감사 로그(시간/결과/메모)
+- `## 실행 상태` → **가장 최신 실행 1회** (진행중/성공/부분성공/실패 + 메모)
+- `## 실행 이력` → **누적 감사 로그** (시간/결과/메모)
 
-### 1일 1커밋 원칙(권장)
+### 1일 1커밋 원칙
 자동화는 가능하면 **하루 1회 커밋/푸시**로 정리합니다.
-재시도는 하되, 의미 있는 변경이 없으면 커밋하지 않도록 `scripts/run_daily_update.sh`(락+변경 감지)를 통해 운영합니다.
-
-### 수동 실행 원칙(추천)
-- 평소에는 **수동 실행을 하지 않습니다.**
-- 09:25 모니터가 실패를 보고할 때만, 원인 확인 후 주인님 승인 하에 대응합니다.
-
----
-
-## 🔎 수집(Watch) 출발점
-
-- 고정 체크리스트(공식/신뢰 출처) → [`sources/watchlist.md`](sources/watchlist.md)
-- 대량 수집용(매체별 내부검색/사이트검색) → [`sources/media-watch.md`](sources/media-watch.md)
-- 출처 목록 → [`sources/sources.md`](sources/sources.md)
-- 중복 방지 URL 목록 → [`sources/seen-urls.txt`](sources/seen-urls.txt)
-
----
-
-## 📁 폴더 구조
-
-- `pages/` : 고정 페이지(프로필/필모/수상/타임라인/작품별/아카이브)
-- `news/` : 날짜별 자동 업데이트 로그
-- `sources/` : 출처/Watch 문서
-- `scripts/` : 인덱스/점검/자동 후보 생성 스크립트
-- `config/` : 작품 키워드 설정(`works-keywords.yml`)
-- `backups/` : 자동 생성 백업(tar.gz)
+의미 있는 변경이 없으면 커밋하지 않고 종료하도록 `scripts/run_daily_update.sh`에서 락/변경감지를 수행합니다.
 
 ---
 
@@ -103,17 +103,42 @@
 
 ---
 
+## 📁 폴더 구조(요약)
+
+- `index.md`, `index.en.md` : 메인 요약/바로가기
+- `pages/` : 고정 페이지(프로필/필모/수상/타임라인/작품별/아카이브)
+- `news/` : 날짜별 자동 업데이트 로그
+- `sources/` : 출처/Watch 문서
+- `scripts/` : 수집/인덱스/점검/리포트 스크립트
+- `config/` : 키워드/허용 도메인 등 설정
+- `data/` : 자동화 DB(SQLite 등)
+- `backups/` : 자동 생성 백업(tar.gz)
+
+---
+
+## 🔎 수집(Watch) 출발점
+
+- 고정 Watchlist(공식/신뢰 출처) → [`sources/watchlist.md`](sources/watchlist.md)
+- 대량 수집용(매체별 내부검색/사이트검색) → [`sources/media-watch.md`](sources/media-watch.md)
+- 출처 목록 → [`sources/sources.md`](sources/sources.md)
+
+중복 방지(자동화):
+- 과거 호환/기록: `sources/seen-urls.txt`, `sources/seen-urls.jsonl`
+- 현재 운영: SQLite DB(`data/wiki.db`)의 `seen_urls` 테이블
+
+---
+
 ## 📱 휴대폰에서 보기(추천)
 
-- **빠르게 보기(가장 쉬움)**: GitHub 모바일 웹/앱에서 `pages/hub.md` 열기
-- **위키처럼 보기(강력 추천)**: Obsidian으로 저장소를 동기화해서 Vault로 열기
+- **가장 쉬움**: GitHub 모바일 웹/앱에서 `pages/hub.md` 열기
+- **가장 강력함**: Obsidian으로 저장소를 동기화해서 Vault로 열기
 
 ---
 
 ## 🙋 FAQ
 
 ### Q. “관련 링크(자동 후보)”는 뭔가요?
-키워드(작품명/캐릭터명 등)로 인터뷰/화보/출연 기록에서 자동으로 후보를 뽑아 작품 페이지에 붙이는 기능입니다.  
+키워드(작품명/캐릭터명 등)로 뉴스/인터뷰/화보/출연 기록에서 자동으로 후보를 뽑아 작품 페이지에 붙이는 기능입니다.
 오탐이 있을 수 있어, 최종적으로는 작품 페이지의 **‘링크 박스’**에 사람이 선별해 넣는 것을 권장합니다.
 
 ### Q. 왜 내용이 ‘링크’ 중심인가요?
