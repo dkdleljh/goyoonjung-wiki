@@ -88,7 +88,7 @@ def test_generate_final_report(tmp_path, monkeypatch):
     """Test final report generation."""
     fv = final_verification.FinalVerification()
 
-    with patch.object(final_verification, 'logging') as mock_logging:
+    with patch.object(final_verification, 'logging'):
         fv.test_results = {
             'test1': {'status': 'PASS', 'details': 'test details'},
             'test2': {'status': 'FAIL', 'error': 'test error'},

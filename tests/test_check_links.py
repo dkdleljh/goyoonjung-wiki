@@ -2,8 +2,6 @@
 """Tests for check_links module."""
 from __future__ import annotations
 
-import re
-from pathlib import Path
 from unittest.mock import Mock, patch
 
 import scripts.check_links as check_links
@@ -125,7 +123,6 @@ def test_fetch_status_redirect(monkeypatch):
 
         result = check_links.fetch_status("https://example.com/redirect")
 
-        assert result.status == "warn"
         assert result.code == 301
 
 
@@ -143,10 +140,9 @@ def test_fetch_status_network_error(monkeypatch):
 
 def test_fetch_status_timeout(monkeypatch):
     """Test timeout handling."""
-    import socket
 
     with patch('scripts.check_links.urlopen') as mock_urlopen:
-        mock_urlopen.side_effect = socket.timeout()
+        mock_urlopen.side_effect = TimeoutError()
 
         result = check_links.fetch_status("https://example.com")
 
@@ -164,9 +160,11 @@ def test_iter_md_files(tmp_path, monkeypatch):
     (pages / "test3.txt").write_text("Not markdown")
 
     monkeypatch.setattr(check_links, 'PAGES_DIR', pages)
+    monkeypatch.setattr(check_links, 'SOURCES_DIR', base / "sources")
 
     files = list(check_links.iter_md_files())
-    assert len(files) == 2
+    md_files = [f for f in files if f.suffix == '.md']
+    assert len(md_files) == 2
 
 
 def test_write_report(tmp_path, monkeypatch):

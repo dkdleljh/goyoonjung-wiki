@@ -13,3 +13,5 @@ redis>=5.0.1
 python-dotenv>=1.0.0
 lxml>=4.9.3
 feedparser>=6.0.10
+validators>=0.22.0
+bleach>=6.1.0
