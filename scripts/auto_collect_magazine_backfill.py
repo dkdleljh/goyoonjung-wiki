@@ -56,6 +56,8 @@ SEARCH_TARGETS = [
     # Marie Claire search is heavier; keep tag/search handled elsewhere.
 ]
 
+PAGINATION_PAGES = 4  # fetch a few pages per query to reach older content
+
 ARTICLE_PATTERNS = [
     re.compile(r"^https?://www\\.elle\\.co\\.kr/article/\\d+", re.I),
     re.compile(r"^https?://www\\.vogue\\.co\\.kr/\\d{4}/\\d{2}/\\d{2}/", re.I),
@@ -89,6 +91,26 @@ class Item:
 
 def is_article(url: str) -> bool:
     return any(rx.match(url) for rx in ARTICLE_PATTERNS)
+
+
+def iter_search_pages(base_url: str) -> list[str]:
+    # Try common pagination patterns; harmless if ignored.
+    urls = [base_url]
+    for n in range(2, PAGINATION_PAGES + 1):
+        if "?" in base_url:
+            urls.append(base_url + f"&paged={n}")
+            urls.append(base_url + f"&page={n}")
+        else:
+            urls.append(base_url.rstrip("/") + f"/page/{n}/")
+    # stable dedupe
+    out: list[str] = []
+    seen: set[str] = set()
+    for u in urls:
+        if u in seen:
+            continue
+        seen.add(u)
+        out.append(u)
+    return out
 
 
 def fetch(url: str) -> str | None:
@@ -251,15 +273,16 @@ def main() -> int:
     for year in YEARS:
         q = quote(f"{NAME} {year}")
         for media, tmpl in SEARCH_TARGETS:
-            url = tmpl.format(q=q)
-            html = fetch(url)
-            if not html:
-                continue
-            links = extract_links(html, url)
-            for u in links:
-                if not is_article(u):
+            base = tmpl.format(q=q)
+            for url in iter_search_pages(base):
+                html = fetch(url)
+                if not html:
                     continue
-                new_urls.append((u, media, year))
+                links = extract_links(html, url)
+                for u in links:
+                    if not is_article(u):
+                        continue
+                    new_urls.append((u, media, year))
 
     # stable de-dupe preserve order
     seen_set: set[str] = set()
