@@ -1,45 +1,57 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-16 00:01 (Asia/Seoul)
+> 갱신: 2026-02-16 00:08 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 20bfbc5 2026-02-16 00:00:50 +0900 content: comprehensive wiki update with all latest data
+- a26a94b 2026-02-16 00:06:03 +0900 ops: add pagination to magazine backfill script for deeper coverage
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- README.md
-- index.en.md
-- index.md
 - news/2026-02-16.md
-- pages/brands/boucheron.md
-- pages/brands/chanel.md
-- pages/brands/discovery.md
-- pages/brands/marithe.md
-- pages/daily-report.md
-- pages/endorsements/by-year.md
-- pages/filmography.md
-- pages/index-by-tag.md
-- pages/lint-report.md
-- pages/magazines/elle.md
-- pages/magazines/esquire.md
-- pages/namu-backlog.md
-- pages/pictorials/by-year.md
-- pages/progress.md
-- pages/schedule.md
-- pages/system_status.md
-- sources/awards-official.md
+- scripts/auto_collect_magazine_backfill.py
 
 ## 3) 오늘 실행 상태(news/2026-02-16.md)
 
 ## 실행 상태
-- 실행: (자동)
+
+<!-- AUTO-ENCYCLOPEDIA-PROMOTE:START -->
+## 백과사전 승격 제안(자동)
+> 목표: 오늘 ‘참고(2차)/보강 필요’ 항목 중 최소 1개를 S/A급(공식/원문) 근거로 승격.
+
+- (현재 자동 스캔으로 잡힌 보강 후보가 없습니다.)
+
+<!-- AUTO-ENCYCLOPEDIA-PROMOTE:END -->
+
+<!-- AUTO-LEAD-DRAFT:START -->
+## 리드 문단(초안) 제안(자동)
+> 목적: 위키백과 느낌의 ‘소개 문단’을 만들기 위한 초안 후보입니다. (자동 적용하지 않음)
+
+### 한국어 리드문(초안)
+- (index/profile 공용)
+
+고윤정(Go Youn-jung, 1996년 4월 22일~)은 대한민국의 배우이다. 주요 출연작으로 *사이코메트리 그녀석*, *보건교사 안은영*, *스위트홈*, *로스쿨*, *환혼*, *환혼 빛과 그림자* 등이 있다. 이 위키는 작품·화보·광고·인터뷰·출연/행사 기록을 링크 중심(저작권 안전)으로 수집·정리한다.
+
+### English lead (draft)
+Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a link-first (copyright-safe) archive of her works, pictorials, endorsements, interviews, and appearances/events, with a focus on official and primary sources.
+
+<!-- AUTO-LEAD-DRAFT:END -->
+
+- 실행: 2026-02-16 00:04 (Asia/Seoul)
 - 결과: 진행중
-- 메모:
+- 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
 - C(완성도 우선) 백로그 진행률: 20/20 (100%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
+## 실행 이력
 
+- 2026-02-16 00:04 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-16 00:01 (Asia/Seoul) · 성공 · manual: midnight maintenance
+- 2026-02-16 00:01 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-15_0016.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+
+- [Agency] MAA 공식 홈페이지 작품 리스트 확인: 2건 (변동 확인용)
+- [Encyclopedia] Wikipedia 업데이트 확인: 2026-02-10T14:11:36Z by ~2026-85198-3 (revid=41320174)
+- [Encyclopedia] Namuwiki 접근 가능 (Code: 200)
 
 ## 4) 권장 체크
 
