@@ -23,6 +23,16 @@
 ---
 
 ## 목록
+- 브랜드/회사명: SK텔레콤(SK Telecom)
+  - 카테고리: 통신
+  - 역할: 모델
+  - 발표일/시작일: 2019-11
+  - 링크(공식 발표): https://www.idaegu.com/news/articleView.html?idxno=381461
+  - 링크(공식 영상/캠페인): (추가 필요)
+  - 상태: 공식확정
+  - id: https://www.idaegu.com/news/articleView.html?idxno=381461
+  - 비고: 초기 광고 모델 활동
+
 - 브랜드/회사명: 마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)
   - 카테고리: 패션
   - 역할: 뮤즈
