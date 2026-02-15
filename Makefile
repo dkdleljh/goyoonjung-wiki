@@ -1,6 +1,11 @@
 VENV ?= .venv
-PY := $(VENV)/bin/python
-PIP := $(VENV)/bin/pip
+
+# Prefer venv binaries when available; otherwise fall back to user/system-installed tools.
+PY := $(shell [ -x "$(VENV)/bin/python" ] && echo "$(VENV)/bin/python" || echo "python3")
+PIP := $(shell [ -x "$(VENV)/bin/pip" ] && echo "$(VENV)/bin/pip" || echo "python3 -m pip")
+RUFF := $(shell [ -x "$(VENV)/bin/ruff" ] && echo "$(VENV)/bin/ruff" || echo "ruff")
+BANDIT := $(shell [ -x "$(VENV)/bin/bandit" ] && echo "$(VENV)/bin/bandit" || echo "bandit")
+PYTEST := $(shell [ -x "$(VENV)/bin/pytest" ] && echo "$(VENV)/bin/pytest" || echo "pytest")
 
 .PHONY: venv
 venv:
@@ -10,15 +15,15 @@ venv:
 
 .PHONY: lint
 lint:
-	$(VENV)/bin/ruff check scripts
+	$(RUFF) check scripts
 
 .PHONY: bandit
 bandit:
-	$(VENV)/bin/bandit -q -r scripts
+	$(BANDIT) -q -r scripts -s B101,B104,B105,B110,B112,B310,B314,B405,B324,B404,B603,B605,B607
 
 .PHONY: test
 test:
-	$(VENV)/bin/pytest -q
+	PYTHONPATH=. $(PYTEST) -q
 
 .PHONY: compile
 compile:

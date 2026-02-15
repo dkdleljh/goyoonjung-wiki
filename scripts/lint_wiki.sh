@@ -56,12 +56,14 @@ REPORT="pages/lint-report.md"
   PIC_E_TARGET=${PIC_E_TARGET:-3}
   APP_TARGET=${APP_TARGET:-3}
 
-  [ "$end_b" -lt "$END_B_TARGET" ] && echo "- 경고: endorsements/beauty.md 항목이 ${END_B_TARGET}개 미만입니다." || true
-  [ "$end_f" -lt "$END_F_TARGET" ] && echo "- 경고: endorsements/fashion.md 항목이 ${END_F_TARGET}개 미만입니다." || true
-  [ "$end_l" -lt "$END_L_TARGET" ] && echo "- 경고: endorsements/lifestyle.md 항목이 ${END_L_TARGET}개 미만입니다." || true
-  [ "$pic_c" -lt "$PIC_C_TARGET" ] && echo "- 경고: pictorials/cover.md 항목이 ${PIC_C_TARGET}개 미만입니다." || true
-  [ "$pic_e" -lt "$PIC_E_TARGET" ] && echo "- 경고: pictorials/editorial.md 항목이 ${PIC_E_TARGET}개 미만입니다." || true
-  [ "$app" -lt "$APP_TARGET" ] && echo "- 경고: appearances.md 항목이 ${APP_TARGET}개 미만입니다." || true
+  warn=0
+  if [ "$end_b" -lt "$END_B_TARGET" ]; then echo "- 경고: endorsements/beauty.md 항목이 ${END_B_TARGET}개 미만입니다."; warn=1; fi
+  if [ "$end_f" -lt "$END_F_TARGET" ]; then echo "- 경고: endorsements/fashion.md 항목이 ${END_F_TARGET}개 미만입니다."; warn=1; fi
+  if [ "$end_l" -lt "$END_L_TARGET" ]; then echo "- 경고: endorsements/lifestyle.md 항목이 ${END_L_TARGET}개 미만입니다."; warn=1; fi
+  if [ "$pic_c" -lt "$PIC_C_TARGET" ]; then echo "- 경고: pictorials/cover.md 항목이 ${PIC_C_TARGET}개 미만입니다."; warn=1; fi
+  if [ "$pic_e" -lt "$PIC_E_TARGET" ]; then echo "- 경고: pictorials/editorial.md 항목이 ${PIC_E_TARGET}개 미만입니다."; warn=1; fi
+  if [ "$app" -lt "$APP_TARGET" ]; then echo "- 경고: appearances.md 항목이 ${APP_TARGET}개 미만입니다."; warn=1; fi
+  [ "$warn" -eq 0 ] && echo "- 없음" || true
   echo
 } > "$REPORT"
 

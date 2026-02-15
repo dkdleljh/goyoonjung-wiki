@@ -9,12 +9,12 @@
 
 import json
 import os
+import sys
 from datetime import datetime
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 # Allow importing sibling modules when running as a script: `python3 scripts/..py`
-import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from cache import get_cache  # noqa: E402
 
