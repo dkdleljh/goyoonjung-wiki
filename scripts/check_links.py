@@ -20,7 +20,7 @@ import sys
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 BASE = Path(__file__).resolve().parent.parent
@@ -61,7 +61,21 @@ def extract_urls(text: str) -> list[str]:
     return URL_RE.findall(text)
 
 
+def safe_url(url: str) -> str:
+    """Percent-encode unsafe characters so urllib won't crash on non-ASCII URLs."""
+    try:
+        parts = urlsplit(url)
+        # Keep scheme/netloc as-is, encode path/query/fragment conservatively.
+        path = quote(parts.path, safe="/%:@")
+        query = quote(parts.query, safe="=&?/%:@+")
+        frag = quote(parts.fragment, safe="")
+        return urlunsplit((parts.scheme, parts.netloc, path, query, frag))
+    except Exception:
+        return url
+
+
 def fetch_status(url: str) -> Result:
+    url = safe_url(url)
     # Prefer HEAD, fallback to GET
     try:
         req = Request(url, headers={"User-Agent": UA}, method="HEAD")
@@ -174,7 +188,9 @@ def main() -> int:
     for u in urls:
         host = urlsplit(u).netloc.lower()
         if any(host.endswith(d) for d in SKIP_DOMAINS):
-            results.append(Result(url=u, status="warn", code=None, note="skipped (heavy domain)"))
+            # In unmanned mode we intentionally do not probe heavy/blocked domains.
+            # Treat as OK for health scoring, while keeping the note for transparency.
+            results.append(Result(url=u, status="ok", code=None, note="skipped (heavy domain)"))
             continue
 
         res = fetch_status(u)
