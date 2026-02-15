@@ -1,4 +1,11 @@
 # Activity Timeline
+
+## 한눈에 보기
+
+- 한 줄 요약: (추가 필요)
+- 핵심 링크: (추가 필요 — 공식/원문 우선)
+- 상태: (추가 필요 — 근거 수준 S/A/2차/보강 필요)
+
 > Auto-generated from schedule.md
 
 ## 공식 링크

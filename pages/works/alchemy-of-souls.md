@@ -1,5 +1,12 @@
 # 환혼: 빛과 그림자 (tvN)
 
+
+## 한눈에 보기
+
+- 한 줄 요약: (추가 필요)
+- 핵심 링크: (추가 필요 — 공식/원문 우선)
+- 상태: (추가 필요 — 근거 수준 S/A/2차/보강 필요)
+
 키워드: 환혼, 환혼: 빛과 그림자, tvN, 드라마, 진부연, 낙수
 
 ## 기본 정보
@@ -37,6 +44,7 @@
 
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 > 생성: 2026-02-15 23:26 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
@@ -48,7 +56,6 @@
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
 - ⭐ [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
-
 
 
 ### 전체 후보

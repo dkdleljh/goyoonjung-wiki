@@ -1,5 +1,12 @@
 # 무빙 (Disney+)
 
+
+## 한눈에 보기
+
+- 한 줄 요약: (추가 필요)
+- 핵심 링크: (추가 필요 — 공식/원문 우선)
+- 상태: (추가 필요 — 근거 수준 S/A/2차/보강 필요)
+
 키워드: 무빙, Disney+, 디즈니+, 드라마, 장희수
 
 ## 기본 정보
@@ -37,6 +44,7 @@
 
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 > 생성: 2026-02-15 23:26 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
@@ -46,7 +54,6 @@
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
 - ⭐ [Disney Plus Korea](https://www.youtube.com/watch?v=wZR6s3rB6tk)  _(출처: pictorials/campaign.md)_
-
 
 
 ### 전체 후보

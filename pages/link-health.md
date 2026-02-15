@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-02-15 23:23 (Asia/Seoul) · 대상 URL: 280 (최대 700)
+> 갱신: 2026-02-15 23:35 (Asia/Seoul) · 대상 URL: 278 (최대 700)
 
-- OK: **278** / WARN: **2** / BAD: **0**
+- OK: **275** / WARN: **3** / BAD: **0**
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
 
@@ -12,3 +12,4 @@
 
 - (-) https://namu.wiki/w/%EB%AA%A8%EB%91%90%EA%B0%80%20%EC%9E%90%EC%8B%A0%EC%9D%98%20%EB%AC%B4%EA%B0%80%EC%B9%98%ED%95%8C%EC%99%80%20%EC%8B%B8%EC%9A%94%EA%B3%A0%20%EC%9E%88%EB%8B%A4 · error: HTTPError
 - (-) https://www.nc.press/news/articleView.html?idx=561975 · error: HTTPError
+- (-) https://bsa.blueaward.co.kr/bbs/board.php?bo_table=bsa_awards&history_no=3 · error: TimeoutError
