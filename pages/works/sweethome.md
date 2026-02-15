@@ -35,3 +35,4 @@
 
 ## 링크 박스
 - 공식 페이지(스틸/정보): https://www.netflix.com/title/81061734
+- 메인 예고편(Netflix Korea / YouTube): https://www.youtube.com/watch?v=B5IQqZDSRjk

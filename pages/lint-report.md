@@ -22,6 +22,9 @@ pages/interviews.md:11:- 링크:
 ## 3) 날짜 형식(YYYY-MM-DD) 의심 라인
 
 ./scripts/auto_collect_visual_links.py:87:    # KBS pages often include 2025.05.10 or 2025-05-10
+./pages/timeline.md:60:  - 근거: JTBC 1회 다시보기 페이지 “2021.04.14 (Wed) 21:00 방송”
+./pages/timeline.md:73:  - 근거: tvN 프로그램 페이지 표기(2019.03.11 ~ 2019.04.30)
+./pages/schedule.md:86:- 메모: JTBC 다시보기(1회) 페이지에 “2021.04.14 (Wed) 21:00 방송” 표기.
 
 ## 4) 커버리지 목표 미달 경고(권장)
 

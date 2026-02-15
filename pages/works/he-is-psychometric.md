@@ -11,7 +11,8 @@
 - (보강 예정) tvN 공식 소개 문구/시놉시스를 기반으로 요약합니다.
 
 ## 관련 링크
-- 공식 페이지(tvN): (추가 보강 필요)
+- 공식 페이지(tvN): https://tvn.cjenm.com/ko/heispsychometric/
+- TVING 다시보기: https://www.tving.com/contents/P000820341
 
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
@@ -20,9 +21,9 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스(확정)
-- 공식 페이지: (TBD)
-- 예고편/클립: (TBD)
-- 메이킹/비하인드: (TBD)
+- 공식 페이지(tvN): https://tvn.cjenm.com/ko/heispsychometric/
+- 다시보기/정보(TVING): https://www.tving.com/contents/P000820341
+- 예고편/클립(공식, tvN): https://tvn.cjenm.com/ko/heispsychometric/video/
 
 ## 출처
 - 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

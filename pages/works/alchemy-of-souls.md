@@ -11,7 +11,8 @@
 - tvN 공식 사이트에서 프로그램/콘텐츠(미리보기, 인물 소개, 동영상 등)를 제공.
 
 ## 관련 링크
-- 공식 페이지(tvN): https://tvn.cjenm.com/ko/alchemyofsouls/
+- 공식 페이지(tvN, Part 2: 빛과 그림자): https://tvn.cjenm.com/ko/alchemyofsouls/
+- 공식 페이지(tvN, Part 1: 환혼): https://tvn.cjenm.com/ko/hhw1_test/
 - 공식 프로그램 페이지(TVING/tvN): http://program.tving.com/tvn/alchemyofsouls/
 
 ## 관련 인터뷰/자료
