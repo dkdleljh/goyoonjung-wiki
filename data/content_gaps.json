@@ -1,17 +1,7 @@
 {
-  "generated_at": "2026-02-15T23:07:30.687192",
+  "generated_at": "2026-02-15T23:09:16.869728",
   "total_pages": 75,
   "items": [
-    {
-      "path": "pages/endorsements/by-year.md",
-      "group": "endorsements",
-      "title": "광고/엠버서더 — 연도별 인덱스",
-      "url_count": 11,
-      "has_sources_heading": false,
-      "has_official_links_heading": false,
-      "placeholder_hits": 0,
-      "priority_score": 55
-    },
     {
       "path": "pages/checklists/automation-reliability-checklist.md",
       "group": "checklists",
@@ -63,80 +53,10 @@
       "priority_score": 10
     },
     {
-      "path": "pages/pictorials/campaign.md",
-      "group": "pictorials",
-      "title": "화보/사진 — 캠페인/룩북/브랜드 컷",
-      "url_count": 26,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
-      "path": "pages/pictorials/cover.md",
-      "group": "pictorials",
-      "title": "📸 화보/사진 — 커버/표지",
-      "url_count": 4,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
-      "path": "pages/pictorials/editorial.md",
-      "group": "pictorials",
-      "title": "📸 화보/사진 — 에디토리얼/화보",
-      "url_count": 18,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
-      "path": "pages/pictorials/events.md",
-      "group": "pictorials",
-      "title": "📸 사진/화보 — 행사/포토월/시상식 (링크 아카이브)",
-      "url_count": 30,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
-      "path": "pages/pictorials/making.md",
-      "group": "pictorials",
-      "title": "📸 화보/사진 — 메이킹/비하인드/영상 스틸",
-      "url_count": 2,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
-      "path": "pages/pictorials/stills-posters.md",
-      "group": "pictorials",
-      "title": "📸 사진/화보 — 작품 스틸/포스터/캐릭터 포스터 (링크 아카이브)",
-      "url_count": 18,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
       "path": "pages/videos/mv.md",
       "group": "videos",
       "title": "뮤직비디오 출연 (공식 MV)",
       "url_count": 2,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
-      "path": "pages/works/by-year.md",
-      "group": "works",
-      "title": "작품 — 연도별 인덱스",
-      "url_count": 10,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 2,
@@ -297,6 +217,16 @@
       "group": "endorsements",
       "title": "🤝 광고/엠버서더 — 뷰티/스킨케어/메이크업",
       "url_count": 15,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/endorsements/by-year.md",
+      "group": "endorsements",
+      "title": "광고/엠버서더 — 연도별 인덱스",
+      "url_count": 12,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -543,10 +473,70 @@
       "priority_score": 0
     },
     {
+      "path": "pages/pictorials/campaign.md",
+      "group": "pictorials",
+      "title": "화보/사진 — 캠페인/룩북/브랜드 컷",
+      "url_count": 27,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/cover.md",
+      "group": "pictorials",
+      "title": "📸 화보/사진 — 커버/표지",
+      "url_count": 5,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/editorial.md",
+      "group": "pictorials",
+      "title": "📸 화보/사진 — 에디토리얼/화보",
+      "url_count": 19,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/events.md",
+      "group": "pictorials",
+      "title": "📸 사진/화보 — 행사/포토월/시상식 (링크 아카이브)",
+      "url_count": 31,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
       "path": "pages/pictorials/index.md",
       "group": "pictorials",
       "title": "📸 사진/화보 아카이브 (카테고리)",
       "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/making.md",
+      "group": "pictorials",
+      "title": "📸 화보/사진 — 메이킹/비하인드/영상 스틸",
+      "url_count": 3,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/stills-posters.md",
+      "group": "pictorials",
+      "title": "📸 사진/화보 — 작품 스틸/포스터/캐릭터 포스터 (링크 아카이브)",
+      "url_count": 19,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -637,6 +627,16 @@
       "group": "works",
       "title": "환혼: 빛과 그림자 (tvN)",
       "url_count": 31,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/by-year.md",
+      "group": "works",
+      "title": "작품 — 연도별 인덱스",
+      "url_count": 15,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,

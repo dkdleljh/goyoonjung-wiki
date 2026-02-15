@@ -9,20 +9,12 @@
 
 - 점수: 높을수록 보강 필요
 
-- **[55]** `pages/endorsements/by-year.md` — 광고/엠버서더 — 연도별 인덱스 (그룹:endorsements, URL:11, 출처:❌, 공식링크:❌, placeholder:0)
 - **[20]** `pages/checklists/automation-reliability-checklist.md` — 자동화 완성 체크리스트 (운영/신뢰성) (그룹:checklists, URL:0, 출처:✅, 공식링크:✅, placeholder:0)
 - **[20]** `pages/endorsements/index.md` — 🤝 광고/엠버서더 (카테고리) (그룹:endorsements, URL:0, 출처:✅, 공식링크:✅, placeholder:0)
 - **[20]** `pages/endorsements.md` — 🤝 광고/엠버서더 (그룹:endorsements.md, URL:0, 출처:✅, 공식링크:✅, placeholder:0)
 - **[20]** `pages/strategy.md` — 🧩 위키 운영 전략 (완벽해지기 로드맵) (그룹:strategy.md, URL:0, 출처:✅, 공식링크:✅, placeholder:0)
 - **[10]** `pages/magazines/bazaar.md` — 🧾 Harper's BAZAAR Korea (그룹:magazines, URL:1, 출처:✅, 공식링크:✅, placeholder:2)
-- **[10]** `pages/pictorials/campaign.md` — 화보/사진 — 캠페인/룩북/브랜드 컷 (그룹:pictorials, URL:26, 출처:✅, 공식링크:✅, placeholder:2)
-- **[10]** `pages/pictorials/cover.md` — 📸 화보/사진 — 커버/표지 (그룹:pictorials, URL:4, 출처:✅, 공식링크:✅, placeholder:2)
-- **[10]** `pages/pictorials/editorial.md` — 📸 화보/사진 — 에디토리얼/화보 (그룹:pictorials, URL:18, 출처:✅, 공식링크:✅, placeholder:2)
-- **[10]** `pages/pictorials/events.md` — 📸 사진/화보 — 행사/포토월/시상식 (링크 아카이브) (그룹:pictorials, URL:30, 출처:✅, 공식링크:✅, placeholder:2)
-- **[10]** `pages/pictorials/making.md` — 📸 화보/사진 — 메이킹/비하인드/영상 스틸 (그룹:pictorials, URL:2, 출처:✅, 공식링크:✅, placeholder:2)
-- **[10]** `pages/pictorials/stills-posters.md` — 📸 사진/화보 — 작품 스틸/포스터/캐릭터 포스터 (링크 아카이브) (그룹:pictorials, URL:18, 출처:✅, 공식링크:✅, placeholder:2)
 - **[10]** `pages/videos/mv.md` — 뮤직비디오 출연 (공식 MV) (그룹:videos, URL:2, 출처:✅, 공식링크:✅, placeholder:2)
-- **[10]** `pages/works/by-year.md` — 작품 — 연도별 인덱스 (그룹:works, URL:10, 출처:✅, 공식링크:✅, placeholder:2)
 - **[00]** `pages/appearances/by-year.md` — 출연/행사 — 연도별 인덱스 (그룹:appearances, URL:15, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/appearances.md` — 🎤 방송/예능/행사(출연 기록) (그룹:appearances.md, URL:29, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/awards.md` — 🏆 수상 / 노미네이트 (그룹:awards.md, URL:9, 출처:✅, 공식링크:✅, placeholder:0)
@@ -39,6 +31,14 @@
 - **[00]** `pages/checklists/wiki-completeness-checklist.md` — 위키 완성 체크리스트 (콘텐츠) (그룹:checklists, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/encyclopedia-roadmap.md` — 🧾 백과사전형 위키 로드맵 (Go Youn-jung) (그룹:encyclopedia-roadmap.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/endorsements/beauty.md` — 🤝 광고/엠버서더 — 뷰티/스킨케어/메이크업 (그룹:endorsements, URL:15, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/endorsements/by-year.md` — 광고/엠버서더 — 연도별 인덱스 (그룹:endorsements, URL:12, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/endorsements/fashion.md` — 🤝 광고/엠버서더 — 패션/주얼리 (그룹:endorsements, URL:16, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/endorsements/lifestyle.md` — 🤝 광고/엠버서더 — 라이프스타일/기타 (그룹:endorsements, URL:20, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/filmography.md` — 🎬 필모그래피 (그룹:filmography.md, URL:16, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/hub.en.md` — 🧾 Fan Hub (Quick Navigation) (그룹:hub.en.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/hub.md` — 🧭 덕질 허브 (빠른 탐색) (그룹:hub.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/index-by-tag.md` — 태그 인덱스 (그룹:index-by-tag.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/interviews/by-year.md` — 인터뷰/기사 — 연도별 인덱스 (그룹:interviews, URL:10, 출처:✅, 공식링크:✅, placeholder:0)
 
 
 ## 그룹 요약
@@ -49,7 +49,7 @@
 - **brands**: 10개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **checklists**: 2개 (출처없음 0, 공식링크없음 0, URL0 1)
 - **encyclopedia-roadmap.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
-- **endorsements**: 5개 (출처없음 1, 공식링크없음 1, URL0 1)
+- **endorsements**: 5개 (출처없음 0, 공식링크없음 0, URL0 1)
 - **endorsements.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 1)
 - **filmography.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **hub.en.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)

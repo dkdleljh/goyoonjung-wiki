@@ -33,8 +33,9 @@
 
 
 ## 공식 링크
-- (추가 필요)
+- (S) 소속사(MAA) 프로필: https://maa.co.kr/artists/go-younjung
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- (S/A) 각 항목의 원문 URL(공식 채널 업로드/매거진 원문)
+- 정책: docs/editorial_policy.md
 

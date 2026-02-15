@@ -85,8 +85,9 @@
 - 메모: 보도(1차) 링크. Disney+ 공식 작품 페이지 링크는 추후 확보하여 1차 앵커로 추가.
 
 ## 공식 링크
-- (추가 필요)
+- (S) 소속사(MAA) 프로필: https://maa.co.kr/artists/go-younjung
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- (S/A) 각 항목의 원문 URL(공식 페이지/공식 채널 업로드/1차 보도)
+- 정책: docs/editorial_policy.md
 

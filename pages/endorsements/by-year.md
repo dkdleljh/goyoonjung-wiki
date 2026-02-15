@@ -24,3 +24,11 @@
 
 ---
 ※ 이 페이지는 자동 생성됩니다. 원문은 각 카테고리 파일을 수정하세요.
+
+## 공식 링크
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- pages/endorsements/beauty.md
+- pages/endorsements/fashion.md
+- pages/endorsements/lifestyle.md

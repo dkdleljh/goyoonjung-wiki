@@ -107,7 +107,18 @@ def main() -> int:
             out.append("- " + " ".join(bits))
         out.append("")
 
-    out += ["---", "※ 이 페이지는 자동 생성됩니다.", ""]
+    out += [
+        "---",
+        "※ 이 페이지는 자동 생성됩니다.",
+        "",
+        "## 공식 링크",
+        "- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung",
+        "",
+        "## 출처",
+        "- pages/filmography.md",
+        "- pages/works/*.md",
+        "",
+    ]
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:

@@ -23,4 +23,4 @@ warn_budget=20
 ## automation_health: **40/100**
 
 check_automation_health: FAIL
-FAIL: HEAD != origin/main (local not pushed?)
+FAIL: working tree dirty
