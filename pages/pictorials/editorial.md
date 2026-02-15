@@ -313,6 +313,32 @@
 - 비고: 에스쁘아 인터뷰 및 화보
 
 ## 2020
+- 날짜: 2020-12-22
+- 매체: 엑스포츠뉴스 (Xports News)
+- 구분: 화보
+- 제목: 고윤정, 新얼굴천재 비주얼…변화무쌍 아름다움 [화보]
+- 링크(원문): https://www.xportsnews.com/article/1368580
+- 상태: 공식확정
+- id: https://www.xportsnews.com/article/1368580
+- 비고: 데이즈드 (Daysgd) 화보
+
+- 날짜: 2020-12-17
+- 매체: 코스인코리아 (Cosinkorea)
+- 구분: 화보
+- 제목: 신예 '고윤정', 연작과 내추럴 무드 화보 '독보적 분위기' 공개
+- 링크(원문): https://www.cosinkorea.com/news/article.html?no=37792
+- 상태: 공식확정
+- id: https://www.cosinkorea.com/news/article.html?no=37792
+- 비고: 연작 (YUNJAC) 브랜드 화보
+
+- 날짜: 2020-01
+- 매체: 아르마니 뷰티 (Armani Beauty)
+- 구분: 화보
+- 제목: ‘박보검 첫사랑)으로 실검 장악한 고윤정, 아르마니 뷰티 ‘레드 립 화보’
+- 링크(원문): https://www.insight.co.kr/news/264442
+- 상태: 공식확정
+- id: https://www.insight.co.kr/news/264442
+- 비고: 아르마니 뷰티 립 마에스트로 화보
 - 날짜: 2020-12-17
 - 매체: 코스인코리아 (Cosinkorea)
 - 구분: 화보
