@@ -207,9 +207,11 @@ Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
         api_url = f"https://api.github.com/repos/{owner}/{repo_name}/releases"
 
         # Check if release exists
+        # Use an explicit timeout to avoid indefinite hangs (Bandit B113)
         response = requests.get(
             f"{api_url}/tags/{release_tag}",
-            headers={"Authorization": f"token {github_token}", "Accept": "application/vnd.github.v3+json"}
+            headers={"Authorization": f"token {github_token}", "Accept": "application/vnd.github.v3+json"},
+            timeout=(5, 30),
         )
 
         if response.status_code == 200:
@@ -225,8 +227,9 @@ Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
                     "name": f"Backup {datetime.now().strftime('%Y-%m-%d')}",
                     "body": f"Automated backup created on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
                     "draft": False,
-                    "prerelease": False
-                }
+                    "prerelease": False,
+                },
+                timeout=(5, 30),
             )
             if create_response.status_code not in (200, 201):
                 logger.error(f"Failed to create release: {create_response.status_code} - {create_response.text}")
@@ -240,7 +243,7 @@ Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
         upload_url = f"{upload_url}?name={backup_path.name}"
         with open(backup_path, "rb") as f:
             headers = {"Authorization": f"token {github_token}", "Content-Type": "application/gzip"}
-            upload_response = requests.post(upload_url, headers=headers, data=f)
+            upload_response = requests.post(upload_url, headers=headers, data=f, timeout=(5, 120))
 
         if upload_response.status_code in (200, 201):
             logger.info(f"Successfully uploaded {backup_path.name} to GitHub Releases")

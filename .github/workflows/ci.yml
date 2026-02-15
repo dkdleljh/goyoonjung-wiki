@@ -24,7 +24,7 @@ jobs:
         run: ruff check scripts
 
       - name: Bandit (security scan)
-        run: bandit -q -r scripts
+        run: bandit -q -r scripts -c pyproject.toml
 
       - name: Python compile check
         run: python - <<'PY'
