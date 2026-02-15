@@ -8,7 +8,6 @@
 - 상태: 확정 일정만(공식/검증 링크 필수) · 지나면 Past로 이동
 
 <!-- AUTO-SCHEDULE-HIGHLIGHTS:START -->
-
 ## 오늘/이번주 일정 (자동)
 > 기준: 2026-02-16 ~ 2026-02-23 (Asia/Seoul)
 
