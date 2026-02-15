@@ -33,7 +33,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-15 23:38 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-15 23:49 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 전체 후보
 
@@ -64,6 +64,8 @@
 - [김선호-고윤정, 이런 애매한 감정도 통역이 되나요?](https://kstar.kbs.co.kr/list_view.html?idx=387125)  _(출처: interviews.md)_
 
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
+
+- ["'보건교사 안은영'은 선의와 친절에 관한 이야기"](https://m.news.zum.com/articles/63011527)  _(출처: interviews.md)_
 
 - [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)  _(출처: appearances.md)_
 

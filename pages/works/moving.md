@@ -46,7 +46,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-15 23:38 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-15 23:49 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -67,6 +67,26 @@
 - [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970)  _(출처: interviews.md)_
 
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
+
+- ['무빙' 고윤정, '완벽한 희수T, 털털다정 F형 MZ배우' (인터뷰 종합)](https://www.etnews.com/20230823000317)  _(출처: interviews.md)_
+
+- ['무빙' 고윤정 "얼굴이 초능력이라는 평가, 너무 감사해" [N인터뷰]①](https://news.nate.com/view/20230823n22221)  _(출처: interviews.md)_
+
+- [[팝인터뷰③] '무빙' 고윤정 "외모 관심 알고 있어, 신기하고 감사"](https://www.heraldpop.com/view.php?ud=202308231155508000692_1)  _(출처: interviews.md)_
+
+- ["'무빙' 인기 예상했다" 고윤정, 긴장 뚫고 나온 단단한 자신감[인터뷰S]](https://www.spotvnews.co.kr/news/articleView.html?idxno=627770)  _(출처: interviews.md)_
+
+- ['무빙' 고윤정 "연기 칭찬, 행복해…처음으로 인정받아" [인터뷰]](https://news.mt.co.kr/mtview.php?no=2023082509437220377)  _(출처: interviews.md)_
+
+- [[인터뷰②] '무빙' 고윤정 "초능력 덕분에 손톱 뜯는 버릇도 고쳤네요"](https://www.mhns.co.kr/news/articleView.html?idxno=560092)  _(출처: interviews.md)_
+
+- [[인터뷰] '무빙' 고윤정 "17 대 1 액션과 풋풋한 첫사랑, 다 가졌죠?"](https://www.ilyo.co.kr/?ac=article_view&entry_id=458232)  _(출처: interviews.md)_
+
+- ['무빙' 고윤정 "17대 1 싸움 장면, 너무 뿌듯했어요"[인터뷰]](https://v.daum.net/v/XbouMZUNSZ)  _(출처: interviews.md)_
+
+- [[톡★스타] 고윤정 "'무빙' 인기에…평소 연락 없던 지인까지도 전화"](https://www.sportsworldi.com/newsView/20230901503040)  _(출처: interviews.md)_
+
+- [(인터뷰) '무빙' 고윤정 "갖고 싶은 능력? 날라다니고 싶죠"](https://www.newstomato.com/ReadNews.aspx?no=1199951)  _(출처: interviews.md)_
 
 - [> 메모: 항목을 추가할 때는 위 템플릿을 따르고, 링크는 `scripts/add_seen_url.sh`로 정규화 후 `sources/seen-](https://maa.co.kr/artists/go-younjung)  _(출처: appearances.md)_
 

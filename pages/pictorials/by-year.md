@@ -48,6 +48,7 @@
 - 2023-09-22 · [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)
 - 2023-08-03 · [Disney+ 오리지널 시리즈 <무빙> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=274438)
 - 2023-04-04 · [려 공식 광고 영상](https://youtu.be/dmS_nEQYv2I)
+- 2023-02-09 · [고윤정, 사랑스러운 매력 뽐내는 화보 공개](https://fashionseoul.com/224549)
 
 ## 2022
 - 2022-12-01 · [라타플랑(공식 사이트 게시글)](https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157)
@@ -56,7 +57,15 @@
 - 2022-02-21 · [고윤정의 봄, 봄, 봄](https://www.vogue.co.kr/2022/02/21/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%98-%EB%B4%84-%EB%B4%84-%EB%B4%84/)
 
 ## 2021
+- 2021-09-07 · [에스쁘아, 고윤정의 뷰티 화보 메이크업 하우투 공개](https://m.segyebiz.com/newsView/20210907514584)
+- 2021-08-19 · [고윤정, 신비로운 분위기 뽐내는 우아한 비주얼 화보 공개](https://www.insight.co.kr/news/354381)
+- 2021-08-18 · ['얼굴 천재' 고윤정, 감탄 부르는 미모…광채 피부 '눈길'](https://stylem.mt.co.kr/stylemView.php?no=2021081820245811273&scd=101&type=1)
+- 2021-06 · [얼굴 천재 '고윤정'의 패션 & 뷰티](https://fashionseoul.com/200113)
 - 2021-02-17 · [한없이 투명에 가까운, 고윤정](https://www.vogue.co.kr/2021/02/17/%ED%95%9C%EC%97%86%EC%9D%B4-%ED%88%AC%EB%AA%85%EC%97%90-%EA%B0%80%EA%B9%8C%EC%9A%B4-%EA%B3%A0%EC%9C%A4%EC%A0%95/)
+
+## 2020
+- 2020-12-22 · [고윤정, 新얼굴천재 비주얼…변화무쌍 아름다움 [화보]](https://www.xportsnews.com/article/1368580)
+- 2020-12-17 · [신예 '고윤정', 연작과 내추럴 무드 화보 '독보적 분위기' 공개](https://www.cosinkorea.com/news/article.html?no=37792)
 
 ---
 ※ 이 페이지는 자동 생성됩니다. 원문은 각 카테고리 페이지를 수정하세요.

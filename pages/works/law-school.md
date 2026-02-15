@@ -33,14 +33,17 @@
 
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-10 18:50 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-15 23:49 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 전체 후보
 
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
+
+- ['로스쿨' 고윤정, 진정성 가득한 열열.."특별한 작품"](https://www.starnewskorea.com/stview.php?no=2021061016204618571)  _(출처: interviews.md)_
+
+- [[예습 메이킹] 전예슬 인터뷰 고윤정 실물 느낌 요약](https://entertain.daum.net/tv/5138294/video/418173622)  _(출처: interviews.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
