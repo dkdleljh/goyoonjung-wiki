@@ -13,25 +13,75 @@ from datetime import datetime
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
+# Allow importing sibling modules when running as a script: `python3 scripts/..py`
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from cache import get_cache  # noqa: E402
+
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-WIKI_API = "https://ko.wikipedia.org/w/api.php?action=query&titles=%EA%B3%A0%EC%9C%A4%EC%A0%95&prop=revisions&rvprop=timestamp|user|comment&format=json"
+WIKI_API = (
+    "https://ko.wikipedia.org/w/api.php"
+    "?action=query"
+    "&format=json"
+    "&formatversion=2"
+    "&titles=%EA%B3%A0%EC%9C%A4%EC%A0%95"
+    "&prop=revisions"
+    "&rvprop=timestamp|user|comment|ids"
+    "&rvlimit=1"
+)
 NAMU_URL = "https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95"
 
+USER_AGENT = "goyoonjung-wiki/1.0 (local automation; contact: none)"
+
+
 def check_wikipedia():
+    """Check latest revision via MediaWiki API.
+
+    Important: Wikipedia API may return 403 if User-Agent is missing.
+    We always send a descriptive UA, plus basic accept headers.
+    """
+    cache = get_cache("encyclopedia", ttl=60 * 30)
+    cache_key = "wikipedia_ko_goyoonjung_latest"
+
     try:
-        with urlopen(WIKI_API) as r:
+        cached = cache.get(cache_key)
+        if cached:
+            return cached
+
+        req = Request(
+            WIKI_API,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "application/json",
+                "Accept-Language": "ko,en;q=0.8",
+            },
+        )
+
+        with urlopen(req, timeout=10) as r:
             data = json.loads(r.read())
 
-        pages = data['query']['pages']
-        for pid in pages:
-            rev = pages[pid]['revisions'][0]
-            timestamp = rev['timestamp']
-            user = rev['user']
-            comment = rev.get('comment', '')
+        pages = data.get("query", {}).get("pages", [])
+        if not pages:
+            msg = "Wikipedia Check Failed: empty response"
+            cache.set(cache_key, msg)
+            return msg
 
-            # Convert to local time friendly string
-            # 2024-05-10T12:00:00Z -> Simple check
-            return f"Wikipedia 업데이트 확인: {timestamp} by {user} ({comment})"
+        page = pages[0]
+        revs = page.get("revisions") or []
+        if not revs:
+            msg = "Wikipedia Check Failed: no revisions in response"
+            cache.set(cache_key, msg)
+            return msg
+
+        rev = revs[0]
+        timestamp = rev.get("timestamp", "")
+        user = rev.get("user", "")
+        comment = rev.get("comment", "")
+        revid = rev.get("revid")
+
+        msg = f"Wikipedia 업데이트 확인: {timestamp} by {user} (revid={revid}) {comment}".strip()
+        cache.set(cache_key, msg)
+        return msg
 
     except Exception as e:
         return f"Wikipedia Check Failed: {e}"
