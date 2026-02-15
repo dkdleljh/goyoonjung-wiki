@@ -15,7 +15,7 @@
 
 ## 공식 링크
 - https://tvn.cjenm.com/ko/resident-playbook/
-- https://www.tving.com/contents/P001768976
+- https://www.tving.com/contents/P001768976 <!-- ALT-PROOF: https://tvn.cjenm.com/ko/resident-playbook/ | https://kstar.kbs.co.kr/list_view.html?idx=361830 | https://kstar.kbs.co.kr/list_view.html?idx=362628 -->
 - https://www.youtube.com/watch?v=SIKJWldJHTU
 
 

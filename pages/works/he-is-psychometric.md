@@ -16,7 +16,7 @@
 
 ## 공식 링크
 - https://tvn.cjenm.com/ko/heispsychometric/
-- https://www.tving.com/contents/P000820341
+- https://www.tving.com/contents/P000820341 <!-- ALT-PROOF: https://tvn.cjenm.com/ko/heispsychometric/ | https://tvn.cjenm.com/ko/heispsychometric/video/ | https://maa.co.kr/artists/go-younjung -->
 - https://www.youtube.com/watch?v=JEnAnsSdLbQ
 - https://tvn.cjenm.com/ko/heispsychometric/video/
 

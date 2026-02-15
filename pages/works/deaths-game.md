@@ -14,7 +14,7 @@
 - 공식 페이지(TVING): https://www.tving.com/contents/P001748996 <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 
 ## 공식 링크
-- https://www.tving.com/contents/P001748996
+- https://www.tving.com/contents/P001748996 <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 
 
 <!-- AUTO-CANDIDATES:START -->

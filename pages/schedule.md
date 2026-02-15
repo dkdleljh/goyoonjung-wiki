@@ -72,6 +72,7 @@
 - 구분: 공개/방영
 - 제목: 디즈니+ 오리지널 <무빙> 공개
 - 링크(공식/원문): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
+- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/program/%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%EC%8A%AC%EA%B8%B0%EB%A1%9C%EC%9A%B8-%EC%A0%84%EA%B3%B5%EC%9D%98%EC%83%9D%ED%99%9C/, https://tvn.cjenm.com/ko/program/%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%EC%8A%AC%EA%B8%B0%EB%A1%9C%EC%9A%B8-%EC%A0%84%EA%B3%B5%EC%9D%98%EC%83%9D%ED%99%9C/,, https://tv.jtbc.co.kr/replay/pr10011289/pm10062037/ep20125473/view
 
 ### 2022
 - 날짜/시간: 2022-12-10 21:10

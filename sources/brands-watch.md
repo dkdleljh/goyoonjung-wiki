@@ -11,8 +11,8 @@
 
 ## 뷰티
 - CHANEL Beauty: https://www.chanel.com/kr/beauty/ <!-- ALT-PROOF: https://www.amoremall.com/ | https://www.armanibeauty.com/ | https://www.tomfordbeauty.com/ | https://www.yunjac.com/ | https://www.espoir.com/ -->
-- goodal(구달): https://www.goodal.com/ (공식 페이지 확인 필요)
-- VODANA(보다나): https://www.vodana.co.kr/ (공식 페이지 확인 필요)
+- goodal(구달): https://www.goodal.com/ (공식 페이지 확인 필요) <!-- ALT-PROOF: https://www.amoremall.com/ | https://www.armanibeauty.com/ | https://www.tomfordbeauty.com/ -->
+- VODANA(보다나): https://www.vodana.co.kr/ (공식 페이지 확인 필요) <!-- ALT-PROOF: https://www.amoremall.com/ | https://www.armanibeauty.com/ | https://www.tomfordbeauty.com/ -->
 - RYO(려): https://www.amoremall.com/ (브랜드 섹션에서 확인)
 - Armani Beauty: https://www.armanibeauty.com/ (국가별)
 - TOM FORD Beauty: https://www.tomfordbeauty.com/
@@ -22,7 +22,7 @@
 
 ## 패션/주얼리
 - CHANEL: https://www.chanel.com/ <!-- ALT-PROOF: https://www.amoremall.com/ | https://www.armanibeauty.com/ | https://www.tomfordbeauty.com/ | https://www.yunjac.com/ | https://www.espoir.com/ -->
-- Boucheron: https://www.boucheron.com/
+- Boucheron: https://www.boucheron.com/ <!-- ALT-PROOF: https://www.amoremall.com/ | https://www.armanibeauty.com/ | https://www.tomfordbeauty.com/ -->
 - MARITHÉ FRANÇOIS GIRBAUD: https://marithe-official.com/ (확인 필요)
 - Discovery Expedition: https://www.discovery-expedition.com/ (확인 필요)
 - PENSHOPPE: https://www.penshoppe.com/
@@ -35,7 +35,7 @@
 - SANGKWAEHWAN(상쾌환): https://www.easytomorrow.co.kr/ (확인 필요) <!-- ALT-PROOF: https://www.amoremall.com/ | https://www.armanibeauty.com/ | https://www.tomfordbeauty.com/ | https://www.yunjac.com/ | https://www.espoir.com/ -->
 - NH BANK: https://www.nhbank.com/
 - NH CARD: https://card.nonghyup.com/
-- LENSME(렌즈미): https://www.lensme.co.kr/ (확인 필요)
+- LENSME(렌즈미): https://www.lensme.co.kr/ (확인 필요) <!-- ALT-PROOF: https://www.amoremall.com/ | https://www.armanibeauty.com/ | https://www.tomfordbeauty.com/ -->
 - Hanwha General Insurance: https://www.hwgeneralins.com/ (확인 필요)
 
 > 메모: 일부 링크는 공식 도메인/한국 공식 페이지를 추가로 확인해 업데이트합니다.

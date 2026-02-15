@@ -10,7 +10,7 @@
 
 ## 통신사/종합(팩트 체크용)
 - 연합뉴스(연예 섹션): https://www.yna.co.kr/entertainment <!-- ALT-PROOF: https://search.naver.com/search.naver?where=news&query=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://search.daum.net/search?w=news&q=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://news.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&hl=ko&gl=KR&ceid=KR%3Ako | https://www.google.com/search?q=site%3Ayna.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://www.newsis.com/entertainment/ -->
-  - 내부 검색(고윤정): https://www.yna.co.kr/search/index?query=%EA%B3%A0%EC%9C%A4%EC%A0%95
+  - 내부 검색(고윤정): https://www.yna.co.kr/search/index?query=%EA%B3%A0%EC%9C%A4%EC%A0%95 <!-- ALT-PROOF: https://search.naver.com/search.naver?where=news&query=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://search.daum.net/search?w=news&q=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://news.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&hl=ko&gl=KR&ceid=KR%3Ako -->
   - 구글 사이트검색: https://www.google.com/search?q=site%3Ayna.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 뉴시스(연예/문화): https://www.newsis.com/entertainment/
   - 구글 사이트검색: https://www.google.com/search?q=site%3Anewsis.com+%EA%B3%A0%EC%9C%A4%EC%A0%95

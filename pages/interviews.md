@@ -85,6 +85,7 @@
 - 대체 근거(열리는 링크): https://kstar.kbs.co.kr/list_view.html?idx=391146, https://kstar.kbs.co.kr/list_view.html?idx=389107, https://www.sisaweek.com/news/articleView.html?idxno=233219, http://enter.etoday.co.kr/news/view/292714
 - 상태: 보도(1차)
 - id: https://www.nc.press/news/articleView.html?idxno=605970
+- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung, https://kstar.kbs.co.kr/list_view.html?idx=391253, https://kstar.kbs.co.kr/list_view.html?idx=391146
 - 요약(3~5줄):
   - 고윤정이 서울 종로구 삼청동 한 카페에서 '이 사랑 통역 되나요?'에 대한 인터뷰를 진행했다.
   - 김선호와 호흡을 나누며 함께 연기하는 즐거움을 강조했다.
@@ -292,6 +293,7 @@
 - 대체 근거(열리는 링크): https://mbiz.heraldcorp.com/article/10496760?sec=014, https://www.elle.co.kr/article/1874201, https://www.mk.co.kr/news/hot-issues/10994612, https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 - 상태: 보도(1차)
 - id: https://www.nc.press/news/articleView.html?idx=561975
+- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung, https://kstar.kbs.co.kr/list_view.html?idx=391253, https://kstar.kbs.co.kr/list_view.html?idx=391146
 - 요약(3~5줄):
   - 고윤정의 매력이 물씬 담긴 '25 봄 캠페인 화보'가 공개됐다.
   - 바비인형 같은 매력적인 눈빛과 신비로운 분위기로 완벽하게 소화했다.
@@ -524,6 +526,7 @@
 - 대체 근거(열리는 링크): https://entertain.daum.net/tv/5138294/video/418173622, https://m.news.zum.com/articles/63011527, https://m.radio.ytn.co.kr/interview_view.php?id=73903&s_mcd=0206, https://www.idaegu.com/news/articleView.html?idxno=381461
 - 상태: 보도(1차)
 - id: https://www.yna.co.kr/view/AKR20201009055300005
+- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung, https://kstar.kbs.co.kr/list_view.html?idx=391253, https://kstar.kbs.co.kr/list_view.html?idx=391146
 - 요약(3~5줄):
   - '보건교사 안은영' 원작 소설 작가 정세랑 인터뷰.
   - 작품에 대한创作 비하인드를 밝혔다.

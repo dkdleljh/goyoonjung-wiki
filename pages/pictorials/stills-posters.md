@@ -27,6 +27,7 @@
 - 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/, https://www.jtbc.co.kr/
 - 상태: 공식확정
 - id: https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95
+- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/,, https://www.jtbc.co.kr/, https://tvn.cjenm.com/ko/
 - 메모: 작품별 공식 페이지 링크 확정 전, 검색 앵커로 사용.
 
 - 플랫폼: tvN
@@ -48,6 +49,7 @@
 - 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/, https://www.jtbc.co.kr/, https://tvn.cjenm.com/ko/resident-playbook/
 - 상태: 공식확정
 - id: https://www.tving.com/
+- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/,, https://www.jtbc.co.kr/, https://tvn.cjenm.com/ko/,,
 
 ## 스위트홈 (Netflix)
 - 작품: 스위트홈
@@ -67,6 +69,7 @@
 - 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/, https://www.jtbc.co.kr/, https://tvn.cjenm.com/ko/resident-playbook/, https://kstar.kbs.co.kr/list_view.html?idx=343890, https://maa.co.kr/artists/go-younjung
 - 상태: 공식확정
 - id: https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
+- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/,, https://www.jtbc.co.kr/, https://tvn.cjenm.com/ko/,,
 - 메모: Disney+ 작품 페이지에 공식 이미지/정보가 포함될 수 있어 1차 앵커로 사용.
 
 ## 언젠가는 슬기로울 전공의생활 (tvN)

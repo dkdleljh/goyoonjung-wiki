@@ -38,7 +38,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-16 01:19 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-16 01:33 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -46,7 +46,7 @@
 
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
-- ⭐ [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/alchemyofsouls/ | https://tvn.cjenm.com/ko/hhw1_test/ | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/ -->
+- ⭐ [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
 
 
 
@@ -56,7 +56,7 @@
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
-- [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/alchemyofsouls/ | https://tvn.cjenm.com/ko/hhw1_test/ | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/ -->
+- [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
 
 - [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)  _(출처: interviews.md)_
 

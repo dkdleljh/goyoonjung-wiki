@@ -159,6 +159,7 @@
 - 대체 근거(열리는 링크): https://www.marieclairekorea.com/fashion/2025/11/chanel-71/, https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/, https://www.harpersbazaar.co.kr/article/1883281, https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/, https://www.mk.co.kr/news/hot-issues/10994612
 - 상태: 공식확정
 - id: https://www.nc.press/news/articleView.html?idx=561975
+- 대체 근거(열리는 링크): https://theviewers.co.kr/View.aspx?No=3972476, https://www.asiaartistawards.com/news/detail/167018/all, https://www.asiaartistawards.com/news/detail/129994/all
 
 - 날짜: 2024-04-20
 - 매체: ELLE Korea x RYO
@@ -168,6 +169,7 @@
 - 대체 근거(열리는 링크): https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/, https://www.harpersbazaar.co.kr/article/1883281, https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/, https://www.mk.co.kr/news/hot-issues/10994612, https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 - 상태: 공식확정
 - id: https://slv.kstarfashion.com/news/articleView.html?idxno=214777
+- 대체 근거(열리는 링크): https://theviewers.co.kr/View.aspx?No=3972476, https://www.asiaartistawards.com/news/detail/167018/all, https://www.asiaartistawards.com/news/detail/129994/all
 - 비고: ELLE D Edition 디지털 커버, 여성 맞춤형 탈모 케어 브랜드 RYO 협업
 
 - 날짜: 2024-04-19
