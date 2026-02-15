@@ -14,10 +14,25 @@ SCHEDULE_MD = BASE / 'pages' / 'schedule.md'
 TIMELINE_MD = BASE / 'pages' / 'timeline.md'
 
 def parse_date(date_str):
-    # Handles YYYY-MM-DD
+    """Parse schedule date strings.
+
+    Supports:
+    - YYYY-MM-DD
+    - YYYY-MM-DD HH:MM
+    """
     try:
-        return datetime.strptime(date_str.strip(), "%Y-%m-%d")
-    except (ValueError, TypeError, AttributeError):
+        s = (date_str or "").strip()
+        if not s:
+            return None
+
+        # Try datetime first
+        for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d"):
+            try:
+                return datetime.strptime(s, fmt)
+            except ValueError:
+                continue
+        return None
+    except (TypeError, AttributeError):
         return None
 
 def extract_events():
