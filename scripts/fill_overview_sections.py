@@ -46,27 +46,27 @@ CORE = [
 DATA: dict[str, dict[str, str]] = {
     "README.md": {
         "summary": "고윤정 위키의 사용법/규칙/자동화 운영을 한 페이지에서 안내합니다.",
-        "links": "허브(pages/hub.md) · 인덱스(index.md) · 오늘 로그(news/YYYY-MM-DD.md) · 일일 리포트(pages/daily-report.md)",
+        "links": "[허브](pages/hub.md) · [인덱스](index.md) · 오늘 로그(news/YYYY-MM-DD.md) · [일일 리포트](pages/daily-report.md)",
         "status": "운영 문서(S/A 링크 기반) · 자동화 동작 기준점",
     },
     "index.md": {
         "summary": "링크 중심(저작권 안전)으로 작품·화보·광고·인터뷰·행사를 누적하는 메인 인덱스입니다.",
-        "links": "허브(pages/hub.md) · 프로필(pages/profile.md) · 필모(pages/filmography.md) · 타임라인(pages/timeline.md) · 오늘 로그(news/YYYY-MM-DD.md)",
+        "links": "[허브](pages/hub.md) · [프로필](pages/profile.md) · [필모](pages/filmography.md) · [타임라인](pages/timeline.md) · 오늘 로그(news/YYYY-MM-DD.md)",
         "status": "핵심 탐색 페이지(S/A 우선, 자동 섹션 포함)",
     },
     "index.en.md": {
         "summary": "English entry point for the wiki (link-first, copyright-safe).",
-        "links": "Hub(pages/hub.md) · Profile(pages/profile.md) · Filmography(pages/filmography.md) · Timeline(pages/timeline.md)",
+        "links": "[Hub](pages/hub.md) · [Profile](pages/profile.md) · [Filmography](pages/filmography.md) · [Timeline](pages/timeline.md)",
         "status": "Core navigation (primary/official links preferred)",
     },
     "pages/hub.md": {
         "summary": "가장 빠른 탐색용 포털(허브)입니다. 오늘/최근 + 핵심 정리 + 아카이브로 바로 이동합니다.",
-        "links": "프로필(profile.md) · 필모(filmography.md) · 타임라인(timeline.md) · 인터뷰(interviews.md) · 화보(pictorials.md) · 광고(endorsements.md)",
+        "links": "[프로필](profile.md) · [필모](filmography.md) · [타임라인](timeline.md) · [인터뷰](interviews.md) · [화보](pictorials.md) · [광고](endorsements.md)",
         "status": "탐색 허브(내부 링크 중심, 자동 인덱스 참조)",
     },
     "pages/hub.en.md": {
         "summary": "Quick navigation hub (English) for core pages and archives.",
-        "links": "Profile(profile.md) · Filmography(filmography.md) · Timeline(timeline.md) · Interviews(interviews.md) · Pictorials(pictorials.md)",
+        "links": "[Profile](profile.md) · [Filmography](filmography.md) · [Timeline](timeline.md) · [Interviews](interviews.md) · [Pictorials](pictorials.md)",
         "status": "Navigation hub (link-first)",
     },
     "pages/profile.md": {
