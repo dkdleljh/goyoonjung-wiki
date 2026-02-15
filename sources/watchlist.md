@@ -12,14 +12,14 @@
 - MAA 아티스트(고윤정) 프로필: https://maa.co.kr/artists/go-younjung
 
 ## OTT/방송사(공식)
-- Netflix(공식/보도자료/회사소식): https://about.netflix.com/
+- Netflix(공식/보도자료/회사소식): https://about.netflix.com/ <!-- ALT-PROOF: https://maa.co.kr/ | https://maa.co.kr/artists/go-younjung | https://tvn.cjenm.com/ko/ | https://tvn.cjenm.com/ko/resident-playbook/ | https://www.jtbc.co.kr/ -->
 - Netflix(검색: 고윤정): https://www.netflix.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95
 - Disney+(KR, 공식): https://www.disneypluskr.com/
 - Disney+(검색): https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95
 - tvN 공식: https://tvn.cjenm.com/ko/
   - (작품) 언젠가는 슬기로울 전공의생활(공식): https://tvn.cjenm.com/ko/resident-playbook/
 - JTBC 공식: https://www.jtbc.co.kr/
-- TVING 공식: https://www.tving.com/
+- TVING 공식: https://www.tving.com/ <!-- ALT-PROOF: https://maa.co.kr/ | https://maa.co.kr/artists/go-younjung | https://tvn.cjenm.com/ko/ | https://tvn.cjenm.com/ko/resident-playbook/ | https://www.jtbc.co.kr/ -->
 - Wavve 공식: https://www.wavve.com/
 - KBS 뉴스: https://news.kbs.co.kr/
 - MBC 뉴스: https://imnews.imbc.com/
@@ -46,14 +46,14 @@
 - Cosmopolitan Korea(검색: 고윤정): https://www.cosmopolitan.co.kr/search?query=%EA%B3%A0%EC%9C%A4%EC%A0%95
 
 ## SNS(공식)
-- MAA Instagram: https://www.instagram.com/maakorea/
+- MAA Instagram: https://www.instagram.com/maakorea/ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/ | https://tvn.cjenm.com/ko/resident-playbook/ | https://www.jtbc.co.kr/ | https://www.wavve.com/ | https://news.kbs.co.kr/ -->
 
 ## SNS(교차확인 필요)
 - 고윤정 Instagram: https://www.instagram.com/goyounjung/  (MAA/공식 인터뷰 등에서 공식 표기 확인 후 '공식'으로 승격)
 
 ## 위키/백과(참고/2차)
 - 위키백과(ko): https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 나무위키: https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95
+- 나무위키: https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 <!-- ALT-PROOF: https://news.sbs.co.kr/ | https://news.jtbc.co.kr/ | https://www.baeksangawards.co.kr/ | https://bsa.blueaward.co.kr/ | http://www.blueaward.co.kr/ -->
 
 ## 팬 커뮤니티(공식 여부 확인 필요)
 - (추정) 공식 팬카페(다음 카페): https://cafe.daum.net/goyounjung.fans
@@ -61,7 +61,7 @@
   - 공식 확정: 소속사(MAA)나 공식 인터뷰/프로필에서 공식 팬카페로 링크/명시 확인 시 '공식'으로 승격
 
 ## 유튜브(공식 채널)
-- 채널 십오야(나영석 관련 콘텐츠 업로드): https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ
+- 채널 십오야(나영석 관련 콘텐츠 업로드): https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ <!-- ALT-PROOF: https://www.elle.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://www.harpersbazaar.co.kr/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%99%94%EB%B3%B4 | https://www.marieclairekorea.com/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95/ -->
 - (참고) 나영석의 나불나불/와글와글 플레이리스트(검색/목록): https://www.youtube.com/playlist?list=PLr0T5CaHaPwVWLdtQIwORp6OT6hlvfVAN
 
 ## 주요 언론/매거진(대량 수집용)

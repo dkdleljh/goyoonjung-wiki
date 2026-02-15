@@ -10,7 +10,7 @@
 - Netflix 공식 작품 페이지에서 작품 정보/시청 링크를 제공.
 
 ## 관련 링크
-- 공식 페이지(Netflix): https://www.netflix.com/title/81061734
+- 공식 페이지(Netflix): https://www.netflix.com/title/81061734 <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | http://enter.etoday.co.kr/news/view/292714 -->
 
 ## 공식 링크
 - https://www.netflix.com/title/81061734
@@ -18,7 +18,7 @@
 
 
 ## 출처
-- (S) 공식 링크: https://www.netflix.com/title/81061734
+- (S) 공식 링크: https://www.netflix.com/title/81061734 <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | http://enter.etoday.co.kr/news/view/292714 -->
 - (S) 공식 링크: https://www.youtube.com/watch?v=B5IQqZDSRjk
 
 
@@ -36,7 +36,7 @@
 
 - [당신의 언어는 나한테 너무 어려워요.. 넷플릭스 '이 사랑 통역 되나요?'](https://kstar.kbs.co.kr/list_view.html?idx=389107)  _(출처: interviews.md)_
 
-- [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970)  _(출처: interviews.md)_
+- [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970)  _(출처: interviews.md)_ <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | http://enter.etoday.co.kr/news/view/292714 -->
 
 - [[인터뷰] '이 사랑 통역 되나요?' 고윤정이 탐색한 감정의 언어](https://www.sisaweek.com/news/articleView.html?idxno=233219)  _(출처: interviews.md)_
 
@@ -66,5 +66,5 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 공식 페이지(스틸/정보): https://www.netflix.com/title/81061734
+- 공식 페이지(스틸/정보): https://www.netflix.com/title/81061734 <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | http://enter.etoday.co.kr/news/view/292714 -->
 - 메인 예고편(Netflix Korea / YouTube): https://www.youtube.com/watch?v=B5IQqZDSRjk

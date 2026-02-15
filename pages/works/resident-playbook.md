@@ -11,7 +11,7 @@
 
 ## 관련 링크
 - 공식 페이지(tvN): https://tvn.cjenm.com/ko/resident-playbook/
-- 1화(근거용, TVING): https://www.tving.com/contents/P001768976
+- 1화(근거용, TVING): https://www.tving.com/contents/P001768976 <!-- ALT-PROOF: https://tvn.cjenm.com/ko/resident-playbook/ | https://kstar.kbs.co.kr/list_view.html?idx=361830 | https://kstar.kbs.co.kr/list_view.html?idx=362628 | https://kstar.kbs.co.kr/list_view.html?idx=362734 | https://kstar.kbs.co.kr/list_view.html?idx=362920 -->
 
 ## 공식 링크
 - https://tvn.cjenm.com/ko/resident-playbook/
@@ -28,7 +28,7 @@
 
 ## 링크 박스
 - 공식 페이지(스틸/정보): https://tvn.cjenm.com/ko/resident-playbook/
-- 1화(방송일 근거): https://www.tving.com/contents/P001768976
+- 1화(방송일 근거): https://www.tving.com/contents/P001768976 <!-- ALT-PROOF: https://tvn.cjenm.com/ko/resident-playbook/ | https://kstar.kbs.co.kr/list_view.html?idx=361830 | https://kstar.kbs.co.kr/list_view.html?idx=362628 | https://kstar.kbs.co.kr/list_view.html?idx=362734 | https://kstar.kbs.co.kr/list_view.html?idx=362920 -->
 
 ## 공개/방영일(근거)
 - 첫 방송: 2025-04-12 21:10

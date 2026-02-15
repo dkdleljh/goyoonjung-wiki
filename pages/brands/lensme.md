@@ -8,7 +8,7 @@
 
 - (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
-- (A/S) https://www.lensme.co.kr/
+- (A/S) https://www.lensme.co.kr/ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung | https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
 
 
 ## 출처
@@ -23,5 +23,5 @@
 
 - [한화손해보험](https://www.sisaon.co.kr/news/articleView.html?idxno=175918)  _(출처: endorsements/lifestyle.md)_
 
-- [LENSME(렌즈미)](https://youtu.be/aRrlD-9WIbk)  _(출처: pictorials/campaign.md)_
+- [LENSME(렌즈미)](https://youtu.be/aRrlD-9WIbk)  _(출처: pictorials/campaign.md)_ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung | https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
 <!-- AUTO-CANDIDATES:END -->

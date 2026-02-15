@@ -29,7 +29,7 @@
   - 카테고리: 라이프스타일
   - 역할: 모델
   - 발표일/시작일: 2023-07-31 (YouTube datePublished)
-  - 링크(공식 발표): https://youtu.be/jXCnrLQJfzE (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/jXCnrLQJfzE (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
   - 링크(공식 영상/캠페인): https://youtu.be/jXCnrLQJfzE
   - 상태: 공식확정
   - id: https://youtu.be/jXCnrLQJfzE
@@ -39,7 +39,7 @@
   - 카테고리: 라이프스타일
   - 역할: 모델
   - 발표일/시작일: 2024-01-25 (YouTube datePublished)
-  - 링크(공식 발표): https://youtu.be/NdogLAtlyys (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/NdogLAtlyys (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
   - 링크(공식 영상/캠페인): https://youtu.be/NdogLAtlyys
   - 상태: 공식확정
   - id: https://youtu.be/NdogLAtlyys
@@ -49,7 +49,7 @@
   - 카테고리: 라이프스타일
   - 역할: 모델
   - 발표일/시작일: 2024-04-07 (YouTube datePublished)
-  - 링크(공식 발표): https://youtu.be/TrDLHYVJ4w8 (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/TrDLHYVJ4w8 (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
   - 링크(공식 영상/캠페인): https://youtu.be/TrDLHYVJ4w8
   - 상태: 공식확정
   - id: https://youtu.be/TrDLHYVJ4w8
@@ -59,7 +59,7 @@
   - 카테고리: 라이프스타일
   - 역할: 모델
   - 발표일/시작일: 미상(공식 링크는 있으나 날짜 메타 자동 추출 실패)
-  - 링크(공식 발표): https://youtu.be/c_VCPdtEA6A (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/c_VCPdtEA6A (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
   - 링크(공식 영상/캠페인): https://youtu.be/c_VCPdtEA6A
   - 상태: 공식확정
   - id: https://youtu.be/c_VCPdtEA6A
@@ -69,14 +69,14 @@
   - 카테고리: 라이프스타일
   - 역할: 뮤즈
   - 발표일/시작일: 2023-08-02 (YouTube datePublished)
-  - 링크(공식 발표): https://youtu.be/aRrlD-9WIbk (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/aRrlD-9WIbk (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
   - 링크(공식 영상/캠페인): https://youtu.be/aRrlD-9WIbk
   - 상태: 공식확정
   - id: https://youtu.be/aRrlD-9WIbk
   - 비고: 공식 캠페인 영상
 
 ## 공식 링크
-- 캐롯손해보험 TVC(YouTube): https://youtu.be/jXCnrLQJfzE
+- 캐롯손해보험 TVC(YouTube): https://youtu.be/jXCnrLQJfzE <!-- ALT-PROOF: https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
 - 푸라닭치킨 TVC(YouTube): https://youtu.be/NdogLAtlyys
 - 상쾌환(EASY TOMORROW) TVC(YouTube): https://youtu.be/TrDLHYVJ4w8
 - NH농협은행(올원뱅크) 공식 영상(YouTube): https://youtu.be/c_VCPdtEA6A

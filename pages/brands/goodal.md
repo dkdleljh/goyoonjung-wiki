@@ -8,7 +8,7 @@
 
 - (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
-- (A/S) https://www.goodal.com/
+- (A/S) https://www.goodal.com/ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 
 
 ## 출처
@@ -21,5 +21,5 @@
 
 ## 관련 링크(자동 후보)
 
-- [구달(goodal)](https://youtu.be/p3lwXW6nT5U)  _(출처: endorsements/beauty.md)_
+- [구달(goodal)](https://youtu.be/p3lwXW6nT5U)  _(출처: endorsements/beauty.md)_ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 <!-- AUTO-CANDIDATES:END -->

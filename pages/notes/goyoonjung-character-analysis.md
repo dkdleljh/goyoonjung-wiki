@@ -130,5 +130,5 @@
 
 ## 5) 참고(출처)
 - 고윤정 위키백과: https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95
-- 넷플릭스 작품 페이지(이 사랑 통역 되나요?): https://www.netflix.com/kr/title/81697769
+- 넷플릭스 작품 페이지(이 사랑 통역 되나요?): https://www.netflix.com/kr/title/81697769 <!-- ALT-PROOF: https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95 -->
 - About Netflix(제작 확정/캐스팅/작품정보): https://about.netflix.com/ko/news/can-this-love-be-translated-wt-confirmed-for-production

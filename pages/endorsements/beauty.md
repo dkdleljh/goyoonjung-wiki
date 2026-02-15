@@ -19,7 +19,7 @@
   - 카테고리: 뷰티
   - 역할: 모델/뮤즈
   - 발표일/시작일: 2024-02-27 (YouTube datePublished)
-  - 링크(공식 발표): https://youtu.be/p3lwXW6nT5U (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/p3lwXW6nT5U (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157 -->
   - 링크(공식 영상/캠페인): https://youtu.be/p3lwXW6nT5U
   - 상태: 공식확정
   - id: https://youtu.be/p3lwXW6nT5U
@@ -29,7 +29,7 @@
   - 카테고리: 뷰티
   - 역할: 뮤즈
   - 발표일/시작일: 2024-02-29
-  - 링크(공식 발표): https://youtu.be/hV1sOJLuMN8 (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/hV1sOJLuMN8 (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157 -->
   - 링크(공식 영상/캠페인): https://youtu.be/hV1sOJLuMN8
   - 상태: 공식확정
   - id: https://youtu.be/hV1sOJLuMN8
@@ -39,7 +39,7 @@
   - 카테고리: 뷰티
   - 역할: 글로벌 앰버서더
   - 발표일/시작일: 2023-04-04 (YouTube datePublished)
-  - 링크(공식 발표): https://youtu.be/dmS_nEQYv2I (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/dmS_nEQYv2I (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157 -->
   - 링크(공식 영상/캠페인): https://youtu.be/dmS_nEQYv2I
   - 상태: 공식확정
   - id: https://youtu.be/dmS_nEQYv2I
@@ -56,7 +56,7 @@
   - 비고: 공식 사이트 공지
 
 ## 공식 링크
-- 구달(goodal) 공식 캠페인(YouTube): https://youtu.be/p3lwXW6nT5U
+- 구달(goodal) 공식 캠페인(YouTube): https://youtu.be/p3lwXW6nT5U <!-- ALT-PROOF: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157 -->
 - 보다나(VODANA) 공식 캠페인(YouTube): https://youtu.be/hV1sOJLuMN8
 - 려(RYO) 공식 캠페인(YouTube): https://youtu.be/dmS_nEQYv2I
 - 라타플랑(RATAPLAN) 공식 공지: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157

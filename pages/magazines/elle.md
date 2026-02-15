@@ -31,7 +31,7 @@
 
 - ['언슬전' 고윤정 "데뷔 후 처음 푹 쉬는 중"](https://www.asiaartistawards.com/news/detail/129994/all)  _(출처: pictorials/editorial.md)_
 
-- [고윤정, 순수한 아름다움으로 완성한 봄의 전언](https://slv.kstarfashion.com/news/articleView.html?idxno=214777)  _(출처: pictorials/editorial.md)_
+- [고윤정, 순수한 아름다움으로 완성한 봄의 전언](https://slv.kstarfashion.com/news/articleView.html?idxno=214777)  _(출처: pictorials/editorial.md)_ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung | https://www.elle.co.kr/ | https://www.elle.co.kr/article/1880222 | https://www.elle.co.kr/article/1874201 | https://www.mk.co.kr/news/hot-issues/10994612 -->
 
 - [디올 X 고윤정, '청순+고혹美' 화보 공개](https://www.gpkorea.com/news/articleView.html?idxno=97354)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->

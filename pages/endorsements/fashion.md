@@ -29,7 +29,7 @@
   - 카테고리: 패션
   - 역할: 뮤즈
   - 발표일/시작일: 2022-11-28 (YouTube datePublished)
-  - 링크(공식 발표): https://youtu.be/76aAMPpCTb4 (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/76aAMPpCTb4 (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://www.idaegu.com/news/articleView.html?idxno=381461 -->
   - 링크(공식 영상/캠페인): https://youtu.be/76aAMPpCTb4
   - 상태: 공식확정
   - id: https://youtu.be/76aAMPpCTb4
@@ -39,7 +39,7 @@
   - 카테고리: 패션
   - 역할: 모델
   - 발표일/시작일: 2023-11-28 (YouTube datePublished)
-  - 링크(공식 발표): https://youtu.be/ZH1Y1l1OmTY (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://youtu.be/ZH1Y1l1OmTY (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://www.idaegu.com/news/articleView.html?idxno=381461 | https://news.nate.com/view/20250825n17937 -->
   - 링크(공식 영상/캠페인): https://youtu.be/ZH1Y1l1OmTY
   - 상태: 공식확정
   - id: https://youtu.be/ZH1Y1l1OmTY
@@ -49,7 +49,7 @@
   - 카테고리: 패션
   - 역할: (앰버서더/프렌즈 여부 공식 확인 필요)
   - 발표일/시작일: 2024-05-03 (공식 인스타 게시물)
-  - 링크(공식 발표): https://www.instagram.com/p/C6gW0vQNU1_/ (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://www.instagram.com/p/C6gW0vQNU1_/ (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://www.idaegu.com/news/articleView.html?idxno=381461 | https://news.nate.com/view/20250825n17937 -->
   - 링크(공식 영상/캠페인): https://www.instagram.com/p/C6gW0vQNU1_/
   - 상태: 공식확정
   - id: https://www.instagram.com/p/C6gW0vQNU1_/
@@ -59,7 +59,7 @@
   - 카테고리: 주얼리
   - 역할: 앰버서더
   - 발표일/시작일: 미상(공식 링크는 있으나 날짜 메타 자동 추출 실패)
-  - 링크(공식 발표): https://www.instagram.com/p/CWvduIJt1P2/ (자동: 공식 채널 게시물로 대체)
+  - 링크(공식 발표): https://www.instagram.com/p/CWvduIJt1P2/ (자동: 공식 채널 게시물로 대체) <!-- ALT-PROOF: https://news.nate.com/view/20250825n17937 -->
   - 링크(공식 영상/캠페인): https://www.instagram.com/p/CWvduIJt1P2/
   - 상태: 공식확정
   - id: https://www.instagram.com/p/CWvduIJt1P2/
@@ -78,7 +78,7 @@
 ## 공식 링크
 - 샤넬(CHANEL) 공식 발표(Instagram): https://www.instagram.com/p/C6gW0vQNU1_/
 - 부쉐론(Boucheron) 공식 발표(Instagram): https://www.instagram.com/p/CWvduIJt1P2/
-- MARITHÉ FRANÇOIS GIRBAUD 공식 캠페인(YouTube): https://youtu.be/76aAMPpCTb4
+- MARITHÉ FRANÇOIS GIRBAUD 공식 캠페인(YouTube): https://youtu.be/76aAMPpCTb4 <!-- ALT-PROOF: https://www.idaegu.com/news/articleView.html?idxno=381461 -->
 - 디스커버리 익스페디션 공식 캠페인(YouTube): https://youtu.be/ZH1Y1l1OmTY
 
 ## 출처

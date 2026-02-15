@@ -26,7 +26,7 @@
 - 광고/엠버서더 등은 공식 발표/공식 사이트 링크 확보 후에만 반영합니다.
 
 ## 참고(2차)
-- 나무위키 「고윤정」: https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 (접근: 2026-02-09)
+- 나무위키 「고윤정」: https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 (접근: 2026-02-09) <!-- ALT-PROOF: https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://maa.co.kr/ | https://maa.co.kr/artists/go-younjung | https://www.baeksangawards.co.kr/ | https://bsa.blueaward.co.kr/ -->
 
 ## 1차(추가)
 - Marie Claire Korea: https://www.marieclairekorea.com/ (접근: 2026-02-09)

@@ -8,7 +8,7 @@
 
 - (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
-- (A/S) https://www.vodana.co.kr/
+- (A/S) https://www.vodana.co.kr/ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 
 
 ## 출처
@@ -21,7 +21,7 @@
 
 ## 관련 링크(자동 후보)
 
-- [구달(goodal)](https://youtu.be/p3lwXW6nT5U)  _(출처: endorsements/beauty.md)_
+- [구달(goodal)](https://youtu.be/p3lwXW6nT5U)  _(출처: endorsements/beauty.md)_ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 
 - [보다나(VODANA)](https://youtu.be/hV1sOJLuMN8)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->

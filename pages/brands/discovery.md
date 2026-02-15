@@ -25,5 +25,5 @@
 
 - [고윤정, 싱그러운 매력으로 여름 패션 제안](https://www.meconomynews.com/news/articleView.html?idxno=111782)  _(출처: pictorials/editorial.md)_
 
-- [디스커버리 익스페디션(Discovery Expedition)](https://youtu.be/ZH1Y1l1OmTY)  _(출처: pictorials/campaign.md)_
+- [디스커버리 익스페디션(Discovery Expedition)](https://youtu.be/ZH1Y1l1OmTY)  _(출처: pictorials/campaign.md)_ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung | https://www.idaegu.com/news/articleView.html?idxno=381461 | https://sports.donga.com/ent/article/all/20250912/132373328/1 | https://www.meconomynews.com/news/articleView.html?idxno=111782 -->
 <!-- AUTO-CANDIDATES:END -->

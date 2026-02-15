@@ -32,6 +32,7 @@
 - 구분: 캠페인(영상)
 - 제목: 마리떼 프랑소와 저버 캠페인 영상 (Call My Name)
 - 링크(원문): https://youtu.be/76aAMPpCTb4
+- 대체 근거(열리는 링크): https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/, https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/
 - 상태: 공식확정
 - id: https://youtu.be/76aAMPpCTb4
 
@@ -40,6 +41,7 @@
 - 구분: 캠페인(영상)
 - 제목: 렌즈미 캠페인 영상 (PANDEIA)
 - 링크(원문): https://youtu.be/aRrlD-9WIbk
+- 대체 근거(열리는 링크): https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/, https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/
 - 상태: 공식확정
 - id: https://youtu.be/aRrlD-9WIbk
 
@@ -57,6 +59,7 @@
 - 구분: 캠페인(영상)
 - 제목: 디스커버리 캠페인 영상 (24 F/W Vertex)
 - 링크(원문): https://youtu.be/ZH1Y1l1OmTY
+- 대체 근거(열리는 링크): https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/
 - 상태: 공식확정
 - id: https://youtu.be/ZH1Y1l1OmTY
 
@@ -65,6 +68,7 @@
 - 구분: 광고(영상)
 - 제목: 캐롯 TVC
 - 링크(원문): https://youtu.be/jXCnrLQJfzE
+- 대체 근거(열리는 링크): https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/
 - 상태: 공식확정
 - id: https://youtu.be/jXCnrLQJfzE
 
@@ -73,6 +77,7 @@
 - 구분: 광고(영상)
 - 제목: 푸라닭 광고 영상
 - 링크(원문): https://youtu.be/NdogLAtlyys
+- 대체 근거(열리는 링크): https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/, https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157
 - 상태: 공식확정
 - id: https://youtu.be/NdogLAtlyys
 
@@ -81,6 +86,7 @@
 - 구분: 광고(영상)
 - 제목: 올원뱅크 공식 영상
 - 링크(원문): https://youtu.be/c_VCPdtEA6A
+- 대체 근거(열리는 링크): https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/, https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157
 - 상태: 공식확정
 - id: https://youtu.be/c_VCPdtEA6A
 
@@ -90,6 +96,7 @@
 - 구분: 메이킹/비하인드(영상)
 - 제목: 마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+
 - 링크(원문): https://www.youtube.com/watch?v=wZR6s3rB6tk
+- 대체 근거(열리는 링크): https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157
 - 상태: 공식확정
 - id: https://www.youtube.com/watch?v=wZR6s3rB6tk
 
@@ -107,6 +114,7 @@
 - 구분: 광고(영상)
 - 제목: 구달 공식 광고 영상
 - 링크(원문): https://youtu.be/p3lwXW6nT5U
+- 대체 근거(열리는 링크): https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157, https://maa.co.kr/artists/go-younjung
 - 상태: 공식확정
 - id: https://youtu.be/p3lwXW6nT5U
 
@@ -115,6 +123,7 @@
 - 구분: 광고(영상)
 - 제목: 보다나 공식 광고 영상
 - 링크(원문): https://youtu.be/hV1sOJLuMN8
+- 대체 근거(열리는 링크): https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157, https://maa.co.kr/artists/go-younjung
 - 상태: 공식확정
 - id: https://youtu.be/hV1sOJLuMN8
 
@@ -123,6 +132,7 @@
 - 구분: 광고(영상)
 - 제목: 려 공식 광고 영상
 - 링크(원문): https://youtu.be/dmS_nEQYv2I
+- 대체 근거(열리는 링크): https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157, https://maa.co.kr/artists/go-younjung
 - 상태: 공식확정
 - id: https://youtu.be/dmS_nEQYv2I
 

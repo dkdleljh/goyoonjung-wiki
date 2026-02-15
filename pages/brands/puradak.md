@@ -21,5 +21,5 @@
 
 - [한화손해보험](https://www.sisaon.co.kr/news/articleView.html?idxno=175918)  _(출처: endorsements/lifestyle.md)_
 
-- [푸라닭치킨](https://youtu.be/NdogLAtlyys)  _(출처: pictorials/campaign.md)_
+- [푸라닭치킨](https://youtu.be/NdogLAtlyys)  _(출처: pictorials/campaign.md)_ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung | https://www.sisaon.co.kr/news/articleView.html?idxno=175918 -->
 <!-- AUTO-CANDIDATES:END -->

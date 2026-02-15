@@ -9,7 +9,7 @@
 ---
 
 ## 통신사/종합(팩트 체크용)
-- 연합뉴스(연예 섹션): https://www.yna.co.kr/entertainment
+- 연합뉴스(연예 섹션): https://www.yna.co.kr/entertainment <!-- ALT-PROOF: https://search.naver.com/search.naver?where=news&query=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://search.daum.net/search?w=news&q=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://news.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&hl=ko&gl=KR&ceid=KR%3Ako | https://www.google.com/search?q=site%3Ayna.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://www.newsis.com/entertainment/ -->
   - 내부 검색(고윤정): https://www.yna.co.kr/search/index?query=%EA%B3%A0%EC%9C%A4%EC%A0%95
   - 구글 사이트검색: https://www.google.com/search?q=site%3Ayna.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 뉴시스(연예/문화): https://www.newsis.com/entertainment/
@@ -69,7 +69,7 @@
 ## 방송/클립/영상
 - KBS 스타박스(고윤정): https://kstar.kbs.co.kr/person_view.html?idx=220921
 - 네이버TV(백상 공식 등 채널별 확인): https://tv.naver.com/
-- 유튜브 채널 십오야: https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ
+- 유튜브 채널 십오야: https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ <!-- ALT-PROOF: https://www.elle.co.kr/ | https://www.elle.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://www.google.com/search?q=site%3Aelle.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 | https://www.vogue.co.kr/ | https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 -->
 
 ---
 

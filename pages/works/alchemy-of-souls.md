@@ -14,7 +14,7 @@
 ## 관련 링크
 - 공식 페이지(tvN, Part 2: 빛과 그림자): https://tvn.cjenm.com/ko/alchemyofsouls/
 - 공식 페이지(tvN, Part 1: 환혼): https://tvn.cjenm.com/ko/hhw1_test/
-- 공식 프로그램 페이지(TVING/tvN): http://program.tving.com/tvn/alchemyofsouls/
+- 공식 프로그램 페이지(TVING/tvN): http://program.tving.com/tvn/alchemyofsouls/ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/alchemyofsouls/ | https://tvn.cjenm.com/ko/hhw1_test/ | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/ -->
 
 ## 관련 인터뷰/자료
 - [Marie Claire Korea] 고윤정과 함께한 화보와 인터뷰 (2024.07) — [Link](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)
@@ -23,7 +23,7 @@
 ## 공식 링크
 - https://tvn.cjenm.com/ko/alchemyofsouls/
 - https://tvn.cjenm.com/ko/hhw1_test/
-- http://program.tving.com/tvn/alchemyofsouls/
+- http://program.tving.com/tvn/alchemyofsouls/ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/alchemyofsouls/ | https://tvn.cjenm.com/ko/hhw1_test/ | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/ -->
 - https://www.youtube.com/watch?v=TiTWX_KfEc0
 - https://www.youtube.com/watch?v=z8x19hQejYo
 - https://www.youtube.com/watch?v=tYTPRqjgCzs
@@ -32,7 +32,7 @@
 ## 출처
 - (S) 공식 링크: https://tvn.cjenm.com/ko/alchemyofsouls/
 - (S) 공식 링크: https://tvn.cjenm.com/ko/hhw1_test/
-- (S) 공식 링크: http://program.tving.com/tvn/alchemyofsouls/
+- (S) 공식 링크: http://program.tving.com/tvn/alchemyofsouls/ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/alchemyofsouls/ | https://tvn.cjenm.com/ko/hhw1_test/ | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/ -->
 
 
 <!-- AUTO-CANDIDATES:START -->
@@ -46,7 +46,7 @@
 
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
-- ⭐ [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
+- ⭐ [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/alchemyofsouls/ | https://tvn.cjenm.com/ko/hhw1_test/ | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/ -->
 
 
 
@@ -56,7 +56,7 @@
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
-- [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
+- [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/alchemyofsouls/ | https://tvn.cjenm.com/ko/hhw1_test/ | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/ -->
 
 - [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)  _(출처: interviews.md)_
 
@@ -86,4 +86,4 @@
 - Part 2 방송 정보(공식, tvN DRAMA / YouTube): https://www.youtube.com/watch?v=tYTPRqjgCzs
 - 공식 페이지(tvN, Part 2: 빛과 그림자): https://tvn.cjenm.com/ko/alchemyofsouls/
 - 공식 페이지(tvN, Part 1: 환혼): https://tvn.cjenm.com/ko/hhw1_test/
-- 다시보기/정보(TVING): http://program.tving.com/tvn/alchemyofsouls/
+- 다시보기/정보(TVING): http://program.tving.com/tvn/alchemyofsouls/ <!-- ALT-PROOF: https://tvn.cjenm.com/ko/alchemyofsouls/ | https://tvn.cjenm.com/ko/hhw1_test/ | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/ -->

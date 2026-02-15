@@ -43,6 +43,7 @@
 - 구분: 뮤직비디오 출연
 - 제목: [독점공개 MV] 내가 많이 사랑해요 - 이승철 X 박보검 (웹툰 달빛조각사 OST Part 1) (출연: 박보검, 고윤정)
 - 링크(공식 MV): https://www.youtube.com/watch?v=jtqfYE4zZuw
+- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung
 - 상태: 공식확정
 - id: https://www.youtube.com/watch?v=jtqfYE4zZuw
 - 메모: 공식 업로드(YouTube) 기반.

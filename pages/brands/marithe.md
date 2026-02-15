@@ -19,7 +19,7 @@
 
 ## 관련 링크(자동 후보)
 
-- [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)  _(출처: interviews.md)_
+- [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)  _(출처: interviews.md)_ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung | https://www.idaegu.com/news/articleView.html?idxno=381461 | https://theviewers.co.kr/View.aspx?No=3972476 | https://sports.donga.com/ent/article/all/20251030/132665690/1 | https://www.peoplegate.co.kr/2025/09/marithefranois-girbaud-25_10.html -->
 
 - [SK텔레콤(SK Telecom)](https://www.idaegu.com/news/articleView.html?idxno=381461)  _(출처: endorsements/fashion.md)_
 
@@ -35,5 +35,5 @@
 
 - [고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼](http://www.breaknews.com/935054)  _(출처: pictorials/editorial.md)_
 
-- [마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)](https://youtu.be/76aAMPpCTb4)  _(출처: pictorials/campaign.md)_
+- [마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)](https://youtu.be/76aAMPpCTb4)  _(출처: pictorials/campaign.md)_ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung | https://www.idaegu.com/news/articleView.html?idxno=381461 | https://theviewers.co.kr/View.aspx?No=3972476 | https://sports.donga.com/ent/article/all/20251030/132665690/1 | https://www.peoplegate.co.kr/2025/09/marithefranois-girbaud-25_10.html -->
 <!-- AUTO-CANDIDATES:END -->

@@ -30,6 +30,7 @@
 - 제목: 마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+
 - 플랫폼/채널: Disney Plus Korea (YouTube)
 - 링크(공식): https://www.youtube.com/watch?v=wZR6s3rB6tk
+- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung
 - 상태: 공식확정
 - id: https://www.youtube.com/watch?v=wZR6s3rB6tk
 

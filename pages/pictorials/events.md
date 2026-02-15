@@ -53,6 +53,7 @@
 - 행사명: 유 퀴즈 온 더 블럭 — 고윤정 출연 하이라이트(공식 업로드)
 - 주최/플랫폼: tvN (YouTube)
 - 링크(공식/원문): https://www.youtube.com/watch?v=TiTWX_KfEc0
+- 대체 근거(열리는 링크): https://kstar.kbs.co.kr/list_view.html?idx=389107, https://kstar.kbs.co.kr/list_view.html?idx=391146, https://kstar.kbs.co.kr/list_view.html?idx=391253, https://star.ytn.co.kr/_sn/0117_202505091128555812, https://kstar.kbs.co.kr/list_view.html?idx=361830
 - 상태: 공식확정
 - id: https://www.youtube.com/watch?v=TiTWX_KfEc0
 - 메모: 출연 하이라이트 영상. (사진보다는 영상)

@@ -12,7 +12,7 @@
 
 ## 관련 링크
 - 공식 페이지(tvN): https://tvn.cjenm.com/ko/heispsychometric/
-- TVING 다시보기: https://www.tving.com/contents/P000820341
+- TVING 다시보기: https://www.tving.com/contents/P000820341 <!-- ALT-PROOF: https://tvn.cjenm.com/ko/heispsychometric/ | https://tvn.cjenm.com/ko/heispsychometric/video/ | https://maa.co.kr/artists/go-younjung -->
 
 ## 공식 링크
 - https://tvn.cjenm.com/ko/heispsychometric/
@@ -31,7 +31,7 @@
 ## 링크 박스
 - 방송 정보(공식, tvN DRAMA / YouTube): https://www.youtube.com/watch?v=JEnAnsSdLbQ
 - 공식 페이지(tvN): https://tvn.cjenm.com/ko/heispsychometric/
-- 다시보기/정보(TVING): https://www.tving.com/contents/P000820341
+- 다시보기/정보(TVING): https://www.tving.com/contents/P000820341 <!-- ALT-PROOF: https://tvn.cjenm.com/ko/heispsychometric/ | https://tvn.cjenm.com/ko/heispsychometric/video/ | https://maa.co.kr/artists/go-younjung -->
 - 예고편/클립(공식, tvN): https://tvn.cjenm.com/ko/heispsychometric/video/
 
 ## 출처

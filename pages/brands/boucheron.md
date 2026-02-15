@@ -8,7 +8,7 @@
 
 - (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
-- (A/S) https://www.boucheron.com/
+- (A/S) https://www.boucheron.com/ <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung | https://www.idaegu.com/news/articleView.html?idxno=381461 | https://www.rnx.kr/news/articleView.html?idxno=335348 | https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/ -->
 
 
 ## 출처

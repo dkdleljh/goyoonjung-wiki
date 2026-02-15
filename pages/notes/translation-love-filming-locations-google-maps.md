@@ -2,7 +2,7 @@
 
 
 ## 공식 링크
-- (S) 작품 공식 페이지(Netflix): https://www.netflix.com/kr/title/81697769
+- (S) 작품 공식 페이지(Netflix): https://www.netflix.com/kr/title/81697769 <!-- ALT-PROOF: https://ys-dl.tistory.com/entry/%EC%9D%B4-%EC%82%AC%EB%9E%91-%ED%86%B5%EC%97%AD%EB%90%98%EB%82%98%EC%9A%94-%EC%B4%AC%EC%98%81%EC%A7%80-36%EA%B3%B3%EC%9D%84-%EC%95%8C%EB%A0%A4%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%A4%91 | https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EB%84%A5%EC%8B%A0%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%A7%88%EA%B3%A1%EC%A4%91%EC%95%99%EB%A1%9C%20172%20%EB%A7%88%EA%B3%A1%EB%82%98%EB%A3%A8%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC | https://www.google.com/maps/search/?api=1&query=37.5962144%2C126.9391908 | https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EC%9C%84%EC%8A%A4%EA%B7%B8%EB%9E%9C%EB%93%9C%ED%98%B8%ED%85%94%20%EC%84%9C%EC%9A%B8%20%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EC%97%B0%ED%9D%AC%EB%A1%9C%20353%20%ED%99%8D%EC%A0%9C%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC -->
 - (S) Netflix Korea 공식 티저/예고편(예시): https://www.youtube.com/watch?v=IIHQ1Z2yu80
 
 ## 출처

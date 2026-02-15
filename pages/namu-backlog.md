@@ -5,7 +5,7 @@
 - (S) 소속사(MAA) 프로필(확정 기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
-- (B) 나무위키(누락 탐지용, 확정 근거로 사용 금지): https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95
+- (B) 나무위키(누락 탐지용, 확정 근거로 사용 금지): https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 - (정책) docs/editorial_policy.md
 
 

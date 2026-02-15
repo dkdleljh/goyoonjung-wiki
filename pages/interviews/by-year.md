@@ -9,7 +9,7 @@
 - 2026-02-08 · [[비즈 스타] '이 사랑 통역 되나요?' 고윤정, '얼굴 천재' 넘어 '믿보배'로](http://enter.etoday.co.kr/news/view/292714)
 - 2026-01-29 · [[인터뷰] '이 사랑 통역 되나요?' 고윤정이 탐색한 감정의 언어](https://www.sisaweek.com/news/articleView.html?idxno=233219)
 - 2026-01-28 · [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)
-- 2026-01-28 · [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970)
+- 2026-01-28 · [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970) <!-- ALT-PROOF: http://enter.etoday.co.kr/news/view/292714 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://www.kgmail.kr/news/articleView.html?idxno=601718 -->
 - 2026-01-27 · [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)
 - 2026-01-25 · [고윤정 "동화 속 주인공 된 기분이었죠"](https://www.kgmail.kr/news/articleView.html?idxno=601718)
 - 2026-01-24 · [[인터뷰] 고윤정 "동화 속 주인공 된 기분이었죠"](https://www.newsis.com/view/NISX20260123_0003488532)
@@ -27,7 +27,7 @@
 - 2025-05-21 · [고윤정, 오이영으로 한 뼘 더 성장](https://kstar.kbs.co.kr/list_view.html?idx=363033)
 - 2025-05-20 · ['의사 오이영' 고윤정, “매 순간 값지고 소중했던 작품](https://kstar.kbs.co.kr/list_view.html?idx=362920)
 - 2025-04-17 · [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)
-- 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)
+- 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975) <!-- ALT-PROOF: http://enter.etoday.co.kr/news/view/292714 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://www.kgmail.kr/news/articleView.html?idxno=601718 -->
 
 ## 2024
 - 2024-07 · [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)
@@ -56,7 +56,7 @@
 
 ## 2020
 - 2020-11-30 · [YTN 라디오 생생경제 인터뷰](https://m.radio.ytn.co.kr/interview_view.php?id=73903&s_mcd=0206)
-- 2020-10-09 · [정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"](https://www.yna.co.kr/view/AKR20201009055300005)
+- 2020-10-09 · [정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"](https://www.yna.co.kr/view/AKR20201009055300005) <!-- ALT-PROOF: https://www.elle.co.kr/article/1880222 | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.mk.co.kr/news/hot-issues/10994612 | https://www.newstomato.com/ReadNews.aspx?no=1199951 | https://v.daum.net/v/XbouMZUNSZ -->
 - 2020-09-24 · ["'보건교사 안은영'은 선의와 친절에 관한 이야기"](https://m.news.zum.com/articles/63011527)
 
 ---
