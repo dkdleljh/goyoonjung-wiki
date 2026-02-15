@@ -45,8 +45,9 @@
 - 메모: 공식 업로드(YouTube) 기반.
 
 ## 공식 링크
-- (추가 필요)
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- (S/A) 각 항목의 공식 MV 원문 URL(YouTube/공식 채널)
+- 정책: docs/editorial_policy.md
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T23:09:16.869728",
+  "generated_at": "2026-02-15T23:10:18.295275",
   "total_pages": 75,
   "items": [
     {
@@ -43,26 +43,6 @@
       "priority_score": 20
     },
     {
-      "path": "pages/magazines/bazaar.md",
-      "group": "magazines",
-      "title": "🧾 Harper's BAZAAR Korea",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
-      "path": "pages/videos/mv.md",
-      "group": "videos",
-      "title": "뮤직비디오 출연 (공식 MV)",
-      "url_count": 2,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 2,
-      "priority_score": 10
-    },
-    {
       "path": "pages/appearances/by-year.md",
       "group": "appearances",
       "title": "출연/행사 — 연도별 인덱스",
@@ -95,7 +75,7 @@
     {
       "path": "pages/brands/boucheron.md",
       "group": "brands",
-      "title": "🧾 Boucheron",
+      "title": "Boucheron",
       "url_count": 4,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -105,7 +85,7 @@
     {
       "path": "pages/brands/carrot.md",
       "group": "brands",
-      "title": "🧾 Carrot",
+      "title": "Carrot",
       "url_count": 2,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -116,7 +96,7 @@
       "path": "pages/brands/chanel.md",
       "group": "brands",
       "title": "CHANEL",
-      "url_count": 10,
+      "url_count": 9,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -125,7 +105,7 @@
     {
       "path": "pages/brands/discovery.md",
       "group": "brands",
-      "title": "🧾 Discovery Expedition",
+      "title": "Discovery Expedition",
       "url_count": 3,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -135,7 +115,7 @@
     {
       "path": "pages/brands/goodal.md",
       "group": "brands",
-      "title": "🧾 goodal",
+      "title": "goodal",
       "url_count": 3,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -155,7 +135,7 @@
     {
       "path": "pages/brands/lensme.md",
       "group": "brands",
-      "title": "🧾 LENSME",
+      "title": "LENSME",
       "url_count": 4,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -165,7 +145,7 @@
     {
       "path": "pages/brands/marithe.md",
       "group": "brands",
-      "title": "🧾 MARITHÉ FRANÇOIS GIRBAUD",
+      "title": "MARITHÉ FRANÇOIS GIRBAUD",
       "url_count": 2,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -175,7 +155,7 @@
     {
       "path": "pages/brands/puradak.md",
       "group": "brands",
-      "title": "🧾 PURADAK",
+      "title": "PURADAK",
       "url_count": 3,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -185,7 +165,7 @@
     {
       "path": "pages/brands/vodana.md",
       "group": "brands",
-      "title": "🧾 VODANA",
+      "title": "VODANA",
       "url_count": 4,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -323,10 +303,20 @@
       "priority_score": 0
     },
     {
+      "path": "pages/magazines/bazaar.md",
+      "group": "magazines",
+      "title": "Harper's BAZAAR Korea",
+      "url_count": 3,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
       "path": "pages/magazines/cosmopolitan.md",
       "group": "magazines",
-      "title": "🧾 Cosmopolitan Korea",
-      "url_count": 2,
+      "title": "Cosmopolitan Korea",
+      "url_count": 3,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -345,8 +335,8 @@
     {
       "path": "pages/magazines/esquire.md",
       "group": "magazines",
-      "title": "🧾 Esquire Korea",
-      "url_count": 2,
+      "title": "Esquire Korea",
+      "url_count": 3,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -355,8 +345,8 @@
     {
       "path": "pages/magazines/gq.md",
       "group": "magazines",
-      "title": "🧾 GQ Korea",
-      "url_count": 2,
+      "title": "GQ Korea",
+      "url_count": 3,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -395,8 +385,8 @@
     {
       "path": "pages/magazines/wkorea.md",
       "group": "magazines",
-      "title": "🧾 W Korea",
-      "url_count": 2,
+      "title": "W Korea",
+      "url_count": 3,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -607,6 +597,16 @@
       "group": "timeline.md",
       "title": "Activity Timeline",
       "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/videos/mv.md",
+      "group": "videos",
+      "title": "뮤직비디오 출연 (공식 MV)",
+      "url_count": 3,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,

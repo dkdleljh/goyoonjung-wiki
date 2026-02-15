@@ -196,7 +196,9 @@ def update_page(page: Path, title: str, items):
     new_urls = [u for _, _, u in cleaned]
     old_urls = existing_urls_in_auto_block(txt)
     if old_urls is not None and old_urls == new_urls:
-        return False
+        # Still rewrite if the page lacks required meta sections or contains placeholders.
+        if ("## 공식 링크" in txt) and ("추가 필요" not in txt) and (MAA_PROFILE in txt):
+            return False
 
     rel_page = str(page.relative_to(PAGES))
     official_links = OFFICIAL_LINKS_BY_PAGE.get(rel_page, [])

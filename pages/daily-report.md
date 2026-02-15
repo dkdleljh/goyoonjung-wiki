@@ -1,70 +1,27 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-15 23:05 (Asia/Seoul)
+> 갱신: 2026-02-15 23:14 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- dda82e0 2026-02-15 22:53:53 +0900 daily: update 2026-02-15
+- d468990 2026-02-15 23:09:28 +0900 daily: auto-update 2026-02-15
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - data/content_gaps.json
 - news/2026-02-15.md
-- pages/brands/boucheron.md
-- pages/brands/carrot.md
-- pages/brands/chanel.md
-- pages/brands/discovery.md
-- pages/brands/goodal.md
-- pages/brands/index.md
-- pages/brands/lensme.md
-- pages/brands/marithe.md
-- pages/brands/puradak.md
-- pages/brands/vodana.md
 - pages/content-gaps.md
-- pages/daily-report.md
-- pages/endorsements/beauty.md
-- pages/endorsements/fashion.md
-- pages/endorsements/index.md
-- pages/endorsements/lifestyle.md
-- pages/interviews/by-year.md
-- pages/link-health.md
-- pages/magazines/bazaar.md
-- pages/magazines/cosmopolitan.md
-- pages/magazines/elle.md
-- pages/magazines/esquire.md
-- pages/magazines/gq.md
-- pages/magazines/index.md
-- pages/magazines/marieclaire.md
-- pages/magazines/vogue.md
-- pages/magazines/wkorea.md
+- pages/endorsements/by-year.md
 - pages/pictorials/campaign.md
 - pages/pictorials/cover.md
 - pages/pictorials/editorial.md
 - pages/pictorials/events.md
-- pages/pictorials/index.md
 - pages/pictorials/making.md
 - pages/pictorials/stills-posters.md
-- pages/progress.md
-- pages/quality-report.md
 - pages/system_status.md
-- pages/videos/mv.md
-- pages/videos/ost-promo.md
-- pages/works/alchemy-of-souls.md
 - pages/works/by-year.md
-- pages/works/can-this-love-be-translated.md
-- pages/works/deaths-game.md
-- pages/works/he-is-psychometric.md
-- pages/works/hunt.md
-- pages/works/law-school.md
-- pages/works/light-shop.md
-- pages/works/moving.md
-- pages/works/resident-playbook.md
-- pages/works/sweethome.md
-- pages/works/the-school-nurse-files.md
-- scripts/audit_content_gaps.py
-- scripts/autofill_official_links.py
-- scripts/ensure_required_sections.py
-- sources/awards-official.md
+- scripts/rebuild_endorsements_year_index.py
+- scripts/rebuild_works_year_index.py
 
 ## 3) 오늘 실행 상태(news/2026-02-15.md)
 
@@ -92,7 +49,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-15 22:58 (Asia/Seoul)
+- 실행: 2026-02-15 23:09 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -100,6 +57,10 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 ## 실행 이력
 
+- 2026-02-15 23:09 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-15 23:08 (Asia/Seoul) · 실패 · sync: pull/rebase failed (manual resolve needed)
+- 2026-02-15 23:06 (Asia/Seoul) · 실패 · sync: pull/rebase failed (manual resolve needed)
+- 2026-02-15 23:05 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-15_0016.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-15 22:58 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-15 22:53 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-15_0016.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-15 22:48 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -184,10 +145,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-15 14:42 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-15_0016.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-15 14:34 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-15 14:28 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-15_0016.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-15 14:20 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-15 14:14 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-15_0016.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-15 14:06 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-15 14:00 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-15_0016.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 
 ## 4) 권장 체크
 
