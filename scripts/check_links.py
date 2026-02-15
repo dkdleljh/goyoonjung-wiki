@@ -56,7 +56,13 @@ SKIP_DOMAINS = (
     "vodana.co.kr",
     "lensme.co.kr",
     "easytomorrow.co.kr",
+
+    # Often blocks automated requests (keeps link-health clean; treat as ok+note)
+    "namu.wiki",
+    "nc.press",
+    "kstarfashion.com",
 )
+
 
 
 @dataclass(frozen=True)
