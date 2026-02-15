@@ -272,9 +272,9 @@ def main():
         backup_path, created = manager.create_incremental_backup()
         if created:
             logger.info(f"Backup created: {backup_path}")
-            
-            if args.upload-github:
-                logger.info(f"Uploading to GitHub Releases...")
+
+            if args.upload_github:
+                logger.info("Uploading to GitHub Releases...")
                 manager.upload_to_github_releases(
                     backup_path,
                     github_token=os.environ.get("GITHUB_TOKEN"),
