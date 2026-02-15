@@ -58,10 +58,11 @@
 - 제목: 디즈니+ 오리지널 <무빙> 공개
 - 링크(공식/원문): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
 
-- 날짜/시간: 2022-12-10
+- 날짜/시간: 2022-12-10 21:10
 - 구분: 공개/방영
 - 제목: tvN 드라마 <환혼: 빛과 그림자> 첫 방송
-- 링크(공식/원문): https://tvn.cjenm.com/ko/alchemyofsouls/
+- 링크(공식/원문): https://www.youtube.com/watch?v=tYTPRqjgCzs
+- 메모: tvN DRAMA(공식) 영상 설명란에 “12/10 [토] 밤 9:10 … 첫 방송” 표기.
 
 - 날짜/시간: 2022-08-10
 - 구분: 개봉
@@ -69,10 +70,11 @@
 - 링크(공식/원문): https://www.youtube.com/watch?v=CSOb8gia_mg
 - 메모: 배급사(플러스엠 엔터테인먼트) 공식 예고편 설명란에 “8월10일 대개봉” 표기.
 
-- 날짜/시간: 2022-06-18
+- 날짜/시간: 2022-06-18 21:10
 - 구분: 공개/방영
 - 제목: tvN 드라마 <환혼> (Part 1) 첫 방송
-- 링크(공식/원문): https://tvn.cjenm.com/ko/hhw1_test/
+- 링크(공식/원문): https://www.youtube.com/watch?v=z8x19hQejYo
+- 메모: tvN DRAMA(공식) 티저 설명란에 “6/18 [토] 밤 9:10 첫 방송” 표기.
 
 - 날짜/시간: 2021-04-14 21:00
 - 구분: 공개/방영
@@ -92,10 +94,11 @@
 - 링크(공식/원문): https://www.youtube.com/watch?v=Nc2t2oCMkxU
 - 메모: Netflix Korea 공식 채널 예고편 설명란에 “9월 25일, 오직 넷플릭스에서” 표기.
 
-- 날짜/시간: 2019-03-11
+- 날짜/시간: 2019-03-11 21:30
 - 구분: 공개/방영
 - 제목: tvN 드라마 <사이코메트리 그녀석> 첫 방송
-- 링크(공식/원문): https://tvn.cjenm.com/ko/heispsychometric/
+- 링크(공식/원문): https://www.youtube.com/watch?v=JEnAnsSdLbQ
+- 메모: tvN DRAMA(공식) 영상 설명란에 “2019년 3월 11일 첫 방송 / 매주 월화 밤 9시 30분 방송” 표기.
 
 ---
 

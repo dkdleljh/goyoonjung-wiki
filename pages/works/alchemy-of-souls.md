@@ -6,6 +6,8 @@
 - 작품: 환혼: 빛과 그림자
 - 방송사: tvN
 - 고윤정 역할: 진부연 / 낙수
+- Part 1 첫 방송: 2022-06-18 21:10 (근거: tvN DRAMA 공식 티저)
+- Part 2 첫 방송: 2022-12-10 21:10 (근거: tvN DRAMA 공식 영상)
 
 ## 공식 소개(요약)
 - tvN 공식 사이트에서 프로그램/콘텐츠(미리보기, 인물 소개, 동영상 등)를 제공.
@@ -54,5 +56,8 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 공식 페이지: https://tvn.cjenm.com/ko/alchemyofsouls/
+- Part 1 방송 정보(공식, tvN DRAMA / YouTube): https://www.youtube.com/watch?v=z8x19hQejYo
+- Part 2 방송 정보(공식, tvN DRAMA / YouTube): https://www.youtube.com/watch?v=tYTPRqjgCzs
+- 공식 페이지(tvN, Part 2: 빛과 그림자): https://tvn.cjenm.com/ko/alchemyofsouls/
+- 공식 페이지(tvN, Part 1: 환혼): https://tvn.cjenm.com/ko/hhw1_test/
 - 다시보기/정보(TVING): http://program.tving.com/tvn/alchemyofsouls/
