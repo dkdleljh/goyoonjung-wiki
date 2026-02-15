@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-02-15 11:52 (Asia/Seoul) · 대상 URL: 269 (최대 700)
+> 갱신: 2026-02-15 12:05 (Asia/Seoul) · 대상 URL: 272 (최대 700)
 
-- OK: **226** / WARN: **43** / BAD: **0**
+- OK: **226** / WARN: **46** / BAD: **0**
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
 
@@ -53,3 +53,6 @@
 - (-) https://www.youtube.com/watch?v=IIHQ1Z2yu80 · skipped (heavy domain)
 - (-) https://www.youtube.com/watch?v=SIKJWldJHTU · skipped (heavy domain)
 - (-) https://www.youtube.com/watch?v=xLhmKJx7mE0 · skipped (heavy domain)
+- (-) https://www.youtube.com/watch?v=tYTPRqjgCzs · skipped (heavy domain)
+- (-) https://www.youtube.com/watch?v=z8x19hQejYo · skipped (heavy domain)
+- (-) https://www.youtube.com/watch?v=JEnAnsSdLbQ · skipped (heavy domain)
