@@ -14,7 +14,7 @@
 - 메인 인덱스(한국어) → [`index.md`](index.md)
 - Main index (English) → [`index.en.md`](index.en.md)
 - 최근 7일 요약 → [`news/README.md`](news/README.md)
-- 오늘 로그 → [`news/2026-02-14.md`](news/2026-02-14.md)
+- 오늘 로그 → [`news/2026-02-15.md`](news/2026-02-15.md)
 - 오늘 리포트 → [`pages/daily-report.md`](pages/daily-report.md)
 
 ---

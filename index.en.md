@@ -24,7 +24,7 @@ This wiki is a link-first (copyright-safe) archive of works, pictorials, endorse
 <!-- AUTO-FIXED-LEAD:END -->
 ## 0) 30-second guide (recommended path)
 - Need the “map” first → **Hub (portal)**: [`pages/hub.md`](pages/hub.md)
-- Want to see what changed today → **Today’s log**: [`news/2026-02-14.md`](news/2026-02-14.md)
+- Want to see what changed today → **Today’s log**: [`news/2026-02-15.md`](news/2026-02-15.md)
 - Want to see what is still incomplete → **Quality/Lint reports**: [`pages/quality-report.md`](pages/quality-report.md), [`pages/lint-report.md`](pages/lint-report.md)
 
 ---

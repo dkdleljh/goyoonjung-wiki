@@ -26,7 +26,7 @@
 <!-- AUTO-FIXED-LEAD:END -->
 ## 0) 시작 30초 가이드 (추천 동선)
 - “전체 지도”가 필요하다 → **허브(포털)**: [`pages/hub.md`](pages/hub.md)
-- “오늘 무슨 업데이트가 있었나” → **오늘 로그**: [`news/2026-02-14.md`](news/2026-02-14.md)
+- “오늘 무슨 업데이트가 있었나” → **오늘 로그**: [`news/2026-02-15.md`](news/2026-02-15.md)
 - “어디가 아직 미완성인가” → **품질/린트 리포트**: [`pages/quality-report.md`](pages/quality-report.md), [`pages/lint-report.md`](pages/lint-report.md)
 
 ---

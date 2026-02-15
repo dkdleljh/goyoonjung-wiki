@@ -40,12 +40,14 @@ def update_index_md(path: str, ymd: str) -> bool:
     # KR
     s2 = re.sub(r"^- 마지막 업데이트:\s*\*\*(\d{4}-\d{2}-\d{2})\*\*\s*$", f"- 마지막 업데이트: **{ymd}**", s2, flags=re.M)
 
-    # Any '- 오늘 로그...' line that links to news/YYYY-MM-DD.md
+    # Any line that contains an inline link to today's news file.
+    # Handles both:
+    # - 오늘 로그(자동...): [`news/YYYY-MM-DD.md`](news/YYYY-MM-DD.md)
+    # - “오늘 무슨 업데이트...” → **오늘 로그**: [`news/YYYY-MM-DD.md`](news/YYYY-MM-DD.md)
     s2 = re.sub(
-        r"^(-\s*오늘\s*로그[^:]*:\s*\[`news/)(\d{4}-\d{2}-\d{2})(\.md`\]\(news/)\2(\.md\)\s*)$",
+        r"(\[`news/)(\d{4}-\d{2}-\d{2})(\.md`\]\(news/)\2(\.md\))",
         rf"\g<1>{ymd}\g<3>{ymd}\g<4>",
         s2,
-        flags=re.M,
     )
 
     # EN

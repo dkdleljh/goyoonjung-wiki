@@ -41,8 +41,9 @@ def update_readme(path: str, ymd: str) -> bool:
     s2 = s
 
     # Quick Links: make '오늘 로그' point to today's file
+    # Accept either template or an existing dated link.
     s2 = re.sub(
-        r"^(-\s*오늘\s*로그\s*→)\s*`news/YYYY-MM-DD\.md`\s*$",
+        r"^(-\s*오늘\s*로그\s*→)\s*(?:`news/YYYY-MM-DD\.md`|\[`news/\d{4}-\d{2}-\d{2}\.md`\]\(news/\d{4}-\d{2}-\d{2}\.md\))\s*$",
         rf"\g<1> [`news/{ymd}.md`](news/{ymd}.md)",
         s2,
         flags=re.M,
