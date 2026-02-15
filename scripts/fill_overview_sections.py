@@ -71,52 +71,52 @@ DATA: dict[str, dict[str, str]] = {
     },
     "pages/profile.md": {
         "summary": "공식/검증 가능한 근거로 고윤정의 핵심 프로필 정보를 유지하는 페이지입니다.",
-        "links": "소속사(MAA) https://maa.co.kr/artists/go-younjung · 필모(pages/filmography.md) · 타임라인(pages/timeline.md)",
+        "links": "[소속사(MAA)](https://maa.co.kr/artists/go-younjung) · [필모](pages/filmography.md) · [타임라인](pages/timeline.md)",
         "status": "S/A 우선(일부 항목은 보조 참고로 분리 운영)",
     },
     "pages/filmography.md": {
         "summary": "작품 축(드라마/시리즈 중심)을 공식 링크 기반으로 정리한 표입니다.",
-        "links": "소속사(MAA) https://maa.co.kr/artists/go-younjung · 작품별(pages/works/*.md) · 타임라인(pages/timeline.md)",
+        "links": "[소속사(MAA)](https://maa.co.kr/artists/go-younjung) · 작품별(pages/works/*.md) · [타임라인](pages/timeline.md)",
         "status": "S/A 우선(플랫폼/방송사 링크 보강 지속)",
     },
     "pages/awards.md": {
         "summary": "수상/노미네이트를 공식 근거로 승격해 나가는 페이지입니다.",
-        "links": "블루드래곤시리즈어워즈(공식) · 타임라인(pages/timeline.md)",
+        "links": "블루드래곤시리즈어워즈(공식) · [타임라인](pages/timeline.md)",
         "status": "승격형(S/A 확보 시 확정) · 루머/추측 배제",
     },
     "pages/timeline.md": {
         "summary": "연도 흐름으로 작품/행사/인터뷰/화보를 빠르게 훑는 타임라인입니다(자동 생성 포함).",
-        "links": "필모(pages/filmography.md) · 인터뷰(pages/interviews/by-year.md) · 화보(pages/pictorials/by-year.md)",
+        "links": "[필모](pages/filmography.md) · [인터뷰(연도별)](pages/interviews/by-year.md) · [화보(연도별)](pages/pictorials/by-year.md)",
         "status": "자동 생성(덮어쓰기) + 공식 링크/출처 섹션 포함",
     },
     "pages/works-characters.md": {
         "summary": "작품별로 캐릭터/링크를 묶어 보는 탐색 페이지입니다.",
-        "links": "작품 인덱스(pages/works/by-year.md) · 각 작품(pages/works/*.md)",
+        "links": "[작품 인덱스(연도별)](pages/works/by-year.md) · 각 작품(pages/works/*.md)",
         "status": "탐색용(링크 박스는 공식 근거 중심으로 보강)",
     },
     "pages/pictorials.md": {
         "summary": "화보/커버/캠페인/메이킹/행사 사진 링크를 카테고리별로 모은 목차입니다.",
-        "links": "연도별(pages/pictorials/by-year.md) · 커버(pages/pictorials/cover.md) · 에디토리얼(pages/pictorials/editorial.md)",
+        "links": "[연도별](pages/pictorials/by-year.md) · [커버](pages/pictorials/cover.md) · [에디토리얼](pages/pictorials/editorial.md)",
         "status": "링크 아카이브(이미지 저장/재배포 금지) · 공식/원문 우선",
     },
     "pages/endorsements.md": {
         "summary": "광고/엠버서더(브랜드/캠페인) 링크를 카테고리·연도별로 정리합니다.",
-        "links": "연도별(pages/endorsements/by-year.md) · 뷰티/패션/라이프(pages/endorsements/*)",
+        "links": "[연도별](pages/endorsements/by-year.md) · 뷰티/패션/라이프(pages/endorsements/*)",
         "status": "링크 아카이브(공식/원문 우선) · 날짜/근거 자동 보강",
     },
     "pages/interviews.md": {
         "summary": "인터뷰/기사 원문 링크 + 짧은 요약(3~5줄)로 누적하는 아카이브입니다.",
-        "links": "연도별(pages/interviews/by-year.md) · 허브(pages/hub.md)",
+        "links": "[연도별](pages/interviews/by-year.md) · [허브](pages/hub.md)",
         "status": "원문 링크 기반(저작권 안전) · 요약/키워드 지속 보강",
     },
     "pages/appearances.md": {
         "summary": "방송/예능/제작발표회/시사회 등 출연·행사 기록을 링크로 누적합니다.",
-        "links": "연도별(pages/appearances/by-year.md) · 타임라인(pages/timeline.md)",
+        "links": "[연도별](pages/appearances/by-year.md) · [타임라인](pages/timeline.md)",
         "status": "공식/원문 근거 우선 · 행사/프로그램 단위로 누적",
     },
     "pages/sns.md": {
         "summary": "공식 채널(소속사/작품/플랫폼 등)로 연결되는 SNS/영상 링크 허브입니다.",
-        "links": "MAA(소속사) · 공식 YouTube/Instagram(가능한 범위) · 타임라인(pages/timeline.md)",
+        "links": "[MAA(소속사)](https://maa.co.kr/artists/go-younjung) · 공식 YouTube/Instagram(가능한 범위) · [타임라인](pages/timeline.md)",
         "status": "공식 채널 우선(차단 도메인은 대체 1차 근거 병기)",
     },
     "pages/schedule.md": {
