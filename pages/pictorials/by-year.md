@@ -10,6 +10,8 @@
 - 2026-01-27 · [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)
 - 2026-01-14 · [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)
 - 2026-01-05 · [넷플릭스 <이 사랑 통역 되나요?> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=389107)
+- 2026-01 · ['이사통' 김선호 "고윤정과 온도·결 잘 맞아..행운 따른 작품"](https://www.asiaartistawards.com/news/detail/167018/all)
+- 2026-01 · ['언슬전' 고윤정 "데뷔 후 처음 푹 쉬는 중"](https://www.asiaartistawards.com/news/detail/129994/all)
 
 ## 2025
 - 2025-12-11 · [<이 사랑 통역 되나요?> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=387125)

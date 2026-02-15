@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-15 23:38 (Asia/Seoul)
+> 갱신: 2026-02-15 23:58 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -20,8 +20,8 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
-- (후보 없음)
+- [<헌트>로 스크린에 데뷔하는 고윤정이 현장에서 가장 듣고 싶은 칭찬은?](https://www.esquirekorea.co.kr/article/68124)  _(출처: interviews.md)_
 <!-- AUTO-CANDIDATES:END -->
+

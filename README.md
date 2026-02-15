@@ -43,7 +43,7 @@
 - 메인 인덱스(한국어) → [`index.md`](index.md)
 - Main index (English) → [`index.en.md`](index.en.md)
 - 최근 7일 요약 → [`news/README.md`](news/README.md)
-- 오늘 로그 → [`news/2026-02-15.md`](news/2026-02-15.md)
+- 오늘 로그 → [`news/2026-02-16.md`](news/2026-02-16.md)
 - 오늘 리포트 → [`pages/daily-report.md`](pages/daily-report.md)
 
 ---
@@ -56,7 +56,7 @@
 - **허브(포털, 추천)**: [`pages/hub.md`](pages/hub.md)  /  (EN) [`pages/hub.en.md`](pages/hub.en.md)
 - **메인 요약/바로가기**: [`index.md`](index.md) / [`index.en.md`](index.en.md)
 - **최근 7일 요약**: [`news/README.md`](news/README.md)
-- **오늘 로그(자동 실행/결과)**: `news/YYYY-MM-DD.md` (예: [`news/2026-02-15.md`](news/2026-02-15.md))
+- **오늘 로그(자동 실행/결과)**: `news/YYYY-MM-DD.md` (예: [`news/2026-02-16.md`](news/2026-02-16.md))
 
 > 팁: GitHub에서 `/` 키를 누르면 파일 검색이 열립니다. `hub.md`로 바로 점프하면 편합니다.
 

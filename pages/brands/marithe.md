@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-15 23:49 (Asia/Seoul)
+> 갱신: 2026-02-15 23:58 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -16,12 +16,14 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
 - [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)  _(출처: interviews.md)_
 
-- [마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)](https://youtu.be/76aAMPpCTb4)  _(출처: endorsements/fashion.md)_
+- [SK텔레콤(SK Telecom)](https://www.idaegu.com/news/articleView.html?idxno=381461)  _(출처: endorsements/fashion.md)_
 
 - [고윤정, 사랑스러운 매력 뽐내는 화보 공개](https://fashionseoul.com/224549)  _(출처: pictorials/editorial.md)_
+
+- [마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)](https://youtu.be/76aAMPpCTb4)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
+

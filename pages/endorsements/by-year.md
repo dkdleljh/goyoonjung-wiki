@@ -25,6 +25,9 @@
 - [라타플랑(RATAPLAN)](https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157) — 뮤즈
 - [마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)](https://youtu.be/76aAMPpCTb4) — 뮤즈
 
+## 2019
+- [SK텔레콤(SK Telecom)](https://www.idaegu.com/news/articleView.html?idxno=381461) — 모델
+
 ---
 ※ 이 페이지는 자동 생성됩니다. 원문은 각 카테고리 파일을 수정하세요.
 
