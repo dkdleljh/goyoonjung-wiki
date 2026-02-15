@@ -159,6 +159,15 @@
 - 상태: 공식확정
 - id: https://www.nc.press/news/articleView.html?idx=561975
 
+- 날짜: 2024-04-20
+- 매체: ELLE Korea x RYO
+- 구분: 화보/캠페인
+- 제목: 고윤정, 순수한 아름다움으로 완성한 봄의 전언
+- 링크(원문): https://slv.kstarfashion.com/news/articleView.html?idxno=214777
+- 상태: 공식확정
+- id: https://slv.kstarfashion.com/news/articleView.html?idxno=214777
+- 비고: ELLE D Edition 디지털 커버, 여성 맞춤형 탈모 케어 브랜드 RYO 협업
+
 - 날짜: 2024-04-19
 - 매체: ELLE Korea
 - 구분: 화보/인터뷰
@@ -177,6 +186,24 @@
 - id: https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 
 ## 2023
+
+- 날짜: 2023-10-26
+- 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
+- 구분: 화보/캠페인
+- 제목: 고윤정, 확신의 겨울 쿨톤[화보]
+- 링크(원문): https://news.nate.com/view/20231026n28152
+- 상태: 공식확정
+- id: https://news.nate.com/view/20231026n28152
+- 비고: 2023 겨울 캠페인, 'COOL & COMFY' 콘셉트
+
+- 날짜: 2023-02-02
+- 매체: ELLE Korea x DIOR
+- 구분: 화보/캠페인
+- 제목: 디올 X 고윤정, '청순+고혹美' 화보 공개
+- 링크(원문): https://www.gpkorea.com/news/articleView.html?idxno=97354
+- 상태: 공식확정
+- id: https://www.gpkorea.com/news/articleView.html?idxno=97354
+- 비고: DIOR 크루즈 23 컬렉션 화보
 
 - 날짜: 2023-02-09
 - 매체: 패션서울 (Fashion Seoul)
@@ -197,6 +224,24 @@
 - 비고: 무빙 관련 화보
 
 ## 2022
+- 날짜: 2022-12-12
+- 매체: 부쉐론 (Boucheron)
+- 구분: 화보/캠페인
+- 제목: 배우 고윤정, 부쉐론과 함께한 'EOY 캠페인' 홀리데이 화보 공개
+- 링크(원문): https://www.rnx.kr/news/articleView.html?idxno=335348
+- 상태: 공식확정
+- id: https://www.rnx.kr/news/articleView.html?idxno=335348
+- 비고: EOY 홀리데이 캠페인
+
+- 날짜: 2022-11-22
+- 매체: Vogue Korea x 마리떼 프랑소와 저버
+- 구분: 화보
+- 제목: 고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼
+- 링크(원문): http://www.breaknews.com/935054
+- 상태: 공식확정
+- id: http://www.breaknews.com/935054
+- 비고: Vogue Korea 12월호, 'One Fine Day' 콘셉트
+
 - 날짜: 2022-02-21
 - 매체: Vogue Korea (보그 코리아)
 - 구분: 화보(프로모션)
@@ -214,6 +259,15 @@
 - id: https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/
 
 ## 2021
+- 날짜: 2021-04-30
+- 매체: W 코리아 (W Korea)
+- 구분: 디지털 화보
+- 제목: 고윤정, 톰 포드 향수와 함께한 '더블유 코리아' 디지털 화보 공개
+- 링크(원문): https://www.insight.co.kr/news/336193
+- 상태: 공식확정
+- id: https://www.insight.co.kr/news/336193
+- 비고: 톰포드 뷰티 향수 디지털 화보
+
 - 날짜: 2021-02-17
 - 매체: Vogue Korea (보그 코리아)
 - 구분: 인터뷰/화보
