@@ -23,6 +23,8 @@ from zoneinfo import ZoneInfo
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 TZ = ZoneInfo("Asia/Seoul")
 OUT = os.path.join(BASE, "pages", "system_status.md")
+LINT_REPORT = os.path.join(BASE, "pages", "lint-report.md")
+LINK_HEALTH = os.path.join(BASE, "pages", "link-health.md")
 
 
 @dataclass
@@ -73,6 +75,46 @@ def wiki_completeness_score() -> Score:
     return Score("wiki_completeness", score, details)
 
 
+def lint_score() -> Score:
+    # Expect lint-report.md to exist and show "- 없음" for key sections.
+    if not os.path.exists(LINT_REPORT):
+        return Score("lint_clean", 40, ["lint-report.md missing"])
+    txt = open(LINT_REPORT, encoding="utf-8").read()
+    keys = [
+        "## 1) 빈 링크",
+        "## 3) 날짜 형식",
+        "## 4) 커버리지 목표",
+    ]
+    missing = [k for k in keys if k not in txt]
+    if missing:
+        return Score("lint_clean", 60, ["missing sections:"] + missing)
+    # naive: if any grep findings exist, lint_wiki.sh prints file:line; otherwise '- 없음'
+    ok = "## 1)" in txt and "- 없음" in txt
+    return Score("lint_clean", 100 if ok else 80, ["lint-report: OK" if ok else "lint-report: check"])
+
+
+def link_health_score() -> Score:
+    if not os.path.exists(LINK_HEALTH):
+        return Score("link_health", 40, ["link-health.md missing"])
+    txt = open(LINK_HEALTH, encoding="utf-8").read().splitlines()
+    ok = warn = bad = None
+    for ln in txt:
+        m = re.search(r"OK: \*\*(\d+)\*\* / WARN: \*\*(\d+)\*\* / BAD: \*\*(\d+)\*\*", ln)
+        if m:
+            ok, warn, bad = map(int, m.groups())
+            break
+    if ok is None:
+        return Score("link_health", 60, ["failed to parse counts"])
+    # Scoring: BAD must be zero; WARN is allowed (blocked domains etc) within a small budget.
+    warn_budget = 20
+    if bad != 0:
+        score = 0
+    else:
+        score = 100 if warn <= warn_budget else max(70, 100 - (warn - warn_budget) * 2)
+    details = [f"counts: ok={ok} warn={warn} bad={bad}", f"warn_budget={warn_budget}"]
+    return Score("link_health", score, details)
+
+
 def automation_score() -> Score:
     rc, out = run(["bash", "-lc", "./scripts/check_automation_health.sh"])
     if rc == 0:
@@ -111,8 +153,10 @@ def write_status(scores: list[Score]) -> None:
 
 def main() -> int:
     s1 = wiki_completeness_score()
-    s2 = automation_score()
-    scores = [s1, s2]
+    s2 = lint_score()
+    s3 = link_health_score()
+    s4 = automation_score()
+    scores = [s1, s2, s3, s4]
     write_status(scores)
 
     for s in scores:

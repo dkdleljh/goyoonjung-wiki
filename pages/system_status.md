@@ -11,6 +11,16 @@ placeholder debt score: debt=0
 - 요약 보강 필요: 0
 - 참고(2차): 0
 
-## automation_health: **100/100**
+## lint_clean: **100/100**
 
-check_automation_health: OK
+lint-report: OK
+
+## link_health: **100/100**
+
+counts: ok=258 warn=14 bad=0
+warn_budget=20
+
+## automation_health: **40/100**
+
+check_automation_health: FAIL
+FAIL: working tree dirty
