@@ -1,0 +1,157 @@
+#!/usr/bin/env python3
+"""Audit content gaps across pages/.
+
+Goal: produce a prioritized backlog for filling missing metadata/sources.
+This does not fetch the web; it inspects local markdown.
+
+Outputs:
+- pages/content-gaps.md (human)
+- data/content_gaps.json (machine)
+
+Heuristics (intentionally simple):
+- Count outbound URLs
+- Detect presence of key headings: 출처/참고/References, 공식 링크/Official Links
+- Detect placeholder markers (TODO/TBD/FIXME/미정/추가 필요/작성 중)
+
+"""
+
+from __future__ import annotations
+
+import json
+import re
+from dataclasses import asdict, dataclass
+from pathlib import Path
+from typing import Iterable
+
+
+PAGES_DIR = Path("pages")
+DATA_DIR = Path("data")
+OUT_MD = PAGES_DIR / "content-gaps.md"
+OUT_JSON = DATA_DIR / "content_gaps.json"
+
+URL_RE = re.compile(r"https?://[^\s)\]>]+", re.I)
+H1_RE = re.compile(r"^#\s+(.+?)\s*$", re.M)
+PLACEHOLDER_RE = re.compile(r"\b(TODO|TBD|FIXME)\b|미정|추가\s*필요|작성\s*중", re.I)
+
+HEADINGS = {
+    "sources": re.compile(r"^#+\s*(출처|Sources?|References?|참고)\b", re.I | re.M),
+    "official_links": re.compile(r"^#+\s*(공식\s*링크|Official\s*Links?)\b", re.I | re.M),
+}
+
+
+def group_for(path: Path) -> str:
+    # pages/<group>/...
+    parts = path.parts
+    try:
+        i = parts.index("pages")
+        return parts[i + 1] if len(parts) > i + 1 else "root"
+    except ValueError:
+        return "root"
+
+
+@dataclass
+class PageGap:
+    path: str
+    group: str
+    title: str
+    url_count: int
+    has_sources_heading: bool
+    has_official_links_heading: bool
+    placeholder_hits: int
+
+    @property
+    def score(self) -> int:
+        """Higher means needs attention more."""
+        s = 0
+        if not self.has_sources_heading:
+            s += 40
+        if not self.has_official_links_heading:
+            s += 15
+        if self.url_count == 0:
+            s += 20
+        s += min(20, self.placeholder_hits * 5)
+        return s
+
+
+def iter_pages() -> Iterable[Path]:
+    return sorted(PAGES_DIR.rglob("*.md"))
+
+
+def main() -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    gaps: list[PageGap] = []
+
+    for p in iter_pages():
+        txt = p.read_text(encoding="utf-8", errors="ignore")
+        title = (H1_RE.search(txt).group(1).strip() if H1_RE.search(txt) else p.stem)
+        urls = URL_RE.findall(txt)
+        placeholder_hits = len(PLACEHOLDER_RE.findall(txt))
+        has_sources = bool(HEADINGS["sources"].search(txt))
+        has_official = bool(HEADINGS["official_links"].search(txt))
+
+        gaps.append(
+            PageGap(
+                path=str(p),
+                group=group_for(p),
+                title=title,
+                url_count=len(urls),
+                has_sources_heading=has_sources,
+                has_official_links_heading=has_official,
+                placeholder_hits=placeholder_hits,
+            )
+        )
+
+    gaps_sorted = sorted(gaps, key=lambda g: (-g.score, g.group, g.path))
+
+    OUT_JSON.write_text(
+        json.dumps(
+            {
+                "generated_at": __import__("datetime").datetime.now().isoformat(),
+                "total_pages": len(gaps_sorted),
+                "items": [asdict(g) | {"priority_score": g.score} for g in gaps_sorted],
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    # Markdown report
+    lines: list[str] = []
+    lines.append("# 콘텐츠 갭 리포트\n")
+    lines.append("> 자동 생성: pages/ 내 문서를 스캔하여 ‘출처/공식링크/링크수/플레이스홀더’ 기준으로 우선순위를 매깁니다.\n")
+    lines.append(f"- 총 문서: **{len(gaps_sorted)}**\n")
+
+    def yn(b: bool) -> str:
+        return "✅" if b else "❌"
+
+    lines.append("\n## Top 30 (우선 보강 대상)\n")
+    lines.append("- 점수: 높을수록 보강 필요\n")
+
+    for g in gaps_sorted[:30]:
+        lines.append(
+            f"- **[{g.score:02d}]** `{g.path}` — {g.title} "
+            f"(그룹:{g.group}, URL:{g.url_count}, 출처:{yn(g.has_sources_heading)}, 공식링크:{yn(g.has_official_links_heading)}, placeholder:{g.placeholder_hits})"
+        )
+
+    # Group summary
+    lines.append("\n\n## 그룹 요약\n")
+    by_group: dict[str, list[PageGap]] = {}
+    for g in gaps_sorted:
+        by_group.setdefault(g.group, []).append(g)
+
+    for group in sorted(by_group):
+        items = by_group[group]
+        no_sources = sum(1 for i in items if not i.has_sources_heading)
+        no_official = sum(1 for i in items if not i.has_official_links_heading)
+        zero_url = sum(1 for i in items if i.url_count == 0)
+        lines.append(
+            f"- **{group}**: {len(items)}개 (출처없음 {no_sources}, 공식링크없음 {no_official}, URL0 {zero_url})"
+        )
+
+    OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()
