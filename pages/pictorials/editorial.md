@@ -56,6 +56,47 @@
 - 링크(원문): https://www.marieclairekorea.com/fashion/2025/11/chanel-71/
 - 상태: 공식확정
 - id: https://www.marieclairekorea.com/fashion/2025/11/chanel-71/
+
+- 날짜: 2025-10-05
+- 매체: Vogue Korea
+- 구분: 화보/인터뷰
+- 제목: 현대적인 우아함, 고윤정의 샤넬
+- 링크(원문): https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/
+- 상태: 공식확정
+- id: https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/
+
+- 날짜: 2025-06-17
+- 매체: Harper's Bazaar Korea
+- 구분: 커버
+- 제목: 고윤정, '하퍼스 바자' 7월호 커버 장식
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1883281
+- 상태: 공식확정
+- id: https://www.harpersbazaar.co.kr/article/1883281
+
+- 날짜: 2025-05-26
+- 매체: Vogue Korea
+- 구분: 화보
+- 제목: Go ZERO, Now ZERO
+- 링크(원문): https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/
+- 상태: 공식확정
+- id: https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/
+
+- 날짜: 2025-02-13
+- 매체: 뉴스컬처
+- 구분: 화보
+- 제목: 고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]
+- 링크(원문): https://www.nc.press/news/articleView.html?idx=561975
+- 상태: 공식확정
+- id: https://www.nc.press/news/articleView.html?idx=561975
+
+- 날짜: 2024-04-19
+- 매체: ELLE Korea
+- 구분: 화보/인터뷰
+- 제목: 고윤정, 샴푸의 요정…탐스러운 머릿결
+- 링크(원문): https://www.mk.co.kr/news/hot-issues/10994612
+- 상태: 공식확정
+- id: https://www.mk.co.kr/news/hot-issues/10994612
+
 ## 2024
 - 날짜: 2024-07
 - 매체: Marie Claire Korea (마리끌레르 코리아)
