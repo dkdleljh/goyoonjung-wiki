@@ -26,6 +26,7 @@
 
 ## 공개/방영일(근거)
 - 첫 방송: 2025-04-12 (근거: TVING 1화 콘텐츠 페이지 HTML 내 2025-04-12 표기)
+- 최종화/종영: 2025-05-18 (근거: tvN 프로그램 데이터 내 “5/18 최종화 방송” 표기)
 - KBS연예 기사(보도 1차):
   - https://kstar.kbs.co.kr/list_view.html?idx=361830
   - https://kstar.kbs.co.kr/list_view.html?idx=362628
