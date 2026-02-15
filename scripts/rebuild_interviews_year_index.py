@@ -48,7 +48,9 @@ def main() -> int:
         title = None
         url = None
         j = i + 1
-        while j < len(lines) and not DATE_RE.match(lines[j]) and not lines[j].startswith("## "):
+        # Scan until the next entry. Do not treat headings as terminators.
+        # (Older entries can be appended out-of-order; the index should still include them.)
+        while j < len(lines) and not DATE_RE.match(lines[j]):
             mt = TITLE_RE.match(lines[j])
             if mt and not title:
                 title = mt.group(1).strip()
