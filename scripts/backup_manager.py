@@ -12,6 +12,12 @@ import tarfile
 from datetime import datetime
 from pathlib import Path
 
+try:
+    import requests
+    REQUESTS_AVAILABLE = True
+except ImportError:
+    REQUESTS_AVAILABLE = False
+
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -178,10 +184,78 @@ Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
         logger.info("To setup weekly cleanup, add to crontab:")
         logger.info(cron_entry)
 
+    def upload_to_github_releases(self, backup_path, github_token=None, repo="owner/repo", release_tag="backup"):
+        """Upload backup to GitHub Releases"""
+        if not REQUESTS_AVAILABLE:
+            logger.error("requests library required for GitHub Releases upload. Install with: pip install requests")
+            return False
+
+        if not github_token:
+            github_token = os.environ.get("GITHUB_TOKEN")
+        if not github_token:
+            logger.warning("GITHUB_TOKEN not set. Skipping GitHub Releases upload.")
+            return False
+
+        # Parse repo (owner/repo)
+        if "/" not in repo:
+            logger.error("Invalid repo format. Use 'owner/repo' format.")
+            return False
+
+        owner, repo_name = repo.split("/")
+
+        # Create or get release
+        api_url = f"https://api.github.com/repos/{owner}/{repo_name}/releases"
+
+        # Check if release exists
+        response = requests.get(
+            f"{api_url}/tags/{release_tag}",
+            headers={"Authorization": f"token {github_token}", "Accept": "application/vnd.github.v3+json"}
+        )
+
+        if response.status_code == 200:
+            # Release exists, get upload URL
+            upload_url = response.json()["upload_url"].split("{")[0]
+        elif response.status_code == 404:
+            # Create new release
+            create_response = requests.post(
+                api_url,
+                headers={"Authorization": f"token {github_token}", "Accept": "application/vnd.github.v3+json"},
+                json={
+                    "tag_name": release_tag,
+                    "name": f"Backup {datetime.now().strftime('%Y-%m-%d')}",
+                    "body": f"Automated backup created on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+                    "draft": False,
+                    "prerelease": False
+                }
+            )
+            if create_response.status_code not in (200, 201):
+                logger.error(f"Failed to create release: {create_response.status_code} - {create_response.text}")
+                return False
+            upload_url = create_response.json()["upload_url"].split("{")[0]
+        else:
+            logger.error(f"Failed to check release: {response.status_code}")
+            return False
+
+        # Upload asset
+        upload_url = f"{upload_url}?name={backup_path.name}"
+        with open(backup_path, "rb") as f:
+            headers = {"Authorization": f"token {github_token}", "Content-Type": "application/gzip"}
+            upload_response = requests.post(upload_url, headers=headers, data=f)
+
+        if upload_response.status_code in (200, 201):
+            logger.info(f"Successfully uploaded {backup_path.name} to GitHub Releases")
+            return True
+        else:
+            logger.error(f"Failed to upload: {upload_response.status_code} - {upload_response.text}")
+            return False
+
 def main():
     parser = argparse.ArgumentParser(description='Backup Cleanup Manager')
     parser.add_argument('--cleanup', action='store_true', help='Clean up old backups')
     parser.add_argument('--backup', action='store_true', help='Create incremental backup')
+    parser.add_argument('--upload-github', action='store_true', help='Upload backup to GitHub Releases')
+    parser.add_argument('--github-repo', type=str, default=os.environ.get("GITHUB_REPO", "owner/repo"), help='GitHub repo (owner/repo)')
+    parser.add_argument('--release-tag', type=str, default="backup", help='GitHub release tag')
     parser.add_argument('--max-size', type=int, default=500, help='Maximum backup size in MB')
     parser.add_argument('--max-files', type=int, default=30, help='Maximum number of backup files')
 
@@ -198,6 +272,15 @@ def main():
         backup_path, created = manager.create_incremental_backup()
         if created:
             logger.info(f"Backup created: {backup_path}")
+            
+            if args.upload-github:
+                logger.info(f"Uploading to GitHub Releases...")
+                manager.upload_to_github_releases(
+                    backup_path,
+                    github_token=os.environ.get("GITHUB_TOKEN"),
+                    repo=args.github_repo,
+                    release_tag=args.release_tag
+                )
         else:
             logger.info("Backup already exists for today")
 
