@@ -15,6 +15,13 @@
 - 공식 페이지(tvN): https://tvn.cjenm.com/ko/heispsychometric/
 - TVING 다시보기: https://www.tving.com/contents/P000820341
 
+## 공식 링크
+- https://tvn.cjenm.com/ko/heispsychometric/
+- https://www.tving.com/contents/P000820341
+- https://www.youtube.com/watch?v=JEnAnsSdLbQ
+- https://tvn.cjenm.com/ko/heispsychometric/video/
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

@@ -15,6 +15,16 @@
 - 공식 페이지(JTBC): https://tv.jtbc.co.kr/lawschool
 - 등장인물 소개(JTBC): https://tv.jtbc.co.kr/cast/PR10011289/1
 
+## 공식 링크
+- https://tv.jtbc.co.kr/lawschool
+- https://tv.jtbc.co.kr/cast/PR10011289/1
+
+
+## 출처
+- (S) 공식 링크: https://tv.jtbc.co.kr/lawschool
+- (S) 공식 링크: https://tv.jtbc.co.kr/cast/PR10011289/1
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

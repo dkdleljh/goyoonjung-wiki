@@ -24,10 +24,22 @@
 - [Disney Plus Korea] 무빙 비하인드 메이킹 — [Link](https://www.youtube.com/watch?v=wZR6s3rB6tk)
 - [KBS연예] Disney+ 오리지널 시리즈 <무빙> 제작발표회 — [Link](https://kstar.kbs.co.kr/list_view.html?idx=274438)
 
+## 공식 링크
+- https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
+- https://www.youtube.com/watch?v=pyrwTv8aS-E
+- https://www.youtube.com/watch?v=wZR6s3rB6tk
+
+
+## 출처
+- (S) 공식 링크: https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
+- (S) 공식 링크: https://www.youtube.com/watch?v=pyrwTv8aS-E
+- (S) 공식 링크: https://www.youtube.com/watch?v=wZR6s3rB6tk
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-15 22:42 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-15 22:53 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 

@@ -11,3 +11,10 @@
 - [GQ Korea](gq.md)
 - [Esquire Korea](esquire.md)
 - [Cosmopolitan Korea](cosmopolitan.md)
+
+## 공식 링크
+- (추가 필요)
+
+## 출처
+- (추가 필요: 공식/1차 링크)
+

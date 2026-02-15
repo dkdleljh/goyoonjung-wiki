@@ -125,3 +125,10 @@
 - 링크(원문): https://youtu.be/dmS_nEQYv2I
 - 상태: 공식확정
 - id: https://youtu.be/dmS_nEQYv2I
+
+## 공식 링크
+- (추가 필요)
+
+## 출처
+- (추가 필요: 공식/1차 링크)
+

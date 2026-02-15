@@ -13,6 +13,14 @@
 ## 관련 링크
 - 공식 예고편(배급사/YouTube): https://www.youtube.com/watch?v=CSOb8gia_mg
 
+## 공식 링크
+- https://www.youtube.com/watch?v=CSOb8gia_mg
+
+
+## 출처
+- (S) 공식 링크: https://www.youtube.com/watch?v=CSOb8gia_mg
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

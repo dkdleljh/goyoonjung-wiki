@@ -14,6 +14,11 @@
 - 공식 페이지(Netflix): https://www.netflix.com/kr/title/80209129
 - 공식 예고편(Netflix Korea / YouTube): https://www.youtube.com/watch?v=Nc2t2oCMkxU
 
+## 공식 링크
+- https://www.netflix.com/kr/title/80209129
+- https://www.youtube.com/watch?v=Nc2t2oCMkxU
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

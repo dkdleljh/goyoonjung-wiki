@@ -43,3 +43,10 @@
 - 상태: 공식확정
 - id: https://www.youtube.com/watch?v=jtqfYE4zZuw
 - 메모: 공식 업로드(YouTube) 기반.
+
+## 공식 링크
+- (추가 필요)
+
+## 출처
+- (추가 필요: 공식/1차 링크)
+

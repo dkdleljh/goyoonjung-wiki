@@ -31,3 +31,10 @@
 - 상태: 공식확정
 - id: https://www.youtube.com/watch?v=wZR6s3rB6tk
 
+
+## 공식 링크
+- (추가 필요)
+
+## 출처
+- (추가 필요: 공식/1차 링크)
+

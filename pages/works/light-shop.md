@@ -19,3 +19,12 @@
 ## 관련 링크
 - [Disney+ 공식 페이지](https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4)
 - [네이버 검색](https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%A1%B0%EB%AA%85%EA%B0%80%EA%B2%8C)
+
+## 공식 링크
+- https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4
+
+
+## 출처
+- (S) 공식 링크: https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4
+
+

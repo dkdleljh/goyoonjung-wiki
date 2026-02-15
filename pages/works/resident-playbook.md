@@ -14,6 +14,12 @@
 - 공식 페이지(tvN): https://tvn.cjenm.com/ko/resident-playbook/
 - 1화(근거용, TVING): https://www.tving.com/contents/P001768976
 
+## 공식 링크
+- https://tvn.cjenm.com/ko/resident-playbook/
+- https://www.tving.com/contents/P001768976
+- https://www.youtube.com/watch?v=SIKJWldJHTU
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

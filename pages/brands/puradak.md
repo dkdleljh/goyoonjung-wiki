@@ -4,6 +4,12 @@
 
 > 갱신: 2026-02-10 13:59 (Asia/Seoul)
 
+## 공식 링크
+- (공식) 푸라닭치킨 TVC(YouTube): https://youtu.be/NdogLAtlyys
+
+## 출처
+- (S) 공식 채널 YouTube 영상(게시일/메타 기반)
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

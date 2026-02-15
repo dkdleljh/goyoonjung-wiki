@@ -4,6 +4,15 @@
 
 > 갱신: 2026-02-11 21:06 (Asia/Seoul)
 
+## 공식 링크
+- (공식) CHANEL 코리아: https://www.chanel.com/kr/
+- (공식) CHANEL Beauty: https://www.chanel.com/kr/beauty/
+- (공식) CHANEL Instagram (발표/캠페인): https://www.instagram.com/p/C6gW0vQNU1_/
+
+## 출처
+- (S) 브랜드 공식 인스타그램 게시물
+- (S) 브랜드 공식 사이트(접근 차단 가능: 링크헬스에서 WARN 처리될 수 있음)
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

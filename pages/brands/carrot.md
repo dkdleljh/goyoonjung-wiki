@@ -4,6 +4,12 @@
 
 > 갱신: 2026-02-09 01:25 (Asia/Seoul)
 
+## 공식 링크
+- (공식) 캐롯손해보험 TVC(YouTube): https://youtu.be/jXCnrLQJfzE
+
+## 출처
+- (S) 공식 채널 YouTube 영상(게시일/메타 기반)
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

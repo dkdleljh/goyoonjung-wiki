@@ -13,6 +13,16 @@
 ## 관련 링크
 - 공식 페이지(Netflix): https://www.netflix.com/title/81061734
 
+## 공식 링크
+- https://www.netflix.com/title/81061734
+- https://www.youtube.com/watch?v=B5IQqZDSRjk
+
+
+## 출처
+- (S) 공식 링크: https://www.netflix.com/title/81061734
+- (S) 공식 링크: https://www.youtube.com/watch?v=B5IQqZDSRjk
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

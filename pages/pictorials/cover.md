@@ -20,3 +20,10 @@
 - 상태: 공식확정
 - id: https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/
 
+
+## 공식 링크
+- (추가 필요)
+
+## 출처
+- (추가 필요: 공식/1차 링크)
+

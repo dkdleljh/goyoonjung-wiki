@@ -4,6 +4,13 @@
 
 > 갱신: 2026-02-09 01:25 (Asia/Seoul)
 
+## 공식 링크
+- GQ Korea(공식): https://www.gqkorea.co.kr/
+- 사이트 검색(고윤정): https://www.gqkorea.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
+
+## 출처
+- (S/A) GQ Korea 공식 웹사이트/검색 결과를 기반으로 링크를 수집합니다.
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

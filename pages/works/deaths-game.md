@@ -14,6 +14,10 @@
 ## 관련 링크
 - 공식 페이지(TVING): https://www.tving.com/contents/P001748996
 
+## 공식 링크
+- https://www.tving.com/contents/P001748996
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

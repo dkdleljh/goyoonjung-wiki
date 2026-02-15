@@ -21,10 +21,25 @@
 - [Marie Claire Korea] 고윤정과 함께한 화보와 인터뷰 (2024.07) — [Link](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)
 - [YouTube] 유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트 — [Link](https://www.youtube.com/watch?v=TiTWX_KfEc0)
 
+## 공식 링크
+- https://tvn.cjenm.com/ko/alchemyofsouls/
+- https://tvn.cjenm.com/ko/hhw1_test/
+- http://program.tving.com/tvn/alchemyofsouls/
+- https://www.youtube.com/watch?v=TiTWX_KfEc0
+- https://www.youtube.com/watch?v=z8x19hQejYo
+- https://www.youtube.com/watch?v=tYTPRqjgCzs
+
+
+## 출처
+- (S) 공식 링크: https://tvn.cjenm.com/ko/alchemyofsouls/
+- (S) 공식 링크: https://tvn.cjenm.com/ko/hhw1_test/
+- (S) 공식 링크: http://program.tving.com/tvn/alchemyofsouls/
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-15 22:42 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-15 22:53 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 

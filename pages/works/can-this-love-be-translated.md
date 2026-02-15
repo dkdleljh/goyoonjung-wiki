@@ -16,6 +16,12 @@
 - 공식 티저(Netflix Korea / YouTube): https://www.youtube.com/watch?v=xLhmKJx7mE0
 - 공식 예고편(Netflix Korea / YouTube): https://www.youtube.com/watch?v=IIHQ1Z2yu80
 
+## 공식 링크
+- https://www.netflix.com/kr/title/81697769
+- https://www.youtube.com/watch?v=xLhmKJx7mE0
+- https://www.youtube.com/watch?v=IIHQ1Z2yu80
+
+
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 

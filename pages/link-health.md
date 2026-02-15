@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-02-15 22:40 (Asia/Seoul) · 대상 URL: 271 (최대 700)
+> 갱신: 2026-02-15 22:52 (Asia/Seoul) · 대상 URL: 273 (최대 700)
 
-- OK: **256** / WARN: **15** / BAD: **0**
+- OK: **257** / WARN: **16** / BAD: **0**
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
 
@@ -25,3 +25,4 @@
 - (-) https://www.lensme.co.kr/ · error: URLError
 - (-) https://about.netflix.com/ · error: HTTPError
 - (-) https://www.disneypluskr.com/ · error: URLError
+- (-) https://www.chanel.com/kr/ · error: HTTPError
