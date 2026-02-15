@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 문서/데이터 추가 시 지켜야 할 규칙과 작업 흐름을 안내합니다.
-- 핵심 링크: 편집 규칙(pages/style-guide.md) · 저작권(pages/legal.md)
+- 핵심 링크: [편집 규칙](pages/style-guide.md) · [저작권](pages/legal.md)
 - 상태: 운영 문서
 
 ## 고윤정 위키에 기여하기

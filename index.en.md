@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: English entry point for the wiki (link-first, copyright-safe).
-- 핵심 링크: Hub(pages/hub.md) · Profile(pages/profile.md) · Filmography(pages/filmography.md) · Timeline(pages/timeline.md)
+- 핵심 링크: [Hub](pages/hub.md) · [Profile](pages/profile.md) · [Filmography](pages/filmography.md) · [Timeline](pages/timeline.md)
 - 상태: Core navigation (primary/official links preferred)
 
 <!-- TOC:START -->

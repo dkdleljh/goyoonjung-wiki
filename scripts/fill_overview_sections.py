@@ -121,17 +121,17 @@ DATA: dict[str, dict[str, str]] = {
     },
     "pages/schedule.md": {
         "summary": "공식 공개 일정(공개/방영/행사)을 확정 근거로만 기록하는 캘린더입니다.",
-        "links": "오늘/이번주(자동) · 지난 일정(연도별) · 출연/행사(pages/appearances.md)",
+        "links": "오늘/이번주(자동) · 지난 일정(연도별) · [출연/행사](pages/appearances.md)",
         "status": "확정 일정만(공식/검증 링크 필수) · 지나면 Past로 이동",
     },
     "docs/OPERATION_GUIDE.md": {
         "summary": "무인 자동화 운영/점검/복구 절차를 정리한 운영 가이드입니다.",
-        "links": "daily runner(scripts/run_daily_update.sh) · 상태(pages/system_status.md) · 리포트(pages/daily-report.md)",
+        "links": "daily runner(scripts/run_daily_update.sh) · [상태](pages/system_status.md) · [리포트](pages/daily-report.md)",
         "status": "운영 문서(자동화 기준선)",
     },
     "docs/README.md": {
         "summary": "문서 모음의 목차(정책/로드맵/운영)를 제공하는 docs 포털입니다.",
-        "links": "편집 정책(docs/editorial_policy.md) · 점수(docs/scoring.md) · 로드맵(docs/ROADMAP_EXECUTION.md)",
+        "links": "[편집 정책](docs/editorial_policy.md) · [점수](docs/scoring.md) · [로드맵](docs/ROADMAP_EXECUTION.md)",
         "status": "운영 문서",
     },
     "CHANGELOG.md": {
@@ -141,7 +141,7 @@ DATA: dict[str, dict[str, str]] = {
     },
     "CONTRIBUTING.md": {
         "summary": "문서/데이터 추가 시 지켜야 할 규칙과 작업 흐름을 안내합니다.",
-        "links": "편집 규칙(pages/style-guide.md) · 저작권(pages/legal.md)",
+        "links": "[편집 규칙](pages/style-guide.md) · [저작권](pages/legal.md)",
         "status": "운영 문서",
     },
 }

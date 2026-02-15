@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: Quick navigation hub (English) for core pages and archives.
-- 핵심 링크: Profile(profile.md) · Filmography(filmography.md) · Timeline(timeline.md) · Interviews(interviews.md) · Pictorials(pictorials.md)
+- 핵심 링크: [Profile](profile.md) · [Filmography](filmography.md) · [Timeline](timeline.md) · [Interviews](interviews.md) · [Pictorials](pictorials.md)
 - 상태: Navigation hub (link-first)
 
 <!-- TOC:START -->

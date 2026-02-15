@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 방송/예능/제작발표회/시사회 등 출연·행사 기록을 링크로 누적합니다.
-- 핵심 링크: 연도별(pages/appearances/by-year.md) · 타임라인(pages/timeline.md)
+- 핵심 링크: [연도별](pages/appearances/by-year.md) · [타임라인](pages/timeline.md)
 - 상태: 공식/원문 근거 우선 · 행사/프로그램 단위로 누적
 
 > 목적: 예능/유튜브/행사/시상식/제작발표회 등 ‘노출/홍보/등장’ 기록을 모읍니다.

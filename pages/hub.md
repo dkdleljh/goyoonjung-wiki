@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 가장 빠른 탐색용 포털(허브)입니다. 오늘/최근 + 핵심 정리 + 아카이브로 바로 이동합니다.
-- 핵심 링크: 프로필(profile.md) · 필모(filmography.md) · 타임라인(timeline.md) · 인터뷰(interviews.md) · 화보(pictorials.md) · 광고(endorsements.md)
+- 핵심 링크: [프로필](profile.md) · [필모](filmography.md) · [타임라인](timeline.md) · [인터뷰](interviews.md) · [화보](pictorials.md) · [광고](endorsements.md)
 - 상태: 탐색 허브(내부 링크 중심, 자동 인덱스 참조)
 
 <!-- TOC:START -->
