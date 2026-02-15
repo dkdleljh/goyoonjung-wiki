@@ -1,5 +1,24 @@
 # Go Youn-jung — Personal Wiki
 
+
+<!-- TOC:START -->
+
+## 목차
+
+- [목차](#목차)
+- [🧠 Lead (fixed format · auto)](#lead-fixed-format-auto)
+- [0) 30-second guide (recommended path)](#0-30-second-guide-recommended-path)
+- [1) Quick summary](#1-quick-summary)
+- [2) Core pages (curated “answer” pages)](#2-core-pages-curated-answer-pages)
+- [3) Archive (link collections)](#3-archive-link-collections)
+- [4) Verification / confidence levels](#4-verification-confidence-levels)
+- [5) Quality (today’s health check)](#5-quality-todays-health-check)
+- [6) Ops & rules](#6-ops-rules)
+- [7) Watch / sources](#7-watch-sources)
+- [8) Automation (unmanned)](#8-automation-unmanned)
+
+<!-- TOC:END -->
+
 **Language / 언어:** [한국어](index.md) | **English**
 
 > **Goal:** A link-first (copyright-safe) personal wiki collecting and organizing **Go Youn-jung**’s works, pictorials, endorsements, interviews, appearances, and events.
