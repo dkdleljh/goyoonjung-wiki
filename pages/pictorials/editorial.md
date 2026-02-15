@@ -155,7 +155,7 @@
 - 매체: 뉴스컬처
 - 구분: 화보
 - 제목: 고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]
-- 링크(원문): https://www.nc.press/news/articleView.html?idx=561975
+- 링크(원문): https://www.nc.press/news/articleView.html?idx=561975 (보조/차단 가능)
 - 대체 근거(열리는 링크): https://www.marieclairekorea.com/fashion/2025/11/chanel-71/, https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/, https://www.harpersbazaar.co.kr/article/1883281, https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/, https://www.mk.co.kr/news/hot-issues/10994612
 - 상태: 공식확정
 - id: https://www.nc.press/news/articleView.html?idx=561975
@@ -165,7 +165,7 @@
 - 매체: ELLE Korea x RYO
 - 구분: 화보/캠페인
 - 제목: 고윤정, 순수한 아름다움으로 완성한 봄의 전언
-- 링크(원문): https://slv.kstarfashion.com/news/articleView.html?idxno=214777
+- 링크(원문): https://slv.kstarfashion.com/news/articleView.html?idxno=214777 (보조/차단 가능)
 - 대체 근거(열리는 링크): https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/, https://www.harpersbazaar.co.kr/article/1883281, https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/, https://www.mk.co.kr/news/hot-issues/10994612, https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 - 상태: 공식확정
 - id: https://slv.kstarfashion.com/news/articleView.html?idxno=214777

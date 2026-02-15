@@ -81,7 +81,7 @@
 - 날짜: 2026-01-28
 - 매체: 뉴스컬처 (News Culture)
 - 제목: [NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"
-- 링크: https://www.nc.press/news/articleView.html?idxno=605970
+- 링크: https://www.nc.press/news/articleView.html?idxno=605970 (보조/차단 가능)
 - 대체 근거(열리는 링크): https://kstar.kbs.co.kr/list_view.html?idx=391146, https://kstar.kbs.co.kr/list_view.html?idx=389107, https://www.sisaweek.com/news/articleView.html?idxno=233219, http://enter.etoday.co.kr/news/view/292714
 - 상태: 보도(1차)
 - id: https://www.nc.press/news/articleView.html?idxno=605970
@@ -289,7 +289,7 @@
 - 날짜: 2025-02-13
 - 매체: 뉴스컬처 (News Culture)
 - 제목: 고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]
-- 링크: https://www.nc.press/news/articleView.html?idx=561975
+- 링크: https://www.nc.press/news/articleView.html?idx=561975 (보조/차단 가능)
 - 대체 근거(열리는 링크): https://mbiz.heraldcorp.com/article/10496760?sec=014, https://www.elle.co.kr/article/1874201, https://www.mk.co.kr/news/hot-issues/10994612, https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 - 상태: 보도(1차)
 - id: https://www.nc.press/news/articleView.html?idx=561975
@@ -522,7 +522,7 @@
 - 날짜: 2020-10-09
 - 매체: 연합뉴스
 - 제목: 정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"
-- 링크: https://www.yna.co.kr/view/AKR20201009055300005
+- 링크: https://www.yna.co.kr/view/AKR20201009055300005 (보조/차단 가능)
 - 대체 근거(열리는 링크): https://entertain.daum.net/tv/5138294/video/418173622, https://m.news.zum.com/articles/63011527, https://m.radio.ytn.co.kr/interview_view.php?id=73903&s_mcd=0206, https://www.idaegu.com/news/articleView.html?idxno=381461
 - 상태: 보도(1차)
 - id: https://www.yna.co.kr/view/AKR20201009055300005

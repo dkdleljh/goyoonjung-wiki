@@ -1,37 +1,14 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-16 01:37 (Asia/Seoul)
+> 갱신: 2026-02-16 01:39 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- ab95523 2026-02-16 01:33:14 +0900 daily: update 2026-02-16
+- 258d35f 2026-02-16 01:37:44 +0900 chore: refresh system status
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- data/alternative_proofs_missing.json
-- news/2026-02-16.md
-- pages/alternative-proof-missing.md
-- pages/brands/chanel.md
-- pages/daily-report.md
-- pages/filmography.md
-- pages/interviews.md
-- pages/notes/goyoonjung-character-analysis.md
-- pages/pictorials/editorial.md
-- pages/pictorials/stills-posters.md
-- pages/progress.md
-- pages/schedule.md
 - pages/system_status.md
-- pages/works/alchemy-of-souls.md
-- pages/works/by-year.md
-- pages/works/deaths-game.md
-- pages/works/he-is-psychometric.md
-- pages/works/hunt.md
-- pages/works/moving.md
-- pages/works/resident-playbook.md
-- scripts/backfill_missing_alternative_proofs.py
-- sources/awards-official.md
-- sources/brands-watch.md
-- sources/media-watch.md
 
 ## 3) 오늘 실행 상태(news/2026-02-16.md)
 
