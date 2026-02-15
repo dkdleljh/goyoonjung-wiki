@@ -256,6 +256,10 @@ RC_TVOTT_CAND=$?
 
 set -e
 
+# Keep human-facing 'today' links correct
+python3 ./scripts/update_readme_today_links.py >/dev/null 2>&1 || true
+python3 ./scripts/update_index_last_updated.py >/dev/null 2>&1 || true
+
 ./scripts/update_indexes.sh >/dev/null
 ./scripts/lint_wiki.sh >/dev/null
 
