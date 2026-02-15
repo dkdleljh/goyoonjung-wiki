@@ -16,10 +16,10 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [한화손해보험](https://www.sisaon.co.kr/news/articleView.html?idxno=175918)  _(출처: endorsements/lifestyle.md)_
 
 - [캐롯손해보험](https://youtu.be/jXCnrLQJfzE)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
-

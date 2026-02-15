@@ -18,10 +18,10 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [구달(goodal)](https://youtu.be/p3lwXW6nT5U)  _(출처: endorsements/beauty.md)_
 
 - [보다나(VODANA)](https://youtu.be/hV1sOJLuMN8)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
-

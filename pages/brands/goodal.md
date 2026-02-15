@@ -18,8 +18,8 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [구달(goodal)](https://youtu.be/p3lwXW6nT5U)  _(출처: endorsements/beauty.md)_
 <!-- AUTO-CANDIDATES:END -->
-

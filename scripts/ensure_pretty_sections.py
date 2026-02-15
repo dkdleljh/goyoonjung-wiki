@@ -20,8 +20,33 @@ from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
 
-TARGET_DIRS = [BASE / "pages", BASE / "docs", BASE / "sources"]
-TOP_LEVEL_FILES = [BASE / "README.md", BASE / "CONTRIBUTING.md", BASE / "CHANGELOG.md"]
+# "한눈에 보기"는 핵심 탐색 페이지에만 유지합니다.
+# (전역 삽입은 노이즈가 커서, 자동 운영에서 유지보수 비용이 급증합니다.)
+TARGET_DIRS = []
+TOP_LEVEL_FILES = []
+
+CORE_FILES = [
+    BASE / "README.md",
+    BASE / "index.md",
+    BASE / "index.en.md",
+    BASE / "CHANGELOG.md",
+    BASE / "CONTRIBUTING.md",
+    BASE / "pages" / "hub.md",
+    BASE / "pages" / "hub.en.md",
+    BASE / "pages" / "profile.md",
+    BASE / "pages" / "filmography.md",
+    BASE / "pages" / "awards.md",
+    BASE / "pages" / "timeline.md",
+    BASE / "pages" / "works-characters.md",
+    BASE / "pages" / "pictorials.md",
+    BASE / "pages" / "endorsements.md",
+    BASE / "pages" / "interviews.md",
+    BASE / "pages" / "appearances.md",
+    BASE / "pages" / "sns.md",
+    BASE / "pages" / "schedule.md",
+    BASE / "docs" / "OPERATION_GUIDE.md",
+    BASE / "docs" / "README.md",
+]
 
 SKIP_FILES = {
     "pages/link-health.md",
@@ -103,16 +128,8 @@ def main() -> None:
     changed = 0
     scanned = 0
 
-    for p in TOP_LEVEL_FILES:
+    for p in CORE_FILES:
         if p.exists():
-            scanned += 1
-            if process_file(p):
-                changed += 1
-
-    for d in TARGET_DIRS:
-        if not d.exists():
-            continue
-        for p in sorted(d.rglob("*.md")):
             scanned += 1
             if process_file(p):
                 changed += 1

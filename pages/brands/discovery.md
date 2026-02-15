@@ -16,10 +16,10 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)](https://youtu.be/76aAMPpCTb4)  _(출처: endorsements/fashion.md)_
 
 - [디스커버리 익스페디션(Discovery Expedition)](https://youtu.be/ZH1Y1l1OmTY)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
-
