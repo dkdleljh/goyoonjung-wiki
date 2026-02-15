@@ -1,15 +1,8 @@
 # Marie Claire Korea
 
-
-## 한눈에 보기
-
-- 한 줄 요약: (추가 필요)
-- 핵심 링크: (추가 필요 — 공식/원문 우선)
-- 상태: (추가 필요 — 근거 수준 S/A/2차/보강 필요)
-
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-15 23:07 (Asia/Seoul)
+> 갱신: 2026-02-15 23:38 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -25,7 +18,6 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
@@ -40,3 +32,4 @@
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
+

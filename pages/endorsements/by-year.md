@@ -12,12 +12,18 @@
 
 ---
 
+## 2025
+- [한화손해보험](https://www.sisaon.co.kr/news/articleView.html?idxno=175918) — 브랜드 전속모델
+- [NH농협은행](https://www.webeconomy.co.kr/news/article.html?no=893671) — 모델
+- [NH농협카드](https://www.startuptoday.co.kr/news/articleView.html?idxno=354647) — 모델
+
 ## 2024
-- [구달(goodal)](https://youtu.be/p3lwXW6nT5U) — 모델/뮤즈
+- [구달(goodal)](https://youtu.be/p3lwXW6nT5U) — 모델/ミュ즈
 - [보다나(VODANA)](https://youtu.be/hV1sOJLuMN8) — 뮤즈
 - [상쾌환(EASY TOMORROW)](https://youtu.be/TrDLHYVJ4w8) — 모델
 - [샤넬(CHANEL)](https://www.instagram.com/p/C6gW0vQNU1_/) — (앰버서더/프렌즈 여부 공식 확인 필요)
 - [푸라닭치킨](https://youtu.be/NdogLAtlyys) — 모델
+- [NH농협은행](https://www.webeconomy.co.kr/news/article.html?no=893671) — 모델
 
 ## 2023
 - [LENSME(렌즈미)](https://youtu.be/aRrlD-9WIbk) — 뮤즈

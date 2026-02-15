@@ -1,15 +1,8 @@
 # Vogue Korea
 
-
-## 한눈에 보기
-
-- 한 줄 요약: (추가 필요)
-- 핵심 링크: (추가 필요 — 공식/원문 우선)
-- 상태: (추가 필요 — 근거 수준 S/A/2차/보강 필요)
-
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-15 23:26 (Asia/Seoul)
+> 갱신: 2026-02-15 23:38 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -25,7 +18,6 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
 - [현대적인 우아함, 고윤정의 샤넬](https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/)  _(출처: interviews.md)_
@@ -42,3 +34,4 @@
 
 - [CHANEL / Vogue Korea](https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
+
