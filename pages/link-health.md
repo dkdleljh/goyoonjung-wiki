@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-02-15 11:40 (Asia/Seoul) · 대상 URL: 265 (최대 700)
+> 갱신: 2026-02-15 11:52 (Asia/Seoul) · 대상 URL: 269 (최대 700)
 
-- OK: **225** / WARN: **40** / BAD: **0**
+- OK: **226** / WARN: **43** / BAD: **0**
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
 
@@ -50,3 +50,6 @@
 - (-) https://www.disneypluskr.com/ · error: URLError
 - (-) https://www.youtube.com/watch?v=B5IQqZDSRjk · skipped (heavy domain)
 - (-) https://www.youtube.com/watch?v=Nc2t2oCMkxU · skipped (heavy domain)
+- (-) https://www.youtube.com/watch?v=IIHQ1Z2yu80 · skipped (heavy domain)
+- (-) https://www.youtube.com/watch?v=SIKJWldJHTU · skipped (heavy domain)
+- (-) https://www.youtube.com/watch?v=xLhmKJx7mE0 · skipped (heavy domain)
