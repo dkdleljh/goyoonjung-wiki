@@ -116,7 +116,23 @@
 
 ## 2023
 
-(아직 추가된 항목이 없습니다.)
+- 날짜: 2023-02-09
+- 매체: 패션서울 (Fashion Seoul)
+- 구분: 화보/캠페인
+- 제목: 고윤정, 사랑스러운 매력 뽐내는 화보 공개
+- 링크(원문): https://fashionseoul.com/224549
+- 상태: 공식확정
+- id: https://fashionseoul.com/224549
+- 비고: 마리떼 프랑소와 저버 2023년 봄 컬렉션 캠페인
+
+- 날짜: 2023-08
+- 매체: Marie Claire Korea
+- 구분: 화보/인터뷰
+- 제목: 고윤정 무빙 화보
+- 링크(원문): (추가 필요)
+- 상태: 공식확정
+- id: (추가 필요)
+- 비고: 무빙 관련 화보
 
 ## 2022
 - 날짜: 2022-02-21
@@ -143,6 +159,60 @@
 - 링크(원문): https://www.vogue.co.kr/2021/02/17/%ED%95%9C%EC%97%86%EC%9D%B4-%ED%88%AC%EB%AA%85%EC%97%90-%EA%B0%80%EA%B9%8C%EC%9A%B4-%EA%B3%A0%EC%9C%A4%EC%A0%95/
 - 상태: 공식확정
 - id: https://www.vogue.co.kr/2021/02/17/%ED%95%9C%EC%97%86%EC%9D%B4-%ED%88%AC%EB%AA%85%EC%97%90-%EA%B0%80%EA%B9%8C%EC%9A%B4-%EA%B3%A0%EC%9C%A4%EC%A0%95/
+
+- 날짜: 2021-08-18
+- 매체: 머니투데이 (MT.co.kr)
+- 구분: 화보
+- 제목: '얼굴 천재' 고윤정, 감탄 부르는 미모…광채 피부 '눈길'
+- 링크(원문): https://stylem.mt.co.kr/stylemView.php?no=2021081820245811273&scd=101&type=1
+- 상태: 공식확정
+- id: https://stylem.mt.co.kr/stylemView.php?no=2021081820245811273
+- 비고: 에스쁘아 (espoir) 브랜드 화보
+
+- 날짜: 2021-08-19
+- 매체: 인사이트 (Insight)
+- 구분: 화보
+- 제목: 고윤정, 신비로운 분위기 뽐내는 우아한 비주얼 화보 공개
+- 링크(원문): https://www.insight.co.kr/news/354381
+- 상태: 공식확정
+- id: https://www.insight.co.kr/news/354381
+- 비고: 에스쁘아 (espoir) 뷰티 화보
+
+- 날짜: 2021-09-07
+- 매체: 세계일보 (Segye Ilbo)
+- 구분: 화보/메이크업
+- 제목: 에스쁘아, 고윤정의 뷰티 화보 메이크업 하우투 공개
+- 링크(원문): https://m.segyebiz.com/newsView/20210907514584
+- 상태: 공식확정
+- id: https://m.segyebiz.com/newsView/20210907514584
+- 비고: 에스쁘아 메이크업 튜토리얼
+
+- 날짜: 2021-06
+- 매체: 패션서울 (Fashion Seoul)
+- 구분: 인터뷰/화보
+- 제목: 얼굴 천재 '고윤정'의 패션 & 뷰티
+- 링크(원문): https://fashionseoul.com/200113
+- 상태: 공식확정
+- id: https://fashionseoul.com/200113
+- 비고: 에스쁘아 인터뷰 및 화보
+
+## 2020
+- 날짜: 2020-12-17
+- 매체: 코스인코리아 (Cosinkorea)
+- 구분: 화보
+- 제목: 신예 '고윤정', 연작과 내추럴 무드 화보 '독보적 분위기' 공개
+- 링크(원문): https://www.cosinkorea.com/news/article.html?no=37792
+- 상태: 공식확정
+- id: https://www.cosinkorea.com/news/article.html?no=37792
+
+- 날짜: 2020-12-22
+- 매체: 엑스포츠뉴스 (Xports News)
+- 구분: 화보
+- 제목: 고윤정, 新얼굴천재 비주얼…변화무쌍 아름다움 [화보]
+- 링크(원문): https://www.xportsnews.com/article/1368580
+- 상태: 공식확정
+- id: https://www.xportsnews.com/article/1368580
+- 비고: 데이즈드 (Daysgd) 화보
 
 
 ## 공식 링크
