@@ -3,9 +3,9 @@
 
 ## 한눈에 보기
 
-- 한 줄 요약: (추가 필요)
-- 핵심 링크: (추가 필요 — 공식/원문 우선)
-- 상태: (추가 필요 — 근거 수준 S/A/2차/보강 필요)
+- 한 줄 요약: 화보/커버/캠페인/메이킹/행사 사진 링크를 카테고리별로 모은 목차입니다.
+- 핵심 링크: 연도별(pages/pictorials/by-year.md) · 커버(pages/pictorials/cover.md) · 에디토리얼(pages/pictorials/editorial.md)
+- 상태: 링크 아카이브(이미지 저장/재배포 금지) · 공식/원문 우선
 
 ## 공식 링크
 - (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung

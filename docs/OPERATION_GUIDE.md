@@ -3,9 +3,9 @@
 
 ## 한눈에 보기
 
-- 한 줄 요약: (추가 필요)
-- 핵심 링크: (추가 필요 — 공식/원문 우선)
-- 상태: (추가 필요 — 근거 수준 S/A/2차/보강 필요)
+- 한 줄 요약: 무인 자동화 운영/점검/복구 절차를 정리한 운영 가이드입니다.
+- 핵심 링크: daily runner(scripts/run_daily_update.sh) · 상태(pages/system_status.md) · 리포트(pages/daily-report.md)
+- 상태: 운영 문서(자동화 기준선)
 
 <!-- TOC:START -->
 

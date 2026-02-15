@@ -16,6 +16,7 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [SK텔레콤(SK Telecom)](https://www.idaegu.com/news/articleView.html?idxno=381461)  _(출처: endorsements/fashion.md)_
@@ -26,5 +27,3 @@
 
 - [디스커버리 익스페디션(Discovery Expedition)](https://youtu.be/ZH1Y1l1OmTY)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
-
-

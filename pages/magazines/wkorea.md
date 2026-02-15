@@ -20,8 +20,8 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [고윤정, 톰 포드 향수와 함께한 '더블유 코리아' 디지털 화보 공개](https://www.insight.co.kr/news/336193)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
-

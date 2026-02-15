@@ -16,6 +16,7 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)  _(출처: interviews.md)_
@@ -36,5 +37,3 @@
 
 - [마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)](https://youtu.be/76aAMPpCTb4)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
-
-
