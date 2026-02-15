@@ -37,7 +37,7 @@
 - **[00]** `pages/hub.md` — 🧭 덕질 허브 (빠른 탐색) (그룹:hub.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/index-by-tag.md` — 태그 인덱스 (그룹:index-by-tag.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/interviews/by-year.md` — 인터뷰/기사 — 연도별 인덱스 (그룹:interviews, URL:10, 출처:✅, 공식링크:✅, placeholder:0)
-- **[00]** `pages/interviews.md` — 인터뷰/기사 아카이브 (그룹:interviews.md, URL:19, 출처:✅, 공식링크:✅, placeholder:0)
+- **[00]** `pages/interviews.md` — 인터뷰/기사 아카이브 (그룹:interviews.md, URL:29, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/legal.md` — ⚖️ 권리/저작권/인용 원칙 (그룹:legal.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
 
 

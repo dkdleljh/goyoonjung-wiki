@@ -115,14 +115,23 @@ if [ $RC_FETCH -ne 0 ]; then
   fail "git fetch failed (rc=$RC_FETCH)"
 fi
 
-# Allow auto-generated system status file to be dirty (it is written by wiki_score.py).
+# Allow some auto-generated files to be dirty (written by automation).
 DIRTY_FILES=$(git diff --name-only)
 if [ -n "${DIRTY_FILES:-}" ]; then
-  if [ "${DIRTY_FILES}" = "pages/system_status.md" ]; then
-    : # allow
-  else
-    fail "working tree dirty"
-  fi
+  # Normalize to sorted unique list
+  SORTED=$(echo "$DIRTY_FILES" | LC_ALL=C sort -u)
+  # NOTE: use explicit allowlist (one per line)
+  ALLOWLIST=$(cat <<'EOF'
+pages/system_status.md
+data/content_gaps.json
+pages/content-gaps.md
+EOF
+)
+  # Check every dirty file is allowlisted
+  while IFS= read -r f; do
+    [ -z "$f" ] && continue
+    echo "$ALLOWLIST" | grep -qx "$f" || fail "working tree dirty"
+  done <<< "$SORTED"
 fi
 
 HEAD=$(git rev-parse HEAD)
