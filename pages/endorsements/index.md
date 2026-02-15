@@ -19,8 +19,11 @@
 - 비고:
 
 ## 공식 링크
-- (추가 필요)
+- (내부) 패션/주얼리 목록: fashion.md
+- (내부) 뷰티 목록: beauty.md
+- (내부) 라이프스타일 목록: lifestyle.md
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- (정책) docs/editorial_policy.md
+- (정책) pages/style-guide.md
 

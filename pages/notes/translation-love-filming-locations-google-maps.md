@@ -1,5 +1,14 @@
 # 🧾 〈이 사랑 통역 되나요?〉 촬영지(공개/추정) — 구글지도 링크 + 좌표
 
+## 공식 링크
+- (S) 작품 공식 페이지(Netflix): https://www.netflix.com/kr/title/81697769
+- (S) Netflix Korea 공식 티저/예고편(예시): https://www.youtube.com/watch?v=IIHQ1Z2yu80
+
+## 출처
+- (A) 촬영지 정보는 공개된 기사/인터뷰/로케이션 사진 등 1차 보도 기반으로 추정될 수 있으며, 본 문서는 ‘정확한 주소 확정’이 아닌 ‘공개/추정’으로만 기록합니다.
+- (정책) docs/editorial_policy.md
+
+
 작성일: 2026-02-04 (KST)
 
 ## 출처(장소 목록 근거)

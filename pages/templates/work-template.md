@@ -1,5 +1,12 @@
 # 🧾 작품명 (플랫폼/방송사)
 
+## 공식 링크
+- (S) 기준(공식 작품/방영 정보): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- pages/works/by-year.md
+
+
 키워드: 작품명, 플랫폼, 캐릭터명
 
 ## 기본 정보

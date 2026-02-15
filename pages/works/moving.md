@@ -39,7 +39,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-15 22:53 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-15 23:04 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -58,6 +58,8 @@
 - [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)  _(출처: interviews.md)_
 
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
+
+- [> 메모: 항목을 추가할 때는 위 템플릿을 따르고, 링크는 `scripts/add_seen_url.sh`로 정규화 후 `sources/seen-](https://maa.co.kr/artists/go-younjung)  _(출처: appearances.md)_
 
 - [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)  _(출처: appearances.md)_
 

@@ -1,5 +1,14 @@
 # 위키 완성 체크리스트 (콘텐츠)
 
+## 공식 링크
+- 소속사(MAA) 프로필(커버리지 기준): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- docs/editorial_policy.md
+- docs/content_map.md
+- docs/scoring.md
+
+
 > 목표: "배우 고윤정의 모든 것을 담은 백과사전형 위키" 품질 기준을 측정 가능한 항목으로 고정.
 
 ## 1) 데이터 모델

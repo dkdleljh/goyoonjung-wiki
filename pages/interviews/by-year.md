@@ -26,8 +26,8 @@
 ※ 이 페이지는 자동 생성됩니다.
 
 ## 공식 링크
-- (추가 필요)
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- pages/interviews.md (원문/요약)
 

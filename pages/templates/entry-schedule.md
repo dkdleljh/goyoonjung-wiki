@@ -1,5 +1,12 @@
 # 🧾 스케줄 항목 템플릿
 
+## 공식 링크
+- (S) 기준(공식 일정): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- pages/schedule.md
+
+
 - 날짜/시간: YYYY-MM-DD HH:MM (또는 YYYY-MM-DD)
 - 구분: 제작발표회 | 시사회 | 시상식 | 방송/예능 | 유튜브 | 매거진 | 공개/방영 | 라이브 | 기타
 - 제목:

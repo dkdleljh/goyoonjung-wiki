@@ -1,5 +1,13 @@
 # 🧾 백과사전형 위키 로드맵 (Go Youn-jung)
 
+## 공식 링크
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- docs/editorial_policy.md
+- docs/scoring.md
+
+
 > 목표: “링크 아카이브”를 넘어, **위키백과처럼 신뢰 가능한 요약/연표/근거**가 갖춰진 상태로 발전.
 > 원칙: 사생활/루머 금지. **S/A급(공식/원문) 링크로만 확정**, 2차 출처는 ‘참고’로만.
 

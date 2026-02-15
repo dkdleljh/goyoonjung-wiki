@@ -56,6 +56,14 @@
   - 자동 수정 가능한 것만 수정
   - 애매한 건 “수동 확인 필요”로 남김
 
+## 공식 링크
+- 자동 실행 파이프라인: scripts/run_daily_update.sh
+- 점수/상태 대시보드: pages/system_status.md
+
+## 출처
+- docs/editorial_policy.md
+- docs/ROADMAP_EXECUTION.md
+
 ## 5) 운영 루틴
 
 - 매일(자동): 09:00 업데이트 → 09:20 푸시

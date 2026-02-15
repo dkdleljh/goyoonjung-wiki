@@ -1,5 +1,13 @@
 # 🧾 Fan Hub (Quick Navigation)
 
+## Official links
+- Agency (MAA) profile (S): https://maa.co.kr/artists/go-younjung
+
+## Sources
+- docs/editorial_policy.md
+- docs/content_map.md
+
+
 > This page is an English portal for the wiki. Most content pages are currently in Korean.
 
 ## Today / Recent

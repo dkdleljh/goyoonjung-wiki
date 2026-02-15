@@ -6,3 +6,9 @@
   - [뷰티/스킨케어/메이크업](endorsements/beauty.md)
   - [패션/주얼리](endorsements/fashion.md)
   - [라이프스타일/기타](endorsements/lifestyle.md)
+
+## 공식 링크
+- endorsements/index.md
+
+## 출처
+- docs/editorial_policy.md

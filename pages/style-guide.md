@@ -43,6 +43,13 @@
 - 항목을 추가할 때 YAML 메타데이터(프론트매터)를 권장합니다.
 - 템플릿: `pages/templates/item-frontmatter.md`
 
+## 공식 링크
+- (S) 소속사(MAA) 프로필: https://maa.co.kr/artists/go-younjung
+
+## 출처
+- docs/editorial_policy.md
+- docs/scoring.md
+
 ## 7) 스케줄 기록 규칙
 - `pages/schedule.md`에는 **공식적으로 공개된 일정**만 기록합니다.
 - 일정은 `Upcoming`/`Past`로 분리해 유지합니다.

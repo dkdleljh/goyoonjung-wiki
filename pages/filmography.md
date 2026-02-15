@@ -2,6 +2,9 @@
 
 > 원칙: 작품 정보는 '공식 페이지/플랫폼/방송사' 링크 기반으로 채웁니다.
 
+## 공식 링크
+- (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+
 ## 출처(우선순위)
 - 소속사(MAA) 아티스트 프로필(1차): https://maa.co.kr/artists/go-younjung
 - 플랫폼/방송사/제작사 공식 페이지

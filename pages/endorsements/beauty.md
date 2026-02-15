@@ -57,8 +57,12 @@
   - 비고: 공식 사이트 공지
 
 ## 공식 링크
-- (추가 필요)
+- 구달(goodal) 공식 캠페인(YouTube): https://youtu.be/p3lwXW6nT5U
+- 보다나(VODANA) 공식 캠페인(YouTube): https://youtu.be/hV1sOJLuMN8
+- 려(RYO) 공식 캠페인(YouTube): https://youtu.be/dmS_nEQYv2I
+- 라타플랑(RATAPLAN) 공식 공지: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- (S) YouTube 공식 채널 게시 메타(datePublished)
+- (S) 브랜드 공식 사이트 공지(라타플랑)
 

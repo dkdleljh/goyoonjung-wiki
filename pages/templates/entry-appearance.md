@@ -1,5 +1,12 @@
 # 🧾 출연/행사 항목 템플릿
 
+## 공식 링크
+- (S) 기준(필모/공식 활동): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- pages/appearances.md
+
+
 - 날짜: YYYY-MM-DD
 - 구분: 예능 | 유튜브 | 제작발표회 | 시상식 | 행사 | 기타
 - 프로그램/행사명:

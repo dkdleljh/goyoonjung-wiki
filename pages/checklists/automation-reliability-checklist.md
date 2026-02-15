@@ -1,5 +1,13 @@
 # 자동화 완성 체크리스트 (운영/신뢰성)
 
+## 공식 링크
+- (레포) GitHub Actions/CI 설정: .github/workflows/ci.yml
+
+## 출처
+- docs/OPERATION_GUIDE.md
+- docs/ARCHITECTURE.md
+
+
 > 목표: "알아서 잘 돌아가는 무인 자동화"를 위해 장애 대응, 관측성, 복구 가능성을 점검.
 
 ## 1) 장애/재시도

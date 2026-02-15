@@ -8,5 +8,11 @@
 - 한국어 작품명은 띄어쓰기/부호를 공식 표기에 맞춥니다.
 - 영문 표기는 페이지 상단에 1회만 병기하고, 본문에서는 한국어 우선.
 
+## 공식 링크
+- (S) 소속사(MAA) 표기 참고: https://maa.co.kr/artists/go-younjung
+
+## 출처
+- docs/editorial_policy.md
+
 ## 예시
 - 마지막 업데이트 날짜 표기: `> 마지막 업데이트: YYYY-MM-DD`

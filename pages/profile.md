@@ -29,8 +29,11 @@
 - 활동 기간: 2018년 ~ 현재
 - 소속사: MAA
 
-## 출처(우선순위)
+## 공식 링크
 - 소속사(MAA) 아티스트 프로필(S): https://maa.co.kr/artists/go-younjung
+
+## 출처(우선순위)
+- (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
 - 상태: 촬영 중 (최신 뉴스 기반)
 
 ## 기본 정보(상세)

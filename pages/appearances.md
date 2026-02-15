@@ -29,6 +29,16 @@
 
 > 메모: 항목을 추가할 때는 위 템플릿을 따르고, 링크는 `scripts/add_seen_url.sh`로 정규화 후 `sources/seen-urls.*`에 등록합니다.
 
+## 공식 링크
+- (S) 소속사(MAA) 프로필(필모/공식 활동): https://maa.co.kr/artists/go-younjung
+- (A/S) YouTube(tvN/Netflix/Disney+ Korea 등 공식 채널) 링크는 항목별 `링크(공식/원문)`에 기록
+
+## 출처
+- (S) MAA 아티스트 프로필
+- (A) 방송사/플랫폼 공식 채널 업로드(YouTube datePublished)
+- (A) 1차 보도(원문) 링크(KBS연예 등)
+
+
 ## 2025
 - 날짜: 2025-12-11
 - 구분: 기타(작품/홍보)

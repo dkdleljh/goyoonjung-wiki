@@ -67,8 +67,12 @@
   - 비고: 공식 캠페인 영상
 
 ## 공식 링크
-- (추가 필요)
+- 캐롯손해보험 TVC(YouTube): https://youtu.be/jXCnrLQJfzE
+- 푸라닭치킨 TVC(YouTube): https://youtu.be/NdogLAtlyys
+- 상쾌환(EASY TOMORROW) TVC(YouTube): https://youtu.be/TrDLHYVJ4w8
+- NH농협은행(올원뱅크) 공식 영상(YouTube): https://youtu.be/c_VCPdtEA6A
+- LENSME(렌즈미) 공식 캠페인(YouTube): https://youtu.be/aRrlD-9WIbk
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- (S) YouTube 공식 채널 게시 메타(datePublished)
 

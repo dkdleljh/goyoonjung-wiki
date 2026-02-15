@@ -26,7 +26,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-10 18:50 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-15 23:04 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 전체 후보
 
@@ -41,6 +41,8 @@
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
 
 - [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)  _(출처: appearances.md)_
+
+- [> 메모: 항목을 추가할 때는 위 템플릿을 따르고, 링크는 `scripts/add_seen_url.sh`로 정규화 후 `sources/seen-](https://maa.co.kr/artists/go-younjung)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

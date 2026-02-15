@@ -14,8 +14,9 @@
 - [PURADAK](puradak.md)
 
 ## 공식 링크
-- (추가 필요)
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- pages/brands/* (각 브랜드 페이지의 공식 링크/출처)
+- pages/endorsements/* (공식 발표/공식 영상)
 

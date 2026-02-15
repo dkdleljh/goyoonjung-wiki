@@ -9,7 +9,18 @@
 - 청룡영화상(공식): http://www.blueaward.co.kr/
 - 대종상영화제(공식): https://daejong.or.kr/
 
+## 출처 정책
+- 원칙: 수상/후보는 **시상식 공식 페이지(또는 공식 발표/공식 영상)** 링크로 확정합니다.
+- 보도자료/언론 보도는 보조(A) 근거로만 사용하고, 공식 링크 확보 시 `공식확정`으로 승격합니다.
+- 정책 상세: docs/editorial_policy.md
+
 ---
+
+## 공식 링크
+- 백상예술대상(공식): https://www.baeksangawards.co.kr/
+- 청룡시리즈어워즈(공식): https://bsa.blueaward.co.kr/
+- 청룡영화상(공식): http://www.blueaward.co.kr/
+- 대종상영화제(공식): https://daejong.or.kr/
 
 ## 수상/후보 목록
 

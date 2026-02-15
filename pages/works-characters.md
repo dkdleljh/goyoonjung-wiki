@@ -1,5 +1,13 @@
 # 🧾 작품별 캐릭터 정리 (목차)
 
+## 공식 링크
+- (S) 소속사(MAA) 프로필(작품/캐릭터 근거): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- pages/works/*.md (각 작품 페이지의 출처)
+- docs/editorial_policy.md
+
+
 > 이 페이지는 **목차(링크 모음)** 역할만 합니다.
 > 상세 정리는 `pages/works/` 아래에 작품별 파일로 분리합니다.
 

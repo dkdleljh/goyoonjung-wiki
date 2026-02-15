@@ -1,5 +1,13 @@
 # 📸 사진/화보 아카이브
 
+## 공식 링크
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- pages/pictorials/* 문서에 포함된 매거진/브랜드 원문 링크
+- docs/editorial_policy.md
+
+
 이 페이지는 **목차(링크 모음)** 역할만 합니다. 상세 기록은 카테고리 페이지로 분리합니다.
 
 - [사진/화보 (카테고리)](pictorials/index.md)

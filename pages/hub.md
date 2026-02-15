@@ -38,6 +38,13 @@
   - [연도별 인덱스(자동)](appearances/by-year.md)
 - [스케줄(공식 공개 일정)](schedule.md)
 
+## 공식 링크
+- 소속사(MAA) 프로필(S): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- (S) 소속사(MAA) 아티스트 프로필
+- (내부) docs/editorial_policy.md
+
 ## 관리/규칙
 - [운영 전략/로드맵](strategy.md)
 - [나무위키 참고 보강 백로그](namu-backlog.md)

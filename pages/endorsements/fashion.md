@@ -57,8 +57,12 @@
   - 비고: 공식 계정 게시물(다수 게시물은 추후 정리)
 
 ## 공식 링크
-- (추가 필요)
+- 샤넬(CHANEL) 공식 발표(Instagram): https://www.instagram.com/p/C6gW0vQNU1_/
+- 부쉐론(Boucheron) 공식 발표(Instagram): https://www.instagram.com/p/CWvduIJt1P2/
+- MARITHÉ FRANÇOIS GIRBAUD 공식 캠페인(YouTube): https://youtu.be/76aAMPpCTb4
+- 디스커버리 익스페디션 공식 캠페인(YouTube): https://youtu.be/ZH1Y1l1OmTY
 
 ## 출처
-- (추가 필요: 공식/1차 링크)
+- (S) 브랜드 공식 SNS/공식 채널 게시물(각 항목의 '링크(공식 발표)' 참조)
+- (S) YouTube 공식 채널 게시 메타(datePublished)
 

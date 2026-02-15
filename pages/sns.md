@@ -16,6 +16,14 @@
 ## 방송/콘텐츠 채널
 - 유튜브 채널 십오야: https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ
 
+## 공식 링크
+- MAA(소속사): https://maa.co.kr/
+- MAA Instagram: https://www.instagram.com/maakorea/
+
+## 출처
+- (S) MAA 공식 사이트/공식 SNS
+- (정책) docs/editorial_policy.md (사칭 방지/검증 원칙)
+
 ## 추가 예정
 - 작품별 공식 SNS(넷플릭스/디즈니+/tvN/JTBC 등)
 - 매거진 공식 SNS(화보/커버 공지용)
