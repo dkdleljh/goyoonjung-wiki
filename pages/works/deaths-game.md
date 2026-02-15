@@ -12,7 +12,7 @@
 - (보강 예정) TVING 공식 소개 문구를 기반으로 요약합니다.
 
 ## 관련 링크
-- 공식 페이지(TVING): (추가 보강 필요)
+- 공식 페이지(TVING): https://www.tving.com/contents/P001715360
 
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
@@ -20,9 +20,11 @@
 > 생성: (자동 생성 시각) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 <!-- AUTO-CANDIDATES:END -->
 
-## 링크 박스(확정)
-- 공식 페이지: (TBD)
-- 예고편/클립: (TBD)
+## 링크 박스
+- 공식 페이지(TVING): https://www.tving.com/contents/P001715360
+
+## 공개일(근거)
+- Part 1 공개: 2023-12-15 (근거: `pages/schedule.md`)
 
 ## 출처
 - 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

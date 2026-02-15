@@ -15,6 +15,9 @@
 - 티저 예고편(공식/YouTube): https://www.youtube.com/watch?v=pyrwTv8aS-E
 - 비하인드 메이킹(공식/YouTube): https://www.youtube.com/watch?v=wZR6s3rB6tk
 
+## 공개일(근거)
+- 공개: 2023-08-09 (근거: `pages/schedule.md`)
+
 ## 관련 인터뷰/자료
 - [Marie Claire Korea] 고윤정과 함께한 화보와 인터뷰 (2024.07) — [Link](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)
 - [KBS연예] [인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’) — [Link](https://kstar.kbs.co.kr/list_view.html?idx=277651)

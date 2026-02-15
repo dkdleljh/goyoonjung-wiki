@@ -55,11 +55,12 @@
 - 구분: 공개/방영
 - 제목: 티빙 오리지널 <이재, 곧 죽습니다> Part 1 공개
 - 링크(공식/원문): https://www.tving.com/contents/P001715360
+- 메모: TVING 공식 콘텐츠 페이지.
 
 - 날짜/시간: 2023-08-09
 - 구분: 공개/방영
 - 제목: 디즈니+ 오리지널 <무빙> 공개
-- 링크(공식/원문): https://disneyplus.com
+- 링크(공식/원문): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
 
 (공개일 미정 항목은 Upcoming 섹션으로 이동)
 
