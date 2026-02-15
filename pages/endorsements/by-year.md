@@ -6,6 +6,7 @@
 ---
 
 ## 2025
+- [디디에 두보(DIDIER DUBOT)](https://news.nate.com/view/20250825n17937) — 모델
 - [한화손해보험](https://www.sisaon.co.kr/news/articleView.html?idxno=175918) — 브랜드 전속모델
 
 ## 2024

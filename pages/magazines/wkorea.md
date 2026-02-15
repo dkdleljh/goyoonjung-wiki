@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-15 23:38 (Asia/Seoul)
+> 갱신: 2026-02-16 00:23 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -20,8 +20,8 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
-- (후보 없음)
+- [고윤정, 톰 포드 향수와 함께한 '더블유 코리아' 디지털 화보 공개](https://www.insight.co.kr/news/336193)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
+

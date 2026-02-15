@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-15 23:58 (Asia/Seoul)
+> 갱신: 2026-02-16 00:23 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -29,5 +29,10 @@
 - ['이사통' 김선호 "고윤정과 온도·결 잘 맞아..행운 따른 작품"](https://www.asiaartistawards.com/news/detail/167018/all)  _(출처: pictorials/editorial.md)_
 
 - ['언슬전' 고윤정 "데뷔 후 처음 푹 쉬는 중"](https://www.asiaartistawards.com/news/detail/129994/all)  _(출처: pictorials/editorial.md)_
+
+- [고윤정, 순수한 아름다움으로 완성한 봄의 전언](https://slv.kstarfashion.com/news/articleView.html?idxno=214777)  _(출처: pictorials/editorial.md)_
+
+- [디올 X 고윤정, '청순+고혹美' 화보 공개](https://www.gpkorea.com/news/articleView.html?idxno=97354)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
+
 

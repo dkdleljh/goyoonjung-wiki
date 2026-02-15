@@ -6,6 +6,7 @@
 ---
 
 ## 2026
+- 2026-02-11 · [Within Spring - 2026 봄 캠페인 화보](https://theviewers.co.kr/View.aspx?No=3972476)
 - 2026-01-28 · [(기사) 고윤정 커리어/작품 관련(사진 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=391253)
 - 2026-01-27 · [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)
 - 2026-01-14 · [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)
@@ -18,9 +19,13 @@
 - 2025-11-15 · [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)
 - 2025-11-15 · [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)
 - 2025-11-12 · [2025 마리끌레르 아시아스타어워즈 비욘드 시네마상 수상자, 배우 고윤정](https://www.marieclairekorea.com/celebrity/2025/11/2025-asa-beyondcinema-2/)
+- 2025-10-30 · [차은우·고윤정, 커플 스웨터 입은 '얼굴 천재들의 만남' [화보]](https://sports.donga.com/ent/article/all/20251030/132665690/1)
 - 2025-10-29 · [제니와 고윤정의 가죽 재킷 스타일은?](https://www.marieclairekorea.com/fashion/2025/10/leather-jacket-4/)
 - 2025-10-05 · [현대적인 우아함, 고윤정의 샤넬](https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/)
+- 2025-09-12 · [고윤정, 아무거나 입어도 트렌드… '패션의 완성은 얼굴'](https://sports.donga.com/ent/article/all/20250912/132373328/1)
+- 2025-09-10 · ['Autumn Stilled' - 2025 가을 캠페인 화보](https://www.peoplegate.co.kr/2025/09/marithefranois-girbaud-25_10.html)
 - 2025-08-29 · [샤넬과 만난 신비로운 고윤정의 모습으로 채운 마리끌레르 9월호 디지털 커버](https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/)
+- 2025-08-25 · [대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]](https://news.nate.com/view/20250825n17937)
 - 2025-06-17 · [고윤정, '하퍼스 바자' 7월호 커버 장식](https://www.harpersbazaar.co.kr/article/1883281)
 - 2025-05-26 · [Go ZERO, Now ZERO](https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/)
 - 2025-05-21 · [<언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=363033)
@@ -31,6 +36,7 @@
 - 2025-05-10 · [<언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=361830)
 - 2025-05-09 · [채널십오야 라이브 방송 출격(기사 기반 공지)](https://star.ytn.co.kr/_sn/0117_202505091128555812)
 - 2025-05-01 · [유 퀴즈 온 더 블럭 — 고윤정 출연 하이라이트(공식 업로드)](https://www.youtube.com/watch?v=TiTWX_KfEc0)
+- 2025-04-25 · [고윤정, 싱그러운 매력으로 여름 패션 제안](https://www.meconomynews.com/news/articleView.html?idxno=111782)
 - 2025-04-17 · [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)
 - 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)
 - 2025-02-13 · [렌즈미 캠페인 영상 (PANDEIA)](https://youtu.be/aRrlD-9WIbk)
@@ -39,6 +45,7 @@
 - 2024-12-26 · [<조명가게> 관련 기사/리뷰(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=343890)
 - 2024-07 · [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)
 - 2024-05-03 · [샤넬 크루즈 2024/25 쇼에 참석한 고윤정](https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/)
+- 2024-04-20 · [고윤정, 순수한 아름다움으로 완성한 봄의 전언](https://slv.kstarfashion.com/news/articleView.html?idxno=214777)
 - 2024-04-19 · [고윤정, 샴푸의 요정…탐스러운 머릿결](https://www.mk.co.kr/news/hot-issues/10994612)
 - 2024-04 · [올원뱅크 공식 영상](https://youtu.be/c_VCPdtEA6A)
 - 2024-02-27 · [구달 공식 광고 영상](https://youtu.be/p3lwXW6nT5U)
@@ -47,13 +54,17 @@
 - 2024 · [푸라닭 광고 영상](https://youtu.be/NdogLAtlyys)
 
 ## 2023
+- 2023-10-26 · [고윤정, 확신의 겨울 쿨톤[화보]](https://news.nate.com/view/20231026n28152)
 - 2023-09-22 · [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)
 - 2023-08-03 · [Disney+ 오리지널 시리즈 <무빙> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=274438)
 - 2023-04-04 · [려 공식 광고 영상](https://youtu.be/dmS_nEQYv2I)
 - 2023-02-09 · [고윤정, 사랑스러운 매력 뽐내는 화보 공개](https://fashionseoul.com/224549)
+- 2023-02-02 · [디올 X 고윤정, '청순+고혹美' 화보 공개](https://www.gpkorea.com/news/articleView.html?idxno=97354)
 
 ## 2022
+- 2022-12-12 · [배우 고윤정, 부쉐론과 함께한 'EOY 캠페인' 홀리데이 화보 공개](https://www.rnx.kr/news/articleView.html?idxno=335348)
 - 2022-12-01 · [라타플랑(공식 사이트 게시글)](https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157)
+- 2022-11-22 · [고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼](http://www.breaknews.com/935054)
 - 2022-08-26 · [부쉐론의 여신, 고윤정](https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/)
 - 2022-07-28 · [영화 <헌트> 시사회(현장)](https://kstar.kbs.co.kr/list_view.html?idx=220920)
 - 2022-02-21 · [고윤정의 봄, 봄, 봄](https://www.vogue.co.kr/2022/02/21/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%98-%EB%B4%84-%EB%B4%84-%EB%B4%84/)
@@ -63,11 +74,13 @@
 - 2021-08-19 · [고윤정, 신비로운 분위기 뽐내는 우아한 비주얼 화보 공개](https://www.insight.co.kr/news/354381)
 - 2021-08-18 · ['얼굴 천재' 고윤정, 감탄 부르는 미모…광채 피부 '눈길'](https://stylem.mt.co.kr/stylemView.php?no=2021081820245811273&scd=101&type=1)
 - 2021-06 · [얼굴 천재 '고윤정'의 패션 & 뷰티](https://fashionseoul.com/200113)
+- 2021-04-30 · [고윤정, 톰 포드 향수와 함께한 '더블유 코리아' 디지털 화보 공개](https://www.insight.co.kr/news/336193)
 - 2021-02-17 · [한없이 투명에 가까운, 고윤정](https://www.vogue.co.kr/2021/02/17/%ED%95%9C%EC%97%86%EC%9D%B4-%ED%88%AC%EB%AA%85%EC%97%90-%EA%B0%80%EA%B9%8C%EC%9A%B4-%EA%B3%A0%EC%9C%A4%EC%A0%95/)
 
 ## 2020
 - 2020-12-22 · [고윤정, 新얼굴천재 비주얼…변화무쌍 아름다움 [화보]](https://www.xportsnews.com/article/1368580)
 - 2020-12-17 · [신예 '고윤정', 연작과 내추럴 무드 화보 '독보적 분위기' 공개](https://www.cosinkorea.com/news/article.html?no=37792)
+- 2020-01 · [‘박보검 첫사랑)으로 실검 장악한 고윤정, 아르마니 뷰티 ‘레드 립 화보’](https://www.insight.co.kr/news/264442)
 
 ---
 ※ 이 페이지는 자동 생성됩니다. 원문은 각 카테고리 페이지를 수정하세요.
