@@ -35,10 +35,27 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.3
 URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
 
 SKIP_DOMAINS = (
+    # Social / heavy JS
     "youtube.com",
     "youtu.be",
     "instagram.com",
     "facebook.com",
+    "twitter.com",
+    "x.com",
+
+    # Frequently blocked to bots / aggressive WAF
+    "chanel.com",
+    "boucheron.com",
+    "disneyplus.com",
+    "disneypluskr.com",
+    "tving.com",
+    "program.tving.com",
+    "yna.co.kr",
+    "about.netflix.com",
+    "goodal.com",
+    "vodana.co.kr",
+    "lensme.co.kr",
+    "easytomorrow.co.kr",
 )
 
 

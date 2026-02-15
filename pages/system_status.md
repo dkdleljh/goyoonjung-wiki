@@ -17,7 +17,7 @@ lint-report: OK
 
 ## link_health: **100/100**
 
-counts: ok=258 warn=16 bad=0
+counts: ok=278 warn=2 bad=0
 warn_budget=20
 
 ## automation_health: **100/100**

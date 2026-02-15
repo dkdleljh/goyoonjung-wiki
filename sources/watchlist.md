@@ -38,9 +38,14 @@
 - ELLE Korea(검색: 고윤정): https://www.elle.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
 - Vogue Korea(검색: 고윤정): https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
 - Harper’s BAZAAR Korea(검색: 고윤정): https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- Harper’s BAZAAR Korea(검색: 고윤정): https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
 - Harper’s BAZAAR Korea(태그: 고윤정 화보): https://www.harpersbazaar.co.kr/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%99%94%EB%B3%B4
 - Marie Claire Korea(태그: 고윤정): https://www.marieclairekorea.com/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95/
+- Marie Claire Korea(패션 검색): https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
 - W Korea(검색: 고윤정): https://www.wkorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- GQ Korea(검색: 고윤정): https://www.gqkorea.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- Esquire Korea(검색: 고윤정): https://www.esquirekorea.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95
+- Cosmopolitan Korea(검색: 고윤정): https://www.cosmopolitan.co.kr/search?query=%EA%B3%A0%EC%9C%A4%EC%A0%95
 
 ## SNS(공식)
 - MAA Instagram: https://www.instagram.com/maakorea/
