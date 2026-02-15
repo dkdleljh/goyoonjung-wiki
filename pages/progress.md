@@ -1,6 +1,6 @@
 # 완성도 대시보드
 
-> 갱신: 2026-02-15 23:05 (Asia/Seoul)
+> 갱신: 2026-02-15 23:07 (Asia/Seoul)
 
 ## 1) 백로그 진행률(과거 이력 보강)
 
@@ -36,6 +36,13 @@
 - 화보/사진: 커버 2 / 에디토리얼 10 / 캠페인 14 / 메이킹 2
 - 출연/행사: 15
 - 인터뷰/기사: 10
+
+## 공식 링크
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+
+## 출처
+- pages/system_status.md
+- pages/content-gaps.md
 
 ## 3) 권장 운영
 

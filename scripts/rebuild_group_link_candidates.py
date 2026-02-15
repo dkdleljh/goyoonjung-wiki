@@ -25,6 +25,38 @@ SCAN_FILES = [
     PAGES / "pictorials" / "making.md",
 ]
 
+MAA_PROFILE = "https://maa.co.kr/artists/go-younjung"
+
+OFFICIAL_LINKS_BY_PAGE = {
+    # magazines
+    "magazines/cosmopolitan.md": [
+        "https://www.cosmopolitan.co.kr/",
+        "https://www.cosmopolitan.co.kr/search?query=%EA%B3%A0%EC%9C%A4%EC%A0%95",
+    ],
+    "magazines/esquire.md": [
+        "https://www.esquirekorea.co.kr/",
+        "https://www.esquirekorea.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
+    ],
+    "magazines/gq.md": [
+        "https://www.gqkorea.co.kr/",
+        "https://www.gqkorea.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
+    ],
+    "magazines/wkorea.md": [
+        "https://www.wkorea.com/",
+        "https://www.wkorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
+    ],
+    "magazines/elle.md": ["https://www.elle.co.kr/"],
+    "magazines/vogue.md": ["https://www.vogue.co.kr/"],
+    "magazines/marieclaire.md": ["https://www.marieclairekorea.com/"],
+    "magazines/bazaar.md": ["https://www.harpersbazaar.co.kr/"],
+    # brands (site links can be blocked; still useful as official references)
+    "brands/chanel.md": ["https://www.chanel.com/kr/"],
+    "brands/boucheron.md": ["https://www.boucheron.com/"],
+    "brands/goodal.md": ["https://www.goodal.com/"],
+    "brands/vodana.md": ["https://www.vodana.co.kr/"],
+    "brands/lensme.md": ["https://www.lensme.co.kr/"],
+}
+
 
 def read_text(p: Path) -> str:
     return p.read_text(encoding="utf-8") if p.exists() else ""
@@ -96,9 +128,12 @@ def extract_candidate_blocks(text: str):
             return
         b = "\n".join(cur).strip()
         if b:
-            urls = URL_RE.findall(b)
-            if urls:
-                blocks.append((b, urls[0]))
+            # Only treat blocks as candidates when they look like real entries
+            # (avoid grabbing URLs from headers/policies/etc.)
+            if ("- 링크" in b) or ("링크(공식" in b) or ("링크(원문" in b):
+                urls = URL_RE.findall(b)
+                if urls:
+                    blocks.append((b, urls[0]))
         cur = []
 
     for ln in lines:
@@ -163,10 +198,22 @@ def update_page(page: Path, title: str, items):
     if old_urls is not None and old_urls == new_urls:
         return False
 
+    rel_page = str(page.relative_to(PAGES))
+    official_links = OFFICIAL_LINKS_BY_PAGE.get(rel_page, [])
+
     lines = []
     lines.append(f"# {title}\n")
     lines.append("> 자동 후보 링크 페이지입니다. (키워드 매칭 기반)\n")
     lines.append(f"> 갱신: {now} (Asia/Seoul)\n")
+
+    lines.append("## 공식 링크\n")
+    lines.append(f"- (S) 소속사(MAA) 프로필(기준): {MAA_PROFILE}\n")
+    for u in official_links:
+        lines.append(f"- (A/S) {u}\n")
+
+    lines.append("\n## 출처\n")
+    lines.append("- (S/A) 각 후보 링크의 원문 URL(공식/1차 보도)\n")
+    lines.append("- (정책) docs/editorial_policy.md\n")
 
     auto = []
     auto.append("## 관련 링크(자동 후보)\n")

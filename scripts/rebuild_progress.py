@@ -73,6 +73,14 @@ def main():
         lines.append(lint_snip)
         lines.append('')
 
+    lines.append('## 공식 링크')
+    lines.append('- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung')
+    lines.append('')
+    lines.append('## 출처')
+    lines.append('- pages/system_status.md')
+    lines.append('- pages/content-gaps.md')
+    lines.append('')
+
     lines.append('## 3) 권장 운영')
     lines.append('')
     lines.append('- 매일: 백로그 1개 전진(공식 링크 확보 → 해당 페이지 착지)')

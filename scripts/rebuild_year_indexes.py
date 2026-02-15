@@ -135,6 +135,17 @@ def build_year_index(title: str, items: Iterable[Item], intro: str) -> str:
     out.append("---")
     out.append("※ 이 페이지는 자동 생성됩니다. 원문은 각 카테고리 페이지를 수정하세요.")
     out.append("")
+    out.append("## 공식 링크")
+    out.append("- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung")
+    out.append("")
+    out.append("## 출처")
+    out.append(intro.splitlines()[-1] if intro else "- (내부) 원본 페이지")
+    # Source hint by title
+    if "출연/행사" in title:
+        out.append("- pages/appearances.md")
+    else:
+        out.append("- pages/pictorials/*")
+    out.append("")
     return "\n".join(out)
 
 

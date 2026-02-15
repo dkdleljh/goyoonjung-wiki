@@ -2,6 +2,13 @@
 
 > 자동 생성 파일입니다. (스크립트: scripts/rebuild_tag_index.py)
 
+## 공식 링크
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+- (내부) 생성 스크립트: scripts/rebuild_tag_index.py
+
+## 출처
+- docs/editorial_policy.md
+
 ## 태그 목록
 
 ### Can This Love Be Translated

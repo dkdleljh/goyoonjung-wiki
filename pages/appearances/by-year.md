@@ -31,3 +31,10 @@
 
 ---
 ※ 이 페이지는 자동 생성됩니다. 원문은 각 카테고리 페이지를 수정하세요.
+
+## 공식 링크
+- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+
+## 출처
+> 원문/근거는 `pages/appearances.md`에 누적됩니다.
+- pages/appearances.md

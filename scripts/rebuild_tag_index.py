@@ -51,6 +51,11 @@ def main():
     with open(OUT_FILE, "w", encoding="utf-8") as out:
         out.write("# 태그 인덱스\n\n")
         out.write("> 자동 생성 파일입니다. (스크립트: scripts/rebuild_tag_index.py)\n\n")
+        out.write("## 공식 링크\n")
+        out.write("- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung\n")
+        out.write("- (내부) 생성 스크립트: scripts/rebuild_tag_index.py\n\n")
+        out.write("## 출처\n")
+        out.write("- docs/editorial_policy.md\n\n")
         out.write("## 태그 목록\n\n")
 
         # Sort tags alphabetically
