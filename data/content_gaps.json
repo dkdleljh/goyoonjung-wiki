@@ -1,26 +1,16 @@
 {
-  "generated_at": "2026-02-15T23:43:47.711175",
+  "generated_at": "2026-02-16T00:02:46.105381",
   "total_pages": 75,
   "items": [
     {
-      "path": "pages/checklists/automation-reliability-checklist.md",
-      "group": "checklists",
-      "title": "자동화 완성 체크리스트 (운영/신뢰성)",
-      "url_count": 0,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 35
-    },
-    {
-      "path": "pages/endorsements/index.md",
-      "group": "endorsements",
-      "title": "🤝 광고/엠버서더 (카테고리)",
-      "url_count": 0,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 35
+      "path": "pages/interviews/by-year.md",
+      "group": "interviews",
+      "title": "인터뷰/기사 — 연도별 인덱스",
+      "url_count": 40,
+      "has_sources_heading": false,
+      "has_official_links_heading": false,
+      "placeholder_hits": 0,
+      "priority_score": 55
     },
     {
       "path": "pages/endorsements.md",
@@ -33,14 +23,34 @@
       "priority_score": 35
     },
     {
+      "path": "pages/checklists/automation-reliability-checklist.md",
+      "group": "checklists",
+      "title": "자동화 완성 체크리스트 (운영/신뢰성)",
+      "url_count": 0,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 20
+    },
+    {
+      "path": "pages/endorsements/index.md",
+      "group": "endorsements",
+      "title": "🤝 광고/엠버서더 (카테고리)",
+      "url_count": 0,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 20
+    },
+    {
       "path": "pages/strategy.md",
       "group": "strategy.md",
       "title": "🧩 위키 운영 전략 (완벽해지기 로드맵)",
       "url_count": 0,
       "has_sources_heading": true,
       "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 35
+      "placeholder_hits": 0,
+      "priority_score": 20
     },
     {
       "path": "pages/appearances.md",
@@ -57,66 +67,6 @@
       "group": "awards.md",
       "title": "🏆 수상 / 노미네이트",
       "url_count": 9,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/brands/index.md",
-      "group": "brands",
-      "title": "🧾 브랜드 링크 허브 (자동 후보)",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/checklists/wiki-completeness-checklist.md",
-      "group": "checklists",
-      "title": "위키 완성 체크리스트 (콘텐츠)",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/encyclopedia-roadmap.md",
-      "group": "encyclopedia-roadmap.md",
-      "title": "🧾 백과사전형 위키 로드맵 (Go Youn-jung)",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/endorsements/beauty.md",
-      "group": "endorsements",
-      "title": "🤝 광고/엠버서더 — 뷰티/스킨케어/메이크업",
-      "url_count": 15,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/endorsements/fashion.md",
-      "group": "endorsements",
-      "title": "🤝 광고/엠버서더 — 패션/주얼리",
-      "url_count": 16,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/endorsements/lifestyle.md",
-      "group": "endorsements",
-      "title": "🤝 광고/엠버서더 — 라이프스타일/기타",
-      "url_count": 22,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 3,
@@ -153,170 +103,10 @@
       "priority_score": 15
     },
     {
-      "path": "pages/interviews/by-year.md",
-      "group": "interviews",
-      "title": "인터뷰/기사 — 연도별 인덱스",
-      "url_count": 10,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
       "path": "pages/interviews.md",
       "group": "interviews.md",
       "title": "인터뷰/기사 아카이브",
-      "url_count": 47,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/legal.md",
-      "group": "legal.md",
-      "title": "⚖️ 권리/저작권/인용 원칙",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/magazines/index.md",
-      "group": "magazines",
-      "title": "🧾 매거진 링크 허브 (자동 후보)",
-      "url_count": 5,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/naming.md",
-      "group": "naming.md",
-      "title": "🔤 표기 규칙 (Naming)",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/namu-backlog.md",
-      "group": "namu-backlog.md",
-      "title": "🧾 나무위키 참고(2차) 보강 백로그",
-      "url_count": 2,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/notes/goyoonjung-character-analysis.md",
-      "group": "notes",
-      "title": "🧾 고윤정 캐릭터 분석",
-      "url_count": 4,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/notes/index.md",
-      "group": "notes",
-      "title": "🧾 기타 자료 / 메모",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/notes/translation-love-filming-locations-google-maps.md",
-      "group": "notes",
-      "title": "🧾 〈이 사랑 통역 되나요?〉 촬영지(공개/추정) — 구글지도 링크 + 좌표",
-      "url_count": 95,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/people/README.md",
-      "group": "people",
-      "title": "🧾 인물 카드(공동 출연/제작진)",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/pictorials/campaign.md",
-      "group": "pictorials",
-      "title": "화보/사진 — 캠페인/룩북/브랜드 컷",
-      "url_count": 27,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/pictorials/cover.md",
-      "group": "pictorials",
-      "title": "📸 화보/사진 — 커버/표지",
-      "url_count": 5,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/pictorials/editorial.md",
-      "group": "pictorials",
-      "title": "📸 화보/사진 — 에디토리얼/화보",
-      "url_count": 29,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/pictorials/events.md",
-      "group": "pictorials",
-      "title": "📸 사진/화보 — 행사/포토월/시상식 (링크 아카이브)",
-      "url_count": 31,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/pictorials/index.md",
-      "group": "pictorials",
-      "title": "📸 사진/화보 아카이브 (카테고리)",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/pictorials/making.md",
-      "group": "pictorials",
-      "title": "📸 화보/사진 — 메이킹/비하인드/영상 스틸",
-      "url_count": 3,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/pictorials/stills-posters.md",
-      "group": "pictorials",
-      "title": "📸 사진/화보 — 작품 스틸/포스터/캐릭터 포스터 (링크 아카이브)",
-      "url_count": 19,
+      "url_count": 93,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 3,
@@ -363,166 +153,6 @@
       "priority_score": 15
     },
     {
-      "path": "pages/style-guide.md",
-      "group": "style-guide.md",
-      "title": "✍️ 편집 규칙 (Style Guide)",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/timeline.md",
-      "group": "timeline.md",
-      "title": "Activity Timeline",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/videos/mv.md",
-      "group": "videos",
-      "title": "뮤직비디오 출연 (공식 MV)",
-      "url_count": 3,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/videos/ost-promo.md",
-      "group": "videos",
-      "title": "OST/프로모션/티저/기타 영상 (MV 제외)",
-      "url_count": 1,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/alchemy-of-souls.md",
-      "group": "works",
-      "title": "환혼: 빛과 그림자 (tvN)",
-      "url_count": 34,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/by-year.md",
-      "group": "works",
-      "title": "작품 — 연도별 인덱스",
-      "url_count": 15,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/can-this-love-be-translated.md",
-      "group": "works",
-      "title": "🎬 이 사랑 통역 되나요? (Netflix)",
-      "url_count": 13,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/deaths-game.md",
-      "group": "works",
-      "title": "🎬 이재, 곧 죽습니다 (TVING)",
-      "url_count": 4,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/he-is-psychometric.md",
-      "group": "works",
-      "title": "🎬 사이코메트리 그녀석 (tvN)",
-      "url_count": 11,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/hunt.md",
-      "group": "works",
-      "title": "🎬 헌트 (영화)",
-      "url_count": 7,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/law-school.md",
-      "group": "works",
-      "title": "🎬 로스쿨 (JTBC)",
-      "url_count": 9,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/light-shop.md",
-      "group": "works",
-      "title": "조명가게 (Light Shop)",
-      "url_count": 4,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/moving.md",
-      "group": "works",
-      "title": "무빙 (Disney+)",
-      "url_count": 27,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/resident-playbook.md",
-      "group": "works",
-      "title": "🎬 언젠가는 슬기로울 전공의생활 (tvN)",
-      "url_count": 14,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/sweethome.md",
-      "group": "works",
-      "title": "🎬 스위트홈 (Netflix)",
-      "url_count": 23,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
-      "path": "pages/works/the-school-nurse-files.md",
-      "group": "works",
-      "title": "🎬 보건교사 안은영 (Netflix)",
-      "url_count": 7,
-      "has_sources_heading": true,
-      "has_official_links_heading": true,
-      "placeholder_hits": 3,
-      "priority_score": 15
-    },
-    {
       "path": "pages/works-characters.md",
       "group": "works-characters.md",
       "title": "🧾 작품별 캐릭터 정리 (목차)",
@@ -531,6 +161,26 @@
       "has_official_links_heading": true,
       "placeholder_hits": 3,
       "priority_score": 15
+    },
+    {
+      "path": "pages/pictorials/editorial.md",
+      "group": "pictorials",
+      "title": "📸 화보/사진 — 에디토리얼/화보",
+      "url_count": 47,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 2,
+      "priority_score": 10
+    },
+    {
+      "path": "pages/endorsements/fashion.md",
+      "group": "endorsements",
+      "title": "🤝 광고/엠버서더 — 패션/주얼리",
+      "url_count": 18,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 1,
+      "priority_score": 5
     },
     {
       "path": "pages/appearances/by-year.md",
@@ -593,6 +243,16 @@
       "priority_score": 0
     },
     {
+      "path": "pages/brands/index.md",
+      "group": "brands",
+      "title": "🧾 브랜드 링크 허브 (자동 후보)",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
       "path": "pages/brands/lensme.md",
       "group": "brands",
       "title": "LENSME",
@@ -606,7 +266,7 @@
       "path": "pages/brands/marithe.md",
       "group": "brands",
       "title": "MARITHÉ FRANÇOIS GIRBAUD",
-      "url_count": 3,
+      "url_count": 5,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -633,10 +293,50 @@
       "priority_score": 0
     },
     {
+      "path": "pages/checklists/wiki-completeness-checklist.md",
+      "group": "checklists",
+      "title": "위키 완성 체크리스트 (콘텐츠)",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/encyclopedia-roadmap.md",
+      "group": "encyclopedia-roadmap.md",
+      "title": "🧾 백과사전형 위키 로드맵 (Go Youn-jung)",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/endorsements/beauty.md",
+      "group": "endorsements",
+      "title": "🤝 광고/엠버서더 — 뷰티/스킨케어/메이크업",
+      "url_count": 15,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
       "path": "pages/endorsements/by-year.md",
       "group": "endorsements",
       "title": "광고/엠버서더 — 연도별 인덱스",
-      "url_count": 13,
+      "url_count": 14,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/endorsements/lifestyle.md",
+      "group": "endorsements",
+      "title": "🤝 광고/엠버서더 — 라이프스타일/기타",
+      "url_count": 22,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -646,6 +346,16 @@
       "path": "pages/index-by-tag.md",
       "group": "index-by-tag.md",
       "title": "태그 인덱스",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/legal.md",
+      "group": "legal.md",
+      "title": "⚖️ 권리/저작권/인용 원칙",
       "url_count": 1,
       "has_sources_heading": true,
       "has_official_links_heading": true,
@@ -676,7 +386,7 @@
       "path": "pages/magazines/elle.md",
       "group": "magazines",
       "title": "ELLE Korea",
-      "url_count": 5,
+      "url_count": 7,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -686,7 +396,7 @@
       "path": "pages/magazines/esquire.md",
       "group": "magazines",
       "title": "Esquire Korea",
-      "url_count": 3,
+      "url_count": 4,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -697,6 +407,16 @@
       "group": "magazines",
       "title": "GQ Korea",
       "url_count": 3,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/magazines/index.md",
+      "group": "magazines",
+      "title": "🧾 매거진 링크 허브 (자동 후보)",
+      "url_count": 5,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -733,10 +453,130 @@
       "priority_score": 0
     },
     {
+      "path": "pages/naming.md",
+      "group": "naming.md",
+      "title": "🔤 표기 규칙 (Naming)",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/namu-backlog.md",
+      "group": "namu-backlog.md",
+      "title": "🧾 나무위키 참고(보조) 보강 백로그",
+      "url_count": 2,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/notes/goyoonjung-character-analysis.md",
+      "group": "notes",
+      "title": "🧾 고윤정 캐릭터 분석",
+      "url_count": 4,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/notes/index.md",
+      "group": "notes",
+      "title": "🧾 기타 자료 / 메모",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/notes/translation-love-filming-locations-google-maps.md",
+      "group": "notes",
+      "title": "🧾 〈이 사랑 통역 되나요?〉 촬영지(공개/추정) — 구글지도 링크 + 좌표",
+      "url_count": 95,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/people/README.md",
+      "group": "people",
+      "title": "🧾 인물 카드(공동 출연/제작진)",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
       "path": "pages/pictorials/by-year.md",
       "group": "pictorials",
       "title": "사진/화보/행사 — 연도별 인덱스",
-      "url_count": 42,
+      "url_count": 51,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/campaign.md",
+      "group": "pictorials",
+      "title": "화보/사진 — 캠페인/룩북/브랜드 컷",
+      "url_count": 27,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/cover.md",
+      "group": "pictorials",
+      "title": "📸 화보/사진 — 커버/표지",
+      "url_count": 5,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/events.md",
+      "group": "pictorials",
+      "title": "📸 사진/화보 — 행사/포토월/시상식 (링크 아카이브)",
+      "url_count": 31,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/index.md",
+      "group": "pictorials",
+      "title": "📸 사진/화보 아카이브 (카테고리)",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/making.md",
+      "group": "pictorials",
+      "title": "📸 화보/사진 — 메이킹/비하인드/영상 스틸",
+      "url_count": 3,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/pictorials/stills-posters.md",
+      "group": "pictorials",
+      "title": "📸 사진/화보 — 작품 스틸/포스터/캐릭터 포스터 (링크 아카이브)",
+      "url_count": 19,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
@@ -747,6 +587,166 @@
       "group": "progress.md",
       "title": "완성도 대시보드",
       "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/style-guide.md",
+      "group": "style-guide.md",
+      "title": "✍️ 편집 규칙 (Style Guide)",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/timeline.md",
+      "group": "timeline.md",
+      "title": "Activity Timeline",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/videos/mv.md",
+      "group": "videos",
+      "title": "뮤직비디오 출연 (공식 MV)",
+      "url_count": 3,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/videos/ost-promo.md",
+      "group": "videos",
+      "title": "OST/프로모션/티저/기타 영상 (MV 제외)",
+      "url_count": 1,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/alchemy-of-souls.md",
+      "group": "works",
+      "title": "환혼: 빛과 그림자 (tvN)",
+      "url_count": 36,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/by-year.md",
+      "group": "works",
+      "title": "작품 — 연도별 인덱스",
+      "url_count": 15,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/can-this-love-be-translated.md",
+      "group": "works",
+      "title": "🎬 이 사랑 통역 되나요? (Netflix)",
+      "url_count": 13,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/deaths-game.md",
+      "group": "works",
+      "title": "🎬 이재, 곧 죽습니다 (TVING)",
+      "url_count": 4,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/he-is-psychometric.md",
+      "group": "works",
+      "title": "🎬 사이코메트리 그녀석 (tvN)",
+      "url_count": 11,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/hunt.md",
+      "group": "works",
+      "title": "🎬 헌트 (영화)",
+      "url_count": 13,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/law-school.md",
+      "group": "works",
+      "title": "🎬 로스쿨 (JTBC)",
+      "url_count": 11,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/light-shop.md",
+      "group": "works",
+      "title": "조명가게 (Light Shop)",
+      "url_count": 4,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/moving.md",
+      "group": "works",
+      "title": "무빙 (Disney+)",
+      "url_count": 37,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/resident-playbook.md",
+      "group": "works",
+      "title": "🎬 언젠가는 슬기로울 전공의생활 (tvN)",
+      "url_count": 14,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/sweethome.md",
+      "group": "works",
+      "title": "🎬 스위트홈 (Netflix)",
+      "url_count": 24,
+      "has_sources_heading": true,
+      "has_official_links_heading": true,
+      "placeholder_hits": 0,
+      "priority_score": 0
+    },
+    {
+      "path": "pages/works/the-school-nurse-files.md",
+      "group": "works",
+      "title": "🎬 보건교사 안은영 (Netflix)",
+      "url_count": 7,
       "has_sources_heading": true,
       "has_official_links_heading": true,
       "placeholder_hits": 0,
