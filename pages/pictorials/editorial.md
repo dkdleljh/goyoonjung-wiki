@@ -14,6 +14,15 @@
 
 ## 2026
 
+- 날짜: 2026-02-11
+- 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
+- 구분: 화보/캠페인
+- 제목: Within Spring - 2026 봄 캠페인 화보
+- 링크(원문): https://theviewers.co.kr/View.aspx?No=3972476
+- 상태: 공식확정
+- id: https://theviewers.co.kr/View.aspx?No=3972476
+- 비고: 2026 봄 컬렉션 캠페인, 'Within Spring' 콘셉트
+
 - 날짜: 2026-01
 - 매체: ELLE Korea
 - 구분: 화보/인터뷰
@@ -33,6 +42,51 @@
 - 비고: ELLE 5월호 인터뷰
 
 ## 2025
+- 날짜: 2025-10-30
+- 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
+- 구분: 화보/캠페인
+- 제목: 차은우·고윤정, 커플 스웨터 입은 '얼굴 천재들의 만남' [화보]
+- 링크(원문): https://sports.donga.com/ent/article/all/20251030/132665690/1
+- 상태: 공식확정
+- id: https://sports.donga.com/ent/article/all/20251030/132665690/1
+- 비고: 2025 겨울 캠페인, 차은우와 함께한 커플 화보
+
+- 날짜: 2025-09-10
+- 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
+- 구분: 화보/캠페인
+- 제목: 'Autumn Stilled' - 2025 가을 캠페인 화보
+- 링크(원문): https://www.peoplegate.co.kr/2025/09/marithefranois-girbaud-25_10.html
+- 상태: 공식확정
+- id: https://www.peoplegate.co.kr/2025/09/marithefranois-girbaud-25_10.html
+- 비고: 2025 가을 컬렉션 캠페인, 차은우와 함께한 가을 화보
+
+- 날짜: 2025-09-12
+- 매체: 디스커버리 익스페디션 (Discovery Expedition)
+- 구분: 화보/캠페인
+- 제목: 고윤정, 아무거나 입어도 트렌드… '패션의 완성은 얼굴'
+- 링크(원문): https://sports.donga.com/ent/article/all/20250912/132373328/1
+- 상태: 공식확정
+- id: https://sports.donga.com/ent/article/all/20250912/132373328/1
+- 비고: 2025 FW 'Tech for Lifestyle' 화보
+
+- 날짜: 2025-08-25
+- 매체: 디디에 두보 (DIDIER DUBOT)
+- 구분: 화보/캠페인
+- 제목: 대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]
+- 링크(원문): https://news.nate.com/view/20250825n17937
+- 상태: 공식확정
+- id: https://news.nate.com/view/20250825n17937
+- 비고: 2025 FW '듀얼 디디(Dual D.D) 컬렉션' 광고 캠페인
+
+- 날짜: 2025-04-25
+- 매체: 디스커버리 익스페디션 (Discovery Expedition)
+- 구분: 화보/캠페인
+- 제목: 고윤정, 싱그러운 매력으로 여름 패션 제안
+- 링크(원문): https://www.meconomynews.com/news/articleView.html?idxno=111782
+- 상태: 공식확정
+- id: https://www.meconomynews.com/news/articleView.html?idxno=111782
+- 비고: 2025春夏 화보
+
 - 날짜: 2025-04-17
 - 매체: ELLE Korea
 - 구분: 커버 관련(인터뷰/화보)

@@ -65,6 +65,16 @@
   - id: https://www.instagram.com/p/CWvduIJt1P2/
   - 비고: 공식 계정 게시물(다수 게시물은 추후 정리)
 
+- 브랜드/회사명: 디디에 두보(DIDIER DUBOT)
+  - 카테고리: 주얼리
+  - 역할: 모델
+  - 발표일/시작일: 2025-08
+  - 링크(공식 발표): https://news.nate.com/view/20250825n17937
+  - 링크(공식 영상/캠페인): (추가 보강 필요)
+  - 상태: 공식확정
+  - id: https://news.nate.com/view/20250825n17937
+  - 비고: 2025 FW '듀얼 디디(Dual D.D) 컬렉션' 광고 캠페인
+
 ## 공식 링크
 - 샤넬(CHANEL) 공식 발표(Instagram): https://www.instagram.com/p/C6gW0vQNU1_/
 - 부쉐론(Boucheron) 공식 발표(Instagram): https://www.instagram.com/p/CWvduIJt1P2/
