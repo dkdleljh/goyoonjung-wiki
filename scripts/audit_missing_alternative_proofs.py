@@ -57,13 +57,21 @@ SKIP_DOMAINS = {
 EXCLUDE = {
     "pages/skipped-link-backlog.md",
     "pages/alternative-proof-candidates.md",
+    "pages/alternative-proof-missing.md",
     "pages/link-health.md",
     "pages/system_status.md",
     "pages/quality-report.md",
     "pages/content-gaps.md",
     "pages/lint-report.md",
     "pages/daily-report.md",
+
+    # Source lists / auto-generated indexes: missing alternatives are expected.
+    "sources/watchlist.md",
 }
+
+EXCLUDE_PATTERNS = [
+    re.compile(r"^pages/.+/by-year\.md$"),
+]
 
 
 @dataclass(frozen=True)
@@ -88,8 +96,9 @@ def is_skipped(u: str) -> bool:
 
 
 def has_alt_near(lines: list[str], idx0: int, window: int = 4) -> bool:
-    a = max(0, idx0)
-    b = min(len(lines), idx0 + window)
+    # idx0 is 1-indexed line number
+    a = max(0, (idx0 - 1))
+    b = min(len(lines), (idx0 - 1) + window)
     for j in range(a, b):
         if any(m in lines[j] for m in ALT_MARKERS):
             return True
@@ -102,6 +111,8 @@ def main() -> None:
     for p in iter_md_files():
         rel = p.relative_to(BASE).as_posix()
         if rel in EXCLUDE:
+            continue
+        if any(rx.search(rel) for rx in EXCLUDE_PATTERNS):
             continue
         lines = p.read_text(encoding="utf-8", errors="ignore").splitlines()
         for i, ln in enumerate(lines, start=1):
