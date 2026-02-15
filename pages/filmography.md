@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 작품 축(드라마/시리즈 중심)을 공식 링크 기반으로 정리한 표입니다.
-- 핵심 링크: [소속사(MAA)](https://maa.co.kr/artists/go-younjung) · 작품별(pages/works/*.md) · [타임라인](pages/timeline.md)
+- 핵심 링크: [소속사(MAA)](https://maa.co.kr/artists/go-younjung) · 작품별(works/*.md) · [타임라인](timeline.md)
 - 상태: S/A 우선(플랫폼/방송사 링크 보강 지속)
 
 > 원칙: 작품 정보는 '공식 페이지/플랫폼/방송사' 링크 기반으로 채웁니다.

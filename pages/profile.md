@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 공식/검증 가능한 근거로 고윤정의 핵심 프로필 정보를 유지하는 페이지입니다.
-- 핵심 링크: [소속사(MAA)](https://maa.co.kr/artists/go-younjung) · [필모](pages/filmography.md) · [타임라인](pages/timeline.md)
+- 핵심 링크: [소속사(MAA)](https://maa.co.kr/artists/go-younjung) · [필모](filmography.md) · [타임라인](timeline.md)
 - 상태: S/A 우선(일부 항목은 보조 참고로 분리 운영)
 
 <!-- AUTO-INFOBOX:START -->

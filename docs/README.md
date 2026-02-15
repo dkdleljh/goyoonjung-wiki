@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 문서 모음의 목차(정책/로드맵/운영)를 제공하는 docs 포털입니다.
-- 핵심 링크: [편집 정책](docs/editorial_policy.md) · [점수](docs/scoring.md) · [로드맵](docs/ROADMAP_EXECUTION.md)
+- 핵심 링크: [편집 정책](editorial_policy.md) · [점수](scoring.md) · [로드맵](ROADMAP_EXECUTION.md)
 - 상태: 운영 문서
 
 <!-- TOC:START -->
