@@ -26,5 +26,3 @@
 
 ## 출처
 - (S) 공식 링크: https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4
-
-

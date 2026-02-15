@@ -39,9 +39,11 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-15 23:14 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-15 23:26 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
+
+- ⭐ [현대적인 우아함, 고윤정의 샤넬](https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/)  _(출처: interviews.md)_
 
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
@@ -50,6 +52,8 @@
 
 
 ### 전체 후보
+
+- [현대적인 우아함, 고윤정의 샤넬](https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/)  _(출처: interviews.md)_
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 

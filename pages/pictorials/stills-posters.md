@@ -90,4 +90,3 @@
 ## 출처
 - (S/A) 각 항목의 원문 URL(공식 페이지/공식 채널 업로드/1차 보도)
 - 정책: docs/editorial_policy.md
-

@@ -26,4 +26,3 @@
 ## 출처
 - (정책) docs/editorial_policy.md
 - (정책) pages/style-guide.md
-

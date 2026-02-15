@@ -380,26 +380,26 @@
 
 ## 일본
 
-- 고쿠라쿠지 역 (Gokurakuji Station)  
-  - 좌표: **35.3103006, 139.5317055**  
+- 고쿠라쿠지 역 (Gokurakuji Station)
+  - 좌표: **35.3103006, 139.5317055**
   - 구글지도: https://www.google.com/maps/search/?api=1&query=Gokurakuji%20Station%2C%20Kamakura%2C%20Japan
 
-- 고료 신사 (Goryo Shrine, Kamakura)  
-  - 좌표: **35.3112317, 139.5328439**  
+- 고료 신사 (Goryo Shrine, Kamakura)
+  - 좌표: **35.3112317, 139.5328439**
   - 구글지도: https://www.google.com/maps/search/?api=1&query=Goryo%20Shrine%2C%20Kamakura%2C%20Japan
 
 ## 캐나다
 
-- 보 리버 브리지 (Bow River Bridge, Banff)  
-  - 좌표: **51.1727998, -115.5712056**  
+- 보 리버 브리지 (Bow River Bridge, Banff)
+  - 좌표: **51.1727998, -115.5712056**
   - 구글지도: https://www.google.com/maps/search/?api=1&query=Bow%20River%20Bridge%2C%20Banff%2C%20Alberta
 
-- 루히드 하우스 (Lougheed House, Calgary)  
-  - 좌표: **51.0405964, -114.0771672**  
+- 루히드 하우스 (Lougheed House, Calgary)
+  - 좌표: **51.0405964, -114.0771672**
   - 구글지도: https://www.google.com/maps/search/?api=1&query=Lougheed%20House%2C%20Calgary%2C%20Alberta
 
-- 헤리티지 파크 (Heritage Park Historical Village, Calgary)  
-  - 좌표: **50.9851303, -114.1070459**  
+- 헤리티지 파크 (Heritage Park Historical Village, Calgary)
+  - 좌표: **50.9851303, -114.1070459**
   - 구글지도: https://www.google.com/maps/search/?api=1&query=Heritage%20Park%20Historical%20Village%2C%20Calgary
 
 ## 이탈리아

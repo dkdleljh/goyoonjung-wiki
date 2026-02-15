@@ -10,14 +10,17 @@
 
 ```bash
 # 저장소 클론
+
 git clone <repo-url>
 cd goyoonjung-wiki
 
 # 가상환경 생성
+
 python3 -m venv .venv
 source .venv/bin/activate
 
 # 의존성 설치
+
 pip install -r requirements.txt -r requirements-dev.txt
 ```
 
@@ -74,9 +77,11 @@ if __name__ == "__main__":
 
 ```bash
 # 테스트 실행
+
 pytest tests/
 
 # 특정 테스트 파일
+
 pytest tests/test_cache.py -v
 ```
 

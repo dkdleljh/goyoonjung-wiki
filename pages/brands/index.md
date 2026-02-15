@@ -19,4 +19,3 @@
 ## 출처
 - pages/brands/* (각 브랜드 페이지의 공식 링크/출처)
 - pages/endorsements/* (공식 발표/공식 영상)
-

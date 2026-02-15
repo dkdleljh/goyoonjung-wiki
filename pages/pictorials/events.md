@@ -151,4 +151,3 @@
 ## 출처
 - (S/A) 각 항목의 원문 URL(시상식 공식 페이지/공식 영상/1차 보도)
 - 정책: docs/editorial_policy.md
-

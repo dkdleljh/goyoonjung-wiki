@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-15 23:07 (Asia/Seoul)
+> 갱신: 2026-02-15 23:26 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -21,7 +21,9 @@
 ## 관련 링크(자동 후보)
 
 - [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)  _(출처: interviews.md)_
+
+- [고윤정이 피어난다](https://www.elle.co.kr/article/1874201)  _(출처: interviews.md)_
+
+- [고윤정, 샴푸의 요정…탐스러운 머릿결 [화보]](https://www.mk.co.kr/news/hot-issues/10994612)  _(출처: interviews.md)_
 <!-- AUTO-CANDIDATES:END -->
-
-
 

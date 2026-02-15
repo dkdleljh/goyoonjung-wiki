@@ -27,4 +27,3 @@
 ## 출처
 - (S/A) 각 항목의 원문 URL(매거진/브랜드 공식 페이지)
 - 정책: docs/editorial_policy.md
-

@@ -18,6 +18,7 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
@@ -32,6 +33,3 @@
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
-
-
-

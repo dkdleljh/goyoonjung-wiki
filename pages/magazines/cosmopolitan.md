@@ -20,8 +20,8 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - (후보 없음)
 <!-- AUTO-CANDIDATES:END -->
-

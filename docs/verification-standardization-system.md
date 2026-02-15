@@ -15,15 +15,15 @@ verification_levels:
       - 본인 계정 공식 발표
     confidence: 99%
     auto_update: true
-    
-  S2: # 공식 2차  
+
+  S2: # 공식 2차
     sources:
       - 방송사/OTT 공식 자료
       - 제작사 공식 정보
       - 주요 언론사 단독 인터뷰
     confidence: 95%
     auto_update: true
-    
+
   A1: # 1차 검증
     sources:
       - 주요 언론사 보도
@@ -31,7 +31,7 @@ verification_levels:
       - 전문 데이터베이스
     confidence: 85%
     auto_update: true
-    
+
   A2: # 2차 검증
     sources:
       - 신뢰할 수 있는 2차 자료
@@ -39,7 +39,7 @@ verification_levels:
       - 전문가 분석
     confidence: 75%
     auto_update: false
-    
+
   B:  # 참고 자료
     sources:
       - 팬 커뮤니티 큐레이션
@@ -62,20 +62,20 @@ class VerificationPipeline:
             "netflix.com",         # OTT
             "instagram.com/go_younjung" # SNS
         ]
-    
+
     def verify_information(self, data, content_type):
         # 1단계: 출처 자동 검색
         sources = self.search_sources(data, content_type)
-        
+
         # 2단계: 신뢰도 평가
         trust_score = self.calculate_trust_score(sources)
-        
+
         # 3단계: 교차 검증
         verification = self.cross_validate(data, sources)
-        
+
         # 4단계: 등급 부여
         level = self.assign_level(trust_score, verification)
-        
+
         return {
             "level": level,
             "confidence": trust_score,
@@ -83,7 +83,7 @@ class VerificationPipeline:
             "verification": verification,
             "last_updated": datetime.now()
         }
-    
+
     def auto_update_verification(self):
         # 매시간 공식 출처 확인
         # 변경사항 자동 업데이트
@@ -97,6 +97,7 @@ class VerificationPipeline:
 ## 데이터 검증 대시보드 (실시간)
 
 ### 현재 검증 현황
+
 | 카테고리 | 총 항목 | S1 | S2 | A1 | A2 | B | 검증률 |
 |---|---|---|---|---|---|---|---|
 | **프로필** | 18 | 12 | 4 | 2 | 0 | 0 | 88.9% |
@@ -112,7 +113,7 @@ class VerificationPipeline:
 
 ### 검증 필요 항목 (우선순위)
 1. **수상 정보**: 8개 항목 공식 링크 확보 필요
-2. **필모그래피**: 2개 작품 상세 정보 추가 필요  
+2. **필모그래피**: 2개 작품 상세 정보 추가 필요
 3. **프로필**: 학력 정보 1차 출처 확보 필요
 ```
 
@@ -126,12 +127,12 @@ date_standards:
   profile:
     format: "YYYY-MM-DD"
     example: "1996-04-22"
-    
+
   filmography:
     premiere: "YYYY-MM-DD (Premiere)"
     broadcast: "YYYY-MM-DD ~ YYYY-MM-DD"
     awards: "YYYY-MM-DD"
-    
+
   news:
     format: "YYYY-MM-DD HH:mm (KST)"
     auto: true
@@ -144,11 +145,11 @@ name_standards:
   english_name: "Go Youn-jung"  # 공식 영어 표기
   stage_name: "고윤정"  # 예명
   birth_name: "고윤정"  # 본명
-  
+
   works:
     format: "한글명 (English Name)"
     example: "환혼 (Alchemy of Souls)"
-    
+
   awards:
     format: "한글명 (English Name)"
     example: "청룡시리즈어워즈 (Blue Dragon Series Awards)"
@@ -160,16 +161,16 @@ award_standards:
   structure:
     - year
     - ceremony_name
-    - category  
+    - category
     - work
     - result
     - ceremony_date
     - venue
-    
+
   result_format:
     winner: "수상"  # 표기 통일
     nominee: "후보"  # 표기 통일
-    
+
   official_links:
     baeksang: "https://www.baeksangawards.co.kr/"
     blue_dragon: "http://www.blueaward.co.kr/"
@@ -186,28 +187,28 @@ class Standardizer:
             'name': r'([가-힣]+)\s*\(?([a-zA-Z\s-]+)\)?',
             'award': r'(.+?)\s*\((.+?)\)\s*(수상|후보)'
         }
-    
+
     def standardize_date(self, date_str):
         # 다양한 날짜 형식을 YYYY-MM-DD로 통일
         if match := re.search(self.patterns['date'], date_str):
             year, month, day = match.groups()
             return f"{year}-{month.zfill(2)}-{day.zfill(2)}"
         return date_str
-    
+
     def standardize_name(self, name_str):
         # 이름 표기 통일
         if match := re.search(self.patterns['name'], name_str):
             korean, english = match.groups()
             return f"{korean} ({english})"
         return name_str
-    
+
     def standardize_award(self, award_str):
         # 수상 정보 표준화
         if match := re.search(self.patterns['award'], award_str):
             korean, english, result = match.groups()
             return {
                 'korean': korean,
-                'english': english,  
+                'english': english,
                 'result': result
             }
         return None
@@ -224,30 +225,30 @@ quality_checks:
       - birth_date
       - occupation
       - agency
-      
+
     filmography:
       - title
       - year
       - role
       - type
-      
+
     awards:
       - year
       - ceremony
       - category
       - result
-      
+
   consistency_checks:
     - date_format_consistency
-    - name_format_consistency  
+    - name_format_consistency
     - source_link_validation
     - cross_reference_validation
-    
+
   completeness_checks:
     - field_completion_rate
     - source_coverage_rate
     - recency_check
-    
+
   accuracy_checks:
     - official_source_match
     - multiple_source_correlation
@@ -279,11 +280,11 @@ class OfficialSourceCrawler:
                 'tving.com'
             ]
         }
-    
+
     def crawl_artist_profile(self):
         """소속사 공식 프로필 크롤링"""
         url = f"https://{self.official_domains['agency']}/artists/go-younjung"
-        
+
         # 프로필 정보 추출
         profile_data = {
             'name': self.extract_name(url),
@@ -291,17 +292,17 @@ class OfficialSourceCrawler:
             'agency': self.extract_agency(url),
             'official_image': self.extract_image(url)
         }
-        
+
         return self.verify_data(profile_data, 'agency')
-    
+
     def crawl_awards(self):
         """시상식 공식 결과 크롤링"""
         awards_data = []
-        
+
         for domain in self.official_domains['awards']:
             # 해당 배우 수상/노미네이트 정보 검색
             results = self.search_artist_awards(domain, "고윤정")
-            
+
             for result in results:
                 awards_data.append({
                     'year': result['year'],
@@ -311,9 +312,9 @@ class OfficialSourceCrawler:
                     'source_url': result['url'],
                     'verification': 'S1'
                 })
-        
+
         return awards_data
-    
+
     def monitor_changes(self):
         """공식 출처 변경사항 모니터링"""
         # 매시간 변경사항 확인
@@ -333,13 +334,13 @@ class CrossValidator:
             'award': self.validate_award,
             'filmography': self.validate_filmography
         }
-    
+
     def validate_information(self, info_type, data):
         validator = self.validation_rules.get(info_type)
         if validator:
             return validator(data)
         return {"valid": False, "error": "Unknown info type"}
-    
+
     def validate_name(self, name_data):
         """이름 정보 교차 검증"""
         sources = [
@@ -347,26 +348,26 @@ class CrossValidator:
             self.search_imdb(name_data),
             self.search_naver(name_data)
         ]
-        
+
         consistency_score = self.calculate_consistency(sources)
-        
+
         return {
             "valid": consistency_score > 0.8,
             "confidence": consistency_score,
             "sources": sources
         }
-    
+
     def validate_award(self, award_data):
         """수상 정보 교차 검증"""
         # 시상식 공식 사이트 확인
         official_result = self.check_official_awards(award_data)
-        
+
         # 언론 보도 확인
         media_reports = self.search_media_reports(award_data)
-        
+
         # 소셜 미디어 확인
         social_mentions = self.search_social_media(award_data)
-        
+
         return {
             "official": official_result,
             "media": media_reports,
@@ -386,11 +387,12 @@ class CrossValidator:
 
 ### 전체 품질 점수: 89.2/100
 - **정확도**: 92.1% (+1.3%)
-- **완전성**: 87.8% (+0.5%)  
+- **완전성**: 87.8% (+0.5%)
 - **최신성**: 91.5% (+2.1%)
 - **일관성**: 85.4% (+0.8%)
 
 ### 카테고리별 품질 현황
+
 | 카테고리 | 정확도 | 완전성 | 최신성 | 일관성 | 종합 점수 |
 |---|---|---|---|---|---|
 | **프로필** | 95.2% | 92.1% | 96.3% | 89.7% | 93.3 |
@@ -408,7 +410,7 @@ class CrossValidator:
 
 ### 자동 개선 작업 현황
 - **검증 완료**: 47개 항목 (오늘)
-- **표준화**: 23개 항목 (오늘)  
+- **표준화**: 23개 항목 (오늘)
 - **링크 검증**: 156개 링크 (오늘)
 - **중복 제거**: 8개 항목 (오늘)
 ```
@@ -424,23 +426,23 @@ class QualityImprover:
             'inconsistent_formats': self.standardize_formats,
             'outdated_info': self.update_information
         }
-    
+
     def run_improvement_cycle(self):
         """품질 개선 자동 실행"""
         quality_report = self.generate_quality_report()
-        
+
         for issue, count in quality_report['issues'].items():
             if count > 0:
                 print(f"개선 작업 시작: {issue} ({count}개 항목)")
                 improvement = self.improvement_rules[issue]()
                 quality_report['fixed'][issue] = improvement['fixed']
-                
+
         return quality_report
-    
+
     def find_official_sources(self, items_without_sources):
         """공식 출처 자동 검색"""
         found_sources = 0
-        
+
         for item in items_without_sources:
             # 소속사 공식 사이트 검색
             agency_result = self.search_agency_site(item)
@@ -448,13 +450,13 @@ class QualityImprover:
                 item['source'] = agency_result
                 found_sources += 1
                 continue
-                
-            # 시상식 공식 사이트 검색  
+
+            # 시상식 공식 사이트 검색
             award_result = self.search_award_site(item)
             if award_result:
                 item['source'] = award_result
                 found_sources += 1
-                
+
         return {"fixed": found_sources, "total": len(items_without_sources)}
 ```
 
@@ -469,13 +471,13 @@ data_management_rules:
     filmography: "신작 확정 시 즉시, 주간 검증"
     awards: "시상식 진행 중 실시간, 종료 후 최종 확정"
     news: "실시간 수집, 매일 정리"
-    
+
   verification_priority:
     critical: "프로필 정보, 대표 수상, 현재 활동"
     high: "최신 작품, 주요 인터뷰"
     medium: "과거 작품, 일반 뉴스"
     low: "팬 콘텐츠, 2차 자료"
-    
+
   escalation_rules:
     data_conflict: "24시간 내 수동 검증"
     missing_sources: "48시간 내 출처 확보"
@@ -490,12 +492,12 @@ incident_response:
     detection: "자동 무결성 체크"
     response: "백업에서 복구, 원인 분석"
     prevention: "주기적 백업, 롤백 테스트"
-    
+
   source_unavailable:
     detection: "링크 상태 모니터링"
     response: "대체 출처 검색, 링크 업데이트"
     prevention: "다중 출처 확보"
-    
+
   verification_failure:
     detection: "검증 점수 하락 감지"
     response: "수동 검증, 규칙 조정"

@@ -15,6 +15,7 @@
 ---
 
 <!-- AUTO-FIXED-LEAD:START -->
+
 ## 🧠 Lead (fixed format · auto)
 > Note: This block is generated in a fixed format for unmanned operation.
 
@@ -22,6 +23,7 @@ Go Youn-jung (born 1996-04-22) is a South Korean actress.
 Notable works include 사이코메트리 그녀석, 보건교사 안은영, 스위트홈, 로스쿨, 환혼, 환혼 빛과 그림자.
 This wiki is a link-first (copyright-safe) archive of works, pictorials, endorsements, interviews, and appearances/events, with primary-source verification when available.
 <!-- AUTO-FIXED-LEAD:END -->
+
 ## 0) 30-second guide (recommended path)
 - Need the “map” first → **Hub (portal)**: [`pages/hub.md`](pages/hub.md)
 - Want to see what changed today → **Today’s log**: [`news/2026-02-15.md`](news/2026-02-15.md)
@@ -38,6 +40,7 @@ This wiki is a link-first (copyright-safe) archive of works, pictorials, endorse
 ---
 
 ## 2) Core pages (curated “answer” pages)
+
 These are the most curated pages (aiming for official/primary links and explicit evidence levels).
 
 - Profile: [`pages/profile.md`](pages/profile.md)
@@ -50,6 +53,7 @@ These are the most curated pages (aiming for official/primary links and explicit
 ---
 
 ## 3) Archive (link collections)
+
 This section is closer to a link-first archive than long-form writing.
 
 - Interviews / Articles: [`pages/interviews.md`](pages/interviews.md)
@@ -62,6 +66,7 @@ This section is closer to a link-first archive than long-form writing.
 ---
 
 ## 4) Verification / confidence levels
+
 This wiki tracks evidence level alongside items (instead of over-claiming).
 
 - **S/A**: Verified via official/primary sources

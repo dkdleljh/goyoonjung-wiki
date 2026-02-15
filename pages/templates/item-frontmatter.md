@@ -22,6 +22,7 @@ source_url: ""         # 필수(확정 항목은 S/A 권장)
 source_name: ""        # 예: Marie Claire Korea, Netflix Korea
 
 # 선택(상황에 따라)
+
 title: ""
 work: ""               # 작품명
 character: ""          # 배역

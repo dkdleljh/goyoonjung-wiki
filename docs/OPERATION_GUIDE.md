@@ -6,7 +6,7 @@ goyoonjung-wiki는 이제 완벽한 100점 상태의 자동화 시스템입니�
 
 ### 평가 점수 현황
 - **기능 동작**: 100/100점 ✅
-- **의존성 관리**: 100/100점 ✅  
+- **의존성 관리**: 100/100점 ✅
 - **문서화 수준**: 100/100점 ✅
 - **자동화 안정성**: 100/100점 ✅
 - **운영 효율성**: 100/100점 ✅
@@ -30,15 +30,18 @@ goyoonjung-wiki는 이제 완벽한 100점 상태의 자동화 시스템입니�
 ### 1. 일일 자동 실행
 ```bash
 # 매일 09:00 자동 실행 (Asia/Seoul)
+
 ./scripts/run_daily_update.sh
 ```
 
 ### 2. 수동 실행
 ```bash
 # 전체 업데이트
+
 ./scripts/run_daily_update.sh
 
 # 개별 컴포넌트
+
 python3 scripts/backup_manager.py --cleanup
 python3 scripts/lock_manager.py --status
 python3 scripts/monitor.py --health
@@ -52,12 +55,15 @@ python3 scripts/performance_optimizer.py --benchmark
 ### 백업 관리
 ```bash
 # 백업 정리 (자동: 주간)
+
 python3 scripts/backup_manager.py --cleanup
 
 # 증분 백업 생성
+
 python3 scripts/backup_manager.py --backup
 
 # 백업 상태 확인
+
 ls -la backups/
 du -sh backups/
 ```
@@ -65,36 +71,45 @@ du -sh backups/
 ### 락 관리
 ```bash
 # 락 상태 확인
+
 python3 scripts/lock_manager.py --status
 
 # 오래된 락 정리
+
 python3 scripts/lock_manager.py --cleanup
 
 # 락 테스트
+
 python3 scripts/lock_manager.py --test --lock-name test-lock
 ```
 
 ### 시스템 모니터링
 ```bash
 # 건강 상태 체크
+
 python3 scripts/monitor.py --health
 
 # 상태 대시보드
+
 python3 scripts/monitor.py --status
 
 # 지속 모니터링 시작
+
 python3 scripts/monitor.py --monitor --interval 300
 ```
 
 ### 성능 최적화
 ```bash
 # 성능 벤치마크
+
 python3 scripts/performance_optimizer.py --benchmark
 
 # 스크립트 실행 최적화
+
 python3 scripts/performance_optimizer.py --optimize-scripts
 
 # URL fetching 테스트
+
 python3 scripts/performance_optimizer.py --test-urls
 ```
 
@@ -121,6 +136,7 @@ python3 scripts/performance_optimizer.py --test-urls
 ### Discord 알림 설정
 ```yaml
 # config.yaml
+
 discord_webhook_url: "https://discord.com/api/webhooks/YOUR_WEBHOOK"
 ```
 
@@ -213,12 +229,15 @@ discord_webhook_url: "https://discord.com/api/webhooks/YOUR_WEBHOOK"
 ### 응급 복구
 ```bash
 # 전체 시스템 재시작
+
 ./scripts/run_daily_update.sh
 
 # 긴급 백업 정리 (디스크 부족)
+
 python3 scripts/backup_manager.py --cleanup --max-size 100
 
 # 모든 프로세스 종료
+
 pkill -f "auto_collect"
 pkill -f "run_daily_update"
 ```

@@ -16,11 +16,10 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
+
 ## 관련 링크(자동 후보)
 
 - [캐롯손해보험(캐롯자동차보험)](https://youtu.be/jXCnrLQJfzE)  _(출처: endorsements/lifestyle.md)_
 
 - [푸라닭치킨](https://youtu.be/NdogLAtlyys)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
-
-

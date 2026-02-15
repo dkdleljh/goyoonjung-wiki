@@ -23,4 +23,3 @@
 - pages/magazines/* (각 매거진 페이지의 공식 링크/출처)
 - pages/interviews.md (매거진 인터뷰 원문)
 - pages/pictorials/* (커버/화보 원문)
-

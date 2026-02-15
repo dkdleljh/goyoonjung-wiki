@@ -18,7 +18,7 @@
         <p>대한민국의 배우 (1996-04-22 ~)</p>
       </div>
     </div>
-    
+
     <div class="quick-stats">
       <div class="stat-item">
         <span class="stat-number">15</span>
@@ -34,7 +34,7 @@
       </div>
     </div>
   </div>
-  
+
   <!-- 네비게이션 메뉴 -->
   <nav class="main-nav">
     <div class="nav-section">
@@ -50,7 +50,7 @@
       <a href="#news" class="nav-link">최신 소식</a>
     </div>
   </nav>
-  
+
   <!-- 최신 활동 피드 -->
   <div class="activity-feed">
     <h2>최신 활동</h2>
@@ -79,11 +79,11 @@ class InteractiveInfobox {
                 youtube: '58만'
             }
         };
-        
+
         this.render();
         this.setupInteractions();
     }
-    
+
     render() {
         const template = `
             <div class="enhanced-infobox">
@@ -93,28 +93,28 @@ class InteractiveInfobox {
                 ${this.renderQuickActions()}
             </div>
         `;
-        
+
         document.querySelector('.infobox-container').innerHTML = template;
     }
-    
+
     setupInteractions() {
         // 실시간 업데이트
         this.setupRealTimeUpdates();
-        
+
         // 검색 기능
         this.setupQuickSearch();
-        
+
         // 다크모드
         this.setupDarkMode();
-        
+
         // 공유 기능
         this.setupSharing();
     }
-    
+
     setupRealTimeUpdates() {
         // WebSocket으로 실시간 데이터 업데이트
         const ws = new WebSocket('ws://localhost:8080/updates');
-        
+
         ws.onmessage = (event) => {
             const update = JSON.parse(event.data);
             this.updateDisplay(update);
@@ -163,12 +163,12 @@ class InteractiveInfobox {
         gap: 2rem;
         padding: 2rem;
     }
-    
+
     .infobox-hero {
         position: sticky;
         top: 1rem;
     }
-    
+
     .profile-image {
         width: 120px;
         height: 120px;
@@ -181,7 +181,7 @@ class InteractiveInfobox {
         width: 150px;
         height: 150px;
     }
-    
+
     .quick-stats {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -227,7 +227,7 @@ class AdvancedSearch {
         this.searchIndex = this.buildSearchIndex();
         this.setupSearchInterface();
     }
-    
+
     buildSearchIndex() {
         // 전체 데이터 검색 인덱스 생성
         return {
@@ -238,23 +238,23 @@ class AdvancedSearch {
             media: this.indexMedia()
         };
     }
-    
+
     search(query, filters = {}) {
         const results = [];
-        
+
         // 텍스트 검색
         const textResults = this.searchText(query);
-        
+
         // 필터 적용
         const filteredResults = this.applyFilters(textResults, filters);
-        
+
         // 관련도 정렬
         return this.sortByRelevance(filteredResults, query);
     }
-    
+
     setupSearchInterface() {
         const searchBox = document.querySelector('#search-input');
-        
+
         searchBox.addEventListener('input', (e) => {
             const query = e.target.value;
             if (query.length >= 2) {
@@ -262,13 +262,13 @@ class AdvancedSearch {
                 this.displaySuggestions(suggestions);
             }
         });
-        
+
         // 실시간 검색 결과
         searchBox.addEventListener('search', (e) => {
             this.performSearch(e.target.value);
         });
     }
-    
+
     getSuggestions(query) {
         // 자동 완성 제안
         return [
@@ -276,7 +276,7 @@ class AdvancedSearch {
             `${query} 수상`,
             `${query} 인터뷰`,
             `최신 ${query}`
-        ].filter(suggestion => 
+        ].filter(suggestion =>
             this.searchIndex[suggestion.toLowerCase()]
         );
     }
@@ -316,40 +316,40 @@ class ContentGenerator:
     def __init__(self):
         self.openai_client = OpenAI()
         self.templates = self.load_templates()
-        
+
     def generate_profile_summary(self, profile_data):
         """프로필 자동 요약 생성"""
         prompt = f"""
         배우 고윤정의 프로필 정보를 바탕으로 매력적인 소개글을 작성해주세요:
-        
+
         데이터:
         - 이름: {profile_data['name']}
         - 출생: {profile_data['birth_date']}
         - 대표작: {', '.join(profile_data['notable_works'])}
         - 수상: {profile_data['awards_count']}개 수상
         - 특징: {profile_data['characteristics']}
-        
+
         요구사항:
         1. 매력적이고 전문적인 톤
         2. 핵심 강점 강조
         3. 팬들이 관심 가질 내용 포함
         4. 100-150자 내외
         """
-        
+
         response = self.openai_client.chat.completions.create(
             model="gpt-4",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=200
         )
-        
+
         return response.choices[0].message.content
-    
+
     def generate_work_description(self, work_data):
         """작품 설명 자동 생성"""
         # 작품 정보 기반 설명 생성
         # 시놉시스, 캐릭터, 평가 등 조합
         pass
-    
+
     def generate_timeline_summary(self, period_data):
         """특정 기간 활동 요약 생성"""
         # 기간별 주요 활동 자동 요약
@@ -368,30 +368,30 @@ class AutoTagger:
             'drama': ['드라마', 'drama', 'series', '시리즈'],
             'movie': ['영화', 'movie', 'film', '개봉']
         }
-        
+
     def auto_tag_content(self, title, content, category):
         """콘텐츠 자동 태깅"""
         tags = set()
-        
+
         # 제목 기반 태깅
         tags.update(self.extract_tags_from_text(title))
-        
+
         # 내용 기반 태깅
         tags.update(self.extract_tags_from_text(content))
-        
+
         # 카테고리 기반 태깅
         tags.add(category)
-        
+
         # 작품명 태깅
         work_tags = self.extract_work_tags(content)
         tags.update(work_tags)
-        
+
         # 연도 태깅
         year_tags = self.extract_year_tags(content)
         tags.update(year_tags)
-        
+
         return sorted(list(tags))
-    
+
     def extract_tags_from_text(self, text):
         tags = []
         for tag, patterns in self.tag_patterns.items():
@@ -413,7 +413,7 @@ class SocialMediaMonitor:
             'youtube': YouTubeClient(),
             'twitter': TwitterClient()
         }
-        
+
     def monitor_all_platforms(self):
         """모든 플랫폼 실시간 모니터링"""
         while True:
@@ -423,9 +423,9 @@ class SocialMediaMonitor:
                     self.process_updates(platform_name, updates)
                 except Exception as e:
                     self.handle_error(platform_name, e)
-                    
+
             time.sleep(1800)  # 30분마다 확인
-    
+
     def process_updates(self, platform, updates):
         """업데이트 처리 및 저장"""
         for update in updates:
@@ -433,29 +433,29 @@ class SocialMediaMonitor:
             if not self.is_duplicate(update):
                 # 내용 분석
                 analysis = self.analyze_content(update)
-                
+
                 # 저장
                 self.save_update(update, analysis)
-                
+
                 # 알림
                 self.notify_update(update, analysis)
-                
+
                 # 위키 업데이트
                 self.update_wiki_content(update, analysis)
-    
+
     def analyze_content(self, update):
         """업데이트 내용 분석"""
         analysis = {
             'type': self.classify_content(update),
             'importance': self.calculate_importance(update),
             'tags': self.auto_tagger.auto_tag_content(
-                update['title'], 
+                update['title'],
                 update['content'],
                 update['category']
             ),
             'media_type': self.detect_media_type(update)
         }
-        
+
         return analysis
 ```
 
@@ -469,52 +469,52 @@ class NewsCollector:
             'https://www.dispatch.co.kr',
             'https://www.sportschosun.com'
         ]
-        
+
         self.keywords = [
-            '고윤정', 'Go Youn-jung', 
+            '고윤정', 'Go Youn-jung',
             'MAA', '환혼', '스위트홈'
         ]
-    
+
     def collect_news(self):
         """뉴스 자동 수집"""
         all_news = []
-        
+
         for source in self.news_sources:
             news_from_source = self.scrape_news_source(source)
             all_news.extend(news_from_source)
-        
+
         # 중복 제거
         unique_news = self.remove_duplicates(all_news)
-        
+
         # 분류
         classified_news = self.classify_news(unique_news)
-        
+
         # 저장
         self.save_news(classified_news)
-        
+
         return classified_news
-    
+
     def classify_news(self, news_items):
         """뉴스 자동 분류"""
         for item in news_items:
             # 카테고리 분류
             category = self.classify_category(item['title'], item['content'])
             item['category'] = category
-            
+
             # 중요도 평가
             importance = self.calculate_news_importance(item)
             item['importance'] = importance
-            
+
             # 태깅
             tags = self.auto_tagger.auto_tag_content(
-                item['title'], 
-                item['content'], 
+                item['title'],
+                item['content'],
                 category
             )
             item['tags'] = tags
-        
+
         return news_items
-    
+
     def classify_category(self, title, content):
         """뉴스 카테고리 분류"""
         categories = {
@@ -526,11 +526,11 @@ class NewsCollector:
             'movie': ['영화', '개봉', '흥행'],
             'promotion': ['광고', '브랜드', '엠버서더']
         }
-        
+
         for category, keywords in categories.items():
             if any(keyword in title for keyword in keywords):
                 return category
-        
+
         return 'general'
 ```
 
@@ -543,26 +543,26 @@ class LinkValidator:
         self.session = requests.Session()
         self.broken_links = []
         self.redirected_links = []
-        
+
     def validate_all_links(self):
         """모든 링크 유효성 검사"""
         all_links = self.extract_all_links()
-        
+
         for link_data in all_links:
             result = self.validate_link(link_data)
             self.process_validation_result(link_data, result)
-        
+
         self.generate_validation_report()
-        
+
     def validate_link(self, link_data):
         """개별 링크 검증"""
         try:
             response = self.session.head(
-                link_data['url'], 
+                link_data['url'],
                 timeout=10,
                 allow_redirects=True
             )
-            
+
             return {
                 'status_code': response.status_code,
                 'final_url': response.url,
@@ -570,7 +570,7 @@ class LinkValidator:
                 'content_type': response.headers.get('content-type', ''),
                 'response_time': response.elapsed.total_seconds()
             }
-            
+
         except requests.RequestException as e:
             return {
                 'status_code': None,
@@ -578,7 +578,7 @@ class LinkValidator:
                 'is_valid': False,
                 'error': str(e)
             }
-    
+
     def process_validation_result(self, link_data, result):
         """검증 결과 처리"""
         if not result['is_valid']:
@@ -588,12 +588,12 @@ class LinkValidator:
                 'context': link_data['context'],
                 'error': result.get('error', f"HTTP {result['status_code']}")
             })
-            
+
             # 대체 링크 검색
             alternative = self.find_alternative(link_data)
             if alternative:
                 self.suggest_replacement(link_data, alternative)
-        
+
         elif result['final_url'] != link_data['url']:
             self.redirected_links.append({
                 'original': link_data['url'],
@@ -607,29 +607,29 @@ class LinkValidator:
 class ImprovementRecommender:
     def __init__(self):
         self.improvement_rules = self.load_improvement_rules()
-        
+
     def analyze_improvements(self):
         """개선 필요 항목 분석"""
         improvements = []
-        
+
         # 콘텐츠 완성도 분석
         content_gaps = self.analyze_content_gaps()
         improvements.extend(content_gaps)
-        
+
         # 검증 상태 분석
         verification_gaps = self.analyze_verification_gaps()
         improvements.extend(verification_gaps)
-        
+
         # 사용자 경험 분석
         ux_issues = self.analyze_ux_issues()
         improvements.extend(ux_issues)
-        
+
         return self.prioritize_improvements(improvements)
-    
+
     def analyze_content_gaps(self):
         """콘텐츠 부족 항목 분석"""
         gaps = []
-        
+
         # 필수 필드 체크
         required_fields = ['name', 'birth_date', 'agency', 'filmography']
         for field in required_fields:
@@ -640,7 +640,7 @@ class ImprovementRecommender:
                     'priority': 'high',
                     'suggestion': f'{field} 정보 추가 필요'
                 })
-        
+
         # 최신 정보 체크
         if self.needs_update():
             gaps.append({
@@ -648,9 +648,9 @@ class ImprovementRecommender:
                 'priority': 'medium',
                 'suggestion': '최신 정보 업데이트 필요'
             })
-        
+
         return gaps
-    
+
     def auto_improve(self, improvement):
         """자동 개선 실행"""
         if improvement['type'] == 'missing_field':
@@ -659,7 +659,7 @@ class ImprovementRecommender:
             return self.fix_broken_link(improvement)
         elif improvement['type'] == 'inconsistency':
             return self.standardize_format(improvement)
-        
+
         return None
 ```
 
@@ -677,7 +677,7 @@ class ImprovementRecommender:
             <span class="last-update">최신 업데이트: 5분 전</span>
         </div>
     </div>
-    
+
     <!-- 핵심 지표 -->
     <div class="metrics-grid">
         <div class="metric-card">
@@ -696,7 +696,7 @@ class ImprovementRecommender:
             <div class="metric-change positive">+18.7%</div>
         </div>
     </div>
-    
+
     <!-- 활동 로그 -->
     <div class="activity-log">
         <h2>최근 활동</h2>
@@ -716,7 +716,7 @@ class ImprovementRecommender:
             <span class="description">관련 뉴스 5개 자동 분류</span>
         </div>
     </div>
-    
+
     <!-- 개선 작업 -->
     <div class="improvements">
         <h2>자동 개선 작업</h2>
@@ -743,19 +743,19 @@ class DashboardMonitor {
         this.setupWebSocket();
         this.startPeriodicUpdates();
     }
-    
+
     setupWebSocket() {
         this.websocket.onmessage = (event) => {
             const data = JSON.parse(event.data);
             this.updateDashboard(data);
         };
-        
+
         this.websocket.onclose = () => {
             console.log('WebSocket 연결 종료, 5초 후 재연결...');
             setTimeout(() => this.reconnect(), 5000);
         };
     }
-    
+
     updateDashboard(data) {
         switch(data.type) {
             case 'content_update':
@@ -772,23 +772,23 @@ class DashboardMonitor {
                 break;
         }
     }
-    
+
     updateContentMetrics(metrics) {
         // 콘텐츠 지표 실시간 업데이트
         document.querySelector('.content-count').textContent = metrics.total_content;
         document.querySelector('.today-updates').textContent = metrics.today_updates;
-        
+
         // 애니메이션 효과
         this.animateUpdate('.content-count');
     }
-    
+
     showAlert(alert) {
         const alertDiv = document.createElement('div');
         alertDiv.className = `alert ${alert.severity}`;
         alertDiv.textContent = alert.message;
-        
+
         document.querySelector('.alerts-container').appendChild(alertDiv);
-        
+
         // 5초 후 자동 제거
         setTimeout(() => {
             alertDiv.remove();
@@ -806,32 +806,32 @@ class FeedbackSystem {
     constructor() {
         this.feedbackTypes = [
             'error_report',
-            'suggestion', 
+            'suggestion',
             'content_request',
             'general_feedback'
         ];
-        
+
         this.setupFeedbackUI();
     }
-    
+
     setupFeedbackUI() {
         // 피드백 버튼
         const feedbackBtn = document.createElement('button');
         feedbackBtn.className = 'feedback-btn';
         feedbackBtn.innerHTML = '피드백';
         feedbackBtn.onclick = () => this.showFeedbackModal();
-        
+
         document.body.appendChild(feedbackBtn);
     }
-    
+
     showFeedbackModal() {
         const modal = this.createFeedbackModal();
         document.body.appendChild(modal);
-        
+
         // 모달 표시
         setTimeout(() => modal.classList.add('show'), 10);
     }
-    
+
     submitFeedback(feedbackData) {
         // 서버로 피드백 전송
         fetch('/api/feedback', {
@@ -845,7 +845,7 @@ class FeedbackSystem {
             this.trackFeedback(feedbackData);
         });
     }
-    
+
     trackFeedback(feedbackData) {
         // 피드백 분석 및 추적
         this.analytics.track('feedback_submitted', {
@@ -865,17 +865,17 @@ class CommunityFeatures {
         this.setupCommentSystem();
         this.setupContributionTools();
     }
-    
+
     setupCommentSystem() {
         // 각 콘텐츠에 댓글 시스템 추가
         const contentSections = document.querySelectorAll('.content-section');
-        
+
         contentSections.forEach(section => {
             const commentSection = this.createCommentSection(section);
             section.appendChild(commentSection);
         });
     }
-    
+
     setupContributionTools() {
         // 사용자 기여 도구
         const tools = {
@@ -883,17 +883,17 @@ class CommunityFeatures {
             'report-issue': this.reportIssue.bind(this),
             'add-info': this.addInformation.bind(this)
         };
-        
+
         Object.entries(tools).forEach(([toolName, toolFunc]) => {
             this.addToolButton(toolName, toolFunc);
         });
     }
-    
+
     suggestEdit(contentId) {
         // 편집 제안 기능
         const editor = new ContentEditor(contentId);
         editor.open();
-        
+
         editor.onSave = (editData) => {
             this.submitEditSuggestion(contentId, editData);
         };
