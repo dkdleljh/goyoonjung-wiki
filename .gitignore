@@ -28,4 +28,7 @@ temp/
 
 # Local virtualenv
 .venv/
+
+# Generated reports (do not version)
+docs/FINAL_VERIFICATION_REPORT.md
 .cache/

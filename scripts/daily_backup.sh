@@ -21,4 +21,8 @@ TarExcludes=(
 
 tar -czf "$OUT" "${TarExcludes[@]}" -C "$(dirname "$BASE_DIR")" "$ROOT_NAME"
 
+# Keep backups bounded (avoid unbounded growth breaking verification/health checks).
+# Policy: keep up to 30 files and <= 500MB total.
+python3 "$BASE_DIR/scripts/backup_manager.py" --cleanup --max-files 30 --max-size 500 >/dev/null
+
 echo "$OUT"

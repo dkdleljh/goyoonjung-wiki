@@ -59,10 +59,25 @@ if [ -z "${RESULT:-}" ] || [ -z "${RUN_AT:-}" ]; then
   fail "news header missing run/result"
 fi
 
-# Fail on explicit bad states
+# Interpret state
+# - 성공: healthy
+# - 진행중: healthy IF recent (avoid false alerts during long runs)
+# - 부분성공/실패: unhealthy
+RUN_EPOCH=$(TZ="$TZ" date -d "$RUN_AT" +%s 2>/dev/null || echo 0)
+NOW_EPOCH=$(TZ="$TZ" date +%s)
+AGE_RUN=$((NOW_EPOCH - RUN_EPOCH))
+
 case "$RESULT" in
   성공) : ;;
-  진행중|부분성공|실패)
+  진행중)
+    # If still running but older than 40 minutes, consider it stale/hung.
+    if [ "$RUN_EPOCH" -gt 0 ] && [ "$AGE_RUN" -le 2400 ]; then
+      echo "OK: news=${RESULT} run=${RUN_AT} (age=${AGE_RUN}s) | automation running" 
+      exit 0
+    fi
+    fail "news status stale running: result=${RESULT} run=${RUN_AT} age=${AGE_RUN}s"
+    ;;
+  부분성공|실패)
     fail "news status not success: result=${RESULT} run=${RUN_AT}"
     ;;
   *)
