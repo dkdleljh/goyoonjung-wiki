@@ -1,19 +1,34 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-16 00:00 (Asia/Seoul)
+> 갱신: 2026-02-16 00:01 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 99146b9 2026-02-15 23:58:00 +0900 content: add more pictorials (2024-2026)
+- 20bfbc5 2026-02-16 00:00:50 +0900 content: comprehensive wiki update with all latest data
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-02-15.md
-- pages/link-health.md
-- pages/pictorials/editorial.md
+- README.md
+- index.en.md
+- index.md
+- news/2026-02-16.md
+- pages/brands/boucheron.md
+- pages/brands/chanel.md
+- pages/brands/discovery.md
+- pages/brands/marithe.md
+- pages/daily-report.md
+- pages/endorsements/by-year.md
+- pages/filmography.md
+- pages/index-by-tag.md
+- pages/lint-report.md
+- pages/magazines/elle.md
+- pages/magazines/esquire.md
+- pages/namu-backlog.md
+- pages/pictorials/by-year.md
+- pages/progress.md
+- pages/schedule.md
 - pages/system_status.md
-- pages/timeline.md
-- scripts/auto_collect_magazine_backfill.py
+- sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-02-16.md)
 

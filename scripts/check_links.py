@@ -129,11 +129,12 @@ def heal_tag_404(path: Path, url: str) -> None:
     if url not in content:
         return
 
+    # If already tagged (any date), do nothing.
+    if re.search(re.escape(url) + r"\s*<!--\s*Broken/404:", content):
+        return
+
     today = datetime.now().strftime("%Y-%m-%d")
     tag = f" <!-- Broken/404: {today} -->"
-
-    if tag in content:
-        return
 
     new_content = content.replace(url, f"{url}{tag}")
     if new_content != content:
