@@ -22,12 +22,7 @@ test:
 
 .PHONY: compile
 compile:
-	$(PY) - <<'PY'
-import pathlib, py_compile
-for p in pathlib.Path('scripts').rglob('*.py'):
-    py_compile.compile(str(p), doraise=True)
-print('py_compile: OK')
-PY
+	$(PY) -c "import pathlib, py_compile; [py_compile.compile(str(p), doraise=True) for p in pathlib.Path('scripts').rglob('*.py')]; print('py_compile: OK')"
 
 .PHONY: check
 check: lint bandit compile test

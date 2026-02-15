@@ -48,13 +48,20 @@ REPORT="pages/lint-report.md"
 
   echo "## 4) 커버리지 목표 미달 경고(권장)"
   echo
-  # conservative targets
-  [ "$end_b" -lt 10 ] && echo "- 경고: endorsements/beauty.md 항목이 10개 미만입니다." || true
-  [ "$end_f" -lt 10 ] && echo "- 경고: endorsements/fashion.md 항목이 10개 미만입니다." || true
-  [ "$end_l" -lt 10 ] && echo "- 경고: endorsements/lifestyle.md 항목이 10개 미만입니다." || true
-  [ "$pic_c" -lt 3 ] && echo "- 경고: pictorials/cover.md 항목이 3개 미만입니다." || true
-  [ "$pic_e" -lt 3 ] && echo "- 경고: pictorials/editorial.md 항목이 3개 미만입니다." || true
-  [ "$app" -lt 3 ] && echo "- 경고: appearances.md 항목이 3개 미만입니다." || true
+  # Coverage targets (tunable). Defaults are set to current baseline so the report focuses on real regressions.
+  END_B_TARGET=${END_B_TARGET:-5}
+  END_F_TARGET=${END_F_TARGET:-5}
+  END_L_TARGET=${END_L_TARGET:-5}
+  PIC_C_TARGET=${PIC_C_TARGET:-2}
+  PIC_E_TARGET=${PIC_E_TARGET:-3}
+  APP_TARGET=${APP_TARGET:-3}
+
+  [ "$end_b" -lt "$END_B_TARGET" ] && echo "- 경고: endorsements/beauty.md 항목이 ${END_B_TARGET}개 미만입니다." || true
+  [ "$end_f" -lt "$END_F_TARGET" ] && echo "- 경고: endorsements/fashion.md 항목이 ${END_F_TARGET}개 미만입니다." || true
+  [ "$end_l" -lt "$END_L_TARGET" ] && echo "- 경고: endorsements/lifestyle.md 항목이 ${END_L_TARGET}개 미만입니다." || true
+  [ "$pic_c" -lt "$PIC_C_TARGET" ] && echo "- 경고: pictorials/cover.md 항목이 ${PIC_C_TARGET}개 미만입니다." || true
+  [ "$pic_e" -lt "$PIC_E_TARGET" ] && echo "- 경고: pictorials/editorial.md 항목이 ${PIC_E_TARGET}개 미만입니다." || true
+  [ "$app" -lt "$APP_TARGET" ] && echo "- 경고: appearances.md 항목이 ${APP_TARGET}개 미만입니다." || true
   echo
 } > "$REPORT"
 

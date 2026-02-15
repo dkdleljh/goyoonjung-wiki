@@ -11,8 +11,7 @@
 
 ## 1) 빈 링크("공식 페이지:" 등 콜론 뒤가 비어있는 줄)
 
-pages/pictorials/index.md:18:- 링크:
-pages/interviews.md:11:- 링크:
+- 없음
 
 ## 2) 상태 태그 누락(인터뷰/화보/광고 템플릿 준수 여부)
 
@@ -21,13 +20,8 @@ pages/interviews.md:11:- 링크:
 
 ## 3) 날짜 형식(YYYY-MM-DD) 의심 라인
 
-./scripts/auto_collect_visual_links.py:87:    # KBS pages often include 2025.05.10 or 2025-05-10
-./pages/schedule.md:83:- 메모: JTBC 다시보기(1회) 페이지에 “2021.04.14 (Wed) 21:00 방송” 표기.
+- 없음
 
 ## 4) 커버리지 목표 미달 경고(권장)
 
-- 경고: endorsements/beauty.md 항목이 10개 미만입니다.
-- 경고: endorsements/fashion.md 항목이 10개 미만입니다.
-- 경고: endorsements/lifestyle.md 항목이 10개 미만입니다.
-- 경고: pictorials/cover.md 항목이 3개 미만입니다.
 

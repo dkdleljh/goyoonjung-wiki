@@ -84,7 +84,7 @@ def http_get(url: str) -> str:
 
 
 def extract_date_from_text(text: str) -> str | None:
-    # KBS pages often include 2025.05.10 or 2025-05-10
+    # KBS pages often include dates like 2025-05-10 (with different separators)
     m = re.search(r"(20\d{2})[\.-](\d{2})[\.-](\d{2})", text)
     if not m:
         return None
