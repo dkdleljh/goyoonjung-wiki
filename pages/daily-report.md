@@ -1,14 +1,25 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-16 01:39 (Asia/Seoul)
+> 갱신: 2026-02-16 01:43 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 258d35f 2026-02-16 01:37:44 +0900 chore: refresh system status
+- ec32c60 2026-02-16 01:39:36 +0900 quality: normalize alternative proof formatting
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- news/2026-02-16.md
+- pages/brands/chanel.md
+- pages/daily-report.md
+- pages/interviews.md
+- pages/pictorials/editorial.md
+- pages/progress.md
 - pages/system_status.md
+- pages/works/alchemy-of-souls.md
+- pages/works/hunt.md
+- pages/works/moving.md
+- scripts/normalize_alternative_proofs.py
+- sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-02-16.md)
 
@@ -36,14 +47,16 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-16 01:37 (Asia/Seoul)
+- 실행: 2026-02-16 01:39 (Asia/Seoul)
 - 결과: 성공
-- 메모: manual: alternative proofs completed
+- 메모: manual: normalize alternative proofs
 <!-- AUTO-BACKLOG-PROGRESS:START -->
 - C(완성도 우선) 백로그 진행률: 20/20 (100%)
 <!-- AUTO-BACKLOG-PROGRESS:END -->
 ## 실행 이력
 
+- 2026-02-16 01:39 (Asia/Seoul) · 성공 · manual: normalize alternative proofs
+- 2026-02-16 01:39 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-16 01:37 (Asia/Seoul) · 성공 · manual: alternative proofs completed
 - 2026-02-16 01:34 (Asia/Seoul) · 성공 · manual: complete alternative proof backfill
 - 2026-02-16 01:33 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-16_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
