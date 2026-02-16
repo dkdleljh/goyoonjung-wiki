@@ -1,12 +1,14 @@
+# macOS
+.DS_Store
+
+# Obsidian (local editor state)
+.obsidian/
+.cache/
+.trash/
+
 # backups
 backups/
 backups/*.tar.gz
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-scripts/__pycache__/
 
 # runtime locks
 .locks/
@@ -31,7 +33,3 @@ temp/
 
 # Generated reports (do not version)
 docs/FINAL_VERIFICATION_REPORT.md
-
-# Obsidian (local editor state)
-.obsidian/
-.cache/
