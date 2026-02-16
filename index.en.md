@@ -32,8 +32,8 @@
 > **Operating principles (3 lines)**
 > 1) **Prefer primary/official sources** · 2) **No rumors/private-life speculation** · 3) **Minimal quoting (link/metadata first)**
 
-- Last updated: **2026-02-16**
-- Today’s log (automation run/success): [`news/2026-02-16.md`](news/2026-02-16.md)
+- Last updated: **2026-02-17**
+- Today’s log (automation run/success): [`news/2026-02-17.md`](news/2026-02-17.md)
 - Last 7 days summary: [`news/README.md`](news/README.md)
 - Today’s report (auto): [`pages/daily-report.md`](pages/daily-report.md)
 
@@ -51,7 +51,7 @@ This wiki is a link-first (copyright-safe) archive of works, pictorials, endorse
 
 ## 0) 30-second guide (recommended path)
 - Need the “map” first → **Hub (portal)**: [`pages/hub.md`](pages/hub.md)
-- Want to see what changed today → **Today’s log**: [`news/2026-02-16.md`](news/2026-02-16.md)
+- Want to see what changed today → **Today’s log**: [`news/2026-02-17.md`](news/2026-02-17.md)
 - Want to see what is still incomplete → **Quality/Lint reports**: [`pages/quality-report.md`](pages/quality-report.md), [`pages/lint-report.md`](pages/lint-report.md)
 
 ---
