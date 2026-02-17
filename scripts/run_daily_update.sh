@@ -477,6 +477,9 @@ export GOYOONJUNG_WIKI_AUTOMATION_PUSH=1
 
 git push origin main >/dev/null
 
+# Auto release tagging (patch/minor/major) — best-effort
+bash ./scripts/auto_release.sh >/dev/null 2>&1 || true
+
 NEW_HEAD=$(git rev-parse --short HEAD 2>/dev/null || echo unknown)
 
 # Success notification:
