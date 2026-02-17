@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-18 08:09 (Asia/Seoul)
+> 갱신: 2026-02-18 08:22 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 83ef5a2d 2026-02-18 07:59:48 +0900 daily: update 2026-02-18
+- 9a405dac 2026-02-18 08:09:03 +0900 daily: update 2026-02-18
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -44,7 +44,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-18 08:05 (Asia/Seoul)
+- 실행: 2026-02-18 08:17 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -53,6 +53,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 - 2026-02-18 00:03 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-18 08:17 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-18 08:09 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-18 08:05 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-18 07:59 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-18 07:54 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -138,8 +140,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-18 00:03 (Asia/Seoul) · 진행중 · auto: daily update running
 
 - [Agency] MAA 공식 홈페이지 작품 리스트 확인: 2건 (변동 확인용)
-- [Encyclopedia] Wikipedia 업데이트 확인: 2026-02-10T14:11:36Z by ~2026-85198-3 (revid=41320174)
-- [Encyclopedia] Namuwiki 접근 가능 (Code: 200)
 
 ## 4) 권장 체크
 
