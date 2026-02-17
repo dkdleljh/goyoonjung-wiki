@@ -127,6 +127,10 @@ retry() {
     if [ $rc -eq 0 ]; then
       return 0
     fi
+
+    # observability: record first failure immediately
+    python3 ./scripts/append_skip_reason.py "$CURRENT_STEP" "$rc" "command failed (try ${n}/${tries})" >/dev/null 2>&1 || true
+
     if [ $n -ge $tries ]; then
       return $rc
     fi
@@ -178,6 +182,15 @@ RC_GNEWS_QUERIES=$?
 CURRENT_STEP="collect:mag-rss"
 retry 2 5 timeout 90 ./scripts/auto_collect_magazine_rss.py
 RC_MAG_RSS=$?
+
+# 1.525) Collect Google News i18n queries (EN/JA)
+CURRENT_STEP="collect:gnews-i18n"
+I18N_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-queries-i18n.txt 2>/dev/null | wc -l | tr -d ' ')
+I18N_TOTAL=${I18N_TOTAL:-0}
+OFFSET_I18N=$(python3 ./scripts/collector_batch_state.py get gnews_i18n "$I18N_TOTAL" 2>/dev/null || echo 0)
+MAX_QUERIES_I18N=${MAX_QUERIES_I18N:-4}
+retry 2 5 timeout 90 env MAX_QUERIES_I18N="$MAX_QUERIES_I18N" BATCH_OFFSET_I18N="$OFFSET_I18N" python3 ./scripts/auto_collect_google_news_queries_i18n.py
+RC_GNEWS_I18N=$?
 
 # 1.55) Collect portal news links (Naver/Daum)
 CURRENT_STEP="collect:portal-news"
@@ -237,6 +250,11 @@ RC_VISUAL=$?
 # 3.2) Ops: Update Dashboard (Phase 3)
 ./scripts/update_dashboard.py >/dev/null 2>&1
 RC_DASH=$?
+
+# 3.25) Perfect scorecard (multi-axis KPI)
+CURRENT_STEP="score:perfect-scorecard"
+retry 2 2 timeout 30 python3 ./scripts/compute_perfect_scorecard.py
+RC_PERF=$?
 
 # 3.5) Suggest official proof links for awards (no auto-apply)
 retry 2 5 ./scripts/suggest_awards_official_proofs.py

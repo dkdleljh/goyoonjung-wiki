@@ -6,7 +6,17 @@ keyword: "고윤정"
 feeds:
   - name: "채널십오야"
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ2O-iftmnlfrBuNsUUTofQ"
-  # Add more official channels as needed:
-  # - tvN
-  # - Disney+ Korea
-  # - Netflix Korea
+  - name: "tvN"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCtx-7YigHLZx7icq0KqHhow"
+  - name: "MBCentertainment"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A"
+  - name: "MBCdrama"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCBAEVMr0li9YYF8IwZHfusw"
+  - name: "SBSNOW"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA"
+  - name: "JTBCEntertainment"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCFL1sCAksD6_7JIZwwHcwjQ"
+  - name: "NetflixKorea"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ"
+  - name: "DisneyPlusKR"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCtdz9LWNNQKUg4Xpma_40Ug"

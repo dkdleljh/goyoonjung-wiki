@@ -1,0 +1,8 @@
+# label<TAB>query<TAB>hl<TAB>gl<TAB>ceid
+# 목적: 해외(영/일) 기사/인터뷰/캐스팅 소식까지 잡아 "방대함" 확장
+# 원칙: link-only
+
+EN_ALL	"Go Youn-jung" OR "Go Youn Jung" when:30d	en-US	US	US:en
+EN_CAST	("Go Youn-jung" OR "Go Youn Jung") (cast OR joins OR starring OR drama OR series) when:180d	en-US	US	US:en
+JA_ALL	"コ・ユンジョン" when:30d	ja-JP	JP	JP:ja
+JA_CAST	"コ・ユンジョン" (出演 OR キャスト OR ドラマ) when:180d	ja-JP	JP	JP:ja
