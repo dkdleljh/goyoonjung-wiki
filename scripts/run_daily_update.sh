@@ -170,6 +170,11 @@ CURRENT_STEP="collect:sanitize-news"
 retry 2 2 timeout 30 ./scripts/sanitize_news_log.py
 RC_SAN_NEWS=$?
 
+# 1.605) Promote appearances/events from today's news log (best-effort)
+CURRENT_STEP="promote:appearances-from-news"
+retry 2 2 timeout 30 python3 ./scripts/promote_appearances_from_news.py
+RC_PROMOTE_APP=$?
+
 # 1.6) Estimate Schedule
 CURRENT_STEP="collect:schedule"
 retry 3 5 ./scripts/auto_collect_schedule.py

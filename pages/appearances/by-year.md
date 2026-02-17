@@ -6,6 +6,10 @@
 ---
 
 ## 2026
+- 2026-02-16 · [MBC <마니또 클럽> — 2기 출연진(고윤정 포함) 방송 말미 예고 언급](https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177)
+- 2026-02-10 · [MBC <마니또 클럽> — 2차 라인업(고윤정 포함) 공개](https://www.dispatch.co.kr/2338820)
+- 2026-02-03 · [MBC <마니또 클럽> — 고윤정·김도훈 출연 확정(보도)](https://www.mydaily.co.kr/page/view/2026020313291419433)
+- 2026-01-22 · [MBC <마니또 클럽> — 고윤정 출연(보도)](https://www.spotvnews.co.kr/news/articleView.html?idxno=794454)
 - 2026-01-14 · [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)
 
 ## 2025
