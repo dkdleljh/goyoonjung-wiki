@@ -135,6 +135,11 @@ retry() {
   done
 }
 
+# 0.9) Sync allowlist from curated watch sources (best-effort)
+CURRENT_STEP="collect:sync-media-watch"
+retry 2 2 timeout 20 python3 ./scripts/sync_media_watch_sources.py
+RC_SYNC_WATCH=$?
+
 # 1) Collect
 CURRENT_STEP="collect:visual-links"
 retry 3 20 ./scripts/auto_collect_visual_links.py
@@ -145,14 +150,28 @@ CURRENT_STEP="collect:gnews"
 retry 3 10 ./scripts/auto_collect_google_news.py
 RC_GNEWS=$?
 
+# 1.505) Collect official YouTube uploads (RSS)
+CURRENT_STEP="collect:youtube-feeds"
+retry 2 5 timeout 60 python3 ./scripts/auto_collect_youtube_feeds.py
+RC_YT=$?
+
 # 1.51) Collect Google News site-filtered RSS (magazines/press)
+# Rolling batches to avoid long runs (prevents SIGKILL/OOM)
 CURRENT_STEP="collect:gnews-sites"
-retry 2 5 timeout 90 ./scripts/auto_collect_google_news_sites.py
+SITES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-sites.txt 2>/dev/null | wc -l | tr -d ' ')
+SITES_TOTAL=${SITES_TOTAL:-0}
+OFFSET_SITES=$(python3 ./scripts/collector_batch_state.py get gnews_sites "$SITES_TOTAL" 2>/dev/null || echo 0)
+MAX_SITES=${MAX_SITES:-8}
+retry 2 5 timeout 90 env MAX_SITES="$MAX_SITES" BATCH_OFFSET="$OFFSET_SITES" ./scripts/auto_collect_google_news_sites.py
 RC_GNEWS_SITES=$?
 
 # 1.515) Collect Google News custom queries (brands/ads/etc)
 CURRENT_STEP="collect:gnews-queries"
-retry 2 5 timeout 90 ./scripts/auto_collect_google_news_queries.py
+QUERIES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-queries.txt 2>/dev/null | wc -l | tr -d ' ')
+QUERIES_TOTAL=${QUERIES_TOTAL:-0}
+OFFSET_QUERIES=$(python3 ./scripts/collector_batch_state.py get gnews_queries "$QUERIES_TOTAL" 2>/dev/null || echo 0)
+MAX_QUERIES=${MAX_QUERIES:-8}
+retry 2 5 timeout 90 env MAX_QUERIES="$MAX_QUERIES" BATCH_OFFSET="$OFFSET_QUERIES" ./scripts/auto_collect_google_news_queries.py
 RC_GNEWS_QUERIES=$?
 
 # 1.52) Collect magazine RSS feeds

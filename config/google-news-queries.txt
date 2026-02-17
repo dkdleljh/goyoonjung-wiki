@@ -17,6 +17,9 @@ WORKS	"고윤정" 드라마 OR 영화 OR 캐스팅 OR 제작발표회 OR 티저 
 VARIETY	"고윤정" "마니또 클럽" when:180d
 VARIETY_TALK	"고윤정" ("유 퀴즈" OR "유퀴즈" OR "살롱드립" OR "채널십오야" OR "나영석" OR "와글와글") when:365d
 VARIETY_WORK	"고윤정" (예능 OR 버라이어티 OR 토크쇼 OR 출연) when:180d
+YOUTUBE_CLIPS	"고윤정" ("유 퀴즈" OR "유퀴즈" OR "살롱드립" OR "채널십오야" OR "와글와글") (site:youtube.com OR site:youtu.be) when:365d
+BROADCAST_PR	"고윤정" (site:imnews.imbc.com OR site:news.sbs.co.kr OR site:news.kbs.co.kr OR site:news.jtbc.co.kr) (예고 OR 라인업 OR 출연 OR 제작발표회) when:365d
+VARIETY_GENERAL	"고윤정" (예능 OR 버라이어티 OR 토크쇼 OR 게스트 OR MC) when:365d
 OFFICIAL_TV	(site:news.kbs.co.kr OR site:news.sbs.co.kr OR site:imnews.imbc.com OR site:news.jtbc.co.kr OR site:tvn.cjenm.com) "고윤정" when:60d
 OFFICIAL_OTT	(site:about.netflix.com OR site:www.disneypluskr.com OR site:www.disneyplus.com OR site:www.tving.com OR site:www.wavve.com) "고윤정" when:180d
 KBS연예	site:kstar.kbs.co.kr "고윤정" when:30d

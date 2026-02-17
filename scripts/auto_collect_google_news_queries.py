@@ -12,6 +12,7 @@ Best-effort, always returns 0.
 
 from __future__ import annotations
 
+import os
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -98,6 +99,14 @@ def load_allowlist() -> set[str]:
 
 
 def load_queries() -> list[tuple[str, str]]:
+    """Load query list.
+
+    Supports rolling batches via environment variables:
+    - MAX_QUERIES: max number of queries to process per run (default: 8)
+    - BATCH_OFFSET: start offset (optional; used by runner)
+
+    This prevents very large query lists from causing long runtimes / OOM.
+    """
     if not CONF_PATH.exists():
         return []
     out: list[tuple[str, str]] = []
@@ -121,6 +130,12 @@ def main() -> int:
 
     news_path = get_today_news_path()
     total = 0
+
+    # Rolling batch (round-robin)
+    max_queries = int(os.environ.get("MAX_QUERIES", "8"))
+    offset = int(os.environ.get("BATCH_OFFSET", "0"))
+    if max_queries > 0 and len(qlist) > max_queries:
+        qlist = (qlist[offset:] + qlist[:offset])[:max_queries]
 
     for label, query in qlist:
         rss_url = RSS_TEMPLATE.format(q=quote_plus(query))

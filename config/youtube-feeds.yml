@@ -1,0 +1,12 @@
+# YouTube channel RSS feeds (official channels)
+# Purpose: collect official uploads without scraping.
+# Rule: link-only; no transcript/article text.
+
+keyword: "고윤정"
+feeds:
+  - name: "채널십오야"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ2O-iftmnlfrBuNsUUTofQ"
+  # Add more official channels as needed:
+  # - tvN
+  # - Disney+ Korea
+  # - Netflix Korea

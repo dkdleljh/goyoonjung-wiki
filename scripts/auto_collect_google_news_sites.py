@@ -17,6 +17,7 @@ Never hard-fails the pipeline; returns 0.
 
 from __future__ import annotations
 
+import os
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -89,6 +90,14 @@ def load_allowlist() -> set[str]:
 
 
 def load_sites() -> list[Site]:
+    """Load site list.
+
+    Supports rolling batches via environment variables:
+    - MAX_SITES: max number of domains to process per run (default: 8)
+    - BATCH_OFFSET: start offset (optional; used by runner)
+
+    This prevents very large site lists from causing long runtimes / OOM.
+    """
     if not CONF_PATH.exists():
         return []
     out: list[Site] = []
@@ -134,6 +143,12 @@ def main() -> int:
     news_path = get_today_news_path()
 
     total_new = 0
+    # Rolling batch (round-robin)
+    max_sites = int(os.environ.get("MAX_SITES", "8"))
+    offset = int(os.environ.get("BATCH_OFFSET", "0"))
+    if max_sites > 0 and len(sites) > max_sites:
+        sites = (sites[offset:] + sites[:offset])[:max_sites]
+
     for s in sites:
         q = f"site:{s.domain} {KEYWORD} when:7d"
         rss_url = RSS_TEMPLATE.format(q=quote_plus(q))
