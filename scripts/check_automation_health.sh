@@ -87,19 +87,32 @@ esac
 
 # Detect stale running in history (if any)
 # If the latest history line is 진행중 and older than 40m -> fail
+# Detect stale running in history robustly.
+# Some files may have history lines not strictly ordered; find the newest history line.
 LATEST_HIST=$(awk '
   /^## 실행 이력/{in_hist=1; next}
-  in_hist && /^- /{print; exit}
-' "$NEWS" 2>/dev/null || true)
-if echo "$LATEST_HIST" | grep -q "· 진행중 ·"; then
-  # extract datetime "YYYY-MM-DD HH:MM"
-  HIST_TIME=$(echo "$LATEST_HIST" | sed -E 's/^\- ([0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}).*/\1/')
-  if [ -n "$HIST_TIME" ]; then
-    HIST_EPOCH=$(TZ="$TZ" date -d "$HIST_TIME" +%s 2>/dev/null || echo 0)
+  in_hist && /^- /{print}
+' "$NEWS" 2>/dev/null | head -n 200 || true)
+
+if [ -n "${LATEST_HIST:-}" ]; then
+  # Find newest timestamp among history lines (YYYY-MM-DD HH:MM)
+  newest_line=""
+  newest_epoch=0
+  while IFS= read -r ln; do
+    t=$(echo "$ln" | sed -E 's/^\- ([0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}).*/\1/')
+    [ -z "$t" ] && continue
+    e=$(TZ="$TZ" date -d "$t" +%s 2>/dev/null || echo 0)
+    if [ "$e" -gt "$newest_epoch" ]; then
+      newest_epoch="$e"
+      newest_line="$ln"
+    fi
+  done <<< "$LATEST_HIST"
+
+  if echo "$newest_line" | grep -q "· 진행중 ·"; then
     NOW_EPOCH=$(TZ="$TZ" date +%s)
-    AGE=$((NOW_EPOCH - HIST_EPOCH))
-    if [ "$HIST_EPOCH" -gt 0 ] && [ "$AGE" -gt 2400 ]; then
-      fail "stale running in history: age=${AGE}s line=${LATEST_HIST}"
+    AGE=$((NOW_EPOCH - newest_epoch))
+    if [ "$newest_epoch" -gt 0 ] && [ "$AGE" -gt 2400 ]; then
+      fail "stale running in history: age=${AGE}s line=${newest_line}"
     fi
   fi
 fi

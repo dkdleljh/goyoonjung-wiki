@@ -102,6 +102,9 @@ if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   git checkout main >/dev/null 2>&1 || true
 fi
 
+# Auto-fix stale '진행중' (previous crash) before starting a new run
+python3 ./scripts/auto_fix_stale_running.py >/dev/null 2>&1 || true
+
 # Mark running
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
 
