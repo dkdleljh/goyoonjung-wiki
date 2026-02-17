@@ -268,6 +268,11 @@ RC_VISUAL=$?
 ./scripts/update_dashboard.py >/dev/null 2>&1
 RC_DASH=$?
 
+# 3.25) Promotion queue (auto)
+CURRENT_STEP="score:promotion-queue"
+retry 2 2 timeout 30 python3 ./scripts/build_promotion_queue.py
+RC_QUEUE=$?
+
 # 3.25) Perfect scorecard (multi-axis KPI)
 CURRENT_STEP="score:perfect-scorecard"
 retry 2 2 timeout 30 python3 ./scripts/compute_perfect_scorecard.py

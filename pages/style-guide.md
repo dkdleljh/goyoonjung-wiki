@@ -45,6 +45,17 @@
 - 항목을 추가할 때 YAML 메타데이터(프론트매터)를 권장합니다.
 - 템플릿: `pages/templates/item-frontmatter.md`
 
+## 6-2) 사건 id(중복 방지) 규칙(강제)
+- `id:`는 사건을 대표하는 canonical URL 1개입니다.
+- URL은 가능하면 정규화 후 사용합니다.
+  - 정규화: `scripts/normalize_url.py`
+  - 등록: `scripts/add_seen_url.sh <url>`
+- 동일 URL을 다른 페이지에 다시 넣지 않도록 `sources/seen-urls.*`로 중복을 막습니다.
+
+## 6-3) 승격(보도→공식) 원칙(권장)
+- 보도(2차)로 들어온 항목은 ‘승격 큐’에 들어가며, 공식 링크 확보 시에만 공식예고/공식확정으로 승격합니다.
+- 승격 큐: `pages/promotion-queue.md` (자동 생성)
+
 ## 공식 링크
 - (S) 소속사(MAA) 프로필: https://maa.co.kr/artists/go-younjung
 
