@@ -18,7 +18,16 @@ export PATH="$HOME/bin:$PATH"
 SEMVER_REGEX='^v([0-9]+)\.([0-9]+)\.([0-9]+)$'
 
 latest_semver_tag() {
-  git tag -l 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n 1 || true
+  # Ignore date-style tags like v2026.02.17 by requiring MAJOR < 1000.
+  git tag -l 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname \
+    | while read -r t; do
+        if [[ "$t" =~ $SEMVER_REGEX ]]; then
+          maj=${BASH_REMATCH[1]}
+          if [ "$maj" -lt 1000 ]; then
+            echo "$t"; break
+          fi
+        fi
+      done
 }
 
 parse_semver() {
