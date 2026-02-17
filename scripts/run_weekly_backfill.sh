@@ -25,10 +25,11 @@ trap 'rmdir "$LOCK_PATH" 2>/dev/null || true' EXIT
 ./scripts/mark_news_status.sh 진행중 "auto: weekly backfill running" >/dev/null || true
 
 # Recommended backfill caps (higher than daily, still bounded)
-export MAX_SITES="${MAX_SITES:-12}"
-export MAX_QUERIES="${MAX_QUERIES:-12}"
-export MAX_YT_FEEDS="${MAX_YT_FEEDS:-6}"
-export MAX_QUERIES_I18N="${MAX_QUERIES_I18N:-2}"
+# Keep conservative to avoid SIGKILL; weekly will rotate offsets across runs.
+export MAX_SITES="${MAX_SITES:-6}"
+export MAX_QUERIES="${MAX_QUERIES:-6}"
+export MAX_YT_FEEDS="${MAX_YT_FEEDS:-3}"
+export MAX_QUERIES_I18N="${MAX_QUERIES_I18N:-1}"
 
 # Offsets: start from current rolling offsets (state file) so we sweep across runs.
 SITES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-sites.txt 2>/dev/null | wc -l | tr -d ' ')
@@ -50,10 +51,14 @@ OFFSET_I18N=$(python3 ./scripts/collector_batch_state.py get gnews_i18n "$I18N_T
 # Collect (best-effort; keep pipeline moving)
 set +e
 
+RUN_LOG="$LOCK_DIR/weekly_backfill_${TODAY}.log"
+: > "$RUN_LOG" 2>/dev/null || true
+
 step() {
   local name="$1"; shift
-  echo "[weekly-backfill] $name" >&2
-  "$@"
+  echo "[weekly-backfill] $name" >>"$RUN_LOG"
+  # Capture stdout/stderr to log to avoid BrokenPipe when caller pipes output.
+  "$@" >>"$RUN_LOG" 2>&1
   local rc=$?
   if [ $rc -ne 0 ]; then
     python3 ./scripts/append_skip_reason.py "$name" "$rc" "weekly-backfill step failed" >/dev/null 2>&1 || true
@@ -61,15 +66,15 @@ step() {
   return 0
 }
 
-step "collect:sync-media-watch" timeout 30 python3 ./scripts/sync_media_watch_sources.py
-step "collect:gnews" timeout 60 ./scripts/auto_collect_google_news.py
-step "collect:youtube-feeds" timeout 60 env BATCH_OFFSET_YT="$OFFSET_YT" python3 ./scripts/auto_collect_youtube_feeds.py
-step "collect:gnews-sites" timeout 120 env BATCH_OFFSET="$OFFSET_SITES" python3 ./scripts/auto_collect_google_news_sites.py
-step "collect:gnews-queries" timeout 120 env BATCH_OFFSET="$OFFSET_QUERIES" python3 ./scripts/auto_collect_google_news_queries.py
-step "collect:mag-rss" timeout 120 python3 ./scripts/auto_collect_magazine_rss.py
-step "collect:gnews-i18n" timeout 120 env BATCH_OFFSET_I18N="$OFFSET_I18N" python3 ./scripts/auto_collect_google_news_queries_i18n.py
-step "collect:portal-news" timeout 120 python3 ./scripts/auto_collect_news_links.py
-step "collect:sanitize-news" timeout 60 python3 ./scripts/sanitize_news_log.py
+step "collect:sync-media-watch" timeout 20 python3 ./scripts/sync_media_watch_sources.py
+step "collect:gnews" timeout 45 ./scripts/auto_collect_google_news.py
+step "collect:youtube-feeds" timeout 45 env BATCH_OFFSET_YT="$OFFSET_YT" python3 ./scripts/auto_collect_youtube_feeds.py
+step "collect:gnews-sites" timeout 60 env BATCH_OFFSET="$OFFSET_SITES" python3 ./scripts/auto_collect_google_news_sites.py
+step "collect:gnews-queries" timeout 60 env BATCH_OFFSET="$OFFSET_QUERIES" python3 ./scripts/auto_collect_google_news_queries.py
+step "collect:mag-rss" timeout 60 python3 ./scripts/auto_collect_magazine_rss.py
+step "collect:gnews-i18n" timeout 60 env BATCH_OFFSET_I18N="$OFFSET_I18N" python3 ./scripts/auto_collect_google_news_queries_i18n.py
+step "collect:portal-news" timeout 60 python3 ./scripts/auto_collect_news_links.py
+step "collect:sanitize-news" timeout 45 python3 ./scripts/sanitize_news_log.py
 
 # Promote
 step "promote:appearances-from-news" timeout 30 python3 ./scripts/promote_appearances_from_news.py
@@ -77,10 +82,10 @@ step "promote:endorsements-from-news" timeout 30 python3 ./scripts/promote_endor
 step "promote:works-from-news" timeout 30 python3 ./scripts/promote_works_from_news.py
 
 # Rebuild indexes + quality
-step "indexes" timeout 60 python3 ./scripts/rebuild_year_indexes.py
-step "lint" timeout 60 ./scripts/lint_wiki.sh
-step "score:wiki_score" timeout 60 python3 ./scripts/wiki_score.py
-step "score:perfect-scorecard" timeout 60 python3 ./scripts/compute_perfect_scorecard.py
+step "indexes" timeout 45 python3 ./scripts/rebuild_year_indexes.py
+step "lint" timeout 45 ./scripts/lint_wiki.sh
+step "score:wiki_score" timeout 45 python3 ./scripts/wiki_score.py
+step "score:perfect-scorecard" timeout 45 python3 ./scripts/compute_perfect_scorecard.py
 
 set -e
 
