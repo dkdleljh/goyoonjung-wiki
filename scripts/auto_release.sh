@@ -130,11 +130,13 @@ main() {
   git tag -a "$new_tag" -m "$msg"
   git push origin "$new_tag" >/dev/null
 
-  # Best-effort GitHub release
+  # Best-effort GitHub release (create only if it doesn't exist)
   if command -v gh >/dev/null 2>&1; then
     export GH_TOKEN="${GH_TOKEN:-${GITHUB_TOKEN:-}}"
     if [ -n "${GH_TOKEN:-}" ] || gh auth status >/dev/null 2>&1; then
-      gh release create "$new_tag" --title "$new_tag" --notes "$notes" >/dev/null 2>&1 || true
+      if ! gh release view "$new_tag" >/dev/null 2>&1; then
+        gh release create "$new_tag" --title "$new_tag" --notes "$notes" >/dev/null 2>&1 || true
+      fi
     fi
   fi
 
