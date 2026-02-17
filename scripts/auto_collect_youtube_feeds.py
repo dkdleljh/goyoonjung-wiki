@@ -11,6 +11,7 @@ This avoids scraping YouTube HTML and is stable/unmanned.
 
 from __future__ import annotations
 
+import os
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -101,6 +102,12 @@ def main() -> int:
 
     db_manager.init_db()
     out_lines: list[str] = []
+
+    # Rolling batch
+    max_feeds = int(os.environ.get("MAX_YT_FEEDS", "4"))
+    offset = int(os.environ.get("BATCH_OFFSET_YT", "0"))
+    if max_feeds > 0 and len(feeds) > max_feeds:
+        feeds = (feeds[offset:] + feeds[:offset])[:max_feeds]
 
     for feed in feeds:
         name = feed.get("name", "YouTube")

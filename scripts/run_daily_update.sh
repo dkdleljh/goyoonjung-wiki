@@ -154,9 +154,13 @@ CURRENT_STEP="collect:gnews"
 retry 3 10 ./scripts/auto_collect_google_news.py
 RC_GNEWS=$?
 
-# 1.505) Collect official YouTube uploads (RSS)
+# 1.505) Collect official YouTube uploads (RSS) — rolling batch
 CURRENT_STEP="collect:youtube-feeds"
-retry 2 5 timeout 60 python3 ./scripts/auto_collect_youtube_feeds.py
+YT_TOTAL=$(grep -n "^\s*- name:" -n ./config/youtube-feeds.yml 2>/dev/null | wc -l | tr -d ' ')
+YT_TOTAL=${YT_TOTAL:-0}
+OFFSET_YT=$(python3 ./scripts/collector_batch_state.py get yt_feeds "$YT_TOTAL" 2>/dev/null || echo 0)
+MAX_YT_FEEDS=${MAX_YT_FEEDS:-3}
+retry 2 5 timeout 45 env MAX_YT_FEEDS="$MAX_YT_FEEDS" BATCH_OFFSET_YT="$OFFSET_YT" python3 ./scripts/auto_collect_youtube_feeds.py
 RC_YT=$?
 
 # 1.51) Collect Google News site-filtered RSS (magazines/press)
@@ -165,7 +169,7 @@ CURRENT_STEP="collect:gnews-sites"
 SITES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-sites.txt 2>/dev/null | wc -l | tr -d ' ')
 SITES_TOTAL=${SITES_TOTAL:-0}
 OFFSET_SITES=$(python3 ./scripts/collector_batch_state.py get gnews_sites "$SITES_TOTAL" 2>/dev/null || echo 0)
-MAX_SITES=${MAX_SITES:-8}
+MAX_SITES=${MAX_SITES:-4}
 retry 2 5 timeout 90 env MAX_SITES="$MAX_SITES" BATCH_OFFSET="$OFFSET_SITES" ./scripts/auto_collect_google_news_sites.py
 RC_GNEWS_SITES=$?
 
@@ -174,7 +178,7 @@ CURRENT_STEP="collect:gnews-queries"
 QUERIES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-queries.txt 2>/dev/null | wc -l | tr -d ' ')
 QUERIES_TOTAL=${QUERIES_TOTAL:-0}
 OFFSET_QUERIES=$(python3 ./scripts/collector_batch_state.py get gnews_queries "$QUERIES_TOTAL" 2>/dev/null || echo 0)
-MAX_QUERIES=${MAX_QUERIES:-8}
+MAX_QUERIES=${MAX_QUERIES:-4}
 retry 2 5 timeout 90 env MAX_QUERIES="$MAX_QUERIES" BATCH_OFFSET="$OFFSET_QUERIES" ./scripts/auto_collect_google_news_queries.py
 RC_GNEWS_QUERIES=$?
 
@@ -188,7 +192,7 @@ CURRENT_STEP="collect:gnews-i18n"
 I18N_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-queries-i18n.txt 2>/dev/null | wc -l | tr -d ' ')
 I18N_TOTAL=${I18N_TOTAL:-0}
 OFFSET_I18N=$(python3 ./scripts/collector_batch_state.py get gnews_i18n "$I18N_TOTAL" 2>/dev/null || echo 0)
-MAX_QUERIES_I18N=${MAX_QUERIES_I18N:-4}
+MAX_QUERIES_I18N=${MAX_QUERIES_I18N:-1}
 retry 2 5 timeout 90 env MAX_QUERIES_I18N="$MAX_QUERIES_I18N" BATCH_OFFSET_I18N="$OFFSET_I18N" python3 ./scripts/auto_collect_google_news_queries_i18n.py
 RC_GNEWS_I18N=$?
 
@@ -204,8 +208,18 @@ RC_SAN_NEWS=$?
 
 # 1.605) Promote appearances/events from today's news log (best-effort)
 CURRENT_STEP="promote:appearances-from-news"
-retry 2 2 timeout 30 python3 ./scripts/promote_appearances_from_news.py
+retry 2 2 timeout 20 python3 ./scripts/promote_appearances_from_news.py
 RC_PROMOTE_APP=$?
+
+# 1.606) Promote endorsements from today's news log (best-effort)
+CURRENT_STEP="promote:endorsements-from-news"
+retry 2 2 timeout 20 python3 ./scripts/promote_endorsements_from_news.py
+RC_PROMOTE_ENDO=$?
+
+# 1.607) Promote works/casting from today's news log (best-effort)
+CURRENT_STEP="promote:works-from-news"
+retry 2 2 timeout 20 python3 ./scripts/promote_works_from_news.py
+RC_PROMOTE_WORK=$?
 
 # 1.6) Estimate Schedule
 CURRENT_STEP="collect:schedule"
