@@ -39,6 +39,8 @@ TOKENS = [
     "캐롯",
 ]
 
+BRAND_MAP_PATH = BASE / "config" / "endorsement-brand-map.yml"
+
 URL_RE = re.compile(r"https?://[^\s)]+")
 MD_LINK_RE = re.compile(r"\[(?P<title>[^\]]+)\]\((?P<url>https?://[^)]+)\)")
 
@@ -82,10 +84,36 @@ def insert(md: str, year: int, block: str, url: str) -> str:
     return before + "\n" + block.rstrip() + "\n\n" + after.lstrip("\n")
 
 
+def load_brand_map() -> dict[str, str]:
+    # minimal YAML (key: value) parser
+    out: dict[str, str] = {}
+    if not BRAND_MAP_PATH.exists():
+        return out
+    for raw in BRAND_MAP_PATH.read_text(encoding="utf-8", errors="ignore").splitlines():
+        ln = raw.strip()
+        if not ln or ln.startswith('#') or ':' not in ln:
+            continue
+        k, v = ln.split(':', 1)
+        out[k.strip()] = v.strip().strip('"')
+    return out
+
+
+def detect_brand(title: str, brand_map: dict[str, str]) -> str:
+    for tok, label in brand_map.items():
+        if tok and tok in title:
+            return label
+    # fallback: first matching token
+    for t in TOKENS:
+        if t in title:
+            return t
+    return "(자동 분류 필요)"
+
+
 def main() -> int:
     try:
         if not NEWS.exists() or not OUT.exists():
             return 0
+        brand_map = load_brand_map()
         news = NEWS.read_text(encoding="utf-8", errors="ignore")
         items = parse_items(news)
         cands = [it for it in items if (NAME in it.title and any(t in it.title for t in TOKENS))]
@@ -97,11 +125,12 @@ def main() -> int:
         promoted = 0
         for it in cands:
             year = datetime.now().year
+            brand = detect_brand(it.title, brand_map)
             block = "\n".join(
                 [
                     f"- 날짜: {datetime.now().strftime('%Y-%m-%d')}",
                     "- 구분: 광고/브랜드(뉴스 자동 반영)",
-                    "- 브랜드/캠페인: (자동 분류 필요)",
+                    f"- 브랜드/캠페인: {brand}",
                     f"- 링크(원문): {it.url}",
                     "- 상태: 보도(2차)",
                     f"- id: {it.url}",

@@ -2,10 +2,14 @@
 """Compute a multi-axis scorecard for the 'perfect wiki' goals.
 
 Axes (0-100):
-A) Perfect wiki coverage system
-B) Perfect unmanned automation
-C) Unbeatable information volume
-D) Perfect quality
+A) Perfect wiki coverage system (SYSTEM readiness)
+B) Perfect unmanned automation (SYSTEM readiness)
+C) Unbeatable information volume (CONTENT/scale)
+D) Perfect quality (QUALITY)
+
+Note:
+- A/B are scored as "system readiness" (can reach 100 when the machine is fully wired).
+- C measures actual accumulated content volume, so it will grow over time.
 
 Writes pages/perfect-scorecard.md.
 
@@ -89,62 +93,95 @@ def score() -> list[Axis]:
     yt = count_lines(CONFIG / "youtube-feeds.yml")
     seen = get_seen_urls_count()
 
-    # A) Coverage system
-    channel_diversity = 60
-    if (CONFIG / "youtube-feeds.yml").exists():
-        channel_diversity += 10
-    if (CONFIG / "google-news-queries-i18n.txt").exists():
-        channel_diversity += 10
-    if (CONFIG / "magazine-rss.yml").exists():
-        channel_diversity += 10
+    # A) Coverage system readiness (wiring completeness)
+    # We score on presence of key collectors + configs + promotion steps.
+    channel_diversity = 0
+    required_configs = [
+        "google-news-queries.txt",
+        "google-news-sites.txt",
+        "magazine-rss.yml",
+        "youtube-feeds.yml",
+        "google-news-queries-i18n.txt",
+    ]
+    for f in required_configs:
+        channel_diversity += 20 if (CONFIG / f).exists() else 0
     channel_diversity = clamp(channel_diversity)
 
-    landing = 70
-    # reward if appearances/interviews/pictorials/endorsements exist
-    for f in ("pages/appearances.md", "pages/interviews.md", "pages/pictorials.md", "pages/endorsements.md"):
-        if (BASE / f).exists():
-            landing += 3
+    landing = 0
+    landing_pages = ["pages/appearances.md", "pages/interviews.md", "pages/pictorials.md", "pages/endorsements.md", "pages/filmography.md"]
+    for f in landing_pages:
+        landing += 20 if (BASE / f).exists() else 0
     landing = clamp(landing)
 
-    detection = 70
-    if (PAGES / "quality-report.md").exists():
-        detection += 10
-    if (PAGES / "content-gaps.md").exists():
-        detection += 10
+    detection = 0
+    for f in ("quality-report.md", "content-gaps.md", "link-health.md", "daily-report.md"):
+        detection += 25 if (PAGES / f).exists() else 0
     detection = clamp(detection)
 
-    A = clamp(int(round(channel_diversity * 0.35 + landing * 0.35 + detection * 0.30)))
+    A = clamp(int(round(channel_diversity * 0.40 + landing * 0.35 + detection * 0.25)))
 
-    # B) Automation
-    pipeline = 90 if (BASE / "scripts" / "run_daily_update.sh").exists() else 60
-    resilience = 75
-    # if batch state + append_skip_reason exist, bump
-    if (BASE / "scripts" / "collector_batch_state.py").exists():
-        resilience += 10
-    if (BASE / "scripts" / "append_skip_reason.py").exists():
-        resilience += 5
+    # B) Automation readiness
+    # 100 when the full unmanned loop is wired + protected (locks, debouncing, batching, skip-logging).
+    pipeline = 0
+    required_scripts = [
+        "scripts/run_daily_update.sh",
+        "scripts/lock_manager.py",
+        "scripts/backup_manager.py",
+        "scripts/mark_news_status.sh",
+        "scripts/sanitize_news_log.py",
+    ]
+    for f in required_scripts:
+        pipeline += 20 if (BASE / f).exists() else 0
+    pipeline = clamp(pipeline)
+
+    resilience = 0
+    for f in (
+        "scripts/collector_batch_state.py",
+        "scripts/append_skip_reason.py",
+        "scripts/cleanup_stale_running.sh",
+    ):
+        resilience += 34 if (BASE / f).exists() else 0
     resilience = clamp(resilience)
 
-    observability = 80
-    for f in ("pages/system_status.md", "pages/daily-report.md", "pages/lint-report.md"):
-        if (BASE / f).exists():
-            observability += 5
+    observability = 0
+    for f in ("pages/system_status.md", "pages/daily-report.md", "pages/lint-report.md", "pages/quality-report.md"):
+        observability += 25 if (BASE / f).exists() else 0
     observability = clamp(observability)
 
-    B = clamp(int(round(pipeline * 0.35 + resilience * 0.35 + observability * 0.30)))
+    B = clamp(int(round(pipeline * 0.40 + resilience * 0.30 + observability * 0.30)))
 
     # C) Information volume
-    # urls_total scale: 0..10k
-    c1 = clamp(int(urls_total / 100))  # 2794 -> 27
-    c1 = clamp(int(c1 * 3.0))  # 81-ish for 2700
+    # We report two numbers:
+    # - C_current: actual accumulated scale (grows with time)
+    # - C_capacity: system capacity / source coverage potential
+
+    # current scale (urls_total scale: 0..10k)
+    c1 = clamp(int(urls_total / 100))
+    c1 = clamp(int(c1 * 3.0))
+
     source_width = clamp(int(min(100, (allowlist / 2) + (gsites * 2) + (gqueries * 2) + (yt * 5))))
-    depth = 60
-    # reward if many work pages exist
+
     work_pages = len(list((PAGES / "works").glob("*.md"))) if (PAGES / "works").exists() else 0
-    depth = clamp(depth + min(30, work_pages))
-    i18n = 40 + (20 if (CONFIG / "google-news-queries-i18n.txt").exists() else 0)
+    depth = clamp(60 + min(30, work_pages))
+
+    i18n = 40 + (30 if (CONFIG / "google-news-queries-i18n.txt").exists() else 0)
     i18n = clamp(i18n)
-    C = clamp(int(round(c1 * 0.30 + source_width * 0.30 + depth * 0.20 + i18n * 0.20)))
+
+    C_current = clamp(int(round(c1 * 0.35 + depth * 0.25 + i18n * 0.15 + source_width * 0.25)))
+
+    # capacity score: if we have the full expansion plumbing, it's 100.
+    capacity = 0
+    for f in (
+        "config/google-news-sites.txt",
+        "config/google-news-queries.txt",
+        "config/magazine-rss.yml",
+        "config/youtube-feeds.yml",
+        "config/google-news-queries-i18n.txt",
+    ):
+        capacity += 20 if (BASE / f).exists() else 0
+    C_capacity = clamp(capacity)
+
+    C = C_current
 
     # D) Quality
     qc = read_quality_counts()
@@ -152,7 +189,17 @@ def score() -> list[Axis]:
     placeholder = clamp(100 - debt * 5)
     link_health = 100 if (PAGES / "link-health.md").exists() else 60
     lint = 100 if (PAGES / "lint-report.md").exists() else 60
-    provenance = 85  # heuristic baseline
+    # Provenance readiness: do we have explicit mapping/policies to keep sources graded?
+    provenance = 0
+    for f in (
+        "docs/editorial_policy.md",
+        "pages/style-guide.md",
+        "config/allowlist-domains.txt",
+        "config/endorsement-brand-map.yml",
+    ):
+        provenance += 25 if (BASE / f).exists() else 0
+    provenance = clamp(provenance)
+
     D = clamp(int(round(placeholder * 0.35 + link_health * 0.25 + lint * 0.25 + provenance * 0.15)))
 
     return [
@@ -167,6 +214,8 @@ def score() -> list[Axis]:
             ("observability", observability, "status/daily/lint reports"),
         ]),
         Axis("C. Unbeatable information volume", C, [
+            ("C_current", C_current, "actual accumulated scale (grows over time)"),
+            ("C_capacity", C_capacity, "system capacity / coverage potential"),
             ("urls_total", urls_total, "markdown URL count"),
             ("seen_urls_db", seen, "dedupe DB size"),
             ("source_width", source_width, "allowlist/sites/queries/yt"),

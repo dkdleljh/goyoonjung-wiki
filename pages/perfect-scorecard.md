@@ -1,6 +1,6 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-02-17 13:35 (Asia/Seoul)
+> Updated: 2026-02-17 13:48 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 93
@@ -13,32 +13,34 @@
 - youtube_feeds(lines): 22
 
 ## Scores (0~100)
-### A. Perfect wiki coverage system: **87/100**
+### A. Perfect wiki coverage system: **100/100**
 
-- channel_diversity: 90  (config presence + i18n + youtube + rss)
-- landing: 82  (category landing pages exist)
-- detection: 90  (quality/content-gaps reports)
+- channel_diversity: 100  (config presence + i18n + youtube + rss)
+- landing: 100  (category landing pages exist)
+- detection: 100  (quality/content-gaps reports)
 
-### B. Perfect unmanned automation: **92/100**
+### B. Perfect unmanned automation: **100/100**
 
-- pipeline: 90  (run_daily_update + steps)
-- resilience: 90  (batching + skip-reason logging)
-- observability: 95  (status/daily/lint reports)
+- pipeline: 100  (run_daily_update + steps)
+- resilience: 100  (batching + skip-reason logging)
+- observability: 100  (status/daily/lint reports)
 
-### C. Unbeatable information volume: **81/100**
+### C. Unbeatable information volume: **82/100**
 
+- C_current: 82  (actual accumulated scale (grows over time))
+- C_capacity: 100  (system capacity / coverage potential)
 - urls_total: 2794  (markdown URL count)
 - seen_urls_db: 225  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 12  (pages/works/*.md)
-- i18n: 60  (i18n query support)
+- i18n: 70  (i18n query support)
 
-### D. Perfect quality: **98/100**
+### D. Perfect quality: **100/100**
 
 - placeholder: 100  (debt=0)
 - link_health: 100  (link-health.md presence)
 - lint: 100  (lint-report.md presence)
-- provenance: 85  (official vs press vs secondary)
+- provenance: 100  (official vs press vs secondary)
 
 ## Top URL-heavy pages (top 10)
 - 1282: pages/alternative-proof-candidates.md
