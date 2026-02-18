@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-18 11:07 (Asia/Seoul)
+> 갱신: 2026-02-18 11:21 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 8e67be5c 2026-02-18 10:56:08 +0900 daily: update 2026-02-18
+- ec4483ee 2026-02-18 11:08:00 +0900 daily: update 2026-02-18
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -44,7 +44,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-18 11:04 (Asia/Seoul)
+- 실행: 2026-02-18 11:16 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -53,6 +53,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 - 2026-02-18 00:03 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-18 11:16 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-18 11:07 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-18 11:04 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-18 10:56 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-18 10:52 (Asia/Seoul) · 진행중 · auto: daily update running
@@ -138,8 +140,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-18 02:59 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-18 02:53 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-18 02:47 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-18 02:39 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-18 02:35 (Asia/Seoul) · 진행중 · auto: daily update running
 
 ## 4) 권장 체크
 
