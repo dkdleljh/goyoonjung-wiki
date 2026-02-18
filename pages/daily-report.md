@@ -1,22 +1,13 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-18 13:01 (Asia/Seoul)
+> 갱신: 2026-02-18 13:13 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 6b683a7d 2026-02-18 12:52:18 +0900 daily: update 2026-02-18
+- 8ce019e3 2026-02-18 13:01:13 +0900 daily: update 2026-02-18
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- CONTRIBUTING.md
-- README.md
-- docs/ARCHITECTURE.md
-- docs/OPERATION_GUIDE.md
-- docs/README.md
-- docs/scoring.md
-- docs/ux-automation-system.md
-- index.en.md
-- index.md
 - news/2026-02-18.md
 - pages/daily-report.md
 - pages/perfect-scorecard.md
@@ -26,36 +17,6 @@
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
 - pages/works/moving.md
-- scripts/__pycache__/apply_alternative_proofs.cpython-312.pyc
-- scripts/__pycache__/audit_missing_alternative_proofs.cpython-312.pyc
-- scripts/__pycache__/audit_skipped_links.cpython-312.pyc
-- scripts/__pycache__/auto_collect_magazine_backfill.cpython-312.pyc
-- scripts/__pycache__/backfill_missing_alternative_proofs.cpython-312.pyc
-- scripts/__pycache__/beautify_markdown.cpython-312.pyc
-- scripts/__pycache__/build_promotion_queue.cpython-312.pyc
-- scripts/__pycache__/check_links.cpython-312.pyc
-- scripts/__pycache__/collect_kbs_starbox_candidates.cpython-312.pyc
-- scripts/__pycache__/collect_magazine_candidates.cpython-312.pyc
-- scripts/__pycache__/compute_perfect_scorecard.cpython-312.pyc
-- scripts/__pycache__/ensure_pretty_sections.cpython-312.pyc
-- scripts/__pycache__/fill_overview_sections.cpython-312.pyc
-- scripts/__pycache__/generate_timeline.cpython-312.pyc
-- scripts/__pycache__/insert_toc.cpython-312.pyc
-- scripts/__pycache__/normalize_alternative_proofs.cpython-312.pyc
-- scripts/__pycache__/promote_appearances_from_news.cpython-312.pyc
-- scripts/__pycache__/prune_overview_sections.cpython-312.pyc
-- scripts/__pycache__/rebuild_endorsements_year_index.cpython-312.pyc
-- scripts/__pycache__/rebuild_group_link_candidates.cpython-312.pyc
-- scripts/__pycache__/rebuild_interviews_year_index.cpython-312.pyc
-- scripts/__pycache__/rebuild_progress.cpython-312.pyc
-- scripts/__pycache__/rebuild_tag_index.cpython-312.pyc
-- scripts/__pycache__/rebuild_works_year_index.cpython-312.pyc
-- scripts/__pycache__/rebuild_year_indexes.cpython-312.pyc
-- scripts/__pycache__/remove_legacy_toc.cpython-312.pyc
-- scripts/__pycache__/send_discord_daily_summary.cpython-312.pyc
-- scripts/__pycache__/suggest_alternative_proofs.cpython-312.pyc
-- scripts/compute_perfect_scorecard.py
-- scripts/promote_appearances_from_news.py
 - sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-02-18.md)
@@ -84,7 +45,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-18 12:57 (Asia/Seoul)
+- 실행: 2026-02-18 13:09 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -93,6 +54,8 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 - 2026-02-18 00:03 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-18 13:09 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-18 13:01 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-18 12:57 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-18 12:52 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-18 12:42 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
@@ -178,8 +141,6 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 - 2026-02-18 04:49 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-18 04:43 (Asia/Seoul) · 진행중 · auto: daily update running
 - 2026-02-18 04:35 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
-- 2026-02-18 04:31 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-18 04:22 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-18_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 
 ## 4) 권장 체크
 
