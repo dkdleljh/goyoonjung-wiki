@@ -1,6 +1,6 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-02-18 10:06 (Asia/Seoul)
+> Updated: 2026-02-18 10:18 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 94
