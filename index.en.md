@@ -1,136 +1,65 @@
-# Go Youn-jung — Personal Wiki
+# Go Youn-jung Wiki Index
 
+This wiki operates around two goals:
 
-## 한눈에 보기
+- **"A wiki that captures everything about Go Youn-jung's past, present, and future"**
+- **"Perfect unmanned automation"**
 
-- 한 줄 요약: English entry point for the wiki (link-first, copyright-safe).
-- 핵심 링크: [Hub](pages/hub.md) · [Profile](pages/profile.md) · [Filmography](pages/filmography.md) · [Timeline](pages/timeline.md)
-- 상태: Core navigation (primary/official links preferred)
+Korean index: [`index.md`](index.md)
 
-<!-- TOC:START -->
+## Start Here
 
-## 목차
-
-- [목차](#목차)
-- [🧠 Lead (fixed format · auto)](#lead-fixed-format-auto)
-- [0) 30-second guide (recommended path)](#0-30-second-guide-recommended-path)
-- [1) Quick summary](#1-quick-summary)
-- [2) Core pages (curated “answer” pages)](#2-core-pages-curated-answer-pages)
-- [3) Archive (link collections)](#3-archive-link-collections)
-- [4) Verification / confidence levels](#4-verification-confidence-levels)
-- [5) Quality (today’s health check)](#5-quality-todays-health-check)
-- [6) Ops & rules](#6-ops-rules)
-- [7) Watch / sources](#7-watch-sources)
-- [8) Automation (unmanned)](#8-automation-unmanned)
-
-<!-- TOC:END -->
-
-**Language / 언어:** [한국어](index.md) | **English**
-
-> **Goal:** A link-first (copyright-safe) personal wiki collecting and organizing **Go Youn-jung**’s works, pictorials, endorsements, interviews, appearances, and events.
->
-> **Operating principles (3 lines)**
-> 1) **Prefer primary/official sources** · 2) **No rumors/private-life speculation** · 3) **Minimal quoting (link/metadata first)**
-
-- Last updated: **2026-02-18**
-- Today’s log (automation run/success): [`news/2026-02-18.md`](news/2026-02-18.md)
-- Last 7 days summary: [`news/README.md`](news/README.md)
-- Today’s report (auto): [`pages/daily-report.md`](pages/daily-report.md)
-
----
-
-<!-- AUTO-FIXED-LEAD:START -->
-
-## 🧠 Lead (fixed format · auto)
-> Note: This block is generated in a fixed format for unmanned operation.
-
-Go Youn-jung (born 1996-04-22) is a South Korean actress.
-Notable works include 사이코메트리 그녀석, 보건교사 안은영, 스위트홈, 로스쿨, 환혼, 환혼 빛과 그림자.
-This wiki is a link-first (copyright-safe) archive of works, pictorials, endorsements, interviews, and appearances/events, with primary-source verification when available.
-<!-- AUTO-FIXED-LEAD:END -->
-
-## 0) 30-second guide (recommended path)
-- Need the “map” first → **Hub (portal)**: [`pages/hub.md`](pages/hub.md)
-- Want to see what changed today → **Today’s log**: [`news/2026-02-18.md`](news/2026-02-18.md)
-- Want to see what is still incomplete → **Quality/Lint reports**: [`pages/quality-report.md`](pages/quality-report.md), [`pages/lint-report.md`](pages/lint-report.md)
-
----
-
-## 1) Quick summary
-- Born: 1996-04-22
-- Occupation: Actress
-- Active: 2018–present
-- Notable series: *Sweet Home*, *Law School*, *Alchemy of Souls: Light and Shadow*, *Moving*, etc.
-
----
-
-## 2) Core pages (curated “answer” pages)
-
-These are the most curated pages (aiming for official/primary links and explicit evidence levels).
-
+- Hub portal: [`pages/hub.md`](pages/hub.md)
 - Profile: [`pages/profile.md`](pages/profile.md)
 - Filmography: [`pages/filmography.md`](pages/filmography.md)
-- Timeline (by year): [`pages/timeline.md`](pages/timeline.md)
-- Awards / Nominations (promotion-by-proof): [`pages/awards.md`](pages/awards.md)
-- Works index (characters): [`pages/works-characters.md`](pages/works-characters.md)
-- Schedule (official public schedule): [`pages/schedule.md`](pages/schedule.md)
+- Timeline: [`pages/timeline.md`](pages/timeline.md)
+- Recent logs: [`news/README.md`](news/README.md)
 
----
+## Perfect Scorecard
 
-## 3) Archive (link collections)
+- Location: [`pages/perfect-scorecard.md`](pages/perfect-scorecard.md)
+- Generator: `python3 scripts/compute_perfect_scorecard.py`
 
-This section is closer to a link-first archive than long-form writing.
+How to read A/B/C/D:
 
-- Interviews / Articles: [`pages/interviews.md`](pages/interviews.md)
-- Pictorials / Photos (index): [`pages/pictorials.md`](pages/pictorials.md)
-- Endorsements (index): [`pages/endorsements.md`](pages/endorsements.md)
-- Appearances / Events log: [`pages/appearances.md`](pages/appearances.md)
-- SNS / Official channels: [`pages/sns.md`](pages/sns.md)
-- Tag index: [`pages/index-by-tag.md`](pages/index-by-tag.md)
+- **A**: coverage-system readiness
+- **B**: unmanned-automation readiness
+- **C**: actual information volume (grows over time)
+- **D**: quality, provenance, and link health
 
----
+Important note:
 
-## 4) Verification / confidence levels
+- The score is an operating indicator.
+- **True 100% completeness cannot be proven.**
 
-This wiki tracks evidence level alongside items (instead of over-claiming).
+## Automation Pipeline (High-level)
 
-- **S/A**: Verified via official/primary sources
-- **Secondary**: Only secondary sources exist (promotion candidate)
-- **Needs work**: Missing proof link; date/context needs improvement
+Details: [`docs/ux-automation-system.md`](docs/ux-automation-system.md)
 
-Auto-improvement flow:
-- Promotion candidates are auto-scanned daily and written near the top of `news/YYYY-MM-DD.md`.
-- When an official proof link is found/added, items can be promoted to S/A.
+1. Daily update
+- `scripts/run_daily_update.sh`
+- Daily collection, normalization, promotions, reports, and index refresh
 
----
+2. Backfill
+- `scripts/run_backfill_micro.sh`
+- `scripts/run_backfill_slice.sh`
+- `scripts/run_weekly_backfill.sh`
 
-## 5) Quality (today’s health check)
-- Daily report (dashboard-style summary): [`pages/daily-report.md`](pages/daily-report.md)
-- Lint report (broken links/formatting/blanks): [`pages/lint-report.md`](pages/lint-report.md)
-- Quality report (placeholder/warning counts): [`pages/quality-report.md`](pages/quality-report.md)
+3. Resilience / Observability
+- `scripts/check_automation_health.sh`
+- `pages/system_status.md`, `pages/daily-report.md`, `pages/lint-report.md`, `pages/quality-report.md`
 
----
+## Common Commands
 
-## 6) Ops & rules
-- Style guide: [`pages/style-guide.md`](pages/style-guide.md)
-- Naming: [`pages/naming.md`](pages/naming.md)
-- Legal / copyright: [`pages/legal.md`](pages/legal.md)
-- Strategy / roadmap: [`pages/strategy.md`](pages/strategy.md)
-- Changelog: [`CHANGELOG.md`](CHANGELOG.md)
+```bash
+make venv
+make check
+./scripts/check_automation_health.sh
+python3 scripts/compute_perfect_scorecard.py
+```
 
----
+## Editorial Guardrails
 
-## 7) Watch / sources
-- Media watch (bulk discovery): [`sources/media-watch.md`](sources/media-watch.md)
-- Watchlist (official/trusted): [`sources/watchlist.md`](sources/watchlist.md)
-- Sources list: [`sources/sources.md`](sources/sources.md)
-
----
-
-## 8) Automation (unmanned)
-- **Daily 09:00 (Asia/Seoul)**: update/collect/index refresh/lint/reports
-- **Daily 09:10**: tar.gz backup saved to `backups/`
-- **Daily 21:00**: Discord daily summary via webhook
-- Retries (09:05 / 09:15) + failure monitor (alerts only on failure)
-
-Logs live in `news/YYYY-MM-DD.md`.
+- Prefer official/primary sources
+- Exclude rumors/private-life speculation
+- Stay link-first for copyright safety

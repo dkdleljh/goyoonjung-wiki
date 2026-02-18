@@ -1,129 +1,60 @@
-# ARCHITECTURE.md
+# Architecture
 
+goyoonjung-wiki의 현재 운영 아키텍처 요약 문서입니다.
 
-## 고윤정 위키 아키텍처
+## 1. 저장소 구조
 
-이 문서는 고윤정 위키 프로젝트의 시스템 아키텍처를 설명합니다.
-
----
-
-## 전체 구조
-
-```
+```text
 goyoonjung-wiki/
-├── pages/          # 위키 페이지 (마크다운)
-├── news/           # 날짜별 로그
-├── sources/        # 출처/모니터링
-├── scripts/        # 자동화 스크립트
-├── data/           # SQLite DB
-├── backups/        # 백업
-├── config/         # 설정
-├── tests/          # 테스트
-└── .cache/         # 캐시
+├── pages/      # 위키 본문/리포트/점수판
+├── news/       # 날짜별 실행 로그
+├── scripts/    # 자동화 스크립트
+├── config/     # 수집/허용 도메인/쿼리 설정
+├── data/       # SQLite 등 운영 데이터
+├── docs/       # 운영/설계 문서
+├── backups/    # 백업 산출물
+└── tests/      # 테스트
 ```
 
----
+## 2. 실행 계층
 
-## 모듈 설계
+1. Daily runner
+- `scripts/run_daily_update.sh`
+- 수집 -> 정리 -> 승격 -> 리포트/인덱스 갱신
 
-### 1. 수집 모듈 (`scripts/auto_collect_*.py`)
+2. Backfill runners
+- `scripts/run_backfill_micro.sh`
+- `scripts/run_backfill_slice.sh`
+- `scripts/run_backfill_slice_core.sh`
+- `scripts/run_backfill_slice_i18n.sh`
+- `scripts/run_weekly_backfill.sh`
 
-| 모듈 | 역할 | 데이터 소스 |
-|------|------|------------|
-| `auto_collect_visual_links.py` | 화보/이미지 링크 | 웹 스크래핑 |
-| `auto_collect_google_news.py` | 뉴스 수집 | Google News RSS |
-| `auto_collect_agency.py` | 소속사 정보 | MAA |
-| `auto_collect_encyclopedia.py` | 백과사전 | Wikipedia API |
-| `auto_collect_schedule.py` | 일정 추정 | 뉴스 분석 |
+3. Health and score
+- `scripts/check_automation_health.sh`
+- `scripts/compute_perfect_scorecard.py`
 
-### 2. 처리 모듈 (`scripts/rebuild_*.py`)
+## 3. 관측 가능성(Observability)
 
-| 모듈 | 역할 |
-|------|------|
-| `rebuild_work_link_candidates.py` | 작품 링크 후보 생성 |
-| `rebuild_timeline_narrative.py` | 타임라인 내레이션 |
-| `rebuild_interviews_year_index.py` | 인터뷰 연도별 인덱스 |
-| `rebuild_awards_official_cache.py` | 수상 캐시 |
+시스템 상태는 문서형 아웃풋으로 남습니다.
 
-### 3. 승격 모듈 (`scripts/promote_*.py`)
+- `news/YYYY-MM-DD.md`: 실행 상태/이력
+- `pages/daily-report.md`: 일일 요약
+- `pages/system_status.md`: 운영 상태 요약
+- `pages/lint-report.md`, `pages/quality-report.md`: 품질 상태
+- `pages/perfect-scorecard.md`: A/B/C/D 점수
 
-| 모듈 | 역할 |
-|------|------|
-| `promote_safe_metadata.py` | 안전한 메타데이터 승격 |
-| `promote_endorsement_dates.py` | 광고 날짜 승격 |
-| `promote_youtube_dates.py` | YouTube 날짜 승격 |
+## 4. 설계 원칙
 
-### 4. 유틸리티 모듈
+- 링크 중심(저작권 안전)
+- 공식/1차 출처 우선
+- 무인 운영 + 감사 가능 로그
+- 장애 시 재시도/배치 분할/상태 기록
 
-| 모듈 | 역할 |
-|------|------|
-| `cache.py` | TTL 캐시 + Rate Limiter |
-| `db_manager.py` | SQLite 관리 |
-| `lock_manager.py` | 실행 잠금 |
-| `security.py` | 입력 검증/샌티제이션 |
+## 5. 목표와 해석
 
----
+- 프로젝트 목표:
+- "고윤정의 과거/현재/미래의 모든 것을 담는 위키"
+- "완벽한 무인 자동화"
 
-## 데이터 흐름
-
-```
-[수집] → [처리] → [승격] → [인덱스] → [출력]
-  ↓        ↓        ↓        ↓
- RSS/     파싱/   필터링/  정렬/
- 스크래핑  변환     검증     생성
-```
-
----
-
-## 실행 스케줄
-
-| 시간 | 작업 |
-|------|------|
-| 09:00 | 일일 자동 업데이트 |
-| 09:10 | 백업 생성 |
-| 21:00 | Discord 요약 |
-| 매주 일 | 링크 건강검진 |
-
----
-
-## 주요 설계 결정
-
-### 1. 링크 중심 아카이빙
-- 원문 복사 대신 링크 + 메타데이터
-- 저작권 이슈 회피
-
-### 2. 근거 수준 표시
-- S/A급: 공식/원문
-- 2차 참고: 언론 등
-- 보강 필요: 미확인
-
-### 3. 무인 운영
-- Lock 기반 동시 실행 방지
-- 디바운스 (10분)
-- 자동 재시도
-
----
-
-## 보안 설계
-
-- 입력 검증: `security.py`
-- URL 샌티제이션
-- 경로 탐색 방지
-- Rate Limiting
-
----
-
-## 성능 최적화
-
-- TTL 캐시 (30분 기본)
-- Rate Limiter
-- SQLite 인덱싱
-- 배치 처리
-
----
-
-## 테스트 전략
-
-- pytest 기반
-- Mock을 통한 단위 테스트
-- 임시 디렉토리 활용
+- 점수 100은 운영 지표상 상태이며,
+- **True 100% completeness cannot be proven.**

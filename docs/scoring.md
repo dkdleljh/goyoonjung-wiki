@@ -1,37 +1,26 @@
-# Scoring Model (점수 체계)
+# Scoring Model
 
+이 프로젝트는 운영 상태를 `A/B/C/D` 4축으로 점검합니다.
 
-## 1) 총점
-- 100점 만점
-- 구성: 커버리지 + 신뢰도 + 완성도 + 링크 품질 + 중복/정리
+실제 결과는 [`../pages/perfect-scorecard.md`](../pages/perfect-scorecard.md)에 기록되며,
+`python3 scripts/compute_perfect_scorecard.py`로 갱신합니다.
 
-## 2) 권장 점수 분해(초안)
+## A/B/C/D 정의
 
-### A. Coverage (30)
-- 섹션 충족률(필수 섹션이 존재/유지되는지)
-- 연도별 인덱스/타임라인 갱신 여부
+- **A. Perfect wiki coverage system**: 채널 다양성, 랜딩 페이지, 탐지 리포트 준비도
+- **B. Perfect unmanned automation**: 일일 러너, 복원력, 관측성 준비도
+- **C. Unbeatable information volume**: 실제 누적량과 확장 잠재력(시간에 따라 증가)
+- **D. Perfect quality**: 품질 부채, 링크 건강, 린트, 출처 체계
 
-### B. Source Reliability (25)
-- S/A 출처 비중
-- 프로필/확정 출연 등 ‘확정 정보 영역’에서 B/C 비중이 높으면 감점
+## 중요한 해석 주의
 
-### C. Metadata Completeness (20)
-- 날짜/출처명/타입/요약/태그의 채움률
-- 날짜 누락 또는 파싱 실패 감점
+- 점수 100은 "현 시점의 지표상 상태"를 뜻합니다.
+- **현실 세계 정보의 절대 100% 완전성은 증명할 수 없습니다.**
+- 따라서 장기 누적, 안정성, 감사 가능성(auditable)을 핵심 목표로 둡니다.
 
-### D. Link Health (15)
-- 404/5xx 비율
-- 과도한 리다이렉트/차단 감지
+## 관련 경로
 
-### E. Dedup & Hygiene (10)
-- 중복 사건 통합률
-- UTM/추적 파라미터 제거율
-
-## 3) 페널티 규칙(예시)
-- 깨진 링크(404) 1건당 -0.2 (최대 -10)
-- 날짜 누락 1건당 -0.1 (최대 -8)
-- 루머/미확정이 본문 확정 영역에 섞이면 -5(정책 위반)
-
-## 4) 리포트
-- `pages/daily-report.md`에 일일 점수 및 변동 요약
-- “검수 큐(수동 확인 필요)” 항목 수 별도 표시
+- 결과 페이지: `../pages/perfect-scorecard.md`
+- 계산 스크립트: `scripts/compute_perfect_scorecard.py`
+- 건강 점검: `scripts/check_automation_health.sh`
+- 자동화 개요: [`ux-automation-system.md`](ux-automation-system.md)

@@ -1,134 +1,55 @@
-# CONTRIBUTING.md
+# Contributing
 
+고윤정 위키에 기여해 주셔서 감사합니다.
 
-## 한눈에 보기
+이 프로젝트의 핵심 목표는 아래 두 가지입니다.
 
-- 한 줄 요약: 문서/데이터 추가 시 지켜야 할 규칙과 작업 흐름을 안내합니다.
-- 핵심 링크: [편집 규칙](pages/style-guide.md) · [저작권](pages/legal.md)
-- 상태: 운영 문서
+- **"고윤정의 과거/현재/미래의 모든 것을 담는 위키"**
+- **"완벽한 무인 자동화"**
 
-## 고윤정 위키에 기여하기
+## 기본 원칙
 
-이 프로젝트는 고윤정 배우의 작품/화보/광고/인터뷰/출연 기록을 수집·정리하는 자동화 위키 시스템입니다.
+- 공식/1차 출처를 우선합니다.
+- 루머/사생활/추측은 기록하지 않습니다.
+- 원문 대량 복사 대신 링크 + 메타데이터를 사용합니다.
+- 한글/영문 문서가 충돌하지 않도록 유지합니다.
 
----
-
-## 개발 환경 설정
+## 개발 환경
 
 ```bash
-# 저장소 클론
-
 git clone <repo-url>
 cd goyoonjung-wiki
-
-# 가상환경 생성
-
-python3 -m venv .venv
-source .venv/bin/activate
-
-# 의존성 설치
-
-pip install -r requirements.txt -r requirements-dev.txt
+make venv
 ```
 
----
-
-## 코드 스타일
-
-- **Python**: 3.12+, Ruff 린트 사용
-- **마크다운**: 링크 중심 (저작권 안전)
-- **테스트**: pytest 사용
-
-### 린트 실행
+## 변경 전 점검
 
 ```bash
-make lint    # Ruff check
-make bandit  # 보안 스캔
-make test    # pytest
-make check   # 전체 검사
+make check
+./scripts/check_automation_health.sh
+python3 scripts/compute_perfect_scorecard.py
 ```
 
----
+## 문서 기여 우선 파일
 
-## 스크립트 추가 방법
+- 메인 소개: `README.md`, `index.md`, `index.en.md`, `docs/README.md`
+- 자동화 설명: `docs/ux-automation-system.md`, `docs/OPERATION_GUIDE.md`, `docs/ARCHITECTURE.md`
+- 점수 체계: `docs/scoring.md`, `pages/perfect-scorecard.md`
 
-1. `scripts/` 디렉토리에 스크립트 추가
-2. `BASE` 경로 상수 정의
-3. `main()` 함수 구현
-4. 테스트 파일 추가 (`tests/test_<module>.py`)
+문서 수정 시 확인할 항목:
 
-### 스크립트 템플릿
+- 스크립트/경로/명령이 실제 저장소와 일치하는지
+- 한글/영문 설명이 의미상 일치하는지
+- "100점"을 절대 완전성으로 오해하지 않도록 주석이 있는지
 
-```python
-#!/usr/bin/env python3
-"""Script description."""
+## 커밋 기준
 
-import sys
-from pathlib import Path
+- 변경 이유가 드러나는 커밋 메시지 사용
+- 불필요한 대규모 포맷 변경 지양
+- 자동 생성 산출물 수정 시 관련 문서/설명도 함께 업데이트
 
-BASE = Path(__file__).resolve().parent.parent
+## 참고 문서
 
-
-def main():
-    # Your logic here
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
-```
-
----
-
-## 테스트 작성
-
-```bash
-# 테스트 실행
-
-pytest tests/
-
-# 특정 테스트 파일
-
-pytest tests/test_cache.py -v
-```
-
-### 테스트 패턴
-
-```python
-def test_example(tmp_path):
-    import scripts.example as example
-    result = example.function()
-    assert result == expected
-```
-
----
-
-## 커밋 규칙
-
-- **한글** 또는 **영어**로 명확하게 설명
-- 의미 있는 변경만 커밋
-- 자동화: 가능하면 하루 1커밋
-
----
-
-## 문제 해결
-
-### 테스트 실패 시
-
-1. 에러 메시지 확인
-2. 테스트 환경 확인
-3. 모듈 임포트 확인
-
-### 빌드 실패 시
-
-```bash
-make venv    # 가상환경 재생성
-make check   # 전체 검사
-```
-
----
-
-## 질문이 있다면
-
-- GitHub Issues 사용
-- Discord 웹훅으로 알림 설정 가능
+- 문서 포털: [`docs/README.md`](docs/README.md)
+- 자동화 시스템: [`docs/ux-automation-system.md`](docs/ux-automation-system.md)
+- Perfect Scorecard: [`pages/perfect-scorecard.md`](pages/perfect-scorecard.md)

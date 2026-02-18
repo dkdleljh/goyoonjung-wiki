@@ -89,7 +89,6 @@ def score() -> list[Axis]:
     allowlist = count_lines(CONFIG / "allowlist-domains.txt")
     gsites = count_lines(CONFIG / "google-news-sites.txt")
     gqueries = count_lines(CONFIG / "google-news-queries.txt")
-    rss = count_lines(CONFIG / "magazine-rss.yml")
     yt = count_lines(CONFIG / "youtube-feeds.yml")
     seen = get_seen_urls_count()
 
@@ -249,7 +248,7 @@ def write(axes: list[Axis]) -> None:
         "",
         f"> Updated: {now} (Asia/Seoul)",
         "",
-        "## Snapshot", 
+        "## Snapshot",
         f"- pages_total: {pages_total}",
         f"- urls_total(markdown): {urls_total}",
         f"- seen_urls(db): {seen}",
