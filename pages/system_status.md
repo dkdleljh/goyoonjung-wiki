@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-02-19
+> Updated: 2026-02-20
 
 ## wiki_completeness: **100/100**
 
@@ -33,9 +33,9 @@ check_automation_health: OK
 
 ## kpi_snapshot
 
-- new_urls: 10
+- new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/100)
+- duplicate_rate: 0.00% (0/6)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
