@@ -1,11 +1,11 @@
 # KPI Report (auto)
 
-> Updated: 2026-02-20 01:52 (Asia/Seoul)
+> Updated: 2026-02-20 02:05 (Asia/Seoul)
 
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/52)
+- duplicate_rate: 0.00% (0/58)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
