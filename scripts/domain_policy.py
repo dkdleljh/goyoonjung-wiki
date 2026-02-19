@@ -97,7 +97,7 @@ class DomainPolicy:
     grades: dict[str, str]
 
     @classmethod
-    def load(cls) -> "DomainPolicy":
+    def load(cls) -> DomainPolicy:
         mapping: dict[str, str] = {}
         for grade, host in _iter_legacy_allowlist():
             mapping[host] = grade
@@ -135,4 +135,3 @@ class DomainPolicy:
 
 def load_policy() -> DomainPolicy:
     return DomainPolicy.load()
-

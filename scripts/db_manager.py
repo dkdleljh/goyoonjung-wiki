@@ -211,8 +211,9 @@ def migrate_from_txt(txt_path: str) -> int:
             url = line.strip()
             if not url:
                 continue
+            nurl = normalize_url(url)
             try:
-                c.execute('INSERT OR IGNORE INTO seen_urls (url, source) VALUES (?, ?)', (url, 'migration'))
+                c.execute('INSERT OR IGNORE INTO seen_urls (url, source) VALUES (?, ?)', (nurl, 'migration'))
                 if c.rowcount > 0:
                     count += 1
             except sqlite3.Error as e:

@@ -25,7 +25,7 @@ import sys
 import time
 from collections.abc import Iterable
 from dataclasses import dataclass
-from urllib.parse import quote_plus, urljoin, urlsplit
+from urllib.parse import quote_plus, urljoin
 
 import requests
 from bs4 import BeautifulSoup

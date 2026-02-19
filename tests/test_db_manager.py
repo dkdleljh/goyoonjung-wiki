@@ -118,7 +118,7 @@ def test_connection_uses_row_factory(tmp_path):
 
     conn = db.get_db_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM seen_urls WHERE url = ?", ("https://rowtest.com",))
+    cursor.execute("SELECT * FROM seen_urls WHERE url = ?", ("https://rowtest.com/",))
     row = cursor.fetchone()
     conn.close()
 
