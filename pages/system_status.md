@@ -35,7 +35,7 @@ check_automation_health: OK
 
 - new_urls: 10
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/56)
+- duplicate_rate: 0.00% (0/61)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
