@@ -27,6 +27,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.append(str(SCRIPT_DIR))
 import config_loader  # noqa: E402
 import db_manager  # noqa: E402
+import domain_policy  # noqa: E402
+import normalize_url  # noqa: E402
 import relevance  # noqa: E402
 
 CONF = config_loader.load_config()
@@ -78,6 +80,7 @@ def fetch_rss():
 
 def main():
     print(f"Fetching RSS: {RSS_URL}")
+    policy = domain_policy.load_policy()
     try:
         xml_data = fetch_rss()
     except Exception as e:
@@ -108,10 +111,13 @@ def main():
         if any(x['title'] == title for x in new_items):
             continue
 
-        real_url = decode_google_news_url(origin_link)
+        real_url = normalize_url.norm(decode_google_news_url(origin_link))
+        grade = policy.grade_for_url(real_url)
+        lane = policy.lane_for_url(real_url)
 
         # Check DB
         if db_manager.is_url_seen(real_url):
+            db_manager.record_url_event(real_url, grade, "duplicate", "google_news", is_duplicate=True)
             continue
 
         source_text = source_elem.text if source_elem is not None else "Google News"
@@ -121,6 +127,22 @@ def main():
 
         # Relevance gate (precision-first)
         if not relevance.is_relevant(title, real_url, source_text, desc):
+            continue
+
+        if lane == "discard":
+            db_manager.record_url_event(real_url, grade, "blocked", "google_news")
+            continue
+
+        if lane in ("queue", "pool"):
+            db_manager.add_or_update_candidate(
+                real_url,
+                grade=grade,
+                lane=lane,
+                title=title,
+                source=source_text,
+            )
+            db_manager.add_seen_url(real_url, source='google_news')
+            db_manager.record_url_event(real_url, grade, lane, "google_news")
             continue
 
         category = classify(title)
@@ -142,6 +164,7 @@ def main():
         })
 
         db_manager.add_seen_url(real_url, source='google_news')
+        db_manager.record_url_event(real_url, grade, "landed", "google_news")
 
     if not new_items:
         print("No new items found.")

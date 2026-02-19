@@ -16,6 +16,8 @@ import re
 from datetime import datetime
 from pathlib import Path
 
+import domain_policy
+
 BASE = Path(__file__).resolve().parent.parent
 NEWS_DIR = BASE / "news"
 OUT = BASE / "pages" / "videos" / "mv.md"
@@ -65,6 +67,7 @@ def insert_under_year(md: str, year: int, block: str, url: str) -> str:
 
 
 def main() -> int:
+    policy = domain_policy.load_policy()
     news = get_today_news()
     if not news.exists() or not OUT.exists():
         return 0
@@ -81,6 +84,8 @@ def main() -> int:
         title = m.group(1)
         url = m.group(2)
         if not YT_RE.search(url):
+            continue
+        if policy.grade_for_url(url) != "S":
             continue
         if "고윤정" not in title:
             continue

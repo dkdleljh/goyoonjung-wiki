@@ -32,12 +32,13 @@ from bs4 import BeautifulSoup
 
 SCRIPT_DIR = os.path.dirname(__file__)
 sys.path.append(SCRIPT_DIR)
+import domain_policy  # noqa: E402
+import normalize_url  # noqa: E402
 import relevance  # noqa: E402
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SEEN_TXT = os.path.join(BASE, "sources", "seen-urls.txt")
 INTERVIEWS_MD = os.path.join(BASE, "pages", "interviews.md")
-ALLOWLIST = os.path.join(BASE, "config", "allowlist-domains.txt")
 
 UA = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
@@ -88,8 +89,7 @@ def http_get(url: str) -> str | None:
 
 
 def norm_url(u: str) -> str:
-    # minimal normalization
-    return u.split("#")[0]
+    return normalize_url.norm(u)
 
 
 def extract_date_from_url(u: str) -> str | None:
@@ -214,27 +214,14 @@ def daum_collect(limit: int = 8) -> list[str]:
     return out
 
 
-def load_allowlist() -> set[str]:
-    if not os.path.exists(ALLOWLIST):
-        return set()
-    out: set[str] = set()
-    with open(ALLOWLIST, encoding='utf-8') as f:
-        for raw in f:
-            ln = raw.strip()
-            if not ln or ln.startswith('#'):
-                continue
-            ln = ln.replace('https://', '').replace('http://', '')
-            out.add(ln.strip('/'))
-    return out
-
-
-def build_entries(urls: list[str], seen: set[str], source_label: str, allow: set[str]) -> list[Entry]:
+def build_entries(
+    urls: list[str], seen: set[str], source_label: str, policy: domain_policy.DomainPolicy
+) -> list[Entry]:
     out: list[Entry] = []
     for u in urls:
-        if allow:
-            host = urlsplit(u).netloc.lower().split(':', 1)[0]
-            if host not in allow:
-                continue
+        grade = policy.grade_for_url(u)
+        if grade != "S":
+            continue
         if u in seen:
             continue
         title = og_title(u)
@@ -272,11 +259,11 @@ def main() -> int:
     n_urls = naver_collect()
     d_urls = daum_collect()
 
-    allow = load_allowlist()
+    policy = domain_policy.load_policy()
 
     entries = []
-    entries += build_entries(n_urls, seen, "네이버 뉴스", allow)
-    entries += build_entries(d_urls, seen, "다음 뉴스", allow)
+    entries += build_entries(n_urls, seen, "네이버 뉴스", policy)
+    entries += build_entries(d_urls, seen, "다음 뉴스", policy)
 
     changed = apply_entries(INTERVIEWS_MD, entries)
     print(f"auto_collect_news_links: urls={len(n_urls)+len(d_urls)} entries={len(entries)} changed={changed}")

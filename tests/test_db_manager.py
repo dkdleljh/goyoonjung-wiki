@@ -31,6 +31,10 @@ def test_init_db_creates_tables(tmp_path):
     # Check kv_store table
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='kv_store'")
     assert cursor.fetchone() is not None
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='url_events'")
+    assert cursor.fetchone() is not None
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='url_candidates'")
+    assert cursor.fetchone() is not None
 
     conn.close()
 
@@ -63,12 +67,12 @@ def test_add_seen_url_inserts_new_url(tmp_path):
 
     conn = db.get_db_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT url, source FROM seen_urls WHERE url = ?", ("https://new-url.com",))
+    cursor.execute("SELECT url, source FROM seen_urls WHERE url = ?", ("https://new-url.com/",))
     row = cursor.fetchone()
     conn.close()
 
     assert row is not None
-    assert row[0] == "https://new-url.com"
+    assert row[0] == "https://new-url.com/"
     assert row[1] == "google_news"
 
 
@@ -119,5 +123,17 @@ def test_connection_uses_row_factory(tmp_path):
     conn.close()
 
     # sqlite3.Row supports dict-like access
-    assert row["url"] == "https://rowtest.com"
+    assert row["url"] == "https://rowtest.com/"
     assert row["source"] == "test"
+
+
+def test_record_url_event_and_candidate(tmp_path):
+    db.DB_PATH = tmp_path / "test.db"
+    db.init_db()
+
+    assert db.record_url_event("https://m.example.com/a?utm_source=x", "A", "queue", "test")
+    assert db.add_or_update_candidate("https://example.com/a", "A", "queue", "title", "test")
+
+    rows = db.list_candidates("queue", limit=5)
+    assert len(rows) == 1
+    assert rows[0]["grade"] == "A"

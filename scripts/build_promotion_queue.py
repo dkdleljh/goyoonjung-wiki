@@ -18,6 +18,8 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import db_manager
+
 BASE = Path(__file__).resolve().parent.parent
 PAGES = BASE / "pages"
 OUT = PAGES / "promotion-queue.md"
@@ -83,6 +85,8 @@ def main() -> int:
                     items.append(QueueItem(date=date_s, file=rel, url=url, reason='보도(2차) 오래됨 → 공식/원문 승격 필요'))
 
     items = sorted(items, key=lambda x: (x.date, x.file, x.url))
+    db_manager.init_db()
+    queue_cands = db_manager.list_candidates(lane="queue", limit=200)
 
     lines = [
         '# Promotion Queue (auto)',
@@ -97,6 +101,19 @@ def main() -> int:
     else:
         for it in items[:300]:
             lines.append(f"- {it.date} · {it.reason} · {it.file} · {it.url}")
+
+    lines += [
+        "",
+        "## 도메인 A 등급 후보(자동 수집)",
+    ]
+    if not queue_cands:
+        lines.append("- (없음)")
+    else:
+        for row in queue_cands:
+            lines.append(
+                f"- {row['last_seen_at'][:10]} · grade={row['grade']} · {row['source']} · "
+                f"[{row['title']}]({row['url']})"
+            )
 
     OUT.write_text("\n".join(lines).rstrip() + "\n", encoding='utf-8')
     print(f"build_promotion_queue: items={len(items)}")

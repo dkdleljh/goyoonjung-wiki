@@ -19,9 +19,16 @@
 
 - `news/YYYY-MM-DD.md`
 - `pages/daily-report.md`
+- `pages/kpi-report.md`
+- `pages/candidate-pool.md`
 - `pages/system_status.md`
 - `pages/lint-report.md`
 - `pages/quality-report.md`
+
+도메인 등급 정책:
+
+- `config/domain-grades.yml` (S/A/B/BLOCK)
+- `config/allowlist-domains.txt` (하위 호환; 기본 A)
 
 ## 3. 백필(누락 보강)
 
@@ -45,6 +52,7 @@ python3 scripts/compute_perfect_scorecard.py
 
 - 건강 점검 결과: 쉘 출력
 - 점수 결과 문서: `pages/perfect-scorecard.md`
+- KPI 문서: `pages/kpi-report.md`
 
 ## 5. Perfect Scorecard 해석
 
@@ -65,6 +73,19 @@ python3 scripts/compute_perfect_scorecard.py
 2. `pages/daily-report.md`와 `pages/lint-report.md` 확인
 3. `./scripts/check_automation_health.sh` 재실행
 4. 필요 시 백필 스크립트로 누락 구간 보강
+
+## 8. 도메인 등급 운영 규칙
+
+- `S`: daily news에 즉시 landing, 자동 승격 대상
+- `A`: `pages/promotion-queue.md` 후보로만 적재
+- `B`: `pages/candidate-pool.md` 보관소로만 적재
+- `BLOCK`: 수집 단계에서 폐기
+
+Google News 키워드 파일은 분리 운영:
+
+- 정밀 세트: `config/google-news-queries-precise.txt`
+- 확장 세트: `config/google-news-queries-broad.txt`
+- 기존 `config/google-news-queries.txt`는 fallback
 
 ## 7. 관련 문서
 

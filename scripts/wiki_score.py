@@ -20,11 +20,14 @@ from dataclasses import dataclass
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+import domain_policy
+
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 TZ = ZoneInfo("Asia/Seoul")
 OUT = os.path.join(BASE, "pages", "system_status.md")
 LINT_REPORT = os.path.join(BASE, "pages", "lint-report.md")
 LINK_HEALTH = os.path.join(BASE, "pages", "link-health.md")
+KPI_REPORT = os.path.join(BASE, "pages", "kpi-report.md")
 
 
 @dataclass
@@ -145,6 +148,35 @@ def write_status(scores: list[Score]) -> None:
             *s.details,
             "",
         ]
+
+    policy = domain_policy.load_policy()
+    grade_counts = {"S": 0, "A": 0, "B": 0, "BLOCK": 0}
+    for g in policy.grades.values():
+        if g in grade_counts:
+            grade_counts[g] += 1
+    lines += [
+        "## domain_grade_status",
+        "",
+        f"- S: {grade_counts['S']}",
+        f"- A: {grade_counts['A']}",
+        f"- B: {grade_counts['B']}",
+        f"- BLOCK: {grade_counts['BLOCK']}",
+        "",
+    ]
+
+    if os.path.exists(KPI_REPORT):
+        txt = open(KPI_REPORT, encoding="utf-8").read().splitlines()
+        lines += ["## kpi_snapshot", ""]
+        in_metrics = False
+        for ln in txt:
+            if ln.startswith("## Daily Metrics"):
+                in_metrics = True
+                continue
+            if in_metrics and ln.startswith("## "):
+                break
+            if in_metrics and ln.strip():
+                lines.append(ln)
+        lines.append("")
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:

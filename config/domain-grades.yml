@@ -1,0 +1,41 @@
+# Domain grades for collection lanes (optional override layer).
+# Backward compatibility:
+# - If this file is missing, config/allowlist-domains.txt plain lines are treated as A.
+# - In allowlist-domains.txt, optional prefixes also work: S:domain, A:domain, B:domain, BLOCK:domain
+#
+# Lanes:
+# - S: auto-land into daily news log and eligible for auto-promoters
+# - A: store as candidate and send to pages/promotion-queue.md
+# - B: store in candidate pool only (pages/candidate-pool.md)
+# - BLOCK: discard
+
+S:
+  - news.kbs.co.kr
+  - kstar.kbs.co.kr
+  - news.sbs.co.kr
+  - imnews.imbc.com
+  - news.jtbc.co.kr
+  - tvn.cjenm.com
+  - about.netflix.com
+  - disneyplus.com
+  - disneypluskr.com
+  - tving.com
+  - wavve.com
+
+A:
+  - naver.com
+  - daum.net
+  - yna.co.kr
+  - dispatch.co.kr
+  - newsis.com
+  - vogue.co.kr
+  - elle.co.kr
+  - wkorea.com
+
+B:
+  - youtube.com
+  - youtu.be
+  - instagram.com
+
+BLOCK:
+  - news.google.com

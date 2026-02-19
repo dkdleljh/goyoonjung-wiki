@@ -15,11 +15,12 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import urlsplit
+
+import domain_policy
+import normalize_url
 
 BASE = Path(__file__).resolve().parent.parent
 NEWS_DIR = BASE / "news"
-ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
 
 URL_RE = re.compile(r"https?://[^\s)]+")
 MD_LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)]+)\)")
@@ -31,27 +32,13 @@ def today_path() -> Path:
     return NEWS_DIR / f"{today}.md"
 
 
-def load_allowlist() -> set[str]:
-    if not ALLOWLIST.exists():
-        return set()
-    out: set[str] = set()
-    for raw in ALLOWLIST.read_text(encoding="utf-8").splitlines():
-        ln = raw.strip()
-        if not ln or ln.startswith('#'):
-            continue
-        # allow accidental scheme
-        ln = ln.replace('https://', '').replace('http://', '')
-        out.add(ln.strip('/'))
-    return out
-
-
 def main() -> int:
     path = today_path()
     if not path.exists():
         print("sanitize_news_log: no file")
         return 0
 
-    allow = load_allowlist()
+    policy = domain_policy.load_policy()
 
     lines = path.read_text(encoding="utf-8").splitlines(True)
     out: list[str] = []
@@ -65,7 +52,8 @@ def main() -> int:
         if not m:
             out.append(ln)
             continue
-        url = m.group(0)
+        raw_url = m.group(0)
+        url = normalize_url.norm(raw_url)
 
         # 제목 기반 품질 게이트: 마크다운 링크 텍스트에 '고윤정'이 없으면 제거
         mm = MD_LINK_RE.search(ln)
@@ -75,24 +63,21 @@ def main() -> int:
                 removed_allow += 1
                 continue
 
-        if "news.google.com/rss/articles" in url:
+        if "news.google.com/rss/articles" in raw_url:
             removed += 1
             continue
 
-        # quality gate: allowlist domains only (if allowlist is configured)
-        if allow:
-            host = urlsplit(url).netloc.lower()
-            host = host.split(':', 1)[0]
-            if host not in allow:
-                removed_allow += 1
-                continue
+        # quality gate: only S-grade items remain in daily landed log
+        if policy.grade_for_url(url) != "S":
+            removed_allow += 1
+            continue
 
         if url in seen:
             deduped += 1
             continue
 
         seen.add(url)
-        out.append(ln)
+        out.append(ln.replace(raw_url, url))
 
     if out != lines:
         path.write_text("".join(out), encoding="utf-8")

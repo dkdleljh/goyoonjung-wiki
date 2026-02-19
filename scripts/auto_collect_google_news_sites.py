@@ -32,10 +32,11 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 BASE = SCRIPT_DIR.parent
 sys.path.append(str(SCRIPT_DIR))
 import db_manager  # noqa: E402
+import domain_policy  # noqa: E402
+import normalize_url  # noqa: E402
 import relevance  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-sites.txt"
-ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 TIMEOUT = 15
@@ -74,19 +75,6 @@ def fetch_rss(url: str) -> bytes | None:
 def get_today_news_path() -> Path:
     today = datetime.now().strftime("%Y-%m-%d")
     return BASE / "news" / f"{today}.md"
-
-
-def load_allowlist() -> set[str]:
-    if not ALLOWLIST.exists():
-        return set()
-    out: set[str] = set()
-    for raw in ALLOWLIST.read_text(encoding="utf-8").splitlines():
-        ln = raw.strip()
-        if not ln or ln.startswith('#'):
-            continue
-        ln = ln.replace('https://', '').replace('http://', '')
-        out.add(ln.strip('/'))
-    return out
 
 
 def load_sites() -> list[Site]:
@@ -135,7 +123,7 @@ def append_items(path: Path, items: list[dict]) -> None:
 
 def main() -> int:
     db_manager.init_db()
-    allow = load_allowlist()
+    policy = domain_policy.load_policy()
     sites = load_sites()
     if not sites:
         return 0
@@ -183,16 +171,19 @@ def main() -> int:
             if KEYWORD not in title:
                 continue
 
-            real_url = decode_google_news_url(origin_link)
+            real_url = normalize_url.norm(decode_google_news_url(origin_link))
             if "news.google.com" in real_url:
                 continue
-            if allow:
-                from urllib.parse import urlsplit
-                host = urlsplit(real_url).netloc.lower().split(':', 1)[0]
-                if host not in allow:
-                    continue
+            grade = policy.grade_for_url(real_url)
+            lane = policy.lane_for_url(real_url)
+            if lane == "discard":
+                db_manager.record_url_event(real_url, grade, "blocked", f"gnews_site:{s.domain}")
+                continue
 
             if db_manager.is_url_seen(real_url):
+                db_manager.record_url_event(
+                    real_url, grade, "duplicate", f"gnews_site:{s.domain}", is_duplicate=True
+                )
                 continue
 
             date_str = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -203,9 +194,20 @@ def main() -> int:
                 except Exception:
                     pass
 
-            new_items.append({"title": title, "url": real_url, "date": date_str, "label": s.label})
+            if lane == "landed":
+                new_items.append({"title": title, "url": real_url, "date": date_str, "label": s.label})
+                db_manager.record_url_event(real_url, grade, "landed", f"gnews_site:{s.domain}")
+                total_new += 1
+            else:
+                db_manager.add_or_update_candidate(
+                    real_url,
+                    grade=grade,
+                    lane=lane,
+                    title=title,
+                    source=s.label,
+                )
+                db_manager.record_url_event(real_url, grade, lane, f"gnews_site:{s.domain}")
             db_manager.add_seen_url(real_url, source=f"gnews_site:{s.domain}")
-            total_new += 1
             time.sleep(0.05)
 
         append_items(news_path, new_items)

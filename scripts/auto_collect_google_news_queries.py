@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Collect links via Google News RSS using custom keyword queries.
 
-- Reads config/google-news-queries.txt (tab-separated: label \t query)
+- Reads split configs first:
+  - config/google-news-queries-precise.txt
+  - config/google-news-queries-broad.txt
+- Falls back to:
+  - config/google-news-queries.txt
 - Fetches Google News RSS for each query
 - Decodes Google News redirect URLs (HEAD)
 - De-dupes via SQLite DB (db_manager)
@@ -26,10 +30,13 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 BASE = SCRIPT_DIR.parent
 sys.path.append(str(SCRIPT_DIR))
 import db_manager  # noqa: E402
+import domain_policy  # noqa: E402
+import normalize_url  # noqa: E402
 import relevance  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-queries.txt"
-ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
+CONF_PRECISE = BASE / "config" / "google-news-queries-precise.txt"
+CONF_BROAD = BASE / "config" / "google-news-queries-broad.txt"
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 TIMEOUT = 15
@@ -85,16 +92,18 @@ def append_lines(path: Path, lines: list[str]) -> None:
             f.write(ln + "\n")
 
 
-def load_allowlist() -> set[str]:
-    if not ALLOWLIST.exists():
-        return set()
-    out: set[str] = set()
-    for raw in ALLOWLIST.read_text(encoding="utf-8").splitlines():
-        ln = raw.strip()
-        if not ln or ln.startswith('#'):
+def _load_queries_from(path: Path) -> list[tuple[str, str]]:
+    if not path.exists():
+        return []
+    out: list[tuple[str, str]] = []
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
             continue
-        ln = ln.replace('https://', '').replace('http://', '')
-        out.add(ln.strip('/'))
+        parts = line.split("\t", 1)
+        if len(parts) != 2:
+            continue
+        out.append((parts[0].strip(), parts[1].strip()))
     return out
 
 
@@ -107,23 +116,20 @@ def load_queries() -> list[tuple[str, str]]:
 
     This prevents very large query lists from causing long runtimes / OOM.
     """
-    if not CONF_PATH.exists():
-        return []
     out: list[tuple[str, str]] = []
-    for raw in CONF_PATH.read_text(encoding="utf-8").splitlines():
-        line = raw.strip()
-        if not line or line.startswith("#"):
-            continue
-        parts = line.split("\t", 1)
-        if len(parts) != 2:
-            continue
-        out.append((parts[0].strip(), parts[1].strip()))
+    precise = _load_queries_from(CONF_PRECISE)
+    broad = _load_queries_from(CONF_BROAD)
+    if precise or broad:
+        out.extend(precise)
+        out.extend(broad)
+        return out
+    out.extend(_load_queries_from(CONF_PATH))
     return out
 
 
 def main() -> int:
     db_manager.init_db()
-    allow = load_allowlist()
+    policy = domain_policy.load_policy()
     qlist = load_queries()
     if not qlist:
         return 0
@@ -168,18 +174,20 @@ def main() -> int:
             if not title or not origin_link:
                 continue
 
-            real_url = decode_google_news_url(origin_link)
+            real_url = normalize_url.norm(decode_google_news_url(origin_link))
             # 품질: 리다이렉트 해소 실패(여전히 news.google.com)이면 스킵
             if "news.google.com" in real_url:
                 continue
-            # allowlist gate (optional)
-            if allow:
-                from urllib.parse import urlsplit
-                host = urlsplit(real_url).netloc.lower().split(':', 1)[0]
-                if host not in allow:
-                    continue
+            grade = policy.grade_for_url(real_url)
+            lane = policy.lane_for_url(real_url)
+            if lane == "discard":
+                db_manager.record_url_event(real_url, grade, "blocked", f"gnews_query:{label}")
+                continue
 
             if db_manager.is_url_seen(real_url):
+                db_manager.record_url_event(
+                    real_url, grade, "duplicate", f"gnews_query:{label}", is_duplicate=True
+                )
                 continue
 
             date_str = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -190,9 +198,20 @@ def main() -> int:
                 except Exception:
                     pass
 
-            new_lines.append(f"- [GoogleNews/Q:{label}] [{title}]({real_url}) ({date_str})")
+            if lane == "landed":
+                new_lines.append(f"- [GoogleNews/Q:{label}] [{title}]({real_url}) ({date_str})")
+                total += 1
+                db_manager.record_url_event(real_url, grade, "landed", f"gnews_query:{label}")
+            else:
+                db_manager.add_or_update_candidate(
+                    real_url,
+                    grade=grade,
+                    lane=lane,
+                    title=title,
+                    source=label,
+                )
+                db_manager.record_url_event(real_url, grade, lane, f"gnews_query:{label}")
             db_manager.add_seen_url(real_url, source=f"gnews_query:{label}")
-            total += 1
             time.sleep(0.05)
 
         append_lines(news_path, new_lines)

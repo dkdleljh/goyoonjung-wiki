@@ -178,7 +178,15 @@ RC_GNEWS_SITES=$?
 
 # 1.515) Collect Google News custom queries (brands/ads/etc)
 CURRENT_STEP="collect:gnews-queries"
-QUERIES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-queries.txt 2>/dev/null | wc -l | tr -d ' ')
+QUERIES_TOTAL=0
+if [ -f ./config/google-news-queries-precise.txt ] || [ -f ./config/google-news-queries-broad.txt ]; then
+  QUERIES_TOTAL=$(( \
+    $(grep -vE '^\s*(#|$)' ./config/google-news-queries-precise.txt 2>/dev/null | wc -l | tr -d ' ') + \
+    $(grep -vE '^\s*(#|$)' ./config/google-news-queries-broad.txt 2>/dev/null | wc -l | tr -d ' ') \
+  ))
+else
+  QUERIES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-queries.txt 2>/dev/null | wc -l | tr -d ' ')
+fi
 QUERIES_TOTAL=${QUERIES_TOTAL:-0}
 OFFSET_QUERIES=$(python3 ./scripts/collector_batch_state.py get gnews_queries "$QUERIES_TOTAL" 2>/dev/null || echo 0)
 MAX_QUERIES=${MAX_QUERIES:-4}
@@ -273,10 +281,20 @@ CURRENT_STEP="score:promotion-queue"
 retry 2 2 timeout 30 python3 ./scripts/build_promotion_queue.py
 RC_QUEUE=$?
 
+# 3.26) Candidate pool (B-grade)
+CURRENT_STEP="score:candidate-pool"
+retry 2 2 timeout 30 python3 ./scripts/rebuild_candidate_pool.py
+RC_POOL=$?
+
 # 3.25) Perfect scorecard (multi-axis KPI)
 CURRENT_STEP="score:perfect-scorecard"
 retry 2 2 timeout 30 python3 ./scripts/compute_perfect_scorecard.py
 RC_PERF=$?
+
+# 3.27) KPI report
+CURRENT_STEP="score:kpi-report"
+retry 2 2 timeout 30 python3 ./scripts/generate_kpi_report.py
+RC_KPI=$?
 
 # 3.5) Suggest official proof links for awards (no auto-apply)
 retry 2 5 ./scripts/suggest_awards_official_proofs.py

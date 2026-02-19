@@ -16,8 +16,9 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 
+import domain_policy
+
 BASE = Path(__file__).resolve().parent.parent
-ALLOW = BASE / "config" / "allowlist-domains.txt"
 NEWS_DIR = BASE / "news"
 APPR = BASE / "pages" / "appearances.md"
 
@@ -32,19 +33,6 @@ OFFICIAL_HOST_HINTS = (
     "about.netflix.com",
     "www.disneypluskr.com",
 )
-
-
-def load_allow() -> set[str]:
-    if not ALLOW.exists():
-        return set()
-    out = set()
-    for raw in ALLOW.read_text(encoding="utf-8").splitlines():
-        ln = raw.strip()
-        if not ln or ln.startswith('#'):
-            continue
-        ln = ln.replace('https://', '').replace('http://', '').strip('/')
-        out.add(ln)
-    return out
 
 
 def today_news() -> Path:
@@ -79,7 +67,7 @@ def insert_under_year(md: str, year: int, block: str, url: str) -> str:
 def main() -> int:
     if not APPR.exists():
         return 0
-    allow = load_allow()
+    policy = domain_policy.load_policy()
     news = today_news()
     if not news.exists():
         return 0
@@ -95,9 +83,9 @@ def main() -> int:
         title, url = m.group(1), m.group(2)
         if "고윤정" not in title:
             continue
-        host = urlsplit(url).netloc.lower().split(':',1)[0]
-        if allow and host not in allow:
+        if policy.grade_for_url(url) != "S":
             continue
+        host = urlsplit(url).netloc.lower().split(':',1)[0]
         # only promote if official-ish host
         if not any(host.endswith(h) or host==h for h in OFFICIAL_HOST_HINTS):
             continue

@@ -16,6 +16,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
+import domain_policy
+
 BASE = Path(__file__).resolve().parent.parent
 NEWS = BASE / "news" / f"{datetime.now().strftime('%Y-%m-%d')}.md"
 OUT = BASE / "pages" / "endorsements.md"
@@ -111,12 +113,21 @@ def detect_brand(title: str, brand_map: dict[str, str]) -> str:
 
 def main() -> int:
     try:
+        policy = domain_policy.load_policy()
         if not NEWS.exists() or not OUT.exists():
             return 0
         brand_map = load_brand_map()
         news = NEWS.read_text(encoding="utf-8", errors="ignore")
         items = parse_items(news)
-        cands = [it for it in items if (NAME in it.title and any(t in it.title for t in TOKENS))]
+        cands = [
+            it
+            for it in items
+            if (
+                NAME in it.title
+                and any(t in it.title for t in TOKENS)
+                and policy.grade_for_url(it.url) == "S"
+            )
+        ]
         if not cands:
             print("promote_endorsements_from_news: promoted=0")
             return 0

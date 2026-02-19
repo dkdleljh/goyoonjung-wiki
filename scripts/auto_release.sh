@@ -65,7 +65,7 @@ detect_bump() {
   files=$(git diff --name-only "${from_ref}..HEAD" 2>/dev/null || true)
 
   # breaking-ish wiring changes
-  if echo "$files" | grep -qE '^(scripts/run_daily_update\.sh|config/allowlist-domains\.txt|config/google-news-queries\.txt|config/google-news-sites\.txt)$'; then
+  if echo "$files" | grep -qE '^(scripts/run_daily_update\.sh|config/allowlist-domains\.txt|config/domain-grades\.yml|config/google-news-queries(\-precise|\-broad)?\.txt|config/google-news-sites\.txt)$'; then
     # treat as minor by default (not necessarily breaking), major only if commit flagged
     echo minor; return 0
   fi

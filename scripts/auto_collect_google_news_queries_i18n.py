@@ -27,9 +27,10 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 BASE = SCRIPT_DIR.parent
 sys.path.append(str(SCRIPT_DIR))
 import db_manager  # noqa: E402
+import domain_policy  # noqa: E402
+import normalize_url  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-queries-i18n.txt"
-ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 TIMEOUT = 15
@@ -77,19 +78,6 @@ def append_lines(path: Path, lines: list[str]) -> None:
             f.write(ln + "\n")
 
 
-def load_allowlist() -> set[str]:
-    if not ALLOWLIST.exists():
-        return set()
-    out: set[str] = set()
-    for raw in ALLOWLIST.read_text(encoding="utf-8").splitlines():
-        ln = raw.strip()
-        if not ln or ln.startswith('#'):
-            continue
-        ln = ln.replace('https://', '').replace('http://', '')
-        out.add(ln.strip('/'))
-    return out
-
-
 def load_queries() -> list[tuple[str, str, str, str, str]]:
     if not CONF_PATH.exists():
         return []
@@ -107,7 +95,7 @@ def load_queries() -> list[tuple[str, str, str, str, str]]:
 
 def main() -> int:
     db_manager.init_db()
-    allow = load_allowlist()
+    policy = domain_policy.load_policy()
     qlist = load_queries()
     if not qlist:
         return 0
@@ -148,19 +136,20 @@ def main() -> int:
             if not title or not origin_link:
                 continue
 
-            real_url = decode_google_news_url(origin_link)
+            real_url = normalize_url.norm(decode_google_news_url(origin_link))
             if 'news.google.com' in real_url:
                 continue
 
-            if allow:
-                from urllib.parse import urlsplit
-                host = urlsplit(real_url).netloc.lower().split(':', 1)[0]
-                if host not in allow:
-                    # i18n은 allowlist 외에도 의미 있는 해외 매체가 많으므로,
-                    # 일단 통과시키되 WARN로 남기려면 별도 시스템이 필요. (추천값: 통과)
-                    pass
+            grade = policy.grade_for_url(real_url)
+            lane = policy.lane_for_url(real_url)
+            if lane == "discard":
+                db_manager.record_url_event(real_url, grade, "blocked", f"gnews_i18n:{label}")
+                continue
 
             if db_manager.is_url_seen(real_url):
+                db_manager.record_url_event(
+                    real_url, grade, "duplicate", f"gnews_i18n:{label}", is_duplicate=True
+                )
                 continue
 
             date_str = datetime.now().strftime('%Y-%m-%d %H:%M')
@@ -171,9 +160,20 @@ def main() -> int:
                 except Exception:
                     pass
 
-            new_lines.append(f"- [GoogleNews/I18N:{label}] [{title}]({real_url}) ({date_str})")
+            if lane == "landed":
+                new_lines.append(f"- [GoogleNews/I18N:{label}] [{title}]({real_url}) ({date_str})")
+                db_manager.record_url_event(real_url, grade, "landed", f"gnews_i18n:{label}")
+                total += 1
+            else:
+                db_manager.add_or_update_candidate(
+                    real_url,
+                    grade=grade,
+                    lane=lane,
+                    title=title,
+                    source=label,
+                )
+                db_manager.record_url_event(real_url, grade, lane, f"gnews_i18n:{label}")
             db_manager.add_seen_url(real_url, source=f"gnews_i18n:{label}")
-            total += 1
             time.sleep(0.05)
 
         append_lines(news_path, new_lines)

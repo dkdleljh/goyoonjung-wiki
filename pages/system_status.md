@@ -23,3 +23,20 @@ warn_budget=20
 ## automation_health: **100/100**
 
 check_automation_health: OK
+
+## domain_grade_status
+
+- S: 11
+- A: 76
+- B: 3
+- BLOCK: 1
+
+## kpi_snapshot
+
+- new_urls: 10
+- landed_urls: 0
+- duplicate_rate: 0.00% (0/0)
+- verified_urls_by_grade:
+  - S: 0
+  - A: 0
+  - B: 0

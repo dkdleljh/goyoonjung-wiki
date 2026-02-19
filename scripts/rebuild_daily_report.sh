@@ -9,6 +9,7 @@ NOW=$(TZ="$TZ" date +"%Y-%m-%d %H:%M")
 
 OUT="pages/daily-report.md"
 NEWS="news/${TODAY}.md"
+KPI="pages/kpi-report.md"
 
 LAST_COMMIT=$(git log -1 --format='%h %ad %s' --date=iso || true)
 CHANGED=$(git show --name-only --pretty=format: HEAD | sed '/^$/d' | sed -n '1,120p' || true)
@@ -48,6 +49,17 @@ CHANGED=$(git show --name-only --pretty=format: HEAD | sed '/^$/d' | sed -n '1,1
   echo "- 자동 09시 실행이 잘 됐는지(09:25 모니터 보고)"
   echo "- 백로그 1개 전진 여부(pages/progress.md)"
   echo "- 링크 건강검진 주간 실행(pages/link-health.md)"
+  echo
+  echo "## 5) KPI 스냅샷"
+  echo
+  if [ -f "${KPI}" ]; then
+    awk '
+      /^## Daily Metrics/{p=1}
+      p{print}
+    ' "${KPI}" | sed -n '1,20p'
+  else
+    echo "- (kpi-report 없음)"
+  fi
   echo
 } > "${OUT}"
 

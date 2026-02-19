@@ -15,6 +15,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
+import domain_policy
+
 BASE = Path(__file__).resolve().parent.parent
 NEWS = BASE / "news" / f"{datetime.now().strftime('%Y-%m-%d')}.md"
 OUT = BASE / "pages" / "filmography.md"
@@ -45,11 +47,20 @@ def parse_items(text: str) -> list[Item]:
 
 def main() -> int:
     try:
+        policy = domain_policy.load_policy()
         if not NEWS.exists() or not OUT.exists():
             return 0
         news = NEWS.read_text(encoding="utf-8", errors="ignore")
         items = parse_items(news)
-        cands = [it for it in items if (NAME in it.title and any(t in it.title for t in TOKENS))]
+        cands = [
+            it
+            for it in items
+            if (
+                NAME in it.title
+                and any(t in it.title for t in TOKENS)
+                and policy.grade_for_url(it.url) == "S"
+            )
+        ]
         if not cands:
             print("promote_works_from_news: promoted=0")
             return 0

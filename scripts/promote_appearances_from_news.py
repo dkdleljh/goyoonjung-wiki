@@ -26,6 +26,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
+import domain_policy
+
 BASE = Path(__file__).resolve().parent.parent
 NEWS_DIR = BASE / "news"
 APPEARANCES_MD = BASE / "pages" / "appearances.md"
@@ -175,6 +177,7 @@ def try_add_seen_url(url: str) -> None:
 
 def main() -> int:
     try:
+        policy = domain_policy.load_policy()
         p = today_path()
         if not p.exists() or not APPEARANCES_MD.exists():
             return 0
@@ -183,6 +186,8 @@ def main() -> int:
         items = parse_news_markdown(news_md)
         matched: list[tuple[NewsItem, str, str]] = []
         for it in items:
+            if policy.grade_for_url(it.url) != "S":
+                continue
             m = match_rule(it)
             if m:
                 program, platform = m

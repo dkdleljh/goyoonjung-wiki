@@ -1,0 +1,8 @@
+# label<TAB>query (high precision set)
+# 원칙: 링크만 수집
+OFFICIAL_TV	(site:news.kbs.co.kr OR site:news.sbs.co.kr OR site:imnews.imbc.com OR site:news.jtbc.co.kr OR site:tvn.cjenm.com) "고윤정" when:60d
+OFFICIAL_OTT	(site:about.netflix.com OR site:www.disneypluskr.com OR site:www.disneyplus.com OR site:www.tving.com OR site:www.wavve.com) "고윤정" when:180d
+KBS연예	site:kstar.kbs.co.kr "고윤정" when:30d
+VARIETY	"고윤정" "마니또 클럽" when:180d
+VARIETY_TALK	"고윤정" ("유 퀴즈" OR "유퀴즈" OR "살롱드립" OR "채널십오야" OR "나영석" OR "와글와글") when:365d
+BROADCAST_PR	"고윤정" (site:imnews.imbc.com OR site:news.sbs.co.kr OR site:news.kbs.co.kr OR site:news.jtbc.co.kr) (예고 OR 라인업 OR 출연 OR 제작발표회) when:365d

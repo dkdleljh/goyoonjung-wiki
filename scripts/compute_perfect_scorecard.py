@@ -54,6 +54,27 @@ def count_lines(path: Path) -> int:
     return len([ln for ln in path.read_text(encoding="utf-8", errors="ignore").splitlines()])
 
 
+def count_non_comment_lines(path: Path) -> int:
+    if not path.exists():
+        return 0
+    return len(
+        [
+            ln
+            for ln in path.read_text(encoding="utf-8", errors="ignore").splitlines()
+            if ln.strip() and not ln.strip().startswith("#")
+        ]
+    )
+
+
+def count_google_query_lines() -> int:
+    split = count_non_comment_lines(CONFIG / "google-news-queries-precise.txt") + count_non_comment_lines(
+        CONFIG / "google-news-queries-broad.txt"
+    )
+    if split > 0:
+        return split
+    return count_non_comment_lines(CONFIG / "google-news-queries.txt")
+
+
 def get_seen_urls_count() -> int:
     if not DB.exists():
         return 0
@@ -88,7 +109,7 @@ def score() -> list[Axis]:
     pages_total, urls_total, per = count_urls_in_pages()
     allowlist = count_lines(CONFIG / "allowlist-domains.txt")
     gsites = count_lines(CONFIG / "google-news-sites.txt")
-    gqueries = count_lines(CONFIG / "google-news-queries.txt")
+    gqueries = count_google_query_lines()
     yt = count_lines(CONFIG / "youtube-feeds.yml")
     seen = get_seen_urls_count()
 
@@ -97,6 +118,8 @@ def score() -> list[Axis]:
     channel_diversity = 0
     required_configs = [
         "google-news-queries.txt",
+        "google-news-queries-precise.txt",
+        "google-news-queries-broad.txt",
         "google-news-sites.txt",
         "magazine-rss.yml",
         "youtube-feeds.yml",
@@ -173,6 +196,8 @@ def score() -> list[Axis]:
     for f in (
         "config/google-news-sites.txt",
         "config/google-news-queries.txt",
+        "config/google-news-queries-precise.txt",
+        "config/google-news-queries-broad.txt",
         "config/magazine-rss.yml",
         "config/youtube-feeds.yml",
         "config/google-news-queries-i18n.txt",
@@ -194,9 +219,10 @@ def score() -> list[Axis]:
         "docs/editorial_policy.md",
         "pages/style-guide.md",
         "config/allowlist-domains.txt",
+        "config/domain-grades.yml",
         "config/endorsement-brand-map.yml",
     ):
-        provenance += 25 if (BASE / f).exists() else 0
+        provenance += 20 if (BASE / f).exists() else 0
     provenance = clamp(provenance)
 
     D = clamp(int(round(placeholder * 0.35 + link_health * 0.25 + lint * 0.25 + provenance * 0.15)))
@@ -236,7 +262,7 @@ def write(axes: list[Axis]) -> None:
 
     allowlist = count_lines(CONFIG / "allowlist-domains.txt")
     gsites = count_lines(CONFIG / "google-news-sites.txt")
-    gqueries = count_lines(CONFIG / "google-news-queries.txt")
+    gqueries = count_google_query_lines()
     rss = count_lines(CONFIG / "magazine-rss.yml")
     yt = count_lines(CONFIG / "youtube-feeds.yml")
     seen = get_seen_urls_count()
