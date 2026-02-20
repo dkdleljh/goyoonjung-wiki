@@ -1,6 +1,6 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-02-21 03:34 (Asia/Seoul)
+> Updated: 2026-02-21 03:47 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
