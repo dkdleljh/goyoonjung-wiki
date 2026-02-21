@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-21 09:20 (Asia/Seoul)
+> 갱신: 2026-02-21 09:34 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 8d4f196a 2026-02-21 09:09:13 +0900 daily: update 2026-02-21
+- 5266da55 2026-02-21 09:20:07 +0900 daily: update 2026-02-21
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -35,7 +35,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/878)
+- duplicate_rate: 0.00% (0/896)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
