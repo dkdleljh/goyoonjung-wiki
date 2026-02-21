@@ -36,7 +36,7 @@ check_automation_health: FAIL
 
 - new_urls: 3
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1333)
+- duplicate_rate: 0.00% (0/1341)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
