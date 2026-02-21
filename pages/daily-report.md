@@ -1,20 +1,23 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-22 00:08 (Asia/Seoul)
+> 갱신: 2026-02-22 00:21 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 79da9dfe 2026-02-21 23:55:19 +0900 daily: update 2026-02-21
+- 8eaf6df6 2026-02-22 00:08:30 +0900 daily: update 2026-02-22
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-02-21.md
+- news/2026-02-22.md
+- news/README.md
 - pages/candidate-pool.md
 - pages/daily-report.md
 - pages/kpi-report.md
+- pages/link-health.md
 - pages/perfect-scorecard.md
 - pages/progress.md
 - pages/promotion-queue.md
+- pages/schedule.md
 - pages/system_status.md
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
@@ -47,7 +50,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 <!-- AUTO-LEAD-DRAFT:END -->
 
-- 실행: 2026-02-22 00:03 (Asia/Seoul)
+- 실행: 2026-02-22 00:14 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 <!-- AUTO-BACKLOG-PROGRESS:START -->
@@ -56,11 +59,20 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 
 ## 실행 이력
 - 2026-02-22 00:03 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-22 00:14 (Asia/Seoul) · 진행중 · auto: daily update running
+- 2026-02-22 00:08 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-22_0008.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
 - 2026-02-22 00:03 (Asia/Seoul) · 진행중 · auto: daily update running
 
 - [Agency] MAA 공식 홈페이지 작품 리스트 확인: 2건 (변동 확인용)
 - [Encyclopedia] Wikipedia 업데이트 확인: 2026-02-10T14:11:36Z by ~2026-85198-3 (revid=41320174)
 - [Encyclopedia] Namuwiki 접근 가능 (Code: 200)
+
+
+## 자동화 스킵/실패 사유(무인 로그)
+<!-- AUTO-SKIP-REASONS:START -->
+- score:kpi-report: rc=124 · command failed (try 1/2) (2026-02-22 00:19)
+- score:kpi-report: rc=124 · command failed (try 2/2) (2026-02-22 00:21)
+<!-- AUTO-SKIP-REASONS:END -->
 
 ## 4) 권장 체크
 
@@ -73,7 +85,7 @@ Go Youn-jung (born April 22, 1996) is a South Korean actress. This wiki is a lin
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/9)
+- duplicate_rate: 0.00% (0/18)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
