@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-02-21
+> Updated: 2026-02-22
 
 ## wiki_completeness: **100/100**
 
@@ -17,13 +17,12 @@ lint-report: OK
 
 ## link_health: **100/100**
 
-counts: ok=334 warn=0 bad=0
+counts: ok=361 warn=8 bad=0
 warn_budget=20
 
-## automation_health: **40/100**
+## automation_health: **100/100**
 
-check_automation_health: FAIL
-
+check_automation_health: OK
 
 ## domain_grade_status
 
@@ -34,9 +33,9 @@ check_automation_health: FAIL
 
 ## kpi_snapshot
 
-- new_urls: 3
+- new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1583)
+- duplicate_rate: 0.00% (0/9)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
