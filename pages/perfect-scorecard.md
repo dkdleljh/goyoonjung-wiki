@@ -1,11 +1,11 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-02-22 20:43 (Asia/Seoul)
+> Updated: 2026-02-22 22:07 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 96
 - urls_total(markdown): 2809
-- seen_urls(db): 261
+- seen_urls(db): 263
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -30,7 +30,7 @@
 - C_current: 83  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
 - urls_total: 2809  (markdown URL count)
-- seen_urls_db: 261  (dedupe DB size)
+- seen_urls_db: 263  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 12  (pages/works/*.md)
 - i18n: 70  (i18n query support)
