@@ -17,7 +17,7 @@ lint-report: OK
 
 ## link_health: **100/100**
 
-counts: ok=362 warn=16 bad=0
+counts: ok=360 warn=18 bad=0
 warn_budget=20
 
 ## automation_health: **100/100**
@@ -35,7 +35,7 @@ check_automation_health: OK
 
 - new_urls: 12
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1946)
+- duplicate_rate: 0.00% (0/1991)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
