@@ -27,7 +27,8 @@ jobs:
         run: bandit -q -r scripts -c pyproject.toml
 
       - name: Python compile check
-        run: python - <<'PY'
+        run: |
+          python - <<'PY'
           import pathlib, py_compile
           for p in pathlib.Path('scripts').rglob('*.py'):
               py_compile.compile(str(p), doraise=True)
