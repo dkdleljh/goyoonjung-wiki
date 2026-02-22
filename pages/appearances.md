@@ -72,6 +72,14 @@
 
 > 메모: 항목을 추가할 때는 위 템플릿을 따르고, 링크는 `scripts/add_seen_url.sh`로 정규화 후 `sources/seen-urls.*`에 등록합니다.
 
+- 날짜: 2026-02-22
+- 구분: 기타(보도/홍보)
+- 프로그램/행사명: '마니또 클럽' 고윤정, 나, 미대 나온 여자야~
+- 플랫폼/방송사: KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=393465
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=393465
+- 메모: 보도(1차). 사진/스틸 포함 가능.
 ## 공식 링크
 - (S) 소속사(MAA) 프로필(필모/공식 활동): https://maa.co.kr/artists/go-younjung
 - (A/S) YouTube(tvN/Netflix/Disney+ Korea 등 공식 채널) 링크는 항목별 `링크(공식/원문)`에 기록

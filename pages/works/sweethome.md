@@ -23,10 +23,9 @@
 
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-02-15 23:49 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-02-22 09:43 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 전체 후보
 
@@ -36,7 +35,7 @@
 
 - [당신의 언어는 나한테 너무 어려워요.. 넷플릭스 '이 사랑 통역 되나요?'](https://kstar.kbs.co.kr/list_view.html?idx=389107)  _(출처: interviews.md)_
 
-- [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970)  _(출처: interviews.md)_ <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | http://enter.etoday.co.kr/news/view/292714 -->
+- [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970)  _(출처: interviews.md)_
 
 - [[인터뷰] '이 사랑 통역 되나요?' 고윤정이 탐색한 감정의 언어](https://www.sisaweek.com/news/articleView.html?idxno=233219)  _(출처: interviews.md)_
 
@@ -62,7 +61,7 @@
 
 - [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)  _(출처: appearances.md)_
 
-- [> 메모: 항목을 추가할 때는 위 템플릿을 따르고, 링크는 `scripts/add_seen_url.sh`로 정규화 후 `sources/seen-](https://maa.co.kr/artists/go-younjung)  _(출처: appearances.md)_
+- ['마니또 클럽' 고윤정, 나, 미대 나온 여자야~](https://kstar.kbs.co.kr/list_view.html?idx=393465)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

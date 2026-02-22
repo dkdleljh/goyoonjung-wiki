@@ -1,11 +1,11 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-02-22 09:29 (Asia/Seoul)
+> Updated: 2026-02-22 09:42 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 96
-- urls_total(markdown): 2810
-- seen_urls(db): 251
+- urls_total(markdown): 2812
+- seen_urls(db): 257
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -29,8 +29,8 @@
 
 - C_current: 83  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 2810  (markdown URL count)
-- seen_urls_db: 251  (dedupe DB size)
+- urls_total: 2812  (markdown URL count)
+- seen_urls_db: 257  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 12  (pages/works/*.md)
 - i18n: 70  (i18n query support)
@@ -52,7 +52,7 @@
 - 55: pages/interviews/by-year.md
 - 52: pages/works/alchemy-of-souls.md
 - 49: pages/works/moving.md
-- 44: pages/pictorials/campaign.md
+- 44: pages/appearances.md
 
 ## Notes
 - ‘Perfect’ here means: the system keeps expanding coverage while staying stable and auditable.

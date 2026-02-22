@@ -6,6 +6,7 @@
 ---
 
 ## 2026
+- 2026-02-22 · ['마니또 클럽' 고윤정, 나, 미대 나온 여자야~](https://kstar.kbs.co.kr/list_view.html?idx=393465)
 - 2026-02-16 · [MBC <마니또 클럽> — 2기 출연진(고윤정 포함) 방송 말미 예고 언급](https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177)
 - 2026-02-10 · [MBC <마니또 클럽> — 2차 라인업(고윤정 포함) 공개](https://www.dispatch.co.kr/2338820)
 - 2026-02-03 · [MBC <마니또 클럽> — 고윤정·김도훈 출연 확정(보도)](https://www.mydaily.co.kr/page/view/2026020313291419433)
