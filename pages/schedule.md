@@ -9,7 +9,7 @@
 
 <!-- AUTO-SCHEDULE-HIGHLIGHTS:START -->
 ## 오늘/이번주 일정 (자동)
-> 기준: 2026-02-22 ~ 2026-03-01 (Asia/Seoul)
+> 기준: 2026-02-23 ~ 2026-03-02 (Asia/Seoul)
 
 - (7일 내 등록된 공식 일정이 없습니다.)
 <!-- AUTO-SCHEDULE-HIGHLIGHTS:END -->
