@@ -39,7 +39,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y shellcheck
 
       - name: ShellCheck
-        run: shellcheck scripts/*.sh ultrawork_verification.sh
+        run: shellcheck -S error scripts/*.sh ultrawork_verification.sh
 
       - name: Pytest
         run: pytest -q
