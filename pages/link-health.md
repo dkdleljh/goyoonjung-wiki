@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-02-22 12:18 (Asia/Seoul) · 대상 URL: 378 (최대 700)
+> 갱신: 2026-02-22 12:29 (Asia/Seoul) · 대상 URL: 378 (최대 700)
 
-- OK: **361** / WARN: **17** / BAD: **0**
+- OK: **362** / WARN: **16** / BAD: **0**
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
 
@@ -18,7 +18,6 @@
 - (-) https://tvn.cjenm.com/ko/%2C · error: HTTPError
 - (-) https://tvn.cjenm.com/ko/%2C%2C · error: HTTPError
 - (-) https://tvn.cjenm.com/ko/resident-playbook/%2C · error: HTTPError
-- (-) https://www.penshoppe.com/ · error: HTTPError
 - (-) https://www.mk.co.kr/news/hot-issues/10994612%2C · error: HTTPError
 - (-) https://entertain.daum.net/tv/5138294/video/418173622%2C · error: HTTPError
 - (-) https://star.ytn.co.kr/_sn/0117_202505091128555812%2C · error: HTTPError
