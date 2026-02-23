@@ -33,3 +33,7 @@ temp/
 
 # Generated reports (do not version)
 docs/FINAL_VERIFICATION_REPORT.md
+
+# Python
+__pycache__/
+*.pyc

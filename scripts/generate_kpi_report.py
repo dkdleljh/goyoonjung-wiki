@@ -24,39 +24,44 @@ def main() -> int:
     db_manager.init_db()
     if not DB.exists():
         return 0
-    con = sqlite3.connect(DB)
+    # Use a longer busy timeout; this script can run concurrently with collectors.
+    con = sqlite3.connect(DB, timeout=30)
+    con.execute("PRAGMA busy_timeout = 30000")
     cur = con.cursor()
+
+    # IMPORTANT: avoid date(created_at) wrappers; they defeat indexes and can cause
+    # full scans as the DB grows.
+    day_start = "datetime('now','localtime','start of day')"
+    day_end = "datetime('now','localtime','start of day','+1 day')"
 
     new_urls = q1(
         cur,
-        "SELECT count(*) FROM seen_urls WHERE date(first_seen_at,'localtime') = date('now','localtime')",
+        f"SELECT count(*) FROM seen_urls WHERE first_seen_at >= {day_start} AND first_seen_at < {day_end}",
     )
     landed_urls = q1(
         cur,
-        """
+        f"""
         SELECT count(*) FROM url_events
-        WHERE date(created_at,'localtime') = date('now','localtime')
+        WHERE created_at >= {day_start} AND created_at < {day_end}
           AND decision = 'landed'
-        """,
+        """ ,
     )
-    total_events = q1(
-        cur, "SELECT count(*) FROM url_events WHERE date(created_at,'localtime') = date('now','localtime')"
-    )
+    total_events = q1(cur, f"SELECT count(*) FROM url_events WHERE created_at >= {day_start} AND created_at < {day_end}")
     duplicate_events = q1(
         cur,
-        """
+        f"""
         SELECT count(*) FROM url_events
-        WHERE date(created_at,'localtime') = date('now','localtime')
+        WHERE created_at >= {day_start} AND created_at < {day_end}
           AND is_duplicate = 1
-        """,
+        """ ,
     )
     duplicate_rate = (duplicate_events / total_events) if total_events else 0.0
 
     cur.execute(
-        """
+        f"""
         SELECT grade, count(*)
         FROM url_events
-        WHERE date(created_at,'localtime') = date('now','localtime')
+        WHERE created_at >= {day_start} AND created_at < {day_end}
           AND is_duplicate = 0
           AND decision IN ('landed', 'queue', 'pool')
         GROUP BY grade

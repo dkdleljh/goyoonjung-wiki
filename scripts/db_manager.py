@@ -28,8 +28,14 @@ def get_db_connection() -> sqlite3.Connection:
     if not os.path.exists(DB_PATH.parent):
         os.makedirs(DB_PATH.parent)
 
-    conn = sqlite3.connect(DB_PATH)
+    # Use a longer SQLite busy timeout to reduce transient "database is locked" issues
+    # during cron bursts.
+    conn = sqlite3.connect(DB_PATH, timeout=30)
     conn.row_factory = sqlite3.Row
+    try:
+        conn.execute("PRAGMA busy_timeout = 30000")
+    except Exception:
+        pass
     return conn
 
 
@@ -80,6 +86,14 @@ def init_db() -> None:
             seen_count INTEGER DEFAULT 1
         )
     ''')
+
+    # Indexes (critical for daily KPI queries; avoid full table scans)
+    c.execute("CREATE INDEX IF NOT EXISTS idx_seen_urls_first_seen_at ON seen_urls(first_seen_at)")
+    c.execute("CREATE INDEX IF NOT EXISTS idx_url_events_created_at ON url_events(created_at)")
+    c.execute(
+        "CREATE INDEX IF NOT EXISTS idx_url_events_created_decision_dup_grade "
+        "ON url_events(created_at, decision, is_duplicate, grade)"
+    )
 
     conn.commit()
     conn.close()

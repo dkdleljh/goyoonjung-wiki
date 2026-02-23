@@ -293,7 +293,7 @@ RC_PERF=$?
 
 # 3.27) KPI report
 CURRENT_STEP="score:kpi-report"
-retry 2 2 timeout 30 python3 ./scripts/generate_kpi_report.py
+retry 2 2 timeout 90 python3 ./scripts/generate_kpi_report.py
 RC_KPI=$?
 
 # 3.5) Suggest official proof links for awards (no auto-apply)
