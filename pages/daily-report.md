@@ -1,14 +1,25 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-23 14:46 (Asia/Seoul)
+> 갱신: 2026-02-23 14:57 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 478f8a6d 2026-02-23 14:44:10 +0900 fix(copyright): safer KBS interview summaries (paraphrase+guardrails)
+- 11cf8e17 2026-02-23 14:46:12 +0900 daily: update 2026-02-23
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- scripts/promote_interview_summaries_kbs.py
+- news/2026-02-23.md
+- pages/candidate-pool.md
+- pages/daily-report.md
+- pages/kpi-report.md
+- pages/perfect-scorecard.md
+- pages/progress.md
+- pages/promotion-queue.md
+- pages/system_status.md
+- pages/works/alchemy-of-souls.md
+- pages/works/hunt.md
+- pages/works/moving.md
+- sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-02-23.md)
 
@@ -24,7 +35,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1201)
+- duplicate_rate: 0.00% (0/1239)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

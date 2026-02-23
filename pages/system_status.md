@@ -36,7 +36,7 @@ FAIL: news header missing run/result
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1201)
+- duplicate_rate: 0.00% (0/1239)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
