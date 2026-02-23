@@ -59,5 +59,13 @@
 - 2020-10-09 · [정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"](https://www.yna.co.kr/view/AKR20201009055300005) <!-- ALT-PROOF: https://www.elle.co.kr/article/1880222 | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.mk.co.kr/news/hot-issues/10994612 | https://www.newstomato.com/ReadNews.aspx?no=1199951 | https://v.daum.net/v/XbouMZUNSZ -->
 - 2020-09-24 · ["'보건교사 안은영'은 선의와 친절에 관한 이야기"](https://m.news.zum.com/articles/63011527)
 
+
+## 공식 링크
+- (준비중) 방송사/매체의 공식 인터뷰 모음(1차) 링크를 우선으로 추가합니다.
+
+## 출처
+- pages/interviews.md (누적 원문 링크)
+- docs/editorial_policy.md
+
 ---
 ※ 이 페이지는 자동 생성됩니다.

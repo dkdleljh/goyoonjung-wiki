@@ -20,11 +20,9 @@ lint-report: OK
 counts: ok=361 warn=17 bad=0
 warn_budget=20
 
-## automation_health: **80/100**
+## automation_health: **100/100**
 
-check_automation_health: DIRTY (possible finalization window)
-If this persists, commit/push is broken or a generator is writing untracked changes.
-FAIL: working tree dirty
+check_automation_health: OK
 
 ## domain_grade_status
 
