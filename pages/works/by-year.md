@@ -26,7 +26,7 @@
 
 ## 2020
 - 보건교사 안은영 (Netflix) — 최유진 · 근거: [Netflix](https://www.netflix.com/kr/title/80209129)
-- 스위트홈 (Netflix) — 박유리 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
+- 스위트홈 (Netflix) — 박유리 · 근거: [Netflix](https://www.netflix.com/kr/title/81061734)
 
 ## 2019
 - 사이코메트리 그녀석 (tvN) — 김소현 · 데뷔작 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
