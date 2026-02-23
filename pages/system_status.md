@@ -37,7 +37,7 @@ FAIL: working tree dirty
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1868)
+- duplicate_rate: 0.00% (0/1902)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
