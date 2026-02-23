@@ -5,8 +5,9 @@ Scope:
 - pages/interviews.md entries that contain:
   - a KBS연예 URL (kstar.kbs.co.kr/list_view.html?idx=...)
   - and the placeholder '(요약 보강 필요)'
-- Fetch the article page and extract a short plain-text summary:
-  - take the first 3~5 non-empty sentences from the article body
+- Fetch the article page and generate a SHORT, non-verbatim summary:
+  - 2~3 bullets maximum
+  - keyword-centric, template-based phrasing (avoid copying sentences)
   - write them as bullet lines under '요약(3~5줄):'
 
 Safety:
@@ -41,44 +42,150 @@ def http_get(url: str) -> str:
     return r.text
 
 
-def extract_sentences(text: str, limit: int = 5) -> list[str]:
-    # normalize spaces
-    text = re.sub(r"\s+", " ", text).strip()
+STOPWORDS = {
+    # very common / boilerplate
+    "기자",
+    "기사",
+    "인터뷰",
+    "영상",
+    "사진",
+    "제공",
+    "무단전재",
+    "재배포",
+    "저작권",
+    "랭킹뉴스",
+    "URL복사",
+    "페이스북",
+    "트위터",
+    "카카오",
+    "네이버",
+    "로그인",
+    "회원가입",
+    "개인정보",
+    "쿠키",
+    # subject name is allowed but shouldn't dominate keywords
+    "고윤정",
+}
 
-    # drop common boilerplate chunks early
+
+def normalize_text(text: str) -> str:
+    text = re.sub(r"\s+", " ", text).strip()
     for bad in [
-        "랭킹뉴스", "URL복사", "페이스북", "트위터", "카카오", "네이버",
-        "기사제보", "기자", "무단전재", "재배포", "저작권",
-        "로그인", "회원가입", "개인정보", "쿠키",
+        "랭킹뉴스",
+        "URL복사",
+        "페이스북",
+        "트위터",
+        "카카오",
+        "네이버",
+        "기사제보",
+        "무단전재",
+        "재배포",
+        "저작권",
+        "로그인",
+        "회원가입",
+        "개인정보",
+        "쿠키",
     ]:
         text = text.replace(bad, " ")
-    text = re.sub(r"\s+", " ", text).strip()
+    return re.sub(r"\s+", " ", text).strip()
 
-    # crude sentence split for Korean/English
-    parts = re.split(r"(?<=[\.!?。])\s+|(?<=다\.)\s+|(?<=요\.)\s+", text)
 
+def extract_keywords(text: str, limit: int = 8) -> list[str]:
+    """Extract simple Korean/English keywords without NLP libraries."""
+    text = normalize_text(text)
+    # grab Hangul/English tokens, prefer Hangul chunks
+    tokens = re.findall(r"[가-힣]{2,8}|[A-Za-z]{3,12}", text)
+    freq: dict[str, int] = {}
+    for t in tokens:
+        t = t.strip()
+        if not t:
+            continue
+        if t in STOPWORDS:
+            continue
+        # drop ultra-generic terms
+        if t in {"대한민국", "배우", "드라마", "시리즈", "작품", "방송", "공개"}:
+            continue
+        freq[t] = freq.get(t, 0) + 1
+
+    # rank by frequency then length (slight preference for informative tokens)
+    ranked = sorted(freq.items(), key=lambda kv: (-kv[1], -len(kv[0]), kv[0]))
     out: list[str] = []
-    seen = set()
-    for p in parts:
-        p = p.strip()
-        if len(p) < 25:
-            continue
-        if len(p) > 200:
-            p = p[:197] + "…"
-        # avoid nav/footer/boilerplate
-        if any(bad in p for bad in [
-            "본문영역", "상세페이지", "글씨 작게보기", "글씨 크게보기",
-            "공유", "좋아요", "댓글", "추천",
-        ]):
-            continue
-        key = re.sub(r"\s+", "", p)
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(p)
+    for w, _ in ranked:
+        if w not in out:
+            out.append(w)
         if len(out) >= limit:
             break
     return out
+
+
+def extract_titles(text: str, limit: int = 4) -> list[str]:
+    """Extract quoted short titles (very conservative)."""
+    text = normalize_text(text)
+    titles: list[str] = []
+    for m in re.findall(r"[\"'“”‘’《》<>「」『』]([^\"'“”‘’《》<>「」『』]{2,20})[\"'“”‘’《》<>「」『』]", text):
+        t = m.strip()
+        if not t or t in titles:
+            continue
+        # avoid obviously non-title junk
+        if any(x in t for x in ["http", "www", "kbs"]):
+            continue
+        titles.append(t)
+        if len(titles) >= limit:
+            break
+    return titles
+
+
+def is_too_verbatim(bullet: str, article_text: str) -> bool:
+    """Guardrail: do not write bullets that appear verbatim (or near-verbatim) in the article."""
+    b = re.sub(r"\s+", " ", bullet).strip()
+    t = re.sub(r"\s+", " ", article_text).strip()
+    if len(b) >= 20 and b in t:
+        return True
+    # check any 20-char chunk is present in the article
+    if len(b) >= 40:
+        for i in range(0, len(b) - 20, 5):
+            chunk = b[i : i + 20]
+            if chunk in t:
+                return True
+    return False
+
+
+def build_safe_bullets(article_text: str) -> list[str]:
+    """Return 2~3 paraphrase-like bullets; if not enough signal, return []."""
+    article_text = normalize_text(article_text)
+    if len(article_text) < 200:
+        return []
+
+    kw = extract_keywords(article_text, limit=8)
+    titles = extract_titles(article_text, limit=4)
+
+    bullets: list[str] = []
+
+    if kw:
+        bullets.append("주제 키워드: " + ", ".join(kw[:5]))
+
+    if titles:
+        bullets.append("언급된 작품/프로젝트(표기 확인 필요): " + ", ".join(titles[:3]))
+
+    bullets.append("핵심 포인트: 고윤정 관련 근황/활동 맥락을 정리한 인터뷰(자세한 내용은 원문 링크 참고).")
+
+    # Keep 2~3 bullets
+    bullets = [b for b in bullets if b.strip()]
+    if len(bullets) < 2:
+        return []
+    bullets = bullets[:3]
+
+    # Similarity guard
+    safe: list[str] = []
+    for b in bullets:
+        if is_too_verbatim(b, article_text):
+            continue
+        # length guard
+        if len(b) > 140:
+            b = b[:137] + "…"
+        safe.append(b)
+
+    return safe if len(safe) >= 2 else []
 
 
 def extract_article_text(html: str) -> str:
@@ -157,18 +264,10 @@ def main() -> int:
             try:
                 html = http_get(url)
                 text = extract_article_text(html)
-                sents = extract_sentences(text, limit=4)
-                if not sents:
+                bullets = build_safe_bullets(text)
+                if not bullets:
                     i = end
                     continue
-                # bullets are short and non-verbatim-ish
-                bullets = []
-                for s in sents:
-                    # trim length
-                    s = s.strip()
-                    if len(s) > 130:
-                        s = s[:127] + "…"
-                    bullets.append(s)
 
                 if replace_summary_block(lines, start, end, bullets):
                     changed_blocks += 1
