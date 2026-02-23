@@ -1,21 +1,14 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-23 14:31 (Asia/Seoul)
+> 갱신: 2026-02-23 14:36 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 2f6ea133 2026-02-23 14:31:12 +0900 chore(coverage): expand works pages and strengthen official links
+- 86ac3af2 2026-02-23 14:32:53 +0900 works/light-shop: drop ALT-PROOF now that official Disney+ page is used
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- pages/candidate-pool.md
-- pages/filmography.md
-- pages/kpi-report.md
-- pages/perfect-scorecard.md
-- pages/promotion-queue.md
-- pages/system_status.md
-- pages/works/alchemy-of-souls-light-and-shadow.md
-- pages/works/by-year.md
+- pages/works/light-shop.md
 
 ## 3) 오늘 실행 상태(news/2026-02-23.md)
 
