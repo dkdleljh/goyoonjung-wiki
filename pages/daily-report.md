@@ -1,26 +1,16 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-23 14:36 (Asia/Seoul)
+> 갱신: 2026-02-23 14:46 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 86ac3af2 2026-02-23 14:32:53 +0900 works/light-shop: drop ALT-PROOF now that official Disney+ page is used
+- 478f8a6d 2026-02-23 14:44:10 +0900 fix(copyright): safer KBS interview summaries (paraphrase+guardrails)
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- pages/works/light-shop.md
+- scripts/promote_interview_summaries_kbs.py
 
 ## 3) 오늘 실행 상태(news/2026-02-23.md)
-
-## 실행 상태
-- 실행: 2026-02-23 14:27 (Asia/Seoul)
-- 결과: 진행중
-- 메모: auto: daily update running
-## 실행 이력
-
-- 2026-02-23 14:27 (Asia/Seoul) · 진행중 · auto: daily update running
-- 2026-02-23 14:21 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-23_0014.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, push:OK
-
 
 
 ## 4) 권장 체크
@@ -34,7 +24,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1163)
+- duplicate_rate: 0.00% (0/1201)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

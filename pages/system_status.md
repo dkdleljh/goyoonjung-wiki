@@ -20,9 +20,10 @@ lint-report: OK
 counts: ok=361 warn=17 bad=0
 warn_budget=20
 
-## automation_health: **100/100**
+## automation_health: **40/100**
 
-check_automation_health: OK
+check_automation_health: FAIL
+FAIL: news header missing run/result
 
 ## domain_grade_status
 
@@ -35,7 +36,7 @@ check_automation_health: OK
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1163)
+- duplicate_rate: 0.00% (0/1201)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
