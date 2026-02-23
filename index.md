@@ -10,6 +10,7 @@
 ## 먼저 보면 좋은 페이지
 
 - 허브(전체 포털): [`pages/hub.md`](pages/hub.md)
+- 허브(English): [`pages/hub.en.md`](pages/hub.en.md)
 - 프로필: [`pages/profile.md`](pages/profile.md)
 - 필모그래피: [`pages/filmography.md`](pages/filmography.md)
 - 타임라인: [`pages/timeline.md`](pages/timeline.md)

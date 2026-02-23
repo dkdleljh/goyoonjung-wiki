@@ -9,7 +9,8 @@ Korean index: [`index.md`](index.md)
 
 ## Start Here
 
-- Hub portal: [`pages/hub.md`](pages/hub.md)
+- Hub portal (KR): [`pages/hub.md`](pages/hub.md)
+- Hub portal (EN): [`pages/hub.en.md`](pages/hub.en.md)
 - Profile: [`pages/profile.md`](pages/profile.md)
 - Filmography: [`pages/filmography.md`](pages/filmography.md)
 - Timeline: [`pages/timeline.md`](pages/timeline.md)

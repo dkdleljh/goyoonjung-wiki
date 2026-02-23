@@ -3,9 +3,9 @@
 
 ## 한눈에 보기
 
-- 한 줄 요약: Quick navigation hub (English) for core pages and archives.
-- 핵심 링크: [Profile](profile.md) · [Filmography](filmography.md) · [Timeline](timeline.md) · [Interviews](interviews.md) · [Pictorials](pictorials.md)
-- 상태: Navigation hub (link-first)
+- One-line summary: English portal for quick navigation (core pages + archives).
+- Key links: [Profile](profile.md) · [Filmography](filmography.md) · [Timeline](timeline.md) · [Interviews](interviews.md) · [Pictorials](pictorials.md) · [Endorsements](endorsements.md)
+- Status: Navigation hub (link-first, copyright-safe)
 
 <!-- TOC:START -->
 
@@ -25,8 +25,8 @@
 - Agency (MAA) profile (S): https://maa.co.kr/artists/go-younjung
 
 ## Sources
-- docs/editorial_policy.md
-- docs/content_map.md
+- Editorial policy: [`../docs/editorial_policy.md`](../docs/editorial_policy.md)
+- Content map: [`../docs/content_map.md`](../docs/content_map.md)
 
 
 > This page is an English portal for the wiki. Most content pages are currently in Korean.

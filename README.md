@@ -12,6 +12,7 @@
 - 한국어 메인 인덱스: [`index.md`](index.md)
 - English main index: [`index.en.md`](index.en.md)
 - 허브(포털): [`pages/hub.md`](pages/hub.md)
+- Hub (English): [`pages/hub.en.md`](pages/hub.en.md)
 - 자동화 시스템 설명: [`docs/ux-automation-system.md`](docs/ux-automation-system.md)
 - 일일 리포트: [`pages/daily-report.md`](pages/daily-report.md)
 
