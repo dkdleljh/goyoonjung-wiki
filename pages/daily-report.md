@@ -1,27 +1,25 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-23 15:18 (Asia/Seoul)
+> 갱신: 2026-02-23 15:22 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 51f04f87 2026-02-23 15:11:34 +0900 daily: update 2026-02-23
+- c44c907d 2026-02-23 15:19:34 +0900 fix(status): restore news run header for healthcheck
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-23.md
-- pages/candidate-pool.md
-- pages/daily-report.md
-- pages/kpi-report.md
-- pages/perfect-scorecard.md
-- pages/progress.md
-- pages/promotion-queue.md
 - pages/system_status.md
-- pages/works/alchemy-of-souls.md
-- pages/works/hunt.md
-- pages/works/moving.md
-- sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-02-23.md)
+
+## 실행 상태
+- 실행: 2026-02-23 15:18 (Asia/Seoul)
+- 결과: 성공
+- 메모: auto: reconstructed run header (was missing)
+
+## 실행 이력
+- 2026-02-23 15:18 (Asia/Seoul) · 성공 · auto: reconstructed run header (was missing)
 
 
 ## 4) 권장 체크
