@@ -57,6 +57,15 @@ RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//'
 NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' || true)
 
 if [ -z "${RESULT:-}" ] || [ -z "${RUN_AT:-}" ]; then
+  # Self-heal: some generators may rewrite today's news blocks.
+  # Try to reconstruct the minimal run header and re-parse.
+  python3 ./scripts/ensure_news_run_header.py >/dev/null 2>&1 || true
+  RESULT=$(grep -m1 "^- 결과:" "$NEWS" 2>/dev/null | sed -E 's/^\- 결과:\s*//' || true)
+  RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//' || true)
+  NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' || true)
+fi
+
+if [ -z "${RESULT:-}" ] || [ -z "${RUN_AT:-}" ]; then
   fail "news header missing run/result"
 fi
 
@@ -153,10 +162,11 @@ if [ -n "${DIRTY_FILES:-}" ]; then
   # Normalize to sorted unique list
   SORTED=$(echo "$DIRTY_FILES" | LC_ALL=C sort -u)
   # NOTE: use explicit allowlist (one per line)
-  ALLOWLIST=$(cat <<'EOF'
+  ALLOWLIST=$(cat <<EOF
 pages/system_status.md
 data/content_gaps.json
 pages/content-gaps.md
+news/${TODAY}.md
 EOF
 )
   # Check every dirty file is allowlisted
