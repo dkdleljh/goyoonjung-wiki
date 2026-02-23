@@ -270,7 +270,8 @@ def write(axes: list[Axis]) -> None:
     yt = count_lines(CONFIG / "youtube-feeds.yml")
     seen = get_seen_urls_count()
 
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    # Keep deterministic enough to avoid commit spam: date only.
+    now = datetime.now().strftime("%Y-%m-%d")
 
     lines = [
         "# Perfect Scorecard (auto)",
