@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-02-23
+> Updated: 2026-02-24
 
 ## wiki_completeness: **100/100**
 
@@ -37,7 +37,7 @@ FAIL: working tree dirty
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/2525)
+- duplicate_rate: 0.00% (0/0)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

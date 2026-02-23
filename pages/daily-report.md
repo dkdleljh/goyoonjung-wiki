@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-23 23:50 (Asia/Seoul)
+> 갱신: 2026-02-24 00:02 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 0eeea784 2026-02-23 23:38:42 +0900 daily: update 2026-02-23
+- 5f2d73aa 2026-02-23 23:50:25 +0900 daily: update 2026-02-23
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -20,7 +20,7 @@
 - pages/works/moving.md
 - sources/awards-official.md
 
-## 3) 오늘 실행 상태(news/2026-02-23.md)
+## 3) 오늘 실행 상태(news/2026-02-24.md)
 
 
 ## 4) 권장 체크
@@ -34,7 +34,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/2525)
+- duplicate_rate: 0.00% (0/0)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
