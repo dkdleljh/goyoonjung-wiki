@@ -1,9 +1,9 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-02-23 15:23 (Asia/Seoul)
+> Updated: 2026-02-23 15:31 (Asia/Seoul)
 
 ## Snapshot
-- pages_total: 102
+- pages_total: 103
 - urls_total(markdown): 3503
 - seen_urls(db): 263
 - allowlist_domains(lines): 136
