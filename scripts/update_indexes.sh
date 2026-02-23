@@ -7,6 +7,7 @@ BASE="$( cd "$SCRIPT_DIR/.." && pwd )"
 
 "$SCRIPT_DIR/update_index_last_updated.py" >/dev/null || true
 "$SCRIPT_DIR/update_readme_today_links.py" >/dev/null || true
+"$SCRIPT_DIR/ensure_news_run_header.py" >/dev/null || true
 "$SCRIPT_DIR/rebuild_recent_summary.sh" >/dev/null
 "$SCRIPT_DIR/rebuild_tag_index.py" >/dev/null
 "$SCRIPT_DIR/rebuild_schedule_highlights.py" >/dev/null || true
