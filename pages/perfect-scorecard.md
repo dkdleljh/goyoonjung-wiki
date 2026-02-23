@@ -1,6 +1,6 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-02-23 17:07 (Asia/Seoul)
+> Updated: 2026-02-23 17:24 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 103
@@ -25,15 +25,15 @@
 - resilience: 100  (batching + skip-reason logging)
 - observability: 100  (status/daily/lint reports)
 
-### C. Unbeatable information volume: **89/100**
+### C. Unbeatable information volume: **100/100**
 
-- C_current: 89  (actual accumulated scale (grows over time))
+- C_current: 100  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
 - urls_total: 3503  (markdown URL count)
 - seen_urls_db: 263  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 15  (pages/works/*.md)
-- i18n: 70  (i18n query support)
+- i18n: 100  (i18n query support)
 
 ### D. Perfect quality: **100/100**
 

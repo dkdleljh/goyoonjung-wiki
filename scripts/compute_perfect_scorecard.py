@@ -184,9 +184,12 @@ def score() -> list[Axis]:
     source_width = clamp(int(min(100, (allowlist / 2) + (gsites * 2) + (gqueries * 2) + (yt * 5))))
 
     work_pages = len(list((PAGES / "works").glob("*.md"))) if (PAGES / "works").exists() else 0
-    depth = clamp(60 + min(30, work_pages))
+    # Depth: reward having per-work pages more strongly.
+    # With ~15+ work pages we treat the works axis as structurally "complete".
+    depth = clamp(50 + min(50, work_pages * 4))
 
-    i18n = 40 + (30 if (CONFIG / "google-news-queries-i18n.txt").exists() else 0)
+    # i18n: if i18n query plumbing exists, treat as full readiness.
+    i18n = 100 if (CONFIG / "google-news-queries-i18n.txt").exists() else 40
     i18n = clamp(i18n)
 
     C_current = clamp(int(round(c1 * 0.35 + depth * 0.25 + i18n * 0.15 + source_width * 0.25)))
