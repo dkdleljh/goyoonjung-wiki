@@ -2,7 +2,7 @@
 
 
 ## 2026
-- 이 사랑 통역 되나요? (Netflix) — 차무희 · 공개됨 (1월 16일) · 근거: [Netflix](https://www.netflix.com) <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
+- 이 사랑 통역 되나요? (Netflix) — 차무희 · 공개됨 (1월 16일) · 근거: [Netflix](https://www.netflix.com/kr/title/81697769)
 - 모두가 자신의 무가치함과 싸우고 있다 (JTBC/TVING/Netflix) — 변은아 · 2026 상반기 공개 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
 
 ## 2025
@@ -14,7 +14,7 @@
 ## 2023
 - 무빙 (Disney+) — 장희수 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
 - 이재, 곧 죽습니다 (TVING) — 이지수 · 특별출연 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
-- 스위트홈 2 (Netflix) — 박유리 · 특별출연 · 근거: [Netflix](https://www.netflix.com) <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
+- 스위트홈 2 (Netflix) — 박유리 · 특별출연 · 근거: [Netflix](https://www.netflix.com/kr/title/81061734)
 
 ## 2022
 - 환혼 (tvN) — 낙수 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)

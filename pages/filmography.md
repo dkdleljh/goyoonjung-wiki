@@ -31,9 +31,9 @@
 | 2023 | Disney+ | 무빙 | 장희수 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
 | 2023 | TVING | 이재, 곧 죽습니다 | 이지수 | 특별출연 | [MAA](https://maa.co.kr/artists/go-younjung) |
 | 2023 | Netflix | 스위트홈 2 | 박유리 | 특별출연 | [Netflix](https://www.netflix.com/kr/title/81061734) |
-| 2024 | Disney+ | 조명가게 | 장희수 | 특별출연 (무빙 세계관) | [Disney+](https://www.disneyplus.com) | <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
+| 2024 | Disney+ | 조명가게 | 장희수 | 특별출연 (무빙 세계관) | [Disney+](https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4) |
 | 2025 | tvN | 언젠가는 슬기로울 전공의생활 | 오이영 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2026 | Netflix | 이 사랑 통역 되나요? | 차무희 | 공개됨 (1월 16일) | [Netflix](https://www.netflix.com) |
+| 2026 | Netflix | 이 사랑 통역 되나요? | 차무희 | 공개됨 (1월 16일) | [Netflix](https://www.netflix.com/kr/title/81697769) |
 | 2026 | JTBC/TVING/Netflix | 모두가 자신의 무가치함과 싸우고 있다 | 변은아 | 2026 상반기 공개 | [MAA](https://maa.co.kr/artists/go-younjung) |
 
 > 메모: 작품별 공식 페이지 링크(플랫폼/방송사) 및 캐릭터 표기는 `pages/works/*.md`에서 추가 보강합니다.
