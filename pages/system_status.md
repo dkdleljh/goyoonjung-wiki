@@ -20,15 +20,11 @@ lint-report: OK
 counts: ok=361 warn=17 bad=0
 warn_budget=20
 
-## automation_health: **40/100**
+## automation_health: **80/100**
 
-check_automation_health: FAIL
-DIAG: git fetch failed (rc=124)
-DIAG: branch=main upstream=origin/main
-DIAG: origin=git@github.com:dkdleljh/goyoonjung-wiki.git
-DIAG: local_head=832873c3 origin_main=832873c3
-DIAG: git ls-remote origin main also failed (rc=124).
-FAIL: git fetch failed (rc=124)
+check_automation_health: DIRTY (possible finalization window)
+If this persists, commit/push is broken or a generator is writing untracked changes.
+FAIL: working tree dirty
 
 ## domain_grade_status
 
