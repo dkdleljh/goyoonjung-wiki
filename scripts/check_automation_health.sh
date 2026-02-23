@@ -51,9 +51,10 @@ if [ ! -f "$NEWS" ]; then
   fail "missing news file: $NEWS"
 fi
 
-RESULT=$(grep -m1 "^- 결과:" "$NEWS" | sed -E 's/^\- 결과:\s*//')
-RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//')
-NOTE=$(grep -m1 "^- 메모:" "$NEWS" | sed -E 's/^\- 메모:\s*//')
+# NOTE: this script runs with set -euo pipefail; missing grep matches must not abort.
+RESULT=$(grep -m1 "^- 결과:" "$NEWS" 2>/dev/null | sed -E 's/^\- 결과:\s*//' || true)
+RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//' || true)
+NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' || true)
 
 if [ -z "${RESULT:-}" ] || [ -z "${RUN_AT:-}" ]; then
   fail "news header missing run/result"
@@ -72,7 +73,7 @@ case "$RESULT" in
   진행중)
     # If still running but older than 40 minutes, consider it stale/hung.
     if [ "$RUN_EPOCH" -gt 0 ] && [ "$AGE_RUN" -le 2400 ]; then
-      echo "OK: news=${RESULT} run=${RUN_AT} (age=${AGE_RUN}s) | automation running" 
+      echo "OK: news=${RESULT} run=${RUN_AT} (age=${AGE_RUN}s) | automation running"
       exit 0
     fi
     fail "news status stale running: result=${RESULT} run=${RUN_AT} age=${AGE_RUN}s"
@@ -84,6 +85,20 @@ case "$RESULT" in
     fail "unknown news result: ${RESULT}"
     ;;
 esac
+
+# If a run lock is present and fresh, we may be in the finalization window
+# (e.g., result already flipped to 성공 but commit/push not finished yet).
+LOCK_FILE="$BASE/.locks/lock"
+if [ -f "$LOCK_FILE" ]; then
+  # Consider lock fresh if modified within 20 minutes.
+  LOCK_MTIME=$(date -r "$LOCK_FILE" +%s 2>/dev/null || echo 0)
+  NOW_EPOCH=$(TZ="$TZ" date +%s)
+  LOCK_AGE=$((NOW_EPOCH - LOCK_MTIME))
+  if [ "$LOCK_MTIME" -gt 0 ] && [ "$LOCK_AGE" -le 1200 ]; then
+    echo "OK: news=${RESULT} run=${RUN_AT} | lock present (age=${LOCK_AGE}s): finalizing (treated OK)"
+    exit 0
+  fi
+fi
 
 # Detect stale running in history (if any)
 # If the latest history line is 진행중 and older than 40m -> fail
@@ -120,7 +135,11 @@ fi
 # Git checks
 # Ensure we can talk to origin
 set +e
-git fetch -q origin main >/dev/null 2>&1
+if command -v timeout >/dev/null 2>&1; then
+  timeout 15 git fetch -q origin main >/dev/null 2>&1
+else
+  git fetch -q origin main >/dev/null 2>&1
+fi
 RC_FETCH=$?
 set -e
 if [ $RC_FETCH -ne 0 ]; then

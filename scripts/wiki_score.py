@@ -128,6 +128,19 @@ def automation_score() -> Score:
     if "result=진행중" in out or "news status not success: result=진행중" in out:
         return Score("automation_health", 100, ["check_automation_health: RUNNING (treated OK)"])
 
+    # If the repo is dirty, it may be a short window during finalization.
+    # Give a softer score but keep the message visible.
+    if "working tree dirty" in out:
+        return Score(
+            "automation_health",
+            80,
+            [
+                "check_automation_health: DIRTY (possible finalization window)",
+                "If this persists, commit/push is broken or a generator is writing untracked changes.",
+                out,
+            ],
+        )
+
     # Otherwise grade hard.
     return Score("automation_health", 40, ["check_automation_health: FAIL", out])
 
