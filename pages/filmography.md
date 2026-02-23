@@ -22,8 +22,8 @@
 | 연도 | 플랫폼/방송사 | 작품 | 역할 | 비고 | 근거 |
 |---:|---|---|---|---|---|
 | 2019 | tvN | 사이코메트리 그녀석 | 김소현 | 데뷔작 | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2020 | Netflix | 보건교사 안은영 | 최유진 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2020 | Netflix | 스위트홈 | 박유리 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
+| 2020 | Netflix | 보건교사 안은영 | 최유진 |  | [Netflix](https://www.netflix.com/kr/title/80209129) |
+| 2020 | Netflix | 스위트홈 | 박유리 |  | [Netflix](https://www.netflix.com/kr/title/81061734) |
 | 2021 | JTBC | 로스쿨 | 전예슬 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
 | 2022 | tvN | 환혼 | 낙수 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
 | 2022 | tvN | 환혼 빛과 그림자 | 낙수 | (주요) | [MAA](https://maa.co.kr/artists/go-younjung) |

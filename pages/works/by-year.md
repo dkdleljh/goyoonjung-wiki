@@ -9,7 +9,7 @@
 - 언젠가는 슬기로울 전공의생활 (tvN) — 오이영 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
 
 ## 2024
-- 조명가게 (Disney+) — 장희수 · 특별출연 (무빙 세계관) · 근거: [Disney+](https://www.disneyplus.com)
+- 조명가게 (Disney+) — 장희수 · 특별출연 (무빙 세계관) · 근거: [Disney+](https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4)
 
 ## 2023
 - 무빙 (Disney+) — 장희수 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
@@ -25,7 +25,7 @@
 - 로스쿨 (JTBC) — 전예슬 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
 
 ## 2020
-- 보건교사 안은영 (Netflix) — 최유진 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
+- 보건교사 안은영 (Netflix) — 최유진 · 근거: [Netflix](https://www.netflix.com/kr/title/80209129)
 - 스위트홈 (Netflix) — 박유리 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
 
 ## 2019
