@@ -10,8 +10,7 @@
 - 초능력을 숨긴 채 현재를 살아가는 아이들과, 과거의 비밀을 감춘 채 살아온 부모들이 거대한 위험에 함께 맞서는 ‘휴먼 액션’ 시리즈.
 
 ## 관련 링크
-- 공식 페이지(Disney+): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 <!-- ALT-PROOF: https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://kstar.kbs.co.kr/list_view.html?idx=277651 | https://kstar.kbs.co.kr/list_view.html?idx=274438 -->
-- 티저 예고편(공식/YouTube): https://www.youtube.com/watch?v=pyrwTv8aS-E
+- 공식 페이지(Disney+): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856- 티저 예고편(공식/YouTube): https://www.youtube.com/watch?v=pyrwTv8aS-E
 - 비하인드 메이킹(공식/YouTube): https://www.youtube.com/watch?v=wZR6s3rB6tk
 
 ## 공개일(근거)
@@ -24,8 +23,7 @@
 - [KBS연예] Disney+ 오리지널 시리즈 <무빙> 제작발표회 — [Link](https://kstar.kbs.co.kr/list_view.html?idx=274438)
 
 ## 공식 링크
-- https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 <!-- ALT-PROOF: https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://kstar.kbs.co.kr/list_view.html?idx=277651 | https://kstar.kbs.co.kr/list_view.html?idx=274438 -->
-- https://www.youtube.com/watch?v=pyrwTv8aS-E
+- https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856- https://www.youtube.com/watch?v=pyrwTv8aS-E
 - https://www.youtube.com/watch?v=wZR6s3rB6tk
 
 
@@ -88,7 +86,6 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 공식 페이지(스틸/정보): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 <!-- ALT-PROOF: https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://kstar.kbs.co.kr/list_view.html?idx=277651 | https://kstar.kbs.co.kr/list_view.html?idx=274438 -->
-- 예고편/클립(공식): https://www.youtube.com/watch?v=pyrwTv8aS-E
+- 공식 페이지(스틸/정보): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856- 예고편/클립(공식): https://www.youtube.com/watch?v=pyrwTv8aS-E
 - 메이킹/비하인드(공식): https://www.youtube.com/watch?v=wZR6s3rB6tk
 - 제작발표회/포토타임(보도 1차): https://kstar.kbs.co.kr/list_view.html?idx=274438

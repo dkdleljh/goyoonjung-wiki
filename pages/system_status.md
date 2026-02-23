@@ -27,8 +27,8 @@ FAIL: news header missing run/result
 
 ## domain_grade_status
 
-- S: 11
-- A: 76
+- S: 12
+- A: 75
 - B: 3
 - BLOCK: 1
 
@@ -36,7 +36,7 @@ FAIL: news header missing run/result
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1276)
+- duplicate_rate: 0.00% (0/1313)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

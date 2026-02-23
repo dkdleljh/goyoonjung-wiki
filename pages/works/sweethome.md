@@ -10,16 +10,14 @@
 - Netflix 공식 작품 페이지에서 작품 정보/시청 링크를 제공.
 
 ## 관련 링크
-- 공식 페이지(Netflix): https://www.netflix.com/title/81061734 <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | http://enter.etoday.co.kr/news/view/292714 -->
-
+- 공식 페이지(Netflix): https://www.netflix.com/title/81061734
 ## 공식 링크
 - https://www.netflix.com/title/81061734
 - https://www.youtube.com/watch?v=B5IQqZDSRjk
 
 
 ## 출처
-- (S) 공식 링크: https://www.netflix.com/title/81061734 <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | http://enter.etoday.co.kr/news/view/292714 -->
-- (S) 공식 링크: https://www.youtube.com/watch?v=B5IQqZDSRjk
+- (S) 공식 링크: https://www.netflix.com/title/81061734- (S) 공식 링크: https://www.youtube.com/watch?v=B5IQqZDSRjk
 
 
 <!-- AUTO-CANDIDATES:START -->
@@ -65,5 +63,4 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 공식 페이지(스틸/정보): https://www.netflix.com/title/81061734 <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | http://enter.etoday.co.kr/news/view/292714 -->
-- 메인 예고편(Netflix Korea / YouTube): https://www.youtube.com/watch?v=B5IQqZDSRjk
+- 공식 페이지(스틸/정보): https://www.netflix.com/title/81061734- 메인 예고편(Netflix Korea / YouTube): https://www.youtube.com/watch?v=B5IQqZDSRjk

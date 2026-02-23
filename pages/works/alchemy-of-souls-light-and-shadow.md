@@ -6,6 +6,8 @@
 - 상태: 방송 완료
 
 ## 공식 링크
+- (S) tvN 공식 프로그램 페이지: https://tvn.cjenm.com/ko/alchemyofsouls/
+- (S) TVING 공식 페이지(회차): https://www.tving.com/contents/P001674052
 - (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
 
 ## 출처

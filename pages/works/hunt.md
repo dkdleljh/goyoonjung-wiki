@@ -13,7 +13,8 @@
 - 공식 예고편(배급사/YouTube): https://www.youtube.com/watch?v=CSOb8gia_mg <!-- ALT-PROOF: https://www.esquirekorea.co.kr/article/68124 | https://kstar.kbs.co.kr/list_view.html?idx=277651 | https://www.starnewskorea.com/stview.php?no=2022063010405847866 | https://mydaily.co.kr/page/view/2022072719409407409 -->
 
 ## 공식 링크
-- https://www.youtube.com/watch?v=CSOb8gia_mg
+- (S) 공식 예고편(배급/제작 공식 채널): https://www.youtube.com/watch?v=CSOb8gia_mg
+- (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
 
 
 ## 출처
