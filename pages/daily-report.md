@@ -1,15 +1,24 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-23 17:33 (Asia/Seoul)
+> 갱신: 2026-02-23 17:43 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- d9660590 2026-02-23 17:26:24 +0900 chore(score): make perfect-scorecard deterministic (date-only)
+- ede92c64 2026-02-23 17:33:08 +0900 daily: update 2026-02-23
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- pages/perfect-scorecard.md
-- scripts/compute_perfect_scorecard.py
+- news/2026-02-23.md
+- pages/candidate-pool.md
+- pages/daily-report.md
+- pages/kpi-report.md
+- pages/progress.md
+- pages/promotion-queue.md
+- pages/system_status.md
+- pages/works/alchemy-of-souls.md
+- pages/works/hunt.md
+- pages/works/moving.md
+- sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-02-23.md)
 
@@ -25,7 +34,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1727)
+- duplicate_rate: 0.00% (0/1762)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
