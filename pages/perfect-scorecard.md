@@ -1,10 +1,10 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-02-23 14:27 (Asia/Seoul)
+> Updated: 2026-02-23 14:28 (Asia/Seoul)
 
 ## Snapshot
-- pages_total: 97
-- urls_total(markdown): 2809
+- pages_total: 98
+- urls_total(markdown): 3574
 - seen_urls(db): 263
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
@@ -25,14 +25,14 @@
 - resilience: 100  (batching + skip-reason logging)
 - observability: 100  (status/daily/lint reports)
 
-### C. Unbeatable information volume: **83/100**
+### C. Unbeatable information volume: **89/100**
 
-- C_current: 83  (actual accumulated scale (grows over time))
+- C_current: 89  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 2809  (markdown URL count)
+- urls_total: 3574  (markdown URL count)
 - seen_urls_db: 263  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
-- work_pages: 13  (pages/works/*.md)
+- work_pages: 14  (pages/works/*.md)
 - i18n: 70  (i18n query support)
 
 ### D. Perfect quality: **100/100**
@@ -44,7 +44,7 @@
 
 ## Top URL-heavy pages (top 10)
 - 1282: pages/alternative-proof-candidates.md
-- 254: pages/skipped-link-backlog.md
+- 1016: pages/skipped-link-backlog.md
 - 114: pages/interviews.md
 - 99: pages/notes/translation-love-filming-locations-google-maps.md
 - 93: pages/pictorials/editorial.md

@@ -30,7 +30,7 @@
 | 2022 | 영화 | 헌트 | 조유정 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
 | 2023 | Disney+ | 무빙 | 장희수 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
 | 2023 | TVING | 이재, 곧 죽습니다 | 이지수 | 특별출연 | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2023 | Netflix | 스위트홈 2 | 박유리 | 특별출연 | [Netflix](https://www.netflix.com) | <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
+| 2023 | Netflix | 스위트홈 2 | 박유리 | 특별출연 | [Netflix](https://www.netflix.com/kr/title/81061734) |
 | 2024 | Disney+ | 조명가게 | 장희수 | 특별출연 (무빙 세계관) | [Disney+](https://www.disneyplus.com) | <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 | 2025 | tvN | 언젠가는 슬기로울 전공의생활 | 오이영 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
 | 2026 | Netflix | 이 사랑 통역 되나요? | 차무희 | 공개됨 (1월 16일) | [Netflix](https://www.netflix.com) |
