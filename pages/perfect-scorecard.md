@@ -1,9 +1,9 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-02-23 14:19 (Asia/Seoul)
+> Updated: 2026-02-23 14:27 (Asia/Seoul)
 
 ## Snapshot
-- pages_total: 96
+- pages_total: 97
 - urls_total(markdown): 2809
 - seen_urls(db): 263
 - allowlist_domains(lines): 136
@@ -32,7 +32,7 @@
 - urls_total: 2809  (markdown URL count)
 - seen_urls_db: 263  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
-- work_pages: 12  (pages/works/*.md)
+- work_pages: 13  (pages/works/*.md)
 - i18n: 70  (i18n query support)
 
 ### D. Perfect quality: **100/100**

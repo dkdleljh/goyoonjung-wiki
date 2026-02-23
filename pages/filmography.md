@@ -34,7 +34,7 @@
 | 2024 | Disney+ | 조명가게 | 장희수 | 특별출연 (무빙 세계관) | [Disney+](https://www.disneyplus.com) | <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
 | 2025 | tvN | 언젠가는 슬기로울 전공의생활 | 오이영 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
 | 2026 | Netflix | 이 사랑 통역 되나요? | 차무희 | 공개됨 (1월 16일) | [Netflix](https://www.netflix.com) |
-| 2026 | JTBC/TVING/Netflix | 모두가 자신의 무가치함과 싸우고 있다 | 변은아 | 2026 상반기 공개 | [나무위키](https://namu.wiki/w/%EB%AA%A8%EB%91%90%EA%B0%80%20%EC%9E%90%EC%8B%A0%EC%9D%98%20%EB%AC%B4%EA%B0%80%EC%B9%98%ED%95%8C%EC%99%80%20%EC%8B%B8%EC%9A%94%EA%B3%A0%20%EC%9E%88%EB%8B%A4) | <!-- ALT-PROOF: https://maa.co.kr/artists/go-younjung -->
+| 2026 | JTBC/TVING/Netflix | 모두가 자신의 무가치함과 싸우고 있다 | 변은아 | 2026 상반기 공개 | [MAA](https://maa.co.kr/artists/go-younjung) |
 
 > 메모: 작품별 공식 페이지 링크(플랫폼/방송사) 및 캐릭터 표기는 `pages/works/*.md`에서 추가 보강합니다.
 
