@@ -34,12 +34,14 @@ CHANGED=$(git show --name-only --pretty=format: HEAD | sed '/^$/d' | sed -n '1,1
   echo "## 3) 오늘 실행 상태(news/${TODAY}.md)"
   echo
   if [ -f "${NEWS}" ]; then
-    # include summary + history headers only
+    # include summary + history only (avoid embedding full news body)
     awk '
       /^## 실행 상태/{p=1}
-      /^## 변경 사항/{p=0}
+      p && /^<!-- AUTO-/{exit}
+      p && /^# /{exit}
+      p && /^## (백과사전|리드 문단|뉴스\/업데이트|자동화 스킵\/실패 사유)/{exit}
       p{print}
-    ' "${NEWS}" | sed -n '1,120p'
+    ' "${NEWS}" | sed -n '1,60p'
   else
     echo "- (오늘 news 파일 없음)"
   fi

@@ -472,17 +472,16 @@ if [ "${RC_DASH:-0}" -ne 0 ]; then
 else
   NOTE="$NOTE, dashboard:OK"
 fi
-./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
-# record last status for recovery notifications
-echo "ok run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
-RUN_OK=1
-
-# Commit only if there are changes (excluding backups)
+# Commit/push phase (success must include remote push)
 # Stage everything except backups (already excluded by .gitignore, but be explicit)
 git add -A ":(exclude)backups" >/dev/null 2>&1 || true
 
 if git diff --cached --quiet; then
-  echo "No changes to commit."
+  # Nothing changed: this is still a successful run.
+  NOTE="$NOTE, git:clean"
+  ./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+  echo "ok run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
+  RUN_OK=1
   exit 0
 fi
 
@@ -493,7 +492,40 @@ git commit -m "$MSG" >/dev/null
 export NO_HOOK_NOTIFY=1
 export GOYOONJUNG_WIKI_AUTOMATION_PUSH=1
 
-git push origin main >/dev/null
+CURRENT_STEP="git:push"
+set +e
+# Retry push a bit (transient network)
+tries=3
+n=1
+rc_push=0
+while true; do
+  echo "[STEP:$CURRENT_STEP] run: git push origin main" >>"$RUN_LOG"
+  git push origin main >>"$RUN_LOG" 2>&1
+  rc_push=$?
+  if [ $rc_push -eq 0 ]; then
+    break
+  fi
+  python3 ./scripts/append_skip_reason.py "$CURRENT_STEP" "$rc_push" "git push failed (try ${n}/${tries})" >/dev/null 2>&1 || true
+  if [ $n -ge $tries ]; then
+    break
+  fi
+  sleep 5
+  n=$((n+1))
+done
+set -e
+
+if [ $rc_push -ne 0 ]; then
+  # Local commit exists but remote not updated: mark partial and fail the run (so notifications fire)
+  NOTE="$NOTE, push:FAIL(rc=${rc_push})"
+  ./scripts/mark_news_status.sh 부분성공 "$NOTE" >/dev/null 2>&1 || true
+  exit $rc_push
+fi
+
+NOTE="$NOTE, push:OK"
+./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+# record last status for recovery notifications
+echo "ok run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
+RUN_OK=1
 
 # Auto release tagging (patch/minor/major) + GitHub Release — best-effort
 # Ensure gh is discoverable even without system-wide install

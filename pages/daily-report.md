@@ -1,27 +1,26 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-23 14:10 (Asia/Seoul)
+> 갱신: 2026-02-23 14:15 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 9684ed63 2026-02-23 14:00:26 +0900 daily: update 2026-02-23
+- fe2f53b7 2026-02-23 14:12:27 +0900 fix(health): stabilize automation status; avoid false negatives
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-02-23.md
-- pages/candidate-pool.md
-- pages/daily-report.md
-- pages/kpi-report.md
-- pages/perfect-scorecard.md
-- pages/progress.md
-- pages/promotion-queue.md
-- pages/system_status.md
-- pages/works/alchemy-of-souls.md
-- pages/works/hunt.md
-- pages/works/moving.md
-- sources/awards-official.md
+- scripts/ensure_news_run_header.py
+- scripts/update_indexes.sh
 
 ## 3) 오늘 실행 상태(news/2026-02-23.md)
+
+## 실행 상태
+- 실행: 2026-02-23 14:10 (Asia/Seoul)
+- 결과: 성공
+- 메모: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-23_0014.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+## 실행 이력
+
+- 2026-02-23 14:10 (Asia/Seoul) · 성공 · auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-02-23_0014.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:OK, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK
+
 
 
 ## 4) 권장 체크
