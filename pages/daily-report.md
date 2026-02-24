@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-25 01:40 (Asia/Seoul)
+> 갱신: 2026-02-25 01:51 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- a8bc6c60 2026-02-25 01:26:32 +0900 daily: update 2026-02-25
+- 97cabc4d 2026-02-25 01:40:53 +0900 daily: update 2026-02-25
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -14,6 +14,7 @@
 - pages/kpi-report.md
 - pages/progress.md
 - pages/promotion-queue.md
+- pages/system_status.md
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
 - pages/works/moving.md
