@@ -1,24 +1,20 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-25 17:05 (Asia/Seoul)
+> 갱신: 2026-02-25 17:21 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 173aa36d 2026-02-25 16:53:39 +0900 daily: update 2026-02-25
+- 258b956e 2026-02-25 17:09:46 +0900 fix: unmanned ops polish (news header, dashboard alias, link health)
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-02-25.md
-- pages/candidate-pool.md
-- pages/daily-report.md
-- pages/kpi-report.md
-- pages/progress.md
-- pages/promotion-queue.md
+- pages/dashboard.md
+- pages/link-health.md
 - pages/system_status.md
-- pages/works/alchemy-of-souls.md
-- pages/works/hunt.md
-- pages/works/moving.md
-- sources/awards-official.md
+- scripts/check_links.py
+- scripts/ensure_news_run_header.py
+- scripts/update_dashboard.py
 
 ## 3) 오늘 실행 상태(news/2026-02-25.md)
 
@@ -34,7 +30,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/544)
+- duplicate_rate: 0.00% (0/566)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
