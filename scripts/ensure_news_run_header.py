@@ -77,13 +77,27 @@ def main() -> int:
         ]
     )
 
-    # Insert after the first line to avoid breaking leading AUTO blocks too much.
     lines = txt.splitlines(True)
     if not lines:
         path.write_text(f"# {ymd} 업데이트\n\n" + header, encoding="utf-8")
         return 0
 
-    new_txt = lines[0].rstrip("\n") + "\n\n" + header + "".join(lines[1:])
+    # Prefer inserting AFTER the leading AUTO blocks (so we don't place the header inside them).
+    insert_at = 1
+    # Only treat as "leading auto blocks" if they appear at the very top of the file.
+    for i, ln in enumerate(lines[:300]):
+        if re.match(r"^<!--\s*AUTO-.*:END\s*-->\s*$", ln.strip()):
+            insert_at = i + 1
+            continue
+        # As soon as we hit real content (non-empty, non-AUTO comment), stop scanning.
+        if ln.strip() and not ln.strip().startswith("<!-- AUTO-"):
+            break
+
+    # Keep a blank line boundary.
+    before = "".join(lines[:insert_at]).rstrip("\n") + "\n\n"
+    after = "".join(lines[insert_at:])
+
+    new_txt = before + header + after.lstrip("\n")
     path.write_text(new_txt, encoding="utf-8")
     print(f"ensure_news_run_header: inserted header into news/{ymd}.md")
     return 0

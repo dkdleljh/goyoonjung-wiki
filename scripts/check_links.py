@@ -29,7 +29,7 @@ SOURCES_DIR = BASE / "sources"
 OUT = PAGES_DIR / "link-health.md"
 
 TIMEOUT = 8
-MAX_URLS = 700  # keep bounded for unmanned runs
+MAX_URLS = int(__import__("os").environ.get("MAX_URLS", "250"))  # keep bounded for unmanned runs
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 
 URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
@@ -61,7 +61,11 @@ SKIP_DOMAINS = (
     "namu.wiki",
     "nc.press",
     "kstarfashion.com",
+
+    # Brand sites that commonly block bots
+    "penshoppe.com",
 )
+
 
 
 
@@ -80,8 +84,38 @@ def iter_md_files():
         yield from root.rglob("*.md")
 
 
+def normalize_extracted_url(url: str) -> str:
+    """Normalize raw extracted URLs.
+
+    Problem:
+    - In markdown, URLs are often followed by punctuation (comma, middle dot, etc.).
+      Our regex intentionally stays permissive, which can accidentally include
+      trailing punctuation or an encoded comma (%2C).
+
+    We only apply conservative, end-of-token cleanup.
+    """
+
+    u = url.strip()
+
+    # Common trailing punctuation in our markdown style.
+    u = u.rstrip(".,;:·")
+
+    # Remove trailing literal commas.
+    while u.endswith(","):
+        u = u[:-1]
+
+    # Remove trailing encoded commas (often extracted when a URL is followed by ',').
+    while u.lower().endswith("%2c"):
+        u = u[:-3]
+
+    # Remove accidental path segments like '/%2C' or '/%2C%2C'.
+    u = re.sub(r"/%2c(?:%2c)*$", "", u, flags=re.I)
+
+    return u
+
+
 def extract_urls(text: str) -> list[str]:
-    return URL_RE.findall(text)
+    return [normalize_extracted_url(u) for u in URL_RE.findall(text)]
 
 
 def safe_url(url: str) -> str:

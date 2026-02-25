@@ -33,18 +33,29 @@ def get_db_stats():
         return {"urls": "Error"}
 
 def get_last_run_status():
-    # Check today's news log
-    today = datetime.now().strftime("%Y-%m-%d")
+    # Check today's news log (Asia/Seoul)
+    today = datetime.now().astimezone().strftime("%Y-%m-%d")
     log_path = NEWS_DIR / f"{today}.md"
 
     if not log_path.exists():
         return "Not Run Yet", "Gray"
 
-    content = log_path.read_text(encoding='utf-8')
-    if "결과: 성공" in content:
+    content = log_path.read_text(encoding="utf-8")
+
+    # We standardize on:
+    # - 결과: 성공|진행중|부분성공|실패
+    # (line starts with '- 결과:')
+    import re
+
+    if re.search(r"^- 결과:\s*성공\s*$", content, flags=re.M):
         return "Success", "Green"
-    elif "결과: 실패" in content:
+    if re.search(r"^- 결과:\s*실패\s*$", content, flags=re.M):
         return "Fail", "Red"
+    if re.search(r"^- 결과:\s*부분성공\s*$", content, flags=re.M):
+        return "Partial", "Yellow"
+    if re.search(r"^- 결과:\s*진행중\s*$", content, flags=re.M):
+        return "Running", "Yellow"
+
     return "Running/Unknown", "Yellow"
 
 def main():
