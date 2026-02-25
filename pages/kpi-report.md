@@ -1,6 +1,6 @@
 # KPI Report (auto)
 
-> Updated: 2026-02-26 01:41 (Asia/Seoul)
+> Updated: 2026-02-26 01:53 (Asia/Seoul)
 
 ## Daily Metrics
 - new_urls: 0
