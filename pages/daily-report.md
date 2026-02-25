@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-25 21:30 (Asia/Seoul)
+> 갱신: 2026-02-25 21:42 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 1fc1fe2f 2026-02-25 21:20:42 +0900 daily: update 2026-02-25
+- 68c64507 2026-02-25 21:30:34 +0900 daily: update 2026-02-25
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -23,7 +23,7 @@
 ## 3) 오늘 실행 상태(news/2026-02-25.md)
 
 ## 실행 상태
-- 실행: 2026-02-25 21:26 (Asia/Seoul)
+- 실행: 2026-02-25 21:38 (Asia/Seoul)
 - 결과: 진행중
 - 메모: auto: daily update running
 
@@ -38,7 +38,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1039)
+- duplicate_rate: 0.00% (0/1061)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
