@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-02-26
+> Updated: 2026-02-27
 
 ## wiki_completeness: **100/100**
 
@@ -20,9 +20,11 @@ lint-report: OK
 counts: ok=250 warn=0 bad=0
 warn_budget=20
 
-## automation_health: **100/100**
+## automation_health: **80/100**
 
-check_automation_health: OK
+check_automation_health: DIRTY (possible finalization window)
+If this persists, commit/push is broken or a generator is writing untracked changes.
+FAIL: working tree dirty
 
 ## domain_grade_status
 
@@ -35,7 +37,7 @@ check_automation_health: OK
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/676)
+- duplicate_rate: 0.00% (0/0)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
