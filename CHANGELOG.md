@@ -1,24 +1,2714 @@
 # CHANGELOG
 
-
-## 한눈에 보기
-
-- 한 줄 요약: 주요 변경 이력을 기록합니다(자동화/문서/데이터 변경 포함).
-- 핵심 링크: 최근 변경은 git log 및 news/YYYY-MM-DD.md 참고
-- 상태: 운영 기록
-
-> 큰 변화만 기록합니다(문서 구조 변경, 원칙 변경, 대규모 정리 등).
-
 ## Release process
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
-## 2026-02-27
-- 자동화 안정화: daily update 재실행(커밋 스팸) 방지 가드 추가
-- 릴리즈/태그 규칙 문서화: docs/RELEASING.md 추가
-- 개발환경: 임시 venv 디렉터리(.venv-tools) 저장소에서 제거 + gitignore 처리
-
-## 2026-02-08
-- 개인 위키 초기 생성(프로필/필모/수상)
-- 섹션 확장(인터뷰/광고·엠버서더/화보/캐릭터/타임라인)
-- 보강: Watchlist, Style Guide, Naming, 태그 인덱스, 작품별 페이지 분리 구조, 백업/버전관리 도입
+## v1.0.0 (2026-02-27)
+- chore: wiki structure hardening (watchlist/style-guide/works split)
+- docs: add watchlist, rules, tag index, works split, backups
+- docs: fill watchlist with official sources
+- chore: add legal page, dedupe list, lint/diff scripts, sns watchlist
+- chore: add lint baseline report
+- fix: lint script excludes lint-report
+- docs: add major media/news search links to watchlist
+- docs: add media-watch list for maximum collection
+- docs: add internal search links for media sites
+- feat: add fandom hub, appearances, templates, auto indexes
+- feat: works link boxes + endorsements/pictorials categorization
+- feat: auto link candidates per work
+- feat: move work keywords to config/works-keywords.yml
+- docs: add work page template
+- fix: avoid updating work candidate timestamps when unchanged
+- docs: make README a portal to hub
+- docs: add existing analysis and filming locations notes
+- fix: make lint report stable (no timestamp churn)
+- feat: add run status marker in daily news
+- fix: stabilize mark_news_status sed replacement
+- docs: expand README as friendly portal
+- feat: add schedule page (actor + work events)
+- feat: auto highlight today/this-week schedule
+- docs: seed endorsements from namuwiki reference (official links)
+- docs: update official links (MAA profile + SNS verification status)
+- docs: add official pictorial/interview links (Marie Claire) and moving making
+- chore: mark daily run partial success (namuwiki import ongoing)
+- Add primary-source links for works and Marie Claire items
+- docs: add namuwiki-based improvement backlog
+- fix: rebuild_tag_index handles tags with spaces
+- feat: add daily backlog progress line to news
+- fix: backlog progress marker update without perl
+- feat: auto-check backlog items and report progress in daily news
+- feat: improve coverage (brands watch + url normalization + coverage lint)
+- feat: auto candidate hubs for brands and magazines
+- chore: manual wiki update run (2026-02-09 10:10 KST)
+- chore: manual run 2026-02-09 10:12 KST
+- chore: manual daily update 2026-02-09 10am
+- chore: manual daily update status (2026-02-09 10시대)
+- chore: manual daily update status (2026-02-09 10시대 재실행)
+- chore: manual update 2026-02-09 10시대
+- chore: manual daily update status (2026-02-09 10시대 재실행)
+- chore(news): manual run 2026-02-09 10:23 KST
+- chore: daily update log (2026-02-09 10:25)
+- chore: manual wiki update (2026-02-09 10:30 KST)
+- fix: backup exclude patterns (2026-02-09 10:32 KST)
+- news: 2026-02-09 manual run at 10:33 KST
+- chore: daily update (manual run 2026-02-09 10:35 KST)
+- chore: manual daily update status (2026-02-09 10:37 KST)
+- chore(news): manual run 기록 업데이트 (2026-02-09)
+- chore: manual daily update status (2026-02-09 10시대)
+- chore: manual daily update 2026-02-09 10:43 KST
+- chore: wiki update 2026-02-09 10:45 KST
+- chore: wiki update 2026-02-09 10:47 KST (manual)
+- chore: daily update (manual run) 2026-02-09
+- chore: daily update (manual run) 2026-02-09 10:54 KST
+- chore: update run status (manual 2026-02-09 10:54 KST)
+- chore: manual wiki update run (2026-02-09 10:56 KST)
+- chore: manual wiki update run (2026-02-09 10:57 KST)
+- chore: manual daily update log (2026-02-09)
+- chore: daily update 2026-02-09 (manual run)
+- chore: manual wiki update run (2026-02-09 11:07 KST)
+- chore: manual wiki update run (2026-02-09 11:09 KST)
+- chore: daily update 2026-02-09 11:11
+- chore: mark news status 2026-02-09 11:11
+- chore: run daily update (manual) 2026-02-09
+- chore: run daily update (manual) 2026-02-09 11:14
+- chore: manual wiki update run (2026-02-09 11:16 KST)
+- chore: manual update 2026-02-09 11:18
+- chore: manual wiki update 2026-02-09 11:19 KST
+- chore: wiki update 2026-02-09 11:21 KST (manual)
+- chore: record run status 2026-02-09 11:21 KST
+- chore: manual update log (2026-02-09)
+- chore: manual daily update 2026-02-09
+- chore: manual daily update 2026-02-09 11:28 KST
+- chore(news): manual update run 2026-02-09 11:30 KST
+- chore(news): manual daily update run (2026-02-09 11:32 KST)
+- chore(news): manual daily update run (2026-02-09 11:34 KST)
+- chore(news): manual daily update run (2026-02-09 11:35 KST)
+- chore: daily update 2026-02-09 11:37
+- chore: update run status 2026-02-09 11:37
+- chore: update run status 2026-02-09 11:39
+- chore: manual wiki update run (2026-02-09 11:41 KST)
+- chore: manual update run (2026-02-09 11:4x KST)
+- chore: manual wiki update (2026-02-09 11:44 KST)
+- chore(news): manual update 2026-02-09 11:46 KST
+- chore(news): finalize manual update 2026-02-09 11:46 KST
+- chore: daily update 2026-02-09 (manual run)
+- chore: update run status 2026-02-09
+- chore: mark manual update in progress (2026-02-09)
+- chore: manual wiki update run (2026-02-09 11:49 KST)
+- chore: fix manual run memo (2026-02-09)
+- chore: daily update (manual run 2026-02-09 11:51 KST)
+- chore(news): manual daily update run (2026-02-09 11:53 KST)
+- chore: manual daily update (2026-02-09 11:55 KST)
+- chore: manual daily update (2026-02-09 11:56 KST)
+- chore: manual daily update run (2026-02-09 11:58 KST)
+- chore: daily update 2026-02-09 (manual 1200 KST)
+- chore: mark update status 2026-02-09 (manual 1200 KST)
+- chore: daily update 2026-02-09 (manual)
+- chore(news): manual wiki update run (2026-02-09 12:03 KST)
+- chore(news): manual daily update run (2026-02-09 12:05 KST)
+- chore(news): finalize manual run note (2026-02-09 12:05 KST)
+- chore: manual run 2026-02-09 12:07 KST
+- chore(news): manual daily update run (2026-02-09 12:08 KST)
+- chore(news): manual daily update run (2026-02-09 12:10 KST)
+- chore: update run status (2026-02-09 12:10 KST)
+- news: update run status (2026-02-09 12:12 KST)
+- news: finalize manual run note (2026-02-09)
+- chore: manual wiki update run (2026-02-09 12시대)
+- chore: update daily run status (2026-02-09 12시대)
+- chore(news): manual daily update run (2026-02-09 12:16 KST)
+- chore: update daily run status (2026-02-09 12시대)
+- chore(news): manual daily update run (2026-02-09 12:19 KST)
+- chore: update daily run status (2026-02-09 12시대)
+- chore: daily update (manual) 2026-02-09 12:20
+- chore(news): manual daily update run (2026-02-09 12:22 KST)
+- news: update run status (2026-02-09 manual)
+- chore: manual wiki update (2026-02-09)
+- chore: log manual update run (2026-02-09)
+- chore: log manual update run (2026-02-09 12:28)
+- chore(news): manual update run (2026-02-09 12:30 KST)
+- chore(news): record status transition (2026-02-09 12:30 KST)
+- chore: manual daily update log (2026-02-09)
+- chore: manual daily update (2026-02-09 12:34)
+- chore: daily update 2026-02-09
+- chore: update news status (manual run)
+- chore: manual update run (2026-02-09 12:37)
+- chore: manual wiki update run (2026-02-09 12:41 KST)
+- chore(news): manual daily update status (2026-02-09 12:44 KST)
+- chore: daily update 2026-02-09
+- chore: mark run status 2026-02-09
+- chore: manual run status 2026-02-09
+- chore: fix commit hash in run memo
+- chore: mark run status 2026-02-09 (manual)
+- chore: fix commit hash in run memo (2026-02-09)
+- chore(news): manual daily update run (2026-02-09 12:53 KST)
+- chore(news): update memo with commit hash (2026-02-09 12:53 KST)
+- chore: daily update (manual)
+- chore: update run status transition
+- chore: fix run memo commit sha
+- chore: manual daily update (2026-02-09 13:17)
+- chore: wiki update 2026-02-09 (manual run)
+- chore: wiki update 2026-02-09 (manual run)
+- chore: wiki update 2026-02-09 (manual run 13:26 KST)
+- chore(news): manual run log 2026-02-09
+- chore(news): manual daily update run (2026-02-09 13시대)
+- chore(news): manual daily update run (2026-02-09 13:33 KST)
+- chore: manual wiki update 2026-02-09 13:36 KST
+- chore: manual wiki update 2026-02-09 13:38 KST
+- chore: manual wiki update run 2026-02-09 13:3x KST
+- chore: manual wiki update log (2026-02-09)
+- chore: run manual daily update (2026-02-09)
+- chore: manual daily update (2026-02-09 13:45)
+- chore: update 2026-02-09 status (manual run)
+- chore: manual update run 2026-02-09 13:48 KST
+- chore: daily update 2026-02-09 13:51 KST
+- chore: manual update run 2026-02-09 13:53 KST
+- chore: manual wiki update 2026-02-09 13:54 KST
+- chore: record run status 2026-02-09 13:54 KST
+- chore: manual wiki update run (2026-02-09 13:56 KST)
+- chore: daily wiki update 2026-02-09
+- chore: manual wiki update run (2026-02-09 14:01 KST)
+- chore: update run status (2026-02-09 14시대)
+- chore: manual wiki update run (2026-02-09 14:03 KST)
+- chore: manual wiki update 2026-02-09 14:06 KST
+- chore: record manual run status 2026-02-09 14:06 KST
+- chore: wiki update 2026-02-09 1400+ (Asia/Seoul)
+- chore: wiki update 2026-02-09 1410 (Asia/Seoul)
+- chore(news): update run status 2026-02-09 14:11 KST
+- chore(news): manual update 2026-02-09 14:13 KST
+- chore(news): manual update run 2026-02-09 14:15 KST
+- chore(news): manual update run 2026-02-09 14:18 KST
+- chore: manual daily update status (2026-02-09 15시대)
+- chore(news): manual update run 2026-02-09 14:23 KST
+- chore(news): manual update run 2026-02-09 14:26 KST
+- chore: manual wiki update 2026-02-09 14:28
+- chore(news): manual update run 2026-02-09 14:29 KST
+- chore(news): manual update run 2026-02-09 14:32 KST
+- chore(news): manual update run 2026-02-09 14:34 KST
+- chore(news): manual update run 2026-02-09 14:37 KST
+- chore(news): manual update run 2026-02-09 14:39 KST
+- chore: daily update 2026-02-09 (manual run)
+- chore: wiki update (2026-02-09 14:43 KST)
+- chore: manual wiki update 2026-02-09 14:45
+- chore: manual wiki update run (2026-02-09 14:4x KST)
+- news: 2026-02-09 manual run (update indexes/lint/backup)
+- news: update memo for manual run completion
+- news: manual run update status (2026-02-09)
+- chore: manual wiki update run (2026-02-09 14:52 KST)
+- chore(news): update run status (2026-02-09 14:53 KST)
+- chore: manual run wiki update (2026-02-09 14:55 KST)
+- chore: daily update 2026-02-09
+- chore: update run status 2026-02-09 14:57
+- chore: manual update run 2026-02-09 14:58 KST
+- chore: record run status 2026-02-09 14:58 KST
+- chore(news): 2026-02-09 manual update run
+- chore(news): manual daily update run (2026-02-09 15:02 KST)
+- chore(news): manual daily update run (2026-02-09 15:04 KST)
+- chore(news): manual update run (2026-02-09 15:06 KST)
+- chore(news): manual update run (2026-02-09 15:07 KST)
+- chore(news): manual update run (2026-02-09 15:09 KST)
+- chore: manual update status (2026-02-09 15:11)
+- chore: manual wiki update 2026-02-09 15:13 KST
+- chore(news): manual daily update run (2026-02-09 15:14 KST)
+- chore: daily update 2026-02-09 15:16
+- chore(news): manual update run (2026-02-09 15:18 KST)
+- chore: wiki update 2026-02-09 15:19 (manual)
+- chore: record run status 2026-02-09 15:19
+- chore: manual wiki update (2026-02-09)
+- chore(news): manual update run (2026-02-09 15:23 KST)
+- chore(news): finalize run status (2026-02-09 15:23 KST)
+- chore(news): manual rerun 2026-02-09
+- chore: manual wiki update run (2026-02-09)
+- chore: daily wiki update (manual run 2026-02-09 15:29 KST)
+- chore(news): update run status (manual run 2026-02-09 15:29 KST)
+- chore(news): update run status (manual run 2026-02-09 15:31 KST)
+- chore: manual update run (2026-02-09)
+- chore: manual update 2026-02-09 15:34 KST
+- chore: mark update success 2026-02-09 15:34 KST
+- chore: manual run update success 2026-02-09 15:36 KST
+- chore: add strategy + stabilize daily automation
+- docs: adopt no-manual-run policy
+- feat: dashboards, link health, data templates, better candidates & dedupe
+- daily: update 2026-02-09
+- chore: expand templates + backlog into actionable units
+- feat: start coverage expansion (pictorials/interviews/appearances/schedule) + seen url log
+- chore: enrich watchlist for pictorials + tvN schedule
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- chore: add year/quality indexes and automation stability
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- feat: suggest profile/endorsements proofs (official)
+- daily: update 2026-02-10
+- feat: daily promotion task + apply approvals
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- chore: remove manual URL-hunting workflow (unmanned)
+- daily: update 2026-02-10
+- chore: add unmanned skip-reasons log
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- daily: update 2026-02-10
+- style: add emoji to page titles
+- daily: update 2026-02-11
+- chore: update skip-reasons block (auto)
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- chore: harden awards/interview/date automation (unmanned)
+- daily: update 2026-02-11
+- chore: stabilize long runs (lock touch + allowlist learning)
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- chore: log daily update run (2026-02-11 12:05)
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- chore(news): append auto run log (2026-02-11 12:27)
+- daily: update 2026-02-11
+- docs(quality): add completeness/reliability checklists and fix quality-report self-count
+- fix: sanitize interview summaries + reduce placeholders
+- feat: auto-fill campaign dates from YouTube
+- chore: refresh awards official cache
+- daily: update 2026-02-11
+- chore: expand sources + unmanned health checks
+- chore: add fancafe reference source
+- daily: update 2026-02-11
+- chore: fix status logging order and dedupe history
+- chore: cap collector runtime (timeout)
+- daily: update 2026-02-11
+- chore(news): record latest runs
+- chore: debounce sync + reduce collector URL visits
+- daily: update 2026-02-11
+- feat: Implement Phase 3 (Timeilne, Dashboard, Config) & Phase 2 (Automation)
+- chore: enforce portability (remove hardcoded paths)
+- daily: update 2026-02-11
+- docs: Add 'Light Shop' and 'Sweet Home 2' to filmography
+- chore: sync lint report and config loader fixes
+- chore: replace bash scripts with python/posix for compatibility
+- docs: Update indexes, timeline, and dashboard
+- daily: update 2026-02-11
+- chore: recover stale lock dir
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- feat: collect more portal news links (naver/daum)
+- chore: bound slow promotion steps with timeouts
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- feat: add stable magazine RSS collection
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- feat: expand google news RSS via site filters
+- daily: update 2026-02-11
+- feat: auto-fill missing YouTube dates
+- daily: update 2026-02-11
+- feat: add google news query expansion + stop versioning local DB
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- daily: update 2026-02-11
+- chore: improve link/news quality checks
+- chore: run link health weekly (keep daily fast)
+- daily: update 2026-02-11
+- feat: enforce domain allowlist for news collection
+- daily: update 2026-02-11
+- feat: add relevance filter for google news
+- chore: apply relevance gate to portal news + sanitize titles
+- daily: update 2026-02-11
+- chore: harden unmanned runs + apply allowlist to portal links
+- daily: update 2026-02-12
+- feat: apply relevance+allowlist across collectors (incl portals)
+- chore: refresh quality reports
+- chore: reduce yt-dlp date promotion timeout
+- chore: reduce endorsement date promotion timeout
+- daily: update 2026-02-12
+- chore: expand allowlist to major entertainment media
+- chore: expand sources to reduce omissions
+- chore: expand official TV/OTT sources (reduce omissions)
+- daily: update 2026-02-12
+- chore: fix backlog auto-progress + add discord notifications
+- daily: update 2026-02-12
+- chore: debounce discord notifications (success daily, fail throttled)
+- chore: make discord notifications detailed per step
+- chore: make notifications readable + include color legend
+- chore: treat optional skips as green (critical-only color)
+- feat: add MV/OST video pages + promote candidates + award official refs
+- fix: define LOCK_DIR before run log
+- fix: percent-encode google news RSS URL
+- daily: update 2026-02-12
+- chore: queue discord notifications + retry + flush
+- chore: flush queued notifications during runs
+- daily: update 2026-02-12
+- fix: harden failure notifications against unset vars
+- chore: add run-id + flush summary to notifications
+- chore: send recovery notification after failure
+- fix: encyclopedia collector + restore awards suggest step
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- chore: reach 100% backlog (mv + award page + heuristics)
+- daily: update 2026-02-12
+- chore: add backup cleanup script
+- chore: update status logs
+- daily: update 2026-02-12
+- chore: notify OK per new pushed commit (no missing alerts)
+- chore: add git post-push notify hook (manual pushes)
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- chore: discord notifications Korean-only
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-12
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-13
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- ops: record existing daily backup in news status
+- ops: make default RSS URL explicit for cron
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- docs: improve index navigation and status wording
+- daily: update 2026-02-14
+- docs: align English index with Korean structure
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- docs: refresh indexes and reports
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- chore: add CI lint/security/tests
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- chore: update system status scores
+- daily: update 2026-02-14
+- docs: clear placeholder debt and tighten reports
+- ops: ignore system_status.md dirtiness in healthcheck
+- chore: system status 100/100
+- ops: make system status deterministic (date-only)
+- ops: reduce system status churn
+- chore: refresh system status
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- Phase 3: Fix lint errors (E701/E702/E402/F401) and improve code quality
+- daily: update 2026-02-14
+- Phase 3: Add test_monitor.py with 10 tests for monitoring system
+- Update: daily news and system status
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-14
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- chore: link health 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- fix: wikipedia check uses UA + cache to avoid 403
+- chore: ignore runtime cache directory
+- daily: update 2026-02-15
+- docs: backfill official release dates into schedule/timeline
+- daily: update 2026-02-15
+- docs: strengthen official links for moving/death\x27s game
+- daily: update 2026-02-15
+- docs: confirm release dates for resident playbook + can this love
+- docs: add resident playbook finale date
+- docs: add broadcast times for resident playbook
+- docs: add law school broadcast time
+- daily: update 2026-02-15
+- docs: add tvN broadcast times (psychometric, alchemy)
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- chore: harden automation health + backup retention
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- fix: correct today log links in README/index
+- chore: keep README/index today links updated in daily run
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- chore: stop tracking Obsidian workspace files
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- fix: stabilize lint + make check
+- daily: update 2026-02-15
+- chore: improve scoring + link health
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: news update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: update 2026-02-15
+- daily: content update 2026-02-15
+- daily: update 2026-02-15
+- fix: update news result to success
+- daily: auto-update 2026-02-15
+- daily: update 2026-02-15
+- content: add new interviews and pictorials
+- daily: update 2026-02-15
+- automation: stabilize gap/status reporting
+- quality: expand sources and reduce false WARN link checks
+- daily: update 2026-02-15
+- docs: beautify markdown and add auto TOC
+- docs: add overview scaffolds across markdown pages
+- content: add 2026 interviews and brand endorsements
+- daily: update 2026-02-15
+- ops: add discord daily summary sender (webhook)
+- content: add comprehensive interviews and pictorials (2019-2023)
+- daily: update 2026-02-15
+- docs: fix interviews year index (include older years)
+- content: add more interviews (2019-2022) and brand endorsements
+- docs: keep overview only on core pages (prune elsewhere)
+- content: add more pictorials (2024-2026)
+- content: comprehensive wiki update with all latest data
+- daily: update 2026-02-15
+- ops: roll over daily status and refresh gap/quality reports
+- ops: add pagination to magazine backfill script for deeper coverage
+- daily: update 2026-02-16
+- content: add missing brand endorsements and pictorials (2025-2026)
+- content: add missing pictorials (2021-2024)
+- docs: sort past schedule chronologically
+- content: add missing 2020 Armani Beauty pictorial
+- docs: group past schedule by year
+- ops: update daily status and schedule
+- daily: update 2026-02-16
+- ops: comprehensive wiki update with all content
+- chore: refresh system status
+- ops: update system status and scripts
+- ops: final commit
+- docs: make overview core links clickable
+- ops: daily update
+- ops: final commit
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- docs: fix sns timeline link
+- daily: update 2026-02-16
+- quality: fix internal markdown links across repo
+- ops: refresh link health report
+- quality: reduce false WARN domains in link health
+- daily: update 2026-02-16
+- ops: add skipped-link backlog for alternative proofs
+- ops: generate alternative proof candidates for skipped domains
+- content: apply alternative proof links for skipped domains
+- chore: refresh system status
+- ops: audit remaining skipped links without alternatives
+- daily: update 2026-02-16
+- ops: complete alternative proof coverage (0 missing)
+- chore: refresh system status
+- quality: normalize alternative proof formatting
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- chore: add .gitignore for obsidian
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-16
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- ops: schema + promotion queue + daily runner
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- ops: auto release tagging (semver)
+- fix: semver auto-release ignores date tags
+- ops: auto-create GitHub Release on tag
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-17
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-18
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-19
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-20
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-21
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- chore: link health 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- fix: make index scripts executable
+- ci: fix yaml for python compile step
+- ci: make shellcheck non-blocking (errors only)
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-22
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- fix(kpi): avoid sqlite timeouts; ignore pyc
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- fix(health): stabilize automation status; avoid false negatives
+- fix(automation): make success depend on push; stabilize daily report
+- chore(coverage): add headings; ignore auto pages in content gap audit
+- daily: update 2026-02-23
+- chore(coverage): replace Namuwiki proof with official; add work page
+- chore(coverage): add Sweet Home 2 official work page
+- chore(coverage): expand works pages and strengthen official links
+- daily: update 2026-02-23
+- works/by-year: use specific official title pages (Netflix/Disney+)
+- works/light-shop: drop ALT-PROOF now that official Disney+ page is used
+- daily: micro backfill (recommended) + indexes
+- fix(copyright): safer KBS interview summaries (paraphrase+guardrails)
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- chore(perfect): boost official proofs, clean redundant ALT-PROOF, add recommendations
+- fix(status): restore news run header for healthcheck
+- daily: update 2026-02-23
+- chore(routine): add recommended routine runner
+- docs(portal): improve readability; add local link checker
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- fix(health): self-heal missing news header; allow news header updates
+- chore(score): treat works+i18n readiness as full volume
+- chore(status): sync news header and system_status
+- chore(score): make perfect-scorecard deterministic (date-only)
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-23
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-24
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- fix: unmanned ops polish (news header, dashboard alias, link health)
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- chore: keep automation outputs consistent (news header + reports)
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-25
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-26
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- daily: update 2026-02-27
+- ops: harden automation + release docs

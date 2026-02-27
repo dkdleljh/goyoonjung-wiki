@@ -60,6 +60,7 @@ A/B/C/D 의미:
 ```bash
 make venv
 make check
+python3 scripts/generate_changelog.py
 ./scripts/check_automation_health.sh
 python3 scripts/compute_perfect_scorecard.py
 ```

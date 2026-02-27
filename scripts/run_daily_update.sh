@@ -504,7 +504,17 @@ if git diff --cached --quiet; then
 fi
 
 MSG="daily: update ${TODAY}"
-git commit -m "$MSG" >/dev/null
+# One-commit-per-day policy (recommended):
+# If the last commit is already today's daily update, amend instead of creating a new commit.
+# This avoids "daily: update YYYY-MM-DD" spam while still pushing the latest state.
+SQUASH_DAILY=${SQUASH_DAILY:-1}
+if [ "$SQUASH_DAILY" = "1" ] && git log -1 --format=%s | grep -qx "$MSG"; then
+  git commit --amend --no-edit >/dev/null
+  PUSH_FORCE=1
+else
+  git commit -m "$MSG" >/dev/null
+  PUSH_FORCE=0
+fi
 
 # Prevent git hooks from sending duplicate notifications for automation pushes
 export NO_HOOK_NOTIFY=1
@@ -517,8 +527,13 @@ tries=3
 n=1
 rc_push=0
 while true; do
-  echo "[STEP:$CURRENT_STEP] run: git push origin main" >>"$RUN_LOG"
-  git push origin main >>"$RUN_LOG" 2>&1
+  if [ "$PUSH_FORCE" = "1" ]; then
+    echo "[STEP:$CURRENT_STEP] run: git push --force-with-lease origin main" >>"$RUN_LOG"
+    git push --force-with-lease origin main >>"$RUN_LOG" 2>&1
+  else
+    echo "[STEP:$CURRENT_STEP] run: git push origin main" >>"$RUN_LOG"
+    git push origin main >>"$RUN_LOG" 2>&1
+  fi
   rc_push=$?
   if [ $rc_push -eq 0 ]; then
     break

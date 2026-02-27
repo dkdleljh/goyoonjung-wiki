@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+"""Generate CHANGELOG.md from git tags + commit subjects.
+
+Policy:
+- Canonical release tags are SemVer annotated tags: vMAJOR.MINOR.PATCH
+- We only consider MAJOR >= 1 and < 1000 (to ignore legacy date-style tags)
+- For each release tag, we list commit subjects since previous canonical tag.
+
+This script overwrites CHANGELOG.md deterministically.
+"""
+
+from __future__ import annotations
+
+import re
+import subprocess
+from dataclasses import dataclass
+
+BASE = subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip()
+
+SEMVER_RE = re.compile(r"^v(\d+)\.(\d+)\.(\d+)$")
+
+
+def sh(cmd: list[str]) -> str:
+    return subprocess.check_output(cmd, cwd=BASE, text=True).strip()
+
+
+def lines(cmd: list[str]) -> list[str]:
+    out = subprocess.check_output(cmd, cwd=BASE, text=True)
+    return [ln.rstrip("\n") for ln in out.splitlines()]
+
+
+@dataclass(frozen=True)
+class Tag:
+    name: str
+    major: int
+    minor: int
+    patch: int
+
+
+def canonical_tags() -> list[Tag]:
+    tags = []
+    for t in lines(["git", "tag", "-l", "v*.*.*"]):
+        m = SEMVER_RE.match(t.strip())
+        if not m:
+            continue
+        major, minor, patch = map(int, m.groups())
+        if major < 1 or major >= 1000:
+            continue
+        tags.append(Tag(t, major, minor, patch))
+
+    # sort ascending by version
+    tags.sort(key=lambda x: (x.major, x.minor, x.patch))
+    return tags
+
+
+def tag_date(tag: str) -> str:
+    # ISO-like date for display
+    try:
+        return sh(["git", "log", "-1", "--format=%ad", "--date=short", tag])
+    except Exception:
+        return ""
+
+
+def commits_between(a: str | None, b: str) -> list[str]:
+    rev = f"{a}..{b}" if a else b
+    # subjects only (keep deterministic & compact)
+    out = lines(["git", "log", "--format=%s", rev])
+    # reverse chronological -> make it chronological within release for readability
+    return list(reversed([s for s in out if s.strip()]))
+
+
+def main() -> int:
+    tags = canonical_tags()
+
+    header = [
+        "# CHANGELOG",
+        "",
+        "## Release process",
+        "- 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.",
+        "- 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)",
+        "",
+    ]
+
+    if not tags:
+        content = header + ["(no canonical semver tags found)", ""]
+        open(f"{BASE}/CHANGELOG.md", "w", encoding="utf-8").write("\n".join(content))
+        return 0
+
+    blocks: list[str] = []
+    prev: str | None = None
+    for tag in tags:
+        d = tag_date(tag.name)
+        blocks.append(f"## {tag.name}" + (f" ({d})" if d else ""))
+        msgs = commits_between(prev, tag.name)
+        if not msgs:
+            blocks.append("- (no changes)")
+        else:
+            for m in msgs:
+                blocks.append(f"- {m}")
+        blocks.append("")
+        prev = tag.name
+
+    # unreleased section (HEAD since latest tag)
+    latest = tags[-1].name
+    unreleased = commits_between(latest, "HEAD")
+    if unreleased:
+        blocks.insert(0, "## Unreleased")
+        for m in unreleased:
+            blocks.insert(1, f"- {m}")
+        blocks.insert(len(unreleased) + 2, "")
+
+    open(f"{BASE}/CHANGELOG.md", "w", encoding="utf-8").write("\n".join(header + blocks).rstrip() + "\n")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

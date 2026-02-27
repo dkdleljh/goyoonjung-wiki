@@ -16,14 +16,16 @@ cd "$BASE"
 export PATH="$HOME/bin:$PATH"
 
 SEMVER_REGEX='^v([0-9]+)\.([0-9]+)\.([0-9]+)$'
+CANONICAL_MIN_MAJOR=1
 
 latest_semver_tag() {
-  # Ignore date-style tags like v2026.02.17 by requiring MAJOR < 1000.
+  # Ignore legacy date-style tags like v2026.02.17 and keep a single canonical line.
+  # Canonical: MAJOR >= CANONICAL_MIN_MAJOR and < 1000.
   git tag -l 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname \
     | while read -r t; do
         if [[ "$t" =~ $SEMVER_REGEX ]]; then
           maj=${BASH_REMATCH[1]}
-          if [ "$maj" -lt 1000 ]; then
+          if [ "$maj" -ge "$CANONICAL_MIN_MAJOR" ] && [ "$maj" -lt 1000 ]; then
             echo "$t"; break
           fi
         fi
@@ -124,8 +126,28 @@ main() {
   read -r nmajor nminor npatch <<<"$(bump_version "$major" "$minor" "$patch" "$bump")"
   new_tag="v${nmajor}.${nminor}.${npatch}"
 
-  notes=$(git log --format='- %s (%h)' "${last_tag}..HEAD" | head -n 80)
+  notes_body=$(git log --format='- %s (%h)' "${last_tag}..HEAD" | head -n 80)
+  notes=$(cat <<EOF
+## Summary
+
+- bump: **${bump}**
+- base: ${last_tag}
+
+## Changes
+
+${notes_body}
+EOF
+)
   msg="Release ${new_tag} (${bump})"
+
+  # Keep CHANGELOG.md in sync with canonical tags.
+  # If generation changes the file, commit it before tagging.
+  python3 ./scripts/generate_changelog.py >/dev/null 2>&1 || true
+  if ! git diff --quiet -- CHANGELOG.md 2>/dev/null; then
+    git add CHANGELOG.md
+    git commit -m "chore: update changelog for ${new_tag}" >/dev/null
+    git push origin main >/dev/null
+  fi
 
   git tag -a "$new_tag" -m "$msg"
   git push origin "$new_tag" >/dev/null
