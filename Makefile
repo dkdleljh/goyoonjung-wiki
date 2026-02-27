@@ -9,7 +9,10 @@ PYTEST := $(shell [ -x "$(VENV)/bin/pytest" ] && echo "$(VENV)/bin/pytest" || ec
 
 .PHONY: venv
 venv:
-	python3 -m venv $(VENV)
+	@python3 -m venv $(VENV) || ( \
+		echo "ERROR: venv creation failed. On Ubuntu/Debian, install: sudo apt install python3.12-venv" >&2; \
+		exit 1 \
+	)
 	$(PIP) install -U pip
 	$(PIP) install -r requirements.txt -r requirements-dev.txt
 

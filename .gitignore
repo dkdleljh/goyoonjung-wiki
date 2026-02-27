@@ -30,6 +30,7 @@ temp/
 
 # Local virtualenv
 .venv/
+.venv-tools/
 
 # Generated reports (do not version)
 docs/FINAL_VERIFICATION_REPORT.md

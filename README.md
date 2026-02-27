@@ -71,6 +71,7 @@ python3 scripts/compute_perfect_scorecard.py
 - 아키텍처: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
 - 운영 가이드: [`docs/OPERATION_GUIDE.md`](docs/OPERATION_GUIDE.md)
 - 점수 체계: [`docs/scoring.md`](docs/scoring.md)
+- 릴리즈/태그 규칙: [`docs/RELEASING.md`](docs/RELEASING.md)
 
 ## 운영 원칙
 

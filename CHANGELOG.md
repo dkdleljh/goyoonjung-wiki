@@ -9,6 +9,15 @@
 
 > 큰 변화만 기록합니다(문서 구조 변경, 원칙 변경, 대규모 정리 등).
 
+## Release process
+- 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
+- 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
+
+## 2026-02-27
+- 자동화 안정화: daily update 재실행(커밋 스팸) 방지 가드 추가
+- 릴리즈/태그 규칙 문서화: docs/RELEASING.md 추가
+- 개발환경: 임시 venv 디렉터리(.venv-tools) 저장소에서 제거 + gitignore 처리
+
 ## 2026-02-08
 - 개인 위키 초기 생성(프로필/필모/수상)
 - 섹션 확장(인터뷰/광고·엠버서더/화보/캐릭터/타임라인)

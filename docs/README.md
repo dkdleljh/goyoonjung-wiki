@@ -13,6 +13,7 @@
 2. 운영 절차: [`OPERATION_GUIDE.md`](OPERATION_GUIDE.md)
 3. 시스템 구조: [`ARCHITECTURE.md`](ARCHITECTURE.md)
 4. 점수 체계: [`scoring.md`](scoring.md)
+5. 릴리즈/태그 규칙: [`RELEASING.md`](RELEASING.md)
 
 ## Perfect Scorecard 관련 문서
 

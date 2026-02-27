@@ -16,6 +16,24 @@ TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 NOW=$(TZ="$TZ" date +"%Y-%m-%d %H:%M")
 
+# Guardrail: if today's run already succeeded recently, skip to avoid commit spam.
+# Override with: FORCE=1 ./scripts/run_daily_update.sh
+NEWS_FILE="$BASE/news/${TODAY}.md"
+MIN_INTERVAL_SUCCESS_SECONDS=${MIN_INTERVAL_SUCCESS_SECONDS:-21600} # 6h
+if [ "${FORCE:-0}" != "1" ] && [ -f "$NEWS_FILE" ]; then
+  LAST_RESULT=$(grep -m1 "^- 결과:" "$NEWS_FILE" 2>/dev/null | sed -E 's/^\- 결과:\s*//' || true)
+  LAST_RUN_AT=$(grep -m1 "^- 실행:" "$NEWS_FILE" 2>/dev/null | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//' || true)
+  if [ "${LAST_RESULT:-}" = "성공" ] && [ -n "${LAST_RUN_AT:-}" ]; then
+    last_epoch=$(TZ="$TZ" date -d "$LAST_RUN_AT" +%s 2>/dev/null || echo 0)
+    now_epoch=$(TZ="$TZ" date +%s)
+    age=$((now_epoch - last_epoch))
+    if [ "$last_epoch" -gt 0 ] && [ "$age" -ge 0 ] && [ "$age" -lt "$MIN_INTERVAL_SUCCESS_SECONDS" ]; then
+      echo "Skip: already succeeded today at ${LAST_RUN_AT} (age=${age}s < ${MIN_INTERVAL_SUCCESS_SECONDS}s)." >&2
+      exit 0
+    fi
+  fi
+fi
+
 # Unique run id for notification correlation
 RUN_ID="$(TZ=\"$TZ\" date +%Y%m%d-%H%M%S)"
 
