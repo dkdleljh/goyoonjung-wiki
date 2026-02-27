@@ -4,7 +4,10 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## Unreleased
+- ops: stabilize daily commits + changelog + release notes
 ## v1.0.0 (2026-02-27)
+
 - chore: wiki structure hardening (watchlist/style-guide/works split)
 - docs: add watchlist, rules, tag index, works split, backups
 - docs: fill watchlist with official sources
