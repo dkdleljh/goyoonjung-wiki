@@ -20,7 +20,7 @@
 
 ## 3) 날짜 형식(YYYY-MM-DD) 의심 라인
 
-./scripts/auto_release.sh:21:  # Ignore date-style tags like v2026.02.17 by requiring MAJOR < 1000.
+./scripts/auto_release.sh:22:  # Ignore legacy date-style tags like v2026.02.17 and keep a single canonical line.
 
 ## 4) 커버리지 목표 미달 경고(권장)
 
