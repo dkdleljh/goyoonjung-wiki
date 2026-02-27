@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-02-27 10:43 (Asia/Seoul)
+> 갱신: 2026-02-27 10:55 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- f992d421 2026-02-27 10:31:23 +0900 daily: update 2026-02-27
+- 5378db79 2026-02-27 10:43:27 +0900 daily: update 2026-02-27
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -22,6 +22,10 @@
 
 ## 3) 오늘 실행 상태(news/2026-02-27.md)
 
+## 실행 상태
+- 실행: 2026-02-27 10:43 (Asia/Seoul)
+- 결과: 성공
+- 메모: auto: reconstructed run header (was missing)
 
 ## 4) 권장 체크
 
@@ -34,7 +38,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/71)
+- duplicate_rate: 0.00% (0/83)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
