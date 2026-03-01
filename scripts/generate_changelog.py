@@ -96,19 +96,20 @@ def main(argv: list[str] | None = None) -> int:
         open(f"{BASE}/CHANGELOG.md", "w", encoding="utf-8").write("\n".join(content))
         return 0
 
+    # Render newest releases first (descending).
     blocks: list[str] = []
-    prev: str | None = None
-    for tag in tags:
-        d = tag_date(tag.name)
-        blocks.append(f"## {tag.name}" + (f" ({d})" if d else ""))
-        msgs = commits_between(prev, tag.name)
+    for i in range(len(tags) - 1, -1, -1):
+        cur = tags[i]
+        prev = tags[i - 1].name if i - 1 >= 0 else None
+        d = tag_date(cur.name)
+        blocks.append(f"## {cur.name}" + (f" ({d})" if d else ""))
+        msgs = commits_between(prev, cur.name)
         if not msgs:
             blocks.append("- (no changes)")
         else:
             for m in msgs:
                 blocks.append(f"- {m}")
         blocks.append("")
-        prev = tag.name
 
     # Optional: next release section (commits since latest canonical tag up to HEAD)
     if args.next_tag:

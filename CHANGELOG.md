@@ -6,6 +6,21 @@
 
 ## v1.2.1 (2026-03-02)
 - ops: fix changelog generation for next release
+- chore: update changelog for v1.2.1
+
+## v1.2.0 (2026-03-02)
+- daily: update 2026-02-27
+- daily: update 2026-02-28
+- daily: update 2026-03-01
+- docs: expand operation guide for 100pt verification
+- chore: link health 2026-03-01
+- daily: update 2026-03-01
+- daily: update 2026-03-02
+- chore: update changelog for v1.2.0
+
+## v1.1.0 (2026-02-27)
+- ops: stabilize daily commits + changelog + release notes
+- chore: update changelog for v1.1.0
 
 ## v1.0.0 (2026-02-27)
 - chore: wiki structure hardening (watchlist/style-guide/works split)
@@ -2715,17 +2730,3 @@
 - daily: update 2026-02-27
 - daily: update 2026-02-27
 - ops: harden automation + release docs
-
-## v1.1.0 (2026-02-27)
-- ops: stabilize daily commits + changelog + release notes
-- chore: update changelog for v1.1.0
-
-## v1.2.0 (2026-03-02)
-- daily: update 2026-02-27
-- daily: update 2026-02-28
-- daily: update 2026-03-01
-- docs: expand operation guide for 100pt verification
-- chore: link health 2026-03-01
-- daily: update 2026-03-01
-- daily: update 2026-03-02
-- chore: update changelog for v1.2.0
