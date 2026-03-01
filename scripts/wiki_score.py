@@ -20,7 +20,14 @@ from dataclasses import dataclass
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-import domain_policy
+# domain_policy lives next to this file. It is usually importable as a local module
+# when this script is executed directly (scripts/ is on sys.path).
+# However, when executed as a module (python -m scripts.wiki_score), we need
+# an explicit package import fallback.
+try:
+    from scripts import domain_policy  # type: ignore
+except Exception:  # pragma: no cover
+    import domain_policy  # type: ignore
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 TZ = ZoneInfo("Asia/Seoul")
