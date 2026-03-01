@@ -4,6 +4,9 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## v1.2.2 (2026-03-02)
+- ops: sort changelog newest-first
+
 ## v1.2.1 (2026-03-02)
 - ops: fix changelog generation for next release
 - chore: update changelog for v1.2.1
