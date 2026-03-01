@@ -4,16 +4,10 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
-## Unreleased
-- daily: update 2026-03-02
-- daily: update 2026-03-01
-- chore: link health 2026-03-01
-- docs: expand operation guide for 100pt verification
-- daily: update 2026-03-01
-- daily: update 2026-02-28
-- daily: update 2026-02-27
-## v1.0.0 (2026-02-27)
+## v1.2.1 (2026-03-02)
+- ops: fix changelog generation for next release
 
+## v1.0.0 (2026-02-27)
 - chore: wiki structure hardening (watchlist/style-guide/works split)
 - docs: add watchlist, rules, tag index, works split, backups
 - docs: fill watchlist with official sources
@@ -2725,3 +2719,13 @@
 ## v1.1.0 (2026-02-27)
 - ops: stabilize daily commits + changelog + release notes
 - chore: update changelog for v1.1.0
+
+## v1.2.0 (2026-03-02)
+- daily: update 2026-02-27
+- daily: update 2026-02-28
+- daily: update 2026-03-01
+- docs: expand operation guide for 100pt verification
+- chore: link health 2026-03-01
+- daily: update 2026-03-01
+- daily: update 2026-03-02
+- chore: update changelog for v1.2.0
