@@ -142,7 +142,7 @@ EOF
 
   # Keep CHANGELOG.md in sync with canonical tags.
   # If generation changes the file, commit it before tagging.
-  python3 ./scripts/generate_changelog.py >/dev/null 2>&1 || true
+  python3 ./scripts/generate_changelog.py --next-tag "$new_tag" >/dev/null 2>&1 || true
   if ! git diff --quiet -- CHANGELOG.md 2>/dev/null; then
     git add CHANGELOG.md
     git commit -m "chore: update changelog for ${new_tag}" >/dev/null

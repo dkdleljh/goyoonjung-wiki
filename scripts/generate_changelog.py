@@ -11,9 +11,11 @@ This script overwrites CHANGELOG.md deterministically.
 
 from __future__ import annotations
 
+import argparse
 import re
 import subprocess
 from dataclasses import dataclass
+from datetime import datetime
 
 BASE = subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip()
 
@@ -69,7 +71,15 @@ def commits_between(a: str | None, b: str) -> list[str]:
     return list(reversed([s for s in out if s.strip()]))
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument(
+        "--next-tag",
+        default="",
+        help="If set, render a 'next release' section with this tag name using commits up to HEAD.",
+    )
+    args = ap.parse_args(argv)
+
     tags = canonical_tags()
 
     header = [
@@ -100,14 +110,28 @@ def main() -> int:
         blocks.append("")
         prev = tag.name
 
-    # unreleased section (HEAD since latest tag)
-    latest = tags[-1].name
-    unreleased = commits_between(latest, "HEAD")
-    if unreleased:
-        blocks.insert(0, "## Unreleased")
-        for m in unreleased:
-            blocks.insert(1, f"- {m}")
-        blocks.insert(len(unreleased) + 2, "")
+    # Optional: next release section (commits since latest canonical tag up to HEAD)
+    if args.next_tag:
+        latest = tags[-1].name if tags else None
+        d = datetime.now().strftime("%Y-%m-%d")
+        blocks.insert(0, "")
+        blocks.insert(0, f"## {args.next_tag} ({d})")
+        msgs = commits_between(latest, "HEAD") if latest else commits_between(None, "HEAD")
+        if not msgs:
+            blocks.insert(1, "- (no changes)")
+        else:
+            for i, m in enumerate(msgs, start=1):
+                blocks.insert(i, f"- {m}")
+
+    # Unreleased section (HEAD since latest tag) — only when not rendering next-tag
+    if not args.next_tag and tags:
+        latest = tags[-1].name
+        unreleased = commits_between(latest, "HEAD")
+        if unreleased:
+            blocks.insert(0, "## Unreleased")
+            for m in unreleased:
+                blocks.insert(1, f"- {m}")
+            blocks.insert(len(unreleased) + 2, "")
 
     open(f"{BASE}/CHANGELOG.md", "w", encoding="utf-8").write("\n".join(header + blocks).rstrip() + "\n")
     return 0
