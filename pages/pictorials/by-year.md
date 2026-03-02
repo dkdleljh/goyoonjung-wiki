@@ -6,6 +6,7 @@
 ---
 
 ## 2026
+- 2026-03-03 · [고윤정, 더블유 디지털 커버](https://www.wkorea.com/2026/03/03/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84/)
 - 2026-02-11 · [Within Spring - 2026 봄 캠페인 화보](https://theviewers.co.kr/View.aspx?No=3972476)
 - 2026-01-28 · [(기사) 고윤정 커리어/작품 관련(사진 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=391253)
 - 2026-01-27 · [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)

@@ -1,26 +1,36 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-02 18:21 (Asia/Seoul)
+> 갱신: 2026-03-03 18:29 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- e46a0e19 2026-03-02 06:11:48 +0900 daily: update 2026-03-02
+- 6f1c96ca 2026-03-03 00:13:17 +0900 daily: update 2026-03-03
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-03-02.md
+- news/2026-03-03.md
+- news/README.md
 - pages/candidate-pool.md
 - pages/daily-report.md
 - pages/kpi-report.md
+- pages/lint-report.md
+- pages/magazines/wkorea.md
+- pages/perfect-scorecard.md
+- pages/pictorials/by-year.md
+- pages/pictorials/editorial.md
 - pages/progress.md
 - pages/promotion-queue.md
+- pages/schedule.md
 - pages/system_status.md
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
 - pages/works/moving.md
 - sources/awards-official.md
+- sources/seen-urls.jsonl
+- sources/seen-urls.txt
 
-## 3) 오늘 실행 상태(news/2026-03-02.md)
+## 3) 오늘 실행 상태(news/2026-03-03.md)
 
 ## 실행 상태
 
@@ -36,7 +46,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/57)
+- duplicate_rate: 0.00% (0/1)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

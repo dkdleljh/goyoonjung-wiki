@@ -41,6 +41,13 @@
 - id: https://www.asiaartistawards.com/news/detail/129994/all
 - 비고: ELLE 5월호 인터뷰
 
+- 날짜: 2026-03-03
+- 매체: W Korea
+- 구분: 화보/기사
+- 제목: 고윤정, 더블유 디지털 커버
+- 링크(원문): https://www.wkorea.com/2026/03/03/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2026/03/03/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84/
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
