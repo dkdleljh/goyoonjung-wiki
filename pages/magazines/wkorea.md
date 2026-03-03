@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-03-03 12:23 (Asia/Seoul)
+> 갱신: 2026-03-04 12:22 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -24,6 +24,9 @@
 
 - [고윤정, 더블유 디지털 커버](https://www.wkorea.com/2026/03/03/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84/)  _(출처: pictorials/editorial.md)_
 
+- [고윤정이 전하는 봄날의 속삭임](https://www.wkorea.com/2026/03/04/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%a0%84%ed%95%98%eb%8a%94-%eb%b4%84%eb%82%a0%ec%9d%98-%ec%86%8d%ec%82%ad%ec%9e%84/)  _(출처: pictorials/editorial.md)_
+
 - [고윤정, 톰 포드 향수와 함께한 '더블유 코리아' 디지털 화보 공개](https://www.insight.co.kr/news/336193)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
+
 

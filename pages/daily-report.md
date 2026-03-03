@@ -1,15 +1,15 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-03 18:29 (Asia/Seoul)
+> 갱신: 2026-03-04 18:30 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 6f1c96ca 2026-03-03 00:13:17 +0900 daily: update 2026-03-03
+- 66852b1c 2026-03-04 00:05:32 +0900 daily: update 2026-03-04
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-03-02.md
 - news/2026-03-03.md
+- news/2026-03-04.md
 - news/README.md
 - pages/candidate-pool.md
 - pages/daily-report.md
@@ -30,7 +30,7 @@
 - sources/seen-urls.jsonl
 - sources/seen-urls.txt
 
-## 3) 오늘 실행 상태(news/2026-03-03.md)
+## 3) 오늘 실행 상태(news/2026-03-04.md)
 
 ## 실행 상태
 
@@ -46,7 +46,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/1)
+- duplicate_rate: 0.00% (0/23)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
