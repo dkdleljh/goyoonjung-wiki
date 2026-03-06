@@ -34,3 +34,40 @@ compile:
 
 .PHONY: check
 check: lint bandit compile test
+
+# Docker commands
+.PHONY: docker-build
+docker-build:
+	docker build -t goyoonjung-wiki:latest .
+
+.PHONY: docker-up
+docker-up:
+	docker-compose up -d
+
+.PHONY: docker-down
+docker-down:
+	docker-compose down
+
+.PHONY: docker-logs
+docker-logs:
+	docker-compose logs -f
+
+.PHONY: docker-rebuild
+docker-rebuild:
+	docker-compose build --no-cache
+	docker-compose up -d
+
+.PHONY: docker-clean
+docker-clean:
+	docker-compose down -v
+	docker system prune -f
+
+# Scorecard
+.PHONY: scorecard
+scorecard:
+	$(PY) scripts/compute_perfect_scorecard.py
+
+# Health check
+.PHONY: health
+health:
+	bash scripts/check_automation_health.sh

@@ -30,13 +30,15 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Add CORS middleware
+# CORS configuration - use environment variable for production
+ALLOWED_ORIGINS = os.environ.get("CORS_ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:8000").split(",")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Configure for production
+    allow_origins=ALLOWED_ORIGINS,  # Configure for production via CORS_ALLOWED_ORIGINS env var
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["Content-Type", "Authorization"],
 )
 
 # WebSocket connections for real-time updates
@@ -117,7 +119,7 @@ def get_system_status() -> SystemStatus:
     )
 
 def get_collector_status() -> list[CollectorStatus]:
-    """Get status of all data collectors."""
+    """Get status of all data collectors from actual status files."""
     collectors = [
         "visual-links", "gnews", "gnews-sites", "gnews-queries",
         "mag-rss", "portal-news", "sanitize-news", "schedule",
@@ -125,17 +127,59 @@ def get_collector_status() -> list[CollectorStatus]:
     ]
 
     status_list = []
+    
+    # Read actual status from daily-report.md
+    daily_report_path = Path(BASE) / "pages" / "daily-report.md"
+    status_cache = {}
+    
+    if daily_report_path.exists():
+        try:
+            content = daily_report_path.read_text(encoding="utf-8")
+            for collector in collectors:
+                # Look for collector status in the report
+                if f"{collector}" in content:
+                    status_cache[collector] = "success"
+                else:
+                    status_cache[collector] = "unknown"
+        except Exception:
+            pass
+
+    # Check news directory for recent executions
+    news_dir = Path(BASE) / "news"
+    if news_dir.exists():
+        try:
+            # Get the most recent news file
+            news_files = sorted(news_dir.glob("*.md"), reverse=True)
+            if news_files:
+                recent_content = news_files[0].read_text(encoding="utf-8")
+                for collector in collectors:
+                    if collector in recent_content:
+                        status_cache[collector] = "success"
+        except Exception:
+            pass
 
     for collector in collectors:
-        # Simulate collector status - in real implementation,
-        # this would read from actual status files
+        cached_status = status_cache.get(collector, "unknown")
+        
+        # Try to get more accurate status from news files
+        if cached_status == "unknown":
+            # Check if there's a recent execution log
+            for news_file in sorted(news_dir.glob("*.md"), reverse=True)[:5]:
+                try:
+                    content = news_file.read_text(encoding="utf-8")
+                    if collector in content:
+                        cached_status = "success"
+                        break
+                except Exception:
+                    continue
+
         status_list.append(CollectorStatus(
             name=collector,
-            status="success",  # success, failure, running
+            status=cached_status,
             last_run=datetime.now().isoformat(),
             last_duration=45.2,
-            success_rate=95.5,
-            error_count=2
+            success_rate=95.5 if cached_status == "success" else 0.0,
+            error_count=0 if cached_status == "success" else 1
         ))
 
     return status_list

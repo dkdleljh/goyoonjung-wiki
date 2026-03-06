@@ -1,0 +1,44 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv/
+ENV/
+.eggs
+*.egg-info
+.pytest_cache
+.ruff_cache
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs (can be generated)
+*.md
+!requirements*.txt
+
+# Test
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+
+# Backup files in project
+backups/*.tar.gz
+*.bak

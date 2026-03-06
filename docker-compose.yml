@@ -1,0 +1,52 @@
+# Goyoonjung Wiki - Docker Compose
+# Automated wiki system for Go Youn-jung (고윤정)
+
+services:
+  wiki:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: goyoonjung-wiki
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./backups:/app/backups
+      - ./news:/app/news
+      - ./pages:/app/pages
+      - ./config:/app/config
+    environment:
+      - CORS_ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8000
+      - DISCORD_WEBHOOK_URL=${DISCORD_WEBHOOK_URL}
+      - MAA_URL=${MAA_URL}
+      - WIKIPEDIA_API_URL=${WIKIPEDIA_API_URL}
+      - NAMUWIKI_URL=${NAMUWIKI_URL}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Optional: Daily update scheduler
+  scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: goyoonjung-wiki-scheduler
+    volumes:
+      - ./data:/app/data
+      - ./backups:/app/backups
+      - ./news:/app/news
+      - ./pages:/app/pages
+      - ./config:/app/config
+    environment:
+      - DISCORD_WEBHOOK_URL=${DISCORD_WEBHOOK_URL}
+      - MAA_URL=${MAA_URL}
+      - WIKIPEDIA_API_URL=${WIKIPEDIA_API_URL}
+      - NAMUWIKI_URL=${NAMUWIKI_URL}
+    command: ["bash", "-c", "while true; do sleep 3600 && bash /app/scripts/run_daily_update.sh; done"]
+    restart: unless-stopped
+    depends_on:
+      - wiki
