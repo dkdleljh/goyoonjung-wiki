@@ -2,17 +2,17 @@
 
 > Updated: 2026-03-07
 
-## wiki_completeness: **92/100**
+## wiki_completeness: **82/100**
 
-placeholder debt score: debt=8
+placeholder debt score: debt=18
 - (페이지 내 표기 확인 필요): 0
-- (확인 필요): 8
-- 검증불가: 14
+- (확인 필요): 17
+- 검증불가: 29
 - 교차검증 필요: 0
-- 미확정: 1
+- 미확정: 3
 - 요약 보강 필요: 0
-- 참고(2차): 0
-- 추가 필요: 3
+- 참고(2차): 1
+- 추가 필요: 6
 
 ## lint_clean: **100/100**
 

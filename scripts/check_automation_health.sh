@@ -162,10 +162,18 @@ if [ -n "${DIRTY_FILES:-}" ]; then
   # Normalize to sorted unique list
   SORTED=$(echo "$DIRTY_FILES" | LC_ALL=C sort -u)
   # NOTE: use explicit allowlist (one per line)
-  ALLOWLIST=$(cat <<EOF
+ALLOWLIST=$(cat <<EOF
 pages/system_status.md
 data/content_gaps.json
 pages/content-gaps.md
+pages/daily-report.md
+pages/kpi-report.md
+pages/perfect-scorecard.md
+pages/progress.md
+pages/quality-report.md
+pages/candidate-pool.md
+pages/verification-queue.md
+sources/awards-official.md
 news/${TODAY}.md
 EOF
 )

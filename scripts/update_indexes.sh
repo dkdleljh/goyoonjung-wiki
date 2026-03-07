@@ -18,16 +18,16 @@ python3 "$SCRIPT_DIR/rebuild_group_link_candidates.py" >/dev/null || true
 # rebuild_progress.py often needs BASE or might import modules, run from BASE
 (cd "$BASE" && python3 "$SCRIPT_DIR/rebuild_progress.py") >/dev/null || true
 
-"$SCRIPT_DIR/rebuild_daily_report.sh" >/dev/null || true
-python3 "$SCRIPT_DIR/rebuild_candidate_pool.py" >/dev/null || true
-python3 "$SCRIPT_DIR/generate_kpi_report.py" >/dev/null || true
-python3 "$SCRIPT_DIR/rebuild_quality_report.py" >/dev/null || true
-python3 "$SCRIPT_DIR/rebuild_verification_queue.py" >/dev/null || true
-python3 "$SCRIPT_DIR/wiki_score.py" >/dev/null || true
-python3 "$SCRIPT_DIR/rebuild_year_indexes.py" >/dev/null || true
-python3 "$SCRIPT_DIR/rebuild_endorsements_year_index.py" >/dev/null || true
+"$SCRIPT_DIR/rebuild_daily_report.sh" >/dev/null
+python3 "$SCRIPT_DIR/rebuild_candidate_pool.py" >/dev/null
+python3 "$SCRIPT_DIR/generate_kpi_report.py" >/dev/null
+python3 "$SCRIPT_DIR/rebuild_quality_report.py" >/dev/null
+python3 "$SCRIPT_DIR/rebuild_verification_queue.py" >/dev/null
+python3 "$SCRIPT_DIR/wiki_score.py" >/dev/null
+python3 "$SCRIPT_DIR/rebuild_year_indexes.py" >/dev/null
+python3 "$SCRIPT_DIR/rebuild_endorsements_year_index.py" >/dev/null
 
 # Reference lists
-python3 "$SCRIPT_DIR/collect_awards_official_pages.py" >/dev/null || true
+python3 "$SCRIPT_DIR/collect_awards_official_pages.py" >/dev/null
 
 echo "OK"

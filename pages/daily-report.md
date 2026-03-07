@@ -1,30 +1,29 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-07 20:43 (Asia/Seoul)
+> 갱신: 2026-03-07 20:49 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- bd11a954 2026-03-07 20:37:05 +0900 chore: harden unattended automation and recovery workflow
+- 75159429 2026-03-07 20:44:40 +0900 chore: tighten pipeline safety and track verification debt
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- .github/workflows/ci.yml
+- README.md
 - data/content_gaps.json
-- deploy/systemd/goyoonjung-wiki-daily.service
-- deploy/systemd/goyoonjung-wiki-daily.timer
-- docs/README.en.md
-- docs/README.md
-- docs/automation-deployment.md
-- news/2026-03-07.md
-- pages/content-gaps.md
+- pages/candidate-pool.md
+- pages/daily-report.md
 - pages/kpi-report.md
-- scripts/clean_redundant_alt_proof.py
-- scripts/ensure_news_run_header.py
-- scripts/generate_kpi_report.py
-- scripts/restore_latest_backup.sh
+- pages/perfect-scorecard.md
+- pages/progress.md
+- pages/quality-report.md
+- pages/system_status.md
+- pages/verification-queue.md
+- scripts/rebuild_quality_report.py
+- scripts/rebuild_verification_queue.py
 - scripts/run_daily_update.sh
-- scripts/run_tests.py
-- scripts/web_dashboard.py
-- tests/test_e2e.py
+- scripts/update_indexes.sh
+- sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-03-07.md)
 
