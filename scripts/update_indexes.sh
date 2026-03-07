@@ -22,6 +22,7 @@ python3 "$SCRIPT_DIR/rebuild_group_link_candidates.py" >/dev/null || true
 python3 "$SCRIPT_DIR/rebuild_candidate_pool.py" >/dev/null || true
 python3 "$SCRIPT_DIR/generate_kpi_report.py" >/dev/null || true
 python3 "$SCRIPT_DIR/rebuild_quality_report.py" >/dev/null || true
+python3 "$SCRIPT_DIR/rebuild_verification_queue.py" >/dev/null || true
 python3 "$SCRIPT_DIR/wiki_score.py" >/dev/null || true
 python3 "$SCRIPT_DIR/rebuild_year_indexes.py" >/dev/null || true
 python3 "$SCRIPT_DIR/rebuild_endorsements_year_index.py" >/dev/null || true

@@ -15,6 +15,7 @@
 - Hub (English): [`pages/hub.en.md`](pages/hub.en.md)
 - 자동화 시스템 설명: [`docs/ux-automation-system.md`](docs/ux-automation-system.md)
 - 일일 리포트: [`pages/daily-report.md`](pages/daily-report.md)
+- 검증 큐(자동): [`pages/verification-queue.md`](pages/verification-queue.md)
 
 ## Perfect Scorecard 안내
 

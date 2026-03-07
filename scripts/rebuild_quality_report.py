@@ -10,6 +10,7 @@ No web access.
 from __future__ import annotations
 
 import os
+import re
 import sys
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -33,11 +34,14 @@ EXCLUDE_DIR_PARTS = {
 }
 
 PATTERNS = [
-    "교차검증 필요",
-    "참고(2차)",
-    "요약 보강 필요",
-    "(페이지 내 표기 확인 필요)",
-    "(확인 필요)",
+    ("교차검증 필요", re.compile(r"교차검증\s*필요")),
+    ("참고(2차)", re.compile(r"참고\s*\(?2차\)?")),
+    ("요약 보강 필요", re.compile(r"요약\s*보강\s*필요")),
+    ("(페이지 내 표기 확인 필요)", re.compile(r"페이지\s*내\s*표기\s*확인\s*필요")),
+    ("(확인 필요)", re.compile(r"\(?확인\s*필요\)?")),
+    ("검증불가", re.compile(r"검증\s*불가")),
+    ("추가 필요", re.compile(r"추가\s*필요")),
+    ("미확정", re.compile(r"미확정")),
 ]
 
 
@@ -57,17 +61,17 @@ def rel(p: str) -> str:
 
 
 def main() -> int:
-    counts = {p: 0 for p in PATTERNS}
-    hits = {p: [] for p in PATTERNS}
+    counts = {label: 0 for label, _ in PATTERNS}
+    hits = {label: [] for label, _ in PATTERNS}
 
     for path in iter_md_files():
         txt = open(path, encoding="utf-8").read().splitlines()
         for i, ln in enumerate(txt, start=1):
-            for p in PATTERNS:
-                if p in ln:
-                    counts[p] += 1
-                    if len(hits[p]) < 15:
-                        hits[p].append(f"- {rel(path)}:{i} · {ln.strip()[:140]}")
+            for label, pattern in PATTERNS:
+                if pattern.search(ln):
+                    counts[label] += 1
+                    if len(hits[label]) < 15:
+                        hits[label].append(f"- {rel(path)}:{i} · {ln.strip()[:140]}")
 
     out = [
         "# 품질 리포트(자동)",
@@ -80,17 +84,17 @@ def main() -> int:
         "## 카운트",
     ]
 
-    for p, n in counts.items():
-        out.append(f"- `{p}`: **{n}**")
+    for label in counts:
+        out.append(f"- `{label}`: **{counts[label]}**")
 
     out.append("")
     out.append("---")
     out.append("")
 
-    for p in PATTERNS:
-        out.append(f"## {p} (상위 {len(hits[p])}개 위치)")
-        if hits[p]:
-            out.extend(hits[p])
+    for label, _ in PATTERNS:
+        out.append(f"## {label} (상위 {len(hits[label])}개 위치)")
+        if hits[label]:
+            out.extend(hits[label])
         else:
             out.append("- (없음)")
         out.append("")

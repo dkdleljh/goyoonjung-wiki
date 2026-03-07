@@ -504,18 +504,7 @@ if git diff --cached --quiet; then
 fi
 
 MSG="daily: update ${TODAY}"
-# One-commit-per-day policy (recommended):
-# If the last commit is already today's daily update, amend instead of creating a new commit.
-# This avoids "daily: update YYYY-MM-DD" spam while still pushing the latest state.
-SQUASH_DAILY=${SQUASH_DAILY:-0}
-ALLOW_HISTORY_REWRITE=${ALLOW_HISTORY_REWRITE:-0}
-if [ "$SQUASH_DAILY" = "1" ] && [ "$ALLOW_HISTORY_REWRITE" = "1" ] && git log -1 --format=%s | grep -qx "$MSG"; then
-  git commit --amend --no-edit >/dev/null
-  PUSH_FORCE=1
-else
-  git commit -m "$MSG" >/dev/null
-  PUSH_FORCE=0
-fi
+git commit -m "$MSG" >/dev/null
 
 # Prevent git hooks from sending duplicate notifications for automation pushes
 export NO_HOOK_NOTIFY=1
@@ -528,13 +517,8 @@ tries=3
 n=1
 rc_push=0
 while true; do
-  if [ "$PUSH_FORCE" = "1" ]; then
-    echo "[STEP:$CURRENT_STEP] run: git push --force-with-lease origin main" >>"$RUN_LOG"
-    git push --force-with-lease origin main >>"$RUN_LOG" 2>&1
-  else
-    echo "[STEP:$CURRENT_STEP] run: git push origin main" >>"$RUN_LOG"
-    git push origin main >>"$RUN_LOG" 2>&1
-  fi
+  echo "[STEP:$CURRENT_STEP] run: git push origin main" >>"$RUN_LOG"
+  git push origin main >>"$RUN_LOG" 2>&1
   rc_push=$?
   if [ $rc_push -eq 0 ]; then
     break
@@ -564,7 +548,16 @@ RUN_OK=1
 # Auto release tagging (patch/minor/major) + GitHub Release — best-effort
 # Ensure gh is discoverable even without system-wide install
 export PATH="$HOME/bin:$PATH"
-bash ./scripts/auto_release.sh >/dev/null 2>&1 || true
+set +e
+bash ./scripts/auto_release.sh >/dev/null 2>&1
+RC_RELEASE=$?
+set -e
+if [ "$RC_RELEASE" -ne 0 ]; then
+  NOTE="$NOTE, release:SKIP(rc=${RC_RELEASE})"
+  python3 ./scripts/append_skip_reason.py "release" "$RC_RELEASE" "auto release skipped/failed" >/dev/null 2>&1 || true
+else
+  NOTE="$NOTE, release:OK"
+fi
 
 NEW_HEAD=$(git rev-parse --short HEAD 2>/dev/null || echo unknown)
 
