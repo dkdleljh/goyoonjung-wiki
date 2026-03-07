@@ -2,18 +2,23 @@
 
 > 자동 생성: pages/ 내 문서를 스캔하여 ‘출처/공식링크/링크수/플레이스홀더’ 기준으로 우선순위를 매깁니다.
 
-- 총 문서: **76**
+- 총 문서: **84**
 
 
 ## Top 30 (우선 보강 대상)
 
 - 점수: 높을수록 보강 필요
 
+- **[75]** `pages/dashboard.md` — Dashboard (그룹:dashboard.md, URL:0, 출처:❌, 공식링크:❌, placeholder:0)
+- **[75]** `pages/recommendations/local-link-issues.md` — 로컬 링크 점검(상대경로) (그룹:recommendations, URL:0, 출처:❌, 공식링크:❌, placeholder:0)
+- **[75]** `pages/recommendations/next-content-depth.md` — 다음 콘텐츠 보강(추천) — 커버리지/품질/내용 (그룹:recommendations, URL:0, 출처:❌, 공식링크:❌, placeholder:0)
+- **[75]** `pages/recommendations/official-replacement-candidates.md` — 공식 근거로 치환 가능 후보(추천) (그룹:recommendations, URL:0, 출처:❌, 공식링크:❌, placeholder:0)
+- **[60]** `pages/recommendations/official-link-gaps.md` — 공식 링크 보강 대상(추천) (그룹:recommendations, URL:0, 출처:❌, 공식링크:✅, placeholder:0)
 - **[20]** `pages/checklists/automation-reliability-checklist.md` — 자동화 완성 체크리스트 (운영/신뢰성) (그룹:checklists, URL:0, 출처:✅, 공식링크:✅, placeholder:0)
 - **[20]** `pages/endorsements/index.md` — 🤝 광고/엠버서더 (카테고리) (그룹:endorsements, URL:0, 출처:✅, 공식링크:✅, placeholder:0)
 - **[20]** `pages/endorsements.md` — 🤝 광고/엠버서더 (그룹:endorsements.md, URL:0, 출처:✅, 공식링크:✅, placeholder:0)
 - **[20]** `pages/strategy.md` — 🧩 위키 운영 전략 (완벽해지기 로드맵) (그룹:strategy.md, URL:0, 출처:✅, 공식링크:✅, placeholder:0)
-- **[10]** `pages/pictorials/editorial.md` — 📸 화보/사진 — 에디토리얼/화보 (그룹:pictorials, URL:93, 출처:✅, 공식링크:✅, placeholder:2)
+- **[10]** `pages/pictorials/editorial.md` — 📸 화보/사진 — 에디토리얼/화보 (그룹:pictorials, URL:97, 출처:✅, 공식링크:✅, placeholder:2)
 - **[05]** `pages/endorsements/fashion.md` — 🤝 광고/엠버서더 — 패션/주얼리 (그룹:endorsements, URL:27, 출처:✅, 공식링크:✅, placeholder:1)
 - **[00]** `pages/appearances/by-year.md` — 출연/행사 — 연도별 인덱스 (그룹:appearances, URL:20, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/appearances.md` — 🎤 방송/예능/행사(출연 기록) (그룹:appearances.md, URL:44, 출처:✅, 공식링크:✅, placeholder:0)
@@ -34,11 +39,6 @@
 - **[00]** `pages/endorsements/beauty.md` — 🤝 광고/엠버서더 — 뷰티/스킨케어/메이크업 (그룹:endorsements, URL:19, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/endorsements/by-year.md` — 광고/엠버서더 — 연도별 인덱스 (그룹:endorsements, URL:15, 출처:✅, 공식링크:✅, placeholder:0)
 - **[00]** `pages/endorsements/lifestyle.md` — 🤝 광고/엠버서더 — 라이프스타일/기타 (그룹:endorsements, URL:28, 출처:✅, 공식링크:✅, placeholder:0)
-- **[00]** `pages/filmography.md` — 🎬 필모그래피 (그룹:filmography.md, URL:20, 출처:✅, 공식링크:✅, placeholder:0)
-- **[00]** `pages/hub.en.md` — 🧾 Fan Hub (Quick Navigation) (그룹:hub.en.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
-- **[00]** `pages/hub.md` — 🧭 덕질 허브 (빠른 탐색) (그룹:hub.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
-- **[00]** `pages/index-by-tag.md` — 태그 인덱스 (그룹:index-by-tag.md, URL:1, 출처:✅, 공식링크:✅, placeholder:0)
-- **[00]** `pages/interviews/by-year.md` — 인터뷰/기사 — 연도별 인덱스 (그룹:interviews, URL:55, 출처:✅, 공식링크:✅, placeholder:0)
 
 
 ## 그룹 요약
@@ -48,6 +48,7 @@
 - **awards.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **brands**: 11개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **checklists**: 2개 (출처없음 0, 공식링크없음 0, URL0 1)
+- **dashboard.md**: 1개 (출처없음 1, 공식링크없음 1, URL0 1)
 - **encyclopedia-roadmap.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **endorsements**: 5개 (출처없음 0, 공식링크없음 0, URL0 1)
 - **endorsements.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 1)
@@ -67,11 +68,12 @@
 - **pictorials.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **profile.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **progress.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
+- **recommendations**: 4개 (출처없음 4, 공식링크없음 3, URL0 4)
 - **schedule.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **sns.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **strategy.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 1)
 - **style-guide.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **timeline.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **videos**: 2개 (출처없음 0, 공식링크없음 0, URL0 0)
-- **works**: 12개 (출처없음 0, 공식링크없음 0, URL0 0)
+- **works**: 15개 (출처없음 0, 공식링크없음 0, URL0 0)
 - **works-characters.md**: 1개 (출처없음 0, 공식링크없음 0, URL0 0)

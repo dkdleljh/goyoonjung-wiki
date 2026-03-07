@@ -14,7 +14,6 @@ import os
 import sys
 import tempfile
 from pathlib import Path
-from datetime import datetime
 
 import pytest
 
@@ -37,7 +36,7 @@ class TestConfigLoading:
         import config_loader
         config = config_loader.load_config()
         # These keys should exist in config.yaml
-        assert 'rss_url' in config or 'rss_url' is not None
+        assert "rss_url" in config or config.get("rss_url") is not None
 
 
 class TestDatabaseOperations:
@@ -65,13 +64,13 @@ class TestDatabaseOperations:
             try:
                 db_manager.init_db()
                 test_url = "https://example.com/test"
-                
+
                 # Should not be seen initially
                 assert not db_manager.is_url_seen(test_url)
-                
+
                 # Add URL
                 db_manager.add_seen_url(test_url, source="test")
-                
+
                 # Should be seen now
                 assert db_manager.is_url_seen(test_url)
             finally:
@@ -84,7 +83,7 @@ class TestURLNormalization:
     def test_normalize_url(self):
         """Verify URL normalization works."""
         from normalize_url import norm
-        
+
         # Test basic normalization
         assert norm("https://example.com") == norm("https://example.com/")
         assert norm("http://Example.com") == norm("http://example.com")
@@ -97,13 +96,13 @@ class TestDomainPolicy:
         """Verify domain grading works."""
         import domain_policy
         policy = domain_policy.load_policy()
-        
+
         # Test known domains
         grade_s = policy.grade_for_url("https://news.kbs.co.kr")
-        assert grade_s in ['S', 'A', 'B', 'BLOCK']
-        
+        assert grade_s in ["S", "A", "B", "BLOCK"]
+
         grade_block = policy.grade_for_url("https://news.google.com")
-        assert grade_block == 'BLOCK'
+        assert grade_block == "BLOCK"
 
 
 class TestRelevance:
@@ -112,7 +111,7 @@ class TestRelevance:
     def test_relevance_check(self):
         """Verify relevance checking works."""
         import relevance
-        
+
         # Test with relevant content
         assert relevance.is_relevant(
             "고윤정 드라마 인터뷰",
@@ -120,7 +119,7 @@ class TestRelevance:
             "News",
             "고윤정 배우 인터뷰 내용"
         )
-        
+
         # Test with irrelevant content
         # Should not crash
         result = relevance.is_relevant(
@@ -170,7 +169,7 @@ class TestPerfectScorecard:
         """Verify scorecard can be generated."""
         BASE = Path(__file__).parent.parent
         scorecard_file = BASE / "pages" / "perfect-scorecard.md"
-        
+
         # Scorecard should exist and have content
         if scorecard_file.exists():
             content = scorecard_file.read_text(encoding="utf-8")
@@ -195,7 +194,8 @@ class TestBackup:
     def test_backup_manager_exists(self):
         """Verify backup manager exists."""
         import backup_manager
-        assert hasattr(backup_manager, 'create_backup')
+        assert hasattr(backup_manager, "BackupManager")
+        assert hasattr(backup_manager.BackupManager, "create_incremental_backup")
 
 
 class TestLockManager:
@@ -213,7 +213,7 @@ class TestSecurity:
     def test_url_validation(self):
         """Verify URL validation works."""
         from security import validate_url
-        
+
         assert validate_url("https://example.com") is True
         assert validate_url("http://test.com") is True
         assert validate_url("not-a-url") is False
@@ -222,14 +222,14 @@ class TestSecurity:
     def test_email_validation(self):
         """Verify email validation works."""
         from security import validate_email
-        
+
         assert validate_email("test@example.com") is True
         assert validate_email("invalid") is False
 
     def test_html_sanitization(self):
         """Verify HTML sanitization works."""
-        from security import sanitize_html, escape_html
-        
+        from security import sanitize_html
+
         # Should not crash
         result = sanitize_html("<script>alert('xss')</script>")
         assert "<script>" not in result

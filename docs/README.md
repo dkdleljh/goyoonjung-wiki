@@ -14,7 +14,8 @@
 3. 시스템 구조: [`ARCHITECTURE.md`](ARCHITECTURE.md)
 4. 점수 체계: [`scoring.md`](scoring.md)
 5. 릴리즈/태그 규칙: [`RELEASING.md`](RELEASING.md)
-6. CHANGELOG 생성: `python3 scripts/generate_changelog.py`
+6. 배포/무인 실행(systemd): [`automation-deployment.md`](automation-deployment.md)
+7. CHANGELOG 생성: `python3 scripts/generate_changelog.py`
 
 ## Perfect Scorecard 관련 문서
 

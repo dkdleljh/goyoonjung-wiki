@@ -1,0 +1,14 @@
+[Unit]
+Description=goyoonjung-wiki daily automation run
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/zenith/바탕화면/goyoonjung-wiki
+ExecStart=/usr/bin/env bash /home/zenith/바탕화면/goyoonjung-wiki/scripts/run_daily_update.sh
+Environment=TZ=Asia/Seoul
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

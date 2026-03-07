@@ -14,7 +14,8 @@ Project Goals:
 3. System Architecture: [`ARCHITECTURE.md`](ARCHITECTURE.md)
 4. Scoring System: [`scoring.md`](scoring.md)
 5. Release/Tag Rules: [`RELEASING.md`](RELEASING.md)
-6. Changelog Generation: `python3 scripts/generate_changelog.py`
+6. Deployment/Unattended runtime (systemd): [`automation-deployment.md`](automation-deployment.md)
+7. Changelog Generation: `python3 scripts/generate_changelog.py`
 
 ## Perfect Scorecard Documentation
 

@@ -13,7 +13,6 @@ This script is conservative:
 
 from __future__ import annotations
 
-import os
 import re
 import subprocess
 from datetime import datetime

@@ -507,8 +507,9 @@ MSG="daily: update ${TODAY}"
 # One-commit-per-day policy (recommended):
 # If the last commit is already today's daily update, amend instead of creating a new commit.
 # This avoids "daily: update YYYY-MM-DD" spam while still pushing the latest state.
-SQUASH_DAILY=${SQUASH_DAILY:-1}
-if [ "$SQUASH_DAILY" = "1" ] && git log -1 --format=%s | grep -qx "$MSG"; then
+SQUASH_DAILY=${SQUASH_DAILY:-0}
+ALLOW_HISTORY_REWRITE=${ALLOW_HISTORY_REWRITE:-0}
+if [ "$SQUASH_DAILY" = "1" ] && [ "$ALLOW_HISTORY_REWRITE" = "1" ] && git log -1 --format=%s | grep -qx "$MSG"; then
   git commit --amend --no-edit >/dev/null
   PUSH_FORCE=1
 else

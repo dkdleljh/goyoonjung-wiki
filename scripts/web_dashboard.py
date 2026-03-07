@@ -127,11 +127,11 @@ def get_collector_status() -> list[CollectorStatus]:
     ]
 
     status_list = []
-    
+
     # Read actual status from daily-report.md
     daily_report_path = Path(BASE) / "pages" / "daily-report.md"
     status_cache = {}
-    
+
     if daily_report_path.exists():
         try:
             content = daily_report_path.read_text(encoding="utf-8")
@@ -160,7 +160,7 @@ def get_collector_status() -> list[CollectorStatus]:
 
     for collector in collectors:
         cached_status = status_cache.get(collector, "unknown")
-        
+
         # Try to get more accurate status from news files
         if cached_status == "unknown":
             # Check if there's a recent execution log

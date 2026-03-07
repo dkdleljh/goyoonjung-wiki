@@ -14,8 +14,8 @@ OUT = BASE / "pages" / "kpi-report.md"
 DB = BASE / "data" / "wiki.db"
 
 
-def q1(cur: sqlite3.Cursor, sql: str) -> int:
-    cur.execute(sql)
+def q1(cur: sqlite3.Cursor, sql: str, params: tuple = ()) -> int:
+    cur.execute(sql, params)
     row = cur.fetchone()
     return int(row[0] if row and row[0] is not None else 0)
 
@@ -29,39 +29,49 @@ def main() -> int:
     con.execute("PRAGMA busy_timeout = 30000")
     cur = con.cursor()
 
-    # IMPORTANT: avoid date(created_at) wrappers; they defeat indexes and can cause
-    # full scans as the DB grows.
-    day_start = "datetime('now','localtime','start of day')"
-    day_end = "datetime('now','localtime','start of day','+1 day')"
-
     new_urls = q1(
         cur,
-        f"SELECT count(*) FROM seen_urls WHERE first_seen_at >= {day_start} AND first_seen_at < {day_end}",
+        """
+        SELECT count(*)
+        FROM seen_urls
+        WHERE first_seen_at >= datetime('now','localtime','start of day')
+          AND first_seen_at < datetime('now','localtime','start of day','+1 day')
+        """,
     )
     landed_urls = q1(
         cur,
-        f"""
+        """
         SELECT count(*) FROM url_events
-        WHERE created_at >= {day_start} AND created_at < {day_end}
+        WHERE created_at >= datetime('now','localtime','start of day')
+          AND created_at < datetime('now','localtime','start of day','+1 day')
           AND decision = 'landed'
-        """ ,
+        """,
     )
-    total_events = q1(cur, f"SELECT count(*) FROM url_events WHERE created_at >= {day_start} AND created_at < {day_end}")
+    total_events = q1(
+        cur,
+        """
+        SELECT count(*) FROM url_events
+        WHERE created_at >= datetime('now','localtime','start of day')
+          AND created_at < datetime('now','localtime','start of day','+1 day')
+        """,
+    )
     duplicate_events = q1(
         cur,
-        f"""
+        """
         SELECT count(*) FROM url_events
-        WHERE created_at >= {day_start} AND created_at < {day_end}
+        WHERE created_at >= datetime('now','localtime','start of day')
+          AND created_at < datetime('now','localtime','start of day','+1 day')
           AND is_duplicate = 1
-        """ ,
+        """,
     )
     duplicate_rate = (duplicate_events / total_events) if total_events else 0.0
 
     cur.execute(
-        f"""
+        """
         SELECT grade, count(*)
         FROM url_events
-        WHERE created_at >= {day_start} AND created_at < {day_end}
+        WHERE created_at >= datetime('now','localtime','start of day')
+          AND created_at < datetime('now','localtime','start of day','+1 day')
           AND is_duplicate = 0
           AND decision IN ('landed', 'queue', 'pool')
         GROUP BY grade
@@ -96,4 +106,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
