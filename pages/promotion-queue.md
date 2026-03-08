@@ -1,6 +1,6 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-03-08 06:20 (Asia/Seoul)
+> Updated: 2026-03-08 12:37 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - (없음)
