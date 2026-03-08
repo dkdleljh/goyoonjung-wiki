@@ -36,7 +36,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-03-09 00:08 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-03-09 06:13 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -78,7 +78,7 @@
 
 - [(인터뷰) '무빙' 고윤정 "갖고 싶은 능력? 날라다니고 싶죠"](https://www.newstomato.com/ReadNews.aspx?no=1199951)  _(출처: interviews.md)_
 
-- ['마니또 클럽' 고윤정, 나, 미대 나온 여자야~](https://kstar.kbs.co.kr/list_view.html?idx=393465)  _(출처: appearances.md)_
+- [고윤정, 말간 얼굴의 ‘도끼 PD’ (JTBC ‘모두가 자신의 무가치함과 싸우고 있다’)](https://kstar.kbs.co.kr/list_view.html?idx=394652)  _(출처: appearances.md)_
 
 - [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)  _(출처: appearances.md)_
 
