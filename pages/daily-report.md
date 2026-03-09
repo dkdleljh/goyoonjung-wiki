@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-09 18:29 (Asia/Seoul)
+> 갱신: 2026-03-10 00:06 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- cb776c28 2026-03-09 12:25:15 +0900 daily: update 2026-03-09
+- 225f28e8 2026-03-09 18:30:00 +0900 daily: update 2026-03-09
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -12,7 +12,6 @@
 - pages/candidate-pool.md
 - pages/daily-report.md
 - pages/kpi-report.md
-- pages/perfect-scorecard.md
 - pages/progress.md
 - pages/promotion-queue.md
 - pages/system_status.md
@@ -21,7 +20,7 @@
 - pages/works/moving.md
 - sources/awards-official.md
 
-## 3) 오늘 실행 상태(news/2026-03-09.md)
+## 3) 오늘 실행 상태(news/2026-03-10.md)
 
 ## 실행 상태
 
@@ -37,7 +36,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/142)
+- duplicate_rate: 0.00% (0/0)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
