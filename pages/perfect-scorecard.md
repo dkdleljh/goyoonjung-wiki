@@ -4,7 +4,7 @@
 
 ## Snapshot
 - pages_total: 105
-- urls_total(markdown): 3501
+- urls_total(markdown): 3503
 - seen_urls(db): 267
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
@@ -29,7 +29,7 @@
 
 - C_current: 100  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 3501  (markdown URL count)
+- urls_total: 3503  (markdown URL count)
 - seen_urls_db: 267  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 15  (pages/works/*.md)
@@ -50,7 +50,7 @@
 - 97: pages/pictorials/editorial.md
 - 66: pages/pictorials/by-year.md
 - 55: pages/interviews/by-year.md
-- 46: pages/appearances.md
+- 48: pages/appearances.md
 - 44: pages/pictorials/campaign.md
 - 44: pages/pictorials/stills-posters.md
 

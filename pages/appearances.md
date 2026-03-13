@@ -89,6 +89,15 @@
 - 상태: 보도(1차)
 - id: https://kstar.kbs.co.kr/list_view.html?idx=394652
 - 메모: 보도(1차). 사진/스틸 포함 가능.
+
+- 날짜: 2026-03-13
+- 구분: 기타(보도/홍보)
+- 프로그램/행사명: 고윤정도 싸우고 있다... JTBC 드라마 모두가 자신의 무가치함과...
+- 플랫폼/방송사: KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=395293
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=395293
+- 메모: 보도(1차). 사진/스틸 포함 가능.
 ## 공식 링크
 - (S) 소속사(MAA) 프로필(필모/공식 활동): https://maa.co.kr/artists/go-younjung
 - (A/S) YouTube(tvN/Netflix/Disney+ Korea 등 공식 채널) 링크는 항목별 `링크(공식/원문)`에 기록

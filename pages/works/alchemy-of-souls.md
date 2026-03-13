@@ -35,7 +35,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-03-13 06:21 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-03-13 12:28 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -67,7 +67,7 @@
 
 - ['환혼' 고윤정 "이재욱, 키 크고 목소리 좋아..키스신 때 너무 떨렸다"](https://news.zum.com/articles/80262487)  _(출처: interviews.md)_
 
-- [고윤정, 말간 얼굴의 ‘도끼 PD’ (JTBC ‘모두가 자신의 무가치함과 싸우고 있다’)](https://kstar.kbs.co.kr/list_view.html?idx=394652)  _(출처: appearances.md)_
+- [고윤정도 싸우고 있다... JTBC 드라마 모두가 자신의 무가치함과...](https://kstar.kbs.co.kr/list_view.html?idx=395293)  _(출처: appearances.md)_
 
 - [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=361830)  _(출처: appearances.md)_
 
