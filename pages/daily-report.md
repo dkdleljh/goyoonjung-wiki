@@ -1,24 +1,14 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-15 00:11 (Asia/Seoul)
+> 갱신: 2026-03-15 06:17 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 6ae0b419 2026-03-14 18:27:26 +0900 daily: update 2026-03-14
+- a3767fa5 2026-03-15 03:42:23 +0900 chore: link health 2026-03-15
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-03-14.md
-- pages/candidate-pool.md
-- pages/daily-report.md
-- pages/kpi-report.md
-- pages/progress.md
-- pages/promotion-queue.md
-- pages/system_status.md
-- pages/works/alchemy-of-souls.md
-- pages/works/hunt.md
-- pages/works/moving.md
-- sources/awards-official.md
+- pages/link-health.md
 
 ## 3) 오늘 실행 상태(news/2026-03-15.md)
 
