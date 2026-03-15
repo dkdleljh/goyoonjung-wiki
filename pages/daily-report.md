@@ -1,24 +1,14 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-15 12:22 (Asia/Seoul)
+> 갱신: 2026-03-15 18:28 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 1c31f760 2026-03-15 06:17:13 +0900 daily: update 2026-03-15
+- 58bba29e 2026-03-15 14:18:32 +0900 fix: test mocking for backup/lock system checks
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-03-15.md
-- pages/candidate-pool.md
-- pages/daily-report.md
-- pages/kpi-report.md
-- pages/link-health.md
-- pages/progress.md
-- pages/promotion-queue.md
-- pages/works/alchemy-of-souls.md
-- pages/works/hunt.md
-- pages/works/moving.md
-- sources/awards-official.md
+- scripts/final_verification.py
 
 ## 3) 오늘 실행 상태(news/2026-03-15.md)
 
@@ -36,7 +26,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/16)
+- duplicate_rate: 0.00% (0/44)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
