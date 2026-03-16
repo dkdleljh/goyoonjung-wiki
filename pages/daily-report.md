@@ -1,19 +1,23 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-17 00:09 (Asia/Seoul)
+> 갱신: 2026-03-17 06:19 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 36ecb2c4 2026-03-16 18:28:06 +0900 daily: update 2026-03-16
+- f2cb0ff2 2026-03-17 00:10:07 +0900 daily: update 2026-03-17
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - news/2026-03-16.md
+- news/2026-03-17.md
+- news/README.md
 - pages/candidate-pool.md
 - pages/daily-report.md
 - pages/kpi-report.md
+- pages/perfect-scorecard.md
 - pages/progress.md
 - pages/promotion-queue.md
+- pages/schedule.md
 - pages/system_status.md
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
