@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-03-21
+> Updated: 2026-03-22
 
 ## wiki_completeness: **82/100**
 
@@ -20,7 +20,7 @@ lint-report: OK
 
 ## link_health: **100/100**
 
-counts: ok=249 warn=1 bad=0
+counts: ok=250 warn=0 bad=0
 warn_budget=20
 
 ## automation_health: **100/100**
@@ -38,7 +38,7 @@ check_automation_health: OK
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/60)
+- duplicate_rate: 0.00% (0/0)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
