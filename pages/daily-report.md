@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-25 12:21 (Asia/Seoul)
+> 갱신: 2026-03-25 18:28 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 7c25c85b 2026-03-25 06:17:38 +0900 daily: update 2026-03-25
+- 146431a0 2026-03-25 12:21:49 +0900 daily: update 2026-03-25
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -14,6 +14,7 @@
 - pages/kpi-report.md
 - pages/progress.md
 - pages/promotion-queue.md
+- pages/system_status.md
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
 - pages/works/moving.md
@@ -35,7 +36,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/9)
+- duplicate_rate: 0.00% (0/13)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
