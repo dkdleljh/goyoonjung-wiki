@@ -23,7 +23,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-03-13 12:28 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-03-26 12:20 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 전체 후보
 
@@ -59,7 +59,7 @@
 
 - [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)  _(출처: appearances.md)_
 
-- [고윤정도 싸우고 있다... JTBC 드라마 모두가 자신의 무가치함과...](https://kstar.kbs.co.kr/list_view.html?idx=395293)  _(출처: appearances.md)_
+- ['무가치함과 싸우고 있는' 구교환-고윤정.. 파워 포스터](https://kstar.kbs.co.kr/list_view.html?idx=396661)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

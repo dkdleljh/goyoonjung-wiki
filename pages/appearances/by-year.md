@@ -6,6 +6,7 @@
 ---
 
 ## 2026
+- 2026-03-26 · ['무가치함과 싸우고 있는' 구교환-고윤정.. 파워 포스터](https://kstar.kbs.co.kr/list_view.html?idx=396661)
 - 2026-03-13 · [고윤정도 싸우고 있다... JTBC 드라마 모두가 자신의 무가치함과...](https://kstar.kbs.co.kr/list_view.html?idx=395293)
 - 2026-03-09 · [고윤정, 말간 얼굴의 ‘도끼 PD’ (JTBC ‘모두가 자신의 무가치함과 싸우고 있다’)](https://kstar.kbs.co.kr/list_view.html?idx=394652)
 - 2026-02-22 · ['마니또 클럽' 고윤정, 나, 미대 나온 여자야~](https://kstar.kbs.co.kr/list_view.html?idx=393465)
