@@ -1,30 +1,26 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-27 17:51 (Asia/Seoul)
+> 갱신: 2026-03-27 17:53 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 5e5ace1a 2026-03-27 17:49:51 +0900 daily: update 2026-03-27
+- ba58b5e6 2026-03-27 17:51:17 +0900 daily: update 2026-03-27
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- .makemd/fileCache.mdc
-- .makemd/superstate.mdc
-- .space/waypoints.json
 - news/2026-03-27.md
 - pages/candidate-pool.md
 - pages/daily-report.md
 - pages/kpi-report.md
-- pages/lint-report.md
+- pages/perfect-scorecard.md
 - pages/progress.md
-- pages/quality-report.md
+- pages/promotion-queue.md
 - pages/system_status.md
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
 - pages/works/moving.md
-- scripts/__pycache__/config_loader.cpython-314.pyc
-- scripts/__pycache__/db_manager.cpython-314.pyc
 - scripts/run_daily_update.sh
+- scripts/timeout
 - sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-03-27.md)
@@ -43,7 +39,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/9)
+- duplicate_rate: 0.00% (0/18)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
