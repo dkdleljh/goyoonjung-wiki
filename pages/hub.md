@@ -11,6 +11,16 @@
 - [시스템 상태](system_status.md)
 - [Perfect Scorecard](perfect-scorecard.md)
 
+## 운영 상태표
+| 항목 | 값 |
+|---|---|
+| 최신 커밋 | `389eaf44` |
+| 최신 릴리즈 태그 | `v1.5.1` |
+| docs 문서 수 | `17` |
+| 운영 페이지 수 | `7` |
+| 문서 생성기 | `scripts/generate_doc_portals.py` |
+| daily update | `scripts/run_daily_update.sh` |
+
 ## 콘텐츠 핵심 링크
 - [프로필](profile.md)
 - [필모그래피](filmography.md)

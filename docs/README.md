@@ -9,6 +9,11 @@
 - [scoring.md](scoring.md)
 - [ux-automation-system.md](ux-automation-system.md)
 
+## 문서 상태 요약
+- docs 문서 수: `17`
+- 운영 핵심 페이지 수: `7`
+- 최신 릴리즈 태그: `v1.5.1`
+
 ## 연결 문서
 - [루트 README](../README.md)
 - [메인 인덱스](../index.md)

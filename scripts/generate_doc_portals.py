@@ -9,6 +9,9 @@ from datetime import datetime
 from pathlib import Path
 
 
+OWNER = "dkdleljh"
+REPO_NAME = "goyoonjung-wiki"
+REPO_URL = f"https://github.com/{OWNER}/{REPO_NAME}"
 SEMVER_RE = re.compile(r"^v(\d+)\.(\d+)\.(\d+)$")
 
 
@@ -28,6 +31,18 @@ def latest_tags(repo: Path, limit: int = 3) -> list[str]:
     return tags
 
 
+def recent_commits(repo: Path, limit: int = 5) -> list[tuple[str, str]]:
+    out = subprocess.check_output(
+        ["git", "log", f"--pretty=format:%h%x09%s", f"-n{limit}"], cwd=repo, text=True
+    )
+    rows: list[tuple[str, str]] = []
+    for line in out.splitlines():
+        if "\t" in line:
+            sha, subject = line.split("\t", 1)
+            rows.append((sha.strip(), subject.strip()))
+    return rows
+
+
 def md_links(paths: list[Path], base: Path, current: Path) -> list[str]:
     lines: list[str] = []
     for p in sorted(paths):
@@ -37,9 +52,18 @@ def md_links(paths: list[Path], base: Path, current: Path) -> list[str]:
     return lines
 
 
+def commit_url(sha: str) -> str:
+    return f"{REPO_URL}/commit/{sha}"
+
+
+def bullets(lines: list[str], empty: str) -> str:
+    return "\n".join(lines) if lines else empty
+
+
 def main() -> int:
     repo = Path(sh(["git", "rev-parse", "--show-toplevel"], Path.cwd()))
     today = datetime.now().strftime("%Y-%m-%d")
+    head = sh(["git", "rev-parse", "--short", "HEAD"], repo)
     tags = latest_tags(repo, 3)
     latest_tag = tags[0] if tags else "(none)"
     docs_dir = repo / "docs"
@@ -53,14 +77,38 @@ def main() -> int:
         repo / "pages" / "lint-report.md",
         repo / "pages" / "quality-report.md",
     ]
-    tag_lines: list[str] = []
-    for tag in tags:
-        tag_lines.append(f"- `{tag}`")
-        tag_lines.append(f"  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/{tag}")
-        tag_lines.append(f"  - 로컬 노트: `logs/releases/release-notes-{tag}.md`")
+    recent = recent_commits(repo, 5)
+
+    tag_lines = [
+        f"- `{tag}`\n  - GitHub Release: {REPO_URL}/releases/tag/{tag}\n  - 로컬 노트: `logs/releases/release-notes-{tag}.md`"
+        for tag in tags
+    ]
+    recent_lines = [f"- [`{sha}`]({commit_url(sha)}) — {subject}" for sha, subject in recent]
+
+    status_rows = [
+        "| 항목 | 값 |",
+        "|---|---|",
+        f"| 최신 커밋 | `{head}` |",
+        f"| 최신 릴리즈 태그 | `{latest_tag}` |",
+        f"| docs 문서 수 | `{len(docs_files)}` |",
+        f"| 운영 페이지 수 | `{len([p for p in key_pages if p.exists()])}` |",
+        "| 문서 생성기 | `scripts/generate_doc_portals.py` |",
+        "| daily update | `scripts/run_daily_update.sh` |",
+    ]
+
+    badge_block = " ".join(
+        [
+            f"![Repo](https://img.shields.io/badge/repo-{REPO_NAME}-111827?style=flat-square)",
+            f"![Latest Tag](https://img.shields.io/badge/latest-{latest_tag}-2563eb?style=flat-square)",
+            f"![Docs](https://img.shields.io/badge/docs-{len(docs_files)}-059669?style=flat-square)",
+            "![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)",
+        ]
+    )
 
     files: dict[Path, str] = {
         repo / "README.md": f"""# 고윤정 위키 (Go Youn-jung Wiki)
+
+{badge_block}
 
 > 자동 생성 포털 문서 · 마지막 갱신: {today}
 
@@ -75,6 +123,9 @@ def main() -> int:
 - 시스템 상태: [`pages/system_status.md`](pages/system_status.md)
 - Perfect Scorecard: [`pages/perfect-scorecard.md`](pages/perfect-scorecard.md)
 
+## 상태 요약
+{chr(10).join(status_rows)}
+
 ## 현재 자동화 범위
 - daily update
 - automation health 검사
@@ -84,7 +135,10 @@ def main() -> int:
 - release notes 자산 업로드
 
 ## 최신 릴리즈
-{chr(10).join(tag_lines) if tag_lines else '- 아직 릴리즈 태그가 없습니다.'}
+{bullets(tag_lines, '- 아직 릴리즈 태그가 없습니다.')}
+
+## 최근 변경 요약
+{bullets(recent_lines, '- 최근 커밋 정보가 없습니다.')}
 
 ## 자주 쓰는 명령
 ```bash
@@ -115,6 +169,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 ## 최신 릴리즈
 - 최신 태그: `{latest_tag}`
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
+
+## 최근 변경 5개
+{bullets(recent_lines, '- 최근 커밋 정보가 없습니다.')}
 """,
         repo / "docs" / "README.md": f"""# docs/ 문서 포털
 
@@ -127,6 +184,11 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [scoring.md](scoring.md)
 - [ux-automation-system.md](ux-automation-system.md)
 
+## 문서 상태 요약
+- docs 문서 수: `{len(docs_files)}`
+- 운영 핵심 페이지 수: `{len([p for p in key_pages if p.exists()])}`
+- 최신 릴리즈 태그: `{latest_tag}`
+
 ## 연결 문서
 - [루트 README](../README.md)
 - [메인 인덱스](../index.md)
@@ -135,17 +197,20 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [Perfect Scorecard](../pages/perfect-scorecard.md)
 
 ## 전체 docs 목록
-{chr(10).join(md_links(docs_files, repo, repo / 'docs' / 'README.md')) if docs_files else '- 문서가 없습니다.'}
+{bullets(md_links(docs_files, repo, repo / 'docs' / 'README.md'), '- 문서가 없습니다.')}
 """,
         repo / "CHANGELOG.md": f"""# CHANGELOG
 
 > 자동 생성 요약 changelog · 마지막 갱신: {today}
 
 ## 최신 릴리즈
-{chr(10).join(tag_lines) if tag_lines else '- 아직 릴리즈 태그가 없습니다.'}
+{bullets(tag_lines, '- 아직 릴리즈 태그가 없습니다.')}
+
+## 최근 변경 요약
+{bullets(recent_lines, '- 최근 커밋 정보가 없습니다.')}
 
 ## 상세 확인 위치
-- GitHub Releases: https://github.com/dkdleljh/goyoonjung-wiki/releases
+- GitHub Releases: {REPO_URL}/releases
 - 로컬 release notes: `logs/releases/`
 - 릴리즈 정책: [`docs/RELEASING.md`](docs/RELEASING.md)
 """,
@@ -162,6 +227,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [시스템 상태](system_status.md)
 - [Perfect Scorecard](perfect-scorecard.md)
 
+## 운영 상태표
+{chr(10).join(status_rows)}
+
 ## 콘텐츠 핵심 링크
 - [프로필](profile.md)
 - [필모그래피](filmography.md)
@@ -172,7 +240,7 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [스케줄](schedule.md)
 
 ## 운영 핵심 페이지
-{chr(10).join(md_links([p for p in key_pages if p.exists()], repo, repo / 'pages' / 'hub.md'))}
+{bullets(md_links([p for p in key_pages if p.exists()], repo, repo / 'pages' / 'hub.md'), '- 문서가 없습니다.')}
 """,
         repo / "pages" / "hub.en.md": f"""# 🧭 Go Youn-jung Wiki Hub
 
@@ -187,6 +255,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [System status](system_status.md)
 - [Perfect Scorecard](perfect-scorecard.md)
 
+## Status table
+{chr(10).join(status_rows)}
+
 ## Core content
 - [Profile](profile.md)
 - [Filmography](filmography.md)
@@ -197,7 +268,7 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [Schedule](schedule.md)
 
 ## Ops pages
-{chr(10).join(md_links([p for p in key_pages if p.exists()], repo, repo / 'pages' / 'hub.en.md'))}
+{bullets(md_links([p for p in key_pages if p.exists()], repo, repo / 'pages' / 'hub.en.md'), '- No documents found.')}
 """,
     }
 
