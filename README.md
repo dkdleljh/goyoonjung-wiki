@@ -1,82 +1,161 @@
 # 고윤정 위키 (Go Youn-jung Wiki)
 
-고윤정 위키는 두 가지 목표를 중심으로 운영됩니다.
+이 프로젝트는 **고윤정 관련 공개 정보를 장기적으로 축적하는 링크 중심 위키**이면서, 동시에 **완전 무인 자동화에 최대한 가깝게 운영되는 실전형 자동화 저장소**입니다.
 
-- 콘텐츠 목표: **"고윤정의 과거/현재/미래의 모든 것을 담는 위키"**
-- 운영 목표: **"완벽한 무인 자동화"**
+핵심 목표는 두 가지입니다.
 
-이 저장소는 링크 중심(저작권 안전) 아카이브 방식으로, 작품/인터뷰/화보/광고/출연/일정 정보를 장기적으로 누적합니다.
+1. **콘텐츠 목표**  
+   고윤정의 과거·현재·미래와 관련된 작품, 인터뷰, 화보, 광고, 일정, 활동 기록을 장기적으로 축적합니다.
 
-## 빠른 시작
+2. **운영 목표**  
+   수집, 정리, 검증, 점수화, 릴리즈, GitHub 반영까지 가능한 한 자동으로 돌아가게 만듭니다.
 
-- 한국어 메인 인덱스: [`index.md`](index.md)
-- English main index: [`index.en.md`](index.en.md)
-- 허브(포털): [`pages/hub.md`](pages/hub.md)
-- Hub (English): [`pages/hub.en.md`](pages/hub.en.md)
-- 자동화 시스템 설명: [`docs/ux-automation-system.md`](docs/ux-automation-system.md)
-- 일일 리포트: [`pages/daily-report.md`](pages/daily-report.md)
-- 검증 큐(자동): [`pages/verification-queue.md`](pages/verification-queue.md)
+> 2026-03-27 기준 이 저장소는 daily update, health check, stale lock 정리, changelog 생성, semver 릴리즈, GitHub Release 자산 업로드까지 자동화되어 있습니다.
 
-## Perfect Scorecard 안내
+---
 
-Perfect Scorecard는 시스템/콘텐츠 상태를 4축으로 보여주는 운영 점수판입니다.
+## 1. 프로젝트 철학
 
-- 위치: [`pages/perfect-scorecard.md`](pages/perfect-scorecard.md)
-- 생성 스크립트: `python3 scripts/compute_perfect_scorecard.py`
+이 저장소는 “많이 모으는 것”만 목표로 하지 않습니다.
 
-A/B/C/D 의미:
+아래 네 가지를 동시에 만족시키는 것을 지향합니다.
 
-- **A. Perfect wiki coverage system**: 채널/랜딩/탐지 체계가 얼마나 갖춰졌는지
-- **B. Perfect unmanned automation**: 무인 파이프라인, 복원력, 관측성이 얼마나 갖춰졌는지
-- **C. Unbeatable information volume**: 실제 축적 규모(시간이 지나며 증가)
-- **D. Perfect quality**: 품질 부채/링크 상태/린트/출처 체계
+- **저작권 안전**: 원문 복사보다 링크와 메타데이터를 우선
+- **출처 신뢰성**: 공식/1차 출처 우선
+- **운영 안정성**: 실패해도 복구 가능한 구조
+- **지속 가능성**: 사람이 매번 붙지 않아도 굴러가는 체계
 
-중요:
+---
 
-- 점수 100은 "시스템 준비도/현재 상태"를 의미합니다.
-- **현실의 모든 정보를 100% 완전하게 수집했다는 것을 수학적으로 증명할 수는 없습니다.**
-- 따라서 이 프로젝트는 "장기 누적 + 낮은 부채 + 높은 신뢰성"을 목표로 최적화합니다.
+## 2. 빠른 시작
 
-## 자동화 파이프라인 (High-level)
+### 문서부터 볼 때
+- 메인 허브: [`pages/hub.md`](pages/hub.md)
+- 운영 상태: [`pages/system_status.md`](pages/system_status.md)
+- 일일 결과: [`pages/daily-report.md`](pages/daily-report.md)
+- 완성도 점수: [`pages/perfect-scorecard.md`](pages/perfect-scorecard.md)
+- 문서 포털: [`docs/README.md`](docs/README.md)
 
-상세 문서: [`docs/ux-automation-system.md`](docs/ux-automation-system.md)
-
-1. **Daily update**
-- 메인 러너: `scripts/run_daily_update.sh`
-- 수집/정리/승격/리포트/인덱스 갱신을 일일 루프로 실행
-- 결과 기록: `news/YYYY-MM-DD.md`, `pages/daily-report.md`
-
-2. **Backfill**
-- 마이크로 배치: `scripts/run_backfill_micro.sh`
-- 슬라이스 실행: `scripts/run_backfill_slice.sh`, `scripts/run_backfill_slice_core.sh`, `scripts/run_backfill_slice_i18n.sh`
-- 주간 러너: `scripts/run_weekly_backfill.sh`
-
-3. **Resilience / Observability**
-- 건강 점검: `scripts/check_automation_health.sh`
-- 점수판 계산: `scripts/compute_perfect_scorecard.py`
-- 운영 상태: `pages/system_status.md`, `pages/lint-report.md`, `pages/quality-report.md`
-
-## 로컬 점검 명령
-
+### 자동화 상태부터 볼 때
 ```bash
-make venv
-make check
-python3 scripts/generate_changelog.py
-./scripts/check_automation_health.sh
-python3 scripts/compute_perfect_scorecard.py
+cd /Users/zenith/Documents/My-Second-Brain/20_Projects/Goyoonjung-Wiki
+bash scripts/check_automation_health.sh
+python3 scripts/wiki_score.py
 ```
 
-## 문서 맵
+---
 
-- 기여 가이드: [`CONTRIBUTING.md`](CONTRIBUTING.md)
-- 문서 포털: [`docs/README.md`](docs/README.md)
-- 아키텍처: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
-- 운영 가이드: [`docs/OPERATION_GUIDE.md`](docs/OPERATION_GUIDE.md)
-- 점수 체계: [`docs/scoring.md`](docs/scoring.md)
-- 릴리즈/태그 규칙: [`docs/RELEASING.md`](docs/RELEASING.md)
+## 3. 실제 운영 파이프라인
 
-## 운영 원칙
+### 3-1. Daily update
+메인 엔트리포인트:
+- `scripts/run_daily_update.sh`
 
-- 루머/사생활/추측은 기록하지 않습니다.
-- 원문 복사보다 링크 + 메타데이터를 우선합니다.
-- 공식/1차 출처를 우선하고, 근거 수준을 명시합니다.
+이 스크립트는 대략 다음을 수행합니다.
+
+- 수집기 실행
+- 각종 후보/큐 갱신
+- status/dashboard/lint/quality 관련 산출물 재생성
+- 백업
+- 커밋/푸시
+- changelog/release 자동화
+
+### 3-2. Health / Observability
+- 헬스체크: `scripts/check_automation_health.sh`
+- 점수 계산: `scripts/wiki_score.py`
+- 상태 문서:
+  - `pages/system_status.md`
+  - `pages/lint-report.md`
+  - `pages/quality-report.md`
+  - `pages/kpi-report.md`
+
+### 3-3. Release automation
+- 스크립트: `scripts/auto_release.sh`
+- 현재 규칙: `vMAJOR.MINOR.PATCH`
+- 산출물:
+  - Git tag
+  - GitHub Release
+  - `logs/releases/release-notes-<tag>.md`
+  - release notes 자산 업로드
+
+---
+
+## 4. 현재 설치된 무인 실행 스케줄
+
+macOS 크론 기준 실제 연결된 주요 작업:
+
+- 매일 `17:53` : `scripts/run_daily_update.sh`
+- 매일 `18:10` : `scripts/check_automation_health.sh`
+- 매시 `40분` : `scripts/cleanup_stale_running.sh`
+
+즉, 이 저장소는 **하루 한 번 메인 갱신**, **후속 건강 점검**, **잠금/비정상 상태 정리**가 자동으로 이어집니다.
+
+---
+
+## 5. 현재 릴리즈 체계
+
+최근 자동 릴리즈 예시는 다음과 같습니다.
+
+- `v1.3.0`
+- `v1.3.1`
+
+릴리즈 노트에는 아래 정보가 자동 포함됩니다.
+
+- Summary
+- Impact
+- Validation
+- Risk
+- Rollback
+- Changes
+- Assets
+
+관련 파일:
+- `docs/RELEASING.md`
+- `scripts/auto_release.sh`
+- `logs/releases/`
+
+---
+
+## 6. 자주 쓰는 명령
+
+```bash
+# 환경 준비
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt -r requirements-dev.txt
+
+# 핵심 점검
+bash scripts/check_automation_health.sh
+python3 scripts/wiki_score.py
+python3 scripts/generate_changelog.py
+
+# 실제 daily 실행
+FORCE=1 ./scripts/run_daily_update.sh
+```
+
+---
+
+## 7. 문서 안내
+
+- 아키텍처: `docs/ARCHITECTURE.md`
+- 운영 가이드: `docs/OPERATION_GUIDE.md`
+- 릴리즈 정책: `docs/RELEASING.md`
+- 점수 체계: `docs/scoring.md`
+- 자동화 설명: `docs/ux-automation-system.md`
+
+---
+
+## 8. 운영 원칙
+
+- 루머/사생활/무근거 추측은 기록하지 않습니다.
+- 공식·1차 출처를 우선합니다.
+- 링크가 살아 있는지, 문서가 재생성 가능한지, 자동화가 실제 도는지를 중요하게 봅니다.
+- 문서와 코드는 함께 갱신합니다.
+
+---
+
+## 9. 한 줄 요약
+
+이 저장소는 단순 팬 위키가 아니라,
+**콘텐츠 축적 + 검증 + 운영 자동화 + 릴리즈 기록**이 결합된 장기 운영형 링크 아카이브 시스템입니다.
+
