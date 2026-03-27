@@ -98,6 +98,8 @@ main() {
     exit 0
   fi
 
+  git fetch --quiet origin --tags --prune >/dev/null 2>&1 || true
+
   local last_tag
   last_tag=$(latest_semver_tag)
   if [ -z "$last_tag" ]; then
