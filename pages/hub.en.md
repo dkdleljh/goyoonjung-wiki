@@ -19,3 +19,12 @@
 - [Pictorials](pictorials.md)
 - [Endorsements](endorsements.md)
 - [Schedule](schedule.md)
+
+## Ops pages
+- [`pages/daily-report.md`](daily-report.md)
+- [`pages/hub.en.md`](hub.en.md)
+- [`pages/hub.md`](hub.md)
+- [`pages/lint-report.md`](lint-report.md)
+- [`pages/perfect-scorecard.md`](perfect-scorecard.md)
+- [`pages/quality-report.md`](quality-report.md)
+- [`pages/system_status.md`](system_status.md)

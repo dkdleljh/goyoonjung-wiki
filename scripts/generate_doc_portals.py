@@ -28,12 +28,32 @@ def latest_tags(repo: Path, limit: int = 3) -> list[str]:
     return tags
 
 
+def md_links(paths: list[Path], base: Path, current: Path) -> list[str]:
+    lines: list[str] = []
+    for p in sorted(paths):
+        label = p.relative_to(base).as_posix()
+        target = p.relative_to(current.parent).as_posix()
+        lines.append(f"- [`{label}`]({target})")
+    return lines
+
+
 def main() -> int:
     repo = Path(sh(["git", "rev-parse", "--show-toplevel"], Path.cwd()))
     today = datetime.now().strftime("%Y-%m-%d")
     tags = latest_tags(repo, 3)
     latest_tag = tags[0] if tags else "(none)"
-    tag_lines = []
+    docs_dir = repo / "docs"
+    docs_files = [p for p in docs_dir.glob("*.md") if p.name != "README.md"]
+    key_pages = [
+        repo / "pages" / "hub.md",
+        repo / "pages" / "hub.en.md",
+        repo / "pages" / "system_status.md",
+        repo / "pages" / "perfect-scorecard.md",
+        repo / "pages" / "daily-report.md",
+        repo / "pages" / "lint-report.md",
+        repo / "pages" / "quality-report.md",
+    ]
+    tag_lines: list[str] = []
     for tag in tags:
         tag_lines.append(f"- `{tag}`")
         tag_lines.append(f"  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/{tag}")
@@ -64,7 +84,7 @@ def main() -> int:
 - release notes 자산 업로드
 
 ## 최신 릴리즈
-{chr(10).join(tag_lines) if tag_lines else "- 아직 릴리즈 태그가 없습니다."}
+{chr(10).join(tag_lines) if tag_lines else '- 아직 릴리즈 태그가 없습니다.'}
 
 ## 자주 쓰는 명령
 ```bash
@@ -113,13 +133,16 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [허브](../pages/hub.md)
 - [시스템 상태](../pages/system_status.md)
 - [Perfect Scorecard](../pages/perfect-scorecard.md)
+
+## 전체 docs 목록
+{chr(10).join(md_links(docs_files, repo, repo / 'docs' / 'README.md')) if docs_files else '- 문서가 없습니다.'}
 """,
         repo / "CHANGELOG.md": f"""# CHANGELOG
 
 > 자동 생성 요약 changelog · 마지막 갱신: {today}
 
 ## 최신 릴리즈
-{chr(10).join(tag_lines) if tag_lines else "- 아직 릴리즈 태그가 없습니다."}
+{chr(10).join(tag_lines) if tag_lines else '- 아직 릴리즈 태그가 없습니다.'}
 
 ## 상세 확인 위치
 - GitHub Releases: https://github.com/dkdleljh/goyoonjung-wiki/releases
@@ -147,6 +170,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [화보](pictorials.md)
 - [광고](endorsements.md)
 - [스케줄](schedule.md)
+
+## 운영 핵심 페이지
+{chr(10).join(md_links([p for p in key_pages if p.exists()], repo, repo / 'pages' / 'hub.md'))}
 """,
         repo / "pages" / "hub.en.md": f"""# 🧭 Go Youn-jung Wiki Hub
 
@@ -169,6 +195,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [Pictorials](pictorials.md)
 - [Endorsements](endorsements.md)
 - [Schedule](schedule.md)
+
+## Ops pages
+{chr(10).join(md_links([p for p in key_pages if p.exists()], repo, repo / 'pages' / 'hub.en.md'))}
 """,
     }
 
