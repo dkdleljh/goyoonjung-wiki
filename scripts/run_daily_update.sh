@@ -15,6 +15,7 @@ cd "$BASE"
 if [ -d "$BASE/.venv/bin" ]; then
   export PATH="$BASE/.venv/bin:$PATH"
 fi
+export PATH="$BASE/scripts:$PATH"
 
 if ! command -v timeout >/dev/null 2>&1; then
   if command -v gtimeout >/dev/null 2>&1; then

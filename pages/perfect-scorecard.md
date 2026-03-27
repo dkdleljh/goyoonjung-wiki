@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 105
-- urls_total(markdown): 3509
-- seen_urls(db): 274
+- urls_total(markdown): 3508
+- seen_urls(db): 0
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -29,8 +29,8 @@
 
 - C_current: 100  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 3509  (markdown URL count)
-- seen_urls_db: 274  (dedupe DB size)
+- urls_total: 3508  (markdown URL count)
+- seen_urls_db: 0  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 15  (pages/works/*.md)
 - i18n: 100  (i18n query support)

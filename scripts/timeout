@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import subprocess
+import sys
+
+
+def main() -> int:
+    if len(sys.argv) < 3:
+        print("usage: timeout SECONDS COMMAND [ARGS...]", file=sys.stderr)
+        return 2
+
+    try:
+        seconds = float(sys.argv[1])
+    except ValueError:
+        print(f"invalid timeout seconds: {sys.argv[1]}", file=sys.stderr)
+        return 2
+
+    cmd = sys.argv[2:]
+    try:
+        completed = subprocess.run(cmd, timeout=seconds)
+        return completed.returncode
+    except subprocess.TimeoutExpired:
+        return 124
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
