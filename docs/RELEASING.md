@@ -4,6 +4,12 @@
 
 현재 이 저장소는 사람이 매번 릴리즈 버튼을 누르지 않아도 되도록, 가능한 범위를 자동화해 두었습니다.
 
+또한 GitHub Actions의 [`release.yml`](../.github/workflows/release.yml)이
+`main` 브랜치 푸시마다 한 번 더 `scripts/auto_release.sh`를 실행해,
+수동 푸시/로컬 환경 편차가 있어도 **태그/릴리즈 노트/CHANGELOG 동기화**를 보증합니다.
+
+## 목표
+
 ---
 
 ## 1. 현재 릴리즈 방식
@@ -153,3 +159,7 @@ ls logs/releases/ | tail -n 5
 이 저장소의 릴리즈는 “버전 번호만 찍는 절차”가 아니라,
 **운영 상태와 변경 내용을 사람이 이해할 수 있게 남기는 자동 기록 체계**입니다.
 
+- main 브랜치 + clean working tree 일 때만 태그를 생성합니다.
+- 태그 생성/푸시는 실패해도 daily run 전체를 실패로 만들지 않습니다(베스트에포트).
+- GitHub Actions는 `contents: write` 권한으로 `main` 기준 릴리즈 동기화를 수행합니다.
+- 릴리즈 노트는 `logs/releases/release-notes-vX.Y.Z.md`와 GitHub Release 본문에 함께 반영됩니다.

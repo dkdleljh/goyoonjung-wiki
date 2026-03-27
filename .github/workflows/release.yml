@@ -1,0 +1,51 @@
+name: release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-main
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ensure main checkout
+        run: |
+          git checkout main
+          git fetch --tags origin
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run release sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          bash ./scripts/auto_release.sh
+
+      - name: Release summary
+        if: always()
+        run: |
+          echo "Latest tag: $(git tag --sort=-creatordate | head -n 1)" >> "$GITHUB_STEP_SUMMARY"
+          echo "HEAD: $(git rev-parse --short HEAD)" >> "$GITHUB_STEP_SUMMARY"

@@ -1,6 +1,7 @@
 # Automation Deployment (systemd)
 
 This project can run fully unattended via `systemd` timer.
+Daily unattended runs commit/push locally, and GitHub Actions release sync updates SemVer tags and GitHub Releases after pushes to `main`.
 
 ## Install
 
@@ -17,6 +18,7 @@ sudo systemctl enable --now goyoonjung-wiki-daily.timer
 systemctl status goyoonjung-wiki-daily.timer
 systemctl list-timers | grep goyoonjung-wiki-daily
 journalctl -u goyoonjung-wiki-daily.service -n 100 --no-pager
+gh run list --workflow release.yml --limit 5
 ```
 
 ## Manual run
