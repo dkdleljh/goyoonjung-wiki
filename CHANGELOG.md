@@ -4,8 +4,15 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## v1.4.0 (2026-03-27)
+- improve automation health and coverage auditing
+- docs: refresh automation and release guides
+- docs: link hubs with status and release docs
+- add github release sync workflow
+
 ## v1.3.1 (2026-03-27)
 - feat(release): expand release note template
+- chore: prepare release v1.3.1
 
 ## v1.3.0 (2026-03-27)
 - daily: update 2026-03-02
