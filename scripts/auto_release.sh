@@ -135,7 +135,7 @@ main() {
   notes_file="${notes_dir}/release-notes-${new_tag}.md"
   mkdir -p "$notes_dir"
 
-  notes_body=$(git log --format='- %s (%h)' "${last_tag}..HEAD" | head -n 80)
+  notes_body=$(git log --format='- %s (%h)' "${last_tag}..HEAD" | sed -n '1,80p')
   cat >"$notes_file" <<EOF
 # ${new_tag}
 
