@@ -14,6 +14,10 @@ BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 cd "$BASE"
 
 export PATH="$HOME/bin:$PATH"
+OWNER_REPO="$(
+  git remote get-url origin 2>/dev/null \
+    | sed -E 's#^(git@github.com:|https://github.com/)##; s#\.git$##'
+)"
 
 SEMVER_REGEX='^v([0-9]+)\.([0-9]+)\.([0-9]+)$'
 CANONICAL_MIN_MAJOR=1
@@ -125,9 +129,19 @@ main() {
   bump=$(detect_bump "$last_tag")
   read -r nmajor nminor npatch <<<"$(bump_version "$major" "$minor" "$patch" "$bump")"
   new_tag="v${nmajor}.${nminor}.${npatch}"
+  notes_dir="logs/releases"
+  notes_file="${notes_dir}/release-notes-${new_tag}.md"
+  mkdir -p "$notes_dir"
 
   notes_body=$(git log --format='- %s (%h)' "${last_tag}..HEAD" | head -n 80)
-  notes=$(cat <<EOF
+  cat >"$notes_file" <<EOF
+# ${new_tag}
+
+- generated_at: $(TZ=Asia/Seoul date +"%Y-%m-%d %H:%M:%S %Z")
+- bump: ${bump}
+- base: ${last_tag}
+- head: $(git rev-parse --short HEAD)
+
 ## Summary
 
 - bump: **${bump}**
@@ -137,15 +151,14 @@ main() {
 
 ${notes_body}
 EOF
-)
   msg="Release ${new_tag} (${bump})"
 
   # Keep CHANGELOG.md in sync with canonical tags.
   # If generation changes the file, commit it before tagging.
   python3 ./scripts/generate_changelog.py --next-tag "$new_tag" >/dev/null 2>&1 || true
-  if ! git diff --quiet -- CHANGELOG.md 2>/dev/null; then
-    git add CHANGELOG.md
-    git commit -m "chore: update changelog for ${new_tag}" >/dev/null
+  git add CHANGELOG.md "$notes_file" 2>/dev/null || true
+  if ! git diff --cached --quiet 2>/dev/null; then
+    git commit -m "chore: prepare release ${new_tag}" >/dev/null
     git push origin main >/dev/null
   fi
 
@@ -155,9 +168,11 @@ EOF
   # Best-effort GitHub release (create only if it doesn't exist)
   if command -v gh >/dev/null 2>&1; then
     export GH_TOKEN="${GH_TOKEN:-${GITHUB_TOKEN:-}}"
-    if [ -n "${GH_TOKEN:-}" ] || gh auth status >/dev/null 2>&1; then
-      if ! gh release view "$new_tag" >/dev/null 2>&1; then
-        gh release create "$new_tag" --title "$new_tag" --notes "$notes" >/dev/null 2>&1 || true
+    if [ -n "$OWNER_REPO" ] && { [ -n "${GH_TOKEN:-}" ] || gh auth status >/dev/null 2>&1; }; then
+      if gh release view "$new_tag" --repo "$OWNER_REPO" >/dev/null 2>&1; then
+        gh release edit "$new_tag" --repo "$OWNER_REPO" --title "$new_tag" --notes-file "$notes_file" >/dev/null 2>&1 || true
+      else
+        gh release create "$new_tag" --repo "$OWNER_REPO" --title "$new_tag" --notes-file "$notes_file" >/dev/null 2>&1 || true
       fi
     fi
   fi
