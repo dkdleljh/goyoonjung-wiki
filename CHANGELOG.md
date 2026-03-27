@@ -4,8 +4,12 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## v1.5.1 (2026-03-27)
+- feat(docs): expand generated wiki doc indexes
+
 ## v1.5.0 (2026-03-27)
 - feat(docs): auto-generate wiki doc portals
+- chore: prepare release v1.5.0
 
 ## v1.4.1 (2026-03-27)
 - update release workflow actions runtime
