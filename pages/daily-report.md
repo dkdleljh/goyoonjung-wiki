@@ -1,23 +1,21 @@
 # 데일리 리포트
 
-> 갱신: 2026-03-27 12:23 (Asia/Seoul)
+> 갱신: 2026-03-27 17:49 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 1dd718f1 2026-03-27 06:14:16 +0900 daily: update 2026-03-27
+- bc6279e7 2026-03-27 17:38:03 +0900 fix: harden automation path resolution
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-03-27.md
-- pages/candidate-pool.md
-- pages/daily-report.md
-- pages/kpi-report.md
-- pages/progress.md
-- pages/promotion-queue.md
-- pages/works/alchemy-of-souls.md
-- pages/works/hunt.md
-- pages/works/moving.md
-- sources/awards-official.md
+- scripts/backup_manager.py
+- scripts/check_automation_health.sh
+- scripts/cleanup_stale_running.sh
+- scripts/lib_paths.sh
+- scripts/performance_optimizer.py
+- scripts/project_paths.py
+- scripts/sync_hub.sh
+- tests/test_project_paths.py
 
 ## 3) 오늘 실행 상태(news/2026-03-27.md)
 

@@ -12,6 +12,32 @@ set -euo pipefail
 BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 cd "$BASE"
 
+if [ -d "$BASE/.venv/bin" ]; then
+  export PATH="$BASE/.venv/bin:$PATH"
+fi
+
+if ! command -v timeout >/dev/null 2>&1; then
+  if command -v gtimeout >/dev/null 2>&1; then
+    timeout() { gtimeout "$@"; }
+  else
+    timeout() {
+      local seconds="$1"; shift
+      python3 - "$seconds" "$@" <<'PY'
+import subprocess
+import sys
+
+seconds = float(sys.argv[1])
+cmd = sys.argv[2:]
+try:
+    completed = subprocess.run(cmd, timeout=seconds)
+    raise SystemExit(completed.returncode)
+except subprocess.TimeoutExpired:
+    raise SystemExit(124)
+PY
+    }
+  fi
+fi
+
 TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 NOW=$(TZ="$TZ" date +"%Y-%m-%d %H:%M")
@@ -122,6 +148,9 @@ fi
 
 # Auto-fix stale '진행중' (previous crash) before starting a new run
 python3 ./scripts/auto_fix_stale_running.py >/dev/null 2>&1 || true
+
+# Ensure operational DB/schema exists before collectors touch it.
+python3 ./scripts/db_manager.py >/dev/null 2>&1 || true
 
 # Mark running
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
