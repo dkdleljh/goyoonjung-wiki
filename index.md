@@ -13,12 +13,16 @@
 - [pages/perfect-scorecard.md](pages/perfect-scorecard.md)
 
 ## 최신 릴리즈
-- 최신 태그: `v1.5.1`
+- 최신 태그: `v1.5.2`
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`9717ba32`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9717ba32) — chore: prepare release v1.5.2
+- [`882aee7d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/882aee7d) — feat(docs): enrich generated wiki portals with status summaries
 - [`389eaf44`](https://github.com/dkdleljh/goyoonjung-wiki/commit/389eaf44) — chore: prepare release v1.5.1
 - [`526844fd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/526844fd) — feat(docs): expand generated wiki doc indexes
 - [`e0203d74`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e0203d74) — chore: prepare release v1.5.0
-- [`7fcbc1c5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7fcbc1c5) — feat(docs): auto-generate wiki doc portals
-- [`a167ed9b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a167ed9b) — chore: prepare release v1.4.1
+
+## 직전 변경 파일
+- `CHANGELOG.md`
+- `logs/releases/release-notes-v1.5.2.md`

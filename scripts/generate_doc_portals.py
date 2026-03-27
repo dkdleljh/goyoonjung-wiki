@@ -43,6 +43,13 @@ def recent_commits(repo: Path, limit: int = 5) -> list[tuple[str, str]]:
     return rows
 
 
+def recent_changed_files(repo: Path, limit: int = 8) -> list[str]:
+    out = subprocess.check_output(
+        ["git", "diff", "--name-only", "HEAD~1", "HEAD"], cwd=repo, text=True
+    )
+    return [line.strip() for line in out.splitlines() if line.strip()][:limit]
+
+
 def md_links(paths: list[Path], base: Path, current: Path) -> list[str]:
     lines: list[str] = []
     for p in sorted(paths):
@@ -58,6 +65,10 @@ def commit_url(sha: str) -> str:
 
 def bullets(lines: list[str], empty: str) -> str:
     return "\n".join(lines) if lines else empty
+
+
+def toc(title_pairs: list[tuple[str, str]]) -> str:
+    return "\n".join(f"- [{title}](#{anchor})" for title, anchor in title_pairs)
 
 
 def main() -> int:
@@ -78,12 +89,14 @@ def main() -> int:
         repo / "pages" / "quality-report.md",
     ]
     recent = recent_commits(repo, 5)
+    changed_files = recent_changed_files(repo, 8)
 
     tag_lines = [
         f"- `{tag}`\n  - GitHub Release: {REPO_URL}/releases/tag/{tag}\n  - 로컬 노트: `logs/releases/release-notes-{tag}.md`"
         for tag in tags
     ]
     recent_lines = [f"- [`{sha}`]({commit_url(sha)}) — {subject}" for sha, subject in recent]
+    changed_file_lines = [f"- `{path}`" for path in changed_files]
 
     status_rows = [
         "| 항목 | 값 |",
@@ -105,6 +118,16 @@ def main() -> int:
         ]
     )
 
+    readme_toc = toc([
+        ("빠른 시작", "빠른-시작"),
+        ("상태 요약", "상태-요약"),
+        ("현재 자동화 범위", "현재-자동화-범위"),
+        ("최신 릴리즈", "최신-릴리즈"),
+        ("최근 변경 요약", "최근-변경-요약"),
+        ("최근 변경 파일", "최근-변경-파일"),
+        ("자주 쓰는 명령", "자주-쓰는-명령"),
+    ])
+
     files: dict[Path, str] = {
         repo / "README.md": f"""# 고윤정 위키 (Go Youn-jung Wiki)
 
@@ -113,6 +136,9 @@ def main() -> int:
 > 자동 생성 포털 문서 · 마지막 갱신: {today}
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
+
+## 문서 목차
+{readme_toc}
 
 ## 빠른 시작
 - 메인 인덱스: [`index.md`](index.md)
@@ -139,6 +165,9 @@ def main() -> int:
 
 ## 최근 변경 요약
 {bullets(recent_lines, '- 최근 커밋 정보가 없습니다.')}
+
+## 최근 변경 파일
+{bullets(changed_file_lines, '- 직전 커밋의 변경 파일 정보가 없습니다.')}
 
 ## 자주 쓰는 명령
 ```bash
@@ -172,10 +201,19 @@ FORCE=1 ./scripts/run_daily_update.sh
 
 ## 최근 변경 5개
 {bullets(recent_lines, '- 최근 커밋 정보가 없습니다.')}
+
+## 직전 변경 파일
+{bullets(changed_file_lines, '- 직전 커밋의 변경 파일 정보가 없습니다.')}
 """,
         repo / "docs" / "README.md": f"""# docs/ 문서 포털
 
 > 자동 생성 문서 인덱스 · 마지막 갱신: {today}
+
+## 문서 목차
+- [핵심 문서](#핵심-문서)
+- [문서 상태 요약](#문서-상태-요약)
+- [연결 문서](#연결-문서)
+- [전체 docs 목록](#전체-docs-목록)
 
 ## 핵심 문서
 - [OPERATION_GUIDE.md](OPERATION_GUIDE.md)
@@ -209,6 +247,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 ## 최근 변경 요약
 {bullets(recent_lines, '- 최근 커밋 정보가 없습니다.')}
 
+## 최근 변경 파일
+{bullets(changed_file_lines, '- 직전 커밋의 변경 파일 정보가 없습니다.')}
+
 ## 상세 확인 위치
 - GitHub Releases: {REPO_URL}/releases
 - 로컬 release notes: `logs/releases/`
@@ -239,6 +280,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [광고](endorsements.md)
 - [스케줄](schedule.md)
 
+## 최근 변경 파일
+{bullets(changed_file_lines[:5], '- 직전 커밋의 변경 파일 정보가 없습니다.')}
+
 ## 운영 핵심 페이지
 {bullets(md_links([p for p in key_pages if p.exists()], repo, repo / 'pages' / 'hub.md'), '- 문서가 없습니다.')}
 """,
@@ -266,6 +310,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 - [Pictorials](pictorials.md)
 - [Endorsements](endorsements.md)
 - [Schedule](schedule.md)
+
+## Recently changed files
+{bullets(changed_file_lines[:5], '- No changed files found from the previous commit.')}
 
 ## Ops pages
 {bullets(md_links([p for p in key_pages if p.exists()], repo, repo / 'pages' / 'hub.en.md'), '- No documents found.')}

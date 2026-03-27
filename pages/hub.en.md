@@ -14,8 +14,8 @@
 ## Status table
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `389eaf44` |
-| 최신 릴리즈 태그 | `v1.5.1` |
+| 최신 커밋 | `9717ba32` |
+| 최신 릴리즈 태그 | `v1.5.2` |
 | docs 문서 수 | `17` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
@@ -29,6 +29,10 @@
 - [Pictorials](pictorials.md)
 - [Endorsements](endorsements.md)
 - [Schedule](schedule.md)
+
+## Recently changed files
+- `CHANGELOG.md`
+- `logs/releases/release-notes-v1.5.2.md`
 
 ## Ops pages
 - [`pages/daily-report.md`](daily-report.md)
