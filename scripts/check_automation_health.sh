@@ -184,21 +184,13 @@ fi
 DIRTY_FILES=$(git diff --name-only)
 if [ -n "${DIRTY_FILES:-}" ]; then
   SORTED=$(echo "$DIRTY_FILES" | LC_ALL=C sort -u)
-  ALLOWLIST=$(cat <<EOF2
-pages/system_status.md
-data/content_gaps.json
-pages/content-gaps.md
-pages/daily-report.md
-pages/kpi-report.md
-pages/perfect-scorecard.md
-pages/progress.md
-pages/quality-report.md
-pages/candidate-pool.md
-pages/verification-queue.md
-sources/awards-official.md
-news/${TODAY}.md
-EOF2
-)
+ALLOWLIST_FILE="$BASE/config/automation-generated-files.txt"
+ALLOWLIST=""
+if [ -f "$ALLOWLIST_FILE" ]; then
+  ALLOWLIST=$(grep -vE '^\s*(#|$)' "$ALLOWLIST_FILE" || true)
+fi
+ALLOWLIST="${ALLOWLIST}
+news/${TODAY}.md"
   while IFS= read -r f; do
     [ -z "$f" ] && continue
     echo "$ALLOWLIST" | grep -qx "$f" || fail "working tree dirty"

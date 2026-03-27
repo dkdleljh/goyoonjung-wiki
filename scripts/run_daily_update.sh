@@ -335,6 +335,11 @@ retry 2 2 timeout 30 python3 ./scripts/rebuild_candidate_pool.py
 RC_POOL=$?
 
 # 3.25) Perfect scorecard (multi-axis KPI)
+CURRENT_STEP="audit:official-coverage"
+retry 2 5 timeout 45 python3 ./scripts/audit_official_coverage.py
+RC_OFFICIAL_AUDIT=$?
+
+# 3.25) Perfect scorecard (multi-axis KPI)
 CURRENT_STEP="score:perfect-scorecard"
 retry 2 2 timeout 30 python3 ./scripts/compute_perfect_scorecard.py
 RC_PERF=$?
@@ -485,6 +490,11 @@ if [ "${RC_AWARD_PROOF_AUTO:-0}" -ne 0 ]; then
 else
   NOTE="$NOTE, awards-proof-auto:OK"
 fi
+if [ "${RC_OFFICIAL_AUDIT:-0}" -ne 0 ]; then
+  NOTE="$NOTE, official-audit:SKIP"
+else
+  NOTE="$NOTE, official-audit:OK"
+fi
 if [ "${RC_PROMOTE_SAFE:-0}" -ne 0 ]; then
   NOTE="$NOTE, promote-safe:SKIP"
 else
@@ -623,6 +633,7 @@ $(fmt schedule "$RC_SCHED")
 $(fmt agency "$RC_AGENCY")
 $(fmt encyclopedia "$RC_ENCY")
 $(fmt awards-auto "$RC_AWARD_PROOF_AUTO")
+$(fmt official-audit "$RC_OFFICIAL_AUDIT")
 $(fmt promote-safe "$RC_PROMOTE_SAFE")
 $(fmt yt-dates "$RC_YT_DATES")
 $(fmt endo-dates "$RC_ENDO_DATES")

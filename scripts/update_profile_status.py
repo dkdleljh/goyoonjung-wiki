@@ -6,8 +6,13 @@
 # noqa: E701
 
 import re
-from datetime import datetime
+from datetime import timedelta
 from pathlib import Path
+
+try:
+    from scripts.time_utils import seoul_now
+except Exception:  # pragma: no cover
+    from time_utils import seoul_now  # type: ignore
 
 BASE = Path(__file__).resolve().parent.parent
 PROFILE_MD = BASE / 'pages' / 'profile.md'
@@ -23,17 +28,18 @@ KEYWORDS = {
 }
 
 def get_recent_keywords(days=7):
-    # Scan last N days of news
+    # Priority: Filming > Promotion > Casting > Rest.
+    logs = []
+    today = seoul_now().date()
+    for offset in range(days):
+        path = NEWS_DIR / f"{(today - timedelta(days=offset)).strftime('%Y-%m-%d')}.md"
+        if path.exists():
+            logs.append(path.read_text(encoding='utf-8'))
 
-    # Priority: Filming (3) > Promotion (2) > Casting (1)
-
-    today = datetime.now()
-    # Simple scan of latest log
-    latest_log = NEWS_DIR / f"{today.strftime('%Y-%m-%d')}.md"
-    if not latest_log.exists():
+    if not logs:
         return None
 
-    content = latest_log.read_text(encoding='utf-8')
+    content = "\n".join(logs)
 
     if "촬영" in content or "크랭크인" in content:
         return "촬영 중 (최신 뉴스 기반)"
@@ -45,7 +51,8 @@ def get_recent_keywords(days=7):
     return None
 
 def update_profile(new_status):
-    if not new_status: return
+    if not new_status:
+        return
 
     content = PROFILE_MD.read_text(encoding='utf-8')
 

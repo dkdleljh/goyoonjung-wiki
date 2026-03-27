@@ -21,14 +21,19 @@ from __future__ import annotations
 import re
 import sqlite3
 from dataclasses import dataclass
-from datetime import datetime
 from pathlib import Path
+
+try:
+    from scripts.time_utils import seoul_today_str
+except Exception:  # pragma: no cover
+    from time_utils import seoul_today_str  # type: ignore
 
 BASE = Path(__file__).resolve().parent.parent
 PAGES = BASE / "pages"
 CONFIG = BASE / "config"
 DB = BASE / "data" / "wiki.db"
 OUT = PAGES / "perfect-scorecard.md"
+OFFICIAL_AUDIT = PAGES / "official-coverage-audit.md"
 
 URL_RE = re.compile(r"https?://[^\s)]+")
 
@@ -101,6 +106,31 @@ def read_quality_counts() -> dict[str, int]:
     return out
 
 
+def read_official_audit_scores() -> dict[str, int]:
+    out: dict[str, int] = {}
+    if not OFFICIAL_AUDIT.exists():
+        return out
+    for ln in OFFICIAL_AUDIT.read_text(encoding="utf-8", errors="ignore").splitlines():
+        m = re.match(r"- ([a-z_]+): \*\*(\d+)/100\*\*", ln.strip())
+        if m:
+            out[m.group(1)] = int(m.group(2))
+    return out
+
+
+def runtime_guard_score() -> int:
+    score = 0
+    checks = [
+        BASE / ".github" / "workflows" / "ci.yml",
+        BASE / "deploy" / "systemd" / "goyoonjung-wiki-daily.service",
+        BASE / "deploy" / "systemd" / "goyoonjung-wiki-daily.timer",
+        BASE / "scripts" / "check_automation_health.sh",
+        BASE / "tests" / "test_e2e.py",
+    ]
+    for path in checks:
+        score += 20 if path.exists() else 0
+    return clamp(score)
+
+
 def clamp(x: int) -> int:
     return max(0, min(100, x))
 
@@ -112,6 +142,8 @@ def score() -> list[Axis]:
     gqueries = count_google_query_lines()
     yt = count_lines(CONFIG / "youtube-feeds.yml")
     seen = get_seen_urls_count()
+    audit_scores = read_official_audit_scores()
+    runtime_guards = runtime_guard_score()
 
     # A) Coverage system readiness (wiring completeness)
     # We score on presence of key collectors + configs + promotion steps.
@@ -140,7 +172,8 @@ def score() -> list[Axis]:
         detection += 25 if (PAGES / f).exists() else 0
     detection = clamp(detection)
 
-    A = clamp(int(round(channel_diversity * 0.40 + landing * 0.35 + detection * 0.25)))
+    official_sync = audit_scores.get("official_work_sync", 60)
+    A = clamp(int(round(channel_diversity * 0.30 + landing * 0.25 + detection * 0.20 + official_sync * 0.25)))
 
     # B) Automation readiness
     # 100 when the full unmanned loop is wired + protected (locks, debouncing, batching, skip-logging).
@@ -170,7 +203,7 @@ def score() -> list[Axis]:
         observability += 25 if (BASE / f).exists() else 0
     observability = clamp(observability)
 
-    B = clamp(int(round(pipeline * 0.40 + resilience * 0.30 + observability * 0.30)))
+    B = clamp(int(round(pipeline * 0.35 + resilience * 0.25 + observability * 0.20 + runtime_guards * 0.20)))
 
     # C) Information volume
     # We report two numbers:
@@ -212,8 +245,17 @@ def score() -> list[Axis]:
 
     # D) Quality
     qc = read_quality_counts()
-    debt = qc.get("교차검증 필요", 0) + qc.get("참고(2차)", 0) + qc.get("요약 보강 필요", 0) + qc.get("(페이지 내 표기 확인 필요)", 0) + qc.get("(확인 필요)", 0)
-    placeholder = clamp(100 - debt * 5)
+    debt = (
+        qc.get("교차검증 필요", 0)
+        + qc.get("참고(2차)", 0)
+        + qc.get("요약 보강 필요", 0)
+        + qc.get("(페이지 내 표기 확인 필요)", 0)
+        + qc.get("(확인 필요)", 0)
+        + qc.get("검증불가", 0) * 2
+        + qc.get("추가 필요", 0)
+        + qc.get("미확정", 0)
+    )
+    placeholder = clamp(100 - debt * 2)
     link_health = 100 if (PAGES / "link-health.md").exists() else 60
     lint = 100 if (PAGES / "lint-report.md").exists() else 60
     # Provenance readiness: do we have explicit mapping/policies to keep sources graded?
@@ -228,18 +270,21 @@ def score() -> list[Axis]:
         provenance += 20 if (BASE / f).exists() else 0
     provenance = clamp(provenance)
 
-    D = clamp(int(round(placeholder * 0.35 + link_health * 0.25 + lint * 0.25 + provenance * 0.15)))
+    coverage_readiness = audit_scores.get("coverage_readiness", 60)
+    D = clamp(int(round(placeholder * 0.30 + link_health * 0.20 + lint * 0.20 + provenance * 0.10 + coverage_readiness * 0.20)))
 
     return [
         Axis("A. Perfect wiki coverage system", A, [
             ("channel_diversity", channel_diversity, "config presence + i18n + youtube + rss"),
             ("landing", landing, "category landing pages exist"),
             ("detection", detection, "quality/content-gaps reports"),
+            ("official_work_sync", official_sync, "official filmography audit"),
         ]),
         Axis("B. Perfect unmanned automation", B, [
             ("pipeline", pipeline, "run_daily_update + steps"),
             ("resilience", resilience, "batching + skip-reason logging"),
             ("observability", observability, "status/daily/lint reports"),
+            ("runtime_guards", runtime_guards, "ci + timer + health check + e2e presence"),
         ]),
         Axis("C. Unbeatable information volume", C, [
             ("C_current", C_current, "actual accumulated scale (grows over time)"),
@@ -255,6 +300,7 @@ def score() -> list[Axis]:
             ("link_health", link_health, "link-health.md presence"),
             ("lint", lint, "lint-report.md presence"),
             ("provenance", provenance, "official vs press vs secondary"),
+            ("coverage_readiness", coverage_readiness, "official coverage audit"),
         ]),
     ]
 
@@ -271,7 +317,7 @@ def write(axes: list[Axis]) -> None:
     seen = get_seen_urls_count()
 
     # Keep deterministic enough to avoid commit spam: date only.
-    now = datetime.now().strftime("%Y-%m-%d")
+    now = seoul_today_str()
 
     lines = [
         "# Perfect Scorecard (auto)",

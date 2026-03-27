@@ -17,8 +17,6 @@ import os
 import re
 import subprocess
 from dataclasses import dataclass
-from datetime import datetime
-from zoneinfo import ZoneInfo
 
 # domain_policy lives next to this file. It is usually importable as a local module
 # when this script is executed directly (scripts/ is on sys.path).
@@ -26,15 +24,17 @@ from zoneinfo import ZoneInfo
 # an explicit package import fallback.
 try:
     from scripts import domain_policy  # type: ignore
+    from scripts.time_utils import seoul_today_str
 except Exception:  # pragma: no cover
     import domain_policy  # type: ignore
+    from time_utils import seoul_today_str  # type: ignore
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-TZ = ZoneInfo("Asia/Seoul")
 OUT = os.path.join(BASE, "pages", "system_status.md")
 LINT_REPORT = os.path.join(BASE, "pages", "lint-report.md")
 LINK_HEALTH = os.path.join(BASE, "pages", "link-health.md")
 KPI_REPORT = os.path.join(BASE, "pages", "kpi-report.md")
+OFFICIAL_AUDIT = os.path.join(BASE, "pages", "official-coverage-audit.md")
 
 
 @dataclass
@@ -63,8 +63,21 @@ def count_placeholders() -> dict[str, int]:
     return counts
 
 
+def read_official_audit_scores() -> dict[str, int]:
+    scores: dict[str, int] = {}
+    if not os.path.exists(OFFICIAL_AUDIT):
+        return scores
+    txt = open(OFFICIAL_AUDIT, encoding="utf-8").read().splitlines()
+    for ln in txt:
+        m = re.match(r"^- ([a-z_]+): \*\*(\d+)/100\*\*", ln.strip())
+        if m:
+            scores[m.group(1)] = int(m.group(2))
+    return scores
+
+
 def wiki_completeness_score() -> Score:
     counts = count_placeholders()
+    audit_scores = read_official_audit_scores()
     # Heuristic weights
     debt = (
         counts.get("교차검증 필요", 0) * 2
@@ -72,13 +85,25 @@ def wiki_completeness_score() -> Score:
         + counts.get("요약 보강 필요", 0) * 1
         + counts.get("(페이지 내 표기 확인 필요)", 0) * 1
         + counts.get("(확인 필요)", 0) * 1
+        + counts.get("검증불가", 0) * 2
+        + counts.get("미확정", 0) * 1
+        + counts.get("추가 필요", 0) * 1
     )
 
     # 100 - normalized debt (cap)
-    score = max(0, 100 - min(100, debt))
+    base_score = max(0, 100 - min(100, debt))
+    coverage_readiness = audit_scores.get("coverage_readiness")
+    if coverage_readiness is not None:
+        score = round(base_score * 0.7 + coverage_readiness * 0.3)
+    else:
+        score = base_score
 
     details = [
         f"placeholder debt score: debt={debt}",
+        *(
+            f"- official_audit.{k}: {v}"
+            for k, v in sorted(audit_scores.items())
+        ),
         *(f"- {k}: {v}" for k, v in sorted(counts.items())),
     ]
 
@@ -154,7 +179,7 @@ def automation_score() -> Score:
 
 def write_status(scores: list[Score]) -> None:
     # Keep deterministic enough to avoid commit spam: date only.
-    now = datetime.now(TZ).strftime("%Y-%m-%d")
+    now = seoul_today_str()
     lines = [
         "# System status (auto)",
         "",

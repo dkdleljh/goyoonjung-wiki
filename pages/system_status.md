@@ -2,9 +2,11 @@
 
 > Updated: 2026-03-27
 
-## wiki_completeness: **82/100**
+## wiki_completeness: **27/100**
 
-placeholder debt score: debt=18
+placeholder debt score: debt=85
+- official_audit.coverage_readiness: 54
+- official_audit.official_work_sync: 85
 - (페이지 내 표기 확인 필요): 0
 - (확인 필요): 17
 - 검증불가: 29
@@ -23,9 +25,11 @@ lint-report: OK
 counts: ok=250 warn=0 bad=0
 warn_budget=20
 
-## automation_health: **100/100**
+## automation_health: **80/100**
 
-check_automation_health: OK
+check_automation_health: DIRTY (possible finalization window)
+If this persists, commit/push is broken or a generator is writing untracked changes.
+FAIL: working tree dirty
 
 ## domain_grade_status
 

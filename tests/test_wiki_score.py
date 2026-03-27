@@ -50,8 +50,9 @@ def test_count_placeholders_with_file(tmp_path):
 def test_wiki_completeness_score_no_debt(tmp_path):
     """Test wiki completeness with no placeholders."""
     with patch.object(wiki_score, 'count_placeholders', return_value={}):
-        score = wiki_score.wiki_completeness_score()
-        assert score.score == 100
+        with patch.object(wiki_score, 'read_official_audit_scores', return_value={}):
+            score = wiki_score.wiki_completeness_score()
+            assert score.score == 100
 
 
 def test_wiki_completeness_score_with_debt(tmp_path):
@@ -61,8 +62,28 @@ def test_wiki_completeness_score_with_debt(tmp_path):
         "참고(2차)": 5,
         "요약 보강 필요": 3,
     }):
-        score = wiki_score.wiki_completeness_score()
-        assert score.score < 100
+        with patch.object(wiki_score, 'read_official_audit_scores', return_value={}):
+            score = wiki_score.wiki_completeness_score()
+            assert score.score < 100
+
+
+def test_wiki_completeness_score_counts_unverifiable_and_unconfirmed(tmp_path):
+    """High-risk unresolved items should reduce completeness."""
+    with patch.object(wiki_score, 'count_placeholders', return_value={
+        "검증불가": 10,
+        "미확정": 2,
+    }):
+        with patch.object(wiki_score, 'read_official_audit_scores', return_value={}):
+            score = wiki_score.wiki_completeness_score()
+            assert score.score < 100
+
+
+def test_wiki_completeness_score_blends_official_audit(tmp_path):
+    """Official audit should influence the completeness score."""
+    with patch.object(wiki_score, 'count_placeholders', return_value={}):
+        with patch.object(wiki_score, 'read_official_audit_scores', return_value={"coverage_readiness": 50}):
+            score = wiki_score.wiki_completeness_score()
+            assert score.score < 100
 
 
 def test_wiki_completeness_score_max_debt(tmp_path):
@@ -70,8 +91,9 @@ def test_wiki_completeness_score_max_debt(tmp_path):
     with patch.object(wiki_score, 'count_placeholders', return_value={
         "교차검증 필요": 100,
     }):
-        score = wiki_score.wiki_completeness_score()
-        assert score.score == 0
+        with patch.object(wiki_score, 'read_official_audit_scores', return_value={}):
+            score = wiki_score.wiki_completeness_score()
+            assert score.score == 0
 
 
 def test_lint_score_missing_report(tmp_path):
