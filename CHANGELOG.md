@@ -4,8 +4,112 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## v1.3.0 (2026-03-27)
+- daily: update 2026-03-02
+- daily: update 2026-03-03
+- daily: update 2026-03-04
+- daily: update 2026-03-05
+- daily: update 2026-03-06
+- daily: update 2026-03-07
+- chore: harden unattended automation and recovery workflow
+- chore: tighten pipeline safety and track verification debt
+- chore: harden health check allowlist and index step strictness
+- daily: update 2026-03-08
+- chore: link health 2026-03-08
+- daily: update 2026-03-08
+- daily: update 2026-03-08
+- daily: update 2026-03-08
+- daily: update 2026-03-09
+- daily: update 2026-03-09
+- daily: update 2026-03-09
+- daily: update 2026-03-09
+- daily: update 2026-03-10
+- daily: update 2026-03-10
+- daily: update 2026-03-10
+- daily: update 2026-03-10
+- daily: update 2026-03-11
+- daily: update 2026-03-11
+- daily: update 2026-03-11
+- daily: update 2026-03-11
+- daily: update 2026-03-12
+- daily: update 2026-03-12
+- daily: update 2026-03-12
+- daily: update 2026-03-12
+- daily: update 2026-03-13
+- daily: update 2026-03-13
+- daily: update 2026-03-13
+- daily: update 2026-03-13
+- daily: update 2026-03-14
+- daily: update 2026-03-14
+- daily: update 2026-03-14
+- daily: update 2026-03-14
+- daily: update 2026-03-15
+- chore: link health 2026-03-15
+- daily: update 2026-03-15
+- daily: update 2026-03-15
+- fix: test mocking for backup/lock system checks
+- daily: update 2026-03-15
+- daily: update 2026-03-16
+- daily: update 2026-03-16
+- daily: update 2026-03-16
+- daily: update 2026-03-16
+- daily: update 2026-03-17
+- daily: update 2026-03-17
+- daily: update 2026-03-17
+- daily: update 2026-03-17
+- daily: update 2026-03-18
+- daily: update 2026-03-18
+- daily: update 2026-03-18
+- daily: update 2026-03-18
+- daily: update 2026-03-19
+- daily: update 2026-03-19
+- daily: update 2026-03-19
+- daily: update 2026-03-19
+- daily: update 2026-03-20
+- daily: update 2026-03-20
+- daily: update 2026-03-20
+- daily: update 2026-03-20
+- daily: update 2026-03-21
+- daily: update 2026-03-21
+- daily: update 2026-03-21
+- daily: update 2026-03-21
+- daily: update 2026-03-22
+- chore: link health 2026-03-22
+- daily: update 2026-03-22
+- daily: update 2026-03-22
+- daily: update 2026-03-22
+- daily: update 2026-03-23
+- daily: update 2026-03-23
+- daily: update 2026-03-23
+- daily: update 2026-03-23
+- daily: update 2026-03-24
+- daily: update 2026-03-24
+- daily: update 2026-03-24
+- daily: update 2026-03-24
+- daily: update 2026-03-25
+- daily: update 2026-03-25
+- daily: update 2026-03-25
+- daily: update 2026-03-25
+- daily: update 2026-03-26
+- daily: update 2026-03-26
+- daily: update 2026-03-26
+- daily: update 2026-03-26
+- daily: update 2026-03-27
+- daily: update 2026-03-27
+- daily: update 2026-03-27
+- vault backup: 2026-02-16 14:43:17
+- fix: harden automation path resolution
+- daily: update 2026-03-27
+- daily: update 2026-03-27
+- daily: update 2026-03-27
+- chore: finalize automation health status
+- feat(release): persist and update release notes
+- fix(release): sync remote tags before auto release
+- fix(release): keep auto release pipes stable
+
 ## v1.2.2 (2026-03-02)
 - ops: sort changelog newest-first
+- chore: update changelog for v1.2.2
 
 ## v1.2.1 (2026-03-02)
 - ops: fix changelog generation for next release
