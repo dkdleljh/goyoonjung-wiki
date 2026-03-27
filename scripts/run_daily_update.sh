@@ -530,6 +530,10 @@ if [ "${RC_DASH:-0}" -ne 0 ]; then
 else
   NOTE="$NOTE, dashboard:OK"
 fi
+
+# Regenerate documentation portals before the commit phase.
+python3 ./scripts/generate_doc_portals.py >/dev/null 2>&1 || true
+
 # Commit/push phase (success must include remote push)
 # Stage everything except backups (already excluded by .gitignore, but be explicit)
 git add -A ":(exclude)backups" >/dev/null 2>&1 || true

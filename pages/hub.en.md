@@ -1,6 +1,6 @@
 # 🧭 Go Youn-jung Wiki Hub
 
-This page is the main hub that connects content navigation and operations documentation.
+> Auto-generated hub · last updated: 2026-03-27
 
 ## Ops / Docs
 - [Project README](../README.md)
@@ -19,10 +19,3 @@ This page is the main hub that connects content navigation and operations docume
 - [Pictorials](pictorials.md)
 - [Endorsements](endorsements.md)
 - [Schedule](schedule.md)
-
-## Recent operations
-- [Recent updates](../news/README.md)
-- [Daily report](daily-report.md)
-- [Lint report](lint-report.md)
-- [Quality report](quality-report.md)
-
