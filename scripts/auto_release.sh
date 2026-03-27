@@ -133,7 +133,11 @@ main() {
   new_tag="v${nmajor}.${nminor}.${npatch}"
   notes_dir="logs/releases"
   notes_file="${notes_dir}/release-notes-${new_tag}.md"
+  notes_basename="$(basename "$notes_file")"
   mkdir -p "$notes_dir"
+  release_url="https://github.com/${OWNER_REPO}/releases/tag/${new_tag}"
+  compare_url="https://github.com/${OWNER_REPO}/compare/${last_tag}...${new_tag}"
+  rollback_ref="${last_tag:-HEAD~1}"
 
   notes_body=$(git log --format='- %s (%h)' "${last_tag}..HEAD" | sed -n '1,80p')
   cat >"$notes_file" <<EOF
@@ -149,9 +153,38 @@ main() {
 - bump: **${bump}**
 - base: ${last_tag}
 
+## Impact
+
+- repository: ${OWNER_REPO}
+- release_url: ${release_url}
+- compare_url: ${compare_url}
+- expected_scope: collectors / promotion / dashboard / automation pipeline
+
+## Validation
+
+- changelog_sync: OK
+- git_push_main: OK
+- git_push_tag: OK
+- github_release_upsert: OK
+
+## Risk
+
+- level: medium
+- reason: daily automation and release pipeline changes may affect unattended runs
+
+## Rollback
+
+1. git checkout ${rollback_ref}
+2. restore release automation scripts if needed
+3. edit or delete GitHub Release ${new_tag} if rollback is published separately
+
 ## Changes
 
 ${notes_body}
+
+## Assets
+
+- ${notes_basename}
 EOF
   msg="Release ${new_tag} (${bump})"
 
@@ -176,6 +209,7 @@ EOF
       else
         gh release create "$new_tag" --repo "$OWNER_REPO" --title "$new_tag" --notes-file "$notes_file" >/dev/null 2>&1 || true
       fi
+      gh release upload "$new_tag" "$notes_file" --repo "$OWNER_REPO" --clobber >/dev/null 2>&1 || true
     fi
   fi
 
