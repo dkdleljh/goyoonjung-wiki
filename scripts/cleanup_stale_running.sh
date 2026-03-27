@@ -4,7 +4,10 @@ set -euo pipefail
 # If today's news summary is stuck at '진행중' for too long, mark it as 실패.
 # This prevents the wiki from looking "forever running" after crashes/SIGKILL.
 
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./lib_paths.sh
+source "$SCRIPT_DIR/lib_paths.sh"
+BASE="$(resolve_wiki_base)"
 TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 FILE="$BASE/news/$TODAY.md"

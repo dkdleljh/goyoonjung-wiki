@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./lib_paths.sh
+source "$SCRIPT_DIR/lib_paths.sh"
+BASE="$(resolve_wiki_base)"
 cd "$BASE"
 
 LOCK_DIR="$BASE/.locks"

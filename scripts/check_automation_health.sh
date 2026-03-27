@@ -1,16 +1,38 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE="/home/zenith/바탕화면/goyoonjung-wiki"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./lib_paths.sh
+source "$SCRIPT_DIR/lib_paths.sh"
+BASE="$(resolve_wiki_base)"
 TZ="Asia/Seoul"
 cd "$BASE"
 
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 NEWS="$BASE/news/${TODAY}.md"
+LATEST_NEWS="$(find "$BASE/news" -maxdepth 1 -type f -name '20??-??-??.md' | LC_ALL=C sort | tail -n 1)"
+MAX_LOG_AGE_HOURS="${MAX_LOG_AGE_HOURS:-36}"
 
 fail() {
   echo "FAIL: $*" >&2
   exit 1
+}
+
+to_epoch() {
+  local raw="$1"
+  python3 - "$raw" <<'PY'
+from datetime import datetime
+import sys
+
+raw = sys.argv[1].strip()
+for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"):
+    try:
+        print(int(datetime.strptime(raw, fmt).timestamp()))
+        raise SystemExit(0)
+    except ValueError:
+        pass
+print(0)
+PY
 }
 
 diagnose_fetch_failure() {
@@ -48,39 +70,50 @@ diagnose_fetch_failure() {
 }
 
 if [ ! -f "$NEWS" ]; then
-  fail "missing news file: $NEWS"
+  if [ -z "${LATEST_NEWS:-}" ]; then
+    fail "missing news file: $NEWS"
+  fi
+  NEWS="$LATEST_NEWS"
 fi
 
 # NOTE: this script runs with set -euo pipefail; missing grep matches must not abort.
-RESULT=$(grep -m1 "^- 결과:" "$NEWS" 2>/dev/null | sed -E 's/^\- 결과:\s*//' || true)
-RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//' || true)
-NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' || true)
+RESULT=$(grep -m1 "^- 결과:" "$NEWS" 2>/dev/null | sed -E 's/^\- 결과:\s*//' | xargs || true)
+RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//' | xargs || true)
+NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' | xargs || true)
 
 if [ -z "${RESULT:-}" ] || [ -z "${RUN_AT:-}" ]; then
   # Self-heal: some generators may rewrite today's news blocks.
   # Try to reconstruct the minimal run header and re-parse.
   python3 ./scripts/ensure_news_run_header.py >/dev/null 2>&1 || true
-  RESULT=$(grep -m1 "^- 결과:" "$NEWS" 2>/dev/null | sed -E 's/^\- 결과:\s*//' || true)
-  RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//' || true)
-  NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' || true)
+  RESULT=$(grep -m1 "^- 결과:" "$NEWS" 2>/dev/null | sed -E 's/^\- 결과:\s*//' | xargs || true)
+  RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//' | xargs || true)
+  NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' | xargs || true)
 fi
 
 if [ -z "${RESULT:-}" ] || [ -z "${RUN_AT:-}" ]; then
   fail "news header missing run/result"
 fi
 
+LOG_EPOCH=$(to_epoch "$RUN_AT")
+NOW_EPOCH=$(TZ="$TZ" date +%s)
+LOG_AGE_HOURS=$(( (NOW_EPOCH - LOG_EPOCH) / 3600 ))
+if [ "$LOG_EPOCH" -le 0 ]; then
+  fail "news timestamp parse failed: run=${RUN_AT}"
+fi
+if [ "$LOG_AGE_HOURS" -gt "$MAX_LOG_AGE_HOURS" ]; then
+  fail "latest automation log is stale: file=$(basename "$NEWS") age=${LOG_AGE_HOURS}h threshold=${MAX_LOG_AGE_HOURS}h"
+fi
+
 # Interpret state
 # - 성공: healthy
 # - 진행중: healthy IF recent (avoid false alerts during long runs)
 # - 부분성공/실패: unhealthy
-RUN_EPOCH=$(TZ="$TZ" date -d "$RUN_AT" +%s 2>/dev/null || echo 0)
-NOW_EPOCH=$(TZ="$TZ" date +%s)
+RUN_EPOCH="$LOG_EPOCH"
 AGE_RUN=$((NOW_EPOCH - RUN_EPOCH))
 
 case "$RESULT" in
   성공) : ;;
   진행중)
-    # If still running but older than 40 minutes, consider it stale/hung.
     if [ "$RUN_EPOCH" -gt 0 ] && [ "$AGE_RUN" -le 2400 ]; then
       echo "OK: news=${RESULT} run=${RUN_AT} (age=${AGE_RUN}s) | automation running"
       exit 0
@@ -95,11 +128,9 @@ case "$RESULT" in
     ;;
 esac
 
-# If a run lock is present and fresh, we may be in the finalization window
-# (e.g., result already flipped to 성공 but commit/push not finished yet).
+# If a run lock is present and fresh, we may be in the finalization window.
 LOCK_FILE="$BASE/.locks/lock"
 if [ -f "$LOCK_FILE" ]; then
-  # Consider lock fresh if modified within 20 minutes.
   LOCK_MTIME=$(date -r "$LOCK_FILE" +%s 2>/dev/null || echo 0)
   NOW_EPOCH=$(TZ="$TZ" date +%s)
   LOCK_AGE=$((NOW_EPOCH - LOCK_MTIME))
@@ -109,25 +140,21 @@ if [ -f "$LOCK_FILE" ]; then
   fi
 fi
 
-# Detect stale running in history (if any)
-# If the latest history line is 진행중 and older than 40m -> fail
 # Detect stale running in history robustly.
-# Some files may have history lines not strictly ordered; find the newest history line.
 LATEST_HIST=$(awk '
   /^## 실행 이력/{in_hist=1; next}
   in_hist && /^- /{print}
 ' "$NEWS" 2>/dev/null | head -n 200 || true)
 
 if [ -n "${LATEST_HIST:-}" ]; then
-  # Find newest timestamp among history lines (YYYY-MM-DD HH:MM)
   newest_line=""
   newest_epoch=0
   while IFS= read -r ln; do
-    t=$(echo "$ln" | sed -E 's/^\- ([0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}).*/\1/')
-    [ -z "$t" ] && continue
-    e=$(TZ="$TZ" date -d "$t" +%s 2>/dev/null || echo 0)
-    if [ "$e" -gt "$newest_epoch" ]; then
-      newest_epoch="$e"
+    HIST_TIME=$(echo "$ln" | sed -E 's/^\- ([0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}).*/\1/')
+    [ -z "$HIST_TIME" ] && continue
+    HIST_EPOCH=$(to_epoch "$HIST_TIME")
+    if [ "$HIST_EPOCH" -gt "$newest_epoch" ]; then
+      newest_epoch="$HIST_EPOCH"
       newest_line="$ln"
     fi
   done <<< "$LATEST_HIST"
@@ -141,8 +168,6 @@ if [ -n "${LATEST_HIST:-}" ]; then
   fi
 fi
 
-# Git checks
-# Ensure we can talk to origin
 set +e
 if command -v timeout >/dev/null 2>&1; then
   timeout 15 git fetch -q origin main >/dev/null 2>&1
@@ -156,13 +181,10 @@ if [ $RC_FETCH -ne 0 ]; then
   fail "git fetch failed (rc=$RC_FETCH)"
 fi
 
-# Allow some auto-generated files to be dirty (written by automation).
 DIRTY_FILES=$(git diff --name-only)
 if [ -n "${DIRTY_FILES:-}" ]; then
-  # Normalize to sorted unique list
   SORTED=$(echo "$DIRTY_FILES" | LC_ALL=C sort -u)
-  # NOTE: use explicit allowlist (one per line)
-ALLOWLIST=$(cat <<EOF
+  ALLOWLIST=$(cat <<EOF2
 pages/system_status.md
 data/content_gaps.json
 pages/content-gaps.md
@@ -175,9 +197,8 @@ pages/candidate-pool.md
 pages/verification-queue.md
 sources/awards-official.md
 news/${TODAY}.md
-EOF
+EOF2
 )
-  # Check every dirty file is allowlisted
   while IFS= read -r f; do
     [ -z "$f" ] && continue
     echo "$ALLOWLIST" | grep -qx "$f" || fail "working tree dirty"

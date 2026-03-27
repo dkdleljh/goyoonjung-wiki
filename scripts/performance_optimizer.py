@@ -17,9 +17,12 @@ from typing import Any
 
 import aiohttp
 
+from project_paths import wiki_base
+
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+BASE = wiki_base()
 
 @dataclass
 class TaskResult:
@@ -245,7 +248,7 @@ class ParallelScriptRunner:
                 capture_output=True,
                 text=True,
                 timeout=timeout,
-                cwd='/home/zenith/바탕화면/goyoonjung-wiki'
+                cwd=str(BASE)
             )
 
             duration = time.time() - start_time

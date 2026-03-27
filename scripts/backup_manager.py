@@ -21,6 +21,7 @@ except ImportError:
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+BASE = Path(__file__).resolve().parent.parent
 
 class BackupManager:
     def __init__(self, backup_dir="backups", max_size_mb=500, max_files=30):
@@ -178,7 +179,7 @@ Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 
     def setup_weekly_cleanup(self):
         """Setup cron job for weekly cleanup"""
-        cron_entry = "0 2 * * 0 cd /home/zenith/바탕화면/goyoonjung-wiki && python3 scripts/backup_manager.py --cleanup"
+        cron_entry = f"0 2 * * 0 cd {BASE} && python3 scripts/backup_manager.py --cleanup"
 
         # Add to crontab (this would need proper sudo/user setup)
         logger.info("To setup weekly cleanup, add to crontab:")
