@@ -4,8 +4,12 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## v1.6.0 (2026-04-28)
+- routine: recommended (coverage+quality) 2026-04-28
+
 ## v1.5.4 (2026-03-28)
 - chore: link health 2026-03-29
+- chore: prepare release v1.5.4
 
 ## v1.5.3 (2026-03-27)
 - feat(docs): add toc and changed-file summaries to wiki portals
