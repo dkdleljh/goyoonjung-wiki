@@ -1,6 +1,6 @@
 # 고윤정 위키 (Go Youn-jung Wiki)
 
-![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.8.0-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
+![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.8.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
 > 자동 생성 포털 문서 · 마지막 갱신: 2026-04-29
 
@@ -27,8 +27,8 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `727f7d1d` |
-| 최신 릴리즈 태그 | `v1.8.0` |
+| 최신 커밋 | `3d002d36` |
+| 최신 릴리즈 태그 | `v1.8.1` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
@@ -50,26 +50,26 @@
 - 현재 판정: `bash scripts/check_automation_health.sh`와 `make check` 통과를 운영 기준으로 삼는다.
 
 ## 최신 릴리즈
+- `v1.8.1`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.8.1
+  - 로컬 노트: `logs/releases/release-notes-v1.8.1.md`
 - `v1.8.0`
   - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.8.0
   - 로컬 노트: `logs/releases/release-notes-v1.8.0.md`
 - `v1.7.0`
   - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.7.0
   - 로컬 노트: `logs/releases/release-notes-v1.7.0.md`
-- `v1.6.0`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.6.0
-  - 로컬 노트: `logs/releases/release-notes-v1.6.0.md`
 
 ## 최근 변경 요약
+- [`3d002d36`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3d002d36) — chore: prepare release v1.8.1
+- [`2f8e24c9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2f8e24c9) — docs: refresh release version references
 - [`727f7d1d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/727f7d1d) — chore: prepare release v1.8.0
 - [`ad93596d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ad93596d) — chore: harden wiki automation and docs
 - [`cf444424`](https://github.com/dkdleljh/goyoonjung-wiki/commit/cf444424) — chore: prepare release v1.7.0
-- [`f75c5bc5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f75c5bc5) — daily: update 2026-04-29
-- [`7c82704d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7c82704d) — chore: prepare release v1.6.0
 
 ## 최근 변경 파일
 - `CHANGELOG.md`
-- `logs/releases/release-notes-v1.8.0.md`
+- `logs/releases/release-notes-v1.8.1.md`
 
 ## 자주 쓰는 명령
 ```bash
