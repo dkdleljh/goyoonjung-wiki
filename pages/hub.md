@@ -14,8 +14,8 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `cf444424` |
-| 최신 릴리즈 태그 | `v1.7.0` |
+| 최신 커밋 | `727f7d1d` |
+| 최신 릴리즈 태그 | `v1.8.0` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
@@ -39,7 +39,7 @@
 
 ## 최근 변경 파일
 - `CHANGELOG.md`
-- `logs/releases/release-notes-v1.7.0.md`
+- `logs/releases/release-notes-v1.8.0.md`
 
 ## 운영 핵심 페이지
 - [`pages/daily-report.md`](daily-report.md)

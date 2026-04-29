@@ -13,16 +13,16 @@
 - [pages/perfect-scorecard.md](pages/perfect-scorecard.md)
 
 ## 최신 릴리즈
-- 최신 태그: `v1.7.0`
+- 최신 태그: `v1.8.0`
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`727f7d1d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/727f7d1d) — chore: prepare release v1.8.0
+- [`ad93596d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ad93596d) — chore: harden wiki automation and docs
 - [`cf444424`](https://github.com/dkdleljh/goyoonjung-wiki/commit/cf444424) — chore: prepare release v1.7.0
 - [`f75c5bc5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f75c5bc5) — daily: update 2026-04-29
 - [`7c82704d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7c82704d) — chore: prepare release v1.6.0
-- [`d9427418`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d9427418) — routine: recommended (coverage+quality) 2026-04-28
-- [`99ce07e5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/99ce07e5) — chore: prepare release v1.5.4
 
 ## 직전 변경 파일
 - `CHANGELOG.md`
-- `logs/releases/release-notes-v1.7.0.md`
+- `logs/releases/release-notes-v1.8.0.md`

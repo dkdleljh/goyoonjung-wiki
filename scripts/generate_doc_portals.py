@@ -19,16 +19,16 @@ def sh(cmd: list[str], cwd: Path) -> str:
 
 
 def latest_tags(repo: Path, limit: int = 3) -> list[str]:
-    out = subprocess.check_output(["git", "tag", "--sort=-creatordate"], cwd=repo, text=True)
-    tags: list[str] = []
+    out = subprocess.check_output(["git", "tag", "-l", "v*.*.*"], cwd=repo, text=True)
+    tags: list[tuple[int, int, int, str]] = []
     for line in out.splitlines():
         tag = line.strip()
         match = SEMVER_RE.match(tag)
         if match and int(match.group(1)) < 1000:
-            tags.append(tag)
-        if len(tags) >= limit:
-            break
-    return tags
+            major, minor, patch = map(int, match.groups())
+            tags.append((major, minor, patch, tag))
+    tags.sort(reverse=True)
+    return [tag for _, _, _, tag in tags[:limit]]
 
 
 def recent_commits(repo: Path, limit: int = 5) -> list[tuple[str, str]]:
