@@ -18,7 +18,14 @@
 ## 문서 상태 요약
 - docs 문서 수: `18`
 - 운영 핵심 페이지 수: `7`
-- 최신 릴리즈 태그: `v1.5.4`
+- 최신 릴리즈 태그: `v1.7.0`
+
+## 운영 계약
+- 목표: 과거/현재/미래 정보를 링크 중심으로 계속 확장한다.
+- 증명 한계: ‘모든 정보 100%’는 증명할 수 없으므로 공식 근거, 누락 탐지, 검증 큐로 관리한다.
+- 무인 운영: daily timer, health check, retry, lock, backup, commit/push, release notes를 자동화한다.
+- 안전 원칙: 루머/사생활/비공식 단정은 금지하고, 미확정 항목은 검증 큐에 남긴다.
+- 현재 판정: `bash scripts/check_automation_health.sh`와 `make check` 통과를 운영 기준으로 삼는다.
 
 ## 연결 문서
 - [루트 README](../README.md)

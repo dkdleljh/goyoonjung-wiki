@@ -8,7 +8,6 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
-
 OWNER = "dkdleljh"
 REPO_NAME = "goyoonjung-wiki"
 REPO_URL = f"https://github.com/{OWNER}/{REPO_NAME}"
@@ -24,7 +23,8 @@ def latest_tags(repo: Path, limit: int = 3) -> list[str]:
     tags: list[str] = []
     for line in out.splitlines():
         tag = line.strip()
-        if SEMVER_RE.match(tag):
+        match = SEMVER_RE.match(tag)
+        if match and int(match.group(1)) < 1000:
             tags.append(tag)
         if len(tags) >= limit:
             break
@@ -33,7 +33,7 @@ def latest_tags(repo: Path, limit: int = 3) -> list[str]:
 
 def recent_commits(repo: Path, limit: int = 5) -> list[tuple[str, str]]:
     out = subprocess.check_output(
-        ["git", "log", f"--pretty=format:%h%x09%s", f"-n{limit}"], cwd=repo, text=True
+        ["git", "log", "--pretty=format:%h%x09%s", f"-n{limit}"], cwd=repo, text=True
     )
     rows: list[tuple[str, str]] = []
     for line in out.splitlines():
@@ -108,6 +108,13 @@ def main() -> int:
         "| 문서 생성기 | `scripts/generate_doc_portals.py` |",
         "| daily update | `scripts/run_daily_update.sh` |",
     ]
+    operating_contract = [
+        "- 목표: 과거/현재/미래 정보를 링크 중심으로 계속 확장한다.",
+        "- 증명 한계: ‘모든 정보 100%’는 증명할 수 없으므로 공식 근거, 누락 탐지, 검증 큐로 관리한다.",
+        "- 무인 운영: daily timer, health check, retry, lock, backup, commit/push, release notes를 자동화한다.",
+        "- 안전 원칙: 루머/사생활/비공식 단정은 금지하고, 미확정 항목은 검증 큐에 남긴다.",
+        "- 현재 판정: `bash scripts/check_automation_health.sh`와 `make check` 통과를 운영 기준으로 삼는다.",
+    ]
 
     badge_block = " ".join(
         [
@@ -159,6 +166,9 @@ def main() -> int:
 - changelog 생성
 - semver 태그/릴리즈
 - release notes 자산 업로드
+
+## 운영 계약
+{chr(10).join(operating_contract)}
 
 ## 최신 릴리즈
 {bullets(tag_lines, '- 아직 릴리즈 태그가 없습니다.')}
@@ -227,6 +237,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 - 운영 핵심 페이지 수: `{len([p for p in key_pages if p.exists()])}`
 - 최신 릴리즈 태그: `{latest_tag}`
 
+## 운영 계약
+{chr(10).join(operating_contract)}
+
 ## 연결 문서
 - [루트 README](../README.md)
 - [메인 인덱스](../index.md)
@@ -236,24 +249,6 @@ FORCE=1 ./scripts/run_daily_update.sh
 
 ## 전체 docs 목록
 {bullets(md_links(docs_files, repo, repo / 'docs' / 'README.md'), '- 문서가 없습니다.')}
-""",
-        repo / "CHANGELOG.md": f"""# CHANGELOG
-
-> 자동 생성 요약 changelog · 마지막 갱신: {today}
-
-## 최신 릴리즈
-{bullets(tag_lines, '- 아직 릴리즈 태그가 없습니다.')}
-
-## 최근 변경 요약
-{bullets(recent_lines, '- 최근 커밋 정보가 없습니다.')}
-
-## 최근 변경 파일
-{bullets(changed_file_lines, '- 직전 커밋의 변경 파일 정보가 없습니다.')}
-
-## 상세 확인 위치
-- GitHub Releases: {REPO_URL}/releases
-- 로컬 release notes: `logs/releases/`
-- 릴리즈 정책: [`docs/RELEASING.md`](docs/RELEASING.md)
 """,
         repo / "pages" / "hub.md": f"""# 🧭 고윤정 위키 허브
 
@@ -270,6 +265,9 @@ FORCE=1 ./scripts/run_daily_update.sh
 
 ## 운영 상태표
 {chr(10).join(status_rows)}
+
+## 운영 계약
+{chr(10).join(operating_contract)}
 
 ## 콘텐츠 핵심 링크
 - [프로필](profile.md)

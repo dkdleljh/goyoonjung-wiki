@@ -6,9 +6,9 @@ The authoritative machine status remains pages/system_status.md.
 """
 
 import os
+import re
 import sqlite3
 from pathlib import Path
-import re
 
 try:
     from scripts.time_utils import seoul_timestamp_seconds_str, seoul_today_str

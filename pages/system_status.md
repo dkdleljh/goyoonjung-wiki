@@ -2,19 +2,19 @@
 
 > Updated: 2026-04-29
 
-## wiki_completeness: **27/100**
+## wiki_completeness: **62/100**
 
-placeholder debt score: debt=85
+placeholder debt score: debt=34
 - official_audit.coverage_readiness: 54
 - official_audit.official_work_sync: 85
 - (페이지 내 표기 확인 필요): 0
-- (확인 필요): 17
-- 검증불가: 29
+- (확인 필요): 4
+- 검증불가: 13
 - 교차검증 필요: 0
-- 미확정: 3
+- 미확정: 1
 - 요약 보강 필요: 0
-- 참고(2차): 1
-- 추가 필요: 6
+- 참고(2차): 0
+- 추가 필요: 3
 
 ## lint_clean: **100/100**
 
@@ -27,7 +27,7 @@ warn_budget=20
 
 ## automation_health: **100/100**
 
-check_automation_health: OK
+check_automation_health: OK after commit/push finalization
 
 ## domain_grade_status
 

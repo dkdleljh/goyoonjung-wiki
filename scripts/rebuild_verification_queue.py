@@ -14,8 +14,14 @@ EXCLUDE = {
     "quality-report.md",
     "daily-report.md",
     "content-gaps.md",
+    "link-health.md",
     "verification-queue.md",
     "system_status.md",
+}
+EXCLUDE_DIRS = {
+    "checklists",
+    "recommendations",
+    "templates",
 }
 
 PATTERNS = [
@@ -31,11 +37,21 @@ def iter_pages() -> list[Path]:
     for p in PAGES.rglob("*.md"):
         if p.name in EXCLUDE:
             continue
+        rel_parts = p.relative_to(PAGES).parts
+        if rel_parts and rel_parts[0] in EXCLUDE_DIRS:
+            continue
         out.append(p)
     return sorted(out)
 
 
 def detect(line: str) -> bool:
+    stripped = line.strip()
+    if " | " in stripped and ("공식확정" in stripped or "보도(1차)" in stripped):
+        return False
+    if stripped.startswith(">") and "상태:" in stripped:
+        return False
+    if "애매한 건" in stripped:
+        return False
     return any(pt.search(line) for pt in PATTERNS)
 
 

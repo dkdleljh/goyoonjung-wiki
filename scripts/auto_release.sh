@@ -84,6 +84,23 @@ detect_bump() {
   echo patch
 }
 
+release_only_changes() {
+  local from_ref="$1"
+  local files
+  files=$(git diff --name-only "${from_ref}..HEAD" 2>/dev/null || true)
+  [ -n "$files" ] || return 1
+
+  while IFS= read -r f; do
+    [ -z "$f" ] && continue
+    case "$f" in
+      CHANGELOG.md|logs/releases/release-notes-v*.md) ;;
+      *) return 1 ;;
+    esac
+  done <<< "$files"
+
+  return 0
+}
+
 main() {
   # Only run when HEAD is on main and clean.
   local branch
@@ -124,6 +141,13 @@ main() {
   # If no commits since last tag, do nothing.
   if [ -z "$(git rev-list "${last_tag}..HEAD" 2>/dev/null)" ]; then
     echo "auto_release: skip (no commits since $last_tag)" >&2
+    exit 0
+  fi
+
+  # Avoid release-on-release loops. A previous release run may push only
+  # CHANGELOG/release-note files before the tag workflow observes the commit.
+  if release_only_changes "$last_tag"; then
+    echo "auto_release: skip (only release metadata changed since $last_tag)" >&2
     exit 0
   fi
 

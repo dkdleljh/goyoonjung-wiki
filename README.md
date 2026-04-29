@@ -1,6 +1,6 @@
 # 고윤정 위키 (Go Youn-jung Wiki)
 
-![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.5.4-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
+![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.7.0-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
 > 자동 생성 포털 문서 · 마지막 갱신: 2026-04-29
 
@@ -27,8 +27,8 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `d9427418` |
-| 최신 릴리즈 태그 | `v1.5.4` |
+| 최신 커밋 | `cf444424` |
+| 최신 릴리즈 태그 | `v1.7.0` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
@@ -42,33 +42,34 @@
 - semver 태그/릴리즈
 - release notes 자산 업로드
 
+## 운영 계약
+- 목표: 과거/현재/미래 정보를 링크 중심으로 계속 확장한다.
+- 증명 한계: ‘모든 정보 100%’는 증명할 수 없으므로 공식 근거, 누락 탐지, 검증 큐로 관리한다.
+- 무인 운영: daily timer, health check, retry, lock, backup, commit/push, release notes를 자동화한다.
+- 안전 원칙: 루머/사생활/비공식 단정은 금지하고, 미확정 항목은 검증 큐에 남긴다.
+- 현재 판정: `bash scripts/check_automation_health.sh`와 `make check` 통과를 운영 기준으로 삼는다.
+
 ## 최신 릴리즈
+- `v1.7.0`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.7.0
+  - 로컬 노트: `logs/releases/release-notes-v1.7.0.md`
+- `v1.6.0`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.6.0
+  - 로컬 노트: `logs/releases/release-notes-v1.6.0.md`
 - `v1.5.4`
   - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.5.4
   - 로컬 노트: `logs/releases/release-notes-v1.5.4.md`
-- `v1.5.3`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.5.3
-  - 로컬 노트: `logs/releases/release-notes-v1.5.3.md`
-- `v1.5.2`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.5.2
-  - 로컬 노트: `logs/releases/release-notes-v1.5.2.md`
 
 ## 최근 변경 요약
+- [`cf444424`](https://github.com/dkdleljh/goyoonjung-wiki/commit/cf444424) — chore: prepare release v1.7.0
+- [`f75c5bc5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f75c5bc5) — daily: update 2026-04-29
+- [`7c82704d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7c82704d) — chore: prepare release v1.6.0
 - [`d9427418`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d9427418) — routine: recommended (coverage+quality) 2026-04-28
 - [`99ce07e5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/99ce07e5) — chore: prepare release v1.5.4
-- [`ba6d948d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ba6d948d) — chore: link health 2026-03-29
-- [`5982598d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/5982598d) — chore: prepare release v1.5.3
-- [`86ad2311`](https://github.com/dkdleljh/goyoonjung-wiki/commit/86ad2311) — feat(docs): add toc and changed-file summaries to wiki portals
 
 ## 최근 변경 파일
-- `news/2026-03-27.md`
-- `news/2026-03-28.md`
-- `news/2026-03-29.md`
-- `news/2026-03-30.md`
-- `news/2026-03-31.md`
-- `news/2026-04-01.md`
-- `news/2026-04-02.md`
-- `news/2026-04-03.md`
+- `CHANGELOG.md`
+- `logs/releases/release-notes-v1.7.0.md`
 
 ## 자주 쓰는 명령
 ```bash

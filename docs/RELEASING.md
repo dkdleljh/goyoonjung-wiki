@@ -106,6 +106,7 @@ python3 ./scripts/generate_changelog.py --next-tag "$new_tag"
 - 현재 브랜치가 `main`
 - working tree가 clean
 - 마지막 릴리즈 이후 새로운 커밋 존재
+- 마지막 릴리즈 이후 변경이 `CHANGELOG.md`, `logs/releases/release-notes-v*.md`뿐이면 release-on-release 루프 방지를 위해 skip
 
 이 조건을 만족하지 않으면 안전하게 skip 합니다.
 
@@ -134,7 +135,7 @@ gh release upload <tag> logs/releases/release-notes-<tag>.md --clobber
 ## 8. 수동 검증 명령
 
 ```bash
-cd /Users/zenith/Documents/My-Second-Brain/20_Projects/Goyoonjung-Wiki
+cd /home/zenith/바탕화면/goyoonjung-wiki
 git tag --sort=-creatordate | sed -n '1,5p'
 gh release list --repo dkdleljh/goyoonjung-wiki --limit 5
 ls logs/releases/ | tail -n 5

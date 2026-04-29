@@ -78,28 +78,26 @@ python3 scripts/wiki_score.py
 
 ## 3. 현재 무인 실행 구조
 
-2026-03-27 기준 macOS 크론 기준:
+2026-04-29 기준 운영 경로:
 
-### 매일 17:53
 ```bash
-FORCE=1 ./scripts/run_daily_update.sh
+/home/zenith/바탕화면/goyoonjung-wiki
 ```
 
-### 매일 18:10
+사용자 systemd timer 기준:
+
 ```bash
-bash ./scripts/check_automation_health.sh
+systemctl --user list-timers --all | rg 'goyoonjung-wiki'
 ```
 
-### 매시 40분
-```bash
-bash ./scripts/cleanup_stale_running.sh
-```
+주요 유닛:
+- `goyoonjung-wiki-daily.timer`: 매일 09:00 KST 전후 daily update 실행
+- `goyoonjung-wiki-sync.timer`: 30분 간격 lightweight remote sync
+- `goyoonjung-wiki-sync.path`: 비활성화 상태 유지 권장
+- `goyoonjung-wiki-linkhealth.timer`: 주간 링크 상태 점검
+- `goyoonjung-wiki-backupcleanup.timer`: 주간 백업 정리
 
-이 구조의 의미는 다음과 같습니다.
-
-- 메인 실행이 하루 1회 돌고
-- 직후 health 상태를 확인하고
-- 평소에는 stale lock/실행 꼬임을 정리합니다.
+중요: `sync_hub.sh`는 기본적으로 전체 daily update를 실행하지 않습니다. 전체 수집/커밋/푸시는 daily timer 또는 `SYNC_RUN_DAILY_UPDATE=1`을 명시한 수동 실행이 담당합니다.
 
 ---
 
@@ -124,13 +122,13 @@ bash ./scripts/cleanup_stale_running.sh
 권장 방식:
 
 ```bash
-cd /Users/zenith/Documents/My-Second-Brain/20_Projects/Goyoonjung-Wiki
+cd /home/zenith/바탕화면/goyoonjung-wiki
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt -r requirements-dev.txt
 ```
 
-실행 시 `run_daily_update.sh`는 `.venv/bin`과 `scripts/`를 PATH에 포함하도록 보강되어 있습니다.
+실행 시 `run_daily_update.sh`는 `.venv`에 필수 런타임 패키지(`requests`, `yaml`)가 있을 때만 `.venv/bin`을 PATH에 포함합니다. 불완전한 `.venv`는 자동으로 무시합니다.
 
 또한 `timeout`이 시스템에 없더라도 fallback이 동작하도록 구성되어 있습니다.
 
@@ -147,12 +145,12 @@ python3 scripts/wiki_score.py
 
 ### 테스트 점검
 ```bash
-.venv/bin/pytest -q
+make test
 ```
 
 ### 특정 핵심 테스트만 빠르게
 ```bash
-.venv/bin/pytest -q tests/test_project_paths.py tests/test_db_manager.py tests/test_security.py tests/test_wiki_score.py
+PYTHONPATH=. pytest -q tests/test_project_paths.py tests/test_db_manager.py tests/test_security.py tests/test_wiki_score.py
 ```
 
 ---
@@ -220,4 +218,3 @@ bash scripts/cleanup_stale_running.sh
 - score가 비정상 급락하지 않았는가?
 - changelog/release가 최신 상태인가?
 - 문서가 실제 코드와 일치하는가?
-

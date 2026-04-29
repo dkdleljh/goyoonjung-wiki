@@ -22,14 +22,18 @@ TARGET_DIRS = [
 
 # Exclude auto-generated reports + meta/backlog docs that intentionally contain placeholders.
 EXCLUDE_BASENAMES = {
+    "content-gaps.md",
     "quality-report.md",
     "daily-report.md",
+    "link-health.md",
     "namu-backlog.md",
     "encyclopedia-roadmap.md",
     "system_status.md",
+    "verification-queue.md",
 }
 EXCLUDE_DIR_PARTS = {
     os.path.join("pages", "checklists"),
+    os.path.join("pages", "recommendations"),
     os.path.join("pages", "templates"),
 }
 
@@ -60,6 +64,17 @@ def rel(p: str) -> str:
     return os.path.relpath(p, BASE)
 
 
+def is_policy_or_legend_line(line: str) -> bool:
+    stripped = line.strip()
+    if " | " in stripped and ("공식확정" in stripped or "보도(1차)" in stripped):
+        return True
+    if stripped.startswith(">") and "상태:" in stripped:
+        return True
+    if "애매한 건" in stripped:
+        return True
+    return False
+
+
 def main() -> int:
     counts = {label: 0 for label, _ in PATTERNS}
     hits = {label: [] for label, _ in PATTERNS}
@@ -67,6 +82,8 @@ def main() -> int:
     for path in iter_md_files():
         txt = open(path, encoding="utf-8").read().splitlines()
         for i, ln in enumerate(txt, start=1):
+            if is_policy_or_legend_line(ln):
+                continue
             for label, pattern in PATTERNS:
                 if pattern.search(ln):
                     counts[label] += 1

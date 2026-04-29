@@ -16,7 +16,6 @@ from pathlib import Path
 from typing import Any
 
 import aiohttp
-
 from project_paths import wiki_base
 
 # Configure logging

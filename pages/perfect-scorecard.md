@@ -4,7 +4,7 @@
 
 ## Snapshot
 - pages_total: 106
-- urls_total(markdown): 3512
+- urls_total(markdown): 3515
 - seen_urls(db): 274
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
@@ -31,15 +31,15 @@
 
 - C_current: 100  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 3512  (markdown URL count)
+- urls_total: 3515  (markdown URL count)
 - seen_urls_db: 274  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 15  (pages/works/*.md)
 - i18n: 100  (i18n query support)
 
-### D. Perfect quality: **61/100**
+### D. Perfect quality: **70/100**
 
-- placeholder: 0  (debt=85)
+- placeholder: 32  (debt=34)
 - link_health: 100  (link-health.md presence)
 - lint: 100  (lint-report.md presence)
 - provenance: 100  (official vs press vs secondary)
@@ -51,7 +51,7 @@
 - 114: pages/interviews.md
 - 101: pages/pictorials/editorial.md
 - 99: pages/notes/translation-love-filming-locations-google-maps.md
-- 66: pages/pictorials/by-year.md
+- 68: pages/pictorials/by-year.md
 - 55: pages/interviews/by-year.md
 - 54: pages/appearances.md
 - 44: pages/pictorials/campaign.md

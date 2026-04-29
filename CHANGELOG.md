@@ -6,6 +6,7 @@
 
 ## v1.7.0 (2026-04-29)
 - daily: update 2026-04-29
+- chore: prepare release v1.7.0
 
 ## v1.6.0 (2026-04-28)
 - routine: recommended (coverage+quality) 2026-04-28

@@ -14,12 +14,19 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `d9427418` |
-| 최신 릴리즈 태그 | `v1.5.4` |
+| 최신 커밋 | `cf444424` |
+| 최신 릴리즈 태그 | `v1.7.0` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
 | daily update | `scripts/run_daily_update.sh` |
+
+## 운영 계약
+- 목표: 과거/현재/미래 정보를 링크 중심으로 계속 확장한다.
+- 증명 한계: ‘모든 정보 100%’는 증명할 수 없으므로 공식 근거, 누락 탐지, 검증 큐로 관리한다.
+- 무인 운영: daily timer, health check, retry, lock, backup, commit/push, release notes를 자동화한다.
+- 안전 원칙: 루머/사생활/비공식 단정은 금지하고, 미확정 항목은 검증 큐에 남긴다.
+- 현재 판정: `bash scripts/check_automation_health.sh`와 `make check` 통과를 운영 기준으로 삼는다.
 
 ## 콘텐츠 핵심 링크
 - [프로필](profile.md)
@@ -31,11 +38,8 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `news/2026-03-27.md`
-- `news/2026-03-28.md`
-- `news/2026-03-29.md`
-- `news/2026-03-30.md`
-- `news/2026-03-31.md`
+- `CHANGELOG.md`
+- `logs/releases/release-notes-v1.7.0.md`
 
 ## 운영 핵심 페이지
 - [`pages/daily-report.md`](daily-report.md)
