@@ -6,6 +6,8 @@
 ---
 
 ## 2026
+- 2026-04-29 · [샤넬뷰티 수블리마지의 뮤즈, 고윤정](https://www.marieclairekorea.com/beauty/2026/04/chanel-beauty-sublimage-goyounjung/)
+- 2026-04-29 · [샤넬뷰티 수블리마지 컬렉션과 함께한 고윤정의 바닐라빛 오후 #1](https://www.marieclairekorea.com/beauty/2026/04/vanilla-sky-1/)
 - 2026-03-04 · [고윤정이 전하는 봄날의 속삭임](https://www.wkorea.com/2026/03/04/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%a0%84%ed%95%98%eb%8a%94-%eb%b4%84%eb%82%a0%ec%9d%98-%ec%86%8d%ec%82%ad%ec%9e%84/)
 - 2026-03-03 · [고윤정, 더블유 디지털 커버](https://www.wkorea.com/2026/03/03/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84/)
 - 2026-02-11 · [Within Spring - 2026 봄 캠페인 화보](https://theviewers.co.kr/View.aspx?No=3972476)

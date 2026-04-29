@@ -36,7 +36,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-04-28 15:24 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-04-29 16:42 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -78,7 +78,7 @@
 
 - [(인터뷰) '무빙' 고윤정 "갖고 싶은 능력? 날라다니고 싶죠"](https://www.newstomato.com/ReadNews.aspx?no=1199951)  _(출처: interviews.md)_
 
-- ['무가치함과 싸우고 있는' 구교환-고윤정.. 파워 포스터](https://kstar.kbs.co.kr/list_view.html?idx=396661)  _(출처: appearances.md)_
+- [고윤정이 만들어드립니다... 제대로 싸우지 않던데요](https://kstar.kbs.co.kr/list_view.html?idx=399141)  _(출처: appearances.md)_
 
 - [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)  _(출처: appearances.md)_
 

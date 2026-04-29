@@ -1,6 +1,6 @@
 # docs/ 문서 포털
 
-> 자동 생성 문서 인덱스 · 마지막 갱신: 2026-03-27
+> 자동 생성 문서 인덱스 · 마지막 갱신: 2026-04-29
 
 ## 문서 목차
 - [핵심 문서](#핵심-문서)
@@ -16,9 +16,9 @@
 - [ux-automation-system.md](ux-automation-system.md)
 
 ## 문서 상태 요약
-- docs 문서 수: `17`
+- docs 문서 수: `18`
 - 운영 핵심 페이지 수: `7`
-- 최신 릴리즈 태그: `v1.5.2`
+- 최신 릴리즈 태그: `v1.5.4`
 
 ## 연결 문서
 - [루트 README](../README.md)
@@ -30,6 +30,7 @@
 ## 전체 docs 목록
 - [`docs/ARCHITECTURE.md`](ARCHITECTURE.md)
 - [`docs/FINAL_100_POINT_ACHIEVEMENT.md`](FINAL_100_POINT_ACHIEVEMENT.md)
+- [`docs/FINAL_VERIFICATION_REPORT.md`](FINAL_VERIFICATION_REPORT.md)
 - [`docs/OPERATION_GUIDE.md`](OPERATION_GUIDE.md)
 - [`docs/README.en.md`](README.en.md)
 - [`docs/RELEASING.md`](RELEASING.md)

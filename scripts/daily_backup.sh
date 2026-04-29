@@ -16,6 +16,7 @@ OUT="$BACKUP_DIR/goyoonjung-wiki_${STAMP}.tar.gz"
 ROOT_NAME="$(basename "$BASE_DIR")"
 TarExcludes=(
   --exclude="$ROOT_NAME/.git"
+  --exclude="$ROOT_NAME/.locks"
   --exclude="$ROOT_NAME/backups"
 )
 
@@ -23,6 +24,6 @@ tar -czf "$OUT" "${TarExcludes[@]}" -C "$(dirname "$BASE_DIR")" "$ROOT_NAME"
 
 # Keep backups bounded (avoid unbounded growth breaking verification/health checks).
 # Policy: keep up to 30 files and <= 500MB total.
-python3 "$BASE_DIR/scripts/backup_manager.py" --cleanup --max-files 30 --max-size 500 >/dev/null
+(cd "$BASE_DIR" && python3 "$BASE_DIR/scripts/backup_manager.py" --cleanup --max-files 30 --max-size 500 >/dev/null)
 
 echo "$OUT"

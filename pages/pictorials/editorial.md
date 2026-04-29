@@ -56,6 +56,22 @@
 - 링크(원문): https://www.wkorea.com/2026/03/04/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%a0%84%ed%95%98%eb%8a%94-%eb%b4%84%eb%82%a0%ec%9d%98-%ec%86%8d%ec%82%ad%ec%9e%84/
 - 상태: 공식확정
 - id: https://www.wkorea.com/2026/03/04/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%a0%84%ed%95%98%eb%8a%94-%eb%b4%84%eb%82%a0%ec%9d%98-%ec%86%8d%ec%82%ad%ec%9e%84/
+
+- 날짜: 2026-04-29
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 샤넬뷰티 수블리마지의 뮤즈, 고윤정
+- 링크(원문): https://www.marieclairekorea.com/beauty/2026/04/chanel-beauty-sublimage-goyounjung/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/beauty/2026/04/chanel-beauty-sublimage-goyounjung/
+
+- 날짜: 2026-04-29
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 샤넬뷰티 수블리마지 컬렉션과 함께한 고윤정의 바닐라빛 오후 #1
+- 링크(원문): https://www.marieclairekorea.com/beauty/2026/04/vanilla-sky-1/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/beauty/2026/04/vanilla-sky-1/
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)

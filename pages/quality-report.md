@@ -65,10 +65,10 @@
 
 ## 추가 필요 (상위 6개 위치)
 - pages/verification-queue.md:24 · - [pages/endorsements/fashion.md:23] - 링크(공식 영상/캠페인): (추가 필요)
-- pages/verification-queue.md:27 · - [pages/pictorials/editorial.md:240] - 링크(원문): (추가 필요)
-- pages/verification-queue.md:28 · - [pages/pictorials/editorial.md:242] - id: (추가 필요)
-- pages/pictorials/editorial.md:240 · - 링크(원문): (추가 필요)
-- pages/pictorials/editorial.md:242 · - id: (추가 필요)
+- pages/verification-queue.md:27 · - [pages/pictorials/editorial.md:256] - 링크(원문): (추가 필요)
+- pages/verification-queue.md:28 · - [pages/pictorials/editorial.md:258] - id: (추가 필요)
+- pages/pictorials/editorial.md:256 · - 링크(원문): (추가 필요)
+- pages/pictorials/editorial.md:258 · - id: (추가 필요)
 - pages/endorsements/fashion.md:23 · - 링크(공식 영상/캠페인): (추가 필요)
 
 ## 미확정 (상위 3개 위치)

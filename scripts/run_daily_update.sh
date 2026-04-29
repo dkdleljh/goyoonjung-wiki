@@ -12,8 +12,10 @@ set -euo pipefail
 BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 cd "$BASE"
 
-if [ -d "$BASE/.venv/bin" ]; then
+if [ -x "$BASE/.venv/bin/python" ] && "$BASE/.venv/bin/python" -c "import requests, yaml" >/dev/null 2>&1; then
   export PATH="$BASE/.venv/bin:$PATH"
+elif [ -d "$BASE/.venv/bin" ]; then
+  echo "Warning: ignoring incomplete .venv; required runtime packages are unavailable." >&2
 fi
 export PATH="$BASE/scripts:$PATH"
 

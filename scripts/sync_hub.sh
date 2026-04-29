@@ -41,7 +41,14 @@ if git diff --quiet && git diff --cached --quiet; then
     ./scripts/mark_news_status.sh 실패 "sync: pull/rebase failed (manual resolve needed)" >/dev/null 2>&1 || true
     exit 1
   fi
+else
+  echo "sync_hub: local changes present; skip pull/rebase"
 fi
 
-# Deterministic pipeline does: collect/index/lint + commit/push + status logging.
-./scripts/run_daily_update.sh
+# Keep periodic/path sync separate from the expensive daily collector. The daily
+# timer owns collect/index/lint + commit/push + status logging.
+if [ "${SYNC_RUN_DAILY_UPDATE:-0}" = "1" ]; then
+  ./scripts/run_daily_update.sh
+else
+  echo "sync_hub: remote sync complete; daily update not requested"
+fi
