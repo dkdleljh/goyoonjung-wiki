@@ -1,17 +1,17 @@
 # System status (auto)
 
-> Updated: 2026-04-29
+> Updated: 2026-04-30
 
 ## wiki_completeness: **62/100**
 
-placeholder debt score: debt=34
-- official_audit.coverage_readiness: 54
+placeholder debt score: debt=35
+- official_audit.coverage_readiness: 56
 - official_audit.official_work_sync: 85
 - (페이지 내 표기 확인 필요): 0
 - (확인 필요): 4
 - 검증불가: 13
 - 교차검증 필요: 0
-- 미확정: 1
+- 미확정: 2
 - 요약 보강 필요: 0
 - 참고(2차): 0
 - 추가 필요: 3
@@ -27,7 +27,7 @@ warn_budget=20
 
 ## automation_health: **100/100**
 
-check_automation_health: OK after commit/push finalization
+check_automation_health: OK
 
 ## domain_grade_status
 
@@ -40,7 +40,7 @@ check_automation_health: OK after commit/push finalization
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/28)
+- duplicate_rate: 0.00% (0/12)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

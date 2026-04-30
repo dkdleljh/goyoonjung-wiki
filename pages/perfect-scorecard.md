@@ -1,6 +1,6 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-04-29 (Asia/Seoul)
+> Updated: 2026-04-30 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 106
@@ -37,13 +37,13 @@
 - work_pages: 15  (pages/works/*.md)
 - i18n: 100  (i18n query support)
 
-### D. Perfect quality: **70/100**
+### D. Perfect quality: **71/100**
 
 - placeholder: 32  (debt=34)
 - link_health: 100  (link-health.md presence)
 - lint: 100  (lint-report.md presence)
 - provenance: 100  (official vs press vs secondary)
-- coverage_readiness: 54  (official coverage audit)
+- coverage_readiness: 56  (official coverage audit)
 
 ## Top URL-heavy pages (top 10)
 - 1282: pages/alternative-proof-candidates.md

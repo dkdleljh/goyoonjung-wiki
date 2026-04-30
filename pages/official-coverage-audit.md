@@ -1,10 +1,10 @@
 # Official Coverage Audit (auto)
 
-> Updated: 2026-04-29 16:43 (Asia/Seoul)
+> Updated: 2026-04-30 09:04 (Asia/Seoul)
 
 ## Scores
 - official_work_sync: **85/100**
-- coverage_readiness: **54/100**
+- coverage_readiness: **56/100**
 
 ## Official Filmography Sync
 - official_titles: 11
@@ -19,10 +19,10 @@
 - 조명가게
 
 ## Critical Verification Debt
-- unresolved_awards: 12
+- unresolved_awards: 11
 - unresolved_profile: 2
-- unresolved_sns: 4
-- verification_queue_items: 28
+- unresolved_sns: 2
+- verification_queue_items: 22
 
 ## Future Coverage
 - upcoming_schedule_items: 0

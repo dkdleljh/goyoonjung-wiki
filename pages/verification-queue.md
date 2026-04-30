@@ -2,7 +2,7 @@
 
 > 목적: 공식 근거 확인이 필요한 항목을 우선순위로 처리하기 위한 큐
 
-- total_items: 21
+- total_items: 22
 
 ## Items
 - [pages/awards.md:40] | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
@@ -20,6 +20,7 @@
 - [pages/endorsements/by-year.md:16] - [샤넬(CHANEL)](https://www.instagram.com/p/C6gW0vQNU1_/) — (앰버서더/프렌즈 여부 공식 확인 필요)
 - [pages/endorsements/fashion.md:23] - 링크(공식 영상/캠페인): (추가 필요)
 - [pages/endorsements/fashion.md:50] - 역할: (앰버서더/프렌즈 여부 공식 확인 필요)
+- [pages/hub.md:28] - 안전 원칙: 루머/사생활/비공식 단정은 금지하고, 미확정 항목은 검증 큐에 남긴다.
 - [pages/pictorials/editorial.md:256] - 링크(원문): (추가 필요)
 - [pages/pictorials/editorial.md:258] - id: (추가 필요)
 - [pages/profile.md:49] - 상태: 검증불가(공식 근거 미확보)
