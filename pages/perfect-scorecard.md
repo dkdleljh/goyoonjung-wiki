@@ -37,9 +37,9 @@
 - work_pages: 15  (pages/works/*.md)
 - i18n: 100  (i18n query support)
 
-### D. Perfect quality: **71/100**
+### D. Perfect quality: **70/100**
 
-- placeholder: 32  (debt=34)
+- placeholder: 30  (debt=35)
 - link_health: 100  (link-health.md presence)
 - lint: 100  (lint-report.md presence)
 - provenance: 100  (official vs press vs secondary)

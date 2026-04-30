@@ -1,18 +1,14 @@
 # 데일리 리포트
 
-> 갱신: 2026-04-30 09:04 (Asia/Seoul)
+> 갱신: 2026-04-30 15:34 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 15a9c651 2026-04-29 17:14:19 +0900 docs: refresh release references for v1.8.1 [skip ci]
+- fe966bc7 2026-04-30 09:05:23 +0900 chore: daily update 2026-04-30
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- README.md
-- docs/README.md
-- index.md
-- pages/hub.en.md
-- pages/hub.md
+- news/2026-04-30.md
 
 ## 3) 오늘 실행 상태(news/2026-04-30.md)
 
