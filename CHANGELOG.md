@@ -4,8 +4,13 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## v1.9.0 (2026-04-30)
+- docs: refresh release references for v1.8.1 [skip ci]
+- daily: update 2026-04-30
+
 ## v1.8.1 (2026-04-29)
 - docs: refresh release version references
+- chore: prepare release v1.8.1
 
 ## v1.8.0 (2026-04-29)
 - chore: harden wiki automation and docs
