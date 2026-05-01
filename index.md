@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-04-30
+> 자동 생성 인덱스 · 마지막 갱신: 2026-05-01
 
 ## 바로 가기
 - [README.md](README.md)
@@ -17,15 +17,12 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
-- [`15a9c651`](https://github.com/dkdleljh/goyoonjung-wiki/commit/15a9c651) — docs: refresh release references for v1.8.1 [skip ci]
-- [`3d002d36`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3d002d36) — chore: prepare release v1.8.1
-- [`2f8e24c9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2f8e24c9) — docs: refresh release version references
-- [`727f7d1d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/727f7d1d) — chore: prepare release v1.8.0
-- [`ad93596d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ad93596d) — chore: harden wiki automation and docs
+- [`68063b95`](https://github.com/dkdleljh/goyoonjung-wiki/commit/68063b95) — chore: prepare release v1.10.1
+- [`9363061b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9363061b) — chore: refresh system status
+- [`29e85056`](https://github.com/dkdleljh/goyoonjung-wiki/commit/29e85056) — chore: prepare release v1.10.0
+- [`9767d2c7`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9767d2c7) — routine: recommended (coverage+quality) 2026-04-30
+- [`5fd5c837`](https://github.com/dkdleljh/goyoonjung-wiki/commit/5fd5c837) — chore: daily update 2026-04-30
 
 ## 직전 변경 파일
-- `README.md`
-- `docs/README.md`
-- `index.md`
-- `pages/hub.en.md`
-- `pages/hub.md`
+- `CHANGELOG.md`
+- `logs/releases/release-notes-v1.10.1.md`
