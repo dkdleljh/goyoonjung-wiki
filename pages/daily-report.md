@@ -1,17 +1,17 @@
 # 데일리 리포트
 
-> 갱신: 2026-05-01 09:04 (Asia/Seoul)
+> 갱신: 2026-05-02 09:05 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 68063b95 2026-04-30 06:37:36 +0000 chore: prepare release v1.10.1
+- ebd7c533 2026-05-01 00:08:22 +0000 chore: prepare release v1.11.1
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - CHANGELOG.md
-- logs/releases/release-notes-v1.10.1.md
+- logs/releases/release-notes-v1.11.1.md
 
-## 3) 오늘 실행 상태(news/2026-05-01.md)
+## 3) 오늘 실행 상태(news/2026-05-02.md)
 
 ## 실행 상태
 
@@ -27,7 +27,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/19)
+- duplicate_rate: 0.00% (0/5)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
