@@ -1,6 +1,6 @@
 # 🧭 고윤정 위키 허브
 
-> 자동 생성 허브 · 마지막 갱신: 2026-05-02
+> 자동 생성 허브 · 마지막 갱신: 2026-05-03
 
 ## 운영/문서 링크
 - [프로젝트 README](../README.md)
@@ -14,7 +14,7 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `ebd7c533` |
+| 최신 커밋 | `3ee44a61` |
 | 최신 릴리즈 태그 | `v1.11.0` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
@@ -38,8 +38,7 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `CHANGELOG.md`
-- `logs/releases/release-notes-v1.11.1.md`
+- `pages/link-health.md`
 
 ## 운영 핵심 페이지
 - [`pages/daily-report.md`](daily-report.md)
