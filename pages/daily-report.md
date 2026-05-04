@@ -1,16 +1,38 @@
 # 데일리 리포트
 
-> 갱신: 2026-05-03 09:10 (Asia/Seoul)
+> 갱신: 2026-05-04 09:12 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 3ee44a61 2026-05-03 03:54:34 +0900 chore: link health 2026-05-03
+- 6acb2cb5 2026-05-03 09:10:54 +0900 daily: update 2026-05-03
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- README.md
+- docs/README.md
+- index.md
+- news/2026-05-02.md
+- news/2026-05-03.md
+- news/README.md
+- pages/candidate-pool.md
+- pages/daily-report.md
+- pages/dashboard.md
+- pages/hub.en.md
+- pages/hub.md
+- pages/kpi-report.md
 - pages/link-health.md
+- pages/official-coverage-audit.md
+- pages/perfect-scorecard.md
+- pages/progress.md
+- pages/promotion-queue.md
+- pages/schedule.md
+- pages/system_status.md
+- pages/works/alchemy-of-souls.md
+- pages/works/hunt.md
+- pages/works/moving.md
+- sources/awards-official.md
 
-## 3) 오늘 실행 상태(news/2026-05-03.md)
+## 3) 오늘 실행 상태(news/2026-05-04.md)
 
 ## 실행 상태
 
@@ -26,7 +48,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/14)
+- duplicate_rate: 0.00% (0/45)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
