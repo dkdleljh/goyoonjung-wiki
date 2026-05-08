@@ -6,6 +6,7 @@
 ---
 
 ## 2026
+- 2026-05-07 · [고윤정의 광채 피부를 완성한 샤넬 수블리마지 컬렉션](https://www.marieclairekorea.com/beauty/2026/05/the-ultimate-skincare-ritual/)
 - 2026-05-04 · [샤넬뷰티 수블리마지 컬렉션과 함께한 고윤정의 바닐라빛 오후 #2](https://www.marieclairekorea.com/beauty/2026/05/vanilla-sky-2/)
 - 2026-04-29 · [샤넬뷰티 수블리마지의 뮤즈, 고윤정](https://www.marieclairekorea.com/beauty/2026/04/chanel-beauty-sublimage-goyounjung/)
 - 2026-04-29 · [샤넬뷰티 수블리마지 컬렉션과 함께한 고윤정의 바닐라빛 오후 #1](https://www.marieclairekorea.com/beauty/2026/04/vanilla-sky-1/)

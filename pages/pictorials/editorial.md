@@ -80,6 +80,14 @@
 - 링크(원문): https://www.marieclairekorea.com/beauty/2026/05/vanilla-sky-2/
 - 상태: 공식확정
 - id: https://www.marieclairekorea.com/beauty/2026/05/vanilla-sky-2/
+
+- 날짜: 2026-05-07
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 고윤정의 광채 피부를 완성한 샤넬 수블리마지 컬렉션
+- 링크(원문): https://www.marieclairekorea.com/beauty/2026/05/the-ultimate-skincare-ritual/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/beauty/2026/05/the-ultimate-skincare-ritual/
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)

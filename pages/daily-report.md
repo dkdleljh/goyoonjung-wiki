@@ -1,18 +1,18 @@
 # 데일리 리포트
 
-> 갱신: 2026-05-07 09:09 (Asia/Seoul)
+> 갱신: 2026-05-08 09:08 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 524bfc37 2026-05-06 09:05:06 +0900 daily: update 2026-05-06
+- 73034801 2026-05-07 09:09:52 +0900 daily: update 2026-05-07
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - README.md
 - docs/README.md
 - index.md
-- news/2026-05-05.md
 - news/2026-05-06.md
+- news/2026-05-07.md
 - news/README.md
 - pages/candidate-pool.md
 - pages/daily-report.md
@@ -31,7 +31,7 @@
 - pages/works/moving.md
 - sources/awards-official.md
 
-## 3) 오늘 실행 상태(news/2026-05-07.md)
+## 3) 오늘 실행 상태(news/2026-05-08.md)
 
 ## 실행 상태
 
@@ -47,7 +47,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/16)
+- duplicate_rate: 0.00% (0/12)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

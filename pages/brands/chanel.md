@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-05-05 09:12 (Asia/Seoul)
+> 갱신: 2026-05-08 09:08 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -36,6 +36,8 @@
 
 - [샤넬뷰티 수블리마지 컬렉션과 함께한 고윤정의 바닐라빛 오후 #2](https://www.marieclairekorea.com/beauty/2026/05/vanilla-sky-2/)  _(출처: pictorials/editorial.md)_
 
+- [고윤정의 광채 피부를 완성한 샤넬 수블리마지 컬렉션](https://www.marieclairekorea.com/beauty/2026/05/the-ultimate-skincare-ritual/)  _(출처: pictorials/editorial.md)_
+
 - [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)  _(출처: pictorials/editorial.md)_
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)  _(출처: pictorials/editorial.md)_
@@ -46,6 +48,7 @@
 
 - [CHANEL / Vogue Korea](https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
+
 
 
 
