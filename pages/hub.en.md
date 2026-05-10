@@ -1,6 +1,6 @@
 # 🧭 Go Youn-jung Wiki Hub
 
-> Auto-generated hub · last updated: 2026-05-09
+> Auto-generated hub · last updated: 2026-05-10
 
 ## Ops / Docs
 - [Project README](../README.md)
@@ -14,7 +14,7 @@
 ## Status table
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `712c8fe0` |
+| 최신 커밋 | `1eb4f0d6` |
 | 최신 릴리즈 태그 | `v1.11.0` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
@@ -31,11 +31,7 @@
 - [Schedule](schedule.md)
 
 ## Recently changed files
-- `README.md`
-- `docs/README.md`
-- `index.md`
-- `news/2026-05-07.md`
-- `news/2026-05-08.md`
+- `pages/link-health.md`
 
 ## Ops pages
 - [`pages/daily-report.md`](daily-report.md)
