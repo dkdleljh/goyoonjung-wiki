@@ -2,7 +2,7 @@
 
 ![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.11.0-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-05-10
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-05-11
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -27,7 +27,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `1eb4f0d6` |
+| 최신 커밋 | `3f1b26da` |
 | 최신 릴리즈 태그 | `v1.11.0` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
@@ -61,14 +61,21 @@
   - 로컬 노트: `logs/releases/release-notes-v1.10.0.md`
 
 ## 최근 변경 요약
+- [`3f1b26da`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3f1b26da) — daily: update 2026-05-10
 - [`1eb4f0d6`](https://github.com/dkdleljh/goyoonjung-wiki/commit/1eb4f0d6) — chore: link health 2026-05-10
 - [`21f34baf`](https://github.com/dkdleljh/goyoonjung-wiki/commit/21f34baf) — daily: update 2026-05-09
 - [`712c8fe0`](https://github.com/dkdleljh/goyoonjung-wiki/commit/712c8fe0) — daily: update 2026-05-08
 - [`73034801`](https://github.com/dkdleljh/goyoonjung-wiki/commit/73034801) — daily: update 2026-05-07
-- [`524bfc37`](https://github.com/dkdleljh/goyoonjung-wiki/commit/524bfc37) — daily: update 2026-05-06
 
 ## 최근 변경 파일
-- `pages/link-health.md`
+- `README.md`
+- `docs/README.md`
+- `index.md`
+- `news/2026-05-09.md`
+- `news/2026-05-10.md`
+- `news/README.md`
+- `pages/candidate-pool.md`
+- `pages/daily-report.md`
 
 ## 자주 쓰는 명령
 ```bash

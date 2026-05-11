@@ -1,6 +1,6 @@
 # Official Coverage Audit (auto)
 
-> Updated: 2026-05-10 09:11 (Asia/Seoul)
+> Updated: 2026-05-11 09:04 (Asia/Seoul)
 
 ## Scores
 - official_work_sync: **85/100**

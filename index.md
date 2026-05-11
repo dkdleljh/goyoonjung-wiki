@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-05-10
+> 자동 생성 인덱스 · 마지막 갱신: 2026-05-11
 
 ## 바로 가기
 - [README.md](README.md)
@@ -17,11 +17,18 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`3f1b26da`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3f1b26da) — daily: update 2026-05-10
 - [`1eb4f0d6`](https://github.com/dkdleljh/goyoonjung-wiki/commit/1eb4f0d6) — chore: link health 2026-05-10
 - [`21f34baf`](https://github.com/dkdleljh/goyoonjung-wiki/commit/21f34baf) — daily: update 2026-05-09
 - [`712c8fe0`](https://github.com/dkdleljh/goyoonjung-wiki/commit/712c8fe0) — daily: update 2026-05-08
 - [`73034801`](https://github.com/dkdleljh/goyoonjung-wiki/commit/73034801) — daily: update 2026-05-07
-- [`524bfc37`](https://github.com/dkdleljh/goyoonjung-wiki/commit/524bfc37) — daily: update 2026-05-06
 
 ## 직전 변경 파일
-- `pages/link-health.md`
+- `README.md`
+- `docs/README.md`
+- `index.md`
+- `news/2026-05-09.md`
+- `news/2026-05-10.md`
+- `news/README.md`
+- `pages/candidate-pool.md`
+- `pages/daily-report.md`
