@@ -1,5 +1,5 @@
 # Dashboard
-> Last Refreshed: 2026-05-12 09:11:00 (Asia/Seoul)
+> Last Refreshed: 2026-05-13 09:08:43 (Asia/Seoul)
 
 ## Quick Status
 | Metric | Status | Note |
