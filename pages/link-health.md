@@ -1,6 +1,6 @@
 # 링크 건강검진
 
-> 갱신: 2026-05-17 04:00 (Asia/Seoul) · 대상 URL: 250 (최대 250)
+> 갱신: 2026-05-17 09:06 (Asia/Seoul) · 대상 URL: 250 (최대 250)
 
 - OK: **248** / WARN: **2** / BAD: **0**
 
@@ -11,4 +11,4 @@
 ## WARN (차단/리다이렉트/확인 필요)
 
 - (-) https://m.news.zum.com/articles/63011527 · error: HTTPError
-- (-) https://www.tomfordbeauty.com/ · error: HTTPError
+- (-) https://extmovie.com/movietalk/86419918 · error: URLError
