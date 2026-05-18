@@ -2,7 +2,7 @@
 
 ![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.11.0-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-05-17
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-05-18
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -27,7 +27,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `c1de5740` |
+| 최신 커밋 | `d881c63f` |
 | 최신 릴리즈 태그 | `v1.11.0` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
@@ -61,15 +61,15 @@
   - 로컬 노트: `logs/releases/release-notes-v1.10.0.md`
 
 ## 최근 변경 요약
-- [`c1de5740`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c1de5740) — chore: prepare release v1.13.3
-- [`0f02b42e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/0f02b42e) — chore: link health 2026-05-17
-- [`cfd0be82`](https://github.com/dkdleljh/goyoonjung-wiki/commit/cfd0be82) — chore: prepare release v1.13.2
-- [`a45cbf1e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a45cbf1e) — chore: record daily push recovery complete 2026-05-16
-- [`70d09897`](https://github.com/dkdleljh/goyoonjung-wiki/commit/70d09897) — chore: prepare release v1.13.1
+- [`d881c63f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d881c63f) — chore: prepare release v1.14.1
+- [`cc7e3dd3`](https://github.com/dkdleljh/goyoonjung-wiki/commit/cc7e3dd3) — Merge remote-tracking branch 'origin/main'
+- [`d0103c0b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d0103c0b) — chore: finalize daily run log 2026-05-17
+- [`e8166b64`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e8166b64) — chore: prepare release v1.14.0
+- [`300e5e81`](https://github.com/dkdleljh/goyoonjung-wiki/commit/300e5e81) — daily: update 2026-05-17
 
 ## 최근 변경 파일
 - `CHANGELOG.md`
-- `logs/releases/release-notes-v1.13.3.md`
+- `logs/releases/release-notes-v1.14.1.md`
 
 ## 자주 쓰는 명령
 ```bash
