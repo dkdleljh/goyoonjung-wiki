@@ -78,6 +78,21 @@ FAIL_STAMP="$NOTIFY_DIR/last-fail-notify.stamp"
 STATUS_FILE="$NOTIFY_DIR/last-run-status.txt"
 RECOVERY_STAMP="$NOTIFY_DIR/last-recovery-notify.${TODAY}.stamp"
 
+commit_and_push_status_log() {
+  export NO_HOOK_NOTIFY=1
+  export GOYOONJUNG_WIKI_AUTOMATION_PUSH=1
+
+  git add "$NEWS_FILE" >/dev/null 2>&1 || true
+  if git diff --cached --quiet -- "$NEWS_FILE"; then
+    return 0
+  fi
+
+  git commit -m "chore: finalize daily run log ${TODAY}" >/dev/null
+  CURRENT_STEP="git:push-status"
+  echo "[STEP:$CURRENT_STEP] run: git push origin main" >>"$RUN_LOG"
+  git push origin main >>"$RUN_LOG" 2>&1
+}
+
 # Run log (for detailed notifications)
 RUN_LOG="$LOCK_DIR/run_${TODAY}.log"
 : > "$RUN_LOG" 2>/dev/null || true
@@ -544,6 +559,7 @@ if git diff --cached --quiet; then
   # Nothing changed: this is still a successful run.
   NOTE="$NOTE, git:clean"
   ./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+  commit_and_push_status_log
   echo "ok run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
   RUN_OK=1
   exit 0
@@ -587,6 +603,7 @@ fi
 
 NOTE="$NOTE, push:OK"
 ./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+commit_and_push_status_log
 # record last status for recovery notifications
 echo "ok run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
 RUN_OK=1
