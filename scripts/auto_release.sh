@@ -117,6 +117,15 @@ main() {
 
   git fetch --quiet origin --tags --prune >/dev/null 2>&1 || true
 
+  # Another runner may have advanced main while this job was working.
+  # Avoid creating a duplicate release commit from a stale local HEAD.
+  if git rev-parse -q --verify refs/remotes/origin/main >/dev/null; then
+    if [ "$(git rev-parse HEAD)" != "$(git rev-parse refs/remotes/origin/main)" ]; then
+      echo "auto_release: skip (local HEAD is not origin/main)" >&2
+      exit 0
+    fi
+  fi
+
   local last_tag
   last_tag=$(latest_semver_tag)
   if [ -z "$last_tag" ]; then
