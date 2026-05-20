@@ -227,7 +227,17 @@ EOF
   git add CHANGELOG.md "$notes_file" 2>/dev/null || true
   if ! git diff --cached --quiet 2>/dev/null; then
     git commit -m "chore: prepare release ${new_tag}" >/dev/null
-    git push origin main >/dev/null
+    if ! git push origin main >/dev/null; then
+      echo "auto_release: main push raced with remote; merging origin/main" >&2
+      git fetch --quiet origin main --tags --prune >/dev/null 2>&1 || true
+      git merge -X theirs --no-edit refs/remotes/origin/main >/dev/null
+      git push origin main >/dev/null
+    fi
+  fi
+
+  if git ls-remote --exit-code --tags origin "refs/tags/${new_tag}" >/dev/null 2>&1; then
+    echo "auto_release: skip tag push (remote tag exists: ${new_tag})" >&2
+    exit 0
   fi
 
   git tag -a "$new_tag" -m "$msg"
