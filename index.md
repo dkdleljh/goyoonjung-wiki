@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-05-19
+> 자동 생성 인덱스 · 마지막 갱신: 2026-05-20
 
 ## 바로 가기
 - [README.md](README.md)
@@ -13,16 +13,16 @@
 - [pages/perfect-scorecard.md](pages/perfect-scorecard.md)
 
 ## 최신 릴리즈
-- 최신 태그: `v1.11.0`
+- 최신 태그: `v1.17.0`
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
-- [`b8291f0e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/b8291f0e) — chore: prepare release v1.16.0
-- [`09659e1c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/09659e1c) — Merge remote-tracking branch 'origin/main'
-- [`fc585fb4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/fc585fb4) — fix: commit daily status log after push
-- [`e995033a`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e995033a) — chore: prepare release v1.15.0
-- [`d96ddbbf`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d96ddbbf) — daily: update 2026-05-18
+- [`6189df48`](https://github.com/dkdleljh/goyoonjung-wiki/commit/6189df48) — chore: prepare release v1.17.1
+- [`3159fe3d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3159fe3d) — Merge remote-tracking branch 'origin/main'
+- [`40a46f59`](https://github.com/dkdleljh/goyoonjung-wiki/commit/40a46f59) — fix: skip stale auto release runs
+- [`af3b822a`](https://github.com/dkdleljh/goyoonjung-wiki/commit/af3b822a) — chore: prepare release v1.17.0
+- [`eb7227b8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/eb7227b8) — chore: prepare release v1.17.0
 
 ## 직전 변경 파일
 - `CHANGELOG.md`
-- `logs/releases/release-notes-v1.16.0.md`
+- `logs/releases/release-notes-v1.17.1.md`
