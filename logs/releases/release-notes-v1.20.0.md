@@ -1,6 +1,6 @@
 # v1.20.0
 
-- generated_at: 2026-05-22 09:12:13 KST
+- generated_at: 2026-05-22 09:12:14 KST
 - bump: minor
 - base: v1.19.1
 - head: d484c71f
