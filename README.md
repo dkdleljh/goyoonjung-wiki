@@ -1,8 +1,8 @@
 # 고윤정 위키 (Go Youn-jung Wiki)
 
-![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.19.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
+![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.20.0-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-05-22
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-05-23
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -27,8 +27,8 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `219a220c` |
-| 최신 릴리즈 태그 | `v1.19.1` |
+| 최신 커밋 | `64099e48` |
+| 최신 릴리즈 태그 | `v1.20.0` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
@@ -50,26 +50,26 @@
 - 현재 판정: `bash scripts/check_automation_health.sh`와 `make check` 통과를 운영 기준으로 삼는다.
 
 ## 최신 릴리즈
+- `v1.20.0`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.20.0
+  - 로컬 노트: `logs/releases/release-notes-v1.20.0.md`
 - `v1.19.1`
   - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.19.1
   - 로컬 노트: `logs/releases/release-notes-v1.19.1.md`
 - `v1.19.0`
   - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.19.0
   - 로컬 노트: `logs/releases/release-notes-v1.19.0.md`
-- `v1.18.1`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.18.1
-  - 로컬 노트: `logs/releases/release-notes-v1.18.1.md`
 
 ## 최근 변경 요약
-- [`219a220c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/219a220c) — chore: prepare release v1.19.1
-- [`567f179f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/567f179f) — Merge remote-tracking branch 'refs/remotes/origin/main'
-- [`574c062e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/574c062e) — chore: prepare release v1.19.0
-- [`dba7a1ba`](https://github.com/dkdleljh/goyoonjung-wiki/commit/dba7a1ba) — chore: prepare release v1.19.0
-- [`6ec47cc2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/6ec47cc2) — chore: finalize daily run log 2026-05-21
+- [`64099e48`](https://github.com/dkdleljh/goyoonjung-wiki/commit/64099e48) — chore: prepare release v1.20.1
+- [`97482c33`](https://github.com/dkdleljh/goyoonjung-wiki/commit/97482c33) — Merge remote-tracking branch 'refs/remotes/origin/main'
+- [`2c1950dd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2c1950dd) — chore: prepare release v1.20.0
+- [`0fac62e6`](https://github.com/dkdleljh/goyoonjung-wiki/commit/0fac62e6) — chore: prepare release v1.20.0
+- [`d484c71f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d484c71f) — chore: finalize daily run log 2026-05-22
 
 ## 최근 변경 파일
 - `CHANGELOG.md`
-- `logs/releases/release-notes-v1.19.1.md`
+- `logs/releases/release-notes-v1.20.1.md`
 
 ## 자주 쓰는 명령
 ```bash
