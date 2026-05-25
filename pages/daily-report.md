@@ -1,17 +1,17 @@
 # 데일리 리포트
 
-> 갱신: 2026-05-24 09:09 (Asia/Seoul)
+> 갱신: 2026-05-25 09:05 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 33574fd5 2026-05-23 18:53:07 +0000 chore: prepare release v1.21.2
+- 2f781cd5 2026-05-24 00:10:27 +0000 chore: prepare release v1.22.1
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - CHANGELOG.md
-- logs/releases/release-notes-v1.21.2.md
+- logs/releases/release-notes-v1.22.1.md
 
-## 3) 오늘 실행 상태(news/2026-05-24.md)
+## 3) 오늘 실행 상태(news/2026-05-25.md)
 
 ## 실행 상태
 
