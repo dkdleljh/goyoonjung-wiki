@@ -4,9 +4,14 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## v1.26.1 (2026-05-28)
+- chore: prepare release v1.26.0
+- Merge remote-tracking branch 'refs/remotes/origin/main'
+
 ## v1.26.0 (2026-05-28)
 - daily: update 2026-05-28
 - chore: finalize daily run log 2026-05-28
+- chore: prepare release v1.26.0
 
 ## v1.25.1 (2026-05-27)
 - chore: prepare release v1.25.0
