@@ -1,16 +1,17 @@
 # 데일리 리포트
 
-> 갱신: 2026-05-30 09:13 (Asia/Seoul)
+> 갱신: 2026-05-31 09:11 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 8d0c863c 2026-05-29 00:11:30 +0000 Merge remote-tracking branch 'refs/remotes/origin/main'
+- 4908fafd 2026-05-30 18:42:12 +0000 chore: prepare release v1.28.2
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- (없음)
+- CHANGELOG.md
+- logs/releases/release-notes-v1.28.2.md
 
-## 3) 오늘 실행 상태(news/2026-05-30.md)
+## 3) 오늘 실행 상태(news/2026-05-31.md)
 
 ## 실행 상태
 
@@ -26,7 +27,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/17)
+- duplicate_rate: 0.00% (0/2)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
