@@ -1,6 +1,6 @@
 # 🧭 고윤정 위키 허브
 
-> 자동 생성 허브 · 마지막 갱신: 2026-05-31
+> 자동 생성 허브 · 마지막 갱신: 2026-06-01
 
 ## 운영/문서 링크
 - [프로젝트 README](../README.md)
@@ -14,8 +14,8 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `4908fafd` |
-| 최신 릴리즈 태그 | `v1.28.0` |
+| 최신 커밋 | `6b6a08c9` |
+| 최신 릴리즈 태그 | `v1.28.2` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
@@ -38,8 +38,7 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `CHANGELOG.md`
-- `logs/releases/release-notes-v1.28.2.md`
+- `logs/releases/release-notes-v1.29.0.md`
 
 ## 운영 핵심 페이지
 - [`pages/daily-report.md`](daily-report.md)
