@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-06-01
+> 자동 생성 인덱스 · 마지막 갱신: 2026-06-02
 
 ## 바로 가기
 - [README.md](README.md)
@@ -13,15 +13,16 @@
 - [pages/perfect-scorecard.md](pages/perfect-scorecard.md)
 
 ## 최신 릴리즈
-- 최신 태그: `v1.28.2`
+- 최신 태그: `v1.30.1`
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
-- [`6b6a08c9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/6b6a08c9) — Merge remote-tracking branch 'refs/remotes/origin/main'
-- [`c58316d3`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c58316d3) — chore: prepare release v1.29.0
-- [`3b86a208`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3b86a208) — chore: prepare release v1.29.0
-- [`9e96f7a0`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9e96f7a0) — chore: finalize daily run log 2026-05-31
-- [`229c2874`](https://github.com/dkdleljh/goyoonjung-wiki/commit/229c2874) — daily: update 2026-05-31
+- [`f94caff6`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f94caff6) — chore: prepare release v1.30.1
+- [`48582397`](https://github.com/dkdleljh/goyoonjung-wiki/commit/48582397) — Merge remote-tracking branch 'refs/remotes/origin/main'
+- [`2a380b96`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2a380b96) — chore: prepare release v1.30.0
+- [`996a8e39`](https://github.com/dkdleljh/goyoonjung-wiki/commit/996a8e39) — chore: prepare release v1.30.0
+- [`c8eaa6bb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c8eaa6bb) — chore: finalize daily run log 2026-06-01
 
 ## 직전 변경 파일
-- `logs/releases/release-notes-v1.29.0.md`
+- `CHANGELOG.md`
+- `logs/releases/release-notes-v1.30.1.md`
