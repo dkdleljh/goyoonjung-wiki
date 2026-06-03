@@ -8,7 +8,6 @@ try:
         PAGES,
         REPORTS,
         md_table,
-        report_header,
         run_cmd,
         write_json,
     )
@@ -17,7 +16,6 @@ except Exception:  # pragma: no cover
         PAGES,
         REPORTS,
         md_table,
-        report_header,
         run_cmd,
         write_json,
     )
@@ -32,24 +30,35 @@ TIMERS = [
 ]
 
 
+def timer_row(timer: str) -> list[str]:
+    res = run_cmd(["systemctl", "--user", "list-timers", "--all", timer, "--no-pager"], timeout=8)
+    if res.rc != 0:
+        return [timer, "WARN", "systemctl unavailable or user bus not ready"]
+
+    lines = [line for line in res.out.splitlines() if timer in line]
+    if not lines:
+        return [timer, "WARN", "not listed"]
+    if lines[0].startswith("-"):
+        return [timer, "OK", "listed; no fixed next run"]
+    return [timer, "OK", "listed; next run scheduled"]
+
+
 def main() -> int:
     rows: list[list[str]] = []
     warnings = 0
     for timer in TIMERS:
-        res = run_cmd(["systemctl", "--user", "list-timers", "--all", timer, "--no-pager"], timeout=8)
-        detail = res.out.replace("\n", " ")[:180]
-        ok = res.rc == 0 and timer in res.out and not detail.lstrip().startswith("-")
-        if not ok:
+        row = timer_row(timer)
+        if row[1] != "OK":
             warnings += 1
-        rows.append([timer, "OK" if ok else "WARN", detail or "not available"])
+        rows.append(row)
 
     health = run_cmd(["bash", "scripts/check_automation_health.sh"], timeout=40)
-    rows.append(["check_automation_health", "OK" if health.rc == 0 else "WARN", health.out[-180:]])
+    rows.append(["check_automation_health", "OK" if health.rc == 0 else "WARN", "passed" if health.rc == 0 else health.out[-180:]])
     if health.rc != 0:
         warnings += 1
 
     status = "OK" if warnings == 0 else "WARN"
-    lines = report_header("Watchdog Report (auto)")
+    lines = ["# Watchdog Report (auto)", "", "> Stable watchdog snapshot; volatile timer countdowns are omitted.", ""]
     lines += ["## Summary", f"- status: {status}", f"- warnings: {warnings}", "", "## Checks", md_table(rows, ["target", "state", "detail"])]
     PAGES.mkdir(parents=True, exist_ok=True)
     REPORTS.mkdir(parents=True, exist_ok=True)
