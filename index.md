@@ -17,18 +17,11 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`4d32d7de`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4d32d7de) — docs: record clean automation health
+- [`8ccd8ab9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8ccd8ab9) — docs: refresh pushed automation reports
 - [`76fbe28f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/76fbe28f) — Improve release docs and automation health
 - [`f0b3d3c8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f0b3d3c8) — chore: prepare release v1.32.1
 - [`aaecf8eb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aaecf8eb) — Merge remote-tracking branch 'refs/remotes/origin/main'
-- [`6248a25b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/6248a25b) — chore: prepare release v1.32.0
-- [`31ae2d9c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/31ae2d9c) — chore: prepare release v1.32.0
 
 ## 직전 변경 파일
-- `README.md`
-- `docs/README.md`
-- `index.md`
-- `pages/daily-report.md`
-- `pages/hub.en.md`
-- `pages/hub.md`
-- `pages/link-health.md`
-- `pages/official-coverage-audit.md`
+- `pages/system_status.md`

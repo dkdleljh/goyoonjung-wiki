@@ -14,9 +14,9 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `76fbe28f` |
+| 최신 커밋 | `4d32d7de` |
 | 최신 릴리즈 태그 | `v1.32.1` |
-| docs 문서 수 | `18` |
+| docs 문서 수 | `19` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
 | daily update | `scripts/run_daily_update.sh` |
@@ -38,11 +38,7 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `README.md`
-- `docs/README.md`
-- `index.md`
-- `pages/daily-report.md`
-- `pages/hub.en.md`
+- `pages/system_status.md`
 
 ## 운영 핵심 페이지
 - [`pages/daily-report.md`](daily-report.md)

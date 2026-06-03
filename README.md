@@ -1,6 +1,6 @@
 # 고윤정 위키 (Go Youn-jung Wiki)
 
-![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.32.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-18-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
+![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.32.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-19-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
 > 자동 생성 포털 문서 · 마지막 갱신: 2026-06-04
 
@@ -27,9 +27,9 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `76fbe28f` |
+| 최신 커밋 | `4d32d7de` |
 | 최신 릴리즈 태그 | `v1.32.1` |
-| docs 문서 수 | `18` |
+| docs 문서 수 | `19` |
 | 운영 페이지 수 | `7` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
 | daily update | `scripts/run_daily_update.sh` |
@@ -61,21 +61,14 @@
   - 로컬 노트: `logs/releases/release-notes-v1.31.1.md`
 
 ## 최근 변경 요약
+- [`4d32d7de`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4d32d7de) — docs: record clean automation health
+- [`8ccd8ab9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8ccd8ab9) — docs: refresh pushed automation reports
 - [`76fbe28f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/76fbe28f) — Improve release docs and automation health
 - [`f0b3d3c8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f0b3d3c8) — chore: prepare release v1.32.1
 - [`aaecf8eb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aaecf8eb) — Merge remote-tracking branch 'refs/remotes/origin/main'
-- [`6248a25b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/6248a25b) — chore: prepare release v1.32.0
-- [`31ae2d9c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/31ae2d9c) — chore: prepare release v1.32.0
 
 ## 최근 변경 파일
-- `README.md`
-- `docs/README.md`
-- `index.md`
-- `pages/daily-report.md`
-- `pages/hub.en.md`
-- `pages/hub.md`
-- `pages/link-health.md`
-- `pages/official-coverage-audit.md`
+- `pages/system_status.md`
 
 ## 자주 쓰는 명령
 ```bash

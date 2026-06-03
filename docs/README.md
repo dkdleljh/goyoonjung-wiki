@@ -16,7 +16,7 @@
 - [ux-automation-system.md](ux-automation-system.md)
 
 ## 문서 상태 요약
-- docs 문서 수: `18`
+- docs 문서 수: `19`
 - 운영 핵심 페이지 수: `7`
 - 최신 릴리즈 태그: `v1.32.1`
 
@@ -50,6 +50,7 @@
 - [`docs/goyoonjung-wiki-current-analysis.md`](goyoonjung-wiki-current-analysis.md)
 - [`docs/scoring.md`](scoring.md)
 - [`docs/ultimate-wiki-roadmap.md`](ultimate-wiki-roadmap.md)
+- [`docs/unmanned-collection-automation-roadmap.md`](unmanned-collection-automation-roadmap.md)
 - [`docs/ux-automation-system.md`](ux-automation-system.md)
 - [`docs/verification-standardization-system.md`](verification-standardization-system.md)
 - [`docs/wikipedia-infobox-structure.md`](wikipedia-infobox-structure.md)
