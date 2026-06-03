@@ -14,7 +14,7 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `f0b3d3c8` |
+| 최신 커밋 | `76fbe28f` |
 | 최신 릴리즈 태그 | `v1.32.1` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
@@ -38,8 +38,11 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `CHANGELOG.md`
-- `logs/releases/release-notes-v1.32.1.md`
+- `README.md`
+- `docs/README.md`
+- `index.md`
+- `pages/daily-report.md`
+- `pages/hub.en.md`
 
 ## 운영 핵심 페이지
 - [`pages/daily-report.md`](daily-report.md)

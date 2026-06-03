@@ -1,15 +1,30 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-04 00:51 (Asia/Seoul)
+> 갱신: 2026-06-04 00:59 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- f0b3d3c8 2026-06-03 00:06:25 +0000 chore: prepare release v1.32.1
+- 76fbe28f 2026-06-04 00:58:09 +0900 Improve release docs and automation health
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- CHANGELOG.md
-- logs/releases/release-notes-v1.32.1.md
+- README.md
+- docs/README.md
+- index.md
+- pages/daily-report.md
+- pages/hub.en.md
+- pages/hub.md
+- pages/link-health.md
+- pages/official-coverage-audit.md
+- pages/perfect-scorecard.md
+- pages/quality-report.md
+- pages/system_status.md
+- pages/verification-queue.md
+- pages/works/can-this-love-be-translated.md
+- scripts/auto_release.sh
+- scripts/flush_notify_queue.py
+- scripts/generate_doc_portals.py
+- scripts/run_daily_update.sh
 
 ## 3) 오늘 실행 상태(news/2026-06-04.md)
 

@@ -27,7 +27,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `f0b3d3c8` |
+| 최신 커밋 | `76fbe28f` |
 | 최신 릴리즈 태그 | `v1.32.1` |
 | docs 문서 수 | `18` |
 | 운영 페이지 수 | `7` |
@@ -61,15 +61,21 @@
   - 로컬 노트: `logs/releases/release-notes-v1.31.1.md`
 
 ## 최근 변경 요약
+- [`76fbe28f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/76fbe28f) — Improve release docs and automation health
 - [`f0b3d3c8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f0b3d3c8) — chore: prepare release v1.32.1
 - [`aaecf8eb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aaecf8eb) — Merge remote-tracking branch 'refs/remotes/origin/main'
 - [`6248a25b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/6248a25b) — chore: prepare release v1.32.0
 - [`31ae2d9c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/31ae2d9c) — chore: prepare release v1.32.0
-- [`387499a1`](https://github.com/dkdleljh/goyoonjung-wiki/commit/387499a1) — chore: finalize daily run log 2026-06-03
 
 ## 최근 변경 파일
-- `CHANGELOG.md`
-- `logs/releases/release-notes-v1.32.1.md`
+- `README.md`
+- `docs/README.md`
+- `index.md`
+- `pages/daily-report.md`
+- `pages/hub.en.md`
+- `pages/hub.md`
+- `pages/link-health.md`
+- `pages/official-coverage-audit.md`
 
 ## 자주 쓰는 명령
 ```bash
