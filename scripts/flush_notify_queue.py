@@ -12,6 +12,7 @@ Safe:
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -53,6 +54,12 @@ def main() -> int:
     import sys
     sys.path.append(str((BASE / "scripts").resolve()))
     import notify_status  # type: ignore
+
+    if not getattr(notify_status, "WEBHOOK_URL", None):
+        archive = QUEUE.with_name(f"notify-queue.disabled-{datetime.now().strftime('%Y%m%d-%H%M%S')}.jsonl")
+        QUEUE.replace(archive)
+        print(f"flush_notify_queue: webhook disabled; archived={len(items)} path={archive.relative_to(BASE)}")
+        return 0
 
     remaining = []
     sent = 0

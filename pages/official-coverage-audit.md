@@ -1,6 +1,6 @@
 # Official Coverage Audit (auto)
 
-> Updated: 2026-06-03 09:05 (Asia/Seoul)
+> Updated: 2026-06-04 00:56 (Asia/Seoul)
 
 ## Scores
 - official_work_sync: **85/100**
@@ -22,7 +22,7 @@
 - unresolved_awards: 11
 - unresolved_profile: 2
 - unresolved_sns: 2
-- verification_queue_items: 22
+- verification_queue_items: 21
 
 ## Future Coverage
 - upcoming_schedule_items: 0

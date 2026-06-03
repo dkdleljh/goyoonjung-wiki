@@ -221,10 +221,12 @@ ${notes_body}
 EOF
   msg="Release ${new_tag} (${bump})"
 
-  # Keep CHANGELOG.md in sync with canonical tags.
-  # If generation changes the file, commit it before tagging.
+  # Keep generated docs and CHANGELOG.md in sync with the tag being prepared.
+  # The tag does not exist yet, so pass it explicitly to generated portals.
+  GOYOONJUNG_WIKI_NEXT_TAG="$new_tag" python3 ./scripts/generate_doc_portals.py >/dev/null 2>&1 || true
+  bash ./scripts/rebuild_daily_report.sh >/dev/null 2>&1 || true
   python3 ./scripts/generate_changelog.py --next-tag "$new_tag" >/dev/null 2>&1 || true
-  git add CHANGELOG.md "$notes_file" 2>/dev/null || true
+  git add README.md index.md docs/README.md pages/doc-portal.md pages/hub.md pages/hub.en.md pages/daily-report.md CHANGELOG.md "$notes_file" 2>/dev/null || true
   if ! git diff --cached --quiet 2>/dev/null; then
     git commit -m "chore: prepare release ${new_tag}" >/dev/null
     if ! git push origin main >/dev/null; then

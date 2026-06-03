@@ -568,6 +568,16 @@ fi
 MSG="daily: update ${TODAY}"
 git commit -m "$MSG" >/dev/null
 
+# The daily report and release badges should describe the commit that is about to be pushed.
+# Regenerate them after the commit, then amend the same commit so unattended docs do not lag.
+if bash ./scripts/rebuild_daily_report.sh >/dev/null 2>&1; then
+  python3 ./scripts/generate_doc_portals.py >/dev/null 2>&1 || true
+  git add README.md index.md docs/README.md pages/doc-portal.md pages/hub.md pages/hub.en.md pages/daily-report.md >/dev/null 2>&1 || true
+  if ! git diff --cached --quiet; then
+    git commit --amend --no-edit >/dev/null
+  fi
+fi
+
 # Prevent git hooks from sending duplicate notifications for automation pushes
 export NO_HOOK_NOTIFY=1
 export GOYOONJUNG_WIKI_AUTOMATION_PUSH=1

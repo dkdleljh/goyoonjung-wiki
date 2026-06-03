@@ -2,7 +2,7 @@
 
 > 목적: 공식 근거 확인이 필요한 항목을 우선순위로 처리하기 위한 큐
 
-- total_items: 22
+- total_items: 21
 
 ## Items
 - [pages/awards.md:40] | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
@@ -26,4 +26,3 @@
 - [pages/profile.md:49] - 상태: 검증불가(공식 근거 미확보)
 - [pages/profile.md:56] - 상태: 검증불가(공식 근거 미확보)
 - [pages/sns.md:14] - 상태: **미확정(교차확인 필요)**
-- [pages/works/can-this-love-be-translated.md:7] - 고윤정 역할: 차무희 (표기: 위키/자료 교차확인 필요)

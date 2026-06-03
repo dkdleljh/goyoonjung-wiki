@@ -1,14 +1,14 @@
 # System status (auto)
 
-> Updated: 2026-06-03
+> Updated: 2026-06-04
 
-## wiki_completeness: **62/100**
+## wiki_completeness: **63/100**
 
-placeholder debt score: debt=35
+placeholder debt score: debt=34
 - official_audit.coverage_readiness: 56
 - official_audit.official_work_sync: 85
 - (페이지 내 표기 확인 필요): 0
-- (확인 필요): 4
+- (확인 필요): 3
 - 검증불가: 13
 - 교차검증 필요: 0
 - 미확정: 2
@@ -25,9 +25,11 @@ lint-report: OK
 counts: ok=249 warn=1 bad=0
 warn_budget=20
 
-## automation_health: **100/100**
+## automation_health: **80/100**
 
-check_automation_health: OK
+check_automation_health: DIRTY (possible finalization window)
+If this persists, commit/push is broken or a generator is writing untracked changes.
+FAIL: working tree dirty
 
 ## domain_grade_status
 

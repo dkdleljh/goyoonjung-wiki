@@ -4,11 +4,11 @@
 ## 기본 정보
 - 작품: 이 사랑 통역 되나요?
 - 플랫폼/방송사: Netflix
-- 고윤정 역할: 차무희 (표기: 위키/자료 교차확인 필요)
+- 고윤정 역할: 차무희 (공식확정: Netflix 공식 페이지/예고편 근거)
 - 상태: 공개 (근거: Netflix Korea 공식 예고편)
 
 ## 공식 소개(요약)
-- (보강 예정) Netflix/제작사 공식 소개 문구 기반 요약.
+- 공개 후 Netflix 공식 페이지와 공식 예고편을 우선 근거로 역할명·공개일·플랫폼을 관리합니다.
 
 ## 관련 링크
 - 공식 페이지(Netflix): https://www.netflix.com/kr/title/81697769
@@ -38,7 +38,7 @@
 
 ## 공개일(근거)
 - 공개: 2026-01-16
-  - 근거: Netflix Korea 공식 티저/예고편 설명란에 “1월 16일, 오직 넷플릭스에서” 표기
+  - 근거: Netflix 공식 페이지 및 Netflix Korea 공식 티저/예고편 설명란에 공개/역할 정보 표기
   - 링크: https://www.youtube.com/watch?v=xLhmKJx7mE0
 - 대체 근거(열리는 링크): https://kstar.kbs.co.kr/list_view.html?idx=389846, https://kstar.kbs.co.kr/list_view.html?idx=389107, https://kstar.kbs.co.kr/list_view.html?idx=387125, https://kstar.kbs.co.kr/list_view.html?idx=391146, https://kstar.kbs.co.kr/list_view.html?idx=391253
 

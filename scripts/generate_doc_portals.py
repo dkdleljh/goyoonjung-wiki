@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import os
 import re
 import subprocess
 from datetime import datetime
@@ -76,6 +77,10 @@ def main() -> int:
     today = datetime.now().strftime("%Y-%m-%d")
     head = sh(["git", "rev-parse", "--short", "HEAD"], repo)
     tags = latest_tags(repo, 3)
+    next_tag = os.environ.get("GOYOONJUNG_WIKI_NEXT_TAG", "").strip()
+    if next_tag and SEMVER_RE.match(next_tag):
+        tags = [next_tag] + [tag for tag in tags if tag != next_tag]
+        tags = tags[:3]
     latest_tag = tags[0] if tags else "(none)"
     docs_dir = repo / "docs"
     docs_files = [p for p in docs_dir.glob("*.md") if p.name != "README.md"]

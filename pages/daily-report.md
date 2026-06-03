@@ -1,20 +1,19 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-03 09:05 (Asia/Seoul)
+> 갱신: 2026-06-04 00:51 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- de12f177 2026-06-02 00:07:30 +0000 chore: prepare release v1.31.1
+- f0b3d3c8 2026-06-03 00:06:25 +0000 chore: prepare release v1.32.1
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - CHANGELOG.md
-- logs/releases/release-notes-v1.31.1.md
+- logs/releases/release-notes-v1.32.1.md
 
-## 3) 오늘 실행 상태(news/2026-06-03.md)
+## 3) 오늘 실행 상태(news/2026-06-04.md)
 
-## 실행 상태
-
+- (오늘 news 파일 없음)
 
 ## 4) 권장 체크
 
