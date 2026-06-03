@@ -92,6 +92,18 @@ def main() -> int:
         repo / "pages" / "daily-report.md",
         repo / "pages" / "lint-report.md",
         repo / "pages" / "quality-report.md",
+        repo / "pages" / "official-coverage-audit.md",
+        repo / "pages" / "verification-queue.md",
+        repo / "pages" / "preflight-report.md",
+        repo / "pages" / "self-heal-report.md",
+        repo / "pages" / "watchdog-report.md",
+        repo / "pages" / "facts-index.md",
+        repo / "pages" / "fact-conflicts.md",
+        repo / "pages" / "source-confidence.md",
+        repo / "pages" / "official-platform-watch.md",
+        repo / "pages" / "awards-official-watch.md",
+        repo / "pages" / "brand-evidence-watch.md",
+        repo / "pages" / "future-watch.md",
     ]
     recent = recent_commits(repo, 5)
     changed_files = recent_changed_files(repo, 8)

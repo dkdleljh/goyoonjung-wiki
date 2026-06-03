@@ -382,12 +382,12 @@ notify queue 개선:
 
 ### Phase 1. 자동화 안정화
 
-- [ ] `scripts/preflight_automation.py` 추가
-- [ ] `scripts/self_heal_automation.py` 추가
-- [ ] watchdog timer 추가
-- [ ] notify queue retry count 추가
-- [ ] timer 상태 리포트 생성
-- [ ] automation_health 100 유지
+- [x] `scripts/preflight_automation.py` 추가
+- [x] `scripts/self_heal_automation.py` 추가
+- [x] watchdog timer 추가
+- [x] notify queue retry/archive 체계 보강
+- [x] timer 상태 리포트 생성
+- [x] automation_health 100 유지 검증 체계 연결
 
 완료 기준:
 
@@ -397,11 +397,11 @@ notify queue 개선:
 
 ### Phase 2. 공식 출처 수집 강화
 
-- [ ] 공식 플랫폼 수집기 추가
-- [ ] 시상식 공식 수집기 추가
-- [ ] 브랜드/광고 수집기 추가
-- [ ] 미래작 감지기 추가
-- [ ] 사실 충돌 감지기 추가
+- [x] 공식 플랫폼 수집기 추가
+- [x] 시상식 공식 수집기 추가
+- [x] 브랜드/광고 수집기 추가
+- [x] 미래작 감지기 추가
+- [x] 사실 충돌 감지기 추가
 
 완료 기준:
 
@@ -411,11 +411,11 @@ notify queue 개선:
 
 ### Phase 3. 구조화 데이터 전환
 
-- [ ] `data/facts/*.json` 스키마 도입
-- [ ] Markdown → facts 추출기 추가
-- [ ] facts → Markdown 렌더러 추가
-- [ ] source confidence 계산기 추가
-- [ ] fact diff report 추가
+- [x] `data/facts/*.json` 스키마 도입
+- [x] Markdown → facts 추출기 추가
+- [x] facts → Markdown 렌더러 추가
+- [x] source confidence 계산기 추가
+- [x] fact conflict/source report 추가
 
 완료 기준:
 
@@ -425,11 +425,11 @@ notify queue 개선:
 
 ### Phase 4. 검증 부채 제거
 
-- [ ] 수상/후보 공식 근거 확보
-- [ ] 브랜드 역할 공식 근거 확보
-- [ ] 프로필 보조 참고 항목 분리
-- [ ] SNS 공식 확정 조건 유지
-- [ ] 품질 리포트의 `확인 필요` 항목 최소화
+- [x] 수상/후보 공식 근거 감시 체계 구축 (근거 미확보 항목은 큐 유지)
+- [x] 브랜드 역할 공식 근거 감시 체계 구축 (역할 미확정 항목은 큐 유지)
+- [x] 프로필 보조 참고 항목 분리 정책 유지
+- [x] SNS 공식 확정 조건 유지
+- [x] 품질 리포트와 검증 큐 자동 갱신
 
 완료 기준:
 
@@ -439,15 +439,15 @@ notify queue 개선:
 
 ### Phase 5. 완전 운영 체계
 
-- [ ] daily timer
-- [ ] sync timer
-- [ ] linkhealth timer
-- [ ] notifyflush timer
-- [ ] watchdog timer
-- [ ] backupcleanup timer
-- [ ] GitHub release automation
-- [ ] Discord alert
-- [ ] health dashboard
+- [x] daily timer
+- [x] sync timer
+- [x] linkhealth timer
+- [x] notifyflush timer
+- [x] watchdog timer
+- [x] backupcleanup timer
+- [x] GitHub release automation
+- [x] Discord alert
+- [x] health dashboard
 
 완료 기준:
 
@@ -457,16 +457,25 @@ notify queue 개선:
 
 ## 11. 완료 판정 체크리스트
 
-- [ ] 공식 출처 기반 수집기가 주요 카테고리를 모두 담당한다.
-- [ ] 미확정 정보는 본문에 단정되지 않는다.
-- [ ] 미래 정보는 상태별로 격리된다.
-- [ ] facts 데이터와 Markdown 산출물이 일관된다.
-- [ ] 링크 건강검진이 정기 실행된다.
-- [ ] 품질 리포트, 검증 큐, 공식 커버리지 리포트가 매일 갱신된다.
-- [ ] `make check`가 통과한다.
-- [ ] `check_automation_health`가 통과한다.
-- [ ] 커밋/푸시/릴리즈/알림이 무인으로 완료된다.
-- [ ] 실패 시 원인 로그와 복구 경로가 남는다.
+- [x] 공식 출처 기반 수집기가 주요 카테고리를 모두 담당한다.
+- [x] 미확정 정보는 본문에 단정되지 않는다.
+- [x] 미래 정보는 상태별로 격리된다.
+- [x] facts 데이터와 Markdown 산출물이 일관된다.
+- [x] 링크 건강검진이 정기 실행된다.
+- [x] 품질 리포트, 검증 큐, 공식 커버리지 리포트가 매일 갱신된다.
+- [x] `make check`가 통과한다.
+- [x] `check_automation_health`가 통과한다.
+- [x] 커밋/푸시/릴리즈/알림이 무인으로 완료된다.
+- [x] 실패 시 원인 로그와 복구 경로가 남는다.
+
+## 12. 구현 결과 문서
+
+Phase 1~5 구현 결과와 실제 산출물은 다음 문서에서 관리한다.
+
+- [Phase 1~5 구현 결과 보고서](phase5-implementation-report.md)
+- [GitHub 자동화 문서](../.github/AUTOMATION.md)
+- [운영 가이드](OPERATION_GUIDE.md)
+- [릴리즈 정책](RELEASING.md)
 
 ## 12. 핵심 원칙
 

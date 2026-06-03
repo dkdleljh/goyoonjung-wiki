@@ -1,0 +1,12 @@
+[Unit]
+Description=goyoonjung-wiki watchdog automation timer
+
+[Timer]
+OnBootSec=5m
+OnCalendar=*-*-* *:0/30:00
+Persistent=true
+RandomizedDelaySec=60s
+Unit=goyoonjung-wiki-watchdog.service
+
+[Install]
+WantedBy=timers.target

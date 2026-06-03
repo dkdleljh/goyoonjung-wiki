@@ -30,6 +30,17 @@ EXCLUDE_BASENAMES = {
     "encyclopedia-roadmap.md",
     "system_status.md",
     "verification-queue.md",
+    "preflight-report.md",
+    "self-heal-report.md",
+    "watchdog-report.md",
+    "source-confidence.md",
+    "facts-index.md",
+    "fact-conflicts.md",
+    "official-platform-watch.md",
+    "awards-official-watch.md",
+    "brand-evidence-watch.md",
+    "future-watch.md",
+    "future-candidates.md",
 }
 EXCLUDE_DIR_PARTS = {
     os.path.join("pages", "checklists"),

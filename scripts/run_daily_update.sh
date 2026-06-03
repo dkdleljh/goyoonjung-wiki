@@ -164,6 +164,13 @@ if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   git checkout main >/dev/null 2>&1 || true
 fi
 
+# Phase 5 preflight: fail only on fatal remote/config problems.
+CURRENT_STEP="preflight"
+python3 ./scripts/preflight_automation.py >>"$RUN_LOG" 2>&1 || {
+  python3 ./scripts/append_skip_reason.py "preflight" "$?" "preflight failed" >/dev/null 2>&1 || true
+  exit 1
+}
+
 # Auto-fix stale '진행중' (previous crash) before starting a new run
 python3 ./scripts/auto_fix_stale_running.py >/dev/null 2>&1 || true
 
@@ -356,6 +363,39 @@ CURRENT_STEP="audit:official-coverage"
 retry 2 5 timeout 45 python3 ./scripts/audit_official_coverage.py
 RC_OFFICIAL_AUDIT=$?
 
+# 3.25) Phase 2/3/4 official collection and structured fact reports
+CURRENT_STEP="collect:official-platforms"
+retry 2 5 timeout 60 python3 ./scripts/auto_collect_official_platforms.py
+RC_OFFICIAL_PLATFORMS=$?
+
+CURRENT_STEP="collect:awards-official"
+retry 2 5 timeout 45 python3 ./scripts/auto_collect_awards_official.py
+RC_AWARDS_OFFICIAL=$?
+
+CURRENT_STEP="collect:brands"
+retry 2 5 timeout 45 python3 ./scripts/auto_collect_brands.py
+RC_BRANDS=$?
+
+CURRENT_STEP="collect:future-works"
+retry 2 5 timeout 45 python3 ./scripts/auto_detect_future_works.py
+RC_FUTURE=$?
+
+CURRENT_STEP="facts:extract"
+retry 2 2 timeout 45 python3 ./scripts/extract_facts_from_markdown.py
+RC_FACTS=$?
+
+CURRENT_STEP="facts:source-confidence"
+retry 2 2 timeout 45 python3 ./scripts/source_confidence.py
+RC_SOURCE_CONF=$?
+
+CURRENT_STEP="facts:conflicts"
+retry 2 2 timeout 45 python3 ./scripts/audit_fact_conflicts.py
+RC_FACT_CONFLICTS=$?
+
+CURRENT_STEP="facts:render"
+retry 2 2 timeout 45 python3 ./scripts/render_pages_from_facts.py
+RC_FACT_RENDER=$?
+
 # 3.25) Perfect scorecard (multi-axis KPI)
 CURRENT_STEP="score:perfect-scorecard"
 retry 2 2 timeout 30 python3 ./scripts/compute_perfect_scorecard.py
@@ -547,6 +587,9 @@ if [ "${RC_DASH:-0}" -ne 0 ]; then
 else
   NOTE="$NOTE, dashboard:OK"
 fi
+
+# Phase 5 watchdog snapshot before the commit phase.
+python3 ./scripts/watchdog_automation.py >/dev/null 2>&1 || true
 
 # Regenerate documentation portals before the commit phase.
 python3 ./scripts/generate_doc_portals.py >/dev/null 2>&1 || true

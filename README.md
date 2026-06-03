@@ -1,6 +1,6 @@
 # 고윤정 위키 (Go Youn-jung Wiki)
 
-![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.32.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-19-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
+![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.32.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-20-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
 > 자동 생성 포털 문서 · 마지막 갱신: 2026-06-04
 
@@ -27,10 +27,10 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `4d32d7de` |
+| 최신 커밋 | `9d8c1536` |
 | 최신 릴리즈 태그 | `v1.32.1` |
-| docs 문서 수 | `19` |
-| 운영 페이지 수 | `7` |
+| docs 문서 수 | `20` |
+| 운영 페이지 수 | `19` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
 | daily update | `scripts/run_daily_update.sh` |
 
@@ -61,14 +61,19 @@
   - 로컬 노트: `logs/releases/release-notes-v1.31.1.md`
 
 ## 최근 변경 요약
+- [`9d8c1536`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9d8c1536) — docs: add unmanned collection automation roadmap
 - [`4d32d7de`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4d32d7de) — docs: record clean automation health
 - [`8ccd8ab9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8ccd8ab9) — docs: refresh pushed automation reports
 - [`76fbe28f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/76fbe28f) — Improve release docs and automation health
 - [`f0b3d3c8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f0b3d3c8) — chore: prepare release v1.32.1
-- [`aaecf8eb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aaecf8eb) — Merge remote-tracking branch 'refs/remotes/origin/main'
 
 ## 최근 변경 파일
-- `pages/system_status.md`
+- `README.md`
+- `docs/README.md`
+- `docs/unmanned-collection-automation-roadmap.md`
+- `index.md`
+- `pages/hub.en.md`
+- `pages/hub.md`
 
 ## 자주 쓰는 명령
 ```bash

@@ -16,8 +16,8 @@
 - [ux-automation-system.md](ux-automation-system.md)
 
 ## 문서 상태 요약
-- docs 문서 수: `19`
-- 운영 핵심 페이지 수: `7`
+- docs 문서 수: `20`
+- 운영 핵심 페이지 수: `19`
 - 최신 릴리즈 태그: `v1.32.1`
 
 ## 운영 계약
@@ -48,6 +48,7 @@
 - [`docs/editorial_policy.md`](editorial_policy.md)
 - [`docs/enhanced-wiki-structure.md`](enhanced-wiki-structure.md)
 - [`docs/goyoonjung-wiki-current-analysis.md`](goyoonjung-wiki-current-analysis.md)
+- [`docs/phase5-implementation-report.md`](phase5-implementation-report.md)
 - [`docs/scoring.md`](scoring.md)
 - [`docs/ultimate-wiki-roadmap.md`](ultimate-wiki-roadmap.md)
 - [`docs/unmanned-collection-automation-roadmap.md`](unmanned-collection-automation-roadmap.md)

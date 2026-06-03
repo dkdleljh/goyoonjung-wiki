@@ -16,6 +16,17 @@ EXCLUDE = {
     "content-gaps.md",
     "link-health.md",
     "verification-queue.md",
+    "preflight-report.md",
+    "self-heal-report.md",
+    "watchdog-report.md",
+    "source-confidence.md",
+    "facts-index.md",
+    "fact-conflicts.md",
+    "official-platform-watch.md",
+    "awards-official-watch.md",
+    "brand-evidence-watch.md",
+    "future-watch.md",
+    "future-candidates.md",
     "system_status.md",
 }
 EXCLUDE_DIRS = {

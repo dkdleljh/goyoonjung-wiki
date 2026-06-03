@@ -1,0 +1,9 @@
+[Unit]
+Description=goyoonjung-wiki watchdog automation
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/바탕화면/goyoonjung-wiki
+ExecStart=/usr/bin/env bash -lc '%h/바탕화면/goyoonjung-wiki/scripts/watchdog_automation.py'

@@ -17,11 +17,16 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`9d8c1536`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9d8c1536) — docs: add unmanned collection automation roadmap
 - [`4d32d7de`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4d32d7de) — docs: record clean automation health
 - [`8ccd8ab9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8ccd8ab9) — docs: refresh pushed automation reports
 - [`76fbe28f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/76fbe28f) — Improve release docs and automation health
 - [`f0b3d3c8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f0b3d3c8) — chore: prepare release v1.32.1
-- [`aaecf8eb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aaecf8eb) — Merge remote-tracking branch 'refs/remotes/origin/main'
 
 ## 직전 변경 파일
-- `pages/system_status.md`
+- `README.md`
+- `docs/README.md`
+- `docs/unmanned-collection-automation-roadmap.md`
+- `index.md`
+- `pages/hub.en.md`
+- `pages/hub.md`

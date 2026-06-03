@@ -44,5 +44,16 @@ jobs:
       - name: ShellCheck
         run: shellcheck -S error scripts/*.sh ultrawork_verification.sh
 
+      - name: Phase 5 automation smoke
+        run: |
+          python scripts/extract_facts_from_markdown.py
+          python scripts/source_confidence.py
+          python scripts/audit_fact_conflicts.py
+          python scripts/render_pages_from_facts.py
+          python scripts/auto_collect_official_platforms.py
+          python scripts/auto_collect_awards_official.py
+          python scripts/auto_collect_brands.py
+          python scripts/auto_detect_future_works.py
+
       - name: Pytest
         run: pytest -q
