@@ -1,10 +1,10 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-06-02 (Asia/Seoul)
+> Updated: 2026-06-03 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 106
-- urls_total(markdown): 3525
+- urls_total(markdown): 3527
 - seen_urls(db): 274
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
@@ -31,7 +31,7 @@
 
 - C_current: 100  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 3525  (markdown URL count)
+- urls_total: 3527  (markdown URL count)
 - seen_urls_db: 274  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 15  (pages/works/*.md)
@@ -49,7 +49,7 @@
 - 1282: pages/alternative-proof-candidates.md
 - 1016: pages/skipped-link-backlog.md
 - 114: pages/interviews.md
-- 105: pages/pictorials/editorial.md
+- 107: pages/pictorials/editorial.md
 - 99: pages/notes/translation-love-filming-locations-google-maps.md
 - 70: pages/pictorials/by-year.md
 - 55: pages/interviews/by-year.md

@@ -51,8 +51,8 @@
 - pages/awards.md:52 · | 2022 | 춘사국제영화제 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
 
 ## 추가 필요 (상위 3개 위치)
-- pages/pictorials/editorial.md:272 · - 링크(원문): (추가 필요)
-- pages/pictorials/editorial.md:274 · - id: (추가 필요)
+- pages/pictorials/editorial.md:280 · - 링크(원문): (추가 필요)
+- pages/pictorials/editorial.md:282 · - id: (추가 필요)
 - pages/endorsements/fashion.md:23 · - 링크(공식 영상/캠페인): (추가 필요)
 
 ## 미확정 (상위 2개 위치)

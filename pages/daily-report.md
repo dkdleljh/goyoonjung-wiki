@@ -1,17 +1,17 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-02 09:06 (Asia/Seoul)
+> 갱신: 2026-06-03 09:05 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- f94caff6 2026-06-01 00:08:28 +0000 chore: prepare release v1.30.1
+- de12f177 2026-06-02 00:07:30 +0000 chore: prepare release v1.31.1
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - CHANGELOG.md
-- logs/releases/release-notes-v1.30.1.md
+- logs/releases/release-notes-v1.31.1.md
 
-## 3) 오늘 실행 상태(news/2026-06-02.md)
+## 3) 오늘 실행 상태(news/2026-06-03.md)
 
 ## 실행 상태
 
@@ -27,7 +27,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/19)
+- duplicate_rate: 0.00% (0/3)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

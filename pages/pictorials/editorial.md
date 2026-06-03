@@ -88,6 +88,14 @@
 - 링크(원문): https://www.marieclairekorea.com/beauty/2026/05/the-ultimate-skincare-ritual/
 - 상태: 공식확정
 - id: https://www.marieclairekorea.com/beauty/2026/05/the-ultimate-skincare-ritual/
+
+- 날짜: 2026-06-02
+- 매체: W Korea
+- 구분: 화보/기사
+- 제목: 고윤정이 만난 샤넬 공방 마사로
+- 링크(원문): https://www.wkorea.com/2026/06/02/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%8c%eb%82%9c-%ec%83%a4%eb%84%ac-%ea%b3%b5%eb%b0%a9-%eb%a7%88%ec%82%ac%eb%a1%9c/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2026/06/02/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%8c%eb%82%9c-%ec%83%a4%eb%84%ac-%ea%b3%b5%eb%b0%a9-%eb%a7%88%ec%82%ac%eb%a1%9c/
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
