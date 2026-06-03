@@ -1,6 +1,6 @@
 {
-  "status": "WARN",
-  "warnings": 1,
+  "status": "OK",
+  "warnings": 0,
   "rows": [
     [
       "goyoonjung-wiki-daily.timer",
@@ -10,7 +10,7 @@
     [
       "goyoonjung-wiki-sync.timer",
       "OK",
-      "NEXT                         LEFT LAST                           PASSED UNIT                       ACTIVATES Thu 2026-06-04 02:17:11 KST 14min Thu 2026-06-04 01:47:11 KST 15min ago"
+      "NEXT                         LEFT LAST                           PASSED UNIT                       ACTIVATES Thu 2026-06-04 02:17:11 KST 13min Thu 2026-06-04 01:47:11 KST 16min ago"
     ],
     [
       "goyoonjung-wiki-linkhealth.timer",
@@ -20,7 +20,7 @@
     [
       "goyoonjung-wiki-notifyflush.timer",
       "OK",
-      "NEXT                            LEFT LAST                              PASSED UNIT                              ACTIVATES Thu 2026-06-04 02:05:14 KST 2min 12s Thu 2026-06-04 02:00:"
+      "NEXT                            LEFT LAST                              PASSED UNIT                              ACTIVATES Thu 2026-06-04 02:05:14 KST 1min 12s Thu 2026-06-04 02:00:"
     ],
     [
       "goyoonjung-wiki-backupcleanup.timer",
@@ -30,12 +30,12 @@
     [
       "goyoonjung-wiki-watchdog.timer",
       "OK",
-      "NEXT                         LEFT LAST                              PASSED UNIT                           ACTIVATES Thu 2026-06-04 02:30:32 KST 27min Thu 2026-06-04 02:00:23 KST 2m"
+      "NEXT                         LEFT LAST                              PASSED UNIT                           ACTIVATES Thu 2026-06-04 02:30:32 KST 26min Thu 2026-06-04 02:00:23 KST 3m"
     ],
     [
       "check_automation_health",
-      "WARN",
-      "FAIL: working tree dirty"
+      "OK",
+      "OK: news=성공 run=2026-06-03 09:05 | last=8b329349 (HEAD -> main, origin/main) Implement phase 5 unmanned automation roadmap"
     ]
   ]
 }
