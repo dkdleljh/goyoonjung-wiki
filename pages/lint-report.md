@@ -20,6 +20,12 @@
 
 ## 3) 날짜 형식(YYYY-MM-DD) 의심 라인
 
+./.venv/lib/python3.12/site-packages/pip/_vendor/certifi/__init__.py:4:__version__ = "2026.02.25"
+./.venv/lib/python3.12/site-packages/certifi/__init__.py:4:__version__ = "2026.05.20"
+./.venv/lib/python3.12/site-packages/bleach/html5lib_shim.py:203:#: from mozilla on 2019.07.11
+./.venv/lib64/python3.12/site-packages/pip/_vendor/certifi/__init__.py:4:__version__ = "2026.02.25"
+./.venv/lib64/python3.12/site-packages/certifi/__init__.py:4:__version__ = "2026.05.20"
+./.venv/lib64/python3.12/site-packages/bleach/html5lib_shim.py:203:#: from mozilla on 2019.07.11
 ./scripts/auto_release.sh:26:  # Ignore legacy date-style tags like v2026.02.17 and keep a single canonical line.
 
 ## 4) 커버리지 목표 미달 경고(권장)

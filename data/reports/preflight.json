@@ -38,8 +38,8 @@
     ],
     [
       "working tree",
-      "WARN",
-      "dirty"
+      "OK",
+      "clean"
     ],
     [
       "Discord webhook",
@@ -49,17 +49,17 @@
     [
       "disk free",
       "OK",
-      "264258 MiB"
+      "264228 MiB"
     ],
     [
       "run lock",
-      "OK",
-      "absent"
+      "WARN",
+      "present"
     ],
     [
       "goyoonjung-wiki-daily.timer",
-      "OK",
-      "next run scheduled"
+      "WARN",
+      "no next run"
     ],
     [
       "goyoonjung-wiki-sync.timer",
@@ -83,8 +83,8 @@
     ],
     [
       "goyoonjung-wiki-watchdog.timer",
-      "OK",
-      "next run scheduled"
+      "WARN",
+      "no next run"
     ]
   ]
 }

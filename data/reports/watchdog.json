@@ -5,7 +5,7 @@
     [
       "goyoonjung-wiki-daily.timer",
       "OK",
-      "listed; next run scheduled"
+      "listed; no fixed next run"
     ],
     [
       "goyoonjung-wiki-sync.timer",
@@ -30,7 +30,7 @@
     [
       "goyoonjung-wiki-watchdog.timer",
       "OK",
-      "listed; no fixed next run"
+      "listed; next run scheduled"
     ],
     [
       "check_automation_health",

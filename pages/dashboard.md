@@ -1,5 +1,5 @@
 # Dashboard
-> Last Refreshed: 2026-06-03 09:03:56 (Asia/Seoul)
+> Last Refreshed: 2026-06-04 09:02:41 (Asia/Seoul)
 
 ## Quick Status
 | Metric | Status | Note |
@@ -9,7 +9,7 @@
 | **Machine Status** | See `system_status.md` | This page is a hub, not the source of truth |
 
 ## System Snapshot
-- wiki_completeness: **62/100**
+- wiki_completeness: **63/100**
 - lint_clean: **100/100**
 - link_health: **100/100**
 - automation_health: **100/100**

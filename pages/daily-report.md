@@ -1,34 +1,21 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-04 00:59 (Asia/Seoul)
+> 갱신: 2026-06-04 09:04 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 76fbe28f 2026-06-04 00:58:09 +0900 Improve release docs and automation health
+- c2145ff7 2026-06-04 04:33:30 +0900 fix: stabilize watchdog report output
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- README.md
-- docs/README.md
-- index.md
-- pages/daily-report.md
-- pages/hub.en.md
-- pages/hub.md
-- pages/link-health.md
-- pages/official-coverage-audit.md
-- pages/perfect-scorecard.md
-- pages/quality-report.md
-- pages/system_status.md
-- pages/verification-queue.md
-- pages/works/can-this-love-be-translated.md
-- scripts/auto_release.sh
-- scripts/flush_notify_queue.py
-- scripts/generate_doc_portals.py
-- scripts/run_daily_update.sh
+- data/reports/watchdog.json
+- pages/watchdog-report.md
+- scripts/watchdog_automation.py
 
 ## 3) 오늘 실행 상태(news/2026-06-04.md)
 
-- (오늘 news 파일 없음)
+## 실행 상태
+
 
 ## 4) 권장 체크
 
@@ -41,7 +28,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/3)
+- duplicate_rate: 0.00% (0/0)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

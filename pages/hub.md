@@ -14,7 +14,7 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `9d8c1536` |
+| 최신 커밋 | `c2145ff7` |
 | 최신 릴리즈 태그 | `v1.32.1` |
 | docs 문서 수 | `20` |
 | 운영 페이지 수 | `19` |
@@ -38,11 +38,9 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `README.md`
-- `docs/README.md`
-- `docs/unmanned-collection-automation-roadmap.md`
-- `index.md`
-- `pages/hub.en.md`
+- `data/reports/watchdog.json`
+- `pages/watchdog-report.md`
+- `scripts/watchdog_automation.py`
 
 ## 운영 핵심 페이지
 - [`pages/awards-official-watch.md`](awards-official-watch.md)
