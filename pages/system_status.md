@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-06-04
+> Updated: 2026-06-05
 
 ## wiki_completeness: **63/100**
 
@@ -25,9 +25,15 @@ lint-report: OK
 counts: ok=249 warn=1 bad=0
 warn_budget=20
 
-## automation_health: **100/100**
+## automation_health: **40/100**
 
-check_automation_health: OK
+check_automation_health: FAIL
+DIAG: git fetch failed (rc=124)
+DIAG: branch=main upstream=origin/main
+DIAG: origin=git@github.com:dkdleljh/goyoonjung-wiki.git
+DIAG: local_head=bb8a8e4c origin_main=bb8a8e4c
+DIAG: git ls-remote origin main also failed (rc=124).
+FAIL: git fetch failed (rc=124)
 
 ## domain_grade_status
 
