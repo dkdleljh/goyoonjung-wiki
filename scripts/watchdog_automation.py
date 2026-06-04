@@ -38,9 +38,7 @@ def timer_row(timer: str) -> list[str]:
     lines = [line for line in res.out.splitlines() if timer in line]
     if not lines:
         return [timer, "WARN", "not listed"]
-    if lines[0].startswith("-"):
-        return [timer, "OK", "listed; no fixed next run"]
-    return [timer, "OK", "listed; next run scheduled"]
+    return [timer, "OK", "listed"]
 
 
 def main() -> int:
