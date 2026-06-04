@@ -1,16 +1,48 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-04 09:04 (Asia/Seoul)
+> 갱신: 2026-06-04 09:05 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- c2145ff7 2026-06-04 04:33:30 +0900 fix: stabilize watchdog report output
+- 9771fc0e 2026-06-04 09:05:10 +0900 daily: update 2026-06-04
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- README.md
+- data/facts/awards.json
+- data/facts/profile.json
+- data/facts/works.json
+- data/reports/preflight.json
 - data/reports/watchdog.json
+- index.md
+- news/2026-06-04.md
+- news/README.md
+- pages/awards-official-watch.md
+- pages/brand-evidence-watch.md
+- pages/candidate-pool.md
+- pages/daily-report.md
+- pages/dashboard.md
+- pages/fact-conflicts.md
+- pages/facts-index.md
+- pages/future-candidates.md
+- pages/future-watch.md
+- pages/hub.en.md
+- pages/hub.md
+- pages/kpi-report.md
+- pages/lint-report.md
+- pages/official-coverage-audit.md
+- pages/official-platform-watch.md
+- pages/preflight-report.md
+- pages/progress.md
+- pages/promotion-queue.md
+- pages/schedule.md
+- pages/source-confidence.md
+- pages/system_status.md
 - pages/watchdog-report.md
-- scripts/watchdog_automation.py
+- pages/works/alchemy-of-souls.md
+- pages/works/hunt.md
+- pages/works/moving.md
+- sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-06-04.md)
 

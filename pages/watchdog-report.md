@@ -9,7 +9,7 @@
 ## Checks
 | target | state | detail |
 |---|---|---|
-| goyoonjung-wiki-daily.timer | OK | listed; no fixed next run |
+| goyoonjung-wiki-daily.timer | OK | listed; next run scheduled |
 | goyoonjung-wiki-sync.timer | OK | listed; next run scheduled |
 | goyoonjung-wiki-linkhealth.timer | OK | listed; next run scheduled |
 | goyoonjung-wiki-notifyflush.timer | OK | listed; next run scheduled |
