@@ -1,6 +1,6 @@
 # Automation Preflight Report (auto)
 
-> Updated: 2026-06-04 09:01 (Asia/Seoul)
+> Updated: 2026-06-05 09:05 (Asia/Seoul)
 
 ## Summary
 - status: OK
@@ -14,14 +14,14 @@
 | .venv/bin/pytest | OK | present |
 | git remote origin | OK | git@github.com:dkdleljh/goyoonjung-wiki.git |
 | git fetch origin main | OK | reachable |
-| HEAD == origin/main | OK | synced |
-| working tree | OK | clean |
+| HEAD == origin/main | WARN | local/remote differ |
+| working tree | WARN | dirty |
 | Discord webhook | OK | configured |
-| disk free | OK | 264228 MiB |
+| disk free | OK | 265784 MiB |
 | run lock | WARN | present |
 | goyoonjung-wiki-daily.timer | WARN | no next run |
 | goyoonjung-wiki-sync.timer | OK | next run scheduled |
 | goyoonjung-wiki-linkhealth.timer | OK | next run scheduled |
 | goyoonjung-wiki-notifyflush.timer | OK | next run scheduled |
 | goyoonjung-wiki-backupcleanup.timer | OK | next run scheduled |
-| goyoonjung-wiki-watchdog.timer | WARN | no next run |
+| goyoonjung-wiki-watchdog.timer | OK | next run scheduled |

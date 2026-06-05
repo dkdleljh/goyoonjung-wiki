@@ -2,7 +2,7 @@
 
 ![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.32.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-20-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-06-04
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-06-05
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -27,7 +27,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `9771fc0e` |
+| 최신 커밋 | `d7551c2c` |
 | 최신 릴리즈 태그 | `v1.32.1` |
 | docs 문서 수 | `20` |
 | 운영 페이지 수 | `19` |
@@ -61,21 +61,14 @@
   - 로컬 노트: `logs/releases/release-notes-v1.31.1.md`
 
 ## 최근 변경 요약
+- [`d7551c2c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d7551c2c) — chore: record heartbeat automation timeout
+- [`bb8a8e4c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bb8a8e4c) — fix: fully stabilize watchdog timer output
+- [`bd1c8807`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bd1c8807) — chore: record daily automation follow-up
+- [`f9432eb1`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f9432eb1) — chore: finalize daily run log 2026-06-04
 - [`9771fc0e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9771fc0e) — daily: update 2026-06-04
-- [`c2145ff7`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c2145ff7) — fix: stabilize watchdog report output
-- [`b76d60e8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/b76d60e8) — chore: record heartbeat watchdog health
-- [`9cf6747f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9cf6747f) — docs: record phase 5 clean health
-- [`8b329349`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8b329349) — Implement phase 5 unmanned automation roadmap
 
 ## 최근 변경 파일
-- `README.md`
-- `data/facts/awards.json`
-- `data/facts/profile.json`
-- `data/facts/works.json`
-- `data/reports/preflight.json`
-- `data/reports/watchdog.json`
-- `index.md`
-- `news/2026-06-04.md`
+- `pages/system_status.md`
 
 ## 자주 쓰는 명령
 ```bash

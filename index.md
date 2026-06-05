@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-06-04
+> 자동 생성 인덱스 · 마지막 갱신: 2026-06-05
 
 ## 바로 가기
 - [README.md](README.md)
@@ -17,18 +17,11 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`d7551c2c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d7551c2c) — chore: record heartbeat automation timeout
+- [`bb8a8e4c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bb8a8e4c) — fix: fully stabilize watchdog timer output
+- [`bd1c8807`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bd1c8807) — chore: record daily automation follow-up
+- [`f9432eb1`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f9432eb1) — chore: finalize daily run log 2026-06-04
 - [`9771fc0e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9771fc0e) — daily: update 2026-06-04
-- [`c2145ff7`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c2145ff7) — fix: stabilize watchdog report output
-- [`b76d60e8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/b76d60e8) — chore: record heartbeat watchdog health
-- [`9cf6747f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9cf6747f) — docs: record phase 5 clean health
-- [`8b329349`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8b329349) — Implement phase 5 unmanned automation roadmap
 
 ## 직전 변경 파일
-- `README.md`
-- `data/facts/awards.json`
-- `data/facts/profile.json`
-- `data/facts/works.json`
-- `data/reports/preflight.json`
-- `data/reports/watchdog.json`
-- `index.md`
-- `news/2026-06-04.md`
+- `pages/system_status.md`

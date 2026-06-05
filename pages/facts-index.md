@@ -1,6 +1,6 @@
 # Facts Index (auto)
 
-> Updated: 2026-06-04 09:02 (Asia/Seoul)
+> Updated: 2026-06-05 09:08 (Asia/Seoul)
 
 ## 목적
 - Markdown에 흩어진 주요 사실을 구조화 데이터로 추출한 결과입니다.

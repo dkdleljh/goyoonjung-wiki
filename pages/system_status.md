@@ -25,15 +25,9 @@ lint-report: OK
 counts: ok=249 warn=1 bad=0
 warn_budget=20
 
-## automation_health: **40/100**
+## automation_health: **100/100**
 
-check_automation_health: FAIL
-DIAG: git fetch failed (rc=124)
-DIAG: branch=main upstream=origin/main
-DIAG: origin=git@github.com:dkdleljh/goyoonjung-wiki.git
-DIAG: local_head=bb8a8e4c origin_main=bb8a8e4c
-DIAG: git ls-remote origin main also failed (rc=124).
-FAIL: git fetch failed (rc=124)
+check_automation_health: OK
 
 ## domain_grade_status
 
@@ -46,7 +40,7 @@ FAIL: git fetch failed (rc=124)
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/0)
+- duplicate_rate: 0.00% (0/30)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
