@@ -33,8 +33,8 @@
     ],
     [
       "HEAD == origin/main",
-      "WARN",
-      "local/remote differ"
+      "OK",
+      "synced"
     ],
     [
       "working tree",
@@ -49,7 +49,7 @@
     [
       "disk free",
       "OK",
-      "265784 MiB"
+      "266174 MiB"
     ],
     [
       "run lock",

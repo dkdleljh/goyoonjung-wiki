@@ -1,6 +1,6 @@
 # Official Platform Watch (auto)
 
-> Updated: 2026-06-05 09:07 (Asia/Seoul)
+> Updated: 2026-06-06 09:06 (Asia/Seoul)
 
 ## Summary
 - official_platform_links: 87

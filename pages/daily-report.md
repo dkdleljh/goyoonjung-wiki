@@ -1,16 +1,16 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-05 09:10 (Asia/Seoul)
+> 갱신: 2026-06-06 09:08 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- d7551c2c 2026-06-05 01:55:19 +0900 chore: record heartbeat automation timeout
+- 13998c0b 2026-06-05 09:23:02 +0900 chore: finalize daily run log 2026-06-05
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- pages/system_status.md
+- news/2026-06-05.md
 
-## 3) 오늘 실행 상태(news/2026-06-05.md)
+## 3) 오늘 실행 상태(news/2026-06-06.md)
 
 ## 실행 상태
 
@@ -26,7 +26,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/30)
+- duplicate_rate: 0.00% (0/19)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
