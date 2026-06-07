@@ -2,7 +2,7 @@
 
 ![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.32.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-20-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-06-06
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-06-07
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -27,7 +27,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `13998c0b` |
+| 최신 커밋 | `d99019d2` |
 | 최신 릴리즈 태그 | `v1.32.1` |
 | docs 문서 수 | `20` |
 | 운영 페이지 수 | `19` |
@@ -61,14 +61,14 @@
   - 로컬 노트: `logs/releases/release-notes-v1.31.1.md`
 
 ## 최근 변경 요약
+- [`d99019d2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d99019d2) — chore: link health 2026-06-07
+- [`bfed36db`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bfed36db) — chore: finalize daily run log 2026-06-06
+- [`cadb31b5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/cadb31b5) — daily: update 2026-06-06
 - [`13998c0b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/13998c0b) — chore: finalize daily run log 2026-06-05
 - [`875743e0`](https://github.com/dkdleljh/goyoonjung-wiki/commit/875743e0) — daily: update 2026-06-05
-- [`d7551c2c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d7551c2c) — chore: record heartbeat automation timeout
-- [`bb8a8e4c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bb8a8e4c) — fix: fully stabilize watchdog timer output
-- [`bd1c8807`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bd1c8807) — chore: record daily automation follow-up
 
 ## 최근 변경 파일
-- `news/2026-06-05.md`
+- `pages/link-health.md`
 
 ## 자주 쓰는 명령
 ```bash
