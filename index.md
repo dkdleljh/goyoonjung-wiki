@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-06-10
+> 자동 생성 인덱스 · 마지막 갱신: 2026-06-11
 
 ## 바로 가기
 - [README.md](README.md)
@@ -17,11 +17,11 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`744927a0`](https://github.com/dkdleljh/goyoonjung-wiki/commit/744927a0) — chore: finalize daily run log 2026-06-10
+- [`a67748b5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a67748b5) — daily: update 2026-06-10
 - [`babcd110`](https://github.com/dkdleljh/goyoonjung-wiki/commit/babcd110) — chore: finalize daily run log 2026-06-09
 - [`02a84b35`](https://github.com/dkdleljh/goyoonjung-wiki/commit/02a84b35) — daily: update 2026-06-09
 - [`5f575ca1`](https://github.com/dkdleljh/goyoonjung-wiki/commit/5f575ca1) — chore: finalize daily run log 2026-06-08
-- [`02ace3e7`](https://github.com/dkdleljh/goyoonjung-wiki/commit/02ace3e7) — daily: update 2026-06-08
-- [`dfc6c63c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/dfc6c63c) — chore: finalize daily run log 2026-06-07
 
 ## 직전 변경 파일
-- `news/2026-06-09.md`
+- `news/2026-06-10.md`
