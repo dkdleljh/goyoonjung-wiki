@@ -49,7 +49,7 @@
     [
       "disk free",
       "OK",
-      "266989 MiB"
+      "272119 MiB"
     ],
     [
       "run lock",
@@ -63,8 +63,8 @@
     ],
     [
       "goyoonjung-wiki-sync.timer",
-      "OK",
-      "next run scheduled"
+      "WARN",
+      "no next run"
     ],
     [
       "goyoonjung-wiki-linkhealth.timer",

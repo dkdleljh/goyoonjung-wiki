@@ -1,6 +1,6 @@
 # 🧭 Go Youn-jung Wiki Hub
 
-> Auto-generated hub · last updated: 2026-06-15
+> Auto-generated hub · last updated: 2026-06-16
 
 ## Ops / Docs
 - [Project README](../README.md)
@@ -14,7 +14,7 @@
 ## Status table
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `df4b8d7a` |
+| 최신 커밋 | `1239acbc` |
 | 최신 릴리즈 태그 | `v1.32.1` |
 | docs 문서 수 | `20` |
 | 운영 페이지 수 | `19` |
@@ -31,7 +31,7 @@
 - [Schedule](schedule.md)
 
 ## Recently changed files
-- `news/2026-06-14.md`
+- `news/2026-06-15.md`
 
 ## Ops pages
 - [`pages/awards-official-watch.md`](awards-official-watch.md)
