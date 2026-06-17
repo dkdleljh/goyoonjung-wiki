@@ -21,8 +21,8 @@
 - [pages/endorsements/fashion.md:23] - 링크(공식 영상/캠페인): (추가 필요)
 - [pages/endorsements/fashion.md:50] - 역할: (앰버서더/프렌즈 여부 공식 확인 필요)
 - [pages/hub.md:28] - 안전 원칙: 루머/사생활/비공식 단정은 금지하고, 미확정 항목은 검증 큐에 남긴다.
-- [pages/pictorials/editorial.md:280] - 링크(원문): (추가 필요)
-- [pages/pictorials/editorial.md:282] - id: (추가 필요)
+- [pages/pictorials/editorial.md:288] - 링크(원문): (추가 필요)
+- [pages/pictorials/editorial.md:290] - id: (추가 필요)
 - [pages/profile.md:49] - 상태: 검증불가(공식 근거 미확보)
 - [pages/profile.md:56] - 상태: 검증불가(공식 근거 미확보)
 - [pages/sns.md:14] - 상태: **미확정(교차확인 필요)**

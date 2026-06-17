@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-06-16 09:12 (Asia/Seoul)
+> Updated: 2026-06-17 09:12 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1026
+- total_urls: 1027
 - S: 253
-- A: 239
+- A: 240
 - B: 162
 - BLOCK: 372
 
@@ -27,7 +27,7 @@
 | news.nate.com | 15 | BLOCK:15 |
 | elle.co.kr | 14 | A:14 |
 | nc.press | 14 | BLOCK:14 |
-| wkorea.com | 13 | A:13 |
+| wkorea.com | 14 | A:14 |
 | starnewskorea.com | 11 | A:11 |
 | mk.co.kr | 10 | A:10 |
 | spotvnews.co.kr | 10 | A:10 |
