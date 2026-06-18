@@ -3403,6 +3403,13 @@
   },
   {
     "page": "pages/magazines/wkorea.md",
+    "url": "https://www.wkorea.com/2026/06/16/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84-2/",
+    "host": "wkorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/magazines/wkorea.md",
     "url": "https://www.insight.co.kr/news/336193",
     "host": "insight.co.kr",
     "grade": "BLOCK",
@@ -4506,6 +4513,13 @@
     "host": "maa.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/pictorials/by-year.md",
+    "url": "https://www.wkorea.com/2026/06/16/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84-2/",
+    "host": "wkorea.com",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/pictorials/by-year.md",

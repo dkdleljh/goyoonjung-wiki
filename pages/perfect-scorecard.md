@@ -1,10 +1,10 @@
 # Perfect Scorecard (auto)
 
-> Updated: 2026-06-17 (Asia/Seoul)
+> Updated: 2026-06-18 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 117
-- urls_total(markdown): 3708
+- urls_total(markdown): 3710
 - seen_urls(db): 274
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
@@ -31,7 +31,7 @@
 
 - C_current: 100  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 3708  (markdown URL count)
+- urls_total: 3710  (markdown URL count)
 - seen_urls_db: 274  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 15  (pages/works/*.md)
@@ -53,7 +53,7 @@
 - 99: pages/notes/translation-love-filming-locations-google-maps.md
 - 89: pages/brand-evidence-watch.md
 - 80: pages/official-platform-watch.md
-- 71: pages/pictorials/by-year.md
+- 72: pages/pictorials/by-year.md
 - 55: pages/interviews/by-year.md
 - 54: pages/appearances.md
 
