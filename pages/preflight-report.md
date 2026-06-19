@@ -1,6 +1,6 @@
 # Automation Preflight Report (auto)
 
-> Updated: 2026-06-18 09:02 (Asia/Seoul)
+> Updated: 2026-06-19 09:01 (Asia/Seoul)
 
 ## Summary
 - status: OK
@@ -17,7 +17,7 @@
 | HEAD == origin/main | OK | synced |
 | working tree | WARN | dirty |
 | Discord webhook | OK | configured |
-| disk free | OK | 271821 MiB |
+| disk free | OK | 271572 MiB |
 | run lock | WARN | present |
 | goyoonjung-wiki-daily.timer | WARN | no next run |
 | goyoonjung-wiki-sync.timer | WARN | no next run |
