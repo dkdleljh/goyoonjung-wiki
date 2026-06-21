@@ -3017,6 +3017,13 @@
     "lane": "queue"
   },
   {
+    "page": "pages/link-health.md",
+    "url": "https://news.zum.com/articles/80262487",
+    "host": "news.zum.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
     "page": "pages/magazines/bazaar.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
