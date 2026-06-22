@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-06-21 09:04 (Asia/Seoul)
+> Updated: 2026-06-22 09:05 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1030
+- total_urls: 1031
 - S: 253
-- A: 242
+- A: 243
 - B: 162
 - BLOCK: 373
 
@@ -24,7 +24,7 @@
 | tvn.cjenm.com | 21 | S:21 |
 | disneyplus.com | 19 | S:19 |
 | instagram.com | 17 | B:17 |
-| wkorea.com | 16 | A:16 |
+| wkorea.com | 17 | A:17 |
 | news.nate.com | 15 | BLOCK:15 |
 | elle.co.kr | 14 | A:14 |
 | nc.press | 14 | BLOCK:14 |

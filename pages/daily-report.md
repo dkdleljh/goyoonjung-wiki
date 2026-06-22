@@ -1,16 +1,16 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-21 09:06 (Asia/Seoul)
+> 갱신: 2026-06-22 09:07 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 4560b422 2026-06-21 03:47:29 +0900 chore: link health 2026-06-21
+- 7c42ae62 2026-06-21 09:07:16 +0900 chore: finalize daily run log 2026-06-21
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- pages/link-health.md
+- news/2026-06-21.md
 
-## 3) 오늘 실행 상태(news/2026-06-21.md)
+## 3) 오늘 실행 상태(news/2026-06-22.md)
 
 ## 실행 상태
 
@@ -26,7 +26,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/7)
+- duplicate_rate: 0.00% (0/30)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

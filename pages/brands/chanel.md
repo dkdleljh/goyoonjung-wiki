@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-06-03 09:05 (Asia/Seoul)
+> 갱신: 2026-06-22 09:07 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -40,6 +40,8 @@
 
 - [고윤정이 만난 샤넬 공방 마사로](https://www.wkorea.com/2026/06/02/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%8c%eb%82%9c-%ec%83%a4%eb%84%ac-%ea%b3%b5%eb%b0%a9-%eb%a7%88%ec%82%ac%eb%a1%9c/)  _(출처: pictorials/editorial.md)_
 
+- [고윤정과 샤넬의 향기로운 여정](https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/)  _(출처: pictorials/editorial.md)_
+
 - [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)  _(출처: pictorials/editorial.md)_
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)  _(출처: pictorials/editorial.md)_
@@ -50,6 +52,7 @@
 
 - [CHANEL / Vogue Korea](https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
+
 
 
 
