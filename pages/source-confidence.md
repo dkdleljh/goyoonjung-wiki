@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-06-22 09:05 (Asia/Seoul)
+> Updated: 2026-06-23 09:06 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1031
+- total_urls: 1034
 - S: 253
-- A: 243
+- A: 246
 - B: 162
 - BLOCK: 373
 
@@ -22,9 +22,9 @@
 | netflix.com | 31 | S:31 |
 | tving.com | 22 | S:22 |
 | tvn.cjenm.com | 21 | S:21 |
+| wkorea.com | 20 | A:20 |
 | disneyplus.com | 19 | S:19 |
 | instagram.com | 17 | B:17 |
-| wkorea.com | 17 | A:17 |
 | news.nate.com | 15 | BLOCK:15 |
 | elle.co.kr | 14 | A:14 |
 | nc.press | 14 | BLOCK:14 |
