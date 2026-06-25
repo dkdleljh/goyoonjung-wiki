@@ -2,7 +2,7 @@
 
 ![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.32.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-20-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-06-24
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-06-25
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -27,7 +27,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `aeac832a` |
+| 최신 커밋 | `a175051e` |
 | 최신 릴리즈 태그 | `v1.32.1` |
 | docs 문서 수 | `20` |
 | 운영 페이지 수 | `19` |
@@ -61,14 +61,14 @@
   - 로컬 노트: `logs/releases/release-notes-v1.31.1.md`
 
 ## 최근 변경 요약
+- [`a175051e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a175051e) — chore: finalize daily run log 2026-06-24
+- [`7b3c7a6b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7b3c7a6b) — daily: update 2026-06-24
 - [`aeac832a`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aeac832a) — chore: finalize daily run log 2026-06-23
 - [`3a594902`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3a594902) — daily: update 2026-06-23
 - [`b12583c5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/b12583c5) — chore: finalize daily run log 2026-06-22
-- [`ddda675f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ddda675f) — daily: update 2026-06-22
-- [`7c42ae62`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7c42ae62) — chore: finalize daily run log 2026-06-21
 
 ## 최근 변경 파일
-- `news/2026-06-23.md`
+- `news/2026-06-24.md`
 
 ## 자주 쓰는 명령
 ```bash
