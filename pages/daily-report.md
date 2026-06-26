@@ -1,16 +1,16 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-25 09:14 (Asia/Seoul)
+> 갱신: 2026-06-26 09:14 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- a175051e 2026-06-24 09:14:33 +0900 chore: finalize daily run log 2026-06-24
+- 945ace6c 2026-06-25 09:15:55 +0900 chore: finalize daily run log 2026-06-25
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-06-24.md
+- news/2026-06-25.md
 
-## 3) 오늘 실행 상태(news/2026-06-25.md)
+## 3) 오늘 실행 상태(news/2026-06-26.md)
 
 ## 실행 상태
 
@@ -26,7 +26,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/4)
+- duplicate_rate: 0.00% (0/5)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
