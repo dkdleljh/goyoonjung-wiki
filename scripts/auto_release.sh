@@ -195,10 +195,9 @@ main() {
 
 ## Validation
 
-- changelog_sync: OK
-- git_push_main: OK
-- git_push_tag: OK
-- github_release_upsert: OK
+- 릴리즈 준비 시점에 작성된 노트입니다.
+- 코드 검증: 해당 커밋의 ci 워크플로우 결과를 확인하세요.
+- 게시 결과: GitHub 태그와 Release 페이지의 실제 생성 여부로 확인하세요.
 
 ## Risk
 
@@ -221,12 +220,14 @@ ${notes_body}
 EOF
   msg="Release ${new_tag} (${bump})"
 
+  printf "%s\n" "${new_tag#v}" > VERSION
+
   # Keep generated docs and CHANGELOG.md in sync with the tag being prepared.
   # The tag does not exist yet, so pass it explicitly to generated portals.
-  GOYOONJUNG_WIKI_NEXT_TAG="$new_tag" python3 ./scripts/generate_doc_portals.py >/dev/null 2>&1 || true
+  GOYOONJUNG_WIKI_NEXT_TAG="$new_tag" python3 ./scripts/generate_doc_portals.py
   bash ./scripts/rebuild_daily_report.sh >/dev/null 2>&1 || true
   python3 ./scripts/generate_changelog.py --next-tag "$new_tag" >/dev/null 2>&1 || true
-  git add README.md index.md docs/README.md pages/doc-portal.md pages/hub.md pages/hub.en.md pages/daily-report.md CHANGELOG.md "$notes_file" 2>/dev/null || true
+  git add VERSION README.md index.md docs/README.md pages/doc-portal.md pages/hub.md pages/hub.en.md pages/daily-report.md CHANGELOG.md "$notes_file" 2>/dev/null || true
   if ! git diff --cached --quiet 2>/dev/null; then
     git commit -m "chore: prepare release ${new_tag}" >/dev/null
     if ! git push origin main >/dev/null; then

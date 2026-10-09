@@ -1,8 +1,8 @@
 # 고윤정 위키 (Go Youn-jung Wiki)
 
-![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.32.1-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-20-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
+![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.58.0-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-19-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-06-26
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-10-10
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -27,9 +27,9 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `945ace6c` |
-| 최신 릴리즈 태그 | `v1.32.1` |
-| docs 문서 수 | `20` |
+| 최신 커밋 | `8215824e` |
+| 최신 릴리즈 태그 | `v1.58.0` |
+| docs 문서 수 | `19` |
 | 운영 페이지 수 | `19` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
 | daily update | `scripts/run_daily_update.sh` |
@@ -50,25 +50,25 @@
 - 현재 판정: `bash scripts/check_automation_health.sh`와 `make check` 통과를 운영 기준으로 삼는다.
 
 ## 최신 릴리즈
-- `v1.32.1`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.32.1
-  - 로컬 노트: `logs/releases/release-notes-v1.32.1.md`
-- `v1.32.0`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.32.0
-  - 로컬 노트: `logs/releases/release-notes-v1.32.0.md`
-- `v1.31.1`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.31.1
-  - 로컬 노트: `logs/releases/release-notes-v1.31.1.md`
+- `v1.58.0`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.58.0
+  - 로컬 노트: `logs/releases/release-notes-v1.58.0.md`
+- `v1.57.0`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.57.0
+  - 로컬 노트: `logs/releases/release-notes-v1.57.0.md`
+- `v1.56.0`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.56.0
+  - 로컬 노트: `logs/releases/release-notes-v1.56.0.md`
 
 ## 최근 변경 요약
+- [`8215824e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8215824e) — chore: finalize daily run log 2026-06-26
+- [`5662deac`](https://github.com/dkdleljh/goyoonjung-wiki/commit/5662deac) — daily: update 2026-06-26
 - [`945ace6c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/945ace6c) — chore: finalize daily run log 2026-06-25
 - [`4056fa55`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4056fa55) — daily: update 2026-06-25
 - [`a175051e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a175051e) — chore: finalize daily run log 2026-06-24
-- [`7b3c7a6b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7b3c7a6b) — daily: update 2026-06-24
-- [`aeac832a`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aeac832a) — chore: finalize daily run log 2026-06-23
 
 ## 최근 변경 파일
-- `news/2026-06-25.md`
+- `news/2026-06-26.md`
 
 ## 자주 쓰는 명령
 ```bash
