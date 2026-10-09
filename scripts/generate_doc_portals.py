@@ -8,6 +8,7 @@ import re
 import subprocess
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 OWNER = "dkdleljh"
 REPO_NAME = "goyoonjung-wiki"
@@ -74,7 +75,7 @@ def toc(title_pairs: list[tuple[str, str]]) -> str:
 
 def main() -> int:
     repo = Path(sh(["git", "rev-parse", "--show-toplevel"], Path.cwd()))
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d")
     head = sh(["git", "rev-parse", "--short", "HEAD"], repo)
     tags = latest_tags(repo, 3)
     next_tag = os.environ.get("GOYOONJUNG_WIKI_NEXT_TAG", "").strip()

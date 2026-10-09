@@ -227,7 +227,9 @@ EOF
   GOYOONJUNG_WIKI_NEXT_TAG="$new_tag" python3 ./scripts/generate_doc_portals.py
   bash ./scripts/rebuild_daily_report.sh >/dev/null 2>&1 || true
   python3 ./scripts/generate_changelog.py --next-tag "$new_tag" >/dev/null 2>&1 || true
-  git add VERSION README.md index.md docs/README.md pages/doc-portal.md pages/hub.md pages/hub.en.md pages/daily-report.md CHANGELOG.md "$notes_file" 2>/dev/null || true
+  git add VERSION README.md index.md docs/README.md pages/hub.md pages/hub.en.md CHANGELOG.md
+  if [ -f pages/daily-report.md ]; then git add pages/daily-report.md; fi
+  git add -f "$notes_file"
   if ! git diff --cached --quiet 2>/dev/null; then
     git commit -m "chore: prepare release ${new_tag}" >/dev/null
     if ! git push origin main >/dev/null; then
