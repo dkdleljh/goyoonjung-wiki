@@ -1,19 +1,25 @@
 # 데일리 리포트
 
-> 갱신: 2026-06-26 09:14 (Asia/Seoul)
+> 갱신: 2026-10-10 02:00 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 945ace6c 2026-06-25 09:15:55 +0900 chore: finalize daily run log 2026-06-25
+- 8e0aed30 2026-10-10 01:59:44 +0900 fix: persist generated release portals instead of ignoring a missing path
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- news/2026-06-25.md
+- README.md
+- VERSION
+- docs/README.md
+- index.md
+- pages/hub.en.md
+- pages/hub.md
+- scripts/auto_release.sh
+- scripts/generate_doc_portals.py
 
-## 3) 오늘 실행 상태(news/2026-06-26.md)
+## 3) 오늘 실행 상태(news/2026-10-10.md)
 
-## 실행 상태
-
+- (오늘 news 파일 없음)
 
 ## 4) 권장 체크
 

@@ -13,22 +13,22 @@
 - [pages/perfect-scorecard.md](pages/perfect-scorecard.md)
 
 ## 최신 릴리즈
-- 최신 태그: `v1.58.1`
+- 최신 태그: `v1.58.2`
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`8e0aed30`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8e0aed30) — fix: persist generated release portals instead of ignoring a missing path
 - [`c72d35a3`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c72d35a3) — fix: refresh release portals and verify CI before publishing
 - [`8215824e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8215824e) — chore: finalize daily run log 2026-06-26
 - [`5662deac`](https://github.com/dkdleljh/goyoonjung-wiki/commit/5662deac) — daily: update 2026-06-26
 - [`945ace6c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/945ace6c) — chore: finalize daily run log 2026-06-25
-- [`4056fa55`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4056fa55) — daily: update 2026-06-25
 
 ## 직전 변경 파일
-- `.github/workflows/ci.yml`
-- `.github/workflows/release.yml`
 - `README.md`
 - `VERSION`
 - `docs/README.md`
 - `index.md`
 - `pages/hub.en.md`
 - `pages/hub.md`
+- `scripts/auto_release.sh`
+- `scripts/generate_doc_portals.py`

@@ -4,9 +4,150 @@
 - 정식 릴리즈는 SemVer 태그(`vMAJOR.MINOR.PATCH`)로 관리합니다.
 - 규칙/자동화 상세: [`docs/RELEASING.md`](docs/RELEASING.md)
 
+## v1.58.2 (2026-10-09)
+- fix: persist generated release portals instead of ignoring a missing path
+
+## v1.58.1 (2026-10-10)
+- fix: refresh release portals and verify CI before publishing
+
+## v1.58.0 (2026-06-26)
+- daily: update 2026-06-26
+- chore: finalize daily run log 2026-06-26
+
+## v1.57.0 (2026-06-25)
+- daily: update 2026-06-25
+- chore: finalize daily run log 2026-06-25
+
+## v1.56.0 (2026-06-24)
+- daily: update 2026-06-24
+- chore: finalize daily run log 2026-06-24
+
+## v1.55.0 (2026-06-23)
+- daily: update 2026-06-23
+- chore: finalize daily run log 2026-06-23
+
+## v1.54.0 (2026-06-22)
+- daily: update 2026-06-22
+- chore: finalize daily run log 2026-06-22
+
+## v1.53.0 (2026-06-21)
+- daily: update 2026-06-21
+- chore: finalize daily run log 2026-06-21
+
+## v1.52.1 (2026-06-21)
+- chore: link health 2026-06-21
+
+## v1.52.0 (2026-06-20)
+- daily: update 2026-06-20
+- chore: finalize daily run log 2026-06-20
+
+## v1.51.0 (2026-06-19)
+- daily: update 2026-06-19
+- chore: finalize daily run log 2026-06-19
+
+## v1.50.0 (2026-06-18)
+- daily: update 2026-06-18
+- chore: finalize daily run log 2026-06-18
+
+## v1.49.0 (2026-06-17)
+- daily: update 2026-06-17
+- chore: finalize daily run log 2026-06-17
+
+## v1.48.0 (2026-06-16)
+- daily: update 2026-06-16
+- chore: finalize daily run log 2026-06-16
+
+## v1.47.0 (2026-06-15)
+- daily: update 2026-06-15
+- chore: finalize daily run log 2026-06-15
+
+## v1.46.0 (2026-06-14)
+- daily: update 2026-06-14
+- chore: finalize daily run log 2026-06-14
+
+## v1.45.1 (2026-06-14)
+- chore: link health 2026-06-14
+
+## v1.45.0 (2026-06-13)
+- daily: update 2026-06-13
+- chore: finalize daily run log 2026-06-13
+
+## v1.44.0 (2026-06-12)
+- daily: update 2026-06-12
+- chore: finalize daily run log 2026-06-12
+
+## v1.43.0 (2026-06-11)
+- daily: update 2026-06-11
+- chore: finalize daily run log 2026-06-11
+
+## v1.42.0 (2026-06-10)
+- daily: update 2026-06-10
+- chore: finalize daily run log 2026-06-10
+
+## v1.41.0 (2026-06-09)
+- daily: update 2026-06-09
+- chore: finalize daily run log 2026-06-09
+
+## v1.40.0 (2026-06-08)
+- daily: update 2026-06-08
+- chore: finalize daily run log 2026-06-08
+
+## v1.39.0 (2026-06-07)
+- daily: update 2026-06-07
+- chore: finalize daily run log 2026-06-07
+
+## v1.38.1 (2026-06-07)
+- chore: link health 2026-06-07
+
+## v1.38.0 (2026-06-06)
+- daily: update 2026-06-06
+- chore: finalize daily run log 2026-06-06
+
+## v1.37.1 (2026-06-05)
+- chore: finalize daily run log 2026-06-05
+
+## v1.37.0 (2026-06-05)
+- chore: record heartbeat automation timeout
+- daily: update 2026-06-05
+
+## v1.36.1 (2026-06-04)
+- fix: fully stabilize watchdog timer output
+
+## v1.36.0 (2026-06-04)
+- chore: record daily automation follow-up
+
+## v1.35.0 (2026-06-04)
+- daily: update 2026-06-04
+- chore: finalize daily run log 2026-06-04
+
+## v1.34.3 (2026-06-04)
+- fix: stabilize watchdog report output
+
+## v1.34.2 (2026-06-04)
+- chore: record heartbeat watchdog health
+
+## v1.34.1 (2026-06-04)
+- docs: record phase 5 clean health
+
+## v1.34.0 (2026-06-04)
+- Implement phase 5 unmanned automation roadmap
+
+## v1.33.3 (2026-06-04)
+- docs: add unmanned collection automation roadmap
+
+## v1.33.2 (2026-06-04)
+- docs: record clean automation health
+
+## v1.33.1 (2026-06-04)
+- docs: refresh pushed automation reports
+
+## v1.33.0 (2026-06-04)
+- Improve release docs and automation health
+
 ## v1.32.1 (2026-06-03)
 - chore: prepare release v1.32.0
 - Merge remote-tracking branch 'refs/remotes/origin/main'
+- chore: prepare release v1.32.1
 
 ## v1.32.0 (2026-06-03)
 - daily: update 2026-06-03

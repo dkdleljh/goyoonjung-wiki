@@ -14,8 +14,8 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `c72d35a3` |
-| 최신 릴리즈 태그 | `v1.58.1` |
+| 최신 커밋 | `8e0aed30` |
+| 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `19` |
 | 운영 페이지 수 | `19` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
@@ -38,11 +38,11 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `.github/workflows/ci.yml`
-- `.github/workflows/release.yml`
 - `README.md`
 - `VERSION`
 - `docs/README.md`
+- `index.md`
+- `pages/hub.en.md`
 
 ## 운영 핵심 페이지
 - [`pages/awards-official-watch.md`](awards-official-watch.md)
