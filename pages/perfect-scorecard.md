@@ -1,11 +1,11 @@
 # Operational Scorecard (auto)
 
-> Updated: 2026-10-11 (Asia/Seoul)
+> Updated: 2026-10-12 (Asia/Seoul)
 
 ## Snapshot
-- pages_total: 117
-- urls_total(markdown): 304
-- seen_urls(db): 0
+- pages_total: 120
+- urls_total(markdown): 348
+- seen_urls(db): 31
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -31,31 +31,31 @@
 
 - C_current: 68  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 304  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 0  (dedupe DB size)
+- urls_total: 348  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 31  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
-- work_pages: 15  (pages/works/*.md)
+- work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
 
-### D. Content quality heuristic: **58/100**
+### D. Content quality heuristic: **48/100**
 
-- placeholder: 32  (debt=34)
+- placeholder: 0  (debt=61)
 - link_health: 81  (measured results and report age)
 - lint: 100  (actual findings)
 - provenance: 100  (official vs press vs secondary)
-- coverage_readiness: 11  (official coverage audit)
+- coverage_readiness: 8  (official coverage audit)
 
 ## Top URL-heavy pages (top 10)
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
-- 75: pages/pictorials/by-year.md
+- 79: pages/pictorials/by-year.md
 - 68: pages/link-health.md
 - 62: pages/skipped-link-backlog.md
-- 52: pages/official-platform-watch.md
+- 55: pages/official-platform-watch.md
 - 52: pages/alternative-proof-candidates.md
+- 49: pages/interviews.md
 - 49: pages/pictorials/editorial.md
-- 46: pages/interviews.md
-- 39: pages/interviews/by-year.md
-- 26: pages/appearances.md
+- 48: pages/interviews/by-year.md
+- 41: pages/appearances.md
 
 ## Notes
 - A and B component values describe tooling presence; B headline uses actual run freshness and outcome.

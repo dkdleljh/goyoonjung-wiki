@@ -1,24 +1,25 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-11 23:30 (Asia/Seoul)
+> 갱신: 2026-10-12 01:31 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 71639f60 2026-10-09 17:00:33 +0000 chore: prepare release v1.58.2
+- e7e56b2c 2026-10-12 01:27:32 +0900 fix: resolve current Google News URLs and keep generated pages publishable
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- CHANGELOG.md
-- README.md
-- VERSION
-- docs/README.md
-- index.md
-- logs/releases/release-notes-v1.58.2.md
-- pages/daily-report.md
-- pages/hub.en.md
-- pages/hub.md
+- docs/website-sync.md
+- requirements.txt
+- scripts/auto_collect_google_news.py
+- scripts/auto_collect_google_news_queries.py
+- scripts/auto_collect_google_news_queries_i18n.py
+- scripts/auto_collect_google_news_sites.py
+- scripts/google_news_resolver.py
+- scripts/rebuild_group_link_candidates.py
+- tests/test_google_news_resolver.py
+- tests/test_group_candidates_format.py
 
-## 3) 오늘 실행 상태(news/2026-10-11.md)
+## 3) 오늘 실행 상태(news/2026-10-12.md)
 
 ## 실행 상태
 
@@ -34,7 +35,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/6)
+- duplicate_rate: 0.00% (0/0)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

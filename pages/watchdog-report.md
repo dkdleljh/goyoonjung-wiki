@@ -10,4 +10,4 @@
 | target | state | detail |
 |---|---|---|
 | goyoonjung-wiki-daily.timer | OK | listed |
-| check_automation_health | WARN | es:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_AWARD_PROOF_AUTO:FAIL(124), RC_LINK:FAIL(1), mode:local-collection (not published)",   "max_age_hours": 36 } |
+| check_automation_health | WARN | 2026-10-12T01:27:00+09:00",   "age_hours": 0.08,   "source": "news/2026-10-12.md",   "recorded_result": "running",   "reason": "auto: daily update running",   "max_age_hours": 36 } |

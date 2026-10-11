@@ -1,9 +1,9 @@
 # Official Platform Watch (auto)
 
-> Updated: 2026-10-11 23:28 (Asia/Seoul)
+> Updated: 2026-10-12 01:30 (Asia/Seoul)
 
 ## Summary
-- official_platform_links: 85
+- official_platform_links: 89
 
 ## Links
 | title | host | grade | url |
@@ -21,12 +21,14 @@
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391253 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362920 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
-| 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=399141 |
+| 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=405372 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=361830 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362628 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362734 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=363033 |
 | 작품 — 연도별 인덱스 | netflix.com | S | https://www.netflix.com/kr/title/81697769 |
+| 작품 — 연도별 인덱스 | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/wearealltryinghere |
+| 작품 — 연도별 인덱스 | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view |
 | 작품 — 연도별 인덱스 | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 작품 — 연도별 인덱스 | disneyplus.com | S | https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4 |
 | 작품 — 연도별 인덱스 | netflix.com | S | https://www.netflix.com/kr/title/81061734 |
@@ -42,7 +44,9 @@
 | 이 사랑 통역 되나요? (Netflix) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 이재, 곧 죽습니다 (TVING) | tving.com | S | https://www.tving.com/contents/P001748996 |
 | 이재, 곧 죽습니다 (TVING) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
-| 모두가 자신의 무가치함과 싸우고 있다 | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
+| 모두가 자신의 무가치함과 싸우고 있다 | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/wearealltryinghere |
+| 모두가 자신의 무가치함과 싸우고 있다 | youtube.com | B | https://www.youtube.com/watch?v=51XurKBSgMo |
+| 모두가 자신의 무가치함과 싸우고 있다 | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view |
 | 사이코메트리 그녀석 (tvN) | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/heispsychometric/ |
 | 사이코메트리 그녀석 (tvN) | tving.com | S | https://www.tving.com/contents/P000820341 |
 | 사이코메트리 그녀석 (tvN) | tving.com | S | https://www.tving.com/contents/P000820341- |
@@ -67,7 +71,7 @@
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=274438 |
 | 무빙 (Disney+) | disneyplus.com | S | https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391146 |
-| 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=399141 |
+| 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=405372 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=343890 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/resident-playbook/ |
 | 언젠가는 슬기로울 전공의생활 (tvN) | tving.com | S | https://www.tving.com/contents/P001768976 |
@@ -84,10 +88,6 @@
 | 스위트홈 (Netflix) | netflix.com | S | https://www.netflix.com/title/81061734 |
 | 스위트홈 (Netflix) | youtube.com | B | https://www.youtube.com/watch?v=B5IQqZDSRjk |
 | 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391253 |
-| 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391146 |
-| 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=389107 |
-| 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=387125 |
-| 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 
 ## Policy
 - S급 공식 링크는 본문 자동 확정 후보입니다.

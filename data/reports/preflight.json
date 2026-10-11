@@ -1,5 +1,5 @@
 {
-  "status": "OK",
+  "status": "WARN",
   "checks": [
     [
       ".venv/bin/python",
@@ -29,12 +29,12 @@
     [
       "disk free",
       "OK",
-      "70037 MiB"
+      "68563 MiB"
     ],
     [
       "run lock",
-      "OK",
-      "absent"
+      "WARN",
+      "present"
     ],
     [
       "goyoonjung-wiki-daily.timer",

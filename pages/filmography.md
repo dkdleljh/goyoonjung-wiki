@@ -51,3 +51,22 @@
 |---|---|---|---|---|---|
 | 미정 | Disney+ | 무빙 시즌 2 | 장희수 | 촬영 중, 공개일 미정 (2026-10-06 인터뷰 기준) | [제작 발표 보도](https://www.yna.co.kr/view/AKR20260518043500005) · [직접 인터뷰](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/) |
 | 미정 | 영화 | 남벌 | 애령 | 출연 확정 보도, 개봉일 미정 | [제작사 발표 보도](https://enews.imbc.com/News/RetrieveNewsInfo/510753) · [직접 인터뷰](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/) |
+
+- 날짜: 2026-10-12
+- 구분: 작품/캐스팅(뉴스 자동 반영)
+- 제목: 고윤정, 영화 '남벌' 캐스팅…이병헌과 첫 연기 호흡 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839
+- 상태: 보도(2차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839
+- 날짜: 2026-10-12
+- 구분: 작품/캐스팅(뉴스 자동 반영)
+- 제목: 이도현, '남벌' 캐스팅…이병헌·고윤정과 무협 액션 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295
+- 상태: 보도(2차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295
+- 날짜: 2026-10-12
+- 구분: 작품/캐스팅(뉴스 자동 반영)
+- 제목: ‘모자무싸’ 고윤정, 예리한 눈빛의 영화사 PD 변신 - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12288396
+- 상태: 보도(2차)
+- id: https://news.jtbc.co.kr/article/NB12288396

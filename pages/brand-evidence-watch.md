@@ -1,9 +1,9 @@
 # Brand Evidence Watch (auto)
 
-> Updated: 2026-10-11 23:28 (Asia/Seoul)
+> Updated: 2026-10-12 01:30 (Asia/Seoul)
 
 ## Summary
-- brand_evidence_items: 72
+- brand_evidence_items: 81
 - verify_role_items: 2
 
 ## Evidence
@@ -24,6 +24,9 @@
 | pages/endorsements/beauty.md | youtu.be | record_evidence | - 보다나(VODANA) 공식 캠페인(YouTube): https://youtu.be/hV1sOJLuMN8 |
 | pages/endorsements/beauty.md | youtu.be | record_evidence | - 려(RYO) 공식 캠페인(YouTube): https://youtu.be/dmS_nEQYv2I |
 | pages/endorsements/beauty.md | rataplan.co.kr | record_evidence | - 라타플랑(RATAPLAN) 공식 공지: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157 |
+| pages/endorsements/by-year.md | yna.co.kr | record_evidence | - [내셔널지오그래픽 어패럴](https://www.yna.co.kr/amp/view/AKR20260923185000030) — 모델/캠페인 출연 |
+| pages/endorsements/by-year.md | news.nate.com | record_evidence | - [디디에 두보](https://news.nate.com/view/20260227n09186) — 모델/캠페인 출연 |
+| pages/endorsements/by-year.md | lawissue.co.kr | record_evidence | - [젝시믹스](https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12) — 모델/캠페인 출연 |
 | pages/endorsements/by-year.md | news.nate.com | record_evidence | - [디디에 두보(DIDIER DUBOT)](https://news.nate.com/view/20250825n17937) — 모델 |
 | pages/endorsements/by-year.md | sisaon.co.kr | record_evidence | - [한화손해보험](https://www.sisaon.co.kr/news/articleView.html?idxno=175918) — 브랜드 전속모델 |
 | pages/endorsements/by-year.md | youtu.be | record_evidence | - [구달(goodal)](https://youtu.be/p3lwXW6nT5U) — 모델/뮤즈 |
@@ -59,6 +62,12 @@
 | pages/endorsements/fashion.md | instagram.com | record_evidence | - 부쉐론(Boucheron) 공식 발표(Instagram): https://www.instagram.com/p/CWvduIJt1P2/ |
 | pages/endorsements/fashion.md | youtu.be | record_evidence | - MARITHÉ FRANÇOIS GIRBAUD 공식 캠페인(YouTube): https://youtu.be/76aAMPpCTb4 |
 | pages/endorsements/fashion.md | youtu.be | record_evidence | - 디스커버리 익스페디션 공식 캠페인(YouTube): https://youtu.be/ZH1Y1l1OmTY |
+| pages/endorsements/fashion.md | lawissue.co.kr | record_evidence | - 링크(공식 발표): https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12 |
+| pages/endorsements/fashion.md | lawissue.co.kr | record_evidence | - id: https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12 |
+| pages/endorsements/fashion.md | yna.co.kr | record_evidence | - 링크(공식 발표): https://www.yna.co.kr/amp/view/AKR20260923185000030 |
+| pages/endorsements/fashion.md | yna.co.kr | record_evidence | - id: https://www.yna.co.kr/amp/view/AKR20260923185000030 |
+| pages/endorsements/fashion.md | news.nate.com | record_evidence | - 링크(공식 발표): https://news.nate.com/view/20260227n09186 |
+| pages/endorsements/fashion.md | news.nate.com | record_evidence | - id: https://news.nate.com/view/20260227n09186 |
 | pages/endorsements/lifestyle.md | sisaon.co.kr | record_evidence | - 링크(공식 발표): https://www.sisaon.co.kr/news/articleView.html?idxno=175918 |
 | pages/endorsements/lifestyle.md | sisaon.co.kr | record_evidence | - id: https://www.sisaon.co.kr/news/articleView.html?idxno=175918 |
 | pages/endorsements/lifestyle.md | youtu.be | record_evidence | - 링크(공식 발표): https://youtu.be/jXCnrLQJfzE (자동: 공식 채널 게시물로 대체) |
@@ -80,7 +89,6 @@
 | pages/endorsements/lifestyle.md | youtu.be | record_evidence | - 푸라닭치킨 TVC(YouTube): https://youtu.be/NdogLAtlyys |
 | pages/endorsements/lifestyle.md | youtu.be | record_evidence | - 상쾌환(EASY TOMORROW) TVC(YouTube): https://youtu.be/TrDLHYVJ4w8 |
 | pages/endorsements/lifestyle.md | youtu.be | record_evidence | - NH농협은행(올원뱅크) 공식 영상(YouTube): https://youtu.be/c_VCPdtEA6A |
-| pages/endorsements/lifestyle.md | youtu.be | record_evidence | - LENSME(렌즈미) 공식 캠페인(YouTube): https://youtu.be/aRrlD-9WIbk |
 
 ## Policy
 - 브랜드 공식 근거 없이 앰버서더/프렌즈/모델 역할을 자동 확정하지 않습니다.

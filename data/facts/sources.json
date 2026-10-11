@@ -365,6 +365,13 @@
   },
   {
     "page": "pages/appearances/by-year.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/513316",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/appearances/by-year.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=405372",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
@@ -404,6 +411,13 @@
     "host": "kstar.kbs.co.kr",
     "grade": "S",
     "lane": "landed"
+  },
+  {
+    "page": "pages/appearances/by-year.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/497002",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/appearances/by-year.md",
@@ -544,6 +558,20 @@
     "host": "maa.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/appearances.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/513316",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/appearances.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/497002",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/appearances.md",
@@ -799,6 +827,27 @@
   },
   {
     "page": "pages/brand-evidence-watch.md",
+    "url": "https://www.yna.co.kr/amp/view/AKR20260923185000030",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/brand-evidence-watch.md",
+    "url": "https://news.nate.com/view/20260227n09186",
+    "host": "news.nate.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/brand-evidence-watch.md",
+    "url": "https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12",
+    "host": "lawissue.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/brand-evidence-watch.md",
     "url": "https://news.nate.com/view/20250825n17937",
     "host": "news.nate.com",
     "grade": "BLOCK",
@@ -960,6 +1009,13 @@
   },
   {
     "page": "pages/brands/chanel.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/brands/chanel.md",
     "url": "https://www.elle.co.kr/article/1880222",
     "host": "elle.co.kr",
     "grade": "A",
@@ -1038,13 +1094,6 @@
   {
     "page": "pages/brands/chanel.md",
     "url": "https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/",
-    "host": "marieclairekorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/brands/chanel.md",
-    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
     "host": "marieclairekorea.com",
     "grade": "A",
     "lane": "queue"
@@ -1240,6 +1289,13 @@
   },
   {
     "page": "pages/brands/marithe.md",
+    "url": "https://fashionseoul.com/275968",
+    "host": "fashionseoul.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/brands/marithe.md",
     "url": "https://youtu.be/76aAMPpCTb4",
     "host": "youtu.be",
     "grade": "B",
@@ -1295,6 +1351,13 @@
     "lane": "pool"
   },
   {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=tnjx7ZJZi8c",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
     "page": "pages/checklists/wiki-completeness-checklist.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
@@ -1333,6 +1396,27 @@
     "page": "pages/endorsements/beauty.md",
     "url": "https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157",
     "host": "rataplan.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/endorsements/by-year.md",
+    "url": "https://www.yna.co.kr/amp/view/AKR20260923185000030",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/endorsements/by-year.md",
+    "url": "https://news.nate.com/view/20260227n09186",
+    "host": "news.nate.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/endorsements/by-year.md",
+    "url": "https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12",
+    "host": "lawissue.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -1484,6 +1568,27 @@
     "lane": "discard"
   },
   {
+    "page": "pages/endorsements/fashion.md",
+    "url": "https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12",
+    "host": "lawissue.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/endorsements/fashion.md",
+    "url": "https://www.yna.co.kr/amp/view/AKR20260923185000030",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/endorsements/fashion.md",
+    "url": "https://news.nate.com/view/20260227n09186",
+    "host": "news.nate.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
     "page": "pages/endorsements/lifestyle.md",
     "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=175918",
     "host": "sisaon.co.kr",
@@ -1561,6 +1666,76 @@
     "lane": "landed"
   },
   {
+    "page": "pages/filmography.md",
+    "url": "https://tv.jtbc.co.kr/wearealltryinghere",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/filmography.md",
+    "url": "https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/filmography.md",
+    "url": "https://www.yna.co.kr/view/AKR20260518043500005",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/filmography.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/filmography.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/510753",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/filmography.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839",
+    "host": "news.sbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/filmography.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295",
+    "host": "news.sbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/filmography.md",
+    "url": "https://news.jtbc.co.kr/article/NB12288396",
+    "host": "news.jtbc.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/future-candidates.md",
+    "url": "https://kstar.kbs.co.kr/list_view.html?idx=405372",
+    "host": "kstar.kbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/future-watch.md",
+    "url": "https://kstar.kbs.co.kr/list_view.html?idx=405372",
+    "host": "kstar.kbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
     "page": "pages/index-by-tag.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
@@ -1569,8 +1744,29 @@
   },
   {
     "page": "pages/interviews/by-year.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/interviews/by-year.md",
+    "url": "https://enews.imbc.com/News/ViewAmp/508207",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/interviews/by-year.md",
     "url": "http://enter.etoday.co.kr/news/view/292714",
     "host": "enter.etoday.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/interviews/by-year.md",
+    "url": "https://www.movist.com/star3d/read.asp?id=39058&type=32",
+    "host": "movist.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -1800,6 +1996,13 @@
   },
   {
     "page": "pages/interviews/by-year.md",
+    "url": "https://www.starnewskorea.com/stview.php?no=2023043020331863820",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/interviews/by-year.md",
     "url": "http://www.interview365.com/news/articleView.html?idxno=104424",
     "host": "interview365.com",
     "grade": "BLOCK",
@@ -1811,6 +2014,34 @@
     "host": "m.news.nate.com",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/interviews/by-year.md",
+    "url": "https://extmovie.com/movietalk/86419918",
+    "host": "extmovie.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/interviews/by-year.md",
+    "url": "https://mydaily.co.kr/page/view/2022072719409407409",
+    "host": "mydaily.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/interviews/by-year.md",
+    "url": "https://www.esquirekorea.co.kr/article/68124",
+    "host": "esquirekorea.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/interviews/by-year.md",
+    "url": "https://www.starnewskorea.com/stview.php?no=2022063010405847866",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/interviews/by-year.md",
@@ -1841,9 +2072,37 @@
     "lane": "queue"
   },
   {
+    "page": "pages/interviews/by-year.md",
+    "url": "https://www.idaegu.com/news/articleView.html?idxno=381461",
+    "host": "idaegu.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
     "page": "pages/interviews.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/interviews.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/interviews.md",
+    "url": "https://enews.imbc.com/News/ViewAmp/508207",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/interviews.md",
+    "url": "https://www.movist.com/star3d/read.asp?id=39058&type=32",
+    "host": "movist.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -2166,13 +2425,6 @@
     "page": "pages/legal.md",
     "url": "https://creativecommons.org/",
     "host": "creativecommons.org",
-    "grade": "BLOCK",
-    "lane": "discard"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://m.news.zum.com/articles/63011527",
-    "host": "m.news.zum.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -2857,6 +3109,13 @@
   },
   {
     "page": "pages/magazines/marieclaire.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/magazines/marieclaire.md",
     "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-29/",
     "host": "marieclairekorea.com",
     "grade": "A",
@@ -2900,13 +3159,6 @@
   {
     "page": "pages/magazines/marieclaire.md",
     "url": "https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/",
-    "host": "marieclairekorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/magazines/marieclaire.md",
-    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
     "host": "marieclairekorea.com",
     "grade": "A",
     "lane": "queue"
@@ -3879,7 +4131,7 @@
   },
   {
     "page": "pages/official-platform-watch.md",
-    "url": "https://kstar.kbs.co.kr/list_view.html?idx=399141",
+    "url": "https://kstar.kbs.co.kr/list_view.html?idx=405372",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
     "lane": "landed"
@@ -3918,6 +4170,20 @@
     "host": "netflix.com",
     "grade": "S",
     "lane": "landed"
+  },
+  {
+    "page": "pages/official-platform-watch.md",
+    "url": "https://tv.jtbc.co.kr/wearealltryinghere",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/official-platform-watch.md",
+    "url": "https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/official-platform-watch.md",
@@ -3988,6 +4254,13 @@
     "host": "tving.com",
     "grade": "S",
     "lane": "landed"
+  },
+  {
+    "page": "pages/official-platform-watch.md",
+    "url": "https://www.youtube.com/watch?v=51XurKBSgMo",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
   },
   {
     "page": "pages/official-platform-watch.md",
@@ -4166,8 +4439,22 @@
   },
   {
     "page": "pages/pictorials/by-year.md",
+    "url": "https://fashionseoul.com/275968",
+    "host": "fashionseoul.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/pictorials/by-year.md",
     "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
     "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/by-year.md",
+    "url": "https://www.yna.co.kr/amp/view/AKR20260923185000030",
+    "host": "yna.co.kr",
     "grade": "A",
     "lane": "queue"
   },
@@ -4191,6 +4478,13 @@
     "host": "wkorea.com",
     "grade": "A",
     "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/by-year.md",
+    "url": "https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12",
+    "host": "lawissue.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
   },
   {
     "page": "pages/pictorials/by-year.md",
@@ -4240,6 +4534,13 @@
     "host": "wkorea.com",
     "grade": "A",
     "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/by-year.md",
+    "url": "https://news.nate.com/view/20260227n09186",
+    "host": "news.nate.com",
+    "grade": "BLOCK",
+    "lane": "discard"
   },
   {
     "page": "pages/pictorials/by-year.md",
@@ -4686,6 +4987,34 @@
     "page": "pages/pictorials/by-year.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/pictorials/campaign.md",
+    "url": "https://fashionseoul.com/275968",
+    "host": "fashionseoul.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/pictorials/campaign.md",
+    "url": "https://www.yna.co.kr/amp/view/AKR20260923185000030",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/campaign.md",
+    "url": "https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12",
+    "host": "lawissue.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/pictorials/campaign.md",
+    "url": "https://news.nate.com/view/20260227n09186",
+    "host": "news.nate.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -5369,6 +5698,20 @@
     "lane": "discard"
   },
   {
+    "page": "pages/profile.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/profile.md",
+    "url": "https://www.tenasia.co.kr/article/2026090158504",
+    "host": "tenasia.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
     "page": "pages/progress.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
@@ -5383,9 +5726,142 @@
     "lane": "queue"
   },
   {
+    "page": "pages/promotion-queue.md",
+    "url": "https://enews.imbc.com/News/ViewAmp/508207",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://mydaily.co.kr/page/view/2026092715164924546",
+    "host": "mydaily.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://www.newsis.com/view/NISX20260927_0003804310",
+    "host": "newsis.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://www.mk.co.kr/news/hot-issues/12161158",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://www.tenasia.co.kr/article/2026042942044",
+    "host": "tenasia.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://www.starnewskorea.com/star/2026/04/28/2026042820102693602",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=794454",
+    "host": "spotvnews.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://v.daum.net/v/20260112183443509",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://v.daum.net/v/6ONoHyPKZy",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://v.daum.net/v/20260110011249919",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://v.daum.net/v/20260109205849832",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://v.daum.net/v/pL9xFqYCCF?f=p",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://v.daum.net/v/20260109223503833",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://www.chosun.com/entertainments/broadcast/2026/01/17/GBQTOZJTMRRDCYJTHFRDMNDFGQ",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1910935",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://biz.heraldcorp.com/article/10898311",
+    "host": "biz.heraldcorp.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
     "page": "pages/quality-report.md",
     "url": "https://www.instagram.com/p/C6gW0vQNU1_/",
     "host": "instagram.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/schedule.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/513316",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/schedule.md",
+    "url": "https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/schedule.md",
+    "url": "https://www.youtube.com/watch?v=51XurKBSgMo",
+    "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
@@ -6006,6 +6482,111 @@
     "lane": "discard"
   },
   {
+    "page": "pages/updates-2026.md",
+    "url": "https://fashionseoul.com/275968",
+    "host": "fashionseoul.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://www.yna.co.kr/amp/view/AKR20260923185000030",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://www.tenasia.co.kr/article/2026090158504",
+    "host": "tenasia.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/513316",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/510753",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://www.wkorea.com/2026/06/22/고윤정과-샤넬의-향기로운-여정/",
+    "host": "wkorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://enews.imbc.com/News/ViewAmp/508207",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12",
+    "host": "lawissue.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://www.yna.co.kr/view/AKR20260518043500005",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://www.youtube.com/watch?v=51XurKBSgMo",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/497002",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://news.nate.com/view/20260227n09186",
+    "host": "news.nate.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/updates-2026.md",
+    "url": "https://www.movist.com/star3d/read.asp?id=39058&type=32",
+    "host": "movist.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
     "page": "pages/verification-queue.md",
     "url": "https://www.instagram.com/p/C6gW0vQNU1_/",
     "host": "instagram.com",
@@ -6196,10 +6777,45 @@
   },
   {
     "page": "pages/works/by-year.md",
+    "url": "https://www.yna.co.kr/view/AKR20260518043500005",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/by-year.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/by-year.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/510753",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/by-year.md",
     "url": "https://www.netflix.com/kr/title/81697769",
     "host": "netflix.com",
     "grade": "S",
     "lane": "landed"
+  },
+  {
+    "page": "pages/works/by-year.md",
+    "url": "https://tv.jtbc.co.kr/wearealltryinghere",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/by-year.md",
+    "url": "https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/works/by-year.md",
@@ -6308,10 +6924,31 @@
   },
   {
     "page": "pages/works/everyone-fights-worthlessness.md",
-    "url": "https://maa.co.kr/artists/go-younjung",
-    "host": "maa.co.kr",
-    "grade": "BLOCK",
-    "lane": "discard"
+    "url": "https://tv.jtbc.co.kr/wearealltryinghere",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/everyone-fights-worthlessness.md",
+    "url": "https://www.youtube.com/watch?v=51XurKBSgMo",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/works/everyone-fights-worthlessness.md",
+    "url": "https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view",
+    "host": "tv.jtbc.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/everyone-fights-worthlessness.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/works/he-is-psychometric.md",
@@ -6489,6 +7126,20 @@
     "lane": "discard"
   },
   {
+    "page": "pages/works/moving-season-2.md",
+    "url": "https://www.yna.co.kr/view/AKR20260518043500005",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/moving-season-2.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
     "page": "pages/works/moving.md",
     "url": "https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856-",
     "host": "disneyplus.com",
@@ -6536,6 +7187,20 @@
     "host": "disneyplus.com",
     "grade": "S",
     "lane": "landed"
+  },
+  {
+    "page": "pages/works/moving.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/moving.md",
+    "url": "https://enews.imbc.com/News/ViewAmp/508207",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/works/moving.md",
@@ -6634,6 +7299,27 @@
     "host": "kstar.kbs.co.kr",
     "grade": "S",
     "lane": "landed"
+  },
+  {
+    "page": "pages/works/nambeol.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/510753",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/nambeol.md",
+    "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010318881",
+    "host": "ent.sbs.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/nambeol.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/works/resident-playbook.md",

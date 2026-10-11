@@ -152,6 +152,110 @@
 - 상태: 보도(1차)
 - id: https://kstar.kbs.co.kr/list_view.html?idx=405372
 - 메모: 보도(1차). 사진/스틸 포함 가능.
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: 고윤정 OTT·스크린 넘나드는 활약 예고 - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12308062
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12308062
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: 고윤정, 영화 '남벌' 캐스팅…이병헌과 첫 연기 호흡 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839
+- 상태: 보도(1차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: ‘모자무싸’ 고윤정, 수식어 필요없는 압도적 비주얼 - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12294742
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12294742
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: ‘모자무싸’ 고윤정 “박해영 작가가 나를 써주다니…영광이고 신기해” - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12294664
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12294664
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: 이도현, '남벌' 캐스팅…이병헌·고윤정과 무협 액션 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295
+- 상태: 보도(1차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: "김선호에 많이 배워"·"고윤정 센스 있고 성격 좋아"…'이 사랑 통역 되나요?' 빛나는 커플 케미 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008402330
+- 상태: 보도(1차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008402330
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: 고윤정, '무빙 시즌2' 이어 '남벌'까지…OTT와 스크린 넘나든다 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003
+- 상태: 보도(1차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: "오로라 두 번 본 기적"…김선호♥고윤정 '이 사랑 통역 되나요?', 홍자매 로맨스 또 통할까 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008402376
+- 상태: 보도(1차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008402376
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: ‘모자무싸’ 고윤정, 예리한 눈빛의 영화사 PD 변신 - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12288396
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12288396
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: 통역사 김선호♥톱스타 고윤정의 설레는 로맨스…'이 사랑 통역 되나요?', 포스터X예고편 공개 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008373667
+- 상태: 보도(1차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008373667
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: 드디어 공개된 구교환·고윤정 투샷…‘모자무싸’ 포스터 - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12291543
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12291543
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: ‘이 사랑 통역 되나요’ 김선호 “고윤정 보며 설렌 적? 당연히 있죠” - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12281326
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12281326
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: ‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12276427
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12276427
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
 ## 공식 링크
 - (S) 소속사(MAA) 프로필(필모/공식 활동): https://maa.co.kr/artists/go-younjung
 - (A/S) YouTube(tvN/Netflix/Disney+ Korea 등 공식 채널) 링크는 항목별 `링크(공식/원문)`에 기록

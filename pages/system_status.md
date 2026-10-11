@@ -1,14 +1,14 @@
 # System status (auto)
 
-> Updated: 2026-10-11
+> Updated: 2026-10-12
 
-## wiki_completeness: **49/100**
+## wiki_completeness: **30/100**
 
-placeholder debt score: debt=34
-- official_audit.coverage_readiness: 11
+placeholder debt score: debt=61
+- official_audit.coverage_readiness: 8
 - official_audit.official_work_sync: 40
-- (페이지 내 표기 확인 필요): 0
-- (확인 필요): 3
+- (페이지 내 표기 확인 필요): 13
+- (확인 필요): 17
 - 검증불가: 13
 - 교차검증 필요: 0
 - 미확정: 2
@@ -29,11 +29,11 @@ score = verified OK / all discovered URLs; BAD forces zero
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-10-11T23:30:00+09:00
-age_hours: 0.06
-source: news/2026-10-11.md
+last_run: 2026-10-12T01:31:00+09:00
+age_hours: 0.02
+source: news/2026-10-12.md
 recorded_result: partial
-reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-11_2330.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:SKIP, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_AWARD_PROOF_AUTO:FAIL(124), RC_LINK:FAIL(1), mode:local-collection (not published)
+reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-12_0126.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:SKIP, sched:OK, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_MAG_RSS:FAIL(1), mode:local-collection (not published)
 max_age_hours: 36
 
 ## domain_grade_status
@@ -47,7 +47,7 @@ max_age_hours: 36
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/6)
+- duplicate_rate: 0.00% (0/0)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

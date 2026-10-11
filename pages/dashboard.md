@@ -1,18 +1,18 @@
 # Dashboard
-> Last Refreshed: 2026-10-11 23:27:46 (Asia/Seoul)
+> Last Refreshed: 2026-10-12 01:29:53 (Asia/Seoul)
 
 ## Quick Status
 | Metric | Status | Note |
 | :--- | :--- | :--- |
 | **Daily Update** | **Running** | See `news/` for today |
-| **Database** | 0 URLs | `wiki.db` size: 49152 bytes |
+| **Database** | 31 URLs | `wiki.db` size: 73728 bytes |
 | **Machine Status** | See `system_status.md` | This page is a hub, not the source of truth |
 
 ## System Snapshot
-- wiki_completeness: **63/100**
+- wiki_completeness: **49/100**
 - lint_clean: **100/100**
-- link_health: **100/100**
-- automation_health: **100/100**
+- link_health: **81/100**
+- automation_health: **0/100**
 
 ## Links
 - 시스템 상태: [`pages/system_status.md`](system_status.md)

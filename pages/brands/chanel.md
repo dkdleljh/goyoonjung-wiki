@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-10-11 23:30 (Asia/Seoul)
+> 갱신: 2026-10-12 01:25 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -19,6 +19,8 @@
 
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
+
+- [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
 
 - [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)  _(출처: interviews.md)_
 
@@ -43,8 +45,6 @@
 - [고윤정과 샤넬의 향기로운 여정](https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/)  _(출처: pictorials/editorial.md)_
 
 - [샤넬의 앰배서더 배우 고윤정과 함께한 마리끌레르 10월호 커버](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/)  _(출처: pictorials/editorial.md)_
-
-- [샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: pictorials/editorial.md)_
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)  _(출처: pictorials/editorial.md)_
 
