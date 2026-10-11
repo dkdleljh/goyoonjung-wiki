@@ -1,12 +1,18 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 02:41 (Asia/Seoul)
+> Updated: 2026-10-12 03:48 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-11 · grade=A · EN_CAST · [Lee Byung-hun, Go Youn-jung cast in upcoming Joseon-era action film - The Korea Times](https://www.koreatimes.co.kr/entertainment/films/20260708/lee-byung-hun-go-youn-jung-cast-in-upcoming-joseon-era-action-film)
+- 2026-10-11 · grade=A · EN_CAST · [Go Youn-jung Stars in Joseon Action 'Nambeol' and Supernatural 'Moving Season 2' - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/07/13/2PNKYX7MYFBAJPOBFWLF5FOWKI)
+- 2026-10-11 · grade=A · EN_CAST · [Go Youn-jung Takes on Hard-Boiled Martial Arts Action, Joins Lee Byung-hun in 'Nambal' - 스포츠조선](https://www.sportschosun.com/en/movie/2026-07-08/202607080100050020003004)
+- 2026-10-11 · grade=A · EN_CAST · [Go Youn-jung, Lee Byung-hun in Martial Arts Film 'Nambeol' - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/07/07/FFRPJDIJRZGOLAWADMYMS7PE3Y)
+- 2026-10-11 · grade=A · EN_CAST · [IU, Go Youn-jung, Shin Hae-sun defy ratings slump in rare weekend drama surge - The Korea Times](https://www.koreatimes.co.kr/entertainment/shows-dramas/20260505/iu-go-youn-jung-shin-hae-sun-defy-ratings-slump-in-rare-weekend-drama-surge)
+- 2026-10-11 · grade=A · RYO · [고윤정, 파리서 국위선양하는 미모…정면도 옆모습도 감탄 [MD★스타] - Daum](https://v.daum.net/v/Q9gpBgFYwg)
 - 2026-10-11 · grade=A · EN_ALL · [XEXYMIX Proposes Winter Running Looks with Go Youn Jung and DEX, Unveils 'RX Air Light Padded Jumper' - 스포츠조선](https://www.sportschosun.com/en/culture/2026-09-24/202609240100164150010740)
 - 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung Spotted in Paris with a Pure, Effortless Look - 매일경제](https://www.mk.co.kr/en/hot-issues/12162111)
 - 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung Shares Playful Behind-the-Scenes Photos - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/09/29/ZNKZCLFVMNC47BPO4LT4VCUGIA)

@@ -1,9 +1,9 @@
 # Official Platform Watch (auto)
 
-> Updated: 2026-10-12 02:42 (Asia/Seoul)
+> Updated: 2026-10-12 03:49 (Asia/Seoul)
 
 ## Summary
-- official_platform_links: 89
+- official_platform_links: 97
 
 ## Links
 | title | host | grade | url |
@@ -18,10 +18,10 @@
 | 환혼: 빛과 그림자 (tvN) | program.tving.com | S | http://program.tving.com/tvn/alchemyofsouls/- |
 | 환혼: 빛과 그림자 (tvN) | youtube.com | B | https://www.youtube.com/watch?v=z8x19hQejYo |
 | 환혼: 빛과 그림자 (tvN) | youtube.com | B | https://www.youtube.com/watch?v=tYTPRqjgCzs |
+| 환혼: 빛과 그림자 (tvN) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12276427 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391253 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362920 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
-| 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=405372 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=361830 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362628 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362734 |
@@ -59,9 +59,16 @@
 | 헌트 (영화) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=220920 |
 | 로스쿨 (JTBC) | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/lawschool |
 | 로스쿨 (JTBC) | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/cast/PR10011289/1 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12308062 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12294742 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12294664 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12288396 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12291543 |
 | 로스쿨 (JTBC) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 | 로스쿨 (JTBC) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=394652 |
 | 로스쿨 (JTBC) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=395293 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12281326 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12276427 |
 | 조명가게 (Light Shop) | disneyplus.com | S | https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4 |
 | 조명가게 (Light Shop) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 무빙 (Disney+) | disneyplus.com | S | https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856- |
@@ -70,8 +77,9 @@
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=274438 |
 | 무빙 (Disney+) | disneyplus.com | S | https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 |
+| 무빙 (Disney+) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12276427 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391146 |
-| 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=405372 |
+| 무빙 (Disney+) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=343890 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/resident-playbook/ |
 | 언젠가는 슬기로울 전공의생활 (tvN) | tving.com | S | https://www.tving.com/contents/P001768976 |
@@ -80,14 +88,6 @@
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=361830 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362628 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362734 |
-| 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362920 |
-| 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=363033 |
-| 언젠가는 슬기로울 전공의생활 (tvN) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
-| 스위트홈 2 | netflix.com | S | https://www.netflix.com/kr/title/81061734 |
-| 스위트홈 2 | about.netflix.com | S | https://about.netflix.com/ko/news/sweet-home-season-2-date-announcement |
-| 스위트홈 (Netflix) | netflix.com | S | https://www.netflix.com/title/81061734 |
-| 스위트홈 (Netflix) | youtube.com | B | https://www.youtube.com/watch?v=B5IQqZDSRjk |
-| 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391253 |
 
 ## Policy
 - S급 공식 링크는 본문 자동 확정 후보입니다.

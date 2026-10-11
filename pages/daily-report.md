@@ -1,14 +1,55 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-12 02:43 (Asia/Seoul)
+> 갱신: 2026-10-12 03:50 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- c5d1cb80 2026-10-12 01:33:26 +0900 docs: sync collected wiki content for website
+- c7d1f6ba 2026-10-12 02:43:46 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- README.md
+- data/facts/awards.json
+- data/facts/profile.json
+- data/facts/sources.json
+- data/facts/works.json
+- data/reports/preflight.json
+- data/reports/watchdog.json
+- index.md
+- news/2026-10-12.md
+- pages/appearances.md
+- pages/awards-official-watch.md
+- pages/brand-evidence-watch.md
+- pages/candidate-pool.md
+- pages/daily-report.md
+- pages/dashboard.md
+- pages/fact-conflicts.md
+- pages/facts-index.md
+- pages/future-candidates.md
+- pages/future-watch.md
+- pages/hub.en.md
+- pages/hub.md
 - pages/kpi-report.md
+- pages/lint-report.md
+- pages/official-coverage-audit.md
+- pages/official-platform-watch.md
+- pages/perfect-scorecard.md
+- pages/preflight-report.md
+- pages/profile.md
+- pages/progress.md
+- pages/promotion-queue.md
+- pages/quality-report.md
+- pages/schedule.md
+- pages/source-confidence.md
+- pages/system_status.md
+- pages/verification-queue.md
+- pages/watchdog-report.md
+- pages/works/alchemy-of-souls.md
+- pages/works/hunt.md
+- pages/works/law-school.md
+- pages/works/moving.md
+- pages/works/sweethome.md
+- sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-10-12.md)
 
@@ -24,11 +65,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 47
+- new_urls: 53
 - landed_urls: 16
-- duplicate_rate: 20.65% (19/92)
+- duplicate_rate: 20.00% (23/115)
 - verified_urls_by_grade:
   - S: 16
-  - A: 28
+  - A: 34
   - B: 3
 

@@ -27,7 +27,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-12 02:43 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-12 03:50 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -68,6 +68,8 @@
 - [‘이 사랑 통역 되나요’ 김선호 “고윤정 보며 설렌 적? 당연히 있죠” - JTBC](https://news.jtbc.co.kr/article/NB12281326)  _(출처: appearances.md)_
 
 - [‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC](https://news.jtbc.co.kr/article/NB12276427)  _(출처: appearances.md)_
+
+- [‘이사통’ 김선호 “고윤정, 성격 정말 좋다…촬영 중 실수도 유쾌하게 넘어가” - JTBC](https://news.jtbc.co.kr/article/NB12279720)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
