@@ -17,18 +17,18 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`1411c388`](https://github.com/dkdleljh/goyoonjung-wiki/commit/1411c388) — docs: sync collected wiki content for website
 - [`73c8007b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/73c8007b) — docs: sync collected wiki content for website
 - [`c7d1f6ba`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c7d1f6ba) — docs: sync collected wiki content for website
 - [`c5d1cb80`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c5d1cb80) — docs: sync collected wiki content for website
 - [`19878197`](https://github.com/dkdleljh/goyoonjung-wiki/commit/19878197) — docs: sync collected wiki content for website
-- [`240bdcf2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/240bdcf2) — fix: count collection metrics by Korean day using UTC event timestamps
 
 ## 직전 변경 파일
 - `README.md`
 - `data/facts/awards.json`
-- `data/facts/future_candidates.json`
 - `data/facts/official_platforms.json`
 - `data/facts/profile.json`
 - `data/facts/sources.json`
 - `data/facts/works.json`
+- `data/reports/preflight.json`
 - `data/reports/watchdog.json`
