@@ -74,7 +74,11 @@ RUN_ID="$(TZ="$TZ" date +%Y%m%d-%H%M%S)"
 LOCK_DIR="$BASE/.locks"
 mkdir -p "$LOCK_DIR"
 # Share an OS lock with the publisher; child collectors cannot race a snapshot.
-exec 9>"$LOCK_DIR/content-sync.lock"
+if [[ "${CONTENT_SYNC_LOCK_FD:-}" = 9 ]]; then
+  [[ /proc/self/fd/9 -ef "$LOCK_DIR/content-sync.lock" ]] || exit 2
+else
+  exec 9>"$LOCK_DIR/content-sync.lock"
+fi
 if ! flock -n 9; then
   echo "Content sync is active; collection will retry on the next timer." >&2
   exit 75
@@ -112,18 +116,10 @@ FLUSH_SUM="notifications disabled"
 # Acquire lock (avoid concurrent runs)
 LOCK_PATH="$LOCK_DIR/lock"
 if ! mkdir "$LOCK_PATH" 2>/dev/null; then
-  # Stale-lock guard: if the lock dir is old, assume a crashed job and recover.
-  NOW_EPOCH=$(date +%s)
-  LOCK_MTIME=$(stat -c %Y "$LOCK_PATH" 2>/dev/null || echo 0)
-  AGE=$((NOW_EPOCH - LOCK_MTIME))
-  if [ "$LOCK_MTIME" -gt 0 ] && [ "$AGE" -gt 2700 ]; then
-    echo "Stale lock detected (age=${AGE}s). Removing and retrying." >&2
-    rm -rf "$LOCK_PATH" 2>/dev/null || true
-    mkdir "$LOCK_PATH" 2>/dev/null || { echo "Another update is already running. Exiting." >&2; exit 0; }
-  else
-    echo "Another update is already running (lock exists). Exiting." >&2
-    exit 0
-  fi
+  # Owning the OS lock proves no current collector can own this marker.
+  # Recover after SIGKILL/reboot; never recursively remove unexpected contents.
+  rmdir "$LOCK_PATH" || { echo "Unexpected nonempty collection lock" >&2; exit 2; }
+  mkdir "$LOCK_PATH"
 fi
 
 # Debounce: avoid hammering news logs with repeated runs triggered close together.
@@ -627,10 +623,10 @@ for rc_name in ${!RC_@}; do
 done
 if [ "$COLLECT_ONLY" = 1 ]; then
   ./scripts/mark_news_status.sh "$FINAL_RESULT" "$NOTE, mode:local-collection (not published)" >/dev/null
-  RUN_OK=1
   python3 ./scripts/wiki_score.py
   python3 ./scripts/compute_perfect_scorecard.py
   python3 ./scripts/rebuild_schedule_highlights.py
+  RUN_OK=1
   exit "$FINAL_RC"
 fi
 

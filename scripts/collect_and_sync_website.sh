@@ -2,6 +2,10 @@
 set -euo pipefail
 BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$BASE"
+mkdir -p .locks
+exec 9>"$BASE/.locks/content-sync.lock"
+flock -n 9 || exit 75
+export CONTENT_SYNC_LOCK_FD=9
 "$BASE/.venv/bin/python" scripts/publish_website_content.py --pull-only
 # Partial collection may publish its honest status. Failed or unfinished runs cannot.
 rc=0

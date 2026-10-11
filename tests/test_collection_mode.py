@@ -58,7 +58,7 @@ def test_preflight_gitless_mode(tmp_path, monkeypatch):
     assert preflight.main() == 0
 
 
-def test_concurrent_attempt_preserves_running_log(tmp_path):
+def test_unknown_lock_contents_are_preserved(tmp_path):
     from datetime import datetime
     from zoneinfo import ZoneInfo
     scripts = tmp_path / 'scripts'
@@ -66,12 +66,13 @@ def test_concurrent_attempt_preserves_running_log(tmp_path):
     shutil.copy(BASE / 'scripts' / 'run_daily_update.sh', scripts)
     locks = tmp_path / '.locks'
     (locks / 'lock').mkdir(parents=True)
+    (locks / 'lock' / 'unexpected').write_text('preserve me')
     today = datetime.now(ZoneInfo('Asia/Seoul')).strftime('%Y-%m-%d')
     log = locks / f'run_{today}.log'
     log.write_text('existing run evidence\n')
     result = subprocess.run(['bash', str(scripts / 'run_daily_update.sh')], cwd=tmp_path,
                             env=dict(os.environ, COLLECT_ONLY='1'), capture_output=True, timeout=5)
-    assert result.returncode == 0
+    assert result.returncode == 2
     assert log.read_text() == 'existing run evidence\n'
 
 

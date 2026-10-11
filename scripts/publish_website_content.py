@@ -11,6 +11,8 @@ import fcntl
 import json
 import os
 import subprocess
+from contextlib import contextmanager
+from datetime import UTC, datetime
 from pathlib import Path
 
 from operational_status import health
@@ -65,7 +67,41 @@ def prepare() -> set[str]:
     return changed
 
 
+def sync_website_checkout() -> None:
+    site = BASE.parent / "goyounjung"
+    if not (site / ".git").exists():
+        return
+
+    def command(*args: str) -> str:
+        return subprocess.check_output(["git", "-c", "core.hooksPath=/dev/null", "-C", str(site), *args],
+                                       text=True, timeout=180).strip()
+    if command("branch", "--show-current") != "main" or command("status", "--porcelain"):
+        raise RuntimeError("Website checkout needs review: expected clean main")
+    if command("remote", "get-url", "origin") not in {"https://github.com/dkdleljh/goyounjung.git", "git@github.com:dkdleljh/goyounjung.git"}:
+        raise RuntimeError("Unexpected website origin")
+    command("fetch", "origin", "main")
+    command("merge", "--ff-only", "origin/main")
+    if command("rev-parse", "HEAD") != command("rev-parse", "origin/main"):
+        raise RuntimeError("Unpublished website code requires review")
+
+
+def deployment_active() -> bool:
+    raw = run("gh", "run", "list", "--repo", "dkdleljh/goyounjung", "--workflow", "deploy.yml",
+              "--branch", "main", "--limit", "10", "--json", "status")
+    return any(row["status"] != "completed" for row in json.loads(raw or "[]"))
+
+
+def full_check_due(result: dict) -> bool:
+    try:
+        previous = json.loads((BASE / ".locks/website-sync-full.json").read_text())
+        age = (datetime.now(UTC) - datetime.fromisoformat(previous["verified_at"])).total_seconds()
+        return not (0 <= age < 86400 and all(previous[k] == result[k] for k in ("wiki_revision", "site_revision")))
+    except (OSError, ValueError, KeyError):
+        return True
+
+
 def publish(pull_only: bool = False) -> None:
+    sync_website_checkout()
     changed = prepare()
     if pull_only:
         print("Remote main checked before collection")
@@ -97,31 +133,56 @@ def publish(pull_only: bool = False) -> None:
     try:
         result = verify(full=False)
     except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError):
-        run("gh", "workflow", "run", "deploy.yml", "--repo", "dkdleljh/goyounjung", "--ref", "main")
+        if not deployment_active():
+            run("gh", "workflow", "run", "deploy.yml", "--repo", "dkdleljh/goyounjung", "--ref", "main")
         result = wait_for_sync(timeout=900, full=True)
     else:
-        if changed:
-            result = verify(full=True)
+        if changed or full_check_due(result):
+            result = wait_for_sync(timeout=900, full=True)
     save_report(result)
     print(f"Verified wiki {sha} on GitHub Pages; source_files={result['source_files']}")
+
+
+@contextmanager
+def content_lock():
+    path = BASE / ".locks/content-sync.lock"
+    path.parent.mkdir(exist_ok=True)
+    if os.environ.get("CONTENT_SYNC_LOCK_FD") == "9":
+        inherited = os.fstat(9)
+        actual = path.stat()
+        if (inherited.st_dev, inherited.st_ino) != (actual.st_dev, actual.st_ino):
+            raise RuntimeError("Invalid inherited content lock")
+        fcntl.flock(9, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        yield
+    else:
+        with path.open("w") as lock:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            yield
+
+
+def recover_collection_marker() -> None:
+    # Call only while holding content_lock. A killed collector leaves the marker,
+    # but the kernel releases its OS lock. Keep its failed/unfinished content.
+    marker = BASE / ".locks/lock"
+    if marker.exists():
+        marker.rmdir()
+        print("Recovered abandoned collection marker", flush=True)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pull-only", action="store_true")
     args = parser.parse_args()
-    (BASE / ".locks").mkdir(exist_ok=True)
-    with (BASE / ".locks/content-sync.lock").open("w") as lock:
-        try:
-            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except BlockingIOError:
-            print("Collector or publisher active; the next timer will retry")
-            raise SystemExit(75) from None
-        try:
+    try:
+        with content_lock():
+            recover_collection_marker()
             publish(pull_only=args.pull_only)
-        except Exception as exc:
-            save_report({"status": "failed", "error": str(exc)})
-            raise
+    except BlockingIOError:
+        print("Collector or publisher active; the next timer will retry")
+        raise SystemExit(75) from None
+    except Exception as exc:
+        save_report({"status": "failed", "error": str(exc)})
+        raise
 
 
 if __name__ == "__main__":

@@ -132,3 +132,28 @@ def test_clean_remote_update_fast_forwards_real_git(tmp_path, monkeypatch):
     monkeypatch.setattr(m, 'run', local_run)
     assert m.prepare() == set()
     assert (local / 'pages/profile.md').read_text() == 'remote update'
+
+
+def test_existing_deployment_is_awaited_without_duplicate_dispatch(tmp_path, monkeypatch):
+    calls = setup_publish(tmp_path, monkeypatch)
+    monkeypatch.setattr(m, 'deployment_active', lambda: True)
+    m.publish()
+    assert not any(c[:3] == ('gh', 'workflow', 'run') for c in calls)
+
+
+def test_clean_website_checkout_pulls_remote_main(tmp_path, monkeypatch):
+    site = tmp_path / 'goyounjung'
+    (site / '.git').mkdir(parents=True)
+    monkeypatch.setattr(m, 'BASE', tmp_path / 'wiki')
+    calls = []
+
+    def command(args, **kwargs):
+        calls.append(args)
+        if args[-2:] == ['branch', '--show-current']:
+            return 'main'
+        if args[-3:] == ['remote', 'get-url', 'origin']:
+            return 'https://github.com/dkdleljh/goyounjung.git'
+        return ''
+    monkeypatch.setattr(m.subprocess, 'check_output', command)
+    m.sync_website_checkout()
+    assert any(c[-3:] == ['merge', '--ff-only', 'origin/main'] for c in calls)

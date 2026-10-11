@@ -3,7 +3,7 @@ Description=Run goyoonjung-wiki daily automation every 6 hours
 
 [Timer]
 OnBootSec=5min
-OnUnitActiveSec=6h
+OnCalendar=*-*-* 00/6:00:00
 AccuracySec=1min
 Persistent=true
 Unit=goyoonjung-wiki-daily.service
