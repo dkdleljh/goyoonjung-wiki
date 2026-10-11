@@ -73,6 +73,12 @@ RUN_ID="$(TZ="$TZ" date +%Y%m%d-%H%M%S)"
 
 LOCK_DIR="$BASE/.locks"
 mkdir -p "$LOCK_DIR"
+# Share an OS lock with the publisher; child collectors cannot race a snapshot.
+exec 9>"$LOCK_DIR/content-sync.lock"
+if ! flock -n 9; then
+  echo "Content sync is active; collection will retry on the next timer." >&2
+  exit 75
+fi
 LOCK_FILE="$LOCK_DIR/daily-update.lock"
 
 # Notification throttle state (avoid spam)

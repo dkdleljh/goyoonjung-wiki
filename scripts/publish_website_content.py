@@ -6,6 +6,7 @@ No force pushes, notifications, release creation, or credential files.
 """
 from __future__ import annotations
 
+import argparse
 import fcntl
 import json
 import os
@@ -13,6 +14,7 @@ import subprocess
 from pathlib import Path
 
 from operational_status import health
+from verify_website_sync import save_report, verify, wait_for_sync
 
 BASE = Path(__file__).resolve().parent.parent
 CONTENT_DIRS = ("pages/", "sources/", "news/", "data/facts/", "data/reports/")
@@ -33,21 +35,47 @@ def run(*args: str) -> str:
     return subprocess.check_output(command, cwd=BASE, env=env, text=True, timeout=180).strip()
 
 
-def publish() -> None:
+def changed_paths() -> set[str]:
+    changed = set()
+    for args in [("diff", "--name-only", "-z", "HEAD"),
+                 ("diff", "--cached", "--name-only", "-z"),
+                 ("ls-files", "--others", "--exclude-standard", "-z")]:
+        changed.update(p for p in run("git", *args).split("\0") if p)
+    return changed
+
+
+def prepare() -> set[str]:
     if (BASE / ".locks/lock").exists():
         raise RuntimeError("Collection is still running; refusing an incomplete snapshot")
     if run("git", "branch", "--show-current") != "main":
         raise RuntimeError("Publisher requires main")
     if run("git", "remote", "get-url", "origin") not in {"https://github.com/dkdleljh/goyoonjung-wiki.git", "git@github.com:dkdleljh/goyoonjung-wiki.git"}:
         raise RuntimeError("Unexpected origin")
-    state = health(BASE)
-    if state["status"] not in {"success", "partial"}:
-        raise RuntimeError(f"Collection is not publishable: {state['status']}")
-    changed = set(run("git", "diff", "--name-only", "HEAD").splitlines())
-    changed.update(run("git", "ls-files", "--others", "--exclude-standard").splitlines())
+    changed = changed_paths()
     rejected = sorted(p for p in changed if not allowed(p))
     if rejected:
         raise RuntimeError(f"Unreviewed changes outside content paths: {rejected}")
+    run("git", "fetch", "origin", "main")
+    try:
+        run("git", "merge-base", "--is-ancestor", "origin/main", "HEAD")
+    except subprocess.CalledProcessError as exc:
+        if changed:
+            raise RuntimeError("Remote changed while local content is dirty; merge needs review") from exc
+        run("git", "merge", "--ff-only", "origin/main")
+    return changed
+
+
+def publish(pull_only: bool = False) -> None:
+    changed = prepare()
+    if pull_only:
+        print("Remote main checked before collection")
+        return
+    if changed:
+        state = health(BASE)
+        # An old completed run may accompany a manual content edit. Preserve its age
+        # on the site rather than blocking all edits when a collector is stale.
+        if state.get("recorded_result", state["status"]) not in {"success", "partial"}:
+            raise RuntimeError(f"Collection is not publishable: {state['status']}")
     for name in changed:
         file = BASE / name
         if file.is_symlink():
@@ -59,24 +87,41 @@ def publish() -> None:
                 if line.strip():
                     json.loads(line)
     run("git", "diff", "--check")
-    run("git", "fetch", "origin", "main")
-    # A rejected earlier push can be retried; never absorb remote edits over dirty data.
-    run("git", "merge-base", "--is-ancestor", "origin/main", "HEAD")
+    run("git", "diff", "--cached", "--check")
     if changed:
         run("git", "add", "--", *sorted(changed))
         run("git", "commit", "-m", "docs: sync collected wiki content for website")
-    # Also retries a previously failed push, even when no new content changed.
+    # Also retries a rejected push when no new files changed.
     run("git", "push", "origin", "HEAD:main")
     sha = run("git", "rev-parse", "HEAD")
-    run("gh", "workflow", "run", "deploy.yml", "--repo", "dkdleljh/goyounjung", "--ref", "main")
-    print(f"Published wiki {sha}; website deployment requested; collection={state['status']}")
+    try:
+        result = verify(full=False)
+    except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError):
+        run("gh", "workflow", "run", "deploy.yml", "--repo", "dkdleljh/goyounjung", "--ref", "main")
+        result = wait_for_sync(timeout=900, full=True)
+    else:
+        if changed:
+            result = verify(full=True)
+    save_report(result)
+    print(f"Verified wiki {sha} on GitHub Pages; source_files={result['source_files']}")
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--pull-only", action="store_true")
+    args = parser.parse_args()
     (BASE / ".locks").mkdir(exist_ok=True)
-    with (BASE / ".locks/website-publish.lock").open("w") as lock:
-        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        publish()
+    with (BASE / ".locks/content-sync.lock").open("w") as lock:
+        try:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            print("Collector or publisher active; the next timer will retry")
+            raise SystemExit(75) from None
+        try:
+            publish(pull_only=args.pull_only)
+        except Exception as exc:
+            save_report({"status": "failed", "error": str(exc)})
+            raise
 
 
 if __name__ == "__main__":

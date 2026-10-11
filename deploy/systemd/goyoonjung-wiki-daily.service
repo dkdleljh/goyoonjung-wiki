@@ -10,7 +10,8 @@ ExecStart=/usr/bin/env bash scripts/collect_and_sync_website.sh
 Environment=COLLECT_ONLY=1
 Environment=TZ=Asia/Seoul
 Environment=PYTHONUNBUFFERED=1
-TimeoutStartSec=2700
+TimeoutStartSec=4200
+SuccessExitStatus=75
 
 [Install]
 WantedBy=default.target

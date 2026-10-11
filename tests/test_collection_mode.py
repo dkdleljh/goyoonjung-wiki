@@ -86,3 +86,19 @@ def test_timeout_stops_nested_children(tmp_path):
     assert result.returncode == 124
     time.sleep(1.1)
     assert not marker.exists()
+
+
+def test_publisher_lock_prevents_collection(tmp_path):
+    import fcntl
+    scripts = tmp_path / 'scripts'
+    scripts.mkdir()
+    shutil.copy(BASE / 'scripts' / 'run_daily_update.sh', scripts)
+    locks = tmp_path / '.locks'
+    locks.mkdir()
+    with (locks / 'content-sync.lock').open('w') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        result = subprocess.run(['bash', str(scripts / 'run_daily_update.sh')], cwd=tmp_path,
+                                env=dict(os.environ, COLLECT_ONLY='1'), capture_output=True, timeout=5)
+    assert result.returncode == 75
+    assert not (locks / 'lock').exists()
+    assert not (tmp_path / 'news').exists()
