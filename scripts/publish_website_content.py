@@ -138,7 +138,12 @@ def publish(pull_only: bool = False) -> None:
         result = wait_for_sync(timeout=900, full=True)
     else:
         if changed or full_check_due(result):
-            result = wait_for_sync(timeout=900, full=True)
+            try:
+                result = verify(full=True)
+            except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError):
+                if not deployment_active():
+                    run("gh", "workflow", "run", "deploy.yml", "--repo", "dkdleljh/goyounjung", "--ref", "main")
+                result = wait_for_sync(timeout=900, full=True)
     save_report(result)
     print(f"Verified wiki {sha} on GitHub Pages; source_files={result['source_files']}")
 

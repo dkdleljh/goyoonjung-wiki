@@ -157,3 +157,14 @@ def test_clean_website_checkout_pulls_remote_main(tmp_path, monkeypatch):
     monkeypatch.setattr(m.subprocess, 'check_output', command)
     m.sync_website_checkout()
     assert any(c[-3:] == ['merge', '--ff-only', 'origin/main'] for c in calls)
+
+
+def test_corrupt_public_artifact_triggers_repair_build(tmp_path, monkeypatch):
+    calls = setup_publish(tmp_path, monkeypatch)
+    def verify(full=False):
+        if full:
+            raise RuntimeError('corrupt public file')
+        return {'source_files': 3}
+    monkeypatch.setattr(m, 'verify', verify)
+    m.publish()
+    assert any(c[:3] == ('gh', 'workflow', 'run') for c in calls)

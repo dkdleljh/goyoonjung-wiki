@@ -104,3 +104,16 @@ echo phase >> phases
                             env=dict(os.environ), timeout=10)
     assert result.returncode == 0
     assert (tmp_path / 'phases').read_text().splitlines() == ['phase'] * 3
+
+
+def test_busy_tick_does_not_delay_next_collection(tmp_path, monkeypatch):
+    import json
+    from types import SimpleNamespace
+    monkeypatch.setattr(tick, 'BASE', tmp_path)
+    monkeypatch.setattr(tick.time, 'time', lambda: 1000000)
+    monkeypatch.setattr(tick, 'health', lambda base: {'status': 'failure', 'last_run': None})
+    monkeypatch.setattr(tick.subprocess, 'run', lambda *a, **kw: SimpleNamespace(returncode=75))
+    assert tick.tick() == 75
+    report = json.loads((tmp_path / '.locks/automation-tick.json').read_text())
+    assert report['collection_attempt'] == 0
+    assert report['status'] == 'busy'

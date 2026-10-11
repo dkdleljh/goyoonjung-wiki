@@ -47,7 +47,9 @@ def tick() -> int:
     save()
     print(f"Automation tick: {report['stage']}", flush=True)
     result = subprocess.run(command, cwd=BASE, env={**os.environ, "COLLECT_ONLY": "1"}, check=False)
-    report.update(status="completed" if result.returncode == 0 else "partial_or_failed", returncode=result.returncode,
+    if result.returncode == 75:
+        report["collection_attempt"] = prior.get("collection_attempt", 0)
+    report.update(status="completed" if result.returncode == 0 else "busy" if result.returncode == 75 else "partial_or_failed", returncode=result.returncode,
                   finished_at=time.time(), collection=health(BASE))
     save()
     return result.returncode
