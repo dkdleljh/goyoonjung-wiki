@@ -35,6 +35,7 @@ import db_manager  # noqa: E402
 import domain_policy  # noqa: E402
 import normalize_url  # noqa: E402
 import relevance  # noqa: E402
+from collector_io import append_news_lines  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-sites.txt"
 
@@ -50,6 +51,8 @@ class Site:
     domain: str
     label: str
     hint: str
+
+
 
 
 def decode_google_news_url(source_url: str) -> str:
@@ -111,17 +114,11 @@ def ensure_news_file(path: Path) -> None:
 
 
 def append_items(path: Path, items: list[dict]) -> None:
-    if not items:
-        return
-    ensure_news_file(path)
-    with path.open("a", encoding="utf-8") as f:
-        for it in items:
-            f.write(
-                f"- [GoogleNews/{it['label']}] [{it['title']}]({it['url']}) ({it['date']})\n"
-            )
+    append_news_lines(path, [f"- [GoogleNews/{it['label']}] [{it['title']}]({it['url']}) ({it['date']})" for it in items])
 
 
 def main() -> int:
+    errors = 0
     db_manager.init_db()
     policy = domain_policy.load_policy()
     sites = load_sites()
@@ -142,17 +139,21 @@ def main() -> int:
         rss_url = RSS_TEMPLATE.format(q=quote_plus(q))
         xml_data = fetch_rss(rss_url)
         if not xml_data:
+            errors += 1
             continue
 
         try:
             root = ET.fromstring(xml_data)
         except Exception:
+            errors += 1
             continue
 
         channel = root.find("channel")
         if channel is None:
+            errors += 1
             continue
 
+        pending = []
         new_items: list[dict] = []
         for item in channel.findall("item")[:15]:
             title_el = item.find("title")
@@ -173,6 +174,7 @@ def main() -> int:
 
             real_url = normalize_url.norm(decode_google_news_url(origin_link))
             if "news.google.com" in real_url:
+                errors += 1
                 continue
             grade = policy.grade_for_url(real_url)
             lane = policy.lane_for_url(real_url)
@@ -207,13 +209,16 @@ def main() -> int:
                     source=s.label,
                 )
                 db_manager.record_url_event(real_url, grade, lane, f"gnews_site:{s.domain}")
-            db_manager.add_seen_url(real_url, source=f"gnews_site:{s.domain}")
+            pending.append((real_url, f"gnews_site:{s.domain}"))
             time.sleep(0.05)
 
         append_items(news_path, new_items)
+        for url, source in pending:
+            db_manager.add_seen_url(url, source=source)
 
     print(f"auto_collect_google_news_sites: new={total_new}")
-    return 0
+    print(f"source_errors={errors}")
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":

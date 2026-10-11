@@ -160,6 +160,7 @@ def apply_entries(path: Path, entries: Iterable[Entry]) -> int:
 
 
 def main() -> int:
+    errors = 0
     if not CONF_PATH.exists():
         return 0
     conf = parse_simple_yml(read_text(CONF_PATH))
@@ -178,15 +179,18 @@ def main() -> int:
 
         xml_data = fetch(url)
         if not xml_data:
+            errors += 1
             continue
 
         try:
             root = ET.fromstring(xml_data)
         except Exception:
+            errors += 1
             continue
 
         channel = root.find("channel")
         if channel is None:
+            errors += 1
             continue
 
         for item in channel.findall("item")[:20]:
@@ -237,7 +241,8 @@ def main() -> int:
         ch += apply_entries(INTERVIEWS_MD, interview_entries)
 
     print(f"auto_collect_magazine_rss: entries={len(entries)} changed={ch}")
-    return 0
+    print(f"source_errors={errors}")
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":

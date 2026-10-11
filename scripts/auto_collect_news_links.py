@@ -3,7 +3,7 @@
 
 Unmanned + copyright-safe principles:
 - Link-first only (no article text copying).
-- Best-effort: never crash the whole pipeline; return 0 even if sources block.
+- Best-effort: never crash the whole pipeline; return nonzero when sources block.
 - De-dupe via sources/seen-urls.txt AND existing markdown contains URL.
 
 Targets (server-rendered search pages):
@@ -79,12 +79,15 @@ def load_seen_urls() -> set[str]:
     return out
 
 
+FETCH_ERRORS: list[str] = []
+
 def http_get(url: str) -> str | None:
     try:
         r = requests.get(url, headers=UA, timeout=TIMEOUT)
         r.raise_for_status()
         return r.text
     except Exception:
+        FETCH_ERRORS.append(url)
         return None
 
 
@@ -251,6 +254,7 @@ def build_entries(
 
 
 def main() -> int:
+    FETCH_ERRORS.clear()
     if not os.path.exists(INTERVIEWS_MD):
         return 0
 
@@ -267,7 +271,8 @@ def main() -> int:
 
     changed = apply_entries(INTERVIEWS_MD, entries)
     print(f"auto_collect_news_links: urls={len(n_urls)+len(d_urls)} entries={len(entries)} changed={changed}")
-    return 0
+    print(f"source_errors={len(FETCH_ERRORS)}")
+    return 1 if FETCH_ERRORS else 0
 
 
 if __name__ == "__main__":

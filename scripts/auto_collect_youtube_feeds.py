@@ -24,10 +24,13 @@ BASE = SCRIPT_DIR.parent
 sys.path.append(str(SCRIPT_DIR))
 import db_manager  # noqa: E402
 import relevance  # noqa: E402
+from collector_io import append_news_lines  # noqa: E402
 
 CONF_PATH = BASE / "config" / "youtube-feeds.yml"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 TIMEOUT = 15
+
+
 
 
 def parse_simple_yml(text: str) -> dict:
@@ -78,12 +81,7 @@ def ensure_news_file(path: Path) -> None:
 
 
 def append_lines(path: Path, lines: list[str]) -> None:
-    if not lines:
-        return
-    ensure_news_file(path)
-    with path.open("a", encoding="utf-8") as f:
-        for ln in lines:
-            f.write(ln + "\n")
+    append_news_lines(path, lines)
 
 
 def text_of(el: ET.Element | None) -> str:
@@ -91,6 +89,7 @@ def text_of(el: ET.Element | None) -> str:
 
 
 def main() -> int:
+    errors = 0
     if not CONF_PATH.exists():
         return 0
 
@@ -101,6 +100,7 @@ def main() -> int:
         return 0
 
     db_manager.init_db()
+    pending = []
     out_lines: list[str] = []
 
     # Rolling batch
@@ -116,10 +116,12 @@ def main() -> int:
             continue
         xml_data = fetch(url)
         if not xml_data:
+            errors += 1
             continue
         try:
             root = ET.fromstring(xml_data)
         except Exception:
+            errors += 1
             continue
 
         # YouTube atom: entry
@@ -141,12 +143,15 @@ def main() -> int:
 
             date_str = published.replace("T", " ").replace("Z", "")[:16] if published else datetime.now().strftime("%Y-%m-%d %H:%M")
             out_lines.append(f"- [YouTube/{name}] [{title}]({href}) ({date_str})")
-            db_manager.add_seen_url(href, source=f"youtube:{name}")
+            pending.append((href, f"youtube:{name}"))
             time.sleep(0.05)
 
     append_lines(get_today_news_path(), out_lines)
+    for url, source in pending:
+        db_manager.add_seen_url(url, source=source)
     print(f"auto_collect_youtube_feeds: new={len(out_lines)}")
-    return 0
+    print(f"source_errors={errors}")
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":

@@ -77,10 +77,16 @@ def load_seen_urls() -> set[str]:
     return s
 
 
+FETCH_ERRORS: list[str] = []
+
 def http_get(url: str) -> str:
-    r = requests.get(url, headers=UA, timeout=TIMEOUT)
-    r.raise_for_status()
-    return r.text
+    try:
+        r = requests.get(url, headers=UA, timeout=TIMEOUT)
+        r.raise_for_status()
+        return r.text
+    except Exception:
+        FETCH_ERRORS.append(url)
+        raise
 
 
 def extract_date_from_text(text: str) -> str | None:
@@ -386,9 +392,13 @@ def add_to_seen(urls: Iterable[str]) -> None:
 
 
 def main() -> int:
+    FETCH_ERRORS.clear()
     seen = load_seen_urls()
 
-    events, appearances, interviews = kbs_collect()
+    try:
+        events, appearances, interviews = kbs_collect()
+    except Exception:
+        events, appearances, interviews = [], [], []
     # filter by seen-urls, too
     events = [e for e in events if e.url not in seen]
     appearances = [e for e in appearances if e.url not in seen]
@@ -425,7 +435,8 @@ def main() -> int:
         add_to_seen(added_all)
 
     print(f"auto_collect_visual_links: added blocks: {ch}, added_to_seen: {len(added_all)}")
-    return 0
+    print(f"source_errors={len(FETCH_ERRORS)}")
+    return 1 if FETCH_ERRORS else 0
 
 
 if __name__ == "__main__":

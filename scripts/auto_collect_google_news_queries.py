@@ -11,7 +11,7 @@
 - De-dupes via SQLite DB (db_manager)
 - Appends to today's news/YYYY-MM-DD.md as link-only lines
 
-Best-effort, always returns 0.
+Returns nonzero when a requested feed or URL cannot be retrieved.
 """
 
 from __future__ import annotations
@@ -33,6 +33,7 @@ import db_manager  # noqa: E402
 import domain_policy  # noqa: E402
 import normalize_url  # noqa: E402
 import relevance  # noqa: E402
+from collector_io import append_news_lines  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-queries.txt"
 CONF_PRECISE = BASE / "config" / "google-news-queries-precise.txt"
@@ -41,6 +42,8 @@ CONF_BROAD = BASE / "config" / "google-news-queries-broad.txt"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 TIMEOUT = 15
 RSS_TEMPLATE = "https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
+
+
 
 
 def decode_google_news_url(source_url: str) -> str:
@@ -84,12 +87,7 @@ def ensure_news_file(path: Path) -> None:
 
 
 def append_lines(path: Path, lines: list[str]) -> None:
-    if not lines:
-        return
-    ensure_news_file(path)
-    with path.open("a", encoding="utf-8") as f:
-        for ln in lines:
-            f.write(ln + "\n")
+    append_news_lines(path, lines)
 
 
 def _load_queries_from(path: Path) -> list[tuple[str, str]]:
@@ -128,6 +126,7 @@ def load_queries() -> list[tuple[str, str]]:
 
 
 def main() -> int:
+    errors = 0
     db_manager.init_db()
     policy = domain_policy.load_policy()
     qlist = load_queries()
@@ -147,17 +146,21 @@ def main() -> int:
         rss_url = RSS_TEMPLATE.format(q=quote_plus(query))
         xml_data = fetch_rss(rss_url)
         if not xml_data:
+            errors += 1
             continue
 
         try:
             root = ET.fromstring(xml_data)
         except Exception:
+            errors += 1
             continue
 
         channel = root.find("channel")
         if channel is None:
+            errors += 1
             continue
 
+        pending = []
         new_lines: list[str] = []
         for item in channel.findall("item")[:15]:
             title_el = item.find("title")
@@ -177,6 +180,7 @@ def main() -> int:
             real_url = normalize_url.norm(decode_google_news_url(origin_link))
             # 품질: 리다이렉트 해소 실패(여전히 news.google.com)이면 스킵
             if "news.google.com" in real_url:
+                errors += 1
                 continue
             grade = policy.grade_for_url(real_url)
             lane = policy.lane_for_url(real_url)
@@ -211,13 +215,16 @@ def main() -> int:
                     source=label,
                 )
                 db_manager.record_url_event(real_url, grade, lane, f"gnews_query:{label}")
-            db_manager.add_seen_url(real_url, source=f"gnews_query:{label}")
+            pending.append((real_url, f"gnews_query:{label}"))
             time.sleep(0.05)
 
         append_lines(news_path, new_lines)
+        for url, source in pending:
+            db_manager.add_seen_url(url, source=source)
 
     print(f"auto_collect_google_news_queries: new={total}")
-    return 0
+    print(f"source_errors={errors}")
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":

@@ -30,6 +30,7 @@ import db_manager  # noqa: E402
 import domain_policy  # noqa: E402
 import normalize_url  # noqa: E402
 import relevance  # noqa: E402
+from collector_io import append_news_lines  # noqa: E402
 
 CONF = config_loader.load_config()
 RSS_URL = CONF.get('rss_url', "https://news.google.com/rss/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95+when:1d&hl=ko&gl=KR&ceid=KR:ko")
@@ -75,7 +76,7 @@ def decode_google_news_url(source_url):
 def fetch_rss():
     url = normalize_rss_url(RSS_URL)
     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    with urlopen(req) as response:
+    with urlopen(req, timeout=15) as response:
         return response.read()
 
 def main():
@@ -94,6 +95,7 @@ def main():
         return 1
 
     new_items = []
+    errors = 0
 
     for item in channel.findall("item"):
         title_elem = item.find("title")
@@ -112,6 +114,9 @@ def main():
             continue
 
         real_url = normalize_url.norm(decode_google_news_url(origin_link))
+        if "news.google.com" in real_url:
+            errors += 1
+            continue
         grade = policy.grade_for_url(real_url)
         lane = policy.lane_for_url(real_url)
 
@@ -163,23 +168,20 @@ def main():
             "source": source_text
         })
 
-        db_manager.add_seen_url(real_url, source='google_news')
-        db_manager.record_url_event(real_url, grade, "landed", "google_news")
+
 
     if not new_items:
-        print("No new items found.")
-        return
+        print(f"No new items found; unresolved_sources={errors}.")
+        return 1 if errors else 0
 
     log_path = get_today_news_path()
-    if not os.path.exists(log_path):
-        with open(log_path, "w", encoding="utf-8") as f:
-            f.write(f"# {datetime.now().strftime('%Y-%m-%d')} 로그\n\n## 뉴스/업데이트\n")
+    append_news_lines(Path(log_path), [f"- [{item['category']}] [{item['title']}]({item['url']}) - {item['source']} ({item['date']})" for item in new_items])
+    for item in new_items:
+        db_manager.add_seen_url(item['url'], source='google_news')
+        db_manager.record_url_event(item['url'], policy.grade_for_url(item['url']), "landed", "google_news")
 
-    with open(log_path, "a", encoding="utf-8") as f:
-        for item in new_items:
-            f.write(f"- [{item['category']}] [{item['title']}]({item['url']}) - {item['source']} ({item['date']})\n")
-
-    print(f"Added {len(new_items)} items to {log_path}")
+    print(f"Added {len(new_items)} items to {log_path}; unresolved_sources={errors}")
+    return 1 if errors else 0
 
 if __name__ == "__main__":
     raise SystemExit(main())
