@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-12 07:20 (Asia/Seoul)
+> Updated: 2026-10-12 08:27 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1135
+- total_urls: 1136
 - S: 275
-- A: 310
+- A: 311
 - B: 195
 - BLOCK: 355
 
@@ -36,11 +36,11 @@
 | news.sbs.co.kr | 10 | S:10 |
 | elle.co.kr | 10 | A:10 |
 | v.daum.net | 10 | A:10 |
+| chosun.com | 10 | A:10 |
 | program.tving.com | 9 | S:9 |
 | spotvnews.co.kr | 9 | A:9 |
 | idaegu.com | 9 | BLOCK:9 |
 | fashionseoul.com | 9 | BLOCK:9 |
-| chosun.com | 9 | A:9 |
 | about.netflix.com | 8 | S:8 |
 
 ## Policy

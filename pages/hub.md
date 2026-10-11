@@ -14,7 +14,7 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `ad8d3f6b` |
+| 최신 커밋 | `18a75015` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -41,8 +41,8 @@
 - `README.md`
 - `data/facts/awards.json`
 - `data/facts/profile.json`
+- `data/facts/sources.json`
 - `data/facts/works.json`
-- `data/reports/preflight.json`
 
 ## 운영 핵심 페이지
 - [`pages/awards-official-watch.md`](awards-official-watch.md)

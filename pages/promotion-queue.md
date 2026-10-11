@@ -1,12 +1,13 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 07:19 (Asia/Seoul)
+> Updated: 2026-10-12 08:26 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-11 · grade=A · EN_CAST · [Go Youn-jung Celebrates Double Win at Blue Dragon Series Awards - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/08/02/4ZBQGF2FW5HATLXGXE3735G6IA)
 - 2026-10-11 · grade=A · EN_ALL · [Ko Hyun-jung stuns fans with youthful looks, draws comparisons to Go Youn-jung - CHOSUNBIZ - Chosunbiz](https://biz.chosun.com/en/en-entertainment/2026/09/30/KVCL3FMVBJFNJCSNRKSKSSCGRM)
 - 2026-10-11 · grade=A · JA_ALL · [コ・ユンジョン、変顔でも圧倒的美貌 - 조선일보](https://www.chosun.com/jp/culture-life-jp/2026/09/29/DONZN4KFHVDUDH6M7ASUK7OASQ)
 - 2026-10-11 · grade=A · JA_ALL · [眉を変えただけなのに...コ・ユンジョンの「雰囲気美人」の秘訣【K-ビューティークラブ】 - 매일경제](https://www.mk.co.kr/jp/hot-issues/12161158)
