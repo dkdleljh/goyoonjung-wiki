@@ -42,24 +42,24 @@ docker-build:
 
 .PHONY: docker-up
 docker-up:
-	docker-compose up -d
+	docker compose up -d
 
 .PHONY: docker-down
 docker-down:
-	docker-compose down
+	docker compose down
 
 .PHONY: docker-logs
 docker-logs:
-	docker-compose logs -f
+	docker compose logs -f
 
 .PHONY: docker-rebuild
 docker-rebuild:
-	docker-compose build --no-cache
-	docker-compose up -d
+	docker compose build --no-cache
+	docker compose up -d
 
 .PHONY: docker-clean
 docker-clean:
-	docker-compose down -v
+	docker compose down -v
 	docker system prune -f
 
 # Scorecard

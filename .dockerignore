@@ -27,9 +27,7 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Docs (can be generated)
-*.md
-!requirements*.txt
+# Include canonical Markdown data needed by the dashboard and collectors.
 
 # Test
 .coverage

@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+import os
+
 try:
     from scripts.automation_common import (
         PAGES,
@@ -44,7 +46,8 @@ def timer_row(timer: str) -> list[str]:
 def main() -> int:
     rows: list[list[str]] = []
     warnings = 0
-    for timer in TIMERS:
+    timers = TIMERS[:1] if os.environ.get("COLLECT_ONLY") == "1" else TIMERS
+    for timer in timers:
         row = timer_row(timer)
         if row[1] != "OK":
             warnings += 1

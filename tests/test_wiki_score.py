@@ -100,7 +100,7 @@ def test_lint_score_missing_report(tmp_path):
     """Test lint score when report is missing."""
     with patch.object(wiki_score, 'LINT_REPORT', str(tmp_path / "missing.md")):
         score = wiki_score.lint_score()
-        assert score.score == 40
+        assert score.score == 0
 
 
 def test_lint_score_ok(tmp_path):
@@ -138,14 +138,14 @@ def test_lint_score_with_issues(tmp_path):
 
     with patch.object(wiki_score, 'LINT_REPORT', str(lint_file)):
         score = wiki_score.lint_score()
-        assert score.score <= 100
+        assert score.score < 100
 
 
 def test_link_health_score_missing(tmp_path):
     """Test link health score when report is missing."""
     with patch.object(wiki_score, 'LINK_HEALTH', str(tmp_path / "missing.md")):
         score = wiki_score.link_health_score()
-        assert score.score == 40
+        assert score.score == 0
 
 
 def test_link_health_score_ok(tmp_path):
@@ -157,7 +157,7 @@ OK: **100** / WARN: **5** / BAD: **0**
 
     with patch.object(wiki_score, 'LINK_HEALTH', str(link_file)):
         score = wiki_score.link_health_score()
-        assert score.score == 100
+        assert score.score == 0  # legacy report has no timestamp/unchecked counts
 
 
 def test_link_health_score_bad_links(tmp_path):
@@ -191,31 +191,22 @@ def test_link_health_score_parse_error(tmp_path):
 
     with patch.object(wiki_score, 'LINK_HEALTH', str(link_file)):
         score = wiki_score.link_health_score()
-        assert score.score == 60
+        assert score.score == 0
 
 
 def test_automation_score_success(tmp_path):
-    """Test automation score with successful health check."""
-    with patch.object(wiki_score, 'run') as mock_run:
-        mock_run.return_value = (0, "result=success")
-        score = wiki_score.automation_score()
-        assert score.score == 100
+    with patch.object(wiki_score.operational_status, 'health', return_value={'status': 'success'}):
+        assert wiki_score.automation_score().score == 100
 
 
 def test_automation_score_running(tmp_path):
-    """Test automation score when update is running."""
-    with patch.object(wiki_score, 'run') as mock_run:
-        mock_run.return_value = (1, "result=진행중")
-        score = wiki_score.automation_score()
-        assert score.score == 100
+    with patch.object(wiki_score.operational_status, 'health', return_value={'status': 'stalled'}):
+        assert wiki_score.automation_score().score == 0
 
 
 def test_automation_score_failure(tmp_path):
-    """Test automation score with failed health check."""
-    with patch.object(wiki_score, 'run') as mock_run:
-        mock_run.return_value = (1, "error occurred")
-        score = wiki_score.automation_score()
-        assert score.score == 40
+    with patch.object(wiki_score.operational_status, 'health', return_value={'status': 'stale'}):
+        assert wiki_score.automation_score().score == 0
 
 
 def test_write_status(tmp_path):

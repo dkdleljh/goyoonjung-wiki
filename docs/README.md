@@ -1,6 +1,6 @@
 # docs/ 문서 포털
 
-> 자동 생성 문서 인덱스 · 마지막 갱신: 2026-10-10
+> 자동 생성 문서 인덱스 · 마지막 갱신: 2026-10-12
 
 ## 문서 목차
 - [핵심 문서](#핵심-문서)
@@ -16,7 +16,7 @@
 - [ux-automation-system.md](ux-automation-system.md)
 
 ## 문서 상태 요약
-- docs 문서 수: `19`
+- docs 문서 수: `21`
 - 운영 핵심 페이지 수: `19`
 - 최신 릴리즈 태그: `v1.58.2`
 
@@ -48,9 +48,11 @@
 - [`docs/enhanced-wiki-structure.md`](enhanced-wiki-structure.md)
 - [`docs/goyoonjung-wiki-current-analysis.md`](goyoonjung-wiki-current-analysis.md)
 - [`docs/phase5-implementation-report.md`](phase5-implementation-report.md)
+- [`docs/review-remediation.md`](review-remediation.md)
 - [`docs/scoring.md`](scoring.md)
 - [`docs/ultimate-wiki-roadmap.md`](ultimate-wiki-roadmap.md)
 - [`docs/unmanned-collection-automation-roadmap.md`](unmanned-collection-automation-roadmap.md)
 - [`docs/ux-automation-system.md`](ux-automation-system.md)
 - [`docs/verification-standardization-system.md`](verification-standardization-system.md)
+- [`docs/website-sync.md`](website-sync.md)
 - [`docs/wikipedia-infobox-structure.md`](wikipedia-infobox-structure.md)

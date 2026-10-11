@@ -29,14 +29,14 @@
 
 ## 출처
 - (S) 공식 링크: https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
-- (S) 공식 링크: https://www.youtube.com/watch?v=pyrwTv8aS-E <!-- ALT-PROOF: https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://kstar.kbs.co.kr/list_view.html?idx=277651 | https://kstar.kbs.co.kr/list_view.html?idx=274438 -->
+- (S) 공식 링크: https://www.youtube.com/watch?v=pyrwTv8aS-E
 - (S) 공식 링크: https://www.youtube.com/watch?v=wZR6s3rB6tk
 
 
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-06-26 09:14 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-11 23:32 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -78,7 +78,7 @@
 
 - [(인터뷰) '무빙' 고윤정 "갖고 싶은 능력? 날라다니고 싶죠"](https://www.newstomato.com/ReadNews.aspx?no=1199951)  _(출처: interviews.md)_
 
-- [고윤정이 만들어드립니다... 제대로 싸우지 않던데요](https://kstar.kbs.co.kr/list_view.html?idx=399141)  _(출처: appearances.md)_
+- [고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅](https://kstar.kbs.co.kr/list_view.html?idx=405372)  _(출처: appearances.md)_
 
 - [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)  _(출처: appearances.md)_
 

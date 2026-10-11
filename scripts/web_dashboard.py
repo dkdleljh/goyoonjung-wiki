@@ -1,455 +1,136 @@
 #!/usr/bin/env python3
-"""Real-time web dashboard for goyoonjung-wiki monitoring.
-Provides comprehensive system status, metrics, and control interface.
-"""
+"""Read-only dashboard backed by recorded runs; unknown measurements stay null."""
+from __future__ import annotations
 
 import asyncio
-import json
-import os
-import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Any
 
 import psutil
-import uvicorn
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.responses import HTMLResponse
-from pydantic import BaseModel
 
-# Add base directory to path
-BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-sys.path.insert(0, BASE)
+from scripts import operational_status as ops
+
+BASE = Path(__file__).resolve().parent.parent
+app = FastAPI(title="goyoonjung-wiki Dashboard", version="2.0.0")
 
 
-# Initialize FastAPI app
-app = FastAPI(
-    title="goyoonjung-wiki Dashboard",
-    description="Real-time monitoring and control interface",
-    version="1.0.0"
-)
+def get_system_status() -> dict:
+    disk = psutil.disk_usage(str(BASE))
+    return {"timestamp": datetime.now(ops.SEOUL).isoformat(),
+            "cpu_percent": psutil.cpu_percent(interval=None),
+            "memory_percent": psutil.virtual_memory().percent,
+            "disk_usage": {"percent": disk.percent}}
 
-# CORS configuration - use environment variable for production
-ALLOWED_ORIGINS = os.environ.get("CORS_ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:8000").split(",")
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=ALLOWED_ORIGINS,  # Configure for production via CORS_ALLOWED_ORIGINS env var
-    allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT", "DELETE"],
-    allow_headers=["Content-Type", "Authorization"],
-)
+def get_collector_status() -> list[dict]:
+    return ops.collectors(Path(BASE))
 
-# WebSocket connections for real-time updates
-class ConnectionManager:
-    def __init__(self):
-        self.active_connections: list[WebSocket] = []
 
-    async def connect(self, websocket: WebSocket):
-        await websocket.accept()
-        self.active_connections.append(websocket)
+def get_recent_logs() -> list[dict]:
+    return [{"timestamp": r["timestamp"], "level": r["status"], "message": r["message"]}
+            for r in reversed(ops.news_runs(Path(BASE))[-10:])]
 
-    def disconnect(self, websocket: WebSocket):
-        self.active_connections.remove(websocket)
 
-    async def send_personal_message(self, message: str, websocket: WebSocket):
-        await websocket.send_text(message)
+def get_performance_metrics() -> dict:
+    return ops.metrics(Path(BASE))
 
-    async def broadcast(self, message: str):
-        for connection in self.active_connections:
-            try:
-                await connection.send_text(message)
-            except (RuntimeError, OSError):
-                # Remove dead connections
-                self.active_connections.remove(connection)
 
-manager = ConnectionManager()
+def snapshot() -> dict:
+    return {"system_status": get_system_status(), "automation": ops.health(Path(BASE)),
+            "collectors": get_collector_status(), "recent_logs": get_recent_logs(),
+            "performance_metrics": get_performance_metrics()}
 
-# Data models
-class SystemStatus(BaseModel):
-    timestamp: str
-    status: str
-    cpu_percent: float
-    memory_percent: float
-    disk_usage: dict[str, Any]
-    network_io: dict[str, Any]
-    process_count: int
 
-class CollectorStatus(BaseModel):
-    name: str
-    status: str
-    last_run: str
-    last_duration: float
-    success_rate: float
-    error_count: int
+@app.get("/", response_class=HTMLResponse)
+def dashboard():
+    return DASHBOARD_HTML
 
-class DashboardData(BaseModel):
-    system_status: SystemStatus
-    collectors: list[CollectorStatus]
-    recent_logs: list[dict[str, Any]]
-    performance_metrics: dict[str, Any]
 
-# System monitoring functions
-def get_system_status() -> SystemStatus:
-    """Get current system status."""
-    cpu_percent = psutil.cpu_percent(interval=1)
-    memory = psutil.virtual_memory()
-    disk = psutil.disk_usage('/')
-    network = psutil.net_io_counters()
+@app.get("/healthz")
+def liveness():
+    return {"status": "ok"}
 
-    return SystemStatus(
-        timestamp=datetime.now().isoformat(),
-        status="healthy" if cpu_percent < 80 and memory.percent < 80 else "warning",
-        cpu_percent=cpu_percent,
-        memory_percent=memory.percent,
-        disk_usage={
-            "total": disk.total,
-            "used": disk.used,
-            "free": disk.free,
-            "percent": (disk.used / disk.total) * 100
-        },
-        network_io={
-            "bytes_sent": network.bytes_sent,
-            "bytes_recv": network.bytes_recv,
-            "packets_sent": network.packets_sent,
-            "packets_recv": network.packets_recv
-        },
-        process_count=len(psutil.pids())
-    )
-
-def get_collector_status() -> list[CollectorStatus]:
-    """Get status of all data collectors from actual status files."""
-    collectors = [
-        "visual-links", "gnews", "gnews-sites", "gnews-queries",
-        "mag-rss", "portal-news", "sanitize-news", "schedule",
-        "agency", "encyclopedia", "link-health"
-    ]
-
-    status_list = []
-
-    # Read actual status from daily-report.md
-    daily_report_path = Path(BASE) / "pages" / "daily-report.md"
-    status_cache = {}
-
-    if daily_report_path.exists():
-        try:
-            content = daily_report_path.read_text(encoding="utf-8")
-            for collector in collectors:
-                # Look for collector status in the report
-                if f"{collector}" in content:
-                    status_cache[collector] = "success"
-                else:
-                    status_cache[collector] = "unknown"
-        except Exception:
-            pass
-
-    # Check news directory for recent executions
-    news_dir = Path(BASE) / "news"
-    if news_dir.exists():
-        try:
-            # Get the most recent news file
-            news_files = sorted(news_dir.glob("*.md"), reverse=True)
-            if news_files:
-                recent_content = news_files[0].read_text(encoding="utf-8")
-                for collector in collectors:
-                    if collector in recent_content:
-                        status_cache[collector] = "success"
-        except Exception:
-            pass
-
-    for collector in collectors:
-        cached_status = status_cache.get(collector, "unknown")
-
-        # Try to get more accurate status from news files
-        if cached_status == "unknown":
-            # Check if there's a recent execution log
-            for news_file in sorted(news_dir.glob("*.md"), reverse=True)[:5]:
-                try:
-                    content = news_file.read_text(encoding="utf-8")
-                    if collector in content:
-                        cached_status = "success"
-                        break
-                except Exception:
-                    continue
-
-        status_list.append(CollectorStatus(
-            name=collector,
-            status=cached_status,
-            last_run=datetime.now().isoformat(),
-            last_duration=45.2,
-            success_rate=95.5 if cached_status == "success" else 0.0,
-            error_count=0 if cached_status == "success" else 1
-        ))
-
-    return status_list
-
-def get_recent_logs() -> list[dict[str, Any]]:
-    """Get recent system logs."""
-    logs = []
-
-    # Read from daily report or log files
-    daily_report_path = Path(BASE) / "pages" / "daily-report.md"
-    if daily_report_path.exists():
-        try:
-            with open(daily_report_path, encoding='utf-8') as f:
-                content = f.read()
-                # Extract recent execution history
-                lines = content.split('\n')
-                for line in lines[-10:]:  # Last 10 lines
-                    if '성공 ·' in line or '실패 ·' in line:
-                        logs.append({
-                            "timestamp": datetime.now().isoformat(),
-                            "level": "info" if '성공' in line else "error",
-                            "message": line.strip()
-                        })
-        except Exception as e:
-            logs.append({
-                "timestamp": datetime.now().isoformat(),
-                "level": "error",
-                "message": f"Failed to read daily report: {e}"
-            })
-
-    return logs
-
-def get_performance_metrics() -> dict[str, Any]:
-    """Get performance metrics."""
-    return {
-        "avg_execution_time": 9.5,  # minutes
-        "success_rate": 98.2,
-        "total_runs_today": 24,
-        "last_successful_run": datetime.now().isoformat(),
-        "uptime_percentage": 99.8
-    }
-
-# API endpoints
-@app.get("/")
-async def dashboard():
-    """Serve the dashboard HTML."""
-    return HTMLResponse(DASHBOARD_HTML)
 
 @app.get("/api/status")
-async def get_status():
-    """Get complete dashboard data."""
-    return DashboardData(
-        system_status=get_system_status(),
-        collectors=get_collector_status(),
-        recent_logs=get_recent_logs(),
-        performance_metrics=get_performance_metrics()
-    )
+def get_status():
+    return snapshot()
+
 
 @app.get("/api/system")
-async def get_system():
-    """Get system status only."""
+def get_system():
     return get_system_status()
 
+
 @app.get("/api/collectors")
-async def get_collectors():
-    """Get collector status."""
+def get_collectors():
     return get_collector_status()
 
+
 @app.get("/api/logs")
-async def get_logs():
-    """Get recent logs."""
+def get_logs():
     return {"logs": get_recent_logs()}
 
+
 @app.get("/api/metrics")
-async def get_metrics():
-    """Get performance metrics."""
+def get_metrics():
     return get_performance_metrics()
 
+
 @app.post("/api/trigger/{collector}")
-async def trigger_collector(collector: str):
-    """Trigger a specific collector."""
-    # In real implementation, this would trigger the actual collector
-    await manager.broadcast(json.dumps({
-        "type": "collector_triggered",
-        "collector": collector,
-        "timestamp": datetime.now().isoformat()
-    }))
+def trigger_collector(collector: str):
+    raise HTTPException(501, "읽기 전용 대시보드입니다. 수집은 운영 스케줄러에서 실행하세요.")
 
-    return {"status": "triggered", "collector": collector}
 
-# WebSocket endpoint for real-time updates
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
-    """WebSocket for real-time dashboard updates."""
-    await manager.connect(websocket)
+    await websocket.accept()
     try:
         while True:
-            # Send periodic updates
-            data = get_system_status().dict()
-            data["type"] = "system_update"
-            await manager.send_personal_message(json.dumps(data), websocket)
-            await asyncio.sleep(5)  # Update every 5 seconds
-    except WebSocketDisconnect:
-        manager.disconnect(websocket)
+            await websocket.send_json(await asyncio.to_thread(snapshot))
+            await asyncio.sleep(5)
+    except (WebSocketDisconnect, RuntimeError, OSError):
+        return
 
-# Background task for real-time updates
-async def broadcast_updates():
-    """Broadcast system updates to all connected clients."""
-    while True:
-        try:
-            # Get current system status
-            status = get_system_status().dict()
-            status["type"] = "system_update"
 
-            # Broadcast to all connections
-            await manager.broadcast(json.dumps(status))
-
-            await asyncio.sleep(10)  # Update every 10 seconds
-        except Exception as e:
-            print(f"Broadcast error: {e}")
-            await asyncio.sleep(30)
-
-# HTML Dashboard
-DASHBOARD_HTML = """
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goyoonjung-wiki Dashboard</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        .status-healthy { color: #10b981; }
-        .status-warning { color: #f59e0b; }
-        .status-error { color: #ef4444; }
-    </style>
-</head>
-<body class="bg-gray-100">
-    <div class="container mx-auto p-4">
-        <h1 class="text-3xl font-bold mb-6">goyoonjung-wiki 실시간 대시보드</h1>
-
-        <!-- System Status -->
-        <div class="bg-white rounded-lg shadow p-6 mb-6">
-            <h2 class="text-xl font-semibold mb-4">시스템 상태</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div>
-                    <h3 class="font-medium">CPU 사용률</h3>
-                    <p id="cpu-percent" class="text-2xl font-bold">0%</p>
-                </div>
-                <div>
-                    <h3 class="font-medium">메모리 사용률</h3>
-                    <p id="memory-percent" class="text-2xl font-bold">0%</p>
-                </div>
-                <div>
-                    <h3 class="font-medium">디스크 사용률</h3>
-                    <p id="disk-percent" class="text-2xl font-bold">0%</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Collectors Status -->
-        <div class="bg-white rounded-lg shadow p-6 mb-6">
-            <h2 class="text-xl font-semibold mb-4">데이터 수집기 상태</h2>
-            <div id="collectors" class="space-y-2">
-                <!-- Collector status will be populated by JavaScript -->
-            </div>
-        </div>
-
-        <!-- Recent Logs -->
-        <div class="bg-white rounded-lg shadow p-6 mb-6">
-            <h2 class="text-xl font-semibold mb-4">최근 로그</h2>
-            <div id="logs" class="space-y-1">
-                <!-- Logs will be populated by JavaScript -->
-            </div>
-        </div>
-
-        <!-- Performance Metrics -->
-        <div class="bg-white rounded-lg shadow p-6">
-            <h2 class="text-xl font-semibold mb-4">성능 지표</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                    <h3 class="font-medium">평균 실행 시간</h3>
-                    <p id="avg-execution" class="text-2xl font-bold">0분</p>
-                </div>
-                <div>
-                    <h3 class="font-medium">성공률</h3>
-                    <p id="success-rate" class="text-2xl font-bold">0%</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // WebSocket connection for real-time updates
-        const ws = new WebSocket('ws://localhost:8000/ws');
-
-        ws.onmessage = function(event) {
-            const data = JSON.parse(event.data);
-            if (data.type === 'system_update') {
-                updateSystemStatus(data);
-            }
-        };
-
-        function updateSystemStatus(data) {
-            document.getElementById('cpu-percent').textContent = data.cpu_percent.toFixed(1) + '%';
-            document.getElementById('memory-percent').textContent = data.memory_percent.toFixed(1) + '%';
-            document.getElementById('disk-percent').textContent = data.disk_usage.percent.toFixed(1) + '%';
-
-            // Update colors based on status
-            const cpuElement = document.getElementById('cpu-percent');
-            cpuElement.className = data.cpu_percent > 80 ? 'text-2xl font-bold status-error' : 'text-2xl font-bold status-healthy';
-        }
-
-        // Fetch initial data
-        fetch('/api/status')
-            .then(response => response.json())
-            .then(data => {
-                updateSystemStatus(data.system_status);
-                updateCollectors(data.collectors);
-                updateLogs(data.recent_logs);
-                updateMetrics(data.performance_metrics);
-            });
-
-        function updateCollectors(collectors) {
-            const collectorsDiv = document.getElementById('collectors');
-            collectorsDiv.innerHTML = collectors.map(collector => `
-                <div class="flex justify-between items-center p-2 border rounded">
-                    <span>${collector.name}</span>
-                    <span class="${collector.status === 'success' ? 'status-healthy' : collector.status === 'failure' ? 'status-error' : 'status-warning'}">
-                        ${collector.status}
-                    </span>
-                </div>
-            `).join('');
-        }
-
-        function updateLogs(logs) {
-            const logsDiv = document.getElementById('logs');
-            logsDiv.innerHTML = logs.map(log => `
-                <div class="p-2 ${log.level === 'error' ? 'bg-red-50' : 'bg-gray-50'} rounded">
-                    <span class="text-sm text-gray-600">${log.timestamp}</span>
-                    <span class="${log.level === 'error' ? 'status-error' : 'status-healthy'}">${log.message}</span>
-                </div>
-            `).join('');
-        }
-
-        function updateMetrics(metrics) {
-            document.getElementById('avg-execution').textContent = metrics.avg_execution_time.toFixed(1) + '분';
-            document.getElementById('success-rate').textContent = metrics.success_rate.toFixed(1) + '%';
-        }
-    </script>
-</body>
-</html>
-"""
-
-# Start background update task
-@app.on_event("startup")
-async def startup_event():
-    """Start background tasks."""
-    asyncio.create_task(broadcast_updates())
-
-if __name__ == "__main__":
-    print("🚀 Starting goyoonjung-wiki Dashboard")
-    print("📊 Real-time monitoring enabled")
-    print("🌐 Dashboard will be available at http://localhost:8000")
-    print("🔌 WebSocket endpoint: ws://localhost:8000/ws")
-
-    uvicorn.run(
-        app,
-        host="0.0.0.0",
-        port=8000,
-        log_level="info"
-    )
+DASHBOARD_HTML = """<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>고윤정 위키 운영 현황</title>
+<style>body{max-width:1000px;margin:40px auto;padding:0 20px;font-family:system-ui;background:#f7f8fb;color:#182030}
+section{padding:20px;margin:16px 0;background:white;border:1px solid #ddd;border-radius:12px}li{margin:12px 0;overflow-wrap:anywhere}pre{white-space:pre-wrap}h1{font-size:28px}</style>
+<h1>고윤정 위키 운영 현황</h1><p id="connection">연결 중…</p>
+<section><h2>자동화</h2><p id="automation"></p><p id="metrics"></p>
+<p>실행 시간·가동률은 측정 기록이 없어 표시하지 않습니다. 성공률 표본은 날짜별 마지막 실행입니다.</p></section>
+<section><h2>호스트</h2><p id="system"></p></section>
+<section><h2>수집기 마지막 기록</h2><ul id="collectors"></ul></section>
+<section><h2>최근 실행 기록</h2><ul id="logs"></ul></section>
+<script>
+const show = (id, text) => document.getElementById(id).textContent = text;
+function list(id, rows) {
+  document.getElementById(id).replaceChildren(...rows.map(text => {
+    const li = document.createElement('li'); li.textContent = text; return li;
+  }));
+}
+function render(d) {
+  show('connection', '연결됨 · 화면 갱신: ' + new Date().toLocaleTimeString());
+  show('automation', d.automation.status + ' · 마지막 실행: ' + (d.automation.last_run ?? '기록 없음'));
+  const m=d.performance_metrics;
+  show('metrics', '기록상 성공률: ' + (m.success_rate ?? '미측정') + '% · 표본 ' + m.sample_count + '개 · 오늘 기록 ' + m.total_runs_today + '개');
+  const s=d.system_status;
+  show('system', `CPU ${s.cpu_percent}% · 메모리 ${s.memory_percent}% · 디스크 ${s.disk_usage.percent}%`);
+  list('collectors', d.collectors.map(c => `${c.name}: ${c.status} · 최신성 ${c.freshness} · ${c.last_run ?? '기록 없음'}`));
+  list('logs', d.recent_logs.map(l => `${l.timestamp} · ${l.level} · ${l.message}`));
+}
+async function refresh() {
+  try { const response=await fetch('/api/status'); if (!response.ok) throw new Error(); render(await response.json()); }
+  catch { show('connection','연결 실패 · 표시된 기록은 최신 상태가 아닐 수 있습니다.'); }
+}
+function connect() {
+  const ws = new WebSocket(`${location.protocol === 'https:' ? 'wss:' : 'ws:'}//${location.host}/ws`);
+  ws.onmessage = event => render(JSON.parse(event.data));
+  ws.onclose = () => { show('connection','연결 끊김 · 재연결 중'); setTimeout(connect,5000); };
+  ws.onerror = () => ws.close();
+}
+refresh(); connect();
+</script></html>"""

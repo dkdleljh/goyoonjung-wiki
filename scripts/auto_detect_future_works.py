@@ -6,6 +6,11 @@ from __future__ import annotations
 import re
 
 try:
+    from scripts.work_status import is_future_candidate, work_status
+except ImportError:
+    from work_status import is_future_candidate, work_status
+
+try:
     from scripts.automation_common import (
         FACTS,
         PAGES,
@@ -24,16 +29,8 @@ except Exception:  # pragma: no cover
         write_json,
     )
 
-FUTURE_WORDS = ("예정", "상반기", "하반기", "촬영", "캐스팅", "공개 예정", "pending release")
-OFFICIAL_WORDS = ("MAA", "Netflix", "Disney", "TVING", "JTBC", "tvN", "공식")
-
-
 def status_for(line: str) -> str:
-    if any(word in line for word in OFFICIAL_WORDS) and any(word in line for word in FUTURE_WORDS):
-        return "platform_confirmed"
-    if any(word in line for word in FUTURE_WORDS):
-        return "reported_once"
-    return "released"
+    return work_status(line)
 
 
 def main() -> int:
@@ -41,7 +38,7 @@ def main() -> int:
     for source in [PAGES / "filmography.md", PAGES / "schedule.md", *sorted((PAGES / "works").glob("*.md"))]:
         text = read_text(source)
         for line in text.splitlines():
-            if not any(word in line for word in FUTURE_WORDS):
+            if not is_future_candidate(line):
                 continue
             clean = re.sub(r"<[^>]+>", "", line).strip()
             if not clean:
@@ -51,7 +48,8 @@ def main() -> int:
                     "source": source.relative_to(PAGES.parent).as_posix(),
                     "line": clean[:300],
                     "status": status_for(clean),
-                    "auto_landing": status_for(clean) in {"agency_confirmed", "platform_confirmed", "release_scheduled"},
+                    "auto_landing": False,
+                    "review_required": True,
                 }
             )
     write_json(FACTS / "future_candidates.json", candidates)

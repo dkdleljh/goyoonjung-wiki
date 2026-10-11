@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Auto release tagger (patch/minor/major) with best-effort GitHub Release creation.
+# Release only the exact commit validated by CI; never commit or merge in this job.
 # - Uses semver tags: vMAJOR.MINOR.PATCH
 # - Bump rules (recommended):
 #   * major: commit message contains "BREAKING CHANGE" OR subject contains "!:" OR files indicate breaking wiring changes
@@ -84,184 +84,67 @@ detect_bump() {
   echo patch
 }
 
-release_only_changes() {
-  local from_ref="$1"
-  local files
-  files=$(git diff --name-only "${from_ref}..HEAD" 2>/dev/null || true)
-  [ -n "$files" ] || return 1
-
-  while IFS= read -r f; do
-    [ -z "$f" ] && continue
-    case "$f" in
-      CHANGELOG.md|logs/releases/release-notes-v*.md) ;;
-      *) return 1 ;;
-    esac
-  done <<< "$files"
-
-  return 0
-}
-
 main() {
-  # Only run when HEAD is on main and clean.
-  local branch
-  branch=$(git rev-parse --abbrev-ref HEAD)
-  if [ "$branch" != "main" ]; then
-    echo "auto_release: skip (branch=$branch)" >&2
-    exit 0
+  : "${RELEASE_SHA:?RELEASE_SHA must identify the tested commit}"
+  : "${CI_RUN_ID:?CI_RUN_ID must identify a successful ci run}"
+  if [ "$(git rev-parse HEAD)" != "$RELEASE_SHA" ]; then
+    echo "release: checkout differs from tested SHA" >&2; exit 1
   fi
-
-  if ! git diff --quiet || ! git diff --cached --quiet; then
-    echo "auto_release: skip (working tree not clean)" >&2
-    exit 0
+  if [ -n "$(git status --porcelain)" ]; then
+    echo "release: working tree is not clean" >&2; exit 1
   fi
-
-  git fetch --quiet origin --tags --prune >/dev/null 2>&1 || true
-
-  # Another runner may have advanced main while this job was working.
-  # Avoid creating a duplicate release commit from a stale local HEAD.
-  if git rev-parse -q --verify refs/remotes/origin/main >/dev/null; then
-    if [ "$(git rev-parse HEAD)" != "$(git rev-parse refs/remotes/origin/main)" ]; then
-      echo "auto_release: skip (local HEAD is not origin/main)" >&2
-      exit 0
-    fi
+  git fetch --quiet origin main --tags
+  if [ "$(git rev-parse origin/main)" != "$RELEASE_SHA" ]; then
+    echo "release: newer main exists; waiting for its CI"; exit 0
   fi
-
-  local last_tag
+  local evidence
+  evidence=$(gh run view "$CI_RUN_ID" --repo "$OWNER_REPO" --json headSha,headBranch,conclusion,workflowName,event)
+  python3 - "$RELEASE_SHA" "$evidence" <<'PYVERIFY'
+import json
+import sys
+run = json.loads(sys.argv[2])
+valid = (run.get("headSha") == sys.argv[1] and run.get("headBranch") == "main"
+         and run.get("conclusion") == "success" and run.get("workflowName") == "ci"
+         and run.get("event") in {"push", "workflow_dispatch"})
+if not valid:
+    raise SystemExit("release: CI evidence does not match the tested main commit")
+PYVERIFY
+  local tag last_tag bump major minor patch nmajor nminor npatch
+  tag=$(git tag --points-at "$RELEASE_SHA" --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n 1)
   last_tag=$(latest_semver_tag)
-  if [ -z "$last_tag" ]; then
-    # bootstrap semver baseline on current HEAD
-    local tag="v0.1.0"
-    if git rev-parse -q --verify "refs/tags/$tag" >/dev/null; then
-      echo "auto_release: baseline tag exists ($tag)" >&2
-      exit 0
+  if [ -z "$tag" ]; then
+    if [ -z "$last_tag" ]; then
+      tag="v1.0.0"
+    else
+      read -r major minor patch <<<"$(parse_semver "$last_tag")"
+      bump=$(detect_bump "$last_tag")
+      read -r nmajor nminor npatch <<<"$(bump_version "$major" "$minor" "$patch" "$bump")"
+      tag="v${nmajor}.${nminor}.${npatch}"
     fi
-    git tag -a "$tag" -m "Release $tag (baseline)"
-    git push origin "$tag" >/dev/null
-    echo "auto_release: created $tag" >&2
-    exit 0
+    git tag -a "$tag" "$RELEASE_SHA" -m "Release $tag (CI $CI_RUN_ID)"
   fi
-
-  # If HEAD is already tagged with last_tag, do nothing.
-  if git describe --tags --exact-match HEAD >/dev/null 2>&1; then
-    echo "auto_release: skip (HEAD already tagged)" >&2
-    exit 0
-  fi
-
-  # If no commits since last tag, do nothing.
-  if [ -z "$(git rev-list "${last_tag}..HEAD" 2>/dev/null)" ]; then
-    echo "auto_release: skip (no commits since $last_tag)" >&2
-    exit 0
-  fi
-
-  # Avoid release-on-release loops. A previous release run may push only
-  # CHANGELOG/release-note files before the tag workflow observes the commit.
-  if release_only_changes "$last_tag"; then
-    echo "auto_release: skip (only release metadata changed since $last_tag)" >&2
-    exit 0
-  fi
-
-  read -r major minor patch <<<"$(parse_semver "$last_tag")"
-  bump=$(detect_bump "$last_tag")
-  read -r nmajor nminor npatch <<<"$(bump_version "$major" "$minor" "$patch" "$bump")"
-  new_tag="v${nmajor}.${nminor}.${npatch}"
-  notes_dir="logs/releases"
-  notes_file="${notes_dir}/release-notes-${new_tag}.md"
-  notes_basename="$(basename "$notes_file")"
-  mkdir -p "$notes_dir"
-  release_url="https://github.com/${OWNER_REPO}/releases/tag/${new_tag}"
-  compare_url="https://github.com/${OWNER_REPO}/compare/${last_tag}...${new_tag}"
-  rollback_ref="${last_tag:-HEAD~1}"
-
-  notes_body=$(git log --format='- %s (%h)' "${last_tag}..HEAD" | sed -n '1,80p')
-  cat >"$notes_file" <<EOF
-# ${new_tag}
-
-- generated_at: $(TZ=Asia/Seoul date +"%Y-%m-%d %H:%M:%S %Z")
-- bump: ${bump}
-- base: ${last_tag}
-- head: $(git rev-parse --short HEAD)
-
-## Summary
-
-- bump: **${bump}**
-- base: ${last_tag}
-
-## Impact
-
-- repository: ${OWNER_REPO}
-- release_url: ${release_url}
-- compare_url: ${compare_url}
-- expected_scope: collectors / promotion / dashboard / automation pipeline
-
-## Validation
-
-- 릴리즈 준비 시점에 작성된 노트입니다.
-- 코드 검증: 해당 커밋의 ci 워크플로우 결과를 확인하세요.
-- 게시 결과: GitHub 태그와 Release 페이지의 실제 생성 여부로 확인하세요.
-
-## Risk
-
-- level: medium
-- reason: daily automation and release pipeline changes may affect unattended runs
-
-## Rollback
-
-1. git checkout ${rollback_ref}
-2. restore release automation scripts if needed
-3. edit or delete GitHub Release ${new_tag} if rollback is published separately
-
-## Changes
-
-${notes_body}
-
-## Assets
-
-- ${notes_basename}
-EOF
-  msg="Release ${new_tag} (${bump})"
-
-  printf "%s\n" "${new_tag#v}" > VERSION
-
-  # Keep generated docs and CHANGELOG.md in sync with the tag being prepared.
-  # The tag does not exist yet, so pass it explicitly to generated portals.
-  GOYOONJUNG_WIKI_NEXT_TAG="$new_tag" python3 ./scripts/generate_doc_portals.py
-  bash ./scripts/rebuild_daily_report.sh >/dev/null 2>&1 || true
-  python3 ./scripts/generate_changelog.py --next-tag "$new_tag" >/dev/null 2>&1 || true
-  git add VERSION README.md index.md docs/README.md pages/hub.md pages/hub.en.md CHANGELOG.md
-  if [ -f pages/daily-report.md ]; then git add pages/daily-report.md; fi
-  git add -f "$notes_file"
-  if ! git diff --cached --quiet 2>/dev/null; then
-    git commit -m "chore: prepare release ${new_tag}" >/dev/null
-    if ! git push origin main >/dev/null; then
-      echo "auto_release: main push raced with remote; merging origin/main" >&2
-      git fetch --quiet origin main --tags --prune >/dev/null 2>&1 || true
-      git merge -X theirs --no-edit refs/remotes/origin/main >/dev/null
-      git push origin main >/dev/null
+  # Also retry a tag push that failed in an earlier invocation. Never force tags.
+  git push origin "refs/tags/$tag"
+  RELEASE_NOTES_FILE=$(mktemp)
+  trap 'rm -f "$RELEASE_NOTES_FILE"' EXIT
+  {
+    echo "# $tag"
+    echo
+    echo "Tested commit: $RELEASE_SHA"
+    echo "CI run: $CI_RUN_ID"
+    echo
+    if [ -n "$last_tag" ] && [ "$last_tag" != "$tag" ]; then
+      git log --format='- %s (%h)' "$last_tag..$RELEASE_SHA"
+    else
+      git log -1 --format='- %s (%h)' "$RELEASE_SHA"
     fi
+  } > "$RELEASE_NOTES_FILE"
+  if ! gh release view "$tag" --repo "$OWNER_REPO" >/dev/null 2>&1; then
+    gh release create "$tag" --repo "$OWNER_REPO" --verify-tag --title "$tag" --notes-file "$RELEASE_NOTES_FILE"
   fi
-
-  if git ls-remote --exit-code --tags origin "refs/tags/${new_tag}" >/dev/null 2>&1; then
-    echo "auto_release: skip tag push (remote tag exists: ${new_tag})" >&2
-    exit 0
-  fi
-
-  git tag -a "$new_tag" -m "$msg"
-  git push origin "$new_tag" >/dev/null
-
-  # Best-effort GitHub release (create only if it doesn't exist)
-  if command -v gh >/dev/null 2>&1; then
-    export GH_TOKEN="${GH_TOKEN:-${GITHUB_TOKEN:-}}"
-    if [ -n "$OWNER_REPO" ] && { [ -n "${GH_TOKEN:-}" ] || gh auth status >/dev/null 2>&1; }; then
-      if gh release view "$new_tag" --repo "$OWNER_REPO" >/dev/null 2>&1; then
-        gh release edit "$new_tag" --repo "$OWNER_REPO" --title "$new_tag" --notes-file "$notes_file" >/dev/null 2>&1 || true
-      else
-        gh release create "$new_tag" --repo "$OWNER_REPO" --title "$new_tag" --notes-file "$notes_file" >/dev/null 2>&1 || true
-      fi
-      gh release upload "$new_tag" "$notes_file" --repo "$OWNER_REPO" --clobber >/dev/null 2>&1 || true
-    fi
-  fi
-
-  echo "auto_release: tagged $new_tag (bump=$bump)" >&2
+  rm -f "$RELEASE_NOTES_FILE"
+  trap - EXIT
+  echo "release: $tag -> $RELEASE_SHA"
 }
 
 main "$@"

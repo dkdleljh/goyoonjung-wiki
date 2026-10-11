@@ -8,9 +8,11 @@ import re
 try:
     from scripts.automation_common import FACTS, PAGES, extract_urls, read_text, write_json
     from scripts.time_utils import seoul_timestamp_str
+    from scripts.work_status import work_status
 except Exception:  # pragma: no cover
     from automation_common import FACTS, PAGES, extract_urls, read_text, write_json  # type: ignore
     from time_utils import seoul_timestamp_str  # type: ignore
+    from work_status import work_status
 
 
 def split_table_row(line: str) -> list[str]:
@@ -35,7 +37,7 @@ def extract_works() -> list[dict[str, object]]:
                 "title": title,
                 "person": "고윤정",
                 "role": role,
-                "status": "released" if "공개" in note or year <= "2026" else "unknown",
+                "status": work_status(note),
                 "note": note,
                 "sources": extract_urls(proof),
                 "extracted_at": seoul_timestamp_str(),

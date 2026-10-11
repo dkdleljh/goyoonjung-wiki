@@ -9,12 +9,12 @@
 - 2026-02-08 · [[비즈 스타] '이 사랑 통역 되나요?' 고윤정, '얼굴 천재' 넘어 '믿보배'로](http://enter.etoday.co.kr/news/view/292714)
 - 2026-01-29 · [[인터뷰] '이 사랑 통역 되나요?' 고윤정이 탐색한 감정의 언어](https://www.sisaweek.com/news/articleView.html?idxno=233219)
 - 2026-01-28 · [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)
-- 2026-01-28 · [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970) <!-- ALT-PROOF: http://enter.etoday.co.kr/news/view/292714 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://www.kgmail.kr/news/articleView.html?idxno=601718 -->
+- 2026-01-28 · [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970)
 - 2026-01-27 · [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)
 - 2026-01-25 · [고윤정 "동화 속 주인공 된 기분이었죠"](https://www.kgmail.kr/news/articleView.html?idxno=601718)
 - 2026-01-24 · [[인터뷰] 고윤정 "동화 속 주인공 된 기분이었죠"](https://www.newsis.com/view/NISX20260123_0003488532)
 - 2026-01-23 · [[인터뷰] '이 사랑 통역되나요' 고윤정 "김선호 잡도리 NO...척하면 척이었죠"](https://www.mk.co.kr/news/hot-issues/11941579)
-- 2026-01-23 · ['이사통' 고윤정, 실제 연애 스타일? "솔직하고 적극적" [N인터뷰]②](https://www.sportalkorea.com/news/articleView.html?idxno=2025052909552920777)
+- 2026-01-23 · ['이사통' 고윤정, 실제 연애 스타일? "솔직하고 적극적" [N인터뷰]②](https://www.news1.kr/entertain/interview/6048953)
 - 2026-01-23 · ['이사통' 고윤정 "비주얼이 개연성? 고생한 결과물…메이크업 끝났을 때 제일 만족"](https://www.spotvnews.co.kr/news/articleView.html?idxno=794849)
 - 2026-01-23 · ['이사통' 고윤정 "실제 연애 스타일? 적극적..후회 안 남기는 편"](https://www.starnewskorea.com/star/2026/01/23/2026012314184745216)
 - 2026-01-05 · [당신의 언어는 나한테 너무 어려워요.. 넷플릭스 '이 사랑 통역 되나요?'](https://kstar.kbs.co.kr/list_view.html?idx=389107)
@@ -27,7 +27,7 @@
 - 2025-05-21 · [고윤정, 오이영으로 한 뼘 더 성장](https://kstar.kbs.co.kr/list_view.html?idx=363033)
 - 2025-05-20 · ['의사 오이영' 고윤정, “매 순간 값지고 소중했던 작품](https://kstar.kbs.co.kr/list_view.html?idx=362920)
 - 2025-04-17 · [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)
-- 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975) <!-- ALT-PROOF: http://enter.etoday.co.kr/news/view/292714 | https://www.sisaweek.com/news/articleView.html?idxno=233219 | https://kstar.kbs.co.kr/list_view.html?idx=391253 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://www.kgmail.kr/news/articleView.html?idxno=601718 -->
+- 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)
 
 ## 2024
 - 2024-07 · [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)
@@ -48,7 +48,7 @@
 - 2023-01-09 · ['환혼' 고윤정 "평생 잊지 못할 작품...조금 더 성장한 계기"](http://www.interview365.com/news/articleView.html?idxno=104424)
 
 ## 2022
-- 2022-12-21 · ['환혼' 고윤정 "이재욱, 키 크고 목소리 좋아..키스신 때 너무 떨렸다"](https://news.zum.com/articles/80262487)
+- 2022-12-21 · ['환혼' 고윤정 "이재욱, 키 크고 목소리 좋아..키스신 때 너무 떨렸다"](https://m.news.nate.com/view/20221221n37438)
 
 ## 2021
 - 2021-06-10 · ['로스쿨' 고윤정, 진정성 가득한 열열.."특별한 작품"](https://www.starnewskorea.com/stview.php?no=2021061016204618571)
@@ -56,8 +56,7 @@
 
 ## 2020
 - 2020-11-30 · [YTN 라디오 생생경제 인터뷰](https://m.radio.ytn.co.kr/interview_view.php?id=73903&s_mcd=0206)
-- 2020-10-09 · [정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"](https://www.yna.co.kr/view/AKR20201009055300005) <!-- ALT-PROOF: https://www.elle.co.kr/article/1880222 | https://www.marieclairekorea.com/fashion/2024/07/chanel-29/ | https://www.mk.co.kr/news/hot-issues/10994612 | https://www.newstomato.com/ReadNews.aspx?no=1199951 | https://v.daum.net/v/XbouMZUNSZ -->
-- 2020-09-24 · ["'보건교사 안은영'은 선의와 친절에 관한 이야기"](https://m.news.zum.com/articles/63011527)
+- 2020-10-09 · [정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"](https://www.yna.co.kr/view/AKR20201009055300005)
 
 
 ## 공식 링크

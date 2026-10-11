@@ -64,23 +64,24 @@ def main() -> int:
     for tool in [".venv/bin/python", ".venv/bin/ruff", ".venv/bin/bandit", ".venv/bin/pytest"]:
         checks.append(check_tool(tool))
 
-    remote = run_cmd(["git", "remote", "get-url", "origin"])
-    checks.append(("git remote origin", "OK" if remote.rc == 0 else "FAIL", remote.out or "missing"))
-    if remote.rc != 0:
-        fatal = True
+    if os.environ.get("COLLECT_ONLY") != "1":
+        remote = run_cmd(["git", "remote", "get-url", "origin"])
+        checks.append(("git remote origin", "OK" if remote.rc == 0 else "FAIL", remote.out or "missing"))
+        if remote.rc != 0:
+            fatal = True
 
-    fetch = run_cmd(["git", "fetch", "-q", "origin", "main"], timeout=20)
-    checks.append(("git fetch origin main", "OK" if fetch.rc == 0 else "FAIL", fetch.out or "reachable"))
-    if fetch.rc != 0:
-        fatal = True
+        fetch = run_cmd(["git", "fetch", "-q", "origin", "main"], timeout=20)
+        checks.append(("git fetch origin main", "OK" if fetch.rc == 0 else "FAIL", fetch.out or "reachable"))
+        if fetch.rc != 0:
+            fatal = True
 
-    head = run_cmd(["git", "rev-parse", "HEAD"])
-    origin = run_cmd(["git", "rev-parse", "origin/main"])
-    same = head.rc == 0 and origin.rc == 0 and head.out == origin.out
-    checks.append(("HEAD == origin/main", "OK" if same else "WARN", "synced" if same else "local/remote differ"))
+        head = run_cmd(["git", "rev-parse", "HEAD"])
+        origin = run_cmd(["git", "rev-parse", "origin/main"])
+        same = head.rc == 0 and origin.rc == 0 and head.out == origin.out
+        checks.append(("HEAD == origin/main", "OK" if same else "WARN", "synced" if same else "local/remote differ"))
 
-    dirty = run_cmd(["git", "status", "--porcelain"])
-    checks.append(("working tree", "OK" if not dirty.out else "WARN", "clean" if not dirty.out else "dirty"))
+        dirty = run_cmd(["git", "status", "--porcelain"])
+        checks.append(("working tree", "OK" if not dirty.out else "WARN", "clean" if not dirty.out else "dirty"))
 
     cfg = load_config()
     webhook = bool(cfg.get("discord_webhook_url") or os.environ.get("DISCORD_WEBHOOK_URL"))
@@ -92,10 +93,11 @@ def main() -> int:
     lock = BASE / ".locks" / "lock"
     checks.append(("run lock", "WARN" if lock.exists() else "OK", "present" if lock.exists() else "absent"))
 
-    for timer in CORE_TIMERS:
+    timers = CORE_TIMERS[:1] if os.environ.get("COLLECT_ONLY") == "1" else CORE_TIMERS
+    for timer in timers:
         checks.append(timer_status(timer))
 
-    status = "FAIL" if fatal else "OK"
+    status = "FAIL" if fatal else ("WARN" if any(state == "WARN" for _, state, _ in checks) else "OK")
     rows = [[name, state, detail.replace("|", "/")] for name, state, detail in checks]
     lines = report_header("Automation Preflight Report (auto)")
     lines += ["## Summary", f"- status: {status}", "", "## Checks", md_table(rows, ["check", "state", "detail"])]

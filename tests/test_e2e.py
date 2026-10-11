@@ -173,7 +173,7 @@ class TestPerfectScorecard:
         # Scorecard should exist and have content
         if scorecard_file.exists():
             content = scorecard_file.read_text(encoding="utf-8")
-            assert "Perfect Scorecard" in content
+            assert "Operational Scorecard" in content
             assert "A." in content or "B." in content
 
 

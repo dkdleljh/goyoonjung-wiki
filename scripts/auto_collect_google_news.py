@@ -85,13 +85,13 @@ def main():
         xml_data = fetch_rss()
     except Exception as e:
         print(f"Failed to fetch RSS: {e}")
-        return
+        return 1
 
     root = ET.fromstring(xml_data)
     channel = root.find("channel")
     if channel is None:
         print("Invalid RSS format")
-        return
+        return 1
 
     new_items = []
 
@@ -182,4 +182,4 @@ def main():
     print(f"Added {len(new_items)} items to {log_path}")
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

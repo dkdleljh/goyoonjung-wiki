@@ -17,16 +17,20 @@ import os
 import re
 import subprocess
 from dataclasses import dataclass
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # domain_policy lives next to this file. It is usually importable as a local module
 # when this script is executed directly (scripts/ is on sys.path).
 # However, when executed as a module (python -m scripts.wiki_score), we need
 # an explicit package import fallback.
 try:
-    from scripts import domain_policy  # type: ignore
+    from scripts import domain_policy, operational_status  # type: ignore
     from scripts.time_utils import seoul_today_str
 except Exception:  # pragma: no cover
     import domain_policy  # type: ignore
+    import operational_status
     from time_utils import seoul_today_str  # type: ignore
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -111,70 +115,41 @@ def wiki_completeness_score() -> Score:
 
 
 def lint_score() -> Score:
-    # Expect lint-report.md to exist and show "- 없음" for key sections.
     if not os.path.exists(LINT_REPORT):
-        return Score("lint_clean", 40, ["lint-report.md missing"])
-    txt = open(LINT_REPORT, encoding="utf-8").read()
-    keys = [
-        "## 1) 빈 링크",
-        "## 3) 날짜 형식",
-        "## 4) 커버리지 목표",
-    ]
-    missing = [k for k in keys if k not in txt]
-    if missing:
-        return Score("lint_clean", 60, ["missing sections:"] + missing)
-    # naive: if any grep findings exist, lint_wiki.sh prints file:line; otherwise '- 없음'
-    ok = "## 1)" in txt and "- 없음" in txt
-    return Score("lint_clean", 100 if ok else 80, ["lint-report: OK" if ok else "lint-report: check"])
+        return Score("lint_clean", 0, ["unknown: lint-report.md missing"])
+    txt = Path(LINT_REPORT).read_text(encoding="utf-8")
+    issues = []
+    for number in (1, 3, 4):
+        match = re.search(rf"^## {number}\).*?\n(.*?)(?=^## |\Z)", txt, re.M | re.S)
+        if not match or match[1].strip() != "- 없음":
+            issues.append(f"section {number}: missing or has findings")
+    return Score("lint_clean", 0 if issues else 100, issues or ["checked sections: clean"])
 
 
 def link_health_score() -> Score:
     if not os.path.exists(LINK_HEALTH):
-        return Score("link_health", 40, ["link-health.md missing"])
-    txt = open(LINK_HEALTH, encoding="utf-8").read().splitlines()
-    ok = warn = bad = None
-    for ln in txt:
-        m = re.search(r"OK: \*\*(\d+)\*\* / WARN: \*\*(\d+)\*\* / BAD: \*\*(\d+)\*\*", ln)
-        if m:
-            ok, warn, bad = map(int, m.groups())
-            break
-    if ok is None:
-        return Score("link_health", 60, ["failed to parse counts"])
-    # Scoring: BAD must be zero; WARN is allowed (blocked domains etc) within a small budget.
-    warn_budget = 20
-    if bad != 0:
-        score = 0
-    else:
-        score = 100 if warn <= warn_budget else max(70, 100 - (warn - warn_budget) * 2)
-    details = [f"counts: ok={ok} warn={warn} bad={bad}", f"warn_budget={warn_budget}"]
-    return Score("link_health", score, details)
+        return Score("link_health", 0, ["unknown: link-health.md missing"])
+    txt = Path(LINK_HEALTH).read_text(encoding="utf-8")
+    counts = dict((k, int(v)) for k, v in re.findall(r"(OK|WARN|BAD|UNCHECKED): \*\*(\d+)\*\*", txt))
+    stamp = re.search(r"갱신: (\d{4}-\d{2}-\d{2} \d{2}:\d{2})", txt)
+    if not stamp or set(counts) != {"OK", "WARN", "BAD", "UNCHECKED"}:
+        return Score("link_health", 0, ["unknown: legacy/missing counts or timestamp; recheck required"])
+    try:
+        at = datetime.fromisoformat(stamp[1]).replace(tzinfo=ZoneInfo("Asia/Seoul"))
+    except ValueError:
+        return Score("link_health", 0, ["invalid report timestamp"])
+    age = (datetime.now(ZoneInfo("Asia/Seoul")) - at).total_seconds() / 3600
+    if not 0 <= age <= 168:
+        return Score("link_health", 0, [f"stale or invalid report age: {age:.1f} hours"])
+    total = sum(counts.values())
+    value = round(100 * counts["OK"] / total) if total and not counts["BAD"] else 0
+    return Score("link_health", value, [f"checked at: {stamp[1]}", f"counts: {counts}", "score = verified OK / all discovered URLs; BAD forces zero"])
 
 
 def automation_score() -> Score:
-    rc, out = run(["bash", "-lc", "./scripts/check_automation_health.sh"])
-    if rc == 0:
-        return Score("automation_health", 100, ["check_automation_health: OK"])
-
-    # If the only problem is that an update is currently running, treat as healthy.
-    # (The separate stale-running guard exists inside check_automation_health.sh.)
-    if "result=진행중" in out or "news status not success: result=진행중" in out:
-        return Score("automation_health", 100, ["check_automation_health: RUNNING (treated OK)"])
-
-    # If the repo is dirty, it may be a short window during finalization.
-    # Give a softer score but keep the message visible.
-    if "working tree dirty" in out:
-        return Score(
-            "automation_health",
-            80,
-            [
-                "check_automation_health: DIRTY (possible finalization window)",
-                "If this persists, commit/push is broken or a generator is writing untracked changes.",
-                out,
-            ],
-        )
-
-    # Otherwise grade hard.
-    return Score("automation_health", 40, ["check_automation_health: FAIL", out])
+    state = operational_status.health(Path(BASE))
+    return Score("automation_health", 100 if state["status"] == "success" else 0,
+                 [f"{key}: {value}" for key, value in state.items()])
 
 
 def write_status(scores: list[Score]) -> None:

@@ -1,25 +1,27 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-10 02:00 (Asia/Seoul)
+> 갱신: 2026-10-11 23:30 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 8e0aed30 2026-10-10 01:59:44 +0900 fix: persist generated release portals instead of ignoring a missing path
+- 71639f60 2026-10-09 17:00:33 +0000 chore: prepare release v1.58.2
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- CHANGELOG.md
 - README.md
 - VERSION
 - docs/README.md
 - index.md
+- logs/releases/release-notes-v1.58.2.md
+- pages/daily-report.md
 - pages/hub.en.md
 - pages/hub.md
-- scripts/auto_release.sh
-- scripts/generate_doc_portals.py
 
-## 3) 오늘 실행 상태(news/2026-10-10.md)
+## 3) 오늘 실행 상태(news/2026-10-11.md)
 
-- (오늘 news 파일 없음)
+## 실행 상태
+
 
 ## 4) 권장 체크
 
@@ -32,7 +34,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/5)
+- duplicate_rate: 0.00% (0/6)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-06-22 09:07 (Asia/Seoul)
+> 갱신: 2026-10-11 23:30 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -42,19 +42,13 @@
 
 - [고윤정과 샤넬의 향기로운 여정](https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/)  _(출처: pictorials/editorial.md)_
 
+- [샤넬의 앰배서더 배우 고윤정과 함께한 마리끌레르 10월호 커버](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/)  _(출처: pictorials/editorial.md)_
+
+- [샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: pictorials/editorial.md)_
+
 - [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)  _(출처: pictorials/editorial.md)_
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)  _(출처: pictorials/editorial.md)_
 
-- [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)  _(출처: pictorials/editorial.md)_
-
-- [고윤정, 순수한 아름다움으로 완성한 봄의 전언](https://slv.kstarfashion.com/news/articleView.html?idxno=214777)  _(출처: pictorials/editorial.md)_
-
 - [CHANEL / Vogue Korea](https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->
-
-
-
-
-
-

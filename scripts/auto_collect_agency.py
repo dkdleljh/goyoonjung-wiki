@@ -21,7 +21,7 @@ MAA_URL = "https://maa.co.kr/artists/go-younjung"
 
 def fetch_html():
     req = Request(MAA_URL, headers={'User-Agent': 'Mozilla/5.0'})
-    with urlopen(req) as resp:
+    with urlopen(req, timeout=15) as resp:
         return resp.read().decode('utf-8')
 
 def extract_works(html):
@@ -69,12 +69,12 @@ def main():
         html = fetch_html()
     except Exception as e:
         print(f"Failed to fetch MAA: {e}")
-        return
+        return 1
 
     works = extract_works(html)
     if not works:
         print("No works found (parsing fail or empty).")
-        return
+        return 1
 
     print(f"Found {len(works)} official work entries.")
 
@@ -101,4 +101,4 @@ def main():
         # f.write("  <!-- " + " | ".join(works) + " -->\n")
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

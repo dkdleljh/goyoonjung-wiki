@@ -90,7 +90,7 @@ def host_for_url(url: str) -> str:
 def md_table(rows: list[list[str]], headers: list[str]) -> str:
     lines = ["| " + " | ".join(headers) + " |", "|" + "|".join(["---"] * len(headers)) + "|"]
     for row in rows:
-        safe = [str(cell).replace("\n", " ") for cell in row]
+        safe = [str(cell).replace("\n", " ").replace("|", "\\|") for cell in row]
         lines.append("| " + " | ".join(safe) + " |")
     return "\n".join(lines)
 

@@ -2,6 +2,12 @@
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+try:
+    from scripts.operational_status import health
+except ImportError:
+    from operational_status import health
 
 BASE = Path(__file__).resolve().parent.parent
 SCHEDULE = BASE / "pages" / "schedule.md"
@@ -123,12 +129,14 @@ def main():
     text = SCHEDULE.read_text(encoding="utf-8")
 
     # Asia/Seoul day boundaries are handled by the scheduler; here we use local time.
-    today = datetime.now()
+    today = datetime.now(ZoneInfo(TZ_NAME))
 
     items = parse_items(text)
     week_items = [it for it in items if within_7_days(it["date"], today)]
 
-    block = "\n".join([START, build_block(week_items, today), END])
+    state = health(BASE)
+    freshness = f"> 수집 상태: {state['status']} · 마지막 실행: {state['last_run'] or '기록 없음'}. 현재 등록 자료 기준이며 일정 부재를 보장하지 않습니다."
+    block = "\n".join([START, freshness, build_block(week_items, today), END])
 
     if START in text and END in text:
         new_text = re.sub(re.escape(START) + r".*?" + re.escape(END), block, text, flags=re.S)

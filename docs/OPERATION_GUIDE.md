@@ -1,5 +1,8 @@
 # OPERATION GUIDE
 
+> 2026-10-11 변경: 기본 사용자 서비스와 Docker 스케줄러는 COLLECT_ONLY=1로 수집합니다. 실제 상태는 `python scripts/operational_status.py`로 확인하세요. 최신 실행·릴리즈 정책은 [수정 및 운영 안내](review-remediation.md)와 [릴리즈 정책](RELEASING.md)을 따릅니다.
+
+
 이 문서는 고윤정 위키 저장소를 **실제로 운영하는 사람**을 위한 상세 가이드입니다.
 
 문서의 목표는 단순합니다.

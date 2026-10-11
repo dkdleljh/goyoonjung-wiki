@@ -5,8 +5,12 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=./lib_paths.sh
 source "$SCRIPT_DIR/lib_paths.sh"
 BASE="$(resolve_wiki_base)"
-TZ="Asia/Seoul"
+export TZ="Asia/Seoul"
 cd "$BASE"
+
+if [ "${COLLECT_ONLY:-0}" = 1 ]; then
+  exec python3 scripts/operational_status.py
+fi
 
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 NEWS="$BASE/news/${TODAY}.md"
@@ -82,21 +86,13 @@ RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//'
 NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' | xargs || true)
 
 if [ -z "${RESULT:-}" ] || [ -z "${RUN_AT:-}" ]; then
-  # Self-heal: some generators may rewrite today's news blocks.
-  # Try to reconstruct the minimal run header and re-parse.
-  python3 ./scripts/ensure_news_run_header.py >/dev/null 2>&1 || true
-  RESULT=$(grep -m1 "^- 결과:" "$NEWS" 2>/dev/null | sed -E 's/^\- 결과:\s*//' | xargs || true)
-  RUN_AT=$(grep -m1 "^- 실행:" "$NEWS" 2>/dev/null | sed -E 's/^\- 실행:\s*//' | sed -E 's/\s*\([^)]*\)\s*$//' | xargs || true)
-  NOTE=$(grep -m1 "^- 메모:" "$NEWS" 2>/dev/null | sed -E 's/^\- 메모:\s*//' | xargs || true)
-fi
-
-if [ -z "${RESULT:-}" ] || [ -z "${RUN_AT:-}" ]; then
   fail "news header missing run/result"
 fi
 
 LOG_EPOCH=$(to_epoch "$RUN_AT")
 NOW_EPOCH=$(TZ="$TZ" date +%s)
 LOG_AGE_HOURS=$(( (NOW_EPOCH - LOG_EPOCH) / 3600 ))
+if [ "$LOG_EPOCH" -gt "$((NOW_EPOCH + 300))" ]; then fail "future news timestamp"; fi
 if [ "$LOG_EPOCH" -le 0 ]; then
   fail "news timestamp parse failed: run=${RUN_AT}"
 fi
@@ -130,7 +126,7 @@ esac
 
 # If a run lock is present and fresh, we may be in the finalization window.
 LOCK_FILE="$BASE/.locks/lock"
-if [ -f "$LOCK_FILE" ]; then
+if [ -e "$LOCK_FILE" ]; then
   LOCK_MTIME=$(date -r "$LOCK_FILE" +%s 2>/dev/null || echo 0)
   NOW_EPOCH=$(TZ="$TZ" date +%s)
   LOCK_AGE=$((NOW_EPOCH - LOCK_MTIME))

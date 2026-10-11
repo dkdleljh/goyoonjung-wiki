@@ -12,6 +12,11 @@ set -euo pipefail
 BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 cd "$BASE"
 
+export COLLECT_ONLY="${COLLECT_ONLY:-0}"
+if [[ "$COLLECT_ONLY" != 0 && "$COLLECT_ONLY" != 1 ]]; then
+  echo "COLLECT_ONLY must be 0 or 1" >&2; exit 2
+fi
+
 if [ -x "$BASE/.venv/bin/python" ] && "$BASE/.venv/bin/python" -c "import requests, yaml" >/dev/null 2>&1; then
   export PATH="$BASE/.venv/bin:$PATH"
 elif [ -d "$BASE/.venv/bin" ]; then
@@ -41,7 +46,7 @@ PY
   fi
 fi
 
-TZ="Asia/Seoul"
+export TZ="Asia/Seoul"
 TODAY=$(TZ="$TZ" date +"%Y-%m-%d")
 NOW=$(TZ="$TZ" date +"%Y-%m-%d %H:%M")
 
@@ -64,7 +69,7 @@ if [ "${FORCE:-0}" != "1" ] && [ -f "$NEWS_FILE" ]; then
 fi
 
 # Unique run id for notification correlation
-RUN_ID="$(TZ=\"$TZ\" date +%Y%m%d-%H%M%S)"
+RUN_ID="$(TZ="$TZ" date +%Y%m%d-%H%M%S)"
 
 LOCK_DIR="$BASE/.locks"
 mkdir -p "$LOCK_DIR"
@@ -95,8 +100,8 @@ commit_and_push_status_log() {
 
 # Run log (for detailed notifications)
 RUN_LOG="$LOCK_DIR/run_${TODAY}.log"
-: > "$RUN_LOG" 2>/dev/null || true
 CURRENT_STEP="(init)"
+FLUSH_SUM="notifications disabled"
 
 # Acquire lock (avoid concurrent runs)
 LOCK_PATH="$LOCK_DIR/lock"
@@ -124,11 +129,13 @@ last_epoch=0
 if [ -f "$LAST_RUN_EPOCH_FILE" ]; then
   last_epoch=$(cat "$LAST_RUN_EPOCH_FILE" 2>/dev/null || echo 0)
 fi
-if [ "$last_epoch" -gt 0 ] && [ $((now_epoch - last_epoch)) -lt "$DEBOUNCE_SECONDS" ]; then
+if [ "${FORCE:-0}" != 1 ] && [ "$last_epoch" -gt 0 ] && [ $((now_epoch - last_epoch)) -lt "$DEBOUNCE_SECONDS" ]; then
   echo "Debounce: last run was $((now_epoch - last_epoch))s ago (<${DEBOUNCE_SECONDS}s). Skipping." >&2
   rmdir "$LOCK_PATH" 2>/dev/null || true
   exit 0
 fi
+# Start a new log only after acquiring the lock and passing debounce.
+: > "$RUN_LOG"
 # Stamp immediately (we already hold the lock).
 echo "$now_epoch" > "$LAST_RUN_EPOCH_FILE" 2>/dev/null || true
 
@@ -148,7 +155,7 @@ on_exit() {
     if [ -n "${FAIL_STAMP:-}" ] && [ -f "${FAIL_STAMP}" ]; then
       last=$(cat "${FAIL_STAMP}" 2>/dev/null || echo 0)
     fi
-    if [ $((now - last)) -ge 1800 ]; then
+    if [ "$COLLECT_ONLY" != 1 ] && [ $((now - last)) -ge 1800 ]; then
       [ -n "${FAIL_STAMP:-}" ] && echo "$now" > "${FAIL_STAMP}" 2>/dev/null || true
       # include step + last error-ish lines from log
       err_tail=$(tail -n 40 "${RUN_LOG:-/dev/null}" 2>/dev/null | grep -E "Traceback|ERROR|ERR:|Error|Failed|denied|403|404|timeout" | tail -n 8 | tr -d '\r' | sed -e 's/[`]/"/g' || true)
@@ -158,10 +165,16 @@ on_exit() {
   fi
 }
 trap on_exit EXIT
+trap 'exit 143' TERM
+trap 'exit 130' INT
 
 # Ensure main branch
-if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-  git checkout main >/dev/null 2>&1 || true
+if [ "$COLLECT_ONLY" != 1 ]; then
+  if [ "$(git branch --show-current)" != main ] || [ -n "$(git status --porcelain)" ]; then
+    echo "Publishing requires a clean main checkout" >&2
+    RUN_OK=1
+    exit 1
+  fi
 fi
 
 # Phase 5 preflight: fail only on fatal remote/config problems.
@@ -181,7 +194,9 @@ python3 ./scripts/db_manager.py >/dev/null 2>&1 || true
 ./scripts/mark_news_status.sh 진행중 "auto: daily update running" >/dev/null
 
 # Best-effort: flush any queued notifications first
-FLUSH_SUM=$(python3 ./scripts/flush_notify_queue.py 2>/dev/null || true)
+if [ "$COLLECT_ONLY" != 1 ]; then
+  FLUSH_SUM=$(python3 ./scripts/flush_notify_queue.py 2>/dev/null || true)
+fi
 if [ -z "${FLUSH_SUM:-}" ]; then FLUSH_SUM="flush: (no output)"; fi
 
 # Notification throttle state already initialized above
@@ -197,7 +212,7 @@ retry() {
   local n=1
   while true; do
     echo "[STEP:$CURRENT_STEP] run: $*" >>"$RUN_LOG"
-    "$@" >>"$RUN_LOG" 2>&1
+    timeout "${STEP_TIMEOUT_SECONDS:-180}" "$@" >>"$RUN_LOG" 2>&1
     local rc=$?
     if [ $rc -eq 0 ]; then
       return 0
@@ -312,7 +327,7 @@ RC_SCHED=$?
 # 1.7) Link Health (weekly; keep daily runs fast)
 DOW=$(TZ="$TZ" date +%u)
 if [ "$DOW" -eq 7 ]; then
-  ./scripts/check_links.py >/dev/null 2>&1
+  timeout 300 ./scripts/check_links.py >/dev/null 2>&1
   RC_LINK=$?
 else
   RC_LINK=0
@@ -594,6 +609,25 @@ python3 ./scripts/watchdog_automation.py >/dev/null 2>&1 || true
 # Regenerate documentation portals before the commit phase.
 python3 ./scripts/generate_doc_portals.py >/dev/null 2>&1 || true
 
+# A skipped/failed step cannot produce an overall success record.
+FINAL_RESULT=성공
+FINAL_RC=0
+for rc_name in ${!RC_@}; do
+  if [ "${!rc_name}" -ne 0 ]; then
+    FINAL_RESULT=부분성공
+    FINAL_RC=1
+    NOTE="$NOTE, ${rc_name}:FAIL(${!rc_name})"
+  fi
+done
+if [ "$COLLECT_ONLY" = 1 ]; then
+  ./scripts/mark_news_status.sh "$FINAL_RESULT" "$NOTE, mode:local-collection (not published)" >/dev/null
+  RUN_OK=1
+  python3 ./scripts/wiki_score.py
+  python3 ./scripts/compute_perfect_scorecard.py
+  python3 ./scripts/rebuild_schedule_highlights.py
+  exit "$FINAL_RC"
+fi
+
 # Commit/push phase (success must include remote push)
 # Stage everything except backups (already excluded by .gitignore, but be explicit)
 git add -A ":(exclude)backups" >/dev/null 2>&1 || true
@@ -601,11 +635,11 @@ git add -A ":(exclude)backups" >/dev/null 2>&1 || true
 if git diff --cached --quiet; then
   # Nothing changed: this is still a successful run.
   NOTE="$NOTE, git:clean"
-  ./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+  ./scripts/mark_news_status.sh "$FINAL_RESULT" "$NOTE" >/dev/null
   commit_and_push_status_log
-  echo "ok run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
+  echo "${FINAL_RESULT} run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
   RUN_OK=1
-  exit 0
+  exit "$FINAL_RC"
 fi
 
 MSG="daily: update ${TODAY}"
@@ -655,26 +689,13 @@ if [ $rc_push -ne 0 ]; then
 fi
 
 NOTE="$NOTE, push:OK"
-./scripts/mark_news_status.sh 성공 "$NOTE" >/dev/null
+./scripts/mark_news_status.sh "$FINAL_RESULT" "$NOTE" >/dev/null
 commit_and_push_status_log
 # record last status for recovery notifications
-echo "ok run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
+echo "${FINAL_RESULT} run_id=${RUN_ID} at=${NOW}" > "${STATUS_FILE}" 2>/dev/null || true
 RUN_OK=1
 
-# Auto release tagging (patch/minor/major) + GitHub Release — best-effort
-# Ensure gh is discoverable even without system-wide install
-export PATH="$HOME/bin:$PATH"
-set +e
-bash ./scripts/auto_release.sh >/dev/null 2>&1
-RC_RELEASE=$?
-set -e
-if [ "$RC_RELEASE" -ne 0 ]; then
-  NOTE="$NOTE, release:SKIP(rc=${RC_RELEASE})"
-  python3 ./scripts/append_skip_reason.py "release" "$RC_RELEASE" "auto release skipped/failed" >/dev/null 2>&1 || true
-else
-  NOTE="$NOTE, release:OK"
-fi
-
+# Tags and GitHub Releases are published only after CI by release.yml.
 NEW_HEAD=$(git rev-parse --short HEAD 2>/dev/null || echo unknown)
 
 # Success notification:
@@ -744,7 +765,7 @@ EOF
   fi
 
   legend="\n---\n색상 의미: GREEN=핵심 성공(스킵 없음) | YELLOW=성공(일부 스킵/경고) | RED=실패/중단"
-  title="goyoonjung-wiki: 성공 (#${RUN_ID})"
+  title="goyoonjung-wiki: ${FINAL_RESULT} (#${RUN_ID})"
   if [ "$SEND_KIND" = "recovered" ]; then
     title="goyoonjung-wiki: 복구 성공 (#${RUN_ID})"
   fi
@@ -752,3 +773,5 @@ EOF
 fi
 
 echo "OK: $MSG"
+
+exit "$FINAL_RC"

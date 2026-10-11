@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first for better caching
-COPY requirements.txt requirements-dev.txt ./
+COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy project files
@@ -30,17 +30,14 @@ COPY . .
 RUN mkdir -p data backups .locks news
 
 # Initialize database if not exists
-RUN python -c "from scripts.db_manager import init_db; init_db()" || true
+RUN python -c "from scripts.db_manager import init_db; init_db()"
 
 # Expose dashboard port
 EXPOSE 8000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8000/api/status || exit 1
+    CMD curl -f http://localhost:8000/healthz || exit 1
 
 # Default command: start dashboard
 CMD ["python", "-m", "uvicorn", "scripts.web_dashboard:app", "--host", "0.0.0.0", "--port", "8000"]
-
-# Alternative: Run daily update
-# CMD ["bash", "scripts/run_daily_update.sh"]

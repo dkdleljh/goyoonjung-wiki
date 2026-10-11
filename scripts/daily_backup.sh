@@ -17,6 +17,9 @@ ROOT_NAME="$(basename "$BASE_DIR")"
 TarExcludes=(
   --exclude="$ROOT_NAME/.git"
   --exclude="$ROOT_NAME/.locks"
+  --exclude="$ROOT_NAME/.venv"
+  --exclude="$ROOT_NAME/__pycache__"
+  --exclude="*/__pycache__"
   --exclude="$ROOT_NAME/backups"
 )
 

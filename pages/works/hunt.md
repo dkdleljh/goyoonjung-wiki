@@ -10,7 +10,7 @@
 - 배급사 공식 채널에서 예고편/홍보 영상을 공개.
 
 ## 관련 링크
-- 공식 예고편(배급사/YouTube): https://www.youtube.com/watch?v=CSOb8gia_mg <!-- ALT-PROOF: https://www.esquirekorea.co.kr/article/68124 | https://kstar.kbs.co.kr/list_view.html?idx=277651 | https://www.starnewskorea.com/stview.php?no=2022063010405847866 | https://mydaily.co.kr/page/view/2022072719409407409 -->
+- 공식 예고편(배급사/YouTube): https://www.youtube.com/watch?v=CSOb8gia_mg
 
 ## 공식 링크
 - (S) 공식 예고편(배급/제작 공식 채널): https://www.youtube.com/watch?v=CSOb8gia_mg
@@ -18,13 +18,13 @@
 
 
 ## 출처
-- (S) 공식 링크: https://www.youtube.com/watch?v=CSOb8gia_mg <!-- ALT-PROOF: https://www.esquirekorea.co.kr/article/68124 | https://kstar.kbs.co.kr/list_view.html?idx=277651 | https://www.starnewskorea.com/stview.php?no=2022063010405847866 | https://mydaily.co.kr/page/view/2022072719409407409 -->
+- (S) 공식 링크: https://www.youtube.com/watch?v=CSOb8gia_mg
 
 
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-06-26 09:14 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-11 23:32 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -50,5 +50,5 @@
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 예고편/홍보(공식): https://www.youtube.com/watch?v=CSOb8gia_mg <!-- ALT-PROOF: https://www.esquirekorea.co.kr/article/68124 | https://kstar.kbs.co.kr/list_view.html?idx=277651 | https://www.starnewskorea.com/stview.php?no=2022063010405847866 | https://mydaily.co.kr/page/view/2022072719409407409 -->
+- 예고편/홍보(공식): https://www.youtube.com/watch?v=CSOb8gia_mg
 - 시사회/현장(보도 1차): https://kstar.kbs.co.kr/list_view.html?idx=220920

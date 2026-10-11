@@ -6,6 +6,7 @@
 ---
 
 ## 2026
+- 2026-07-08 · [고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅](https://kstar.kbs.co.kr/list_view.html?idx=405372)
 - 2026-04-21 · [고윤정이 만들어드립니다... 제대로 싸우지 않던데요](https://kstar.kbs.co.kr/list_view.html?idx=399141)
 - 2026-03-31 · [고윤정이 싸우는 무가치함... 도끼 PD의 머릿속엔 무엇이 있나?](https://kstar.kbs.co.kr/list_view.html?idx=397104)
 - 2026-03-26 · ['무가치함과 싸우고 있는' 구교환-고윤정.. 파워 포스터](https://kstar.kbs.co.kr/list_view.html?idx=396661)

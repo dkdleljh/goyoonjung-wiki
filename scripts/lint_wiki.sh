@@ -43,7 +43,7 @@ REPORT="pages/lint-report.md"
 
   echo "## 3) 날짜 형식(YYYY-MM-DD) 의심 라인"
   echo
-  grep -RIn --exclude-dir=.git --exclude="*.tar.gz" --exclude="lint-report.md" -E "[0-9]{4}\.[0-9]{2}\.[0-9]{2}" . || echo "- 없음"
+  grep -RIn --exclude-dir=.git --exclude="*.tar.gz" --exclude="lint-report.md" -E "[0-9]{4}\.[0-9]{2}\.[0-9]{2}" pages sources || echo "- 없음"
   echo
 
   echo "## 4) 커버리지 목표 미달 경고(권장)"

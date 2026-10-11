@@ -13,5 +13,6 @@ def wiki_base() -> Path:
 
 
 def repo_root() -> Path:
-    return wiki_base().parents[1]
+    # The project is self-contained; deployment depth (/app or ~/wiki) is irrelevant.
+    return wiki_base()
 

@@ -18,7 +18,7 @@
 ## 공식 링크
 - https://www.netflix.com/kr/title/81697769
 - https://www.youtube.com/watch?v=xLhmKJx7mE0
-- https://www.youtube.com/watch?v=IIHQ1Z2yu80 <!-- ALT-PROOF: https://kstar.kbs.co.kr/list_view.html?idx=389846 | https://kstar.kbs.co.kr/list_view.html?idx=389107 | https://kstar.kbs.co.kr/list_view.html?idx=387125 | https://kstar.kbs.co.kr/list_view.html?idx=391146 | https://kstar.kbs.co.kr/list_view.html?idx=391253 -->
+- https://www.youtube.com/watch?v=IIHQ1Z2yu80
 
 
 <!-- AUTO-CANDIDATES:START -->
@@ -40,7 +40,6 @@
 - 공개: 2026-01-16
   - 근거: Netflix 공식 페이지 및 Netflix Korea 공식 티저/예고편 설명란에 공개/역할 정보 표기
   - 링크: https://www.youtube.com/watch?v=xLhmKJx7mE0
-- 대체 근거(열리는 링크): https://kstar.kbs.co.kr/list_view.html?idx=389846, https://kstar.kbs.co.kr/list_view.html?idx=389107, https://kstar.kbs.co.kr/list_view.html?idx=387125, https://kstar.kbs.co.kr/list_view.html?idx=391146, https://kstar.kbs.co.kr/list_view.html?idx=391253
 
 
 ## 출처

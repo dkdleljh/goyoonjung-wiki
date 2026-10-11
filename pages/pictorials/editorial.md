@@ -112,6 +112,22 @@
 - 링크(원문): https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/
 - 상태: 공식확정
 - id: https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/
+
+- 날짜: 2026-09-14
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 샤넬의 앰배서더 배우 고윤정과 함께한 마리끌레르 10월호 커버
+- 링크(원문): https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/
+
+- 날짜: 2026-10-06
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(RSS)
+- 제목: 샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리
+- 링크(원문): https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/
+- 상태: 공식확정
+- id: https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
@@ -227,20 +243,16 @@
 - 구분: 화보
 - 제목: 고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]
 - 링크(원문): https://www.nc.press/news/articleView.html?idx=561975 (보조/차단 가능)
-- 대체 근거(열리는 링크): https://www.marieclairekorea.com/fashion/2025/11/chanel-71/, https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/, https://www.harpersbazaar.co.kr/article/1883281, https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/, https://www.mk.co.kr/news/hot-issues/10994612
 - 상태: 공식확정
 - id: https://www.nc.press/news/articleView.html?idx=561975
-- 대체 근거(열리는 링크): https://theviewers.co.kr/View.aspx?No=3972476, https://www.asiaartistawards.com/news/detail/167018/all, https://www.asiaartistawards.com/news/detail/129994/all
 
 - 날짜: 2024-04-20
 - 매체: ELLE Korea x RYO
 - 구분: 화보/캠페인
 - 제목: 고윤정, 순수한 아름다움으로 완성한 봄의 전언
 - 링크(원문): https://slv.kstarfashion.com/news/articleView.html?idxno=214777 (보조/차단 가능)
-- 대체 근거(열리는 링크): https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/, https://www.harpersbazaar.co.kr/article/1883281, https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/, https://www.mk.co.kr/news/hot-issues/10994612, https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 - 상태: 공식확정
 - id: https://slv.kstarfashion.com/news/articleView.html?idxno=214777
-- 대체 근거(열리는 링크): https://theviewers.co.kr/View.aspx?No=3972476, https://www.asiaartistawards.com/news/detail/167018/all, https://www.asiaartistawards.com/news/detail/129994/all
 - 비고: ELLE D Edition 디지털 커버, 여성 맞춤형 탈모 케어 브랜드 RYO 협업
 
 - 날짜: 2024-04-19

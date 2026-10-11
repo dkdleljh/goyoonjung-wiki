@@ -1,0 +1,17 @@
+name: automation-health
+on:
+  schedule:
+    - cron: '35 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Check recorded pipeline freshness and outcome
+        run: python scripts/operational_status.py

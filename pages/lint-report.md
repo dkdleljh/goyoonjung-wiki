@@ -5,8 +5,8 @@
 ## 0) 커버리지(요약)
 
 - 광고/엠버서더: 뷰티 5 / 패션 7 / 라이프 7
-- 화보/사진: 커버 2 / 에디토리얼 49 / 캠페인 14 / 메이킹 2
-- 출연/행사: 25
+- 화보/사진: 커버 2 / 에디토리얼 51 / 캠페인 14 / 메이킹 2
+- 출연/행사: 26
 - 인터뷰/기사: 47
 
 ## 1) 빈 링크("공식 페이지:" 등 콜론 뒤가 비어있는 줄)
@@ -20,13 +20,7 @@
 
 ## 3) 날짜 형식(YYYY-MM-DD) 의심 라인
 
-./.venv/lib/python3.12/site-packages/pip/_vendor/certifi/__init__.py:4:__version__ = "2026.02.25"
-./.venv/lib/python3.12/site-packages/certifi/__init__.py:4:__version__ = "2026.05.20"
-./.venv/lib/python3.12/site-packages/bleach/html5lib_shim.py:203:#: from mozilla on 2019.07.11
-./.venv/lib64/python3.12/site-packages/pip/_vendor/certifi/__init__.py:4:__version__ = "2026.02.25"
-./.venv/lib64/python3.12/site-packages/certifi/__init__.py:4:__version__ = "2026.05.20"
-./.venv/lib64/python3.12/site-packages/bleach/html5lib_shim.py:203:#: from mozilla on 2019.07.11
-./scripts/auto_release.sh:26:  # Ignore legacy date-style tags like v2026.02.17 and keep a single canonical line.
+- 없음
 
 ## 4) 커버리지 목표 미달 경고(권장)
 

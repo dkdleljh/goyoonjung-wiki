@@ -17,11 +17,14 @@ from __future__ import annotations
 import re
 import socket
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import quote, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 BASE = Path(__file__).resolve().parent.parent
 PAGES_DIR = BASE / "pages"
@@ -57,7 +60,7 @@ SKIP_DOMAINS = (
     "lensme.co.kr",
     "easytomorrow.co.kr",
 
-    # Often blocks automated requests (keeps link-health clean; treat as ok+note)
+    # Often blocks automated requests; report as unchecked.
     "namu.wiki",
     "nc.press",
     "kstarfashion.com",
@@ -72,7 +75,7 @@ SKIP_DOMAINS = (
 @dataclass(frozen=True)
 class Result:
     url: str
-    status: str  # ok|warn|bad
+    status: str  # ok|warn|bad|unchecked
     code: int | None
     note: str = ""
 
@@ -81,7 +84,7 @@ def iter_md_files():
     for root in (PAGES_DIR, SOURCES_DIR):
         if not root.exists():
             continue
-        yield from root.rglob("*.md")
+        yield from (p for p in sorted(root.rglob("*.md")) if p != OUT and p.name != "alternative-proof-candidates.md")
 
 
 def normalize_extracted_url(url: str) -> str:
@@ -140,8 +143,8 @@ def fetch_status(url: str) -> Result:
             code = getattr(resp, "status", None) or 200
             if 200 <= code < 400:
                 return Result(url=url, status="ok", code=code)
-            if code == 404:
-                return Result(url=url, status="bad", code=404)
+            if code in {404, 410}:
+                return Result(url=url, status="bad", code=code)
             return Result(url=url, status="warn", code=code)
     except Exception:
         pass
@@ -152,9 +155,11 @@ def fetch_status(url: str) -> Result:
             code = getattr(resp, "status", None) or 200
             if 200 <= code < 400:
                 return Result(url=url, status="ok", code=code, note="GET fallback")
-            if code == 404:
-                return Result(url=url, status="bad", code=404, note="GET fallback")
+            if code in {404, 410}:
+                return Result(url=url, status="bad", code=code, note="GET fallback")
             return Result(url=url, status="warn", code=code, note="GET fallback")
+    except HTTPError as e:
+        return Result(url=url, status="bad" if e.code in {404, 410} else "warn", code=e.code, note="GET fallback")
     except Exception as e:
         return Result(url=url, status="warn", code=None, note=f"error: {type(e).__name__}")
 
@@ -173,10 +178,14 @@ def heal_tag_404(path: Path, url: str) -> None:
     if re.search(re.escape(url) + r"\s*<!--\s*Broken/404:", content):
         return
 
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d")
     tag = f" <!-- Broken/404: {today} -->"
 
-    new_content = content.replace(url, f"{url}{tag}")
+    # Place annotations outside Markdown destinations and never alter stable IDs.
+    new_content = "\n".join(
+        line + tag if url in line and "Broken/404:" not in line and not line.lstrip().startswith("- id:") else line
+        for line in content.split("\n")
+    )
     if new_content != content:
         try:
             path.write_text(new_content, encoding="utf-8")
@@ -185,17 +194,19 @@ def heal_tag_404(path: Path, url: str) -> None:
 
 
 def write_report(results: list[Result], checked: int) -> None:
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    now = datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d %H:%M")
     ok = [r for r in results if r.status == "ok"]
     warn = [r for r in results if r.status == "warn"]
     bad = [r for r in results if r.status == "bad"]
+    unchecked = [r for r in results if r.status == "unchecked"]
 
     lines: list[str] = []
     lines.append("# 링크 건강검진")
     lines.append("")
     lines.append(f"> 갱신: {now} (Asia/Seoul) · 대상 URL: {checked} (최대 {MAX_URLS})")
     lines.append("")
-    lines.append(f"- OK: **{len(ok)}** / WARN: **{len(warn)}** / BAD: **{len(bad)}**")
+    lines.append(f"- OK: **{len(ok)}** / WARN: **{len(warn)}** / BAD: **{len(bad)}** / UNCHECKED: **{len(unchecked)}**")
+    lines.append("- 검사 범위 밖 URL과 자동 접근을 생략한 URL은 정상으로 간주하지 않습니다.")
     lines.append("")
 
     def render(title: str, arr: list[Result]):
@@ -213,6 +224,7 @@ def write_report(results: list[Result], checked: int) -> None:
 
     render("BAD (수정/교체 권장 — 404는 자동 태깅됨)", bad)
     render("WARN (차단/리다이렉트/확인 필요)", warn)
+    render("UNCHECKED (미검사)", unchecked)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
@@ -236,34 +248,32 @@ def main() -> int:
                 continue
             seen.add(u)
             urls.append(u)
-            if len(urls) >= MAX_URLS:
-                break
-        if len(urls) >= MAX_URLS:
-            break
 
     results: list[Result] = []
 
-    for u in urls:
-        host = urlsplit(u).netloc.lower()
-        if any(host.endswith(d) for d in SKIP_DOMAINS):
-            # In unmanned mode we intentionally do not probe heavy/blocked domains.
-            # Treat as OK for health scoring, while keeping the note for transparency.
-            results.append(Result(url=u, status="ok", code=None, note="skipped (heavy domain)"))
-            continue
-
-        res = fetch_status(u)
-        results.append(res)
-
-        if res.status == "bad" and res.code == 404:
-            for p in url_to_paths.get(u, set()):
-                heal_tag_404(p, u)
+    probe_urls = []
+    for index, u in enumerate(urls):
+        host = urlsplit(u).hostname or ""
+        if index >= MAX_URLS:
+            results.append(Result(u, "unchecked", None, "outside check budget"))
+        elif any(host == d or host.endswith("." + d) for d in SKIP_DOMAINS):
+            results.append(Result(u, "unchecked", None, "skipped (heavy domain)"))
+        else:
+            probe_urls.append(u)
+    # Bounded workers keep weekly checks within the runner's time budget.
+    with ThreadPoolExecutor(max_workers=16) as pool:
+        for u, res in zip(probe_urls, pool.map(fetch_status, probe_urls), strict=True):
+            results.append(res)
+            if res.status == "bad" and res.code == 404:
+                for p in url_to_paths.get(u, set()):
+                    heal_tag_404(p, u)
 
     write_report(results, checked=len(urls))
     ok_n = sum(r.status == 'ok' for r in results)
     warn_n = sum(r.status == 'warn' for r in results)
     bad_n = sum(r.status == 'bad' for r in results)
     print(f"check_links: urls={len(urls)} ok={ok_n} warn={warn_n} bad={bad_n}")
-    return 0
+    return 1 if bad_n else 0
 
 
 if __name__ == "__main__":

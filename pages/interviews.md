@@ -82,10 +82,8 @@
 - 매체: 뉴스컬처 (News Culture)
 - 제목: [NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"
 - 링크: https://www.nc.press/news/articleView.html?idxno=605970 (보조/차단 가능)
-- 대체 근거(열리는 링크): https://kstar.kbs.co.kr/list_view.html?idx=391146, https://kstar.kbs.co.kr/list_view.html?idx=389107, https://www.sisaweek.com/news/articleView.html?idxno=233219, http://enter.etoday.co.kr/news/view/292714
 - 상태: 보도(1차)
 - id: https://www.nc.press/news/articleView.html?idxno=605970
-- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung, https://kstar.kbs.co.kr/list_view.html?idx=391253, https://kstar.kbs.co.kr/list_view.html?idx=391146
 - 요약(3~5줄):
   - 고윤정이 서울 종로구 삼청동 한 카페에서 '이 사랑 통역 되나요?'에 대한 인터뷰를 진행했다.
   - 김선호와 호흡을 나누며 함께 연기하는 즐거움을 강조했다.
@@ -133,11 +131,11 @@
 - 키워드: 인터뷰, 넷플릭스, 이 사랑 통역 되나요?, 1인2역
 
 - 날짜: 2026-01-23
-- 매체: 스포탈코리아 (Sports Korea)
+- 매체: 뉴스1
 - 제목: '이사통' 고윤정, 실제 연애 스타일? "솔직하고 적극적" [N인터뷰]②
-- 링크: https://www.sportalkorea.com/news/articleView.html?idxno=2025052909552920777
+- 링크: https://www.news1.kr/entertain/interview/6048953
 - 상태: 보도(1차)
-- id: https://www.sportalkorea.com/news/articleView.html?idxno=2025052909552920777
+- id: https://www.news1.kr/entertain/interview/6048953
 - 요약(3~5줄):
   - 고윤정이 '이 사랑 통역 되나요?'의 차무희 역할에 대해 인터뷰했다.
   - 실제 연애 스타일에 대해 솔직하고 적극적이라고 밝혔다.
@@ -290,10 +288,8 @@
 - 매체: 뉴스컬처 (News Culture)
 - 제목: 고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]
 - 링크: https://www.nc.press/news/articleView.html?idx=561975 (보조/차단 가능)
-- 대체 근거(열리는 링크): https://mbiz.heraldcorp.com/article/10496760?sec=014, https://www.elle.co.kr/article/1874201, https://www.mk.co.kr/news/hot-issues/10994612, https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 - 상태: 보도(1차)
 - id: https://www.nc.press/news/articleView.html?idx=561975
-- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung, https://kstar.kbs.co.kr/list_view.html?idx=391253, https://kstar.kbs.co.kr/list_view.html?idx=391146
 - 요약(3~5줄):
   - 고윤정의 매력이 물씬 담긴 '25 봄 캠페인 화보'가 공개됐다.
   - 바비인형 같은 매력적인 눈빛과 신비로운 분위기로 완벽하게 소화했다.
@@ -474,9 +470,9 @@
 - 날짜: 2022-12-21
 - 매체: 헤럴드경제
 - 제목: '환혼' 고윤정 "이재욱, 키 크고 목소리 좋아..키스신 때 너무 떨렸다"
-- 링크: https://news.zum.com/articles/80262487
+- 링크: https://m.news.nate.com/view/20221221n37438
 - 상태: 보도(1차)
-- id: https://news.zum.com/articles/80262487
+- id: https://m.news.nate.com/view/20221221n37438
 - 요약(3~5줄):
   - 배우 이재욱에 대한 평가를 밝혔다.
   - 키 크고 목소리가 좋다고 강조했다.
@@ -507,26 +503,13 @@
   - 작품 촬영에 대한 이야기를 나눴다.
 - 키워드: 인터뷰, 로스쿨, 전예슬
 
-- 날짜: 2020-09-24
-- 매체: 파이낸셜뉴스
-- 제목: "'보건교사 안은영'은 선의와 친절에 관한 이야기"
-- 링크: https://m.news.zum.com/articles/63011527
-- 상태: 보도(1차)
-- id: https://m.news.zum.com/articles/63011527
-- 요약(3~5줄):
-  - 넷플릭스 오리지널 드라마 '보건교사 안은영'에 대한 소감을 밝혔다.
-  - 선의와 친절에 관한 이야기라고 강조했다.
-  - 작품의 핵심 메시지를 나눴다.
-- 키워드: 인터뷰, 보건교사 안은영, 넷플릭스
 
 - 날짜: 2020-10-09
 - 매체: 연합뉴스
 - 제목: 정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"
 - 링크: https://www.yna.co.kr/view/AKR20201009055300005 (보조/차단 가능)
-- 대체 근거(열리는 링크): https://entertain.daum.net/tv/5138294/video/418173622, https://m.news.zum.com/articles/63011527, https://m.radio.ytn.co.kr/interview_view.php?id=73903&s_mcd=0206, https://www.idaegu.com/news/articleView.html?idxno=381461
 - 상태: 보도(1차)
 - id: https://www.yna.co.kr/view/AKR20201009055300005
-- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung, https://kstar.kbs.co.kr/list_view.html?idx=391253, https://kstar.kbs.co.kr/list_view.html?idx=391146
 - 요약(3~5줄):
   - '보건교사 안은영' 원작 소설 작가 정세랑 인터뷰.
   - 작품에 대한创作 비하인드를 밝혔다.

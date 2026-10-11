@@ -166,6 +166,8 @@ def main() -> int:
 {readme_toc}
 
 ## 빠른 시작
+- 홈페이지: [고윤정 아카이브](https://dkdleljh.github.io/goyounjung/)
+- 홈페이지 동기화: [`docs/website-sync.md`](docs/website-sync.md)
 - 메인 인덱스: [`index.md`](index.md)
 - 허브: [`pages/hub.md`](pages/hub.md)
 - 문서 포털: [`docs/README.md`](docs/README.md)

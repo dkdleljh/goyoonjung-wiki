@@ -60,21 +60,24 @@ def scan_recent_news(days=3):
 
 def extract_future_date(text, anchor_date):
     """Try to find a date in text that is in the future relative to anchor_date."""
-    # Pattern matching
-    # 1. MM월 DD일
-    m = re.search(r"(\d{1,2})월\s*(\d{1,2})일", text)
-    if m:
-        month, day = int(m.group(1)), int(m.group(2))
-        try:
-            # Assume current year or next year
-            d = datetime(anchor_date.year, month, day)
-            if d < anchor_date: # If looking back, maybe next year? (e.g. in Dec news says Jan)
-                 d = datetime(anchor_date.year + 1, month, day)
-            return d
-        except (ValueError, OSError):
-            pass
+    explicit = re.search(r"(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일", text)
+    short = re.search(r"(\d{1,2})월\s*(\d{1,2})일", text)
+    if not short:
+        return None
+    try:
+        if explicit:
+            year, month, day = map(int, explicit.groups())
+        else:
+            month, day = map(int, short.groups())
+            year = anchor_date.year
+            # Only a nearby December-to-January announcement may roll the year.
+            if anchor_date.month == 12 and month == 1:
+                year += 1
+        value = datetime(year, month, day, tzinfo=anchor_date.tzinfo)
+        return value if value.date() >= anchor_date.date() else None
+    except ValueError:
+        return None
 
-    return None
 
 def update_schedule(items):
     if not items: return
@@ -93,7 +96,7 @@ def update_schedule(items):
 - 제목: {item['title']}
 - 대상: 고윤정
 - 장소/플랫폼: -
-- 상태: 보도(1차)
+- 상태: 미확정 (뉴스기반 자동 추정)
 - 링크(공식/원문): {item['link']}
 - id: {item['link']}
 - 메모: 자동 수집됨. 정확한 시간/장소 확인 필요.

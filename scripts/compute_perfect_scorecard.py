@@ -24,8 +24,10 @@ from dataclasses import dataclass
 from pathlib import Path
 
 try:
+    from scripts import wiki_score
     from scripts.time_utils import seoul_today_str
 except Exception:  # pragma: no cover
+    import wiki_score
     from time_utils import seoul_today_str  # type: ignore
 
 BASE = Path(__file__).resolve().parent.parent
@@ -47,10 +49,13 @@ class Axis:
 
 def count_urls_in_pages() -> tuple[int, int, dict[str, int]]:
     per: dict[str, int] = {}
+    unique: set[str] = set()
     for p in PAGES.rglob("*.md"):
         t = p.read_text(encoding="utf-8", errors="ignore")
-        per[str(p.relative_to(BASE))] = len(URL_RE.findall(t))
-    return len(per), sum(per.values()), per
+        urls = set(URL_RE.findall(t))
+        unique.update(urls)
+        per[str(p.relative_to(BASE))] = len(urls)
+    return len(per), len(unique), per
 
 
 def count_lines(path: Path) -> int:
@@ -172,7 +177,7 @@ def score() -> list[Axis]:
         detection += 25 if (PAGES / f).exists() else 0
     detection = clamp(detection)
 
-    official_sync = audit_scores.get("official_work_sync", 60)
+    official_sync = audit_scores.get("official_work_sync", 0)
     A = clamp(int(round(channel_diversity * 0.30 + landing * 0.25 + detection * 0.20 + official_sync * 0.25)))
 
     # B) Automation readiness
@@ -203,7 +208,7 @@ def score() -> list[Axis]:
         observability += 25 if (BASE / f).exists() else 0
     observability = clamp(observability)
 
-    B = clamp(int(round(pipeline * 0.35 + resilience * 0.25 + observability * 0.20 + runtime_guards * 0.20)))
+    B = wiki_score.automation_score().score
 
     # C) Information volume
     # We report two numbers:
@@ -255,9 +260,9 @@ def score() -> list[Axis]:
         + qc.get("추가 필요", 0)
         + qc.get("미확정", 0)
     )
-    placeholder = clamp(100 - debt * 2)
-    link_health = 100 if (PAGES / "link-health.md").exists() else 60
-    lint = 100 if (PAGES / "lint-report.md").exists() else 60
+    placeholder = clamp(100 - debt * 2) if qc else 0
+    link_health = wiki_score.link_health_score().score
+    lint = wiki_score.lint_score().score
     # Provenance readiness: do we have explicit mapping/policies to keep sources graded?
     provenance = 0
     for f in (
@@ -270,35 +275,35 @@ def score() -> list[Axis]:
         provenance += 20 if (BASE / f).exists() else 0
     provenance = clamp(provenance)
 
-    coverage_readiness = audit_scores.get("coverage_readiness", 60)
+    coverage_readiness = audit_scores.get("coverage_readiness", 0)
     D = clamp(int(round(placeholder * 0.30 + link_health * 0.20 + lint * 0.20 + provenance * 0.10 + coverage_readiness * 0.20)))
 
     return [
-        Axis("A. Perfect wiki coverage system", A, [
+        Axis("A. Coverage tooling readiness", A, [
             ("channel_diversity", channel_diversity, "config presence + i18n + youtube + rss"),
             ("landing", landing, "category landing pages exist"),
             ("detection", detection, "quality/content-gaps reports"),
             ("official_work_sync", official_sync, "official filmography audit"),
         ]),
-        Axis("B. Perfect unmanned automation", B, [
+        Axis("B. Recorded automation health", B, [
             ("pipeline", pipeline, "run_daily_update + steps"),
             ("resilience", resilience, "batching + skip-reason logging"),
             ("observability", observability, "status/daily/lint reports"),
-            ("runtime_guards", runtime_guards, "ci + timer + health check + e2e presence"),
+            ("runtime_guards", runtime_guards, "file presence only; does not prove deployment"),
         ]),
-        Axis("C. Unbeatable information volume", C, [
+        Axis("C. Content scale heuristic", C, [
             ("C_current", C_current, "actual accumulated scale (grows over time)"),
             ("C_capacity", C_capacity, "system capacity / coverage potential"),
-            ("urls_total", urls_total, "markdown URL count"),
+            ("urls_total", urls_total, "unique Markdown URLs, not independent facts"),
             ("seen_urls_db", seen, "dedupe DB size"),
             ("source_width", source_width, "allowlist/sites/queries/yt"),
             ("work_pages", work_pages, "pages/works/*.md"),
             ("i18n", i18n, "i18n query support"),
         ]),
-        Axis("D. Perfect quality", D, [
+        Axis("D. Content quality heuristic", D, [
             ("placeholder", placeholder, f"debt={debt}"),
-            ("link_health", link_health, "link-health.md presence"),
-            ("lint", lint, "lint-report.md presence"),
+            ("link_health", link_health, "measured results and report age"),
+            ("lint", lint, "actual findings"),
             ("provenance", provenance, "official vs press vs secondary"),
             ("coverage_readiness", coverage_readiness, "official coverage audit"),
         ]),
@@ -320,7 +325,7 @@ def write(axes: list[Axis]) -> None:
     now = seoul_today_str()
 
     lines = [
-        "# Perfect Scorecard (auto)",
+        "# Operational Scorecard (auto)",
         "",
         f"> Updated: {now} (Asia/Seoul)",
         "",
@@ -351,7 +356,7 @@ def write(axes: list[Axis]) -> None:
         *[f"- {cnt}: {p}" for p, cnt in top10],
         "",
         "## Notes",
-        "- ‘Perfect’ here means: the system keeps expanding coverage while staying stable and auditable.",
+        "- A and B component values describe tooling presence; B headline uses actual run freshness and outcome.",
         "- True 100% completeness cannot be proven; we optimize for long-run capture + low debt + high reliability.",
     ]
 

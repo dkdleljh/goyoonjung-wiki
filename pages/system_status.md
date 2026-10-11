@@ -1,12 +1,12 @@
 # System status (auto)
 
-> Updated: 2026-06-26
+> Updated: 2026-10-11
 
-## wiki_completeness: **63/100**
+## wiki_completeness: **49/100**
 
 placeholder debt score: debt=34
-- official_audit.coverage_readiness: 56
-- official_audit.official_work_sync: 85
+- official_audit.coverage_readiness: 11
+- official_audit.official_work_sync: 40
 - (페이지 내 표기 확인 필요): 0
 - (확인 필요): 3
 - 검증불가: 13
@@ -18,16 +18,23 @@ placeholder debt score: debt=34
 
 ## lint_clean: **100/100**
 
-lint-report: OK
+checked sections: clean
 
-## link_health: **100/100**
+## link_health: **81/100**
 
-counts: ok=247 warn=3 bad=0
-warn_budget=20
+checked at: 2026-10-11 23:33
+counts: {'OK': 294, 'WARN': 4, 'BAD': 0, 'UNCHECKED': 64}
+score = verified OK / all discovered URLs; BAD forces zero
 
-## automation_health: **100/100**
+## automation_health: **0/100**
 
-check_automation_health: OK
+status: partial
+last_run: 2026-10-11T23:30:00+09:00
+age_hours: 0.06
+source: news/2026-10-11.md
+recorded_result: partial
+reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-11_2330.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:SKIP, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:SKIP, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_AWARD_PROOF_AUTO:FAIL(124), RC_LINK:FAIL(1), mode:local-collection (not published)
+max_age_hours: 36
 
 ## domain_grade_status
 
@@ -40,7 +47,7 @@ check_automation_health: OK
 
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 0.00% (0/5)
+- duplicate_rate: 0.00% (0/6)
 - verified_urls_by_grade:
   - S: 0
   - A: 0

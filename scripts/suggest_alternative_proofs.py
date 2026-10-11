@@ -14,11 +14,7 @@ Outputs
 - pages/alternative-proof-candidates.md
 - data/alternative_proofs.json
 
-Heuristics (safe)
-- For each skipped URL occurrence in a file, find up to N nearby non-skipped URLs
-  in the same file (within +/- window lines) to propose as alternative proofs.
-- If none found nearby, propose up to N global non-skipped URLs from the same file.
-
+Candidates require human review. Proximity is not evidence of the same claim.
 """
 
 from __future__ import annotations
@@ -73,14 +69,20 @@ class Suggestion:
     skipped_url: str
     skipped_host: str
     alternatives: list[str]
+    review_status: str = "pending"
+    claim_id: str = ""
+    target_line: str = ""
+    reviewed_by: str = ""
+    reviewed_at: str = ""
 
 
 def iter_md_files() -> list[Path]:
-    out: list[Path] = []
-    for root in (PAGES, SOURCES):
-        if root.exists():
-            out.extend(root.rglob("*.md"))
-    return sorted(out)
+    # Canonical claim pages only: generated reports must not feed their own output.
+    names = ["profile.md", "filmography.md", "awards.md", "schedule.md", "appearances.md", "interviews.md", "sns.md"]
+    out = [PAGES / name for name in names]
+    for folder in ("works", "endorsements", "pictorials", "videos", "brands"):
+        out.extend((PAGES / folder).glob("*.md"))
+    return sorted(p for p in out if p.is_file() and p.name != "by-year.md")
 
 
 def host_of(url: str) -> str:
@@ -88,7 +90,7 @@ def host_of(url: str) -> str:
 
 
 def is_skipped_host(host: str) -> bool:
-    return any(host.endswith(d) for d in SKIP_DOMAINS)
+    return any(host == d or host.endswith("." + d) for d in SKIP_DOMAINS)
 
 
 def extract_title(lines: list[str]) -> str:
@@ -111,7 +113,7 @@ def nearby_alternatives(urls: list[tuple[int, str]], target_line: int, window: i
     # Prefer URLs close to the skipped URL occurrence.
     alts: list[str] = []
     for ln, u in urls:
-        if abs(ln - target_line) > window:
+        if ln != target_line:
             continue
         h = host_of(u)
         if is_skipped_host(h):
@@ -123,17 +125,6 @@ def nearby_alternatives(urls: list[tuple[int, str]], target_line: int, window: i
     return alts
 
 
-def file_level_alternatives(urls: list[tuple[int, str]], limit: int = 5) -> list[str]:
-    alts: list[str] = []
-    for _ln, u in urls:
-        h = host_of(u)
-        if is_skipped_host(h):
-            continue
-        if u not in alts:
-            alts.append(u)
-        if len(alts) >= limit:
-            break
-    return alts
 
 
 def main() -> None:
@@ -152,8 +143,6 @@ def main() -> None:
             if not h or not is_skipped_host(h):
                 continue
             alts = nearby_alternatives(urls, ln)
-            if not alts:
-                alts = file_level_alternatives(urls)
             suggestions.append(
                 Suggestion(
                     file=rel,
@@ -162,6 +151,7 @@ def main() -> None:
                     skipped_url=u,
                     skipped_host=h,
                     alternatives=alts,
+                    target_line=lines[ln - 1],
                 )
             )
 
@@ -193,10 +183,10 @@ def main() -> None:
     md.append(f"> 갱신: {now} (Asia/Seoul)")
     md.append("")
     md.append("이 문서는 링크 건강검진에서 스킵되는 도메인(봇 차단/헤비 JS 등)에 대해,")
-    md.append("**같은 페이지 안에서 함께 존재하는 ‘열리는’ 링크**를 대체 근거 후보로 제안합니다.")
+    md.append("같은 행에 있는 링크만 검토 후보로 제시합니다. 접근 가능성이나 동일 사실의 근거임을 보장하지 않습니다.")
     md.append("")
     md.append("## 사용법")
-    md.append("- 각 항목의 ‘스킵 URL’을 유지하되, ‘대체 후보’를 같은 엔트리의 출처/메모에 병기하세요.")
+    md.append("- 원문을 대조해 동일 사실을 확인한 뒤 data/reviewed_alternative_proofs.json에 해당 항목을 복사하고 claim_id, reviewed_by, reviewed_at, review_status=approved를 기록하세요.")
     md.append("- 후보가 비어 있으면: 공식 YouTube 업로드/방송사 페이지/제작사 보도자료 등으로 수동 보강하세요.")
     md.append("")
     md.append(f"## 총 {len(suggestions)}개")

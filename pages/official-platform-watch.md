@@ -1,9 +1,9 @@
 # Official Platform Watch (auto)
 
-> Updated: 2026-06-26 09:12 (Asia/Seoul)
+> Updated: 2026-10-11 23:28 (Asia/Seoul)
 
 ## Summary
-- official_platform_links: 87
+- official_platform_links: 85
 
 ## Links
 | title | host | grade | url |
@@ -50,8 +50,8 @@
 | 사이코메트리 그녀석 (tvN) | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/heispsychometric/video/ |
 | 사이코메트리 그녀석 (tvN) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 헌트 (영화) | youtube.com | B | https://www.youtube.com/watch?v=CSOb8gia_mg |
-| 헌트 (영화) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 | 헌트 (영화) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
+| 헌트 (영화) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 | 헌트 (영화) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=220920 |
 | 로스쿨 (JTBC) | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/lawschool |
 | 로스쿨 (JTBC) | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/cast/PR10011289/1 |
@@ -83,11 +83,11 @@
 | 스위트홈 2 | about.netflix.com | S | https://about.netflix.com/ko/news/sweet-home-season-2-date-announcement |
 | 스위트홈 (Netflix) | netflix.com | S | https://www.netflix.com/title/81061734 |
 | 스위트홈 (Netflix) | youtube.com | B | https://www.youtube.com/watch?v=B5IQqZDSRjk |
-| 스위트홈 (Netflix) | netflix.com | S | https://www.netflix.com/title/81061734- |
 | 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391253 |
 | 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391146 |
 | 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=389107 |
 | 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=387125 |
+| 스위트홈 (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 
 ## Policy
 - S급 공식 링크는 본문 자동 확정 후보입니다.

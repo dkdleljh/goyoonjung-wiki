@@ -1,6 +1,6 @@
 {
-  "status": "OK",
-  "warnings": 0,
+  "status": "WARN",
+  "warnings": 1,
   "rows": [
     [
       "goyoonjung-wiki-daily.timer",
@@ -8,34 +8,9 @@
       "listed"
     ],
     [
-      "goyoonjung-wiki-sync.timer",
-      "OK",
-      "listed"
-    ],
-    [
-      "goyoonjung-wiki-linkhealth.timer",
-      "OK",
-      "listed"
-    ],
-    [
-      "goyoonjung-wiki-notifyflush.timer",
-      "OK",
-      "listed"
-    ],
-    [
-      "goyoonjung-wiki-backupcleanup.timer",
-      "OK",
-      "listed"
-    ],
-    [
-      "goyoonjung-wiki-watchdog.timer",
-      "OK",
-      "listed"
-    ],
-    [
       "check_automation_health",
-      "OK",
-      "passed"
+      "WARN",
+      "es:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_AWARD_PROOF_AUTO:FAIL(124), RC_LINK:FAIL(1), mode:local-collection (not published)\",\n  \"max_age_hours\": 36\n}"
     ]
   ]
 }

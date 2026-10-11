@@ -8,8 +8,9 @@
 - 상태: 확정 일정만(공식/검증 링크 필수) · 지나면 Past로 이동
 
 <!-- AUTO-SCHEDULE-HIGHLIGHTS:START -->
+> 수집 상태: partial · 마지막 실행: 2026-10-11T23:30:00+09:00. 현재 등록 자료 기준이며 일정 부재를 보장하지 않습니다.
 ## 오늘/이번주 일정 (자동)
-> 기준: 2026-06-26 ~ 2026-07-03 (Asia/Seoul)
+> 기준: 2026-10-11 ~ 2026-10-18 (Asia/Seoul)
 
 - (7일 내 등록된 공식 일정이 없습니다.)
 <!-- AUTO-SCHEDULE-HIGHLIGHTS:END -->
@@ -43,7 +44,6 @@
 - 구분: 공개
 - 제목: Netflix 시리즈 <이 사랑 통역 되나요?> 공개
 - 링크(공식/원문): https://www.youtube.com/watch?v=IIHQ1Z2yu80
-- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/program/%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%EC%8A%AC%EA%B8%B0%EB%A1%9C%EC%9A%B8-%EC%A0%84%EA%B3%B5%EC%9D%98%EC%83%9D%ED%99%9C/
 - 메모: Netflix Korea(공식) 예고편 설명란에 “1월 16일, 오직 넷플릭스에서” 표기.
 
 ### 2025
@@ -57,7 +57,6 @@
 - 구분: 공개/방영
 - 제목: tvN 드라마 <언젠가는 슬기로울 전공의생활> 첫 방송
 - 링크(공식/원문): https://www.youtube.com/watch?v=SIKJWldJHTU
-- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/program/%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%EC%8A%AC%EA%B8%B0%EB%A1%9C%EC%9A%B8-%EC%A0%84%EA%B3%B5%EC%9D%98%EC%83%9D%ED%99%9C/
 - 메모: TVING(공식) 영상 설명란에 “TVING 4월 12일 공개” + 해시태그로 “밤9시10분첫방송” 표기.
 
 ### 2023
@@ -65,21 +64,18 @@
 - 구분: 공개/방영
 - 제목: 티빙 오리지널 <이재, 곧 죽습니다> Part 1 공개
 - 링크(공식/원문): https://www.tving.com/contents/P001748996
-- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/program/%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%EC%8A%AC%EA%B8%B0%EB%A1%9C%EC%9A%B8-%EC%A0%84%EA%B3%B5%EC%9D%98%EC%83%9D%ED%99%9C/
 - 메모: TVING 공식 콘텐츠 페이지.
 
 - 날짜/시간: 2023-08-09
 - 구분: 공개/방영
 - 제목: 디즈니+ 오리지널 <무빙> 공개
 - 링크(공식/원문): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
-- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/program/%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%EC%8A%AC%EA%B8%B0%EB%A1%9C%EC%9A%B8-%EC%A0%84%EA%B3%B5%EC%9D%98%EC%83%9D%ED%99%9C/, https://tvn.cjenm.com/ko/program/%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%EC%8A%AC%EA%B8%B0%EB%A1%9C%EC%9A%B8-%EC%A0%84%EA%B3%B5%EC%9D%98%EC%83%9D%ED%99%9C/,, https://tv.jtbc.co.kr/replay/pr10011289/pm10062037/ep20125473/view
 
 ### 2022
 - 날짜/시간: 2022-12-10 21:10
 - 구분: 공개/방영
 - 제목: tvN 드라마 <환혼: 빛과 그림자> 첫 방송
 - 링크(공식/원문): https://www.youtube.com/watch?v=tYTPRqjgCzs
-- 대체 근거(열리는 링크): https://tvn.cjenm.com/ko/program/%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%EC%8A%AC%EA%B8%B0%EB%A1%9C%EC%9A%B8-%EC%A0%84%EA%B3%B5%EC%9D%98%EC%83%9D%ED%99%9C/, https://tv.jtbc.co.kr/replay/pr10011289/pm10062037/ep20125473/view
 - 메모: tvN DRAMA(공식) 영상 설명란에 “12/10 [토] 밤 9:10 … 첫 방송” 표기.
 
 - 날짜/시간: 2022-08-10
@@ -92,7 +88,6 @@
 - 구분: 공개/방영
 - 제목: tvN 드라마 <환혼> (Part 1) 첫 방송
 - 링크(공식/원문): https://www.youtube.com/watch?v=z8x19hQejYo
-- 대체 근거(열리는 링크): https://tv.jtbc.co.kr/replay/pr10011289/pm10062037/ep20125473/view
 - 메모: tvN DRAMA(공식) 티저 설명란에 “6/18 [토] 밤 9:10 첫 방송” 표기.
 
 ### 2021
@@ -107,7 +102,6 @@
 - 구분: 공개
 - 제목: Netflix <스위트홈> 시즌 1 공개
 - 링크(공식/원문): https://www.youtube.com/watch?v=B5IQqZDSRjk
-- 대체 근거(열리는 링크): https://tv.jtbc.co.kr/replay/pr10011289/pm10062037/ep20125473/view, https://maa.co.kr/artists/go-younjung
 - 메모: Netflix Korea 공식 채널 예고편 설명란에 “12월 18일, 오직 넷플릭스에서” 표기.
 
 - 날짜/시간: 2020-09-25
@@ -121,7 +115,6 @@
 - 구분: 공개/방영
 - 제목: tvN 드라마 <사이코메트리 그녀석> 첫 방송
 - 링크(공식/원문): https://www.youtube.com/watch?v=JEnAnsSdLbQ
-- 대체 근거(열리는 링크): https://tv.jtbc.co.kr/replay/pr10011289/pm10062037/ep20125473/view, https://maa.co.kr/artists/go-younjung
 - 메모: tvN DRAMA(공식) 영상 설명란에 “2019년 3월 11일 첫 방송 / 매주 월화 밤 9시 30분 방송” 표기.
 
 ---

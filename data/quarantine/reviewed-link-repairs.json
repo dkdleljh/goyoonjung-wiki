@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-10-11",
+  "replacements": [
+    {
+      "original": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909552920777",
+      "replacement": "https://www.news1.kr/entertain/interview/6048953",
+      "basis": "matching article title, publication date and interview content"
+    },
+    {
+      "original": "https://news.zum.com/articles/80262487",
+      "replacement": "https://m.news.nate.com/view/20221221n37438",
+      "basis": "matching article title, publication date and interview content"
+    },
+    {
+      "original": "https://www.netflix.com/title/81061734-",
+      "replacement": "https://www.netflix.com/title/81061734",
+      "basis": "repair missing newline between existing adjacent bullets"
+    },
+    {
+      "original": "https://www.netflix.com/kr/title/80209129-",
+      "replacement": "https://www.netflix.com/kr/title/80209129",
+      "basis": "repair missing newline between existing adjacent bullets"
+    }
+  ],
+  "unresolved": [
+    {
+      "url": "https://m.news.zum.com/articles/63011527",
+      "action": "quarantine original entry; remove unverified attribution from canonical pages"
+    }
+  ]
+}

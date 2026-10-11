@@ -132,5 +132,7 @@ def main():
         if namu_status not in content:
             f.write(f"- [Encyclopedia] {namu_status}\n")
 
+    return 0 if "업데이트 확인:" in wiki_status and "접근 가능" in namu_status else 1
+
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

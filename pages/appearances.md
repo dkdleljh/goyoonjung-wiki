@@ -125,6 +125,15 @@
 - 상태: 보도(1차)
 - id: https://kstar.kbs.co.kr/list_view.html?idx=399141
 - 메모: 보도(1차). 사진/스틸 포함 가능.
+
+- 날짜: 2026-07-08
+- 구분: 기타(보도/홍보)
+- 프로그램/행사명: 고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅
+- 플랫폼/방송사: KBS연예
+- 링크(공식/원문): https://kstar.kbs.co.kr/list_view.html?idx=405372
+- 상태: 보도(1차)
+- id: https://kstar.kbs.co.kr/list_view.html?idx=405372
+- 메모: 보도(1차). 사진/스틸 포함 가능.
 ## 공식 링크
 - (S) 소속사(MAA) 프로필(필모/공식 활동): https://maa.co.kr/artists/go-younjung
 - (A/S) YouTube(tvN/Netflix/Disney+ Korea 등 공식 채널) 링크는 항목별 `링크(공식/원문)`에 기록
@@ -150,7 +159,6 @@
 - 프로그램/행사명: 유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트
 - 플랫폼/방송사: tvN (YouTube)
 - 링크(공식/원문): https://www.youtube.com/watch?v=TiTWX_KfEc0
-- 대체 근거(열리는 링크): https://maa.co.kr/artists/go-younjung, https://kstar.kbs.co.kr/list_view.html?idx=387125, https://star.ytn.co.kr/_sn/0117_202505091128555812, https://kstar.kbs.co.kr/list_view.html?idx=361830, https://kstar.kbs.co.kr/list_view.html?idx=362628
 - 상태: 공식확정
 - id: https://www.youtube.com/watch?v=TiTWX_KfEc0
 - 메모: 공식 업로드/하이라이트 영상 기준. 전체 방송 회차 정보는 추후 공식 페이지로 교차확인.

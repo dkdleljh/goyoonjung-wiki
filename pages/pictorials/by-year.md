@@ -6,6 +6,8 @@
 ---
 
 ## 2026
+- 2026-10-06 · [샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)
+- 2026-09-14 · [샤넬의 앰배서더 배우 고윤정과 함께한 마리끌레르 10월호 커버](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/)
 - 2026-06-22 · [고윤정과 샤넬의 향기로운 여정](https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/)
 - 2026-06-16 · [고윤정, 더블유 디지털 커버](https://www.wkorea.com/2026/06/16/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84-2/)
 - 2026-06-02 · [고윤정이 만난 샤넬 공방 마사로](https://www.wkorea.com/2026/06/02/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%8c%eb%82%9c-%ec%83%a4%eb%84%ac-%ea%b3%b5%eb%b0%a9-%eb%a7%88%ec%82%ac%eb%a1%9c/)

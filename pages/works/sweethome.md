@@ -17,13 +17,14 @@
 
 
 ## 출처
-- (S) 공식 링크: https://www.netflix.com/title/81061734- (S) 공식 링크: https://www.youtube.com/watch?v=B5IQqZDSRjk
+- (S) 공식 링크: https://www.netflix.com/title/81061734
+- (S) 공식 링크: https://www.youtube.com/watch?v=B5IQqZDSRjk
 
 
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-04-29 16:42 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-11 23:30 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 전체 후보
 
@@ -41,7 +42,7 @@
 
 - [[인터뷰] '이 사랑 통역되나요' 고윤정 "김선호 잡도리 NO...척하면 척이었죠"](https://www.mk.co.kr/news/hot-issues/11941579)  _(출처: interviews.md)_
 
-- ['이사통' 고윤정, 실제 연애 스타일? "솔직하고 적극적" [N인터뷰]②](https://www.sportalkorea.com/news/articleView.html?idxno=2025052909552920777)  _(출처: interviews.md)_
+- ['이사통' 고윤정, 실제 연애 스타일? "솔직하고 적극적" [N인터뷰]②](https://www.news1.kr/entertain/interview/6048953)  _(출처: interviews.md)_
 
 - ['이사통' 고윤정 "비주얼이 개연성? 고생한 결과물…메이크업 끝났을 때 제일 만족"](https://www.spotvnews.co.kr/news/articleView.html?idxno=794849)  _(출처: interviews.md)_
 
@@ -55,12 +56,12 @@
 
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
 
-- ["'보건교사 안은영'은 선의와 친절에 관한 이야기"](https://m.news.zum.com/articles/63011527)  _(출처: interviews.md)_
 
 - [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)  _(출처: appearances.md)_
 
-- [고윤정이 만들어드립니다... 제대로 싸우지 않던데요](https://kstar.kbs.co.kr/list_view.html?idx=399141)  _(출처: appearances.md)_
+- [고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅](https://kstar.kbs.co.kr/list_view.html?idx=405372)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
-- 공식 페이지(스틸/정보): https://www.netflix.com/title/81061734- 메인 예고편(Netflix Korea / YouTube): https://www.youtube.com/watch?v=B5IQqZDSRjk
+- 공식 페이지(스틸/정보): https://www.netflix.com/title/81061734
+- 메인 예고편(Netflix Korea / YouTube): https://www.youtube.com/watch?v=B5IQqZDSRjk
