@@ -6,10 +6,13 @@
 ---
 
 ## 2026
+- 2026-10-07 · [마리떼 2026 겨울 캠페인 — Love in White, Love in Winter](https://fashionseoul.com/275968)
 - 2026-10-06 · [샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)
+- 2026-09-25 · [내셔널지오그래픽 어패럴 — 너를 만난 계절](https://www.yna.co.kr/amp/view/AKR20260923185000030)
 - 2026-09-14 · [샤넬의 앰배서더 배우 고윤정과 함께한 마리끌레르 10월호 커버](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/)
 - 2026-06-22 · [고윤정과 샤넬의 향기로운 여정](https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/)
 - 2026-06-16 · [고윤정, 더블유 디지털 커버](https://www.wkorea.com/2026/06/16/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84-2/)
+- 2026-06-04 · [젝시믹스 모델 발탁 및 UNDEFINE 캠페인](https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12)
 - 2026-06-02 · [고윤정이 만난 샤넬 공방 마사로](https://www.wkorea.com/2026/06/02/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%8c%eb%82%9c-%ec%83%a4%eb%84%ac-%ea%b3%b5%eb%b0%a9-%eb%a7%88%ec%82%ac%eb%a1%9c/)
 - 2026-05-07 · [고윤정의 광채 피부를 완성한 샤넬 수블리마지 컬렉션](https://www.marieclairekorea.com/beauty/2026/05/the-ultimate-skincare-ritual/)
 - 2026-05-04 · [샤넬뷰티 수블리마지 컬렉션과 함께한 고윤정의 바닐라빛 오후 #2](https://www.marieclairekorea.com/beauty/2026/05/vanilla-sky-2/)
@@ -17,6 +20,7 @@
 - 2026-04-29 · [샤넬뷰티 수블리마지 컬렉션과 함께한 고윤정의 바닐라빛 오후 #1](https://www.marieclairekorea.com/beauty/2026/04/vanilla-sky-1/)
 - 2026-03-04 · [고윤정이 전하는 봄날의 속삭임](https://www.wkorea.com/2026/03/04/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%a0%84%ed%95%98%eb%8a%94-%eb%b4%84%eb%82%a0%ec%9d%98-%ec%86%8d%ec%82%ad%ec%9e%84/)
 - 2026-03-03 · [고윤정, 더블유 디지털 커버](https://www.wkorea.com/2026/03/03/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84/)
+- 2026-02-27 · [디디에 두보 2026 SS 시그니처 디 캠페인](https://news.nate.com/view/20260227n09186)
 - 2026-02-11 · [Within Spring - 2026 봄 캠페인 화보](https://theviewers.co.kr/View.aspx?No=3972476)
 - 2026-01-28 · [(기사) 고윤정 커리어/작품 관련(사진 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=391253)
 - 2026-01-27 · [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)

@@ -1,18 +1,20 @@
 # 모두가 자신의 무가치함과 싸우고 있다
 
-> 목적: 작품의 **공식/1차 근거 링크**만 모아, 추측 없이 기록하기 위한 페이지입니다.
-
 ## 한눈에 보기
-- 플랫폼/방송사: JTBC / TVING / Netflix (표기 기준: 공개/홍보물에서 확인되는 범위)
+- 플랫폼/방송사: JTBC (방영 기록 확인 기준)
 - 역할: 변은아
-- 상태: 2026 상반기 공개(예정)
+- 상태: 방영 완료·종영
+- 방송 기간: 2026-04-18 ~ 2026-05-24
+- 확인일: 2026-10-12
 
 ## 공식 링크
-- (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- [JTBC 프로그램 홈페이지](https://tv.jtbc.co.kr/wearealltryinghere)
+- [JTBC Drama 첫 방송 안내(2026-03-23 게시)](https://www.youtube.com/watch?v=51XurKBSgMo)
+- [JTBC 최종회 기록(2026-05-24)](https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view)
 
 ## 출처
-- 소속사(MAA) 아티스트 프로필(1차): https://maa.co.kr/artists/go-younjung
+JTBC의 첫 방송 공지와 최종회 기록을 대조했다. 이전의 ‘2026 상반기 공개 예정’ 표기를 종영 상태로 수정했다. 지역별 OTT 제공 여부는 이 방송 기록만으로 확정하지 않는다.
 
-## 메모
-- 이 페이지는 링크-first 원칙에 따라, 기사 본문/보도자료 문장 그대로를 복사하지 않습니다.
-- 추가로 JTBC/TVING/Netflix의 **작품 공식 페이지(1차)** 가 확인되면 우선 연결합니다.
+## 관련 인터뷰
+- [2026년 10월 마리끌레르 인터뷰](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)
+- [인터뷰 아카이브](../interviews.md)

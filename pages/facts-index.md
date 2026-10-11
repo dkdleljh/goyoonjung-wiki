@@ -1,6 +1,6 @@
 # Facts Index (auto)
 
-> Updated: 2026-10-11 23:28 (Asia/Seoul)
+> Updated: 2026-10-12 00:42 (Asia/Seoul)
 
 ## 목적
 - Markdown에 흩어진 주요 사실을 구조화 데이터로 추출한 결과입니다.
@@ -9,7 +9,7 @@
 ## Fact Files
 | domain | items | file |
 |---|---|---|
-| works | 14 | data/facts/works.json |
+| works | 16 | data/facts/works.json |
 | awards | 13 | data/facts/awards.json |
 | profile | 1 | data/facts/profile.json |
 
@@ -29,7 +29,9 @@
 | 2024 | Disney+ | 조명가게 | 장희수 | unknown |
 | 2025 | tvN | 언젠가는 슬기로울 전공의생활 | 오이영 | unknown |
 | 2026 | Netflix | 이 사랑 통역 되나요? | 차무희 | released |
-| 2026 | JTBC/TVING/Netflix | 모두가 자신의 무가치함과 싸우고 있다 | 변은아 | unknown |
+| 2026 | JTBC | 모두가 자신의 무가치함과 싸우고 있다 | 변은아 | released |
+| 미정 | Disney+ | 무빙 시즌 2 | 장희수 | unknown |
+| 미정 | 영화 | 남벌 | 애령 | unknown |
 
 ## 운영 원칙
 - 공식 근거 없는 정보는 이 색인에 있어도 본문 자동 확정 대상이 아닙니다.

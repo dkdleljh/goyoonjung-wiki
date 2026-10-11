@@ -112,6 +112,7 @@
 - 링크(원문): https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/
 - 상태: 공식확정
 - id: https://www.wkorea.com/2026/06/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ed%96%a5%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%97%ac%ec%a0%95/
+- 비고: 5월 그라스 취재를 6월 22일 공개한 샤넬 향수 화보·기사. 기사 게시월과 현장 취재월을 구분한다.
 
 - 날짜: 2026-09-14
 - 매체: Marie Claire Korea
@@ -128,6 +129,7 @@
 - 링크(원문): https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/
 - 상태: 공식확정
 - id: https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/
+- 비고: 한옥에서 촬영한 샤넬 커버 화보와 배우 인터뷰. 무빙 시즌 2와 남벌에 관한 직접 발언은 인터뷰 아카이브에도 연결했다.
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)

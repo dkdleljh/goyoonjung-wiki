@@ -6,7 +6,10 @@
 ---
 
 ## 2026
+- 2026-10-06 · [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)
+- 2026-06-15 · [모자무싸 협업과 무빙 시즌 2 촬영 소감](https://enews.imbc.com/News/ViewAmp/508207)
 - 2026-02-08 · [[비즈 스타] '이 사랑 통역 되나요?' 고윤정, '얼굴 천재' 넘어 '믿보배'로](http://enter.etoday.co.kr/news/view/292714)
+- 2026-02-02 · [이 사랑 통역 되나요? — 차무희·도라미 연기와 김선호와의 호흡](https://www.movist.com/star3d/read.asp?id=39058&type=32)
 - 2026-01-29 · [[인터뷰] '이 사랑 통역 되나요?' 고윤정이 탐색한 감정의 언어](https://www.sisaweek.com/news/articleView.html?idxno=233219)
 - 2026-01-28 · [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)
 - 2026-01-28 · [[NC인터뷰] '이 사랑 통역 되나요' 고윤정 "10년 후, 김선호처럼"](https://www.nc.press/news/articleView.html?idxno=605970)
@@ -45,10 +48,15 @@
 - 2023-08-23 · ['무빙' 고윤정, '완벽한 희수T, 털털다정 F형 MZ배우' (인터뷰 종합)](https://www.etnews.com/20230823000317)
 - 2023-08-23 · ['무빙' 고윤정 "얼굴이 초능력이라는 평가, 너무 감사해" [N인터뷰]①](https://news.nate.com/view/20230823n22221)
 - 2023-08-23 · [[팝인터뷰③] '무빙' 고윤정 "외모 관심 알고 있어, 신기하고 감사"](https://www.heraldpop.com/view.php?ud=202308231155508000692_1)
+- 2023-04-30 · [고윤정, 이정재·정우성 향한 ♥ 고백.."날 선택해줘서 감사"](https://www.starnewskorea.com/stview.php?no=2023043020331863820)
 - 2023-01-09 · ['환혼' 고윤정 "평생 잊지 못할 작품...조금 더 성장한 계기"](http://www.interview365.com/news/articleView.html?idxno=104424)
 
 ## 2022
 - 2022-12-21 · ['환혼' 고윤정 "이재욱, 키 크고 목소리 좋아..키스신 때 너무 떨렸다"](https://m.news.nate.com/view/20221221n37438)
+- 2022-07-28 · ['더헌터' 고윤정 님 인터뷰](https://extmovie.com/movietalk/86419918)
+- 2022-07-27 · ['헌트' 고윤정 "고문 연기, 허성태 덕분에 편안하게 촬영"](https://mydaily.co.kr/page/view/2022072719409407409)
+- 2022-07-20 · [<헌트>로 스크린에 데뷔하는 고윤정이 현장에서 가장 듣고 싶은 칭찬은?](https://www.esquirekorea.co.kr/article/68124)
+- 2022-07-02 · [고윤정, '헌트'로 스크린 데뷔..이정재 "놀랍고 훌륭한 배우"](https://www.starnewskorea.com/stview.php?no=2022063010405847866)
 
 ## 2021
 - 2021-06-10 · ['로스쿨' 고윤정, 진정성 가득한 열열.."특별한 작품"](https://www.starnewskorea.com/stview.php?no=2021061016204618571)
@@ -58,13 +66,8 @@
 - 2020-11-30 · [YTN 라디오 생생경제 인터뷰](https://m.radio.ytn.co.kr/interview_view.php?id=73903&s_mcd=0206)
 - 2020-10-09 · [정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"](https://www.yna.co.kr/view/AKR20201009055300005)
 
-
-## 공식 링크
-- (준비중) 방송사/매체의 공식 인터뷰 모음(1차) 링크를 우선으로 추가합니다.
-
-## 출처
-- pages/interviews.md (누적 원문 링크)
-- docs/editorial_policy.md
+## 2019
+- 2019-11-04 · [‘SK텔레콤 광고 모델’ 고윤정, 미모 무엇? '헉' 소리만 나오는 비주얼](https://www.idaegu.com/news/articleView.html?idxno=381461)
 
 ---
 ※ 이 페이지는 자동 생성됩니다.

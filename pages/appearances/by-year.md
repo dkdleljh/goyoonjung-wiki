@@ -6,12 +6,14 @@
 ---
 
 ## 2026
+- 2026-07-31 · [제5회 청룡시리즈어워즈 레드카펫](https://enews.imbc.com/News/RetrieveNewsInfo/513316)
 - 2026-07-08 · [고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅](https://kstar.kbs.co.kr/list_view.html?idx=405372)
 - 2026-04-21 · [고윤정이 만들어드립니다... 제대로 싸우지 않던데요](https://kstar.kbs.co.kr/list_view.html?idx=399141)
 - 2026-03-31 · [고윤정이 싸우는 무가치함... 도끼 PD의 머릿속엔 무엇이 있나?](https://kstar.kbs.co.kr/list_view.html?idx=397104)
 - 2026-03-26 · ['무가치함과 싸우고 있는' 구교환-고윤정.. 파워 포스터](https://kstar.kbs.co.kr/list_view.html?idx=396661)
 - 2026-03-13 · [고윤정도 싸우고 있다... JTBC 드라마 모두가 자신의 무가치함과...](https://kstar.kbs.co.kr/list_view.html?idx=395293)
 - 2026-03-09 · [고윤정, 말간 얼굴의 ‘도끼 PD’ (JTBC ‘모두가 자신의 무가치함과 싸우고 있다’)](https://kstar.kbs.co.kr/list_view.html?idx=394652)
+- 2026-03-08 · [마니또 클럽 6회 출연 예고](https://enews.imbc.com/News/RetrieveNewsInfo/497002)
 - 2026-02-22 · ['마니또 클럽' 고윤정, 나, 미대 나온 여자야~](https://kstar.kbs.co.kr/list_view.html?idx=393465)
 - 2026-02-16 · [MBC <마니또 클럽> — 2기 출연진(고윤정 포함) 방송 말미 예고 언급](https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177)
 - 2026-02-10 · [MBC <마니또 클럽> — 2차 라인업(고윤정 포함) 공개](https://www.dispatch.co.kr/2338820)

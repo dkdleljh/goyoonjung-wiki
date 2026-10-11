@@ -5,6 +5,11 @@
 
 ---
 
+## 2026
+- [내셔널지오그래픽 어패럴](https://www.yna.co.kr/amp/view/AKR20260923185000030) — 모델/캠페인 출연
+- [디디에 두보](https://news.nate.com/view/20260227n09186) — 모델/캠페인 출연
+- [젝시믹스](https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12) — 모델/캠페인 출연
+
 ## 2025
 - [디디에 두보(DIDIER DUBOT)](https://news.nate.com/view/20250825n17937) — 모델
 - [한화손해보험](https://www.sisaon.co.kr/news/articleView.html?idxno=175918) — 브랜드 전속모델

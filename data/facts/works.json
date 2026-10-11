@@ -12,7 +12,7 @@
     "sources": [
       "https://maa.co.kr/artists/go-younjung"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-보건교사-안은영",
@@ -27,7 +27,7 @@
     "sources": [
       "https://www.netflix.com/kr/title/80209129"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-스위트홈",
@@ -42,7 +42,7 @@
     "sources": [
       "https://www.netflix.com/kr/title/81061734"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-로스쿨",
@@ -57,7 +57,7 @@
     "sources": [
       "https://maa.co.kr/artists/go-younjung"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-환혼",
@@ -72,7 +72,7 @@
     "sources": [
       "https://maa.co.kr/artists/go-younjung"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-환혼-빛과-그림자",
@@ -87,7 +87,7 @@
     "sources": [
       "https://maa.co.kr/artists/go-younjung"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-헌트",
@@ -102,7 +102,7 @@
     "sources": [
       "https://maa.co.kr/artists/go-younjung"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-무빙",
@@ -117,7 +117,7 @@
     "sources": [
       "https://maa.co.kr/artists/go-younjung"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-이재-곧-죽습니다",
@@ -132,7 +132,7 @@
     "sources": [
       "https://maa.co.kr/artists/go-younjung"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-스위트홈-2",
@@ -147,7 +147,7 @@
     "sources": [
       "https://www.netflix.com/kr/title/81061734"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-조명가게",
@@ -162,7 +162,7 @@
     "sources": [
       "https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-언젠가는-슬기로울-전공의생활",
@@ -177,7 +177,7 @@
     "sources": [
       "https://maa.co.kr/artists/go-younjung"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-이-사랑-통역-되나요",
@@ -192,21 +192,54 @@
     "sources": [
       "https://www.netflix.com/kr/title/81697769"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
   },
   {
     "id": "work-모두가-자신의-무가치함과-싸우고-있다",
     "type": "work",
     "year": "2026",
-    "platform": "JTBC/TVING/Netflix",
+    "platform": "JTBC",
     "title": "모두가 자신의 무가치함과 싸우고 있다",
     "person": "고윤정",
     "role": "변은아",
-    "status": "unknown",
-    "note": "2026 상반기 공개",
+    "status": "released",
+    "note": "방영 완료·종영 (4월 18일 ~ 5월 24일)",
     "sources": [
-      "https://maa.co.kr/artists/go-younjung"
+      "https://tv.jtbc.co.kr/wearealltryinghere",
+      "https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view"
     ],
-    "extracted_at": "2026-10-11 23:28"
+    "extracted_at": "2026-10-12 00:42"
+  },
+  {
+    "id": "work-무빙-시즌-2",
+    "type": "work",
+    "year": "미정",
+    "platform": "Disney+",
+    "title": "무빙 시즌 2",
+    "person": "고윤정",
+    "role": "장희수",
+    "status": "unknown",
+    "note": "촬영 중, 공개일 미정 (2026-10-06 인터뷰 기준)",
+    "sources": [
+      "https://www.yna.co.kr/view/AKR20260518043500005",
+      "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/"
+    ],
+    "extracted_at": "2026-10-12 00:42"
+  },
+  {
+    "id": "work-남벌",
+    "type": "work",
+    "year": "미정",
+    "platform": "영화",
+    "title": "남벌",
+    "person": "고윤정",
+    "role": "애령",
+    "status": "unknown",
+    "note": "출연 확정 보도, 개봉일 미정",
+    "sources": [
+      "https://enews.imbc.com/News/RetrieveNewsInfo/510753",
+      "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/"
+    ],
+    "extracted_at": "2026-10-12 00:42"
   }
 ]

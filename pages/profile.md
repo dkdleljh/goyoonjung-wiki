@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 공식/검증 가능한 근거로 고윤정의 핵심 프로필 정보를 유지하는 페이지입니다.
-- 핵심 링크: [소속사(MAA)](https://maa.co.kr/artists/go-younjung) · [필모](filmography.md) · [타임라인](timeline.md)
+- 핵심 링크: [과거 소속사(MAA) 자료](https://maa.co.kr/artists/go-younjung) · [필모](filmography.md) · [타임라인](timeline.md)
 - 상태: S/A 우선(일부 항목은 보조 참고로 분리 운영)
 
 <!-- AUTO-INFOBOX:START -->
@@ -14,7 +14,7 @@
 | 출생 | 1996-04-22 |
 | 직업 | 배우 |
 | 활동 | 2018년 ~ 현재 |
-| 소속사 | MAA |
+| 소속사 | AAP (2026년 보도 기준) |
 <!-- AUTO-INFOBOX:END -->
 
 <!-- AUTO-FIXED-LEAD:START -->
@@ -35,14 +35,14 @@
 - 출생: 1996-04-22
 - 직업: 배우
 - 활동 기간: 2018년 ~ 현재
-- 소속사: MAA
+- 소속사: AAP (2026년 보도 기준)
 
 ## 공식 링크
-- 소속사(MAA) 아티스트 프로필(S): https://maa.co.kr/artists/go-younjung
+- 과거 소속사(MAA) 아티스트 프로필(S): https://maa.co.kr/artists/go-younjung
 
 ## 출처(우선순위)
-- (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
-- 상태: 촬영 중 (최신 뉴스 기반)
+- (S) 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- 활동 확인: [2026-10-06 인터뷰](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)에서 무빙 시즌 2 촬영을 언급했다.
 
 ## 기본 정보(상세)
 - 출생지: (보조 참고) 대한민국 서울특별시 영등포구 문래동
@@ -58,3 +58,7 @@
 ## 메모
 - (무인 정책) 출생지/학력 등 ‘공식 근거’가 자동으로 확보되지 않는 항목은 일단 (2차 참고)로 표기하고, 공식/원문 근거 확보 시 승격합니다.
 - 위 항목들은 현재 2차 출처 기반인 부분이 있어, 인터뷰/공식 프로필/공식 소개 페이지로 근거를 확보하면 `공식확정`으로 승격합니다.
+
+## 2026년 소속 정보 갱신
+- [텐아시아 2026-09-05 보도](https://www.tenasia.co.kr/article/2026090158504)가 고윤정을 AAP 소속으로 명시했다. 표시된 기사일을 사용하며 URL의 20260901을 게시일로 간주하지 않는다.
+- 정확한 계약 시작일과 MAA·AAP 간 법인 관계는 확인되지 않아 기록하지 않는다. 이전 MAA 링크는 과거 프로필 자료로 남긴다.

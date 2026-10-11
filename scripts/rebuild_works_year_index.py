@@ -23,7 +23,7 @@ FILM = os.path.join(BASE, "pages", "filmography.md")
 WORKS_DIR = os.path.join(BASE, "pages", "works")
 OUT = os.path.join(WORKS_DIR, "by-year.md")
 
-TABLE_ROW_RE = re.compile(r"^\|\s*(20\d{2})\s*\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|\s*$")
+TABLE_ROW_RE = re.compile(r"^\|\s*(20\d{2}|미정)\s*\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|\s*$")
 TITLE_H1_RE = re.compile(r"^#\s+(.+?)\s*$")
 
 
@@ -77,9 +77,9 @@ def main() -> int:
     rows = parse_filmography()
     work_pages = load_work_pages()
 
-    by_year: dict[int, list[tuple[str, str, str, str, str]]] = defaultdict(list)
+    by_year: dict[str, list[tuple[str, str, str, str, str]]] = defaultdict(list)
     for year, platform, title, role, note, proof in rows:
-        by_year[int(year)].append((platform, title, role, note, proof))
+        by_year[year].append((platform, title, role, note, proof))
 
     out = [
         "# 작품 — 연도별 인덱스",
