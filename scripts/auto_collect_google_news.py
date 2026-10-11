@@ -31,6 +31,7 @@ import domain_policy  # noqa: E402
 import normalize_url  # noqa: E402
 import relevance  # noqa: E402
 from collector_io import append_news_lines  # noqa: E402
+from google_news_resolver import resolve, warm_cache  # noqa: E402
 
 CONF = config_loader.load_config()
 RSS_URL = CONF.get('rss_url', "https://news.google.com/rss/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95+when:1d&hl=ko&gl=KR&ceid=KR:ko")
@@ -64,14 +65,9 @@ def classify(title):
         return "Pictorial"
     return "General"
 
-def decode_google_news_url(source_url):
-    import urllib.request
-    try:
-        req = urllib.request.Request(source_url, method='HEAD')
-        with urllib.request.urlopen(req, timeout=5) as resp:
-            return resp.geturl()
-    except Exception:
-        return source_url
+def decode_google_news_url(source_url: str) -> str:
+    return resolve(source_url)
+
 
 def fetch_rss():
     url = normalize_rss_url(RSS_URL)
@@ -94,6 +90,7 @@ def main():
         print("Invalid RSS format")
         return 1
 
+    warm_cache([item.findtext("link", "") for item in channel.findall("item")])
     new_items = []
     errors = 0
 

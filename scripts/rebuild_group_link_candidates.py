@@ -236,6 +236,7 @@ def update_page(page: Path, title: str, items):
     else:
         new_txt = "\n".join(lines).rstrip() + "\n\n" + content + "\n"
 
+    new_txt = new_txt.rstrip() + "\n"
     if new_txt != txt:
         page.write_text(new_txt, encoding="utf-8")
         return True

@@ -36,6 +36,7 @@ import domain_policy  # noqa: E402
 import normalize_url  # noqa: E402
 import relevance  # noqa: E402
 from collector_io import append_news_lines  # noqa: E402
+from google_news_resolver import resolve, warm_cache  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-sites.txt"
 
@@ -56,14 +57,7 @@ class Site:
 
 
 def decode_google_news_url(source_url: str) -> str:
-    import urllib.request
-
-    try:
-        req = urllib.request.Request(source_url, method="GET", headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=8) as resp:
-            return resp.geturl()
-    except Exception:
-        return source_url
+    return resolve(source_url)
 
 
 def fetch_rss(url: str) -> bytes | None:
@@ -153,6 +147,7 @@ def main() -> int:
             errors += 1
             continue
 
+        warm_cache([item.findtext("link", "") for item in channel.findall("item")[:15]])
         pending = []
         new_items: list[dict] = []
         for item in channel.findall("item")[:15]:
