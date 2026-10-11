@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `71639f60` |
+| 최신 커밋 | `59476447` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,21 +63,14 @@
   - 로컬 노트: `logs/releases/release-notes-v1.58.0.md`
 
 ## 최근 변경 요약
+- [`59476447`](https://github.com/dkdleljh/goyoonjung-wiki/commit/59476447) — fix: retry container startup connection resets in CI
+- [`17dd857d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/17dd857d) — fix: validate wiki evidence and collection health; enable website sync
 - [`71639f60`](https://github.com/dkdleljh/goyoonjung-wiki/commit/71639f60) — chore: prepare release v1.58.2
 - [`8e0aed30`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8e0aed30) — fix: persist generated release portals instead of ignoring a missing path
 - [`c72d35a3`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c72d35a3) — fix: refresh release portals and verify CI before publishing
-- [`8215824e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8215824e) — chore: finalize daily run log 2026-06-26
-- [`5662deac`](https://github.com/dkdleljh/goyoonjung-wiki/commit/5662deac) — daily: update 2026-06-26
 
 ## 최근 변경 파일
-- `CHANGELOG.md`
-- `README.md`
-- `VERSION`
-- `docs/README.md`
-- `index.md`
-- `logs/releases/release-notes-v1.58.2.md`
-- `pages/daily-report.md`
-- `pages/hub.en.md`
+- `.github/workflows/ci.yml`
 
 ## 자주 쓰는 명령
 ```bash

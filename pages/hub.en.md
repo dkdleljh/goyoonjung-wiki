@@ -14,7 +14,7 @@
 ## Status table
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `71639f60` |
+| 최신 커밋 | `59476447` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -31,11 +31,7 @@
 - [Schedule](schedule.md)
 
 ## Recently changed files
-- `CHANGELOG.md`
-- `README.md`
-- `VERSION`
-- `docs/README.md`
-- `index.md`
+- `.github/workflows/ci.yml`
 
 ## Ops pages
 - [`pages/awards-official-watch.md`](awards-official-watch.md)
