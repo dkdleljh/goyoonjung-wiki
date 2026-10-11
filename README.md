@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `c7d1f6ba` |
+| 최신 커밋 | `73c8007b` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,21 +63,21 @@
   - 로컬 노트: `logs/releases/release-notes-v1.58.0.md`
 
 ## 최근 변경 요약
+- [`73c8007b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/73c8007b) — docs: sync collected wiki content for website
 - [`c7d1f6ba`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c7d1f6ba) — docs: sync collected wiki content for website
 - [`c5d1cb80`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c5d1cb80) — docs: sync collected wiki content for website
 - [`19878197`](https://github.com/dkdleljh/goyoonjung-wiki/commit/19878197) — docs: sync collected wiki content for website
 - [`240bdcf2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/240bdcf2) — fix: count collection metrics by Korean day using UTC event timestamps
-- [`e7e56b2c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e7e56b2c) — fix: resolve current Google News URLs and keep generated pages publishable
 
 ## 최근 변경 파일
 - `README.md`
 - `data/facts/awards.json`
+- `data/facts/future_candidates.json`
+- `data/facts/official_platforms.json`
 - `data/facts/profile.json`
 - `data/facts/sources.json`
 - `data/facts/works.json`
-- `data/reports/preflight.json`
 - `data/reports/watchdog.json`
-- `index.md`
 
 ## 자주 쓰는 명령
 ```bash

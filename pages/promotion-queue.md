@@ -1,12 +1,20 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 03:48 (Asia/Seoul)
+> Updated: 2026-10-12 04:55 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-11 · grade=A · JA_ALL · [コ・ユンジョン、変顔でも圧倒的美貌 - 조선일보](https://www.chosun.com/jp/culture-life-jp/2026/09/29/DONZN4KFHVDUDH6M7ASUK7OASQ)
+- 2026-10-11 · grade=A · JA_ALL · [眉を変えただけなのに...コ・ユンジョンの「雰囲気美人」の秘訣【K-ビューティークラブ】 - 매일경제](https://www.mk.co.kr/jp/hot-issues/12161158)
+- 2026-10-11 · grade=A · JA_ALL · [コ・ユンジョン→キム・ヘユン、紅葉を見に行きたい女スターは？ [スターポール] - 스타뉴스](https://www.starnewskorea.com/ja/star/2026/10/06/2026100608574841744)
+- 2026-10-11 · grade=A · JA_ALL · [コ・ヒョンジョンなの？コ・ユンジョンかと - 조선일보](https://www.chosun.com/jp/culture-life-jp/2026/09/30/MMEK5Q7EVBGQVAVK77BEQJL6HQ)
+- 2026-10-11 · grade=A · JA_ALL · [コ·ユンジョンは27日、自分のインスタグラムを通じて近況を盛り込んだ数枚の写真を公開した。 - 매일경제](https://www.mk.co.kr/jp/entertain/12162117)
+- 2026-10-11 · grade=A · JA_ALL · [パリのコ・ユンジョンはきれいだ..フレンチの女神 - 스타뉴스](https://www.starnewskorea.com/ja/star/2026/09/28/2026092723455379336)
+- 2026-10-11 · grade=A · JA_ALL · [コ・ユンジョン、ドレス姿の女神かと思いきや...意外な自撮りまで - 매일경제](https://www.mk.co.kr/jp/hot-issues/12163132)
+- 2026-10-11 · grade=A · MARITHE · [고윤정이 마주한 새하얀 겨울 - Vogue korea](https://www.vogue.co.kr/2026/10/07/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%B4-%EB%A7%88%EC%A3%BC%ED%95%9C-%EC%83%88%ED%95%98%EC%96%80-%EA%B2%A8%EC%9A%B8)
 - 2026-10-11 · grade=A · EN_CAST · [Lee Byung-hun, Go Youn-jung cast in upcoming Joseon-era action film - The Korea Times](https://www.koreatimes.co.kr/entertainment/films/20260708/lee-byung-hun-go-youn-jung-cast-in-upcoming-joseon-era-action-film)
 - 2026-10-11 · grade=A · EN_CAST · [Go Youn-jung Stars in Joseon Action 'Nambeol' and Supernatural 'Moving Season 2' - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/07/13/2PNKYX7MYFBAJPOBFWLF5FOWKI)
 - 2026-10-11 · grade=A · EN_CAST · [Go Youn-jung Takes on Hard-Boiled Martial Arts Action, Joins Lee Byung-hun in 'Nambal' - 스포츠조선](https://www.sportschosun.com/en/movie/2026-07-08/202607080100050020003004)
