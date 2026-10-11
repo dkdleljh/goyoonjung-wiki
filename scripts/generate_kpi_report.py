@@ -34,16 +34,16 @@ def main() -> int:
         """
         SELECT count(*)
         FROM seen_urls
-        WHERE first_seen_at >= datetime('now','localtime','start of day')
-          AND first_seen_at < datetime('now','localtime','start of day','+1 day')
+        WHERE first_seen_at >= datetime('now','+9 hours','start of day','-9 hours')
+          AND first_seen_at < datetime('now','+9 hours','start of day','+1 day','-9 hours')
         """,
     )
     landed_urls = q1(
         cur,
         """
         SELECT count(*) FROM url_events
-        WHERE created_at >= datetime('now','localtime','start of day')
-          AND created_at < datetime('now','localtime','start of day','+1 day')
+        WHERE created_at >= datetime('now','+9 hours','start of day','-9 hours')
+          AND created_at < datetime('now','+9 hours','start of day','+1 day','-9 hours')
           AND decision = 'landed'
         """,
     )
@@ -51,16 +51,16 @@ def main() -> int:
         cur,
         """
         SELECT count(*) FROM url_events
-        WHERE created_at >= datetime('now','localtime','start of day')
-          AND created_at < datetime('now','localtime','start of day','+1 day')
+        WHERE created_at >= datetime('now','+9 hours','start of day','-9 hours')
+          AND created_at < datetime('now','+9 hours','start of day','+1 day','-9 hours')
         """,
     )
     duplicate_events = q1(
         cur,
         """
         SELECT count(*) FROM url_events
-        WHERE created_at >= datetime('now','localtime','start of day')
-          AND created_at < datetime('now','localtime','start of day','+1 day')
+        WHERE created_at >= datetime('now','+9 hours','start of day','-9 hours')
+          AND created_at < datetime('now','+9 hours','start of day','+1 day','-9 hours')
           AND is_duplicate = 1
         """,
     )
@@ -70,8 +70,8 @@ def main() -> int:
         """
         SELECT grade, count(*)
         FROM url_events
-        WHERE created_at >= datetime('now','localtime','start of day')
-          AND created_at < datetime('now','localtime','start of day','+1 day')
+        WHERE created_at >= datetime('now','+9 hours','start of day','-9 hours')
+          AND created_at < datetime('now','+9 hours','start of day','+1 day','-9 hours')
           AND is_duplicate = 0
           AND decision IN ('landed', 'queue', 'pool')
         GROUP BY grade
