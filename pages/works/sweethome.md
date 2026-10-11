@@ -24,9 +24,17 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-11 23:30 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-12 02:43 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 자동 추천(S급 우선)
+
+- ⭐ [‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC](https://news.jtbc.co.kr/article/NB12276427)  _(출처: appearances.md)_
+
+
 
 ### 전체 후보
+
+- [‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC](https://news.jtbc.co.kr/article/NB12276427)  _(출처: appearances.md)_
 
 - [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)  _(출처: interviews.md)_
 
@@ -56,10 +64,7 @@
 
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
 
-
 - [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)  _(출처: appearances.md)_
-
-- [고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅](https://kstar.kbs.co.kr/list_view.html?idx=405372)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

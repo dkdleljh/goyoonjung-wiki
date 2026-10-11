@@ -35,13 +35,15 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-12 01:31 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-12 02:43 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
 - ⭐ [현대적인 우아함, 고윤정의 샤넬](https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/)  _(출처: interviews.md)_
 
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
+
+- ⭐ [‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC](https://news.jtbc.co.kr/article/NB12276427)  _(출처: appearances.md)_
 
 - ⭐ [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
 
@@ -52,6 +54,8 @@
 - [현대적인 우아함, 고윤정의 샤넬](https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/)  _(출처: interviews.md)_
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
+
+- [‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC](https://news.jtbc.co.kr/article/NB12276427)  _(출처: appearances.md)_
 
 - [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
 
@@ -66,8 +70,6 @@
 - ['환혼' 고윤정 "평생 잊지 못할 작품...조금 더 성장한 계기"](http://www.interview365.com/news/articleView.html?idxno=104424)  _(출처: interviews.md)_
 
 - ['환혼' 고윤정 "이재욱, 키 크고 목소리 좋아..키스신 때 너무 떨렸다"](https://m.news.nate.com/view/20221221n37438)  _(출처: interviews.md)_
-
-- [고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅](https://kstar.kbs.co.kr/list_view.html?idx=405372)  _(출처: appearances.md)_
 
 - [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=361830)  _(출처: appearances.md)_
 

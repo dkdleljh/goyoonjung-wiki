@@ -14,7 +14,7 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `e7e56b2c` |
+| 최신 커밋 | `c5d1cb80` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -38,11 +38,7 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `docs/website-sync.md`
-- `requirements.txt`
-- `scripts/auto_collect_google_news.py`
-- `scripts/auto_collect_google_news_queries.py`
-- `scripts/auto_collect_google_news_queries_i18n.py`
+- `pages/kpi-report.md`
 
 ## 운영 핵심 페이지
 - [`pages/awards-official-watch.md`](awards-official-watch.md)

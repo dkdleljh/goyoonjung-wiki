@@ -27,9 +27,33 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-03-13 12:28 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-12 02:43 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 자동 추천(S급 우선)
+
+- ⭐ [고윤정 OTT·스크린 넘나드는 활약 예고 - JTBC](https://news.jtbc.co.kr/article/NB12308062)  _(출처: appearances.md)_
+
+- ⭐ [‘모자무싸’ 고윤정, 수식어 필요없는 압도적 비주얼 - JTBC](https://news.jtbc.co.kr/article/NB12294742)  _(출처: appearances.md)_
+
+- ⭐ [‘모자무싸’ 고윤정 “박해영 작가가 나를 써주다니…영광이고 신기해” - JTBC](https://news.jtbc.co.kr/article/NB12294664)  _(출처: appearances.md)_
+
+- ⭐ [‘모자무싸’ 고윤정, 예리한 눈빛의 영화사 PD 변신 - JTBC](https://news.jtbc.co.kr/article/NB12288396)  _(출처: appearances.md)_
+
+- ⭐ [드디어 공개된 구교환·고윤정 투샷…‘모자무싸’ 포스터 - JTBC](https://news.jtbc.co.kr/article/NB12291543)  _(출처: appearances.md)_
+
+
 
 ### 전체 후보
+
+- [고윤정 OTT·스크린 넘나드는 활약 예고 - JTBC](https://news.jtbc.co.kr/article/NB12308062)  _(출처: appearances.md)_
+
+- [‘모자무싸’ 고윤정, 수식어 필요없는 압도적 비주얼 - JTBC](https://news.jtbc.co.kr/article/NB12294742)  _(출처: appearances.md)_
+
+- [‘모자무싸’ 고윤정 “박해영 작가가 나를 써주다니…영광이고 신기해” - JTBC](https://news.jtbc.co.kr/article/NB12294664)  _(출처: appearances.md)_
+
+- [‘모자무싸’ 고윤정, 예리한 눈빛의 영화사 PD 변신 - JTBC](https://news.jtbc.co.kr/article/NB12288396)  _(출처: appearances.md)_
+
+- [드디어 공개된 구교환·고윤정 투샷…‘모자무싸’ 포스터 - JTBC](https://news.jtbc.co.kr/article/NB12291543)  _(출처: appearances.md)_
 
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
 
@@ -40,6 +64,10 @@
 - [고윤정, 말간 얼굴의 ‘도끼 PD’ (JTBC ‘모두가 자신의 무가치함과 싸우고 있다’)](https://kstar.kbs.co.kr/list_view.html?idx=394652)  _(출처: appearances.md)_
 
 - [고윤정도 싸우고 있다... JTBC 드라마 모두가 자신의 무가치함과...](https://kstar.kbs.co.kr/list_view.html?idx=395293)  _(출처: appearances.md)_
+
+- [‘이 사랑 통역 되나요’ 김선호 “고윤정 보며 설렌 적? 당연히 있죠” - JTBC](https://news.jtbc.co.kr/article/NB12281326)  _(출처: appearances.md)_
+
+- [‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC](https://news.jtbc.co.kr/article/NB12276427)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

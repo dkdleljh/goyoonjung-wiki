@@ -1,12 +1,25 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 01:29 (Asia/Seoul)
+> Updated: 2026-10-12 02:41 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-11 · grade=A · EN_ALL · [XEXYMIX Proposes Winter Running Looks with Go Youn Jung and DEX, Unveils 'RX Air Light Padded Jumper' - 스포츠조선](https://www.sportschosun.com/en/culture/2026-09-24/202609240100164150010740)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung Spotted in Paris with a Pure, Effortless Look - 매일경제](https://www.mk.co.kr/en/hot-issues/12162111)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung Shares Playful Behind-the-Scenes Photos - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/09/29/ZNKZCLFVMNC47BPO4LT4VCUGIA)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung Looked Like a Goddess in a Dress—But Then Came a Twist in Her Selfie - 매일경제](https://www.mk.co.kr/en/hot-issues/12163132)
+- 2026-10-11 · grade=A · EN_ALL · [Autumn Warm Tone Season Is Here: Styling Formulas Found in Jennie, Minji, Go Youn-jung and Giselle - 스포츠조선](https://www.sportschosun.com/en/k-beauty/2026-09-11/202609110100078900005110)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung's Paris Photos Highlight Goddess-like Aura - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/09/27/AIKQCRVVSFEWJASS6TASCC3AHA)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung radiates goddess poise in vintage photos - CHOSUNBIZ - Chosunbiz](https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung shares playful behind-the-scenes photos showing effortless charm - CHOSUNBIZ - Chosunbiz](https://biz.chosun.com/en/en-entertainment/2026/09/29/26QQGMLYXBGVXOSL7UKGU3EZ2M)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung Can't Hide Her Celebrity Aura Even in Paris... She Shines Just Walking Down the Street - 스포츠조선](https://www.sportschosun.com/en/celebrity/2026-09-27/202609270100180020011872)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung Dazzles with Goddess-like Figure in New Photos - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/09/20/QHK625VA2ZENRIS4SGYXPWATYM)
+- 2026-10-11 · grade=A · EN_ALL · [All It Took Was a Brow Change... Go Youn-jung's Secret to Her "Beauty with an Aura" [K-Beauty Club] - 매일경제](https://www.mk.co.kr/en/hot-issues/12161158)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung spotted with Galaxy Z Fold 8 as Samsung chips away at iPhone's grip on young women - 헤럴드경제](https://mbiz.heraldcorp.com/article/10898312)
+- 2026-10-11 · grade=A · EN_ALL · [Go Youn-jung's Ageless Photos Astonish Fans - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/09/30/JXZ26MEHQFAQTAJATYLWZUOWXY)
 - 2026-10-11 · grade=A · RYO · [고윤정, 파리서 국위선양하는 미모…정면도 옆모습도 감탄 [MD★스타] - 마이데일리](https://mydaily.co.kr/page/view/2026092715164924546)
 - 2026-10-11 · grade=A · RYO · ["파리서도 빛나는 미모"…국위선양 고윤정, 철저한 자기관리 비결 - 뉴시스](https://www.newsis.com/view/NISX20260927_0003804310)
 - 2026-10-11 · grade=A · VODANA · [눈썹 하나 바꿨을 뿐인데…고윤정의 ‘분위기 미인’ 비결 [K-뷰티클럽] - 스타투데이 - 매일경제](https://www.mk.co.kr/news/hot-issues/12161158)
