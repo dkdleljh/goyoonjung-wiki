@@ -1,12 +1,16 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 12:02 (Asia/Seoul)
+> Updated: 2026-10-12 13:10 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · JA_ALL · [コ・ユンジョン、パリでぼんやり顔も女神 - 조선일보](https://www.chosun.com/jp/culture-life-jp/2026/09/27/MIEXJTA625CCJJFNZY7PRZFH44)
+- 2026-10-12 · grade=A · WORKS · [고윤정, 럭셔리 향수 화보 속 강렬 눈빛…무빙2·남벌 액션 행보 잇는다 - 톱스타뉴스](https://www.topstarnews.net/news/articleView.html?idxno=16201615)
+- 2026-10-12 · grade=A · WORKS · [189년 역사의 하이 주얼러 티파니앤코, 배우 고윤정 앰버서더로 선정 - Daum](https://v.daum.net/v/2YXpnXe4Al)
+- 2026-10-12 · grade=A · FASHION · [[화보] 고윤정이 완성한 가을의 조각 - 스포츠경향](https://sports.khan.co.kr/article/202609170858003)
 - 2026-10-12 · grade=A · VARIETY_WORK · [이병헌·고윤정, 무협 액션 영화 '남벌' 출연 - 연합뉴스](https://www.yna.co.kr/view/AKR20260708065300005)
 - 2026-10-12 · grade=A · VARIETY_WORK · [고윤정, 시대극 '남벌' 출연…이병헌과 무협 액션 호흡 - 디스패치](https://www.dispatch.co.kr/2344909)
 - 2026-10-12 · grade=A · VARIETY_WORK · [[공식] 고윤정, 이병헌과 호흡…‘남벌’ 출연 확정 - 스포츠동아](https://sports.donga.com/ent/article/all/20260707/134254435/1)
