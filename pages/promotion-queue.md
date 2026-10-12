@@ -1,12 +1,13 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-13 07:14 (Asia/Seoul)
+> Updated: 2026-10-13 08:21 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · VARIETY_WORK · [[공식] 고윤정, 하드보일드 무협 액션 도전..이병헌과 함께 '남벌' 출연 - 조선일보](https://www.chosun.com/entertainments/movie/2026/07/08/GM2GKN3FMZQWEMRQMNRWMYJQHA)
 - 2026-10-12 · grade=A · EN_ALL · [Yang Seung-hye Remains Reserve in Fencing Team's Semifinal Victory - 조선일보](https://www.chosun.com/english/sports-en/2026/09/25/4EPCFCFXKZHOHNDLB55WTU7FAQ)
 - 2026-10-12 · grade=A · FASHION · [고윤정, 무결점의 표본…몽환적 여신 아우라 [화보] - 조선비즈 - Chosunbiz](https://biz.chosun.com/entertainment/tv/2026/10/08/GBSDSMDGMRRTOYZVGZRDGYRWGE)
 - 2026-10-12 · grade=A · 스포츠동아 · [고윤정, 눈 뗄 수 없는 몽환적 비주얼…우아함의 정석 [화보] - 스포츠동아](https://sports.donga.com/ent/article/all/20261008/134809436/1)
