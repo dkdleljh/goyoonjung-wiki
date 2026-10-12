@@ -27,7 +27,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-12 21:32 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-12 22:40 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -72,6 +72,10 @@
 - [‘이사통’ 김선호 “고윤정, 성격 정말 좋다…촬영 중 실수도 유쾌하게 넘어가” - JTBC](https://news.jtbc.co.kr/article/NB12279720)  _(출처: appearances.md)_
 
 - [리센느 제나 "추구미=고윤정, 얼굴 예쁜데 목소리는 중저음" - JTBC](https://news.jtbc.co.kr/article/NB12314528)  _(출처: appearances.md)_
+
+- [고윤정, ‘모자무싸’로 인생 캐릭터 경신 - JTBC](https://news.jtbc.co.kr/article/NB12294929)  _(출처: appearances.md)_
+
+- [‘모자무싸’ 고윤정, 시청자 응원 부른 불안과 결핍의 새 얼굴 - JTBC](https://news.jtbc.co.kr/article/NB12299711)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

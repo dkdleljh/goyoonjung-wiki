@@ -1,12 +1,14 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 21:30 (Asia/Seoul)
+> Updated: 2026-10-12 22:38 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · 스포츠동아 · [고윤정, 눈 뗄 수 없는 몽환적 비주얼…우아함의 정석 [화보] - 스포츠동아](https://sports.donga.com/ent/article/all/20261008/134809436/1)
+- 2026-10-12 · grade=A · 스포츠동아 · [고윤정, 눈 뗄 수 없는 몽환적 비주얼…우아함의 정석 [화보]｜포토뷰 - 스포츠동아](https://sports.donga.com/photo?m=view&date=20261008&gid=134809436&rev=1)
 - 2026-10-12 · grade=A · VARIETY_TALK · [구교환 “고윤정과 사주 기가 막히게 맞아, 어른미가 굉장해” (살롱드립) - 뉴스엔](https://newsen.com/news_view.php?uid=202604290454471710)
 - 2026-10-12 · grade=A · VARIETY · [제니·고윤정도 못 살린 ‘마니또 클럽’…시청률 0.9%로 종영 - 스타투데이 - 매일경제](https://www.mk.co.kr/news/hot-issues/12027904)
 - 2026-10-12 · grade=A · VARIETY · [고윤정, 샤넬 서울 쇼 애프터파티서 여유 가득한 밤 - TopStarNews](https://www.topstarnews.net/news/articleView.html?idxno=16073334)

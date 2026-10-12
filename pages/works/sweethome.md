@@ -24,17 +24,9 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-12 21:32 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
-
-### 자동 추천(S급 우선)
-
-- ⭐ [리센느 제나 "추구미=고윤정, 얼굴 예쁜데 목소리는 중저음" - JTBC](https://news.jtbc.co.kr/article/NB12314528)  _(출처: appearances.md)_
-
-
+> 생성: 2026-10-12 22:40 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 전체 후보
-
-- [리센느 제나 "추구미=고윤정, 얼굴 예쁜데 목소리는 중저음" - JTBC](https://news.jtbc.co.kr/article/NB12314528)  _(출처: appearances.md)_
 
 - [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)  _(출처: interviews.md)_
 
@@ -65,6 +57,8 @@
 - [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
 
 - [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)  _(출처: appearances.md)_
+
+- [김선호X고윤정 로코 '이 사랑 통역 되나요?', 1월 16일 공개 확정 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

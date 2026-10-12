@@ -764,6 +764,27 @@
   },
   {
     "page": "pages/appearances.md",
+    "url": "https://news.jtbc.co.kr/article/NB12294929",
+    "host": "news.jtbc.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/appearances.md",
+    "url": "https://news.jtbc.co.kr/article/NB12299711",
+    "host": "news.jtbc.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/appearances.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847",
+    "host": "news.sbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/appearances.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
     "grade": "BLOCK",
@@ -6009,6 +6030,20 @@
     "page": "pages/promotion-queue.md",
     "url": "https://enews.imbc.com/News/ViewAmp/508207",
     "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://sports.donga.com/ent/article/all/20261008/134809436/1",
+    "host": "sports.donga.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://sports.donga.com/photo?m=view&date=20261008&gid=134809436&rev=1",
+    "host": "sports.donga.com",
     "grade": "A",
     "lane": "queue"
   },

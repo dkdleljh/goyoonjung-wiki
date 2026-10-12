@@ -2,13 +2,13 @@
 
 > Updated: 2026-10-12
 
-## wiki_completeness: **22/100**
+## wiki_completeness: **21/100**
 
-placeholder debt score: debt=71
+placeholder debt score: debt=73
 - official_audit.coverage_readiness: 6
 - official_audit.official_work_sync: 40
-- (페이지 내 표기 확인 필요): 18
-- (확인 필요): 22
+- (페이지 내 표기 확인 필요): 19
+- (확인 필요): 23
 - 검증불가: 13
 - 교차검증 필요: 0
 - 미확정: 2
@@ -29,8 +29,8 @@ score = verified OK / all discovered URLs; BAD forces zero
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-10-12T21:33:00+09:00
-age_hours: 0.0
+last_run: 2026-10-12T22:40:00+09:00
+age_hours: 0.01
 source: news/2026-10-12.md
 recorded_result: partial
 reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-12_0126.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:SKIP, sched:OK, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_MAG_RSS:FAIL(1), mode:local-collection (not published)
@@ -45,10 +45,10 @@ max_age_hours: 36
 
 ## kpi_snapshot
 
-- new_urls: 143
-- landed_urls: 20
-- duplicate_rate: 45.57% (396/869)
+- new_urls: 146
+- landed_urls: 21
+- duplicate_rate: 46.19% (424/918)
 - verified_urls_by_grade:
-  - S: 20
-  - A: 102
+  - S: 21
+  - A: 104
   - B: 21
