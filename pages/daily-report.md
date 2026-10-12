@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-13 00:03 (Asia/Seoul)
+> 갱신: 2026-10-13 01:09 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 11a7091e 2026-10-12 23:47:48 +0900 docs: sync collected wiki content for website
+- 752e4473 2026-10-13 00:04:20 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -16,8 +16,10 @@
 - data/facts/works.json
 - data/reports/preflight.json
 - data/reports/watchdog.json
+- docs/README.md
 - index.md
-- news/2026-10-12.md
+- news/2026-10-13.md
+- news/README.md
 - pages/awards-official-watch.md
 - pages/brand-evidence-watch.md
 - pages/candidate-pool.md
@@ -44,7 +46,6 @@
 - pages/works/hunt.md
 - pages/works/law-school.md
 - pages/works/moving.md
-- pages/works/sweethome.md
 - sources/awards-official.md
 
 ## 3) 오늘 실행 상태(news/2026-10-13.md)
@@ -63,7 +64,7 @@
 ## Daily Metrics
 - new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 50.00% (11/22)
+- duplicate_rate: 45.10% (23/51)
 - verified_urls_by_grade:
   - S: 0
   - A: 0
