@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-13 06:02 (Asia/Seoul)
+> Updated: 2026-10-13 07:14 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1227
+- total_urls: 1228
 - S: 288
-- A: 372
+- A: 373
 - B: 212
 - BLOCK: 355
 
@@ -32,7 +32,7 @@
 | enews.imbc.com | 17 | A:17 |
 | news.sbs.co.kr | 17 | S:17 |
 | mk.co.kr | 17 | A:17 |
-| chosun.com | 16 | A:16 |
+| chosun.com | 17 | A:17 |
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
