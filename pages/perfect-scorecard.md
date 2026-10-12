@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 120
-- urls_total(markdown): 380
-- seen_urls(db): 63
+- urls_total(markdown): 391
+- seen_urls(db): 74
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -31,8 +31,8 @@
 
 - C_current: 68  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 380  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 63  (dedupe DB size)
+- urls_total: 391  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 74  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
@@ -51,11 +51,11 @@
 - 68: pages/link-health.md
 - 62: pages/skipped-link-backlog.md
 - 60: pages/official-platform-watch.md
+- 57: pages/promotion-queue.md
 - 52: pages/alternative-proof-candidates.md
 - 49: pages/interviews.md
 - 49: pages/pictorials/editorial.md
 - 48: pages/interviews/by-year.md
-- 46: pages/promotion-queue.md
 
 ## Notes
 - A and B component values describe tooling presence; B headline uses actual run freshness and outcome.

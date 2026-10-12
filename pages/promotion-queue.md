@@ -1,12 +1,23 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 08:26 (Asia/Seoul)
+> Updated: 2026-10-12 09:33 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · JA_ALL · [コ・ユンジョンが惚れ込むのも無理はない···キム・ソノ、隠しきれないえくぼの笑み - 스타뉴스](https://www.starnewskorea.com/ja/star/2026/09/16/2026091618304861386)
+- 2026-10-12 · grade=A · AWARDS · [고윤정, 압도적인 분위기...‘청룡 레드카펫 장악’[케이팝 헌터스] - 스타투데이 - 매일경제](https://www.mk.co.kr/news/photos/12122864)
+- 2026-10-12 · grade=A · AWARDS · [고윤정 귀걸이 어디 거? 청룡 레드카펫 주얼리 총정리 - www.cosmopolitan.co.kr](https://www.cosmopolitan.co.kr/article/1907332)
+- 2026-10-12 · grade=A · AWARDS · ['청룡 2관왕' 고윤정, 트로피 양 손에 들고 활짝…비하인드 포토 공개 [핫피플] - OSEN](https://www.osen.co.kr/article/G1112851422)
+- 2026-10-12 · grade=A · AWARDS · [[영상] 고윤정, '청룡 여신' 타이틀이 어울리는 네이비 드레스 자태(청룡시리즈어워즈) - MBC](https://www.imbc.com/broad/enews/view.html?idx=513316)
+- 2026-10-12 · grade=A · AWARDS · [고윤정, 현시점 K-예쁨 대표 배우 [엔터포커싱] - 아이뉴스24](http://www.inews24.com/view/1991164)
+- 2026-10-12 · grade=A · AWARDS · [김고은 대상·고윤정 2관왕…아이유까지 화제된 청룡어워즈 - Daum](https://v.daum.net/v/20260801063838267)
+- 2026-10-12 · grade=A · AWARDS · [고윤정, 청룡시리즈어워즈 트로피 들고 빛난 미소…‘이사통’·‘모자무싸’ 활약 잇는다 - 톱스타뉴스](https://www.topstarnews.net/news/articleView.html?idxno=16152962)
+- 2026-10-12 · grade=A · AWARDS · [고윤정, 인형 - 뉴스1](https://www.news1.kr/photos/8036194)
+- 2026-10-12 · grade=A · AWARDS · [[제5회 BSA] 고윤정, 글로벌 아이콘상…日 배우 쇼타 시상 의리 - 조선일보](https://www.chosun.com/entertainments/enter_general/2026/07/31/MMYDONTBMZSWMNZYGYYDQYZUGA)
+- 2026-10-12 · grade=A · AWARDS · [“와 레전드” 고윤정, 청룡서 리즈 찍었다… 등근육 자랑까지 [IS하이컷] - 일간스포츠](https://isplus.com/article/view/isp202608020121)
 - 2026-10-11 · grade=A · EN_CAST · [Go Youn-jung Celebrates Double Win at Blue Dragon Series Awards - 조선일보](https://www.chosun.com/english/kpop-culture-en/2026/08/02/4ZBQGF2FW5HATLXGXE3735G6IA)
 - 2026-10-11 · grade=A · EN_ALL · [Ko Hyun-jung stuns fans with youthful looks, draws comparisons to Go Youn-jung - CHOSUNBIZ - Chosunbiz](https://biz.chosun.com/en/en-entertainment/2026/09/30/KVCL3FMVBJFNJCSNRKSKSSCGRM)
 - 2026-10-11 · grade=A · JA_ALL · [コ・ユンジョン、変顔でも圧倒的美貌 - 조선일보](https://www.chosun.com/jp/culture-life-jp/2026/09/29/DONZN4KFHVDUDH6M7ASUK7OASQ)

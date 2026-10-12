@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-12 08:27 (Asia/Seoul)
+> Updated: 2026-10-12 09:34 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1136
+- total_urls: 1147
 - S: 275
-- A: 311
+- A: 322
 - B: 195
 - BLOCK: 355
 
@@ -28,15 +28,15 @@
 | yna.co.kr | 19 | A:19 |
 | news.nate.com | 18 | BLOCK:18 |
 | enews.imbc.com | 16 | A:16 |
+| mk.co.kr | 16 | A:16 |
+| starnewskorea.com | 16 | A:16 |
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
-| mk.co.kr | 15 | A:15 |
-| starnewskorea.com | 15 | A:15 |
+| v.daum.net | 11 | A:11 |
+| chosun.com | 11 | A:11 |
 | news.sbs.co.kr | 10 | S:10 |
 | elle.co.kr | 10 | A:10 |
-| v.daum.net | 10 | A:10 |
-| chosun.com | 10 | A:10 |
 | program.tving.com | 9 | S:9 |
 | spotvnews.co.kr | 9 | A:9 |
 | idaegu.com | 9 | BLOCK:9 |

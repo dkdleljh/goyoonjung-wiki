@@ -10,4 +10,4 @@
 | target | state | detail |
 |---|---|---|
 | goyoonjung-wiki-daily.timer | OK | listed |
-| check_automation_health | WARN | 2026-10-12T08:24:00+09:00",   "age_hours": 0.08,   "source": "news/2026-10-12.md",   "recorded_result": "running",   "reason": "auto: daily update running",   "max_age_hours": 36 } |
+| check_automation_health | WARN | 2026-10-12T09:31:00+09:00",   "age_hours": 0.08,   "source": "news/2026-10-12.md",   "recorded_result": "running",   "reason": "auto: daily update running",   "max_age_hours": 36 } |

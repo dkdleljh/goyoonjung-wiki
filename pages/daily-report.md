@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-12 08:28 (Asia/Seoul)
+> 갱신: 2026-10-12 09:35 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 18a75015 2026-10-12 07:21:43 +0900 docs: sync collected wiki content for website
+- 4336888f 2026-10-12 08:28:50 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -13,7 +13,6 @@
 - data/facts/profile.json
 - data/facts/sources.json
 - data/facts/works.json
-- data/reports/preflight.json
 - data/reports/watchdog.json
 - index.md
 - news/2026-10-12.md
@@ -60,11 +59,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 63
+- new_urls: 74
 - landed_urls: 16
-- duplicate_rate: 21.93% (50/228)
+- duplicate_rate: 22.22% (58/261)
 - verified_urls_by_grade:
   - S: 16
-  - A: 44
+  - A: 55
   - B: 3
 
