@@ -1,12 +1,13 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 15:24 (Asia/Seoul)
+> Updated: 2026-10-12 16:31 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · [고윤정, 정해인과 특별한 인연 있었다…비밀 마니또로 엮인 사이 "배우님이신데" ('마니또클럽') - Daum](https://v.daum.net/v/20260221154644442)
 - 2026-10-12 · grade=A · EN_ALL · [Go Youn-jung dazzles Paris with goddess aura in casual street photos - CHOSUNBIZ - Chosunbiz](https://biz.chosun.com/en/en-entertainment/2026/09/27/LHO4UEE6IVFG7DHRLRYYXSMNAM)
 - 2026-10-12 · grade=A · VARIETY_GENERAL · [고윤정, 정체불명 '위장 퀵 기사' 직접 추격…거침없는 불도저 ('마니또') - Daum](https://v.daum.net/v/20260225151725007)
 - 2026-10-12 · grade=A · VARIETY_GENERAL · [‘고윤정 효과’ 톡톡…‘마니또 클럽’ 살린 예능 새내기, 첫 예능 성공적 [줌인] - Daum](https://v.daum.net/v/20260319060143629)

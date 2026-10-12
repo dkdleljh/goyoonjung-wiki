@@ -24,17 +24,17 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-12 15:26 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-12 16:33 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
-- ⭐ [‘이사통’ 김선호 “고윤정, 성격 정말 좋다…촬영 중 실수도 유쾌하게 넘어가” - JTBC](https://news.jtbc.co.kr/article/NB12279720)  _(출처: appearances.md)_
+- ⭐ [리센느 제나 "추구미=고윤정, 얼굴 예쁜데 목소리는 중저음" - JTBC](https://news.jtbc.co.kr/article/NB12314528)  _(출처: appearances.md)_
 
 
 
 ### 전체 후보
 
-- [‘이사통’ 김선호 “고윤정, 성격 정말 좋다…촬영 중 실수도 유쾌하게 넘어가” - JTBC](https://news.jtbc.co.kr/article/NB12279720)  _(출처: appearances.md)_
+- [리센느 제나 "추구미=고윤정, 얼굴 예쁜데 목소리는 중저음" - JTBC](https://news.jtbc.co.kr/article/NB12314528)  _(출처: appearances.md)_
 
 - [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)  _(출처: interviews.md)_
 
