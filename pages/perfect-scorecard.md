@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 120
-- urls_total(markdown): 456
-- seen_urls(db): 140
+- urls_total(markdown): 459
+- seen_urls(db): 143
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -31,19 +31,19 @@
 
 - C_current: 69  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 456  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 140  (dedupe DB size)
+- urls_total: 459  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 143  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
 
-### D. Content quality heuristic: **48/100**
+### D. Content quality heuristic: **47/100**
 
-- placeholder: 0  (debt=65)
+- placeholder: 0  (debt=71)
 - link_health: 81  (measured results and report age)
 - lint: 100  (actual findings)
 - provenance: 100  (official vs press vs secondary)
-- coverage_readiness: 7  (official coverage audit)
+- coverage_readiness: 6  (official coverage audit)
 
 ## Top URL-heavy pages (top 10)
 - 104: pages/promotion-queue.md

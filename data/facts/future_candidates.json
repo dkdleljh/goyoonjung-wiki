@@ -35,6 +35,13 @@
     "review_required": true
   },
   {
+    "source": "pages/filmography.md",
+    "line": "- 구분: 작품/캐스팅(뉴스 자동 반영)",
+    "status": "unknown",
+    "auto_landing": false,
+    "review_required": true
+  },
+  {
     "source": "pages/works/everyone-fights-worthlessness.md",
     "line": "JTBC의 첫 방송 공지와 최종회 기록을 대조했다. 이전의 ‘2026 상반기 공개 예정’ 표기를 종영 상태로 수정했다. 지역별 OTT 제공 여부는 이 방송 기록만으로 확정하지 않는다.",
     "status": "reported_once",

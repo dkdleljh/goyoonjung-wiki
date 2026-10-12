@@ -1,10 +1,10 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-12 20:24 (Asia/Seoul)
+> Updated: 2026-10-12 21:31 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1215
-- S: 278
+- total_urls: 1216
+- S: 279
 - A: 369
 - B: 213
 - BLOCK: 355
@@ -35,8 +35,8 @@
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
+| news.sbs.co.kr | 11 | S:11 |
 | spotvnews.co.kr | 10 | A:10 |
-| news.sbs.co.kr | 10 | S:10 |
 | elle.co.kr | 10 | A:10 |
 | program.tving.com | 9 | S:9 |
 | idaegu.com | 9 | BLOCK:9 |

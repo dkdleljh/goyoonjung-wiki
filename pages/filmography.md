@@ -70,3 +70,9 @@
 - 링크(원문): https://news.jtbc.co.kr/article/NB12288396
 - 상태: 보도(2차)
 - id: https://news.jtbc.co.kr/article/NB12288396
+- 날짜: 2026-10-12
+- 구분: 작품/캐스팅(뉴스 자동 반영)
+- 제목: 김선호X고윤정 로코 '이 사랑 통역 되나요?', 1월 16일 공개 확정 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847
+- 상태: 보도(2차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847
