@@ -1,6 +1,6 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-13 03:22 (Asia/Seoul)
+> Updated: 2026-10-13 04:29 (Asia/Seoul)
 
 ## Summary
 - total_urls: 1226

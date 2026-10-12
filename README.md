@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `76ed3d63` |
+| 최신 커밋 | `3778f53a` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,11 +63,11 @@
   - 로컬 노트: `logs/releases/release-notes-v1.58.0.md`
 
 ## 최근 변경 요약
+- [`3778f53a`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3778f53a) — docs: sync collected wiki content for website
 - [`76ed3d63`](https://github.com/dkdleljh/goyoonjung-wiki/commit/76ed3d63) — docs: sync collected wiki content for website
 - [`e836066f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e836066f) — docs: sync collected wiki content for website
 - [`752e4473`](https://github.com/dkdleljh/goyoonjung-wiki/commit/752e4473) — docs: sync collected wiki content for website
 - [`11a7091e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/11a7091e) — docs: sync collected wiki content for website
-- [`934133c4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/934133c4) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
 - `README.md`
