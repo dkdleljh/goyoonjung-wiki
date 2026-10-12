@@ -785,6 +785,13 @@
   },
   {
     "page": "pages/appearances.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658",
+    "host": "news.sbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/appearances.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
     "grade": "BLOCK",
@@ -4369,13 +4376,6 @@
   },
   {
     "page": "pages/official-platform-watch.md",
-    "url": "https://news.jtbc.co.kr/article/NB12314528",
-    "host": "news.jtbc.co.kr",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/official-platform-watch.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=391253",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
@@ -4392,6 +4392,13 @@
     "page": "pages/official-platform-watch.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=277651",
     "host": "kstar.kbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/official-platform-watch.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847",
+    "host": "news.sbs.co.kr",
     "grade": "S",
     "lane": "landed"
   },
@@ -4656,6 +4663,27 @@
   },
   {
     "page": "pages/official-platform-watch.md",
+    "url": "https://news.jtbc.co.kr/article/NB12314528",
+    "host": "news.jtbc.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/official-platform-watch.md",
+    "url": "https://news.jtbc.co.kr/article/NB12294929",
+    "host": "news.jtbc.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/official-platform-watch.md",
+    "url": "https://news.jtbc.co.kr/article/NB12299711",
+    "host": "news.jtbc.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/official-platform-watch.md",
     "url": "https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856-",
     "host": "disneyplus.com",
     "grade": "S",
@@ -4723,13 +4751,6 @@
     "host": "tving.com",
     "grade": "S",
     "lane": "landed"
-  },
-  {
-    "page": "pages/official-platform-watch.md",
-    "url": "https://www.youtube.com/watch?v=SIKJWldJHTU",
-    "host": "youtube.com",
-    "grade": "B",
-    "lane": "pool"
   },
   {
     "page": "pages/people/README.md",
@@ -7617,13 +7638,6 @@
   },
   {
     "page": "pages/works/alchemy-of-souls.md",
-    "url": "https://news.jtbc.co.kr/article/NB12314528",
-    "host": "news.jtbc.co.kr",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/works/alchemy-of-souls.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=391253",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
@@ -7663,6 +7677,13 @@
     "host": "m.news.nate.com",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/works/alchemy-of-souls.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847",
+    "host": "news.sbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
   },
   {
     "page": "pages/works/alchemy-of-souls.md",
@@ -8085,6 +8106,20 @@
     "lane": "landed"
   },
   {
+    "page": "pages/works/law-school.md",
+    "url": "https://news.jtbc.co.kr/article/NB12294929",
+    "host": "news.jtbc.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/works/law-school.md",
+    "url": "https://news.jtbc.co.kr/article/NB12299711",
+    "host": "news.jtbc.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
     "page": "pages/works/light-shop.md",
     "url": "https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4",
     "host": "disneyplus.com",
@@ -8174,13 +8209,6 @@
     "host": "marieclairekorea.com",
     "grade": "A",
     "lane": "queue"
-  },
-  {
-    "page": "pages/works/moving.md",
-    "url": "https://news.jtbc.co.kr/article/NB12314528",
-    "host": "news.jtbc.co.kr",
-    "grade": "S",
-    "lane": "landed"
   },
   {
     "page": "pages/works/moving.md",
@@ -8276,6 +8304,13 @@
   {
     "page": "pages/works/moving.md",
     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003",
+    "host": "news.sbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/works/moving.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847",
     "host": "news.sbs.co.kr",
     "grade": "S",
     "lane": "landed"
@@ -8408,13 +8443,6 @@
   },
   {
     "page": "pages/works/sweethome.md",
-    "url": "https://news.jtbc.co.kr/article/NB12314528",
-    "host": "news.jtbc.co.kr",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/works/sweethome.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=391253",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
@@ -8515,6 +8543,13 @@
     "page": "pages/works/sweethome.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=389846",
     "host": "kstar.kbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/works/sweethome.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847",
+    "host": "news.sbs.co.kr",
     "grade": "S",
     "lane": "landed"
   },

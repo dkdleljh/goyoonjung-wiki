@@ -50,8 +50,8 @@
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
 - 79: pages/pictorials/by-year.md
 - 68: pages/link-health.md
+- 63: pages/official-platform-watch.md
 - 62: pages/skipped-link-backlog.md
-- 61: pages/official-platform-watch.md
 - 52: pages/alternative-proof-candidates.md
 - 49: pages/interviews.md
 - 49: pages/pictorials/editorial.md

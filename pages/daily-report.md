@@ -1,19 +1,19 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-12 22:40 (Asia/Seoul)
+> 갱신: 2026-10-12 23:47 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 811d7ab5 2026-10-12 21:33:14 +0900 docs: sync collected wiki content for website
+- 934133c4 2026-10-12 22:40:52 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - README.md
 - data/facts/awards.json
-- data/facts/future_candidates.json
 - data/facts/profile.json
 - data/facts/sources.json
 - data/facts/works.json
+- data/reports/preflight.json
 - data/reports/watchdog.json
 - index.md
 - news/2026-10-12.md
@@ -25,7 +25,6 @@
 - pages/dashboard.md
 - pages/fact-conflicts.md
 - pages/facts-index.md
-- pages/filmography.md
 - pages/future-candidates.md
 - pages/future-watch.md
 - pages/hub.en.md
@@ -67,7 +66,7 @@
 ## Daily Metrics
 - new_urls: 146
 - landed_urls: 21
-- duplicate_rate: 46.19% (424/918)
+- duplicate_rate: 48.06% (459/955)
 - verified_urls_by_grade:
   - S: 21
   - A: 104

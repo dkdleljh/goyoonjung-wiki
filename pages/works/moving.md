@@ -36,7 +36,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-12 22:40 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-12 23:47 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -82,7 +82,7 @@
 
 - [고윤정, '무빙 시즌2' 이어 '남벌'까지…OTT와 스크린 넘나든다 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003)  _(출처: appearances.md)_
 
-- [김선호X고윤정 로코 '이 사랑 통역 되나요?', 1월 16일 공개 확정 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847)  _(출처: appearances.md)_
+- [우즈, '남벌'로 스크린 데뷔…이병헌·고윤정과 연기 호흡 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658)  _(출처: appearances.md)_
 
 - [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)  _(출처: appearances.md)_
 
