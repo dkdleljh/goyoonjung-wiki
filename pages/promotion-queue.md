@@ -1,12 +1,22 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 10:40 (Asia/Seoul)
+> Updated: 2026-10-12 11:47 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · WORKS · [고윤정, 꽃벽 앞 우아한 핑크 드레스…'무빙2'·'남벌'로 열일 행보 - 톱스타뉴스](https://www.topstarnews.net/news/articleView.html?idxno=16225747)
+- 2026-10-12 · grade=A · WORKS · [류승룡 "고윤정과 '무빙2' 촬영 시작, 어제 본 것 같더라" [엑's 인터뷰] - Daum](https://v.daum.net/v/80dPPWQ95g)
+- 2026-10-12 · grade=A · WORKS · ['고윤정 출연 작품 아니었어?'…패션업계, 영화 같은 광고 화제 - 연합뉴스](https://www.yna.co.kr/view/AKR20260923185000030)
+- 2026-10-12 · grade=A · WORKS · [류승룡→고윤정, 서울드라마어워즈 수상 후보…10월 8일 MBC 생중계 - iMBC 연예](https://enews.imbc.com/News/RetrieveNewsInfo/515491)
+- 2026-10-12 · grade=A · WORKS · [고윤정, 티파니 선택 받았다…블랙 드레스+다이아로 ‘여신 비주얼’ - 조선일보](https://www.chosun.com/entertainments/enter_general/2026/08/27/MM4TGZRXGM2DEOBRGZRTMMLFHE)
+- 2026-10-12 · grade=A · WORKS · [고윤정, 여행지서 포착된 사랑스러운 일상…새 드라마·화보로 숨 가쁜 행보 - 톱스타뉴스](https://www.topstarnews.net/news/articleView.html?idxno=16218888)
+- 2026-10-12 · grade=A · WORKS · ["우리 또 만났네요" 2500만 터졌다…고윤정·허남준에 난리 [김소연의 얼굴전략] - 한국경제](https://www.hankyung.com/article/202610020253g)
+- 2026-10-12 · grade=A · WORKS · [1위 고윤정, 2위 소지섭, 3위 윤경호 - 스타뉴스](https://www.starnewskorea.com/star/2026/08/25/2026082507140631662)
+- 2026-10-12 · grade=A · WORKS · [고윤정, 얼굴이 초호화 명품인데‥주얼리 앰버서더 발탁 - 뉴스엔](https://newsen.com/news_view.php?uid=202608271513376710)
+- 2026-10-12 · grade=A · WORKS · [‘제 17회 코리아드라마어워즈’ 2차 투표 시작···현빈·이준호·김고은·고윤정 후보 경쟁 - 스포츠경향](https://sports.khan.co.kr/article/202608280238003)
 - 2026-10-12 · grade=A · FASHION · [샤넬의 앰배서더 배우 고윤정과 함께한 마리끌레르 10월호 커버 - 마리끌레르 코리아](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power)
 - 2026-10-12 · grade=A · FASHION · [고윤정, 순백의 여신…맑고 우아한 고유의 아름다움 [화보] - 조선비즈 - Chosunbiz](https://biz.chosun.com/entertainment/enter_general/2026/09/03/HA4GMYLEHE2DGOBRGY4DAZDCMU)
 - 2026-10-12 · grade=A · FASHION · [“숨멎 유발 비주얼” 고윤정, 고혹적 아우라 빛난 샤넬 화보 비하인드 - Daum](https://v.daum.net/v/20260920222309450)

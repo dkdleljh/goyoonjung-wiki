@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-12 10:41 (Asia/Seoul)
+> Updated: 2026-10-12 11:48 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1156
+- total_urls: 1166
 - S: 275
-- A: 331
+- A: 341
 - B: 195
 - BLOCK: 355
 
@@ -25,16 +25,16 @@
 | netflix.com | 22 | S:22 |
 | wkorea.com | 21 | A:21 |
 | instagram.com | 20 | B:20 |
-| yna.co.kr | 19 | A:19 |
+| yna.co.kr | 20 | A:20 |
 | news.nate.com | 18 | BLOCK:18 |
-| enews.imbc.com | 16 | A:16 |
+| enews.imbc.com | 17 | A:17 |
+| starnewskorea.com | 17 | A:17 |
 | mk.co.kr | 16 | A:16 |
-| starnewskorea.com | 16 | A:16 |
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
-| v.daum.net | 14 | A:14 |
-| chosun.com | 11 | A:11 |
+| v.daum.net | 15 | A:15 |
+| chosun.com | 12 | A:12 |
 | spotvnews.co.kr | 10 | A:10 |
 | news.sbs.co.kr | 10 | S:10 |
 | elle.co.kr | 10 | A:10 |

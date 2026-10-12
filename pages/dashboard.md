@@ -1,11 +1,11 @@
 # Dashboard
-> Last Refreshed: 2026-10-12 10:40:55 (Asia/Seoul)
+> Last Refreshed: 2026-10-12 11:47:51 (Asia/Seoul)
 
 ## Quick Status
 | Metric | Status | Note |
 | :--- | :--- | :--- |
 | **Daily Update** | **Running** | See `news/` for today |
-| **Database** | 83 URLs | `wiki.db` size: 192512 bytes |
+| **Database** | 93 URLs | `wiki.db` size: 208896 bytes |
 | **Machine Status** | See `system_status.md` | This page is a hub, not the source of truth |
 
 ## System Snapshot
