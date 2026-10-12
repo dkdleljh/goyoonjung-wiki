@@ -1,12 +1,21 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 13:10 (Asia/Seoul)
+> Updated: 2026-10-12 14:17 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · [‘고윤정 효과’ 톡톡…‘마니또 클럽’ 살린 예능 새내기, 첫 예능 성공적 [줌인] - Daum](https://v.daum.net/v/20260319060143629)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · [정해인→고윤정, 예능 뜬다…'마니또 클럽', 출연 확정 - 디스패치](https://www.dispatch.co.kr/2338820)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · [고윤정, “원래 아이돌 했었나?” 질문 속 예능 신고식 - TopStarNews](https://www.topstarnews.net/news/articleView.html?idxno=15996007)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · [고윤정, ‘마니또 클럽’ 첫 예능 합격…박명수 마니또로 존재감 - 스포츠동아](https://sports.donga.com/ent/article/all/20260225/133418102/1)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · ['마니또 클럽' 박명수, 고윤정 예능 분량 챙기기?! "말을 해야 해" - MBC](https://www.imbc.com/broad/enews/view.html?idx=497088)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · [고윤정X김도훈, '무빙2' 아닌 김태호PD 예능서 재회..."'마니또 클럽' 촬영" [공식입장] - 조선일보](https://www.chosun.com/entertainments/broadcast/2026/02/03/MQ2WEZJXMFRWMYTDHBRTAODDGY)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · ['美친 비주얼' 고윤정·정해인, 안방극장 찾는다…'마니또 클럽' 2기 시동 - Daum](https://v.daum.net/v/20260222160244500)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · [고윤정, 박명수도 놀란 깜짝 학력 고백 "대학 못 나와, 제적" (마니또클럽)[종합] - 조선일보](https://www.chosun.com/entertainments/broadcast/2026/03/08/HE4TQNBSGM2WMZLCGM4TSNRYHA)
+- 2026-10-12 · grade=A · VARIETY_GENERAL · [고윤정X정해인, 김태호 PD 예능서 만난다..."'마니또 클럽' 출연" [공식입장] - 조선일보](https://www.chosun.com/entertainments/broadcast/2026/01/22/HBSWINBYMJSDSN3GGE3GMZJVMM)
 - 2026-10-12 · grade=A · JA_ALL · [コ・ユンジョン、パリでぼんやり顔も女神 - 조선일보](https://www.chosun.com/jp/culture-life-jp/2026/09/27/MIEXJTA625CCJJFNZY7PRZFH44)
 - 2026-10-12 · grade=A · WORKS · [고윤정, 럭셔리 향수 화보 속 강렬 눈빛…무빙2·남벌 액션 행보 잇는다 - 톱스타뉴스](https://www.topstarnews.net/news/articleView.html?idxno=16201615)
 - 2026-10-12 · grade=A · WORKS · [189년 역사의 하이 주얼러 티파니앤코, 배우 고윤정 앰버서더로 선정 - Daum](https://v.daum.net/v/2YXpnXe4Al)

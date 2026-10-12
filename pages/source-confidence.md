@@ -1,19 +1,19 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-12 13:10 (Asia/Seoul)
+> Updated: 2026-10-12 14:18 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1193
+- total_urls: 1203
 - S: 275
-- A: 353
-- B: 210
+- A: 362
+- B: 211
 - BLOCK: 355
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
 | kstar.kbs.co.kr | 125 | S:125 |
-| youtube.com | 106 | B:106 |
+| youtube.com | 107 | B:107 |
 | google.com | 92 | BLOCK:92 |
 | youtu.be | 84 | B:84 |
 | maa.co.kr | 71 | BLOCK:71 |
@@ -26,22 +26,22 @@
 | yna.co.kr | 21 | A:21 |
 | wkorea.com | 21 | A:21 |
 | instagram.com | 20 | B:20 |
+| v.daum.net | 20 | A:20 |
 | news.nate.com | 18 | BLOCK:18 |
-| v.daum.net | 18 | A:18 |
 | enews.imbc.com | 17 | A:17 |
 | starnewskorea.com | 17 | A:17 |
 | mk.co.kr | 16 | A:16 |
+| chosun.com | 16 | A:16 |
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
-| chosun.com | 13 | A:13 |
 | spotvnews.co.kr | 10 | A:10 |
 | news.sbs.co.kr | 10 | S:10 |
 | elle.co.kr | 10 | A:10 |
 | program.tving.com | 9 | S:9 |
 | idaegu.com | 9 | BLOCK:9 |
+| sports.donga.com | 9 | A:9 |
 | fashionseoul.com | 9 | BLOCK:9 |
-| about.netflix.com | 8 | S:8 |
 
 ## Policy
 - S/A 출처는 자동 반영 후보입니다.

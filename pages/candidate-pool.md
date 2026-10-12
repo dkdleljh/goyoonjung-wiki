@@ -1,10 +1,11 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-12 13:12 (Asia/Seoul)
+> Updated: 2026-10-12 14:19 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-12 · grade=B · YOUTUBE_CLIPS · [260307 고윤정, 바라볼수록 빠질듯 매력 - RNX tv #공항패션 - YouTube](https://www.youtube.com/watch?v=89mLojkEDSI)
 - 2026-10-12 · grade=B · YOUTUBE_CLIPS · [4K｜해외 로케를 물었더니 오로라 본 거 자랑하는 고윤정 김선호｜이 사랑 통역 되나요?｜무비비 - YouTube](https://www.youtube.com/watch?v=clyEWYStr0I)
 - 2026-10-12 · grade=B · YOUTUBE_CLIPS · [[마니또클럽] 떡갈비 공장 풀가동🥩 윤정&해인&도훈의 우당탕탕 60인분 요리 준비ㅣ#고윤정 #정해인 #김도훈 MBC260315방송 - YouTube](https://www.youtube.com/watch?v=5ZV20aeJWSo)
 - 2026-10-12 · grade=B · YOUTUBE_CLIPS · [[젝시믹스] XEXYMIX, 고윤정이 전하는 MADE TO MOVE | 26FW 고윤정의 새로운 메시지 - YouTube](https://www.youtube.com/watch?v=E3h_-_CCVKc)
