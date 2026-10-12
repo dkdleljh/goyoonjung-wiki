@@ -1,6 +1,6 @@
 # Official Platform Watch (auto)
 
-> Updated: 2026-10-12 23:46 (Asia/Seoul)
+> Updated: 2026-10-13 00:02 (Asia/Seoul)
 
 ## Summary
 - official_platform_links: 101
@@ -21,7 +21,7 @@
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391253 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362920 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
-| 환혼: 빛과 그림자 (tvN) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847 |
+| 환혼: 빛과 그림자 (tvN) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=361830 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362628 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362734 |
@@ -83,7 +83,7 @@
 | 무빙 (Disney+) | disneyplus.com | S | https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391146 |
 | 무빙 (Disney+) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003 |
-| 무빙 (Disney+) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847 |
+| 무빙 (Disney+) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=343890 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/resident-playbook/ |
 | 언젠가는 슬기로울 전공의생활 (tvN) | tving.com | S | https://www.tving.com/contents/P001768976 |

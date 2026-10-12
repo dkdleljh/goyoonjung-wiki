@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-10-12
+> Updated: 2026-10-13
 
 ## wiki_completeness: **21/100**
 
@@ -29,11 +29,11 @@ score = verified OK / all discovered URLs; BAD forces zero
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-10-12T23:47:00+09:00
-age_hours: 0.01
-source: news/2026-10-12.md
+last_run: 2026-10-13T00:04:00+09:00
+age_hours: 0.0
+source: news/2026-10-13.md
 recorded_result: partial
-reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-12_0126.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:SKIP, sched:OK, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_MAG_RSS:FAIL(1), mode:local-collection (not published)
+reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-13_0004.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:SKIP, sched:OK, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_MAG_RSS:FAIL(1), mode:local-collection (not published)
 max_age_hours: 36
 
 ## domain_grade_status
@@ -45,10 +45,10 @@ max_age_hours: 36
 
 ## kpi_snapshot
 
-- new_urls: 146
-- landed_urls: 21
-- duplicate_rate: 48.06% (459/955)
+- new_urls: 0
+- landed_urls: 0
+- duplicate_rate: 50.00% (11/22)
 - verified_urls_by_grade:
-  - S: 21
-  - A: 104
-  - B: 21
+  - S: 0
+  - A: 0
+  - B: 0
