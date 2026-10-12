@@ -17,11 +17,11 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`76ed3d63`](https://github.com/dkdleljh/goyoonjung-wiki/commit/76ed3d63) — docs: sync collected wiki content for website
 - [`e836066f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e836066f) — docs: sync collected wiki content for website
 - [`752e4473`](https://github.com/dkdleljh/goyoonjung-wiki/commit/752e4473) — docs: sync collected wiki content for website
 - [`11a7091e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/11a7091e) — docs: sync collected wiki content for website
 - [`934133c4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/934133c4) — docs: sync collected wiki content for website
-- [`811d7ab5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/811d7ab5) — docs: sync collected wiki content for website
 
 ## 직전 변경 파일
 - `README.md`
