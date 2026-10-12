@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-12 09:34 (Asia/Seoul)
+> Updated: 2026-10-12 10:41 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1147
+- total_urls: 1156
 - S: 275
-- A: 322
+- A: 331
 - B: 195
 - BLOCK: 355
 
@@ -17,7 +17,7 @@
 | youtube.com | 91 | B:91 |
 | youtu.be | 84 | B:84 |
 | maa.co.kr | 71 | BLOCK:71 |
-| marieclairekorea.com | 62 | A:62 |
+| marieclairekorea.com | 64 | A:64 |
 | tving.com | 32 | S:32 |
 | news.jtbc.co.kr | 28 | S:28 |
 | vogue.co.kr | 27 | A:27 |
@@ -33,12 +33,12 @@
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
-| v.daum.net | 11 | A:11 |
+| v.daum.net | 14 | A:14 |
 | chosun.com | 11 | A:11 |
+| spotvnews.co.kr | 10 | A:10 |
 | news.sbs.co.kr | 10 | S:10 |
 | elle.co.kr | 10 | A:10 |
 | program.tving.com | 9 | S:9 |
-| spotvnews.co.kr | 9 | A:9 |
 | idaegu.com | 9 | BLOCK:9 |
 | fashionseoul.com | 9 | BLOCK:9 |
 | about.netflix.com | 8 | S:8 |

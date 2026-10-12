@@ -29,8 +29,8 @@ score = verified OK / all discovered URLs; BAD forces zero
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-10-12T09:35:00+09:00
-age_hours: 0.01
+last_run: 2026-10-12T10:42:00+09:00
+age_hours: 0.02
 source: news/2026-10-12.md
 recorded_result: partial
 reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-12_0126.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:SKIP, sched:OK, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_MAG_RSS:FAIL(1), RC_YT:FAIL(1), mode:local-collection (not published)
@@ -45,10 +45,10 @@ max_age_hours: 36
 
 ## kpi_snapshot
 
-- new_urls: 74
+- new_urls: 83
 - landed_urls: 16
-- duplicate_rate: 22.22% (58/261)
+- duplicate_rate: 22.73% (70/308)
 - verified_urls_by_grade:
   - S: 16
-  - A: 55
+  - A: 64
   - B: 3

@@ -1,12 +1,21 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 09:33 (Asia/Seoul)
+> Updated: 2026-10-12 10:40 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · FASHION · [샤넬의 앰배서더 배우 고윤정과 함께한 마리끌레르 10월호 커버 - 마리끌레르 코리아](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power)
+- 2026-10-12 · grade=A · FASHION · [고윤정, 순백의 여신…맑고 우아한 고유의 아름다움 [화보] - 조선비즈 - Chosunbiz](https://biz.chosun.com/entertainment/enter_general/2026/09/03/HA4GMYLEHE2DGOBRGY4DAZDCMU)
+- 2026-10-12 · grade=A · FASHION · [“숨멎 유발 비주얼” 고윤정, 고혹적 아우라 빛난 샤넬 화보 비하인드 - Daum](https://v.daum.net/v/20260920222309450)
+- 2026-10-12 · grade=A · FASHION · ["파리서 빛나는 아우라"… 고윤정, 모자 하나 썼을 뿐인데 '화보가 되는 일상' - SPOTV NEWS](https://www.spotvnews.co.kr/news/articleView.html?idxno=1009870)
+- 2026-10-12 · grade=A · FASHION · [샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리 - 마리끌레르 코리아](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox)
+- 2026-10-12 · grade=A · FASHION · [고윤정, 얼굴 믿고 다 하네…파리서 '멍한 표정'도 화보 - Daum](https://v.daum.net/v/Bij7ICfzmE)
+- 2026-10-12 · grade=A · FASHION · [고윤정, 존재 자체가 예술 작품같아…고혹적 무드 [화보] - 조선비즈 - Chosunbiz](https://biz.chosun.com/entertainment/tv/2026/09/17/MIYDCYZRGI2TKOBUG4YTIN3GME)
+- 2026-10-12 · grade=A · FASHION · [고윤정이 완성한 가을의 조각[화보] - Daum](https://v.daum.net/v/20260917090011098)
+- 2026-10-12 · grade=A · FASHION · [고윤정, 애슬레저룩에 청순·섹시 美 (화보) - 조선비즈 - Chosunbiz](https://biz.chosun.com/entertainment/enter_general/2026/09/22/MEZGENTFMI2TMZBVGM4GKMTEMM)
 - 2026-10-12 · grade=A · JA_ALL · [コ・ユンジョンが惚れ込むのも無理はない···キム・ソノ、隠しきれないえくぼの笑み - 스타뉴스](https://www.starnewskorea.com/ja/star/2026/09/16/2026091618304861386)
 - 2026-10-12 · grade=A · AWARDS · [고윤정, 압도적인 분위기...‘청룡 레드카펫 장악’[케이팝 헌터스] - 스타투데이 - 매일경제](https://www.mk.co.kr/news/photos/12122864)
 - 2026-10-12 · grade=A · AWARDS · [고윤정 귀걸이 어디 거? 청룡 레드카펫 주얼리 총정리 - www.cosmopolitan.co.kr](https://www.cosmopolitan.co.kr/article/1907332)
