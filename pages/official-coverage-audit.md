@@ -1,6 +1,6 @@
 # Official Coverage Audit (auto)
 
-> Updated: 2026-10-12 14:19 (Asia/Seoul)
+> Updated: 2026-10-12 15:26 (Asia/Seoul)
 
 ## Scores
 - official_work_sync: **40/100**
@@ -16,13 +16,13 @@
 ## Critical Verification Debt
 - unresolved_awards: 11
 - unresolved_profile: 2
-- unresolved_sns: 2
-- verification_queue_items: 36
+- unresolved_sns: 1
+- verification_queue_items: 37
 
 ## Future Coverage
 - upcoming_schedule_items: 0
 
 ## Notes
-- MAA fetch failed: HTTPSConnectionPool(host='maa.co.kr', port=443): Max retries exceeded with url: /artists/go-younjung (Caused by ConnectTimeoutError(<HTTPSConnection(host='maa.co.kr', port=443) at 0x7f0dcf5c8050>, 'Connection to maa.co.kr timed out. (connect timeout=15)'))
+- MAA fetch failed: HTTPSConnectionPool(host='maa.co.kr', port=443): Max retries exceeded with url: /artists/go-younjung (Caused by ConnectTimeoutError(<HTTPSConnection(host='maa.co.kr', port=443) at 0x7efe287f8050>, 'Connection to maa.co.kr timed out. (connect timeout=15)'))
 - Awards page still contains unresolved official-proof debt.
 - SNS page still contains an unresolved official account.

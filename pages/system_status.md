@@ -2,13 +2,13 @@
 
 > Updated: 2026-10-12
 
-## wiki_completeness: **28/100**
+## wiki_completeness: **27/100**
 
-placeholder debt score: debt=63
+placeholder debt score: debt=65
 - official_audit.coverage_readiness: 7
 - official_audit.official_work_sync: 40
-- (페이지 내 표기 확인 필요): 14
-- (확인 필요): 18
+- (페이지 내 표기 확인 필요): 15
+- (확인 필요): 19
 - 검증불가: 13
 - 교차검증 필요: 0
 - 미확정: 2
@@ -29,7 +29,7 @@ score = verified OK / all discovered URLs; BAD forces zero
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-10-12T14:19:00+09:00
+last_run: 2026-10-12T15:26:00+09:00
 age_hours: 0.01
 source: news/2026-10-12.md
 recorded_result: partial
@@ -45,10 +45,10 @@ max_age_hours: 36
 
 ## kpi_snapshot
 
-- new_urls: 130
-- landed_urls: 16
-- duplicate_rate: 36.27% (218/601)
+- new_urls: 134
+- landed_urls: 17
+- duplicate_rate: 40.36% (268/664)
 - verified_urls_by_grade:
-  - S: 16
-  - A: 95
-  - B: 19
+  - S: 17
+  - A: 97
+  - B: 20
