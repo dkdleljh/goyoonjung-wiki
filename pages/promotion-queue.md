@@ -1,12 +1,20 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-12 11:47 (Asia/Seoul)
+> Updated: 2026-10-12 12:02 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-12 · grade=A · VARIETY_WORK · [이병헌·고윤정, 무협 액션 영화 '남벌' 출연 - 연합뉴스](https://www.yna.co.kr/view/AKR20260708065300005)
+- 2026-10-12 · grade=A · VARIETY_WORK · [고윤정, 시대극 '남벌' 출연…이병헌과 무협 액션 호흡 - 디스패치](https://www.dispatch.co.kr/2344909)
+- 2026-10-12 · grade=A · VARIETY_WORK · [[공식] 고윤정, 이병헌과 호흡…‘남벌’ 출연 확정 - 스포츠동아](https://sports.donga.com/ent/article/all/20260707/134254435/1)
+- 2026-10-12 · grade=A · VARIETY_WORK · [고윤정, 반짝 드레스 차림으로 미소…예능·드라마 활약 잇는다 - 톱스타뉴스](https://www.topstarnews.net/news/articleView.html?idxno=16105174)
+- 2026-10-12 · grade=A · VARIETY_WORK · [고윤정, 이병헌과 만난다…‘남벌’ 출연 확정 - Daum](https://v.daum.net/v/20260707155800017)
+- 2026-10-12 · grade=A · VARIETY_WORK · [고윤정, 이병헌 만난다...무협 액션 '남벌' 출연 확정 [공식] - 조선비즈 - Chosunbiz](https://biz.chosun.com/entertainment/movie/2026/07/07/GM4DOMBTHA4WKN3DMVRTMYJVGE)
+- 2026-10-12 · grade=A · VARIETY_WORK · [[공식] 우즈, 스크린 연기 도전…이병헌X고윤정 ‘남벌’ 출연 - 스포츠동아](https://sports.donga.com/ent/article/all/20260723/134348815/1)
+- 2026-10-12 · grade=A · VARIETY_WORK · [이도현, 고윤정과 3번째 재회→이병헌과 첫 호흡…영화 '남벌'로 스크린 복귀 [공식] - Daum](https://v.daum.net/v/20260720101907247)
 - 2026-10-12 · grade=A · WORKS · [고윤정, 꽃벽 앞 우아한 핑크 드레스…'무빙2'·'남벌'로 열일 행보 - 톱스타뉴스](https://www.topstarnews.net/news/articleView.html?idxno=16225747)
 - 2026-10-12 · grade=A · WORKS · [류승룡 "고윤정과 '무빙2' 촬영 시작, 어제 본 것 같더라" [엑's 인터뷰] - Daum](https://v.daum.net/v/80dPPWQ95g)
 - 2026-10-12 · grade=A · WORKS · ['고윤정 출연 작품 아니었어?'…패션업계, 영화 같은 광고 화제 - 연합뉴스](https://www.yna.co.kr/view/AKR20260923185000030)

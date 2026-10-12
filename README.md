@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `e41ec6ff` |
+| 최신 커밋 | `bc465fe8` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,11 +63,11 @@
   - 로컬 노트: `logs/releases/release-notes-v1.58.0.md`
 
 ## 최근 변경 요약
+- [`bc465fe8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bc465fe8) — docs: sync collected wiki content for website
 - [`e41ec6ff`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e41ec6ff) — docs: sync collected wiki content for website
 - [`e9e9f2c7`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e9e9f2c7) — docs: sync collected wiki content for website
 - [`4336888f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4336888f) — docs: sync collected wiki content for website
 - [`18a75015`](https://github.com/dkdleljh/goyoonjung-wiki/commit/18a75015) — docs: sync collected wiki content for website
-- [`ad8d3f6b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ad8d3f6b) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
 - `README.md`
@@ -75,9 +75,9 @@
 - `data/facts/profile.json`
 - `data/facts/sources.json`
 - `data/facts/works.json`
+- `data/reports/preflight.json`
 - `data/reports/watchdog.json`
 - `index.md`
-- `news/2026-10-12.md`
 
 ## 자주 쓰는 명령
 ```bash

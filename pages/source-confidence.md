@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-12 11:48 (Asia/Seoul)
+> Updated: 2026-10-12 12:02 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1166
+- total_urls: 1174
 - S: 275
-- A: 341
+- A: 349
 - B: 195
 - BLOCK: 355
 
@@ -23,17 +23,17 @@
 | vogue.co.kr | 27 | A:27 |
 | disneyplus.com | 24 | S:24 |
 | netflix.com | 22 | S:22 |
+| yna.co.kr | 21 | A:21 |
 | wkorea.com | 21 | A:21 |
 | instagram.com | 20 | B:20 |
-| yna.co.kr | 20 | A:20 |
 | news.nate.com | 18 | BLOCK:18 |
 | enews.imbc.com | 17 | A:17 |
 | starnewskorea.com | 17 | A:17 |
+| v.daum.net | 17 | A:17 |
 | mk.co.kr | 16 | A:16 |
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
-| v.daum.net | 15 | A:15 |
 | chosun.com | 12 | A:12 |
 | spotvnews.co.kr | 10 | A:10 |
 | news.sbs.co.kr | 10 | S:10 |
