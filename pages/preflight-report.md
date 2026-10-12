@@ -1,6 +1,6 @@
 # Automation Preflight Report (auto)
 
-> Updated: 2026-10-12 19:14 (Asia/Seoul)
+> Updated: 2026-10-12 20:21 (Asia/Seoul)
 
 ## Summary
 - status: WARN
@@ -13,6 +13,6 @@
 | .venv/bin/bandit | OK | present |
 | .venv/bin/pytest | OK | present |
 | Discord webhook | OK | configured |
-| disk free | OK | 58622 MiB |
+| disk free | OK | 58621 MiB |
 | run lock | WARN | present |
 | goyoonjung-wiki-daily.timer | OK | next run scheduled |
