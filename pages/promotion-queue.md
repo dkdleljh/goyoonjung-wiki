@@ -1,12 +1,13 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-13 10:35 (Asia/Seoul)
+> Updated: 2026-10-13 11:42 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-13 · grade=A · VARIETY_WORK · [정준원, 고윤정 이어 공효진과 부부 호흡..'유부녀 킬러' 출연 [공식] - 스타뉴스](https://www.starnewskorea.com/star/2026/06/15/2026061514100948071)
 - 2026-10-13 · grade=A · VARIETY_GENERAL · [고윤정→윤남노, 심야식당 오픈…“난리났다” 주문 폭주에 주방 대혼돈 (마니또 클럽) - Daum](https://v.daum.net/v/20260322073726348)
 - 2026-10-13 · grade=A · VARIETY_GENERAL · [고윤정, 예능 신고식…이명화 성대모사·댄스 폭발 (마니또클럽) - 스포츠동아](https://sports.donga.com/ent/article/all/20260308/133484239/1)
 - 2026-10-13 · grade=A · VARIETY_WORK · ['고윤정 출연 작품 아니었어?'…패션업계, 영화 같은 광고 화제 - Daum](https://v.daum.net/v/20260925090156827?f=p)
