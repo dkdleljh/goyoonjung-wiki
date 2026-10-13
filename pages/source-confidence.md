@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-14 05:46 (Asia/Seoul)
+> Updated: 2026-10-14 06:02 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1257
+- total_urls: 1258
 - S: 291
-- A: 388
+- A: 389
 - B: 223
 - BLOCK: 355
 
@@ -21,7 +21,7 @@
 | news.jtbc.co.kr | 43 | S:43 |
 | tving.com | 30 | S:30 |
 | vogue.co.kr | 27 | A:27 |
-| v.daum.net | 25 | A:25 |
+| v.daum.net | 26 | A:26 |
 | disneyplus.com | 24 | S:24 |
 | netflix.com | 22 | S:22 |
 | yna.co.kr | 21 | A:21 |
