@@ -1,12 +1,13 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-13 15:34 (Asia/Seoul)
+> Updated: 2026-10-13 16:41 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-13 · grade=A · VARIETY · [고윤정, 모자무싸 감정선 폭발 동만을 영화감독이라 부른 한마디 : 네이버 블로그 - Naver Blog](https://blog.naver.com/yooju0913/224267486166?viewType=pc)
 - 2026-10-13 · grade=A · VARIETY_TALK · [나영석, 고윤정 성격 카메라 온오프 달라…"사방팔방 돌아다녀" ('십오야') - 모바일한경](https://plus.hankyung.com/apps/newsinside.view?aid=2026010921184&category=&sns=y)
 - 2026-10-13 · grade=A · VARIETY_TALK · [구교환, 상대역 고윤정과 사주까지 찰떡 궁합…"기가 막히게 잘 맞더라" (살롱드립) - 엑스포츠뉴스](https://www.xportsnews.com/article/2142624)
 - 2026-10-13 · grade=A · VARIETY_TALK · [김선호 “고윤정 AI처럼 예쁜데 반전 저음, 이젠 서로 조롱하는 사이”(십오야) - 뉴스엔](https://newsen.com/news_view.php?uid=202601101429442510)
