@@ -1,19 +1,19 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-13 09:28 (Asia/Seoul)
+> Updated: 2026-10-13 10:35 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1237
+- total_urls: 1240
 - S: 288
-- A: 377
-- B: 217
+- A: 379
+- B: 218
 - BLOCK: 355
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
 | kstar.kbs.co.kr | 125 | S:125 |
-| youtube.com | 113 | B:113 |
+| youtube.com | 114 | B:114 |
 | google.com | 92 | BLOCK:92 |
 | youtu.be | 84 | B:84 |
 | maa.co.kr | 71 | BLOCK:71 |
@@ -21,8 +21,8 @@
 | news.jtbc.co.kr | 34 | S:34 |
 | tving.com | 32 | S:32 |
 | vogue.co.kr | 27 | A:27 |
+| v.daum.net | 25 | A:25 |
 | disneyplus.com | 24 | S:24 |
-| v.daum.net | 24 | A:24 |
 | netflix.com | 22 | S:22 |
 | yna.co.kr | 21 | A:21 |
 | wkorea.com | 21 | A:21 |
@@ -36,7 +36,7 @@
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
-| sports.donga.com | 11 | A:11 |
+| sports.donga.com | 12 | A:12 |
 | spotvnews.co.kr | 10 | A:10 |
 | elle.co.kr | 10 | A:10 |
 | program.tving.com | 9 | S:9 |

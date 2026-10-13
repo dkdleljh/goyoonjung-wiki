@@ -1,12 +1,14 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-13 09:28 (Asia/Seoul)
+> Updated: 2026-10-13 10:35 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-13 · grade=A · VARIETY_GENERAL · [고윤정→윤남노, 심야식당 오픈…“난리났다” 주문 폭주에 주방 대혼돈 (마니또 클럽) - Daum](https://v.daum.net/v/20260322073726348)
+- 2026-10-13 · grade=A · VARIETY_GENERAL · [고윤정, 예능 신고식…이명화 성대모사·댄스 폭발 (마니또클럽) - 스포츠동아](https://sports.donga.com/ent/article/all/20260308/133484239/1)
 - 2026-10-13 · grade=A · VARIETY_WORK · ['고윤정 출연 작품 아니었어?'…패션업계, 영화 같은 광고 화제 - Daum](https://v.daum.net/v/20260925090156827?f=p)
 - 2026-10-13 · grade=A · VARIETY_WORK · [고윤정, 이병헌과 만난다…‘남벌’ 출연 확정 - 일간스포츠](https://isplus.com/article/view/isp202607070191)
 - 2026-10-13 · grade=A · FASHION · [고윤정, 얼굴 믿고 다 하네…파리서 '멍한 표정'도 화보 - Daum](https://v.daum.net/v/20260928040129745)
