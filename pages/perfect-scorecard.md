@@ -1,6 +1,6 @@
 # Operational Scorecard (auto)
 
-> Updated: 2026-10-13 (Asia/Seoul)
+> Updated: 2026-10-14 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 120

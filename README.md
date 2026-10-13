@@ -2,7 +2,7 @@
 
 ![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.58.2-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-21-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-10-13
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-10-14
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `db7596c4` |
+| 최신 커밋 | `f4e18b21` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,11 +63,11 @@
   - 로컬 노트: `logs/releases/release-notes-v1.58.0.md`
 
 ## 최근 변경 요약
+- [`f4e18b21`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f4e18b21) — docs: sync collected wiki content for website
 - [`db7596c4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/db7596c4) — docs: sync collected wiki content for website
 - [`bf0fd59e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bf0fd59e) — docs: sync collected wiki content for website
 - [`a3c55132`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a3c55132) — docs: sync collected wiki content for website
 - [`2f1c2ed0`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2f1c2ed0) — docs: sync collected wiki content for website
-- [`4e594640`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4e594640) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
 - `README.md`

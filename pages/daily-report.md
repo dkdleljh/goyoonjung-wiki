@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-13 23:41 (Asia/Seoul)
+> 갱신: 2026-10-14 00:04 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- db7596c4 2026-10-13 22:33:51 +0900 docs: sync collected wiki content for website
+- f4e18b21 2026-10-13 23:41:34 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -44,7 +44,7 @@
 - pages/works/sweethome.md
 - sources/awards-official.md
 
-## 3) 오늘 실행 상태(news/2026-10-13.md)
+## 3) 오늘 실행 상태(news/2026-10-14.md)
 
 ## 실행 상태
 
@@ -58,11 +58,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 26
-- landed_urls: 3
-- duplicate_rate: 57.79% (571/988)
+- new_urls: 0
+- landed_urls: 0
+- duplicate_rate: 30.77% (8/26)
 - verified_urls_by_grade:
-  - S: 3
-  - A: 15
-  - B: 8
+  - S: 0
+  - A: 0
+  - B: 0
 
