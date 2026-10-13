@@ -1,10 +1,13 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-14 04:40 (Asia/Seoul)
+> Updated: 2026-10-14 05:47 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [고윤정X연운경 통합본📂 예비 손주사위 본 할머니의 반응?ㅎㅎ｜모.자.무.싸｜JTBC 260524 방송 외 - YouTube](https://www.youtube.com/watch?v=Ro6b6eBUH6o)
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[2025 펀덱스 어워드] TV 드라마 여자 주연 | 고윤정 | 언젠가는슬기로울전공의생활 | 20251218 방송 - YouTube](https://www.youtube.com/watch?v=9xNJ2ZB5IuM)
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [고윤정, ‘샤넬 2026 공방 컬렉션 서울 쇼’ 포토월 행사🎥'GOYOUNJUNG' CHANEL Show 2026.5.26 Newsen - YouTube](https://www.youtube.com/watch?v=CQHj8crL1so)
 - 2026-10-13 · grade=B · VARIETY_TALK · [[마니또 클럽] 카다이프 쏟은 고윤정😱 윤남노의 차별 대우에 섭섭한 김도훈, MBC 260315 방송 - YouTube](https://www.youtube.com/watch?v=-BRpP4slPUY)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[마니또 클럽] 진정한 두친자 고윤정🧆 고윤정의 발길을 붙잡은 두바이 쫀득 쿠키, MBC 260222 방송 - YouTube](https://www.youtube.com/watch?v=tcjOpQ2J0Kc)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[마니또 클럽] ＂윤정아~ 윤정아~＂😍 고윤정 옆에 붙은 홍진경X박명수, MBC 260315 방송 - YouTube](https://www.youtube.com/watch?v=wNu2TXYMymg)

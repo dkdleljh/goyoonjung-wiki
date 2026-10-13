@@ -1,12 +1,13 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-14 04:39 (Asia/Seoul)
+> Updated: 2026-10-14 05:46 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-13 · grade=A · VARIETY_WORK · [김대호 "연애 안 한 지 10년 넘어…이상형은 고윤정" - 뉴시스](https://www.newsis.com/view/NISX20260619_0003676045)
 - 2026-10-13 · grade=A · WORKS · [고윤정, 드레스 여신인 줄 알았더니…반전 셀카까지 - 스타투데이 - 매일경제](https://www.mk.co.kr/news/hot-issues/12163132)
 - 2026-10-13 · grade=A · VARIETY · [고윤정, 모자무싸 감정선 폭발 동만을 영화감독이라 부른 한마디 : 네이버 블로그 - Naver Blog](https://blog.naver.com/yooju0913/224267486166?viewType=pc)
 - 2026-10-13 · grade=A · VARIETY_TALK · [나영석, 고윤정 성격 카메라 온오프 달라…"사방팔방 돌아다녀" ('십오야') - 모바일한경](https://plus.hankyung.com/apps/newsinside.view?aid=2026010921184&category=&sns=y)

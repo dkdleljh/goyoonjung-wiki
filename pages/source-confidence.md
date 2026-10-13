@@ -1,19 +1,19 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-14 04:39 (Asia/Seoul)
+> Updated: 2026-10-14 05:46 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1253
+- total_urls: 1257
 - S: 291
-- A: 387
-- B: 220
+- A: 388
+- B: 223
 - BLOCK: 355
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
 | kstar.kbs.co.kr | 125 | S:125 |
-| youtube.com | 116 | B:116 |
+| youtube.com | 119 | B:119 |
 | google.com | 92 | BLOCK:92 |
 | youtu.be | 84 | B:84 |
 | maa.co.kr | 71 | BLOCK:71 |
