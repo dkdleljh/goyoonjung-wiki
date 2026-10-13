@@ -1,12 +1,13 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-14 06:02 (Asia/Seoul)
+> Updated: 2026-10-14 07:08 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-13 · grade=A · EN_ALL · [RESCENE's Jena belts out 'Eomeona,' Jang Yun-jeong fires back with 'Love Attack' dance challenge - 헤럴드경제](https://biz.heraldcorp.com/article/10880828)
 - 2026-10-13 · grade=A · VARIETY_GENERAL · [[단독]고윤정, 첫 예능 전격 출연…'마니또 클럽'으로 매력 봉인 해제 - Daum](https://v.daum.net/v/20260122071123454?f=m)
 - 2026-10-13 · grade=A · VARIETY_WORK · [김대호 "연애 안 한 지 10년 넘어…이상형은 고윤정" - 뉴시스](https://www.newsis.com/view/NISX20260619_0003676045)
 - 2026-10-13 · grade=A · WORKS · [고윤정, 드레스 여신인 줄 알았더니…반전 셀카까지 - 스타투데이 - 매일경제](https://www.mk.co.kr/news/hot-issues/12163132)
