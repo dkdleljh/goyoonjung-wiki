@@ -36,13 +36,15 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-13 17:49 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-13 18:04 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
 - ⭐ [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
 
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
+
+- ⭐ [고윤정 “‘이사통’ 김선호 보고 설렌 적? 분명 있었을 텐데…” - JTBC](https://news.jtbc.co.kr/article/NB12281561)  _(출처: appearances.md)_
 
 
 
@@ -51,6 +53,8 @@
 - [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
+
+- [고윤정 “‘이사통’ 김선호 보고 설렌 적? 분명 있었을 텐데…” - JTBC](https://news.jtbc.co.kr/article/NB12281561)  _(출처: appearances.md)_
 
 - [모자무싸 협업과 무빙 시즌 2 촬영 소감](https://enews.imbc.com/News/ViewAmp/508207)  _(출처: interviews.md)_
 
@@ -81,8 +85,6 @@
 - [(인터뷰) '무빙' 고윤정 "갖고 싶은 능력? 날라다니고 싶죠"](https://www.newstomato.com/ReadNews.aspx?no=1199951)  _(출처: interviews.md)_
 
 - [고윤정, '무빙 시즌2' 이어 '남벌'까지…OTT와 스크린 넘나든다 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003)  _(출처: appearances.md)_
-
-- [우즈, '남벌'로 스크린 데뷔…이병헌·고윤정과 연기 호흡 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658)  _(출처: appearances.md)_
 
 - [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)  _(출처: appearances.md)_
 

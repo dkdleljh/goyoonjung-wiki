@@ -27,7 +27,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-13 17:49 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-13 18:04 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -76,6 +76,10 @@
 - [고윤정, ‘모자무싸’로 인생 캐릭터 경신 - JTBC](https://news.jtbc.co.kr/article/NB12294929)  _(출처: appearances.md)_
 
 - [‘모자무싸’ 고윤정, 시청자 응원 부른 불안과 결핍의 새 얼굴 - JTBC](https://news.jtbc.co.kr/article/NB12299711)  _(출처: appearances.md)_
+
+- [‘모자무싸’ 구교환·고윤정·배종옥, 숨 막히는 삼자대면… 밝혀질 비밀은 - JTBC](https://news.jtbc.co.kr/article/NB12299569)  _(출처: appearances.md)_
+
+- [고윤정 “‘이사통’ 김선호 보고 설렌 적? 분명 있었을 텐데…” - JTBC](https://news.jtbc.co.kr/article/NB12281561)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

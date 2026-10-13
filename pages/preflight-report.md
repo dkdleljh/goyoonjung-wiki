@@ -1,6 +1,6 @@
 # Automation Preflight Report (auto)
 
-> Updated: 2026-10-13 17:46 (Asia/Seoul)
+> Updated: 2026-10-13 18:00 (Asia/Seoul)
 
 ## Summary
 - status: WARN
@@ -15,4 +15,4 @@
 | Discord webhook | OK | configured |
 | disk free | OK | 58525 MiB |
 | run lock | WARN | present |
-| goyoonjung-wiki-daily.timer | OK | next run scheduled |
+| goyoonjung-wiki-daily.timer | WARN | no next run |
