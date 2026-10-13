@@ -1,10 +1,11 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-14 07:10 (Asia/Seoul)
+> Updated: 2026-10-14 08:17 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [자책이 습관된 현대인들에게...🥲｜고윤정 명대사｜모.자.무.싸｜JTBC 260517 방송 외 - YouTube](https://www.youtube.com/watch?v=R9LyACXS_DU)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [고윤정X연운경 통합본📂 예비 손주사위 본 할머니의 반응?ㅎㅎ｜모.자.무.싸｜JTBC 260524 방송 외 - YouTube](https://www.youtube.com/watch?v=Ro6b6eBUH6o)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[2025 펀덱스 어워드] TV 드라마 여자 주연 | 고윤정 | 언젠가는슬기로울전공의생활 | 20251218 방송 - YouTube](https://www.youtube.com/watch?v=9xNJ2ZB5IuM)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [고윤정, ‘샤넬 2026 공방 컬렉션 서울 쇼’ 포토월 행사🎥'GOYOUNJUNG' CHANEL Show 2026.5.26 Newsen - YouTube](https://www.youtube.com/watch?v=CQHj8crL1so)
