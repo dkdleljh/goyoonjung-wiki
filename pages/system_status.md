@@ -29,7 +29,7 @@ score = verified OK / all discovered URLs; BAD forces zero
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-10-14T02:27:00+09:00
+last_run: 2026-10-14T03:34:00+09:00
 age_hours: 0.0
 source: news/2026-10-14.md
 recorded_result: partial
@@ -45,10 +45,10 @@ max_age_hours: 36
 
 ## kpi_snapshot
 
-- new_urls: 0
+- new_urls: 1
 - landed_urls: 0
-- duplicate_rate: 41.51% (44/106)
+- duplicate_rate: 52.66% (89/169)
 - verified_urls_by_grade:
   - S: 0
-  - A: 0
+  - A: 1
   - B: 0

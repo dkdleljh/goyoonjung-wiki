@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-14 02:25 (Asia/Seoul)
+> Updated: 2026-10-14 03:32 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1252
+- total_urls: 1253
 - S: 291
-- A: 386
+- A: 387
 - B: 220
 - BLOCK: 355
 
@@ -29,9 +29,9 @@
 | instagram.com | 20 | B:20 |
 | starnewskorea.com | 19 | A:19 |
 | news.nate.com | 18 | BLOCK:18 |
+| mk.co.kr | 18 | A:18 |
 | chosun.com | 18 | A:18 |
 | enews.imbc.com | 17 | A:17 |
-| mk.co.kr | 17 | A:17 |
 | nc.press | 15 | BLOCK:15 |
 | tvn.cjenm.com | 15 | S:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
