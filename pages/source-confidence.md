@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-13 13:20 (Asia/Seoul)
+> Updated: 2026-10-13 14:27 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1242
+- total_urls: 1243
 - S: 288
-- A: 380
+- A: 381
 - B: 219
 - BLOCK: 355
 
