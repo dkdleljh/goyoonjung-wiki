@@ -304,6 +304,22 @@
 - 상태: 보도(1차)
 - id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658
 - 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: ‘모자무싸’ 구교환·고윤정·배종옥, 숨 막히는 삼자대면… 밝혀질 비밀은 - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12299569
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12299569
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: 고윤정 “‘이사통’ 김선호 보고 설렌 적? 분명 있었을 텐데…” - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12281561
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12281561
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
 ## 공식 링크
 - (S) 소속사(MAA) 프로필(필모/공식 활동): https://maa.co.kr/artists/go-younjung
 - (A/S) YouTube(tvN/Netflix/Disney+ Korea 등 공식 채널) 링크는 항목별 `링크(공식/원문)`에 기록
