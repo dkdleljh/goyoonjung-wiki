@@ -1,10 +1,15 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-13 08:22 (Asia/Seoul)
+> Updated: 2026-10-13 09:30 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [고윤정, 김포공항 출국 | Go YounJung Airport Departure - YouTube](https://www.youtube.com/watch?v=JWcRHDEI6BQ)
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [한양공주 고윤정 & 북부대공 허남준 - YouTube](https://www.youtube.com/watch?v=9WTmRv0HVyE)
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [이렇게 설레도 되나요? 톱스타 연기한 톱스타 고윤정 #이사통 #고윤정 [독특한 연예뉴스] - YouTube](https://www.youtube.com/watch?v=TDxHlvZzcEg)
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[마니또클럽] 이게 플러팅이야 싸우는 거야ㅋㅋㅋ 못생긴 애들(?)과 잘생긴 애들(?)의 극과 극 자가제면 도전기ㅣ#고윤정 #정해인 #박명수 MBC260315방송 - YouTube](https://www.youtube.com/watch?v=yUSSJugtqeQ)
+- 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[#유퀴즈온더블럭] 고윤정을 좋아하세요? 네...🩷 미대생이었던 고윤정의 인생을 바꾼 한 마디✨ - YouTube](https://www.youtube.com/watch?v=R94aEVp_cgg)
 - 2026-10-12 · grade=B · VARIETY · [[마니또 클럽] 차가운 냉미녀같지만 본캐는 세상 털털하고 해맑음ㅋㅋ 초딩같은 고윤정의 반전 본캐ㅣ#고윤정 #정해인 MBC260308방송 - YouTube](https://www.youtube.com/watch?v=DP63tJrW-A0)
 - 2026-10-12 · grade=B · YOUTUBE_CLIPS · [[이 사랑 통역 되나요?] 메인 예고편: 김선호, 고윤정, 후쿠시 소타, 이이담, 최우성: 2026.01 넷플릭스 드라마 시리즈 Can This Love Be Translated? - YouTube](https://www.youtube.com/watch?v=CNSkB8WOHVU)
 - 2026-10-12 · grade=B · YOUTUBE_CLIPS · [260307 고윤정, 바라볼수록 빠질듯 매력 - RNX tv #공항패션 - YouTube](https://www.youtube.com/watch?v=89mLojkEDSI)

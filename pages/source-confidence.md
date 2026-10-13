@@ -1,19 +1,19 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-13 08:21 (Asia/Seoul)
+> Updated: 2026-10-13 09:28 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1229
+- total_urls: 1237
 - S: 288
-- A: 374
-- B: 212
+- A: 377
+- B: 217
 - BLOCK: 355
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
 | kstar.kbs.co.kr | 125 | S:125 |
-| youtube.com | 108 | B:108 |
+| youtube.com | 113 | B:113 |
 | google.com | 92 | BLOCK:92 |
 | youtu.be | 84 | B:84 |
 | maa.co.kr | 71 | BLOCK:71 |
@@ -22,8 +22,8 @@
 | tving.com | 32 | S:32 |
 | vogue.co.kr | 27 | A:27 |
 | disneyplus.com | 24 | S:24 |
+| v.daum.net | 24 | A:24 |
 | netflix.com | 22 | S:22 |
-| v.daum.net | 22 | A:22 |
 | yna.co.kr | 21 | A:21 |
 | wkorea.com | 21 | A:21 |
 | instagram.com | 20 | B:20 |

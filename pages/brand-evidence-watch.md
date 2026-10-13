@@ -1,6 +1,6 @@
 # Brand Evidence Watch (auto)
 
-> Updated: 2026-10-13 08:21 (Asia/Seoul)
+> Updated: 2026-10-13 09:28 (Asia/Seoul)
 
 ## Summary
 - brand_evidence_items: 81
