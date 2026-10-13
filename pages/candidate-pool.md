@@ -1,10 +1,11 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-13 14:28 (Asia/Seoul)
+> Updated: 2026-10-13 15:36 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-13 · grade=B · VARIETY_TALK · [[마니또 클럽] 카다이프 쏟은 고윤정😱 윤남노의 차별 대우에 섭섭한 김도훈, MBC 260315 방송 - YouTube](https://www.youtube.com/watch?v=-BRpP4slPUY)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[마니또 클럽] 진정한 두친자 고윤정🧆 고윤정의 발길을 붙잡은 두바이 쫀득 쿠키, MBC 260222 방송 - YouTube](https://www.youtube.com/watch?v=tcjOpQ2J0Kc)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[마니또 클럽] ＂윤정아~ 윤정아~＂😍 고윤정 옆에 붙은 홍진경X박명수, MBC 260315 방송 - YouTube](https://www.youtube.com/watch?v=wNu2TXYMymg)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [고윤정, 김포공항 출국 | Go YounJung Airport Departure - YouTube](https://www.youtube.com/watch?v=JWcRHDEI6BQ)

@@ -1,12 +1,16 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-13 14:27 (Asia/Seoul)
+> Updated: 2026-10-13 15:34 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-13 · grade=A · VARIETY_TALK · [나영석, 고윤정 성격 카메라 온오프 달라…"사방팔방 돌아다녀" ('십오야') - 모바일한경](https://plus.hankyung.com/apps/newsinside.view?aid=2026010921184&category=&sns=y)
+- 2026-10-13 · grade=A · VARIETY_TALK · [구교환, 상대역 고윤정과 사주까지 찰떡 궁합…"기가 막히게 잘 맞더라" (살롱드립) - 엑스포츠뉴스](https://www.xportsnews.com/article/2142624)
+- 2026-10-13 · grade=A · VARIETY_TALK · [김선호 “고윤정 AI처럼 예쁜데 반전 저음, 이젠 서로 조롱하는 사이”(십오야) - 뉴스엔](https://newsen.com/news_view.php?uid=202601101429442510)
+- 2026-10-13 · grade=A · 일간스포츠 · [서강준, 이병헌·고윤정 만날까…“영화 ‘남벌’ 출연 논의 중” [공식] - 일간스포츠](https://isplus.com/article/view/isp202610130117)
 - 2026-10-13 · grade=A · VARIETY · [제니·고윤정·박보영 캐스팅에도…1%대 최저 시청률 찍고 결방→마지막 회 소식 전한 '마니또클럽' - 텐아시아](https://www.tenasia.co.kr/article/2026042560664)
 - 2026-10-13 · grade=A · VARIETY_WORK · [정준원, 고윤정 이어 공효진과 부부 호흡..'유부녀 킬러' 출연 [공식] - 스타뉴스](https://www.starnewskorea.com/star/2026/06/15/2026061514100948071)
 - 2026-10-13 · grade=A · VARIETY_GENERAL · [고윤정→윤남노, 심야식당 오픈…“난리났다” 주문 폭주에 주방 대혼돈 (마니또 클럽) - Daum](https://v.daum.net/v/20260322073726348)
