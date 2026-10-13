@@ -1,9 +1,9 @@
 # Official Platform Watch (auto)
 
-> Updated: 2026-10-13 18:02 (Asia/Seoul)
+> Updated: 2026-10-13 19:10 (Asia/Seoul)
 
 ## Summary
-- official_platform_links: 101
+- official_platform_links: 103
 
 ## Links
 | title | host | grade | url |
@@ -18,10 +18,10 @@
 | 환혼: 빛과 그림자 (tvN) | program.tving.com | S | http://program.tving.com/tvn/alchemyofsouls/- |
 | 환혼: 빛과 그림자 (tvN) | youtube.com | B | https://www.youtube.com/watch?v=z8x19hQejYo |
 | 환혼: 빛과 그림자 (tvN) | youtube.com | B | https://www.youtube.com/watch?v=tYTPRqjgCzs |
+| 환혼: 빛과 그림자 (tvN) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12281561 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391253 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362920 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
-| 환혼: 빛과 그림자 (tvN) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=361830 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362628 |
 | 환혼: 빛과 그림자 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362734 |
@@ -73,6 +73,8 @@
 | 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12314528 |
 | 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12294929 |
 | 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12299711 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12299569 |
+| 로스쿨 (JTBC) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12281561 |
 | 조명가게 (Light Shop) | disneyplus.com | S | https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4 |
 | 조명가게 (Light Shop) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 무빙 (Disney+) | disneyplus.com | S | https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856- |
@@ -81,13 +83,11 @@
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=274438 |
 | 무빙 (Disney+) | disneyplus.com | S | https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 |
+| 무빙 (Disney+) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12281561 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391146 |
 | 무빙 (Disney+) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003 |
-| 무빙 (Disney+) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=343890 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/resident-playbook/ |
-| 언젠가는 슬기로울 전공의생활 (tvN) | tving.com | S | https://www.tving.com/contents/P001768976 |
-| 언젠가는 슬기로울 전공의생활 (tvN) | tving.com | S | https://www.tving.com/contents/P001768976- |
 
 ## Policy
 - S급 공식 링크는 본문 자동 확정 후보입니다.
