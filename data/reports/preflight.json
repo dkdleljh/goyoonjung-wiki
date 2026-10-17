@@ -29,7 +29,7 @@
     [
       "disk free",
       "OK",
-      "58488 MiB"
+      "58481 MiB"
     ],
     [
       "run lock",
@@ -38,8 +38,8 @@
     ],
     [
       "goyoonjung-wiki-daily.timer",
-      "OK",
-      "next run scheduled"
+      "WARN",
+      "no next run"
     ]
   ]
 }

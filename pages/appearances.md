@@ -328,6 +328,22 @@
 - 상태: 보도(1차)
 - id: https://news.jtbc.co.kr/article/NB12274544
 - 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: ‘프리랜서 몸값 150배’ 김대호 "10년째 연애 NO, 이상형 고윤정" - JTBC
+- 링크(원문): https://news.jtbc.co.kr/article/NB12304140
+- 상태: 보도(1차)
+- id: https://news.jtbc.co.kr/article/NB12304140
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 구분: 출연/행사(공식 기사 후보)
+- 제목: 구교환X고윤정, '나의 아저씨' 작가 신작으로 뭉친다 - SBS 뉴스
+- 링크(원문): https://news.sbs.co.kr/news/endPage.do?news_id=N1008410876
+- 상태: 보도(1차)
+- id: https://news.sbs.co.kr/news/endPage.do?news_id=N1008410876
+- 메모: (자동 후보) 방송사/OTT 공식 도메인 기반
 ## 공식 링크
 - (S) 소속사(MAA) 프로필(필모/공식 활동): https://maa.co.kr/artists/go-younjung
 - (A/S) YouTube(tvN/Netflix/Disney+ Korea 등 공식 채널) 링크는 항목별 `링크(공식/원문)`에 기록

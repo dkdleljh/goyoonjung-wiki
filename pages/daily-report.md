@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-14 13:16 (Asia/Seoul)
+> 갱신: 2026-10-17 19:13 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- e9e675d8 2026-10-14 12:04:46 +0900 docs: sync collected wiki content for website
+- 02eee795 2026-10-14 13:16:59 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -16,6 +16,7 @@
 - data/reports/watchdog.json
 - index.md
 - news/2026-10-14.md
+- pages/appearances.md
 - pages/awards-official-watch.md
 - pages/brand-evidence-watch.md
 - pages/candidate-pool.md
@@ -28,14 +29,18 @@
 - pages/hub.en.md
 - pages/hub.md
 - pages/kpi-report.md
+- pages/lint-report.md
 - pages/official-coverage-audit.md
 - pages/official-platform-watch.md
+- pages/perfect-scorecard.md
 - pages/preflight-report.md
 - pages/progress.md
 - pages/promotion-queue.md
+- pages/quality-report.md
 - pages/schedule.md
 - pages/source-confidence.md
 - pages/system_status.md
+- pages/verification-queue.md
 - pages/watchdog-report.md
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
@@ -44,7 +49,7 @@
 - pages/works/sweethome.md
 - sources/awards-official.md
 
-## 3) 오늘 실행 상태(news/2026-10-14.md)
+## 3) 오늘 실행 상태(news/2026-10-17.md)
 
 ## 실행 상태
 
@@ -58,11 +63,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 10
-- landed_urls: 1
-- duplicate_rate: 61.61% (443/719)
+- new_urls: 7
+- landed_urls: 2
+- duplicate_rate: 50.00% (25/50)
 - verified_urls_by_grade:
-  - S: 1
+  - S: 2
   - A: 5
-  - B: 4
+  - B: 0
 

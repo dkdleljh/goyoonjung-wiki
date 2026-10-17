@@ -27,7 +27,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-14 13:16 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-17 19:13 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -80,6 +80,8 @@
 - [‘모자무싸’ 구교환·고윤정·배종옥, 숨 막히는 삼자대면… 밝혀질 비밀은 - JTBC](https://news.jtbc.co.kr/article/NB12299569)  _(출처: appearances.md)_
 
 - [고윤정 “‘이사통’ 김선호 보고 설렌 적? 분명 있었을 텐데…” - JTBC](https://news.jtbc.co.kr/article/NB12281561)  _(출처: appearances.md)_
+
+- [김선호·고윤정 ‘이 사랑 통역 되나요?’, 1월 16일 넷플릭스 공개 - JTBC](https://news.jtbc.co.kr/article/NB12274544)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

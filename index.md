@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-10-14
+> 자동 생성 인덱스 · 마지막 갱신: 2026-10-17
 
 ## 바로 가기
 - [README.md](README.md)
@@ -17,11 +17,11 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`02eee795`](https://github.com/dkdleljh/goyoonjung-wiki/commit/02eee795) — docs: sync collected wiki content for website
 - [`e9e675d8`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e9e675d8) — docs: sync collected wiki content for website
 - [`2c3d22da`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2c3d22da) — docs: sync collected wiki content for website
 - [`7dde2a05`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7dde2a05) — docs: sync collected wiki content for website
 - [`14f4ac98`](https://github.com/dkdleljh/goyoonjung-wiki/commit/14f4ac98) — docs: sync collected wiki content for website
-- [`23071aa9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/23071aa9) — docs: sync collected wiki content for website
 
 ## 직전 변경 파일
 - `README.md`

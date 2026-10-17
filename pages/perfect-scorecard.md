@@ -1,11 +1,11 @@
 # Operational Scorecard (auto)
 
-> Updated: 2026-10-14 (Asia/Seoul)
+> Updated: 2026-10-17 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 120
-- urls_total(markdown): 497
-- seen_urls(db): 182
+- urls_total(markdown): 504
+- seen_urls(db): 189
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -27,33 +27,33 @@
 - observability: 100  (status/daily/lint reports)
 - runtime_guards: 100  (file presence only; does not prove deployment)
 
-### C. Content scale heuristic: **69/100**
+### C. Content scale heuristic: **70/100**
 
-- C_current: 69  (actual accumulated scale (grows over time))
+- C_current: 70  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 497  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 182  (dedupe DB size)
+- urls_total: 504  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 189  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
 
 ### D. Content quality heuristic: **47/100**
 
-- placeholder: 0  (debt=79)
+- placeholder: 0  (debt=83)
 - link_health: 81  (measured results and report age)
 - lint: 100  (actual findings)
 - provenance: 100  (official vs press vs secondary)
 - coverage_readiness: 5  (official coverage audit)
 
 ## Top URL-heavy pages (top 10)
-- 126: pages/promotion-queue.md
+- 131: pages/promotion-queue.md
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
 - 79: pages/pictorials/by-year.md
 - 68: pages/link-health.md
 - 62: pages/official-platform-watch.md
 - 62: pages/skipped-link-backlog.md
+- 52: pages/appearances.md
 - 52: pages/alternative-proof-candidates.md
-- 50: pages/appearances.md
 - 49: pages/interviews.md
 - 49: pages/pictorials/editorial.md
 

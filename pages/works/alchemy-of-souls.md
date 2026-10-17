@@ -35,7 +35,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-14 13:16 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-17 19:13 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -43,7 +43,7 @@
 
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
-- ⭐ [고윤정 “‘이사통’ 김선호 보고 설렌 적? 분명 있었을 텐데…” - JTBC](https://news.jtbc.co.kr/article/NB12281561)  _(출처: appearances.md)_
+- ⭐ [김선호·고윤정 ‘이 사랑 통역 되나요?’, 1월 16일 넷플릭스 공개 - JTBC](https://news.jtbc.co.kr/article/NB12274544)  _(출처: appearances.md)_
 
 - ⭐ [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
 
@@ -55,7 +55,7 @@
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
-- [고윤정 “‘이사통’ 김선호 보고 설렌 적? 분명 있었을 텐데…” - JTBC](https://news.jtbc.co.kr/article/NB12281561)  _(출처: appearances.md)_
+- [김선호·고윤정 ‘이 사랑 통역 되나요?’, 1월 16일 넷플릭스 공개 - JTBC](https://news.jtbc.co.kr/article/NB12274544)  _(출처: appearances.md)_
 
 - [유 퀴즈 온 더 블럭 (YOU QUIZ ON THE BLOCK) — 고윤정 출연 하이라이트](https://www.youtube.com/watch?v=TiTWX_KfEc0)  _(출처: appearances.md)_
 

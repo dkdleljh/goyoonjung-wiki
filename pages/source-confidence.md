@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-14 13:15 (Asia/Seoul)
+> Updated: 2026-10-17 19:12 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1261
-- S: 291
-- A: 391
+- total_urls: 1267
+- S: 292
+- A: 396
 - B: 224
 - BLOCK: 355
 
@@ -18,16 +18,16 @@
 | youtu.be | 84 | B:84 |
 | maa.co.kr | 71 | BLOCK:71 |
 | marieclairekorea.com | 64 | A:64 |
-| news.jtbc.co.kr | 43 | S:43 |
+| news.jtbc.co.kr | 44 | S:44 |
 | tving.com | 30 | S:30 |
 | vogue.co.kr | 27 | A:27 |
-| v.daum.net | 26 | A:26 |
+| v.daum.net | 27 | A:27 |
 | disneyplus.com | 24 | S:24 |
 | netflix.com | 22 | S:22 |
+| starnewskorea.com | 22 | A:22 |
 | yna.co.kr | 21 | A:21 |
 | wkorea.com | 21 | A:21 |
 | instagram.com | 20 | B:20 |
-| starnewskorea.com | 19 | A:19 |
 | news.nate.com | 18 | BLOCK:18 |
 | mk.co.kr | 18 | A:18 |
 | chosun.com | 18 | A:18 |

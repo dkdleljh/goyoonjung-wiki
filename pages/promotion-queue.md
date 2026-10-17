@@ -1,12 +1,17 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-14 13:14 (Asia/Seoul)
+> Updated: 2026-10-17 19:11 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-17 · grade=A · VARIETY_TALK · [고윤정 '집순이' 고백 "산책 왜 하는지 모르겠어, 쉬는 날 아무것도 안 해" - Daum](https://v.daum.net/v/9VVtr4KpLg?f=p)
+- 2026-10-17 · grade=A · 스포츠경향 · [구교환, 10월 영화배우 평판 1위 등극…고윤정·지창욱 제쳤다 - 스포츠경향](https://sports.khan.co.kr/article/202610171211003)
+- 2026-10-17 · grade=A · 스타뉴스 · [[AAA 2026 LINE-UP] Go Youn jung 고윤정 | Asia Artist Awards IN KAOHSIUNG #AAA #aaa2026 - 스타뉴스](https://www.starnewskorea.com/player/shorts/22882)
+- 2026-10-17 · grade=A · 스타뉴스 · [[AAA 2026 LINE-UP] Go Youn jung 고윤정 #AAA #aaa2026 - 스타뉴스](https://www.starnewskorea.com/player/star-ranking/22883)
+- 2026-10-17 · grade=A · 스타뉴스 · [[AAA 2026 LINE-UP] Go Youn jung 고윤정 #AAA #aaa2026 - 스타뉴스](https://www.starnewskorea.com/player/shorts/22884?period=weekly)
 - 2026-10-13 · grade=A · VARIETY_GENERAL · [고윤정, 첫 예능서 댄스·성대모사…"여긴 프로의 세계" - 뉴시스](https://www.newsis.com/view/NISX20260308_0003539257)
 - 2026-10-13 · grade=A · EN_ALL · [RESCENE's Jena belts out 'Eomeona,' Jang Yun-jeong fires back with 'Love Attack' dance challenge - 헤럴드경제](https://biz.heraldcorp.com/article/10880828)
 - 2026-10-13 · grade=A · VARIETY_GENERAL · [[단독]고윤정, 첫 예능 전격 출연…'마니또 클럽'으로 매력 봉인 해제 - Daum](https://v.daum.net/v/20260122071123454?f=m)
