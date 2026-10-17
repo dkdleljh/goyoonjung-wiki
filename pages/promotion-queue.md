@@ -1,12 +1,13 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-17 21:29 (Asia/Seoul)
+> Updated: 2026-10-17 22:36 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-17 · grade=A · JA_ALL · [コ・ユンジョン、パリの街で捉えられた女神ビジュアル···清楚な美貌に「ドキッ」 [Nショット] - 스포탈코리아](https://jp.sportalkorea.com/news/articleView.html?idxno=34193)
 - 2026-10-17 · grade=A · EN_ALL · [Go Youn-jung spotted with Galaxy Z Fold 8 as Samsung chips away at iPhone's grip on young women - 헤럴드경제](https://biz.heraldcorp.com/article/10898312)
 - 2026-10-17 · grade=A · RYO · ["파리서도 빛나는 미모"…국위선양 고윤정, 철저한 자기관리 비결 - 뉴시스](https://newsis.com/view_amp.html?ar_id=NISX20260927_0003804310)
 - 2026-10-17 · grade=A · VARIETY_TALK · [고윤정 '집순이' 고백 "산책 왜 하는지 모르겠어, 쉬는 날 아무것도 안 해" - Daum](https://v.daum.net/v/9VVtr4KpLg?f=p)
