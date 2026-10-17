@@ -36,15 +36,13 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-17 19:13 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-17 20:24 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
 - ⭐ [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
 
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
-
-- ⭐ [김선호·고윤정 ‘이 사랑 통역 되나요?’, 1월 16일 넷플릭스 공개 - JTBC](https://news.jtbc.co.kr/article/NB12274544)  _(출처: appearances.md)_
 
 
 
@@ -53,8 +51,6 @@
 - [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
-
-- [김선호·고윤정 ‘이 사랑 통역 되나요?’, 1월 16일 넷플릭스 공개 - JTBC](https://news.jtbc.co.kr/article/NB12274544)  _(출처: appearances.md)_
 
 - [모자무싸 협업과 무빙 시즌 2 촬영 소감](https://enews.imbc.com/News/ViewAmp/508207)  _(출처: interviews.md)_
 
@@ -85,6 +81,8 @@
 - [(인터뷰) '무빙' 고윤정 "갖고 싶은 능력? 날라다니고 싶죠"](https://www.newstomato.com/ReadNews.aspx?no=1199951)  _(출처: interviews.md)_
 
 - [고윤정, '무빙 시즌2' 이어 '남벌'까지…OTT와 스크린 넘나든다 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003)  _(출처: appearances.md)_
+
+- [구교환X고윤정, '나의 아저씨' 작가 신작으로 뭉친다 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008410876)  _(출처: appearances.md)_
 
 - [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)  _(출처: appearances.md)_
 
