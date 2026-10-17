@@ -1,47 +1,47 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-17 23:43 (Asia/Seoul)
+> Updated: 2026-10-18 00:02 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1276
-- S: 298
-- A: 399
-- B: 224
-- BLOCK: 355
+- total_urls: 1409
+- S: 300
+- A: 443
+- B: 250
+- BLOCK: 416
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
+| google.com | 152 | BLOCK:152 |
+| youtube.com | 148 | B:148 |
 | kstar.kbs.co.kr | 124 | S:124 |
-| youtube.com | 120 | B:120 |
-| google.com | 92 | BLOCK:92 |
 | youtu.be | 84 | B:84 |
-| maa.co.kr | 71 | BLOCK:71 |
+| maa.co.kr | 70 | BLOCK:70 |
 | marieclairekorea.com | 64 | A:64 |
 | news.jtbc.co.kr | 47 | S:47 |
-| tving.com | 30 | S:30 |
+| v.daum.net | 35 | A:35 |
+| tving.com | 28 | S:28 |
 | vogue.co.kr | 27 | A:27 |
-| v.daum.net | 27 | A:27 |
-| disneyplus.com | 24 | S:24 |
-| netflix.com | 22 | S:22 |
-| starnewskorea.com | 22 | A:22 |
+| starnewskorea.com | 27 | A:27 |
+| netflix.com | 24 | S:24 |
+| disneyplus.com | 23 | S:23 |
 | yna.co.kr | 21 | A:21 |
 | wkorea.com | 21 | A:21 |
-| instagram.com | 20 | B:20 |
+| tvn.cjenm.com | 20 | S:20 |
+| mk.co.kr | 20 | A:20 |
+| chosun.com | 20 | A:20 |
+| instagram.com | 18 | B:18 |
 | news.sbs.co.kr | 18 | S:18 |
 | news.nate.com | 18 | BLOCK:18 |
-| mk.co.kr | 18 | A:18 |
-| chosun.com | 18 | A:18 |
 | enews.imbc.com | 17 | A:17 |
+| tv.jtbc.co.kr | 17 | A:17 |
+| sports.donga.com | 16 | A:16 |
 | nc.press | 15 | BLOCK:15 |
-| tv.jtbc.co.kr | 15 | A:15 |
-| tvn.cjenm.com | 14 | S:14 |
-| sports.donga.com | 12 | A:12 |
+| biz.chosun.com | 11 | A:11 |
 | spotvnews.co.kr | 10 | A:10 |
 | elle.co.kr | 10 | A:10 |
-| program.tving.com | 9 | S:9 |
-| idaegu.com | 9 | BLOCK:9 |
-| fashionseoul.com | 9 | BLOCK:9 |
+| fashionseoul.com | 10 | BLOCK:10 |
+| newsis.com | 10 | A:10 |
 
 ## Policy
 - S/A 출처는 자동 반영 후보입니다.

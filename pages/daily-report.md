@@ -1,18 +1,18 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-17 23:45 (Asia/Seoul)
+> 갱신: 2026-10-18 00:03 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- ef8bab45 2026-10-17 22:38:45 +0900 docs: sync collected wiki content for website
+- fa686b7f 2026-10-17 23:45:39 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - README.md
 - data/facts/awards.json
 - data/facts/profile.json
-- data/facts/sources.json
 - data/facts/works.json
+- data/reports/preflight.json
 - data/reports/watchdog.json
 - index.md
 - news/2026-10-17.md
@@ -30,7 +30,6 @@
 - pages/kpi-report.md
 - pages/official-coverage-audit.md
 - pages/official-platform-watch.md
-- pages/perfect-scorecard.md
 - pages/preflight-report.md
 - pages/progress.md
 - pages/promotion-queue.md
@@ -45,7 +44,7 @@
 - pages/works/sweethome.md
 - sources/awards-official.md
 
-## 3) 오늘 실행 상태(news/2026-10-17.md)
+## 3) 오늘 실행 상태(news/2026-10-18.md)
 
 ## 실행 상태
 
@@ -59,11 +58,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 10
-- landed_urls: 2
-- duplicate_rate: 52.50% (84/160)
+- new_urls: 0
+- landed_urls: 0
+- duplicate_rate: 70.83% (17/24)
 - verified_urls_by_grade:
-  - S: 2
-  - A: 8
+  - S: 0
+  - A: 0
   - B: 0
 

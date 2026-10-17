@@ -1,6 +1,6 @@
 # System status (auto)
 
-> Updated: 2026-10-17
+> Updated: 2026-10-18
 
 ## wiki_completeness: **13/100**
 
@@ -20,20 +20,20 @@ placeholder debt score: debt=83
 
 checked sections: clean
 
-## link_health: **81/100**
+## link_health: **33/100**
 
-checked at: 2026-10-11 23:33
-counts: {'OK': 294, 'WARN': 4, 'BAD': 0, 'UNCHECKED': 64}
+checked at: 2026-10-18 00:01
+counts: {'OK': 188, 'WARN': 1, 'BAD': 0, 'UNCHECKED': 376}
 score = verified OK / all discovered URLs; BAD forces zero
 
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-10-17T23:45:00+09:00
-age_hours: 0.01
-source: news/2026-10-17.md
+last_run: 2026-10-18T00:04:00+09:00
+age_hours: 0.0
+source: news/2026-10-18.md
 recorded_result: partial
-reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-17_1913.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:SKIP, sched:OK, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_MAG_RSS:FAIL(1), mode:local-collection (not published)
+reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-18_0004.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:SKIP, sched:OK, link-health:OK, portal-news:OK, san-news:OK, agency:SKIP, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_AGENCY:FAIL(1), RC_MAG_RSS:FAIL(1), mode:local-collection (not published)
 max_age_hours: 36
 
 ## domain_grade_status
@@ -45,10 +45,10 @@ max_age_hours: 36
 
 ## kpi_snapshot
 
-- new_urls: 10
-- landed_urls: 2
-- duplicate_rate: 52.50% (84/160)
+- new_urls: 0
+- landed_urls: 0
+- duplicate_rate: 70.83% (17/24)
 - verified_urls_by_grade:
-  - S: 2
-  - A: 8
+  - S: 0
+  - A: 0
   - B: 0
