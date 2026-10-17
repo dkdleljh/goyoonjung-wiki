@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-10-18 01:20 (Asia/Seoul) · 대상 URL: 565 (최대 250)
+> 갱신: 2026-10-18 02:27 (Asia/Seoul) · 대상 URL: 566 (최대 250)
 
-- OK: **188** / WARN: **1** / BAD: **0** / UNCHECKED: **376**
+- OK: **188** / WARN: **1** / BAD: **0** / UNCHECKED: **377**
 - 검사 범위 밖 URL과 자동 접근을 생략한 URL은 정상으로 간주하지 않습니다.
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
@@ -174,6 +174,7 @@
 - (-) https://www.netflix.com/title/81061734 · outside check budget
 - (-) https://tvn.cjenm.com/ko/resident-playbook/ · outside check budget
 - (-) https://www.tenasia.co.kr/article/2026090158504 · outside check budget
+- (-) https://www.mk.co.kr/en/hot-issues/12054223 · outside check budget
 - (-) https://jp.sportalkorea.com/news/articleView.html?idxno=34193 · outside check budget
 - (-) https://biz.heraldcorp.com/article/10898312 · outside check budget
 - (-) https://newsis.com/view_amp.html?ar_id=NISX20260927_0003804310 · outside check budget
@@ -214,4 +215,3 @@
 - (-) https://v.daum.net/v/20260319060143629 · outside check budget
 - (-) https://www.topstarnews.net/news/articleView.html?idxno=15996007 · outside check budget
 - (-) https://sports.donga.com/ent/article/all/20260225/133418102/1 · outside check budget
-- (-) https://www.imbc.com/broad/enews/view.html?idx=497088 · outside check budget

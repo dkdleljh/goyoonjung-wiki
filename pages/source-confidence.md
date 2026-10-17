@@ -1,6 +1,6 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-18 01:21 (Asia/Seoul)
+> Updated: 2026-10-18 02:28 (Asia/Seoul)
 
 ## Summary
 - total_urls: 1410
@@ -25,9 +25,9 @@
 | starnewskorea.com | 27 | A:27 |
 | netflix.com | 24 | S:24 |
 | disneyplus.com | 23 | S:23 |
+| mk.co.kr | 22 | A:22 |
 | yna.co.kr | 21 | A:21 |
 | wkorea.com | 21 | A:21 |
-| mk.co.kr | 21 | A:21 |
 | tvn.cjenm.com | 20 | S:20 |
 | chosun.com | 20 | A:20 |
 | instagram.com | 18 | B:18 |
