@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 120
-- urls_total(markdown): 505
-- seen_urls(db): 192
+- urls_total(markdown): 506
+- seen_urls(db): 193
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -31,8 +31,8 @@
 
 - C_current: 70  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 505  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 192  (dedupe DB size)
+- urls_total: 506  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 193  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
@@ -47,7 +47,7 @@
 
 ## Top URL-heavy pages (top 10)
 - 201: pages/link-health.md
-- 134: pages/promotion-queue.md
+- 135: pages/promotion-queue.md
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
 - 79: pages/pictorials/by-year.md
 - 63: pages/official-platform-watch.md
