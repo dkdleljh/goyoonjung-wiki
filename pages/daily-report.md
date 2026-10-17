@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-18 02:30 (Asia/Seoul)
+> 갱신: 2026-10-18 03:37 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 66e9f64d 2026-10-18 01:23:29 +0900 docs: sync collected wiki content for website
+- 049aeda7 2026-10-18 02:30:28 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -32,7 +32,6 @@
 - pages/link-health.md
 - pages/official-coverage-audit.md
 - pages/official-platform-watch.md
-- pages/perfect-scorecard.md
 - pages/preflight-report.md
 - pages/progress.md
 - pages/promotion-queue.md
@@ -61,11 +60,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 1
+- new_urls: 3
 - landed_urls: 0
-- duplicate_rate: 49.38% (40/81)
+- duplicate_rate: 43.75% (56/128)
 - verified_urls_by_grade:
   - S: 0
-  - A: 1
+  - A: 3
   - B: 0
 

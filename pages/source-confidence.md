@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-18 02:28 (Asia/Seoul)
+> Updated: 2026-10-18 03:35 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1410
+- total_urls: 1412
 - S: 300
-- A: 444
+- A: 446
 - B: 250
 - BLOCK: 416
 
@@ -19,7 +19,7 @@
 | maa.co.kr | 70 | BLOCK:70 |
 | marieclairekorea.com | 64 | A:64 |
 | news.jtbc.co.kr | 47 | S:47 |
-| v.daum.net | 35 | A:35 |
+| v.daum.net | 36 | A:36 |
 | tving.com | 28 | S:28 |
 | vogue.co.kr | 27 | A:27 |
 | starnewskorea.com | 27 | A:27 |
