@@ -1,10 +1,10 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-17 20:23 (Asia/Seoul)
+> Updated: 2026-10-17 21:30 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1272
-- S: 295
+- total_urls: 1275
+- S: 298
 - A: 398
 - B: 224
 - BLOCK: 355
@@ -12,7 +12,7 @@
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
-| kstar.kbs.co.kr | 125 | S:125 |
+| kstar.kbs.co.kr | 124 | S:124 |
 | youtube.com | 120 | B:120 |
 | google.com | 92 | BLOCK:92 |
 | youtu.be | 84 | B:84 |
@@ -28,6 +28,7 @@
 | yna.co.kr | 21 | A:21 |
 | wkorea.com | 21 | A:21 |
 | instagram.com | 20 | B:20 |
+| news.sbs.co.kr | 18 | S:18 |
 | news.nate.com | 18 | BLOCK:18 |
 | mk.co.kr | 18 | A:18 |
 | chosun.com | 18 | A:18 |
@@ -35,7 +36,6 @@
 | nc.press | 15 | BLOCK:15 |
 | tv.jtbc.co.kr | 15 | A:15 |
 | tvn.cjenm.com | 14 | S:14 |
-| news.sbs.co.kr | 14 | S:14 |
 | sports.donga.com | 12 | A:12 |
 | spotvnews.co.kr | 10 | A:10 |
 | elle.co.kr | 10 | A:10 |

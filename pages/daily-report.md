@@ -1,25 +1,23 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-17 20:24 (Asia/Seoul)
+> 갱신: 2026-10-17 21:31 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- ebcfe3fd 2026-10-17 19:13:44 +0900 docs: sync collected wiki content for website
+- df4e8b5c 2026-10-17 20:24:39 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
 - README.md
 - data/facts/awards.json
+- data/facts/official_platforms.json
 - data/facts/profile.json
 - data/facts/sources.json
 - data/facts/works.json
 - data/reports/preflight.json
 - data/reports/watchdog.json
-- docs/README.md
 - index.md
 - news/2026-10-17.md
-- news/README.md
-- pages/appearances.md
 - pages/awards-official-watch.md
 - pages/brand-evidence-watch.md
 - pages/candidate-pool.md
@@ -32,18 +30,15 @@
 - pages/hub.en.md
 - pages/hub.md
 - pages/kpi-report.md
-- pages/lint-report.md
 - pages/official-coverage-audit.md
 - pages/official-platform-watch.md
 - pages/perfect-scorecard.md
 - pages/preflight-report.md
 - pages/progress.md
 - pages/promotion-queue.md
-- pages/quality-report.md
 - pages/schedule.md
 - pages/source-confidence.md
 - pages/system_status.md
-- pages/verification-queue.md
 - pages/watchdog-report.md
 - pages/works/alchemy-of-souls.md
 - pages/works/hunt.md
@@ -68,7 +63,7 @@
 ## Daily Metrics
 - new_urls: 9
 - landed_urls: 2
-- duplicate_rate: 68.18% (60/88)
+- duplicate_rate: 64.86% (72/111)
 - verified_urls_by_grade:
   - S: 2
   - A: 7
