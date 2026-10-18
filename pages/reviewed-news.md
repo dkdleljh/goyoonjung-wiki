@@ -42,3 +42,8 @@
 - [고윤정, 낮엔 안광 실종→밤 되니 다시 돌아온 생기](https://www.sportsseoul.com/news/read/1637796) · 스포츠서울 · 내용은 원문 보도 기준
 - [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/star-ranking/22883) · 스타뉴스 · 내용은 원문 보도 기준
 - [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22884?period=weekly) · 스타뉴스 · 내용은 원문 보도 기준
+- ["뷔도 고윤정도 끼네"…외국인 사로잡은 '할머니 반지'의 변신［K홀릭］](https://www.asiae.co.kr/article/2026092310211456868) · 아시아경제 · 내용은 원문 보도 기준
+- ["고윤정·덱스의 겨울 러닝룩"…젝시믹스, RX 에어라이트 패딩 공개](https://www.news1.kr/industry/distribution/6299795) · 뉴스1 · 내용은 원문 보도 기준
+- [내셔널지오그래픽, 허남준 모델 발탁…고윤정과 캠페인 영상 공개](https://www.news1.kr/industry/distribution/6300203) · 뉴스1 · 내용은 원문 보도 기준
+- [고윤정, 파리 거리서 포착된 여신 비주얼…청초한 미모에 '심쿵' ［N샷］](https://www.news1.kr/entertain/celebrity-topic/6302527) · 뉴스1 · 내용은 원문 보도 기준
+- [고윤정, 첫 예능서 댄스·성대모사…"여긴 프로의 세계"](https://www.newsis.com/view/NISX20260308_0003539257) · VARIETY_GENERAL · 내용은 원문 보도 기준
