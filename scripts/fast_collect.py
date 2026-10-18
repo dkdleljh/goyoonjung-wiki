@@ -32,6 +32,13 @@ ENRICH = ['sync_media_watch_sources.py', 'reconcile_evidence.py', 'extract_facts
           'render_pages_from_facts.py', 'rebuild_works_year_index.py']
 
 
+def due_tasks(started: float, state: dict) -> list:
+    # Use start times and 30 seconds of timer jitter allowance, not completion times.
+    return [(name, interval, timeout) for name, interval, timeout in TASKS
+            if started - state.get(name, {}).get('last_attempt', 0) >=
+            (300 if state.get(name, {}).get('returncode', 0) else interval) - 30]
+
+
 def main() -> int:
     started = time.time()
     state_path = BASE/'data/reports/fast-task-state.json'
@@ -41,9 +48,7 @@ def main() -> int:
            'MAX_QUERIES': '4', 'MAX_QUERIES_I18N': '2', 'MAX_URLS': '100'}
     # Schedule from attempt start, so a 30-second run does not turn a 5-minute timer
     # into a 10-minute poll. Allow timer jitter; failed tasks retry next tick.
-    due = [(name, interval, timeout) for name, interval, timeout in TASKS
-           if started - state.get(name, {}).get('last_attempt', 0) >=
-           (300 if state.get(name, {}).get('returncode', 0) else interval) - 30]
+    due = due_tasks(started, state)
     essentials = [task for task in due if task[0] in {TASKS[0][0], TASKS[1][0], 'official_evidence.py'}]
     extras = sorted([task for task in due if task not in essentials],
                     key=lambda task: state.get(task[0], {}).get('last_attempt', 0))[:2]

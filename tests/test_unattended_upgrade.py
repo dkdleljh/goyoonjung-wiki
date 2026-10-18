@@ -1,9 +1,12 @@
 """Regression cases for missed windows, false facts, recovery and rotating coverage."""
 import json
+import sys
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 import pytest
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from scripts import collector_batch_state as batch
 from scripts import source_schedule as schedule
@@ -132,3 +135,17 @@ def test_withdrawn_automatic_claim_loses_confirmation(tmp_path, monkeypatch):
     reconcile.main()
     assert json.loads((tmp_path/'data/facts/work-evidence-status.json').read_text())['새 작품']['status'] == 'review_required'
     assert '근거 변경·확인 필요' in (tmp_path/'pages/filmography.md').read_text()
+
+
+def test_fast_poll_uses_start_time_and_retries_failed_slow_sources():
+    from scripts.fast_collect import due_tasks
+    state = {
+        'auto_collect_google_news.py': {'last_attempt': 1000, 'last_success': 1040, 'returncode': 0},
+        'official_evidence.py': {'last_attempt': 1000, 'last_success': 500, 'returncode': 1},
+        'archive_backfill.py': {'last_attempt': 1000, 'last_success': 1050, 'returncode': 0},
+    }
+    due = {task[0] for task in due_tasks(1299, state)}
+    assert 'auto_collect_google_news.py' in due
+    assert 'official_evidence.py' in due
+    assert 'archive_backfill.py' not in due
+    assert 'auto_collect_google_news.py' not in {task[0] for task in due_tasks(1200, state)}
