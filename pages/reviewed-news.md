@@ -72,3 +72,8 @@
 - [고윤정, 정체불명 '위장 퀵 기사' 직접 추격…거침없는 불도저 ('마니또')](https://v.daum.net/v/20260225151725007) · VARIETY_GENERAL · 내용은 원문 보도 기준
 - [‘고윤정 효과’ 톡톡…‘마니또 클럽’ 살린 예능 새내기, 첫 예능 성공적 ［줌인］](https://v.daum.net/v/20260319060143629) · VARIETY_GENERAL · 내용은 원문 보도 기준
 - [정해인→고윤정, 예능 뜬다…'마니또 클럽', 출연 확정](https://www.dispatch.co.kr/2338820) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [고윤정, “원래 아이돌 했었나?” 질문 속 예능 신고식](https://www.topstarnews.net/news/articleView.html?idxno=15996007) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [고윤정, ‘마니또 클럽’ 첫 예능 합격…박명수 마니또로 존재감](https://sports.donga.com/ent/article/all/20260225/133418102/1) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [고윤정X김도훈, '무빙2' 아닌 김태호PD 예능서 재회..."'마니또 클럽' 촬영" ［공식입장］](https://www.chosun.com/entertainments/broadcast/2026/02/03/MQ2WEZJXMFRWMYTDHBRTAODDGY) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- ['美친 비주얼' 고윤정·정해인, 안방극장 찾는다…'마니또 클럽' 2기 시동](https://v.daum.net/v/20260222160244500) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [고윤정, 박명수도 놀란 깜짝 학력 고백 "대학 못 나와, 제적" (마니또클럽)［종합］](https://www.chosun.com/entertainments/broadcast/2026/03/08/HE4TQNBSGM2WMZLCGM4TSNRYHA) · VARIETY_GENERAL · 내용은 원문 보도 기준
