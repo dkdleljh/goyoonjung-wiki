@@ -20,6 +20,9 @@ if [[ -d "$SOURCE/.cache/news-decodes" && ! -d "$RUNTIME/.cache/news-decodes" ]]
   cp -a "$SOURCE/.cache/news-decodes" "$RUNTIME/.cache/"
 fi
 if [[ ! -f "$RUNTIME/data/wiki.db" ]]; then
+  "$SOURCE/.venv/bin/python" "$RUNTIME/scripts/remote_backup.py" --restore-database || true
+fi
+if [[ ! -f "$RUNTIME/data/wiki.db" ]]; then
   "$SOURCE/.venv/bin/python" - "$SOURCE" "$RUNTIME" <<'PY'
 import sqlite3, sys
 from pathlib import Path
