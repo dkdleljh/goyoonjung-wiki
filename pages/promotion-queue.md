@@ -1,12 +1,15 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-18 03:35 (Asia/Seoul)
+> Updated: 2026-10-18 12:25 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-18 · grade=A · FASHION · [고윤정이 완성한 가을의 조각[화보] - Daum](https://v.daum.net/v/20260917090011098?f=p)
+- 2026-10-18 · grade=A · FASHION · [고윤정, 가을 닮은 우아美 - Daum](https://v.daum.net/v/20260821083411363?f=p)
+- 2026-10-18 · grade=A · 스포츠서울 · [“이 얼굴이 고윤정?” 대학 시절 포스터 주인공이었다…‘서울여대 여신’의 위엄 - 스포츠서울](https://www.sportsseoul.com/news/read/1642092)
 - 2026-10-17 · grade=A · FASHION · [“숨멎 유발 비주얼” 고윤정, 고혹적 아우라 빛난 샤넬 화보 비하인드 - 스포츠경향](https://sports.khan.co.kr/article/202609202221003)
 - 2026-10-17 · grade=A · FASHION · [고윤정이 완성한 가을의 조각[화보] - Daum](https://v.daum.net/v/Bodvq71y04)
 - 2026-10-17 · grade=A · EN_CAST · ["I'm Youngsil?"...Awakened Go Youn-jung Turns 'We Are All Trying Here' Upside Down - 매일경제](https://www.mk.co.kr/en/hot-issues/12054223)

@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-10-18 03:34 (Asia/Seoul) · 대상 URL: 566 (최대 250)
+> 갱신: 2026-10-18 12:25 (Asia/Seoul) · 대상 URL: 639 (최대 250)
 
-- OK: **188** / WARN: **1** / BAD: **0** / UNCHECKED: **377**
+- OK: **191** / WARN: **1** / BAD: **0** / UNCHECKED: **447**
 - 검사 범위 밖 URL과 자동 접근을 생략한 URL은 정상으로 간주하지 않습니다.
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
@@ -73,9 +73,48 @@
 - (-) https://www.nc.press/news/articleView.html?idxno=605970 · skipped (heavy domain)
 - (-) https://www.yna.co.kr/view/AKR20201009055300005 · skipped (heavy domain)
 - (-) https://slv.kstarfashion.com/news/articleView.html?idxno=214777 · skipped (heavy domain)
-- (-) https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 · skipped (heavy domain)
-- (-) https://about.netflix.com/ko/news/can-this-love-be-translated-wt-confirmed-for-production · skipped (heavy domain)
-- (-) https://www.youtube.com/watch?v=IIHQ1Z2yu80 · skipped (heavy domain)
+- (-) https://www.wkorea.com/2025/04/23/%ec%82%ac%eb%9e%91%ec%8a%a4%eb%9f%bd%ea%b3%a0%eb%8f%84-%ec%bf%a8%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ed%91%9c-%ec%97%ac%ec%b9%9c%eb%a3%a9/ · outside check budget
+- (-) https://www.wkorea.com/2024/05/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ec%82%ac%ec%a0%81%ec%9d%b8-%ec%8b%9c%ea%b0%84/ · outside check budget
+- (-) https://www.wkorea.com/2022/12/31/%ec%9a%94%ec%a6%98-%eb%82%9c%eb%a6%ac-%eb%82%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/ · outside check budget
+- (-) https://www.insight.co.kr/news/336193 · outside check budget
+- (-) https://www.wkorea.com/2021/04/30/4%ea%b0%80%ec%a7%80-%ea%b4%80%eb%8a%a5%ec%9d%98-%ed%96%a5-%ea%b3%a0%ec%9c%a4%ec%a0%95/ · outside check budget
+- (-) https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 · outside check budget
+- (-) https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95 · outside check budget
+- (-) https://about.netflix.com/ko/news/can-this-love-be-translated-wt-confirmed-for-production · outside check budget
+- (-) https://www.youtube.com/watch?v=IIHQ1Z2yu80 · outside check budget
+- (-) https://ys-dl.tistory.com/entry/%EC%9D%B4-%EC%82%AC%EB%9E%91-%ED%86%B5%EC%97%AD%EB%90%98%EB%82%98%EC%9A%94-%EC%B4%AC%EC%98%81%EC%A7%80-36%EA%B3%B3%EC%9D%84-%EC%95%8C%EB%A0%A4%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%A4%91 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EB%84%A5%EC%8B%A0%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%A7%88%EA%B3%A1%EC%A4%91%EC%95%99%EB%A1%9C%20172%20%EB%A7%88%EA%B3%A1%EB%82%98%EB%A3%A8%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=37.5962144%2C126.9391908 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EC%9C%84%EC%8A%A4%EA%B7%B8%EB%9E%9C%EB%93%9C%ED%98%B8%ED%85%94%20%EC%84%9C%EC%9A%B8%20%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EC%97%B0%ED%9D%AC%EB%A1%9C%20353%20%ED%99%8D%EC%A0%9C%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%ED%8F%AC%EC%98%B9%EB%82%A8%20%EB%8B%B9%EC%82%B0%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EB%8B%B9%EC%82%B0%EB%A1%9C48%EA%B8%B8%2015%20%EB%8B%B9%EC%82%B0%EC%97%AD4%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=37.5297648%2C126.930814 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%B2%9C%EC%A3%BC%EA%B5%90%EB%8F%84%EB%A6%BC%EB%8F%99%EA%B5%90%ED%9A%8C%20%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EB%8F%84%EC%98%81%EB%A1%9C22%EA%B8%B8%2022 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%A5%B4%EB%8B%A4%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%98%AC%EB%A6%BC%ED%94%BD%EB%8C%80%EB%A1%9C%202085-96%20%EB%8F%99%EC%9E%91%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80%28CG%EC%B6%94%EC%A0%95%29%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%84%9C%EB%B9%99%EA%B3%A0%EB%A1%9C%20137%20%EC%9D%B4%EC%B4%8C%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%85%B9%EC%82%AC%ED%8F%89%EC%97%AD%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%85%B9%EC%82%AC%ED%8F%89%EB%8C%80%EB%A1%9C%20%EC%A7%80%ED%95%98%20195 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%ED%8E%98%20%EB%8D%94%20%EB%B8%8C%EB%A0%88%EC%9D%B4%EB%B8%8C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%85%B9%EC%82%AC%ED%8F%89%EB%8C%80%EB%A1%9C%20170%20%EB%85%B9%EC%82%AC%ED%8F%89%EC%97%AD3%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%ED%83%9C%EC%9B%90%20%ED%8E%8D%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9D%B4%ED%83%9C%EC%9B%90%EB%A1%9C27%EA%B0%80%EA%B8%B8%2050%20%EC%9D%B4%ED%83%9C%EC%9B%90%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%A0%88%EC%9D%B4%EC%96%B4%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A47%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EA%B0%95%EB%8C%80%EB%A1%9C98%EA%B0%80%EA%B8%B8%207 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%ED%9D%A5%EC%8B%9C%EC%9E%A5%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9A%A9%EC%82%B0%EB%8F%992%EA%B0%80%201-457 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%8B%9C%EC%A6%88%EB%84%90%ED%85%8C%EC%9D%B4%EB%B8%94%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%8B%A0%ED%9D%A5%EB%A1%9C%2095-21 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%B2%AD%ED%8C%8C%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%84%9C%EA%B3%84%EB%8F%99%20217-2%20%EC%84%9C%EC%9A%B8%EC%97%AD15%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%8D%94%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%EC%B6%A9%EC%A0%95%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A4%91%EB%A6%BC%EB%A1%9C%2021%20%EC%B6%A9%EC%A0%95%EB%A1%9C%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%84%9C%EC%86%8C%EB%AC%B8%EB%A1%9C11%EA%B8%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A0%95%EB%8F%99%2034-29%20%EC%8B%9C%EC%B2%AD%EC%97%AD10%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%A0%95%EB%8F%99%EA%B8%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A0%95%EB%8F%99%EA%B8%B8%2033%20%EC%8B%9C%EC%B2%AD%EC%97%AD10%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%A1%AF%EB%8D%B0%ED%98%B8%ED%85%94%20%EC%84%9C%EC%9A%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%9D%84%EC%A7%80%EB%A1%9C%2030%20%EC%9D%84%EC%A7%80%EB%A1%9C%EC%9E%85%EA%B5%AC%EC%97%AD8%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%ED%95%98%EC%9D%B4%EC%BB%A4%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B2%AD%EA%B3%84%EC%B2%9C%EB%A1%9C%2040%20%EC%A2%85%EA%B0%81%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%9D%84%EC%A7%80%EC%A0%95%EB%B0%80%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B0%BD%EA%B2%BD%EA%B6%81%EB%A1%9C5%EA%B8%B8%2032%20%EC%9D%84%EC%A7%80%EB%A1%9C4%EA%B0%80%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%8C%80%EB%A6%BC%EC%83%81%EA%B0%80%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%9D%84%EC%A7%80%EB%A1%9C%20157%20%EC%9D%84%EC%A7%80%EB%A1%9C4%EA%B0%80%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%8B%B0%EC%B9%98%20%EC%95%BD%EC%88%98%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8F%99%ED%98%B8%EB%A1%9C17%EA%B8%B8%2013%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%95%B0%EB%B0%B0%EC%84%9C%EB%8D%94%20%EC%84%9C%EC%9A%B8%20%ED%92%80%EB%A7%8C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8F%99%ED%98%B8%EB%A1%9C%20287%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD6%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%82%A8%EC%82%B0%ED%83%80%EC%9B%8C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%82%A8%EC%82%B0%EA%B3%B5%EC%9B%90%EA%B8%B8%20105%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD6%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%84%B8%EC%A2%85%EB%8C%80%EB%A1%9C%20%EC%82%AC%EA%B1%B0%EB%A6%AC%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%84%B8%EC%A2%85%EB%A1%9C%201-68 · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%B2%AD%EA%B3%84%EC%B2%9C%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%84%9C%EB%A6%B0%EB%8F%99%2093-2%20%EA%B4%91%ED%99%94%EB%AC%B8%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EA%B0%9C%EB%B9%84%EC%8A%A4%EC%BB%A4%ED%94%BC%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%83%88%EB%AC%B8%EC%95%88%EB%A1%9C%2069%20%EA%B4%91%ED%99%94%EB%AC%B8%EC%97%AD8%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%98%81%ED%92%8D%EB%AC%B8%EA%B3%A0%20%EC%A2%85%EA%B0%81%EC%A2%85%EB%A1%9C%EB%B3%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%B2%AD%EA%B3%84%EC%B2%9C%EB%A1%9C%2041%20%EC%A2%85%EA%B0%81%EC%97%AD6%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%ED%83%80%EB%9D%BC%ED%8F%B4%EB%8C%84%EC%8A%A4%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%88%98%ED%91%9C%EB%A1%9C%2096%20%EC%A2%85%EB%A1%9C3%EA%B0%80%EC%97%AD15%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%8B%80%EB%B9%84%ED%8B%80%EB%B9%84%ED%8B%80%EC%8A%A4%ED%83%80%EC%BD%94%20%EC%84%9C%EC%88%9C%EB%9D%BC%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%84%9C%EC%88%9C%EB%9D%BC%EA%B8%B8%2089-7%20%EC%A2%85%EB%A1%9C3%EA%B0%80%EC%97%AD7%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
+- (-) https://www.google.com/maps/search/?api=1&query=%EC%B2%AD%EC%99%80%EB%8C%80%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%ED%8C%94%ED%8C%90%EB%8F%99%20122 · outside check budget
 - (-) https://www.google.com/maps/search/?api=1&query=%EC%97%B4%EB%A6%B0%EC%86%A1%ED%98%84%EB%85%B9%EC%A7%80%EA%B4%91%EC%9E%A5%EC%95%9E%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%86%A1%ED%98%84%EB%8F%99%2061-1%20%EC%95%88%EA%B5%AD%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
 - (-) https://www.google.com/maps/search/?api=1&query=%EA%B0%90%EA%B3%A0%EB%8B%B9%EA%B8%B8%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%86%A1%ED%98%84%EB%8F%99%2034-2%20%EC%95%88%EA%B5%AD%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
 - (-) https://www.google.com/maps/search/?api=1&query=%ED%88%AC%ED%8B%B0%EC%97%90%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%82%BC%EC%B2%AD%EB%A1%9C%2052%20%EC%95%88%EA%B5%AD%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC · outside check budget
@@ -158,6 +197,15 @@
 - (-) https://www.youtube.com/watch?v=pyrwTv8aS-E · outside check budget
 - (-) https://www.youtube.com/watch?v=wZR6s3rB6tk · outside check budget
 - (-) https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 · outside check budget
+- (-) https://www.allurekorea.com/2026/08/04/%ec%9a%94%ec%a6%98-%eb%8b%a4-%ec%9d%b4%ea%b1%b0-%eb%81%bc%ea%b3%a0-%ec%9e%88%eb%8d%98%eb%8d%b0-%eb%b7%94%ec%99%80-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%95%a0%ec%a0%95%ed%95%98%eb%8a%94-%ec%98%a5/ · outside check budget
+- (-) https://www.allurekorea.com/2026/03/01/%ea%b0%95%eb%af%bc%ea%b2%bd-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b0%99%ec%9d%80-%ec%97%ac%ec%84%b1%ec%8a%a4%eb%9f%ac%ec%9b%80%ec%9d%84-%ec%9b%90%ed%95%9c%eb%8b%a4%eb%a9%b4-%e3%85%87%e3%85%87%eb%b6%80/ · outside check budget
+- (-) https://www.allurekorea.com/2026/02/18/ai%eb%b3%b4%eb%8b%a4-%eb%8d%94-ai-%ea%b0%99%eb%8b%a4-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ec%b9%b4%eb%a6%ac%eb%82%98-%eb%a9%94%ec%9d%b4%ed%81%ac%ec%97%85-%ed%8f%89%ed%96%89%ec%9d%b4%eb%a1%a0/ · outside check budget
+- (-) https://www.allurekorea.com/2026/01/26/%ec%9e%a5%ea%be%b8%eb%af%b8-%ed%8f%ad%eb%b0%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ec%9d%bc%ec%83%81-%ec%9d%b8%ec%8a%a4%ed%83%80-%ec%82%ac%ec%a7%84-%ed%8a%b9%ec%a7%95-zip/ · outside check budget
+- (-) https://www.singleskorea.com/beauty/2025/10/720455 · outside check budget
+- (-) https://www.singleskorea.com/style/2024/05/718321 · outside check budget
+- (-) https://www.allurekorea.com/2023/08/21/__trashed-11-2/ · outside check budget
+- (-) https://www.allurekorea.com/2023/02/24/%ec%97%ac%ec%b9%9c%eb%a3%a9%ec%9d%98-%ec%a0%95%ec%84%9d-%ea%b3%a0%ec%9c%a4%ec%a0%95/ · outside check budget
+- (-) https://www.allurekorea.com/2022/12/26/%eb%b0%98%ec%a0%84%eb%af%b8-%eb%84%98%ec%b9%98%eb%8a%94-%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95/ · outside check budget
 - (-) https://m.segyebiz.com/newsView/20210907514584 · outside check budget
 - (-) https://www.insight.co.kr/news/354381 · outside check budget
 - (-) https://stylem.mt.co.kr/stylemView.php?no=2021081820245811273&scd=101&type=1 · outside check budget
@@ -167,51 +215,3 @@
 - (-) https://www.insight.co.kr/news/264442 · outside check budget
 - (-) https://stylem.mt.co.kr/stylemView.php?no=2021081820245811273 · outside check budget
 - (-) https://www.netflix.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95 · outside check budget
-- (-) https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95 · outside check budget
-- (-) https://tvn.cjenm.com/ko/ · outside check budget
-- (-) https://www.jtbc.co.kr/ · outside check budget
-- (-) https://www.tving.com/ · outside check budget
-- (-) https://www.netflix.com/title/81061734 · outside check budget
-- (-) https://tvn.cjenm.com/ko/resident-playbook/ · outside check budget
-- (-) https://www.tenasia.co.kr/article/2026090158504 · outside check budget
-- (-) https://www.mk.co.kr/en/hot-issues/12054223 · outside check budget
-- (-) https://jp.sportalkorea.com/news/articleView.html?idxno=34193 · outside check budget
-- (-) https://biz.heraldcorp.com/article/10898312 · outside check budget
-- (-) https://newsis.com/view_amp.html?ar_id=NISX20260927_0003804310 · outside check budget
-- (-) https://v.daum.net/v/9VVtr4KpLg?f=p · outside check budget
-- (-) https://sports.khan.co.kr/article/202610171211003 · outside check budget
-- (-) https://www.starnewskorea.com/player/shorts/22882 · outside check budget
-- (-) https://www.starnewskorea.com/player/star-ranking/22883 · outside check budget
-- (-) https://www.starnewskorea.com/player/shorts/22884?period=weekly · outside check budget
-- (-) https://www.newsis.com/view/NISX20260308_0003539257 · outside check budget
-- (-) https://biz.heraldcorp.com/article/10880828 · outside check budget
-- (-) https://v.daum.net/v/20260122071123454?f=m · outside check budget
-- (-) https://www.newsis.com/view/NISX20260619_0003676045 · outside check budget
-- (-) https://www.mk.co.kr/news/hot-issues/12163132 · outside check budget
-- (-) https://blog.naver.com/yooju0913/224267486166?viewType=pc · outside check budget
-- (-) https://plus.hankyung.com/apps/newsinside.view?aid=2026010921184&category=&sns=y · outside check budget
-- (-) https://www.xportsnews.com/article/2142624 · outside check budget
-- (-) https://newsen.com/news_view.php?uid=202601101429442510 · outside check budget
-- (-) https://isplus.com/article/view/isp202610130117 · outside check budget
-- (-) https://www.tenasia.co.kr/article/2026042560664 · outside check budget
-- (-) https://www.starnewskorea.com/star/2026/06/15/2026061514100948071 · outside check budget
-- (-) https://v.daum.net/v/20260322073726348 · outside check budget
-- (-) https://sports.donga.com/ent/article/all/20260308/133484239/1 · outside check budget
-- (-) https://v.daum.net/v/20260925090156827?f=p · outside check budget
-- (-) https://isplus.com/article/view/isp202607070191 · outside check budget
-- (-) https://v.daum.net/v/20260928040129745 · outside check budget
-- (-) https://www.chosun.com/entertainments/movie/2026/07/08/GM2GKN3FMZQWEMRQMNRWMYJQHA · outside check budget
-- (-) https://www.chosun.com/english/sports-en/2026/09/25/4EPCFCFXKZHOHNDLB55WTU7FAQ · outside check budget
-- (-) https://biz.chosun.com/entertainment/tv/2026/10/08/GBSDSMDGMRRTOYZVGZRDGYRWGE · outside check budget
-- (-) https://sports.donga.com/ent/article/all/20261008/134809436/1 · outside check budget
-- (-) https://sports.donga.com/photo?m=view&date=20261008&gid=134809436&rev=1 · outside check budget
-- (-) https://newsen.com/news_view.php?uid=202604290454471710 · outside check budget
-- (-) https://www.mk.co.kr/news/hot-issues/12027904 · outside check budget
-- (-) https://www.topstarnews.net/news/articleView.html?idxno=16073334 · outside check budget
-- (-) https://www.starnewskorea.com/star/2026/10/06/2026100608574841744 · outside check budget
-- (-) https://v.daum.net/v/20260221154644442 · outside check budget
-- (-) https://biz.chosun.com/en/en-entertainment/2026/09/27/LHO4UEE6IVFG7DHRLRYYXSMNAM · outside check budget
-- (-) https://v.daum.net/v/20260225151725007 · outside check budget
-- (-) https://v.daum.net/v/20260319060143629 · outside check budget
-- (-) https://www.topstarnews.net/news/articleView.html?idxno=15996007 · outside check budget
-- (-) https://sports.donga.com/ent/article/all/20260225/133418102/1 · outside check budget

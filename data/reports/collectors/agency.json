@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-18T12:25:39+09:00",
+  "status": "failed",
+  "sources": [
+    {
+      "name": "MAA 등록 프로필",
+      "url": "https://maa.co.kr/artists/go-younjung",
+      "scope": "configured_agency_profile",
+      "status": "failed",
+      "error": "https://maa.co.kr/artists/go-younjung: Connection timeout (5 seconds); https://www.maa.co.kr/artists/go-younjung: Connection timeout (5 seconds)",
+      "kind": "network",
+      "retryable": true,
+      "checked_at": "2026-10-18T12:25:39+09:00",
+      "last_success": null,
+      "consecutive_failures": 2
+    }
+  ]
+}

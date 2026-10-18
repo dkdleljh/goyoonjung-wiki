@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-16 00:23 (Asia/Seoul)
+> 갱신: 2026-10-18 12:21 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -18,7 +18,6 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
 - [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)  _(출처: interviews.md)_
@@ -34,4 +33,28 @@
 - [고윤정, 순수한 아름다움으로 완성한 봄의 전언](https://slv.kstarfashion.com/news/articleView.html?idxno=214777)  _(출처: pictorials/editorial.md)_
 
 - [디올 X 고윤정, '청순+고혹美' 화보 공개](https://www.gpkorea.com/news/articleView.html?idxno=97354)  _(출처: pictorials/editorial.md)_
+
+- [고윤정·조이도 반한 올봄 코티지코어, 이렇게 활용해야 성공합니다](https://www.elle.co.kr/article/1898314)  _(출처: pictorials/editorial.md)_
+
+- [자꾸 보게 되는고윤정김고은의 '트위드' 스타일링](https://www.elle.co.kr/article/1898769)  _(출처: pictorials/editorial.md)_
+
+- [청바지 고민 끝! 트와이스 지효,고윤정은 배기진을 입었어요](https://www.elle.co.kr/article/1899194)  _(출처: pictorials/editorial.md)_
+
+- [아이유와 변우석,고윤정, 안효섭의 흥미진진 4월 드라마 대진표](https://www.elle.co.kr/article/1899222)  _(출처: pictorials/editorial.md)_
+
+- [고윤정과 샤넬의 은은한 여름밤 같은 6월호 커버](https://www.elle.co.kr/article/1902676)  _(출처: pictorials/editorial.md)_
+
+- [고현정·고윤정·정호연이 사랑한 주얼리 스타일링](https://www.elle.co.kr/article/1902874)  _(출처: pictorials/editorial.md)_
+
+- [제니∙김고은∙고윤정, 미술관 갈 때 이렇게 입었습니다](https://www.elle.co.kr/article/1903385)  _(출처: pictorials/editorial.md)_
+
+- ['모자무싸'고윤정의 감정 워치에는 어떤 단어가 떴을까](https://www.elle.co.kr/article/1903405)  _(출처: pictorials/editorial.md)_
+
+- [고윤정이 샤넬 공방 컬렉션과 찍은 단 한 편의 드라마](https://www.elle.co.kr/article/1903563)  _(출처: pictorials/editorial.md)_
+
+- [고윤정이 알려준 올여름 ‘노 마스카라’ 트렌드](https://www.elle.co.kr/article/1906249)  _(출처: pictorials/editorial.md)_
+
+- [제니·고윤정의 여름 티셔츠, 소매선 하나로 달라 보입니다](https://www.elle.co.kr/article/1906879)  _(출처: pictorials/editorial.md)_
+
+- [요즘고윤정·강민경은 왜 발가락 양말을 신을까요](https://www.elle.co.kr/article/1907070)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->

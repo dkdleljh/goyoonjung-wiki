@@ -14,7 +14,7 @@
 ## Status table
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `049aeda7` |
+| 최신 커밋 | `62cb0881` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -31,11 +31,11 @@
 - [Schedule](schedule.md)
 
 ## Recently changed files
-- `README.md`
-- `data/facts/awards.json`
-- `data/facts/profile.json`
-- `data/facts/sources.json`
-- `data/facts/works.json`
+- `config/youtube-channels.txt`
+- `config/youtube-feeds.yml`
+- `docs/website-sync.md`
+- `scripts/auto_collect_youtube_feeds.py`
+- `scripts/run_daily_update.sh`
 
 ## Ops pages
 - [`pages/awards-official-watch.md`](awards-official-watch.md)

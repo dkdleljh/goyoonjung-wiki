@@ -636,4 +636,48 @@
   - 백상예술대상 영화 여자 신인연기상 후보에 오른 소감을 밝혔다.
 - 키워드: 인터뷰, 헌트, 이정재, 정우성, 백상예술대상
 
+- 날짜: 2023-09-20
+- 매체: GQ Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: ‘슬기로운 의사생활’ 스핀오프, 고윤정 주인공
+- 링크(원문): https://www.gqkorea.co.kr/2023/09/20/%ec%8a%ac%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%9d%98%ec%82%ac%ec%83%9d%ed%99%9c-%ec%8a%a4%ed%95%80%ec%98%a4%ed%94%84-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ec%a3%bc%ec%9d%b8%ea%b3%b5/
+- 상태: 공식확정
+- id: https://www.gqkorea.co.kr/2023/09/20/%ec%8a%ac%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%9d%98%ec%82%ac%ec%83%9d%ed%99%9c-%ec%8a%a4%ed%95%80%ec%98%a4%ed%94%84-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ec%a3%bc%ec%9d%b8%ea%b3%b5/
+## 2022
+(추가 보강 필요)
+
+- 날짜: 2022-08-26
+- 매체: GQ Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 부쉐론의 여신, 고윤정
+- 링크(원문): https://www.gqkorea.co.kr/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 공식확정
+- id: https://www.gqkorea.co.kr/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/
 ## 2021
+
+
+## 날짜 미상
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Esquire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 차은우,고윤정얼굴 천재의 만남! 마리떼 프랑소와 캠페인 영상 공개
+- 링크(원문): https://www.esquirekorea.co.kr/article/1881691
+- 상태: 공식확정
+- id: https://www.esquirekorea.co.kr/article/1881691
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Esquire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '이 사랑 통역 되나요?' 믿고 보는 로코 장인 김선호와 대세고윤정이 만났다
+- 링크(원문): https://www.esquirekorea.co.kr/article/1895565
+- 상태: 공식확정
+- id: https://www.esquirekorea.co.kr/article/1895565
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Esquire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 로코 여주 아이유와고윤정이 선택한 간절기 아우터, 트위드 자켓과 가죽 자켓
+- 링크(원문): https://www.esquirekorea.co.kr/article/1901760
+- 상태: 공식확정
+- id: https://www.esquirekorea.co.kr/article/1901760

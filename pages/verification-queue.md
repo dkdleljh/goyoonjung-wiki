@@ -2,7 +2,7 @@
 
 > 목적: 공식 근거 확인이 필요한 항목을 우선순위로 처리하기 위한 큐
 
-- total_items: 46
+- total_items: 75
 
 ## Items
 - [pages/appearances.md:156] - 날짜: (페이지 내 표기 확인 필요)
@@ -46,8 +46,37 @@
 - [pages/endorsements/fashion.md:50] - 역할: (앰버서더/프렌즈 여부 공식 확인 필요)
 - [pages/endorsements/fashion.md:104] - 비고: 코스토니 리버시블 플리스 광고 출연 보도일. 계약 시작일은 별도 확인 필요.
 - [pages/hub.md:28] - 안전 원칙: 루머/사생활/비공식 단정은 금지하고, 미확정 항목은 검증 큐에 남긴다.
-- [pages/pictorials/editorial.md:310] - 링크(원문): (추가 필요)
-- [pages/pictorials/editorial.md:312] - id: (추가 필요)
+- [pages/interviews.md:661] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/interviews.md:669] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/interviews.md:677] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:420] - 링크(원문): (추가 필요)
+- [pages/pictorials/editorial.md:422] - id: (추가 필요)
+- [pages/pictorials/editorial.md:614] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:622] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:630] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:638] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:646] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:654] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:662] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:670] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:678] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:686] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:694] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:702] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:710] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:718] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:726] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:734] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:742] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:750] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:758] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:766] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:774] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:782] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:790] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:798] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:806] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:814] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/profile.md:49] - 상태: 검증불가(공식 근거 미확보)
 - [pages/profile.md:56] - 상태: 검증불가(공식 근거 미확보)
 - [pages/sns.md:14] - 상태: **미확정(교차확인 필요)**

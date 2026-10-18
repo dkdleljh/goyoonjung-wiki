@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-10-12 01:25 (Asia/Seoul)
+> 갱신: 2026-10-18 12:21 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -49,6 +49,14 @@
 - [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)  _(출처: pictorials/editorial.md)_
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)  _(출처: pictorials/editorial.md)_
+
+- [샤넬보다 000, 고윤정 픽 드레스는 무엇?(feat.청룡어워즈)](https://www.allurekorea.com/2024/07/20/%ec%83%a4%eb%84%ac%eb%b3%b4%eb%8b%a4-000-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ed%94%bd-%eb%93%9c%eb%a0%88%ec%8a%a4%eb%8a%94-%eb%ac%b4%ec%97%87feat-%ec%b2%ad%eb%a3%a1%ec%96%b4%ec%9b%8c%ec%a6%88/)  _(출처: pictorials/editorial.md)_
+
+- ['라디오 샤넬'에 고윤정이 등장했다](https://www.wkorea.com/2024/05/17/%eb%9d%bc%eb%94%94%ec%98%a4-%ec%83%a4%eb%84%ac%ec%97%90-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%93%b1%ec%9e%a5%ed%96%88%eb%8b%a4/)  _(출처: pictorials/editorial.md)_
+
+- [고윤정과 샤넬의 은은한 여름밤 같은 6월호 커버](https://www.elle.co.kr/article/1902676)  _(출처: pictorials/editorial.md)_
+
+- [고윤정이 샤넬 공방 컬렉션과 찍은 단 한 편의 드라마](https://www.elle.co.kr/article/1903563)  _(출처: pictorials/editorial.md)_
 
 - [CHANEL / Vogue Korea](https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/)  _(출처: pictorials/campaign.md)_
 <!-- AUTO-CANDIDATES:END -->

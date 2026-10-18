@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-02-16 00:23 (Asia/Seoul)
+> 갱신: 2026-10-18 12:21 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -18,12 +18,15 @@
 - (정책) docs/editorial_policy.md
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
 - [현대적인 우아함, 고윤정의 샤넬](https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/)  _(출처: interviews.md)_
 
 - [고윤정, 보그코리아 화보..숙취해소 브랜드 모델](https://mbiz.heraldcorp.com/article/10496760?sec=014)  _(출처: interviews.md)_
+
+- [이병헌-고윤정이 그려낼 조선 하드보일드 액션 ‘남벌’](https://www.vogue.co.kr/2026/07/07/%ec%9d%b4%eb%b3%91%ed%97%8c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ea%b7%b8%eb%a0%a4%eb%82%bc-%ec%a1%b0%ec%84%a0-%ed%95%98%eb%93%9c%eb%b3%b4%ec%9d%bc%eb%93%9c-%ec%95%a1%ec%85%98-%eb%82%a8/)  _(출처: pictorials/editorial.md)_
+
+- [고윤정이 마주한 새하얀 겨울](https://www.vogue.co.kr/2026/10/07/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%88%ec%a3%bc%ed%95%9c-%ec%83%88%ed%95%98%ec%96%80-%ea%b2%a8%ec%9a%b8/)  _(출처: pictorials/editorial.md)_
 
 - [Go ZERO, Now ZERO](https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/)  _(출처: pictorials/editorial.md)_
 

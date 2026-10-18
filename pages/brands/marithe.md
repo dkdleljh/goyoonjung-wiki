@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-10-12 01:25 (Asia/Seoul)
+> 갱신: 2026-10-18 12:21 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -19,6 +19,8 @@
 ## 관련 링크(자동 후보)
 
 - [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)  _(출처: interviews.md)_
+
+- [차은우,고윤정얼굴 천재의 만남! 마리떼 프랑소와 캠페인 영상 공개](https://www.esquirekorea.co.kr/article/1881691)  _(출처: interviews.md)_
 
 - [SK텔레콤(SK Telecom)](https://www.idaegu.com/news/articleView.html?idxno=381461)  _(출처: endorsements/fashion.md)_
 

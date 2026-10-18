@@ -130,6 +130,70 @@
 - 상태: 공식확정
 - id: https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/
 - 비고: 한옥에서 촬영한 샤넬 커버 화보와 배우 인터뷰. 무빙 시즌 2와 남벌에 관한 직접 발언은 인터뷰 아카이브에도 연결했다.
+
+- 날짜: 2026-01-26
+- 매체: Allure Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 장꾸미 폭발! 고윤정의 일상 인스타 사진 특징.zip
+- 링크(원문): https://www.allurekorea.com/2026/01/26/%ec%9e%a5%ea%be%b8%eb%af%b8-%ed%8f%ad%eb%b0%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ec%9d%bc%ec%83%81-%ec%9d%b8%ec%8a%a4%ed%83%80-%ec%82%ac%ec%a7%84-%ed%8a%b9%ec%a7%95-zip/
+- 상태: 공식확정
+- id: https://www.allurekorea.com/2026/01/26/%ec%9e%a5%ea%be%b8%eb%af%b8-%ed%8f%ad%eb%b0%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ec%9d%bc%ec%83%81-%ec%9d%b8%ec%8a%a4%ed%83%80-%ec%82%ac%ec%a7%84-%ed%8a%b9%ec%a7%95-zip/
+
+- 날짜: 2026-02-18
+- 매체: Allure Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: AI보다 더 AI 같다! 고윤정, 카리나 메이크업 평행이론
+- 링크(원문): https://www.allurekorea.com/2026/02/18/ai%eb%b3%b4%eb%8b%a4-%eb%8d%94-ai-%ea%b0%99%eb%8b%a4-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ec%b9%b4%eb%a6%ac%eb%82%98-%eb%a9%94%ec%9d%b4%ed%81%ac%ec%97%85-%ed%8f%89%ed%96%89%ec%9d%b4%eb%a1%a0/
+- 상태: 공식확정
+- id: https://www.allurekorea.com/2026/02/18/ai%eb%b3%b4%eb%8b%a4-%eb%8d%94-ai-%ea%b0%99%eb%8b%a4-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ec%b9%b4%eb%a6%ac%eb%82%98-%eb%a9%94%ec%9d%b4%ed%81%ac%ec%97%85-%ed%8f%89%ed%96%89%ec%9d%b4%eb%a1%a0/
+
+- 날짜: 2026-03-01
+- 매체: Allure Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 강민경, 고윤정 같은 여성스러움을 원한다면? 'ㅇㅇ'부터 바꿔 보세요!
+- 링크(원문): https://www.allurekorea.com/2026/03/01/%ea%b0%95%eb%af%bc%ea%b2%bd-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b0%99%ec%9d%80-%ec%97%ac%ec%84%b1%ec%8a%a4%eb%9f%ac%ec%9b%80%ec%9d%84-%ec%9b%90%ed%95%9c%eb%8b%a4%eb%a9%b4-%e3%85%87%e3%85%87%eb%b6%80/
+- 상태: 공식확정
+- id: https://www.allurekorea.com/2026/03/01/%ea%b0%95%eb%af%bc%ea%b2%bd-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b0%99%ec%9d%80-%ec%97%ac%ec%84%b1%ec%8a%a4%eb%9f%ac%ec%9b%80%ec%9d%84-%ec%9b%90%ed%95%9c%eb%8b%a4%eb%a9%b4-%e3%85%87%e3%85%87%eb%b6%80/
+
+- 날짜: 2026-08-04
+- 매체: Allure Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 요즘 다 이거 끼고 있던데? 뷔와 고윤정이 애정하는 옥반지!
+- 링크(원문): https://www.allurekorea.com/2026/08/04/%ec%9a%94%ec%a6%98-%eb%8b%a4-%ec%9d%b4%ea%b1%b0-%eb%81%bc%ea%b3%a0-%ec%9e%88%eb%8d%98%eb%8d%b0-%eb%b7%94%ec%99%80-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%95%a0%ec%a0%95%ed%95%98%eb%8a%94-%ec%98%a5/
+- 상태: 공식확정
+- id: https://www.allurekorea.com/2026/08/04/%ec%9a%94%ec%a6%98-%eb%8b%a4-%ec%9d%b4%ea%b1%b0-%eb%81%bc%ea%b3%a0-%ec%9e%88%eb%8d%98%eb%8d%b0-%eb%b7%94%ec%99%80-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%95%a0%ec%a0%95%ed%95%98%eb%8a%94-%ec%98%a5/
+
+- 날짜: 2026-07-07
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 이병헌-고윤정이 그려낼 조선 하드보일드 액션 ‘남벌’
+- 링크(원문): https://www.vogue.co.kr/2026/07/07/%ec%9d%b4%eb%b3%91%ed%97%8c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ea%b7%b8%eb%a0%a4%eb%82%bc-%ec%a1%b0%ec%84%a0-%ed%95%98%eb%93%9c%eb%b3%b4%ec%9d%bc%eb%93%9c-%ec%95%a1%ec%85%98-%eb%82%a8/
+- 상태: 공식확정
+- id: https://www.vogue.co.kr/2026/07/07/%ec%9d%b4%eb%b3%91%ed%97%8c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ea%b7%b8%eb%a0%a4%eb%82%bc-%ec%a1%b0%ec%84%a0-%ed%95%98%eb%93%9c%eb%b3%b4%ec%9d%bc%eb%93%9c-%ec%95%a1%ec%85%98-%eb%82%a8/
+
+- 날짜: 2026-10-07
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 마주한 새하얀 겨울
+- 링크(원문): https://www.vogue.co.kr/2026/10/07/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%88%ec%a3%bc%ed%95%9c-%ec%83%88%ed%95%98%ec%96%80-%ea%b2%a8%ec%9a%b8/
+- 상태: 공식확정
+- id: https://www.vogue.co.kr/2026/10/07/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%88%ec%a3%bc%ed%95%9c-%ec%83%88%ed%95%98%ec%96%80-%ea%b2%a8%ec%9a%b8/
+
+- 날짜: 2026-01-28
+- 매체: W Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 163cm 고윤정의 키 커 보이는 데일리 룩
+- 링크(원문): https://www.wkorea.com/2026/01/28/163cm-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ed%82%a4-%ec%bb%a4-%eb%b3%b4%ec%9d%b4%eb%8a%94-%eb%8d%b0%ec%9d%bc%eb%a6%ac-%eb%a3%a9/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2026/01/28/163cm-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ed%82%a4-%ec%bb%a4-%eb%b3%b4%ec%9d%b4%eb%8a%94-%eb%8d%b0%ec%9d%bc%eb%a6%ac-%eb%a3%a9/
+
+- 날짜: 2026-09-07
+- 매체: W Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 배우 고윤정과 함께한 ‘티파니 하드웨어’ 캠페인
+- 링크(원문): https://www.wkorea.com/2026/09/07/%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ed%95%a8%ea%bb%98%ed%95%9c-%ed%8b%b0%ed%8c%8c%eb%8b%88-%ed%95%98%eb%93%9c%ec%9b%a8%ec%96%b4-%ec%ba%a0%ed%8e%98%ec%9d%b8/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2026/09/07/%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ed%95%a8%ea%bb%98%ed%95%9c-%ed%8b%b0%ed%8c%8c%eb%8b%88-%ed%95%98%eb%93%9c%ec%9b%a8%ec%96%b4-%ec%ba%a0%ed%8e%98%ec%9d%b8/
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
@@ -265,6 +329,21 @@
 - 상태: 공식확정
 - id: https://www.mk.co.kr/news/hot-issues/10994612
 
+- 날짜: 2025-10-30
+- 매체: Singles
+- 구분: 화보/기사(공식 출처)
+- 제목: 허윤진, 고윤정, 레이까지! 셀럽들이 먼저 도전한 ‘눈썹 탈색’
+- 링크(원문): https://www.singleskorea.com/beauty/2025/10/720455
+- 상태: 공식확정
+- id: https://www.singleskorea.com/beauty/2025/10/720455
+
+- 날짜: 2025-04-23
+- 매체: W Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 '여친룩 장인'으로 주목받는 이유
+- 링크(원문): https://www.wkorea.com/2025/04/23/%ec%82%ac%eb%9e%91%ec%8a%a4%eb%9f%bd%ea%b3%a0%eb%8f%84-%ec%bf%a8%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ed%91%9c-%ec%97%ac%ec%b9%9c%eb%a3%a9/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2025/04/23/%ec%82%ac%eb%9e%91%ec%8a%a4%eb%9f%bd%ea%b3%a0%eb%8f%84-%ec%bf%a8%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ed%91%9c-%ec%97%ac%ec%b9%9c%eb%a3%a9/
 ## 2024
 - 날짜: 2024-07
 - 매체: Marie Claire Korea (마리끌레르 코리아)
@@ -274,6 +353,37 @@
 - 상태: 공식확정
 - id: https://www.marieclairekorea.com/fashion/2024/07/chanel-29/
 
+- 날짜: 2024-07-20
+- 매체: Allure Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬보다 000, 고윤정 픽 드레스는 무엇?(feat.청룡어워즈)
+- 링크(원문): https://www.allurekorea.com/2024/07/20/%ec%83%a4%eb%84%ac%eb%b3%b4%eb%8b%a4-000-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ed%94%bd-%eb%93%9c%eb%a0%88%ec%8a%a4%eb%8a%94-%eb%ac%b4%ec%97%87feat-%ec%b2%ad%eb%a3%a1%ec%96%b4%ec%9b%8c%ec%a6%88/
+- 상태: 공식확정
+- id: https://www.allurekorea.com/2024/07/20/%ec%83%a4%eb%84%ac%eb%b3%b4%eb%8b%a4-000-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ed%94%bd-%eb%93%9c%eb%a0%88%ec%8a%a4%eb%8a%94-%eb%ac%b4%ec%97%87feat-%ec%b2%ad%eb%a3%a1%ec%96%b4%ec%9b%8c%ec%a6%88/
+
+- 날짜: 2024-05-15
+- 매체: Singles
+- 구분: 화보/기사(공식 출처)
+- 제목: 손석구부터 고윤정까지…브랜드의 새 얼굴이 된 스타들
+- 링크(원문): https://www.singleskorea.com/style/2024/05/718321
+- 상태: 공식확정
+- id: https://www.singleskorea.com/style/2024/05/718321
+
+- 날짜: 2024-05-17
+- 매체: W Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '라디오 샤넬'에 고윤정이 등장했다
+- 링크(원문): https://www.wkorea.com/2024/05/17/%eb%9d%bc%eb%94%94%ec%98%a4-%ec%83%a4%eb%84%ac%ec%97%90-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%93%b1%ec%9e%a5%ed%96%88%eb%8b%a4/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2024/05/17/%eb%9d%bc%eb%94%94%ec%98%a4-%ec%83%a4%eb%84%ac%ec%97%90-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%93%b1%ec%9e%a5%ed%96%88%eb%8b%a4/
+
+- 날짜: 2024-05-22
+- 매체: W Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 프랑스에서 보내온 고윤정의 사적이고 내밀한 시간
+- 링크(원문): https://www.wkorea.com/2024/05/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ec%82%ac%ec%a0%81%ec%9d%b8-%ec%8b%9c%ea%b0%84/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2024/05/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ec%82%ac%ec%a0%81%ec%9d%b8-%ec%8b%9c%ea%b0%84/
 ## 2023
 
 - 날짜: 2023-10-26
@@ -312,6 +422,21 @@
 - id: (추가 필요)
 - 비고: 무빙 관련 화보
 
+- 날짜: 2023-02-24
+- 매체: Allure Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 여친룩의 정석 #고윤정
+- 링크(원문): https://www.allurekorea.com/2023/02/24/%ec%97%ac%ec%b9%9c%eb%a3%a9%ec%9d%98-%ec%a0%95%ec%84%9d-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 공식확정
+- id: https://www.allurekorea.com/2023/02/24/%ec%97%ac%ec%b9%9c%eb%a3%a9%ec%9d%98-%ec%a0%95%ec%84%9d-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+
+- 날짜: 2023-08-21
+- 매체: Allure Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 순정 만화만큼 설레는 무빙의 봉석이와 희수, 이정하와 고윤정!
+- 링크(원문): https://www.allurekorea.com/2023/08/21/__trashed-11-2/
+- 상태: 공식확정
+- id: https://www.allurekorea.com/2023/08/21/__trashed-11-2/
 ## 2022
 - 날짜: 2022-12-12
 - 매체: 부쉐론 (Boucheron)
@@ -347,6 +472,29 @@
 - 상태: 공식확정
 - id: https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/
 
+- 날짜: 2022-12-26
+- 매체: Allure Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 반전미 넘치는 배우 고윤정
+- 링크(원문): https://www.allurekorea.com/2022/12/26/%eb%b0%98%ec%a0%84%eb%af%b8-%eb%84%98%ec%b9%98%eb%8a%94-%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 공식확정
+- id: https://www.allurekorea.com/2022/12/26/%eb%b0%98%ec%a0%84%eb%af%b8-%eb%84%98%ec%b9%98%eb%8a%94-%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+
+- 날짜: 2022-08-26
+- 매체: W Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 부쉐론의 여신, 고윤정
+- 링크(원문): https://www.wkorea.com/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+
+- 날짜: 2022-12-31
+- 매체: W Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 요즘 난리 난 고윤정
+- 링크(원문): https://www.wkorea.com/2022/12/31/%ec%9a%94%ec%a6%98-%eb%82%9c%eb%a6%ac-%eb%82%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2022/12/31/%ec%9a%94%ec%a6%98-%eb%82%9c%eb%a6%ac-%eb%82%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/
 ## 2021
 - 날짜: 2021-04-30
 - 매체: W 코리아 (W Korea)
@@ -401,6 +549,13 @@
 - id: https://fashionseoul.com/200113
 - 비고: 에스쁘아 인터뷰 및 화보
 
+- 날짜: 2021-04-30
+- 매체: W Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 4가지 관능의 향 (고윤정)
+- 링크(원문): https://www.wkorea.com/2021/04/30/4%ea%b0%80%ec%a7%80-%ea%b4%80%eb%8a%a5%ec%9d%98-%ed%96%a5-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 공식확정
+- id: https://www.wkorea.com/2021/04/30/4%ea%b0%80%ec%a7%80-%ea%b4%80%eb%8a%a5%ec%9d%98-%ed%96%a5-%ea%b3%a0%ec%9c%a4%ec%a0%95/
 ## 2020
 - 날짜: 2020-12-22
 - 매체: 엑스포츠뉴스 (Xports News)
@@ -452,3 +607,214 @@
 ## 출처
 - (S/A) 각 항목의 원문 URL(매거진/브랜드 공식 페이지)
 - 정책: docs/editorial_policy.md
+
+
+## 날짜 미상
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 다이어트보다 효과 좋다?고윤정, 제니가 꽂힌 레이어드 컷
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1899907
+- 상태: 공식확정
+- id: https://www.cosmopolitan.co.kr/article/1899907
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 시선 강탈하는 '모자무싸'고윤정의 뱀파이어 메이크업!
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1902186
+- 상태: 공식확정
+- id: https://www.cosmopolitan.co.kr/article/1902186
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정귀걸이 어디 거? 청룡 레드카펫 주얼리 총정리
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1907332
+- 상태: 공식확정
+- id: https://www.cosmopolitan.co.kr/article/1907332
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정프랑스 니스 여행 패션, 선글라스부터 티셔츠까지 총정리
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1907508
+- 상태: 공식확정
+- id: https://www.cosmopolitan.co.kr/article/1907508
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 가을엔 로제,고윤정, 강민경의 헤어 스타일 어때요? 미용실 가기 전 필독.
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1908675
+- 상태: 공식확정
+- id: https://www.cosmopolitan.co.kr/article/1908675
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 레글런 티셔츠가 다시 뜬다! 안유진·고윤정도 입은 가을 티셔츠
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1909388
+- 상태: 공식확정
+- id: https://www.cosmopolitan.co.kr/article/1909388
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정은 파리에서 6만 원대 맨투맨을 입습니다
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1910935
+- 상태: 공식확정
+- id: https://www.cosmopolitan.co.kr/article/1910935
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정·조이도 반한 올봄 코티지코어, 이렇게 활용해야 성공합니다
+- 링크(원문): https://www.elle.co.kr/article/1898314
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1898314
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 자꾸 보게 되는고윤정김고은의 '트위드' 스타일링
+- 링크(원문): https://www.elle.co.kr/article/1898769
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1898769
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 청바지 고민 끝! 트와이스 지효,고윤정은 배기진을 입었어요
+- 링크(원문): https://www.elle.co.kr/article/1899194
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1899194
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 아이유와 변우석,고윤정, 안효섭의 흥미진진 4월 드라마 대진표
+- 링크(원문): https://www.elle.co.kr/article/1899222
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1899222
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정과 샤넬의 은은한 여름밤 같은 6월호 커버
+- 링크(원문): https://www.elle.co.kr/article/1902676
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1902676
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고현정·고윤정·정호연이 사랑한 주얼리 스타일링
+- 링크(원문): https://www.elle.co.kr/article/1902874
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1902874
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 제니∙김고은∙고윤정, 미술관 갈 때 이렇게 입었습니다
+- 링크(원문): https://www.elle.co.kr/article/1903385
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1903385
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '모자무싸'고윤정의 감정 워치에는 어떤 단어가 떴을까
+- 링크(원문): https://www.elle.co.kr/article/1903405
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1903405
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 샤넬 공방 컬렉션과 찍은 단 한 편의 드라마
+- 링크(원문): https://www.elle.co.kr/article/1903563
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1903563
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 알려준 올여름 ‘노 마스카라’ 트렌드
+- 링크(원문): https://www.elle.co.kr/article/1906249
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1906249
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 제니·고윤정의 여름 티셔츠, 소매선 하나로 달라 보입니다
+- 링크(원문): https://www.elle.co.kr/article/1906879
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1906879
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 요즘고윤정·강민경은 왜 발가락 양말을 신을까요
+- 링크(원문): https://www.elle.co.kr/article/1907070
+- 상태: 공식확정
+- id: https://www.elle.co.kr/article/1907070
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '나의 아저씨' 아이유, '나의 해방일지' 김지원, '모자무싸'고윤정
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1901954
+- 상태: 공식확정
+- id: https://www.harpersbazaar.co.kr/article/1901954
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정·박보영·채원빈, 아픔을 딛고 자란 '딸들'의 서사
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1903192
+- 상태: 공식확정
+- id: https://www.harpersbazaar.co.kr/article/1903192
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 카즈하·고윤정처럼, 요즘 예쁜 얼굴엔 저대비 메이크업이 있다
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1903817
+- 상태: 공식확정
+- id: https://www.harpersbazaar.co.kr/article/1903817
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정차기작 '남벌'에 쏠린 관심(feat. 이병헌 & 이모개)
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1905885
+- 상태: 공식확정
+- id: https://www.harpersbazaar.co.kr/article/1905885
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 래글런 티셔츠가 다시 유행? 안유진부터고윤정까지 셀럽들의 여름 룩 7
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1907200
+- 상태: 공식확정
+- id: https://www.harpersbazaar.co.kr/article/1907200
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정과 리센느 제나가 닮아 보이는 진짜 이유
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1908925
+- 상태: 공식확정
+- id: https://www.harpersbazaar.co.kr/article/1908925
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정·김나영처럼, 기본 맨투맨에 청바지를 세련되게 입는 법
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1910847
+- 상태: 공식확정
+- id: https://www.harpersbazaar.co.kr/article/1910847
