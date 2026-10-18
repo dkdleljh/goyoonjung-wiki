@@ -1,10 +1,26 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-18 14:29 (Asia/Seoul)
+> Updated: 2026-10-19 00:02 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[#유퀴즈온더블럭] 윤정 언니도 나랑 똑같구나.. 얼굴 빼고💧 신입이면 무조건 공감하는 고윤정의 사회생활 필승 멘트 ㅋㅋ⭐ - YouTube](https://www.youtube.com/watch?v=syJMv5v2ML0)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [자기야 소리 싫다던 김선호 헷갈리게 만든 고윤정 #고윤정 - YouTube](https://www.youtube.com/watch?v=-2IimfvcWxc)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [남잼민VS예쁜 고윤정 #고윤정 #라요링 #추천 - YouTube](https://www.youtube.com/watch?v=eAuY-qBNsmE)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [봉석이의 비밀을 안 희수의 얼굴공격 #무빙 #고윤정 - YouTube](https://www.youtube.com/watch?v=3406RM8pWnc)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [핫팩 하나 나눠 주더니 간식까지 챙기는 고윤정 - YouTube](https://www.youtube.com/watch?v=aFVbI5PfWik)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [돌려 말할 땐 별 핑계더니 뽀뽀는 대놓고 꺼낸 고윤정 #고윤정 - YouTube](https://www.youtube.com/watch?v=SLPSH216AkM)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [군대 간 남동생 전화에 고윤정 반응ㅋㅋ [유퀴즈] - YouTube](https://www.youtube.com/watch?v=coh9rIZa1kM)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [그림 칭찬하던 재석 연필은?ㅋ #고윤정 - YouTube](https://www.youtube.com/watch?v=le8oKp89aUU)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [오늘 기분 야르~한 고윤정 #예능 #고윤정 - YouTube](https://www.youtube.com/watch?v=2NGZc4YJvJs)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[#유퀴즈온더블럭] ISTP의 자랑 고윤정✨ 초등학생급 털털함을 가진 고윤정의 실상🤣 - YouTube](https://www.youtube.com/watch?v=251BBJ30YDs)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [배우 화장, 그대로 따라 하면 망하는 이유⁉️ 김지원·고윤정의 귀티 나는 화장법 5가지 - YouTube](https://www.youtube.com/watch?v=Ozg0fqLarFE)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [동생 귀여워하는 고윤정이 귀여움 #고윤정 - YouTube](https://www.youtube.com/watch?v=RuxvdOq_nuI)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [귀엽게 소곤대더니 갑자기 딕션 폭발ㅋㅋ #고윤정 - YouTube](https://www.youtube.com/watch?v=EKVIyVcEHPU)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [뚝딱거리다 순식간에 아이돌 재질로 변신하는 고윤정 반전 매력 - YouTube](https://www.youtube.com/watch?v=0eXXTHIK2js)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · ["엄마도 내 목소리 못 찾았어요 ㅋㅋㅋ" OST 보컬 보정(오토튠) 소식에 빵 터진 고윤정 🤣 - YouTube](https://www.youtube.com/watch?v=ekrzbiuBYZE)
+- 2026-10-18 · grade=B · ZH_ALL · [國家地理服飾 高允貞 x 許南俊 《遇見你的季節》預告片 (繁體中文字幕版) - YouTube](https://www.youtube.com/watch?v=sIr3JiMrQSc)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[4K] 고윤정(Go Younjung), '성실함·긍정적·코미디 다 놓치지 않을거에요' 고윤정도 힐링하게 만든 명대사는? (‘모자무싸’ 제작발표회) - YouTube](https://www.youtube.com/watch?v=v6QZ1y5Wdn0)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [절세 미인 외모와는 딴판인 성격😲 어쩐지 초등학생미가 느껴지는 고윤정 현실 말투ㅋㅋ💖 #유퀴즈 - YouTube](https://www.youtube.com/watch?v=Y2mUgrU3A4c)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[스페셜] 20년 전 버린 딸 고윤정을 다시 찾은 ‘탑배우 엄마’ 배종옥의 속내 | 모두가 자신의 무가치함과 싸우고 있다 | JTBC 260509 방송 - YouTube](https://www.youtube.com/watch?v=qdCkb---pCA)

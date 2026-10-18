@@ -1,11 +1,11 @@
 # Official Platform Watch (auto)
 
-> Updated: 2026-10-18 14:34 (Asia/Seoul)
+> Updated: 2026-10-19 00:01 (Asia/Seoul)
 
 이 문서는 기존 위키 근거의 색인입니다. 새 공식 발표의 실제 외부 조회 결과는 [수집 출처 상태](source-collection-status.md)의 official-live 항목에서 확인합니다.
 
 ## Summary
-- official_platform_links: 90
+- official_platform_links: 88
 
 ## Links
 | title | host | grade | url |
@@ -30,10 +30,10 @@
 | 작품 — 연도별 인덱스 | netflix.com | S | https://www.netflix.com/kr/title/81061734 |
 | 작품 — 연도별 인덱스 | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/hhw1_test/ |
 | 작품 — 연도별 인덱스 | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/alchemyofsouls/ |
-| 작품 — 연도별 인덱스 | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 작품 — 연도별 인덱스 | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/lawschool |
 | 작품 — 연도별 인덱스 | netflix.com | S | https://www.netflix.com/kr/title/80209129 |
 | 작품 — 연도별 인덱스 | tvn.cjenm.com | S | https://tvn.cjenm.com/ko/heispsychometric/ |
+| 작품 — 연도별 인덱스 | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 이 사랑 통역 되나요? (Netflix) | netflix.com | S | https://www.netflix.com/kr/title/81697769 |
 | 이 사랑 통역 되나요? (Netflix) | youtube.com | B | https://www.youtube.com/watch?v=xLhmKJx7mE0 |
 | 이 사랑 통역 되나요? (Netflix) | youtube.com | B | https://www.youtube.com/watch?v=IIHQ1Z2yu80 |
@@ -42,9 +42,8 @@
 | 이 사랑 통역 되나요? (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391253 |
 | 이 사랑 통역 되나요? (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391146 |
 | 이 사랑 통역 되나요? (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=389107 |
-| 이 사랑 통역 되나요? (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=387125 |
 | 이 사랑 통역 되나요? (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=389846 |
-| 이 사랑 통역 되나요? (Netflix) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008402330 |
+| 이 사랑 통역 되나요? (Netflix) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=387125 |
 | 이 사랑 통역 되나요? (Netflix) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 이재, 곧 죽습니다 (TVING) | tving.com | S | https://www.tving.com/contents/P001748996 |
 | 이재, 곧 죽습니다 (TVING) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
@@ -75,7 +74,6 @@
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=274438 |
 | 무빙 (Disney+) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=391146 |
-| 무빙 (Disney+) | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003 |
 | 남벌 | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=405372 |
 | 남벌 | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839 |
 | 남벌 | news.sbs.co.kr | S | https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295 |
@@ -90,6 +88,8 @@
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=361830 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362628 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362734 |
+| 언젠가는 슬기로울 전공의생활 (tvN) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
+| 스위트홈 2 | netflix.com | S | https://www.netflix.com/kr/title/81061734 |
 
 ## Policy
 - S급 공식 링크는 본문 자동 확정 후보입니다.

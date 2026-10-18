@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-10-18
+> 자동 생성 인덱스 · 마지막 갱신: 2026-10-19
 
 ## 바로 가기
 - [README.md](README.md)
@@ -13,22 +13,22 @@
 - [pages/perfect-scorecard.md](pages/perfect-scorecard.md)
 
 ## 최신 릴리즈
-- 최신 태그: `v1.58.2`
+- 최신 태그: `v1.138.4`
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
-- [`aaff6d08`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aaff6d08) — Add representative images and source credits for every work
-- [`16bb128c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/16bb128c) — docs: add photographs to matching wiki topics and record credits
-- [`61f79834`](https://github.com/dkdleljh/goyoonjung-wiki/commit/61f79834) — docs: sync collected wiki content for website
-- [`376be089`](https://github.com/dkdleljh/goyoonjung-wiki/commit/376be089) — fix: retire historical MAA source after agency merger
-- [`acda49dd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/acda49dd) — docs: sync collected wiki content for website
+- [`f8c41dd2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f8c41dd2) — docs: sync collected wiki content for website
+- [`c289b722`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c289b722) — docs: sync collected wiki content for website
+- [`becdc3de`](https://github.com/dkdleljh/goyoonjung-wiki/commit/becdc3de) — docs: sync collected wiki content for website
+- [`b53f163e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/b53f163e) — docs: sync collected wiki content for website
+- [`289da9fd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/289da9fd) — docs: sync collected wiki content for website
 
 ## 직전 변경 파일
-- `pages/works/alchemy-of-souls-light-and-shadow.md`
-- `pages/works/alchemy-of-souls.md`
-- `pages/works/deaths-game.md`
-- `pages/works/everyone-fights-worthlessness.md`
-- `pages/works/he-is-psychometric.md`
-- `pages/works/hunt.md`
-- `pages/works/law-school.md`
-- `pages/works/light-shop.md`
+- `data/facts/awards.json`
+- `data/facts/evidence.json`
+- `data/facts/profile.json`
+- `data/facts/works.json`
+- `data/reports/archive-progress.json`
+- `data/reports/collectors/archive.json`
+- `data/reports/collectors/official-live.json`
+- `data/reports/collectors/youtube.json`

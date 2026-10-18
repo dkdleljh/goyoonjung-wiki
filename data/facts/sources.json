@@ -1590,6 +1590,118 @@
   },
   {
     "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=syJMv5v2ML0",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=-2IimfvcWxc",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=eAuY-qBNsmE",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=3406RM8pWnc",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=aFVbI5PfWik",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=SLPSH216AkM",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=coh9rIZa1kM",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=le8oKp89aUU",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=2NGZc4YJvJs",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=251BBJ30YDs",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=Ozg0fqLarFE",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=RuxvdOq_nuI",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=EKVIyVcEHPU",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=0eXXTHIK2js",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=ekrzbiuBYZE",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=sIr3JiMrQSc",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
     "url": "https://www.youtube.com/watch?v=v6QZ1y5Wdn0",
     "host": "youtube.com",
     "grade": "B",
@@ -3080,6 +3192,20 @@
     "lane": "queue"
   },
   {
+    "page": "pages/interviews.md",
+    "url": "https://www.esquirekorea.co.kr/article/1876898",
+    "host": "esquirekorea.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/interviews.md",
+    "url": "https://www.esquirekorea.co.kr/article/80691",
+    "host": "esquirekorea.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
     "page": "pages/legal.md",
     "url": "https://creativecommons.org/",
     "host": "creativecommons.org",
@@ -3088,43 +3214,36 @@
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792",
-    "host": "m.koreanfilm.or.kr",
+    "url": "https://www.osen.co.kr/article/G1112883901",
+    "host": "osen.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.yna.co.kr/entertainment",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.vodana.co.kr/",
+    "host": "vodana.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.armanibeauty.com/",
-    "host": "armanibeauty.com",
-    "grade": "BLOCK",
-    "lane": "discard"
+    "url": "https://www.disneypluskr.com/",
+    "host": "disneypluskr.com",
+    "grade": "S",
+    "lane": "landed"
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.wkorea.com/wp-admin/admin-ajax.php",
-    "host": "wkorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.gqkorea.co.kr/wp-admin/admin-ajax.php",
-    "host": "gqkorea.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.allurekorea.com/wp-admin/admin-ajax.php",
-    "host": "allurekorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://maa.co.kr/",
-    "host": "maa.co.kr",
+    "url": "https://slv.kstarfashion.com/news/articleView.html?idxno=214777",
+    "host": "slv.kstarfashion.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -3137,29 +3256,8 @@
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.yna.co.kr/entertainment",
-    "host": "yna.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.disneypluskr.com/",
-    "host": "disneypluskr.com",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.goodal.com/",
-    "host": "goodal.com",
-    "grade": "BLOCK",
-    "lane": "discard"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.vodana.co.kr/",
-    "host": "vodana.co.kr",
+    "url": "https://www.armanibeauty.com/",
+    "host": "armanibeauty.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -3172,22 +3270,57 @@
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.boucheron.com/",
-    "host": "boucheron.com",
+    "url": "https://www.goodal.com/",
+    "host": "goodal.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://slv.kstarfashion.com/news/articleView.html?idxno=214777",
-    "host": "slv.kstarfashion.com",
+    "url": "https://www.wkorea.com/wp-admin/admin-ajax.php",
+    "host": "wkorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://maa.co.kr/",
+    "host": "maa.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.allurekorea.com/wp-admin/admin-ajax.php",
+    "host": "allurekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792",
+    "host": "m.koreanfilm.or.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.gqkorea.co.kr/wp-admin/admin-ajax.php",
+    "host": "gqkorea.co.kr",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/link-health.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.boucheron.com/",
+    "host": "boucheron.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -3216,6 +3349,48 @@
     "page": "pages/link-health.md",
     "url": "https://www.instagram.com/maakorea/",
     "host": "instagram.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtdz9LWNNQKUg4Xpma_40Ug",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-uIpGINZDL-VIHQQzJW8jw",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9w-h_ciMmX64TcLRcb1xPg",
+    "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
@@ -4838,13 +5013,6 @@
   },
   {
     "page": "pages/official-platform-watch.md",
-    "url": "https://kstar.kbs.co.kr/list_view.html?idx=387125",
-    "host": "kstar.kbs.co.kr",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/official-platform-watch.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=389846",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
@@ -4852,8 +5020,8 @@
   },
   {
     "page": "pages/official-platform-watch.md",
-    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008402330",
-    "host": "news.sbs.co.kr",
+    "url": "https://kstar.kbs.co.kr/list_view.html?idx=387125",
+    "host": "kstar.kbs.co.kr",
     "grade": "S",
     "lane": "landed"
   },
@@ -4943,13 +5111,6 @@
   },
   {
     "page": "pages/official-platform-watch.md",
-    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003",
-    "host": "news.sbs.co.kr",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/official-platform-watch.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=405372",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
@@ -4965,6 +5126,13 @@
   {
     "page": "pages/official-platform-watch.md",
     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295",
+    "host": "news.sbs.co.kr",
+    "grade": "S",
+    "lane": "landed"
+  },
+  {
+    "page": "pages/official-platform-watch.md",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003",
     "host": "news.sbs.co.kr",
     "grade": "S",
     "lane": "landed"
@@ -6028,6 +6196,13 @@
   },
   {
     "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2026/01/20/%ea%b5%ac%ea%b5%90%ed%99%98-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ed%98%b8%ed%9d%a1-%eb%a7%9e%ec%b6%9c-%ec%83%88-%eb%93%9c%eb%9d%bc%eb%a7%88%eb%8a%94/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
     "url": "https://sports.donga.com/ent/article/all/20251030/132665690/1",
     "host": "sports.donga.com",
     "grade": "A",
@@ -6154,6 +6329,48 @@
   },
   {
     "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2025/10/05/%ed%98%84%eb%8c%80%ec%a0%81%ec%9d%b8-%ec%9a%b0%ec%95%84%ed%95%a8-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ec%83%a4%eb%84%ac/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2025/12/18/%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b9%80%ec%84%a0%ed%98%b8%ec%9d%98-%ec%98%88%ec%b8%a1-%eb%b6%88%ea%b0%80-%eb%a1%9c%eb%a7%a8%ec%8a%a4-%ec%9d%b4-%ec%82%ac%eb%9e%91-%ed%86%b5%ec%97%ad-%eb%90%98/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-1/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-2/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/celebrity/2025/09/2025asa-goyounjung/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
     "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-29/",
     "host": "marieclairekorea.com",
     "grade": "A",
@@ -6189,6 +6406,55 @@
   },
   {
     "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2024/05/03/%ec%83%a4%eb%84%ac-%ed%81%ac%eb%a3%a8%ec%a6%88-2024-25-%ec%87%bc%ec%97%90-%ec%b0%b8%ec%84%9d%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2024/05/20/%ec%83%88%eb%a1%9c%ec%9a%b4-%ec%95%b0%eb%b0%b0%ec%84%9c%eb%8d%94-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%90%ed%95%98%eb%8a%94-%ec%83%a4%eb%84%ac-2024-25-%ed%81%ac%eb%a3%a8%ec%a6%88-%ec%bb%ac/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/fashion/2024/06/chanel-25/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-26/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-27/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-28/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/fashion/2024/06/chanel-24/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
     "url": "https://news.nate.com/view/20231026n28152",
     "host": "news.nate.com",
     "grade": "BLOCK",
@@ -6219,6 +6485,20 @@
     "page": "pages/pictorials/editorial.md",
     "url": "https://www.allurekorea.com/2023/08/21/__trashed-11-2/",
     "host": "allurekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/culture/lifestyle/2023/09/goyj/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/celebrity/2023/03/boucheron-gohyoonjung/",
+    "host": "marieclairekorea.com",
     "grade": "A",
     "lane": "queue"
   },
@@ -6268,6 +6548,27 @@
     "page": "pages/pictorials/editorial.md",
     "url": "https://www.wkorea.com/2022/12/31/%ec%9a%94%ec%a6%98-%eb%82%9c%eb%a6%ac-%eb%82%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/",
     "host": "wkorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2022/02/21/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%eb%b4%84-%eb%b4%84-%eb%b4%84/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2022/09/02/%eb%b6%80%ec%89%90%eb%a1%a0%ea%b3%bc-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%b0%bd%ec%a1%b0%ed%95%9c-%eb%af%b8%ec%9d%98-%ec%84%b8%ea%b3%84/",
+    "host": "vogue.co.kr",
     "grade": "A",
     "lane": "queue"
   },
@@ -6329,6 +6630,13 @@
   },
   {
     "page": "pages/pictorials/editorial.md",
+    "url": "https://www.vogue.co.kr/2021/02/17/%ed%95%9c%ec%97%86%ec%9d%b4-%ed%88%ac%eb%aa%85%ec%97%90-%ea%b0%80%ea%b9%8c%ec%9a%b4-%ea%b3%a0%ec%9c%a4%ec%a0%95/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
     "url": "https://www.xportsnews.com/article/1368580",
     "host": "xportsnews.com",
     "grade": "A",
@@ -6347,6 +6655,20 @@
     "host": "insight.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/celebrity/2020/05/different-attract-of-goyunjung/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.marieclairekorea.com/celebrity/2020/08/goyoonjung-in-venice/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/pictorials/editorial.md",
@@ -6533,6 +6855,580 @@
   {
     "page": "pages/pictorials/editorial.md",
     "url": "https://www.harpersbazaar.co.kr/article/1910847",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1888583",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1888588",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1888589",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1888602",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1896016",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1896159",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1896195",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1896458",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1896518",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1899051",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1899610",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1899791",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1901924",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1880863",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1881286",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1884033",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1884834",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1887004",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1895673",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1895864",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1896462",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1896910",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1898131",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1899306",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1873039",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1873041",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1874201",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1876123",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1877537",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1877592",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1880797",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1881023",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1881527",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1884981",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1895494",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1895929",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1895957",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1895959",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1896274",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1896532",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1865877",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1880522",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/74628",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/81411",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1863624",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/1863695",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/82598",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/82624",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1880063",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1880834",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1881137",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1881807",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1882218",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1883555",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1883689",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1889998",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1889999",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/58117",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/64826",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/65176",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/67745",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.cosmopolitan.co.kr/article/74461",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/53778",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/61656",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/73373",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/73482",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/73722",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.elle.co.kr/article/74068",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1868020",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1869633",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1869799",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1876940",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1860908",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/74033",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/78245",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/79958",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/80774",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/81221",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/82127",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/83053",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/72641",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/pictorials/editorial.md",
+    "url": "https://www.harpersbazaar.co.kr/article/73357",
     "host": "harpersbazaar.co.kr",
     "grade": "A",
     "lane": "queue"
@@ -6826,645 +7722,15 @@
   },
   {
     "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/en/entertain/12162117",
+    "url": "http://www.inews24.com/view/2008864",
+    "host": "inews24.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/promotion-queue.md",
+    "url": "https://mk.co.kr/amp/12162117",
     "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/news/hot-issues/12162111",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.tenasia.co.kr/article/2026092184494",
-    "host": "tenasia.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://isplus.com/article/view/isp202610180070",
-    "host": "isplus.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260917090011098?f=p",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260821083411363?f=p",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.sportsseoul.com/news/read/1642092",
-    "host": "sportsseoul.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.khan.co.kr/article/202609202221003",
-    "host": "sports.khan.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/Bodvq71y04",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/en/hot-issues/12054223",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://jp.sportalkorea.com/news/articleView.html?idxno=34193",
-    "host": "jp.sportalkorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.heraldcorp.com/article/10898312",
-    "host": "biz.heraldcorp.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://newsis.com/view_amp.html?ar_id=NISX20260927_0003804310",
-    "host": "newsis.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/9VVtr4KpLg?f=p",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.khan.co.kr/article/202610171211003",
-    "host": "sports.khan.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/player/shorts/22882",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/player/star-ranking/22883",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/player/shorts/22884?period=weekly",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.newsis.com/view/NISX20260308_0003539257",
-    "host": "newsis.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.heraldcorp.com/article/10880828",
-    "host": "biz.heraldcorp.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260122071123454?f=m",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.newsis.com/view/NISX20260619_0003676045",
-    "host": "newsis.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/news/hot-issues/12163132",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://blog.naver.com/yooju0913/224267486166?viewType=pc",
-    "host": "blog.naver.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://plus.hankyung.com/apps/newsinside.view?aid=2026010921184&category=&sns=y",
-    "host": "plus.hankyung.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.xportsnews.com/article/2142624",
-    "host": "xportsnews.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://newsen.com/news_view.php?uid=202601101429442510",
-    "host": "newsen.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://isplus.com/article/view/isp202610130117",
-    "host": "isplus.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.tenasia.co.kr/article/2026042560664",
-    "host": "tenasia.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/star/2026/06/15/2026061514100948071",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260322073726348",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.donga.com/ent/article/all/20260308/133484239/1",
-    "host": "sports.donga.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260925090156827?f=p",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://isplus.com/article/view/isp202607070191",
-    "host": "isplus.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260928040129745",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/entertainments/movie/2026/07/08/GM2GKN3FMZQWEMRQMNRWMYJQHA",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/english/sports-en/2026/09/25/4EPCFCFXKZHOHNDLB55WTU7FAQ",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/entertainment/tv/2026/10/08/GBSDSMDGMRRTOYZVGZRDGYRWGE",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.donga.com/ent/article/all/20261008/134809436/1",
-    "host": "sports.donga.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.donga.com/photo?m=view&date=20261008&gid=134809436&rev=1",
-    "host": "sports.donga.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://newsen.com/news_view.php?uid=202604290454471710",
-    "host": "newsen.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/news/hot-issues/12027904",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16073334",
-    "host": "topstarnews.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/star/2026/10/06/2026100608574841744",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260221154644442",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/en/en-entertainment/2026/09/27/LHO4UEE6IVFG7DHRLRYYXSMNAM",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260225151725007",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260319060143629",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.dispatch.co.kr/2338820",
-    "host": "dispatch.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.topstarnews.net/news/articleView.html?idxno=15996007",
-    "host": "topstarnews.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.donga.com/ent/article/all/20260225/133418102/1",
-    "host": "sports.donga.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.imbc.com/broad/enews/view.html?idx=497088",
-    "host": "imbc.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/entertainments/broadcast/2026/02/03/MQ2WEZJXMFRWMYTDHBRTAODDGY",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260222160244500",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/entertainments/broadcast/2026/03/08/HE4TQNBSGM2WMZLCGM4TSNRYHA",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/entertainments/broadcast/2026/01/22/HBSWINBYMJSDSN3GGE3GMZJVMM",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/jp/culture-life-jp/2026/09/27/MIEXJTA625CCJJFNZY7PRZFH44",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16201615",
-    "host": "topstarnews.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/2YXpnXe4Al",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.khan.co.kr/article/202609170858003",
-    "host": "sports.khan.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.yna.co.kr/view/AKR20260708065300005",
-    "host": "yna.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.dispatch.co.kr/2344909",
-    "host": "dispatch.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.donga.com/ent/article/all/20260707/134254435/1",
-    "host": "sports.donga.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16105174",
-    "host": "topstarnews.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260707155800017",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/entertainment/movie/2026/07/07/GM4DOMBTHA4WKN3DMVRTMYJVGE",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.donga.com/ent/article/all/20260723/134348815/1",
-    "host": "sports.donga.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260720101907247",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16225747",
-    "host": "topstarnews.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/80dPPWQ95g",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.yna.co.kr/view/AKR20260923185000030",
-    "host": "yna.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/515491",
-    "host": "enews.imbc.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/entertainments/enter_general/2026/08/27/MM4TGZRXGM2DEOBRGZRTMMLFHE",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16218888",
-    "host": "topstarnews.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.hankyung.com/article/202610020253g",
-    "host": "hankyung.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/star/2026/08/25/2026082507140631662",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://newsen.com/news_view.php?uid=202608271513376710",
-    "host": "newsen.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://sports.khan.co.kr/article/202608280238003",
-    "host": "sports.khan.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.marieclairekorea.com/fashion/2026/09/k-soft-power",
-    "host": "marieclairekorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/03/HA4GMYLEHE2DGOBRGY4DAZDCMU",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260920222309450",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1009870",
-    "host": "spotvnews.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox",
-    "host": "marieclairekorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/Bij7ICfzmE",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/entertainment/tv/2026/09/17/MIYDCYZRGI2TKOBUG4YTIN3GME",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260917090011098",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/22/MEZGENTFMI2TMZBVGM4GKMTEMM",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/ja/star/2026/09/16/2026091618304861386",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/news/photos/12122864",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.cosmopolitan.co.kr/article/1907332",
-    "host": "cosmopolitan.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.osen.co.kr/article/G1112851422",
-    "host": "osen.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.imbc.com/broad/enews/view.html?idx=513316",
-    "host": "imbc.com",
     "grade": "A",
     "lane": "queue"
   },
@@ -7472,349 +7738,6 @@
     "page": "pages/promotion-queue.md",
     "url": "http://www.inews24.com/view/1991164",
     "host": "inews24.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260801063838267",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16152962",
-    "host": "topstarnews.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.news1.kr/photos/8036194",
-    "host": "news1.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/entertainments/enter_general/2026/07/31/MMYDONTBMZSWMNZYGYYDQYZUGA",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://isplus.com/article/view/isp202608020121",
-    "host": "isplus.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/english/kpop-culture-en/2026/08/02/4ZBQGF2FW5HATLXGXE3735G6IA",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/en/en-entertainment/2026/09/30/KVCL3FMVBJFNJCSNRKSKSSCGRM",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/jp/culture-life-jp/2026/09/29/DONZN4KFHVDUDH6M7ASUK7OASQ",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/jp/hot-issues/12161158",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/ja/star/2026/10/06/2026100608574841744",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/jp/culture-life-jp/2026/09/30/MMEK5Q7EVBGQVAVK77BEQJL6HQ",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/jp/entertain/12162117",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/ja/star/2026/09/28/2026092723455379336",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/jp/hot-issues/12163132",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.vogue.co.kr/2026/10/07/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%B4-%EB%A7%88%EC%A3%BC%ED%95%9C-%EC%83%88%ED%95%98%EC%96%80-%EA%B2%A8%EC%9A%B8",
-    "host": "vogue.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.koreatimes.co.kr/entertainment/films/20260708/lee-byung-hun-go-youn-jung-cast-in-upcoming-joseon-era-action-film",
-    "host": "koreatimes.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/english/kpop-culture-en/2026/07/13/2PNKYX7MYFBAJPOBFWLF5FOWKI",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.sportschosun.com/en/movie/2026-07-08/202607080100050020003004",
-    "host": "sportschosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/english/kpop-culture-en/2026/07/07/FFRPJDIJRZGOLAWADMYMS7PE3Y",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.koreatimes.co.kr/entertainment/shows-dramas/20260505/iu-go-youn-jung-shin-hae-sun-defy-ratings-slump-in-rare-weekend-drama-surge",
-    "host": "koreatimes.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/Q9gpBgFYwg",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.sportschosun.com/en/culture/2026-09-24/202609240100164150010740",
-    "host": "sportschosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/en/hot-issues/12162111",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/english/kpop-culture-en/2026/09/29/ZNKZCLFVMNC47BPO4LT4VCUGIA",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/en/hot-issues/12163132",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.sportschosun.com/en/k-beauty/2026-09-11/202609110100078900005110",
-    "host": "sportschosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/english/kpop-culture-en/2026/09/27/AIKQCRVVSFEWJASS6TASCC3AHA",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.chosun.com/en/en-entertainment/2026/09/29/26QQGMLYXBGVXOSL7UKGU3EZ2M",
-    "host": "biz.chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.sportschosun.com/en/celebrity/2026-09-27/202609270100180020011872",
-    "host": "sportschosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/english/kpop-culture-en/2026/09/20/QHK625VA2ZENRIS4SGYXPWATYM",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/en/hot-issues/12161158",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://mbiz.heraldcorp.com/article/10898312",
-    "host": "mbiz.heraldcorp.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/english/kpop-culture-en/2026/09/30/JXZ26MEHQFAQTAJATYLWZUOWXY",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://mydaily.co.kr/page/view/2026092715164924546",
-    "host": "mydaily.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.newsis.com/view/NISX20260927_0003804310",
-    "host": "newsis.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.mk.co.kr/news/hot-issues/12161158",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.tenasia.co.kr/article/2026042942044",
-    "host": "tenasia.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.starnewskorea.com/star/2026/04/28/2026042820102693602",
-    "host": "starnewskorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=794454",
-    "host": "spotvnews.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260112183443509",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/6ONoHyPKZy",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260110011249919",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260109205849832",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/pL9xFqYCCF?f=p",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://v.daum.net/v/20260109223503833",
-    "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.chosun.com/entertainments/broadcast/2026/01/17/GBQTOZJTMRRDCYJTHFRDMNDFGQ",
-    "host": "chosun.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://www.cosmopolitan.co.kr/article/1910935",
-    "host": "cosmopolitan.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/promotion-queue.md",
-    "url": "https://biz.heraldcorp.com/article/10898311",
-    "host": "biz.heraldcorp.com",
     "grade": "A",
     "lane": "queue"
   },
@@ -7829,6 +7752,1091 @@
     "page": "pages/reviewed-news.md",
     "url": "https://www.mydaily.co.kr/page/view/2026101811451289251",
     "host": "mydaily.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://mydaily.co.kr/page/view/2026101811451289251",
+    "host": "mydaily.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/en/entertain/12162117",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/news/hot-issues/12162111",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.tenasia.co.kr/article/2026092184494",
+    "host": "tenasia.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://isplus.com/article/view/isp202610180070",
+    "host": "isplus.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260917090011098?f=p",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260821083411363?f=p",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportsseoul.com/news/read/1642092",
+    "host": "sportsseoul.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.khan.co.kr/article/202609202221003",
+    "host": "sports.khan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/Bodvq71y04",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/en/hot-issues/12054223",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://jp.sportalkorea.com/news/articleView.html?idxno=34193",
+    "host": "jp.sportalkorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.khan.co.kr/article/202610082336003",
+    "host": "sports.khan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.tenasia.co.kr/article/2026092803714",
+    "host": "tenasia.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportschosun.com/entertainment/2026-09-27/202609270100180020011872",
+    "host": "sportschosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportschosun.com/k-beauty/2026-09-22/202609220100153440009998",
+    "host": "sportschosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.heraldcorp.com/article/10898312",
+    "host": "biz.heraldcorp.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.osen.co.kr/article/G1112883901",
+    "host": "osen.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.hankyung.com/article/202610078190g",
+    "host": "hankyung.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.khan.co.kr/article/202609231144003",
+    "host": "sports.khan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/player/shorts/22884",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://mydaily.co.kr/page/view/2026092717323954402",
+    "host": "mydaily.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/9VVtr4KpLg?f=p",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.khan.co.kr/article/202610171211003",
+    "host": "sports.khan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/player/shorts/22882",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportsseoul.com/news/read/1642163",
+    "host": "sportsseoul.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.xportsnews.com/article/2200305",
+    "host": "xportsnews.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.xportsnews.com/article/2202242",
+    "host": "xportsnews.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.xportsnews.com/article/2200984",
+    "host": "xportsnews.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.xportsnews.com/article/2197978",
+    "host": "xportsnews.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.xportsnews.com/article/2203159",
+    "host": "xportsnews.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mksports.co.kr/news/entertain/12162117",
+    "host": "mksports.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportsseoul.com/news/read/1637293",
+    "host": "sportsseoul.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportsseoul.com/news/read/1639642",
+    "host": "sportsseoul.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportsseoul.com/news/read/1637796",
+    "host": "sportsseoul.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/player/star-ranking/22883",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/player/shorts/22884?period=weekly",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.asiae.co.kr/article/2026092310211456868",
+    "host": "asiae.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.news1.kr/industry/distribution/6299795",
+    "host": "news1.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.news1.kr/industry/distribution/6300203",
+    "host": "news1.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.news1.kr/entertain/celebrity-topic/6302527",
+    "host": "news1.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.newsis.com/view/NISX20260308_0003539257",
+    "host": "newsis.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260122071123454?f=m",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.newsis.com/view/NISX20260619_0003676045",
+    "host": "newsis.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/news/hot-issues/12163132",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://plus.hankyung.com/apps/newsinside.view?aid=2026010921184&category=&sns=y",
+    "host": "plus.hankyung.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.xportsnews.com/article/2142624",
+    "host": "xportsnews.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://isplus.com/article/view/isp202610130117",
+    "host": "isplus.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.tenasia.co.kr/article/2026042560664",
+    "host": "tenasia.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/star/2026/06/15/2026061514100948071",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260322073726348",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.donga.com/ent/article/all/20260308/133484239/1",
+    "host": "sports.donga.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260925090156827?f=p",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://isplus.com/article/view/isp202607070191",
+    "host": "isplus.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260928040129745",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/entertainments/movie/2026/07/08/GM2GKN3FMZQWEMRQMNRWMYJQHA",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/entertainment/tv/2026/10/08/GBSDSMDGMRRTOYZVGZRDGYRWGE",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.donga.com/ent/article/all/20261008/134809436/1",
+    "host": "sports.donga.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.donga.com/photo?m=view&date=20261008&gid=134809436&rev=1",
+    "host": "sports.donga.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/news/hot-issues/12027904",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16073334",
+    "host": "topstarnews.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/star/2026/10/06/2026100608574841744",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260221154644442",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/en/en-entertainment/2026/09/27/LHO4UEE6IVFG7DHRLRYYXSMNAM",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260225151725007",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260319060143629",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.dispatch.co.kr/2338820",
+    "host": "dispatch.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=15996007",
+    "host": "topstarnews.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.donga.com/ent/article/all/20260225/133418102/1",
+    "host": "sports.donga.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/entertainments/broadcast/2026/02/03/MQ2WEZJXMFRWMYTDHBRTAODDGY",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260222160244500",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/entertainments/broadcast/2026/03/08/HE4TQNBSGM2WMZLCGM4TSNRYHA",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/entertainments/broadcast/2026/01/22/HBSWINBYMJSDSN3GGE3GMZJVMM",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/jp/culture-life-jp/2026/09/27/MIEXJTA625CCJJFNZY7PRZFH44",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16201615",
+    "host": "topstarnews.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/2YXpnXe4Al",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.khan.co.kr/article/202609170858003",
+    "host": "sports.khan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.yna.co.kr/view/AKR20260708065300005",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.dispatch.co.kr/2344909",
+    "host": "dispatch.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.donga.com/ent/article/all/20260707/134254435/1",
+    "host": "sports.donga.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16105174",
+    "host": "topstarnews.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260707155800017",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/entertainment/movie/2026/07/07/GM4DOMBTHA4WKN3DMVRTMYJVGE",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.donga.com/ent/article/all/20260723/134348815/1",
+    "host": "sports.donga.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260720101907247",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16225747",
+    "host": "topstarnews.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/80dPPWQ95g",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.yna.co.kr/view/AKR20260923185000030",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://enews.imbc.com/News/RetrieveNewsInfo/515491",
+    "host": "enews.imbc.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/entertainments/enter_general/2026/08/27/MM4TGZRXGM2DEOBRGZRTMMLFHE",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16218888",
+    "host": "topstarnews.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.hankyung.com/article/202610020253g",
+    "host": "hankyung.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/star/2026/08/25/2026082507140631662",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://sports.khan.co.kr/article/202608280238003",
+    "host": "sports.khan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.marieclairekorea.com/fashion/2026/09/k-soft-power",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/03/HA4GMYLEHE2DGOBRGY4DAZDCMU",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260920222309450",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1009870",
+    "host": "spotvnews.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/Bij7ICfzmE",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/entertainment/tv/2026/09/17/MIYDCYZRGI2TKOBUG4YTIN3GME",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/22/MEZGENTFMI2TMZBVGM4GKMTEMM",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/ja/star/2026/09/16/2026091618304861386",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/news/photos/12122864",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1907332",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.osen.co.kr/article/G1112851422",
+    "host": "osen.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260801063838267",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16152962",
+    "host": "topstarnews.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.news1.kr/photos/8036194",
+    "host": "news1.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/entertainments/enter_general/2026/07/31/MMYDONTBMZSWMNZYGYYDQYZUGA",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://isplus.com/article/view/isp202608020121",
+    "host": "isplus.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/english/kpop-culture-en/2026/08/02/4ZBQGF2FW5HATLXGXE3735G6IA",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/en/en-entertainment/2026/09/30/KVCL3FMVBJFNJCSNRKSKSSCGRM",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/jp/culture-life-jp/2026/09/29/DONZN4KFHVDUDH6M7ASUK7OASQ",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/jp/hot-issues/12161158",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/ja/star/2026/10/06/2026100608574841744",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/jp/culture-life-jp/2026/09/30/MMEK5Q7EVBGQVAVK77BEQJL6HQ",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/ja/star/2026/09/28/2026092723455379336",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/jp/hot-issues/12163132",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.vogue.co.kr/2026/10/07/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%B4-%EB%A7%88%EC%A3%BC%ED%95%9C-%EC%83%88%ED%95%98%EC%96%80-%EA%B2%A8%EC%9A%B8",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.koreatimes.co.kr/entertainment/films/20260708/lee-byung-hun-go-youn-jung-cast-in-upcoming-joseon-era-action-film",
+    "host": "koreatimes.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/english/kpop-culture-en/2026/07/13/2PNKYX7MYFBAJPOBFWLF5FOWKI",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportschosun.com/en/movie/2026-07-08/202607080100050020003004",
+    "host": "sportschosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/english/kpop-culture-en/2026/07/07/FFRPJDIJRZGOLAWADMYMS7PE3Y",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.koreatimes.co.kr/entertainment/shows-dramas/20260505/iu-go-youn-jung-shin-hae-sun-defy-ratings-slump-in-rare-weekend-drama-surge",
+    "host": "koreatimes.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/Q9gpBgFYwg",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportschosun.com/en/culture/2026-09-24/202609240100164150010740",
+    "host": "sportschosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/en/hot-issues/12162111",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/english/kpop-culture-en/2026/09/29/ZNKZCLFVMNC47BPO4LT4VCUGIA",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/en/hot-issues/12163132",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportschosun.com/en/k-beauty/2026-09-11/202609110100078900005110",
+    "host": "sportschosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/english/kpop-culture-en/2026/09/27/AIKQCRVVSFEWJASS6TASCC3AHA",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.chosun.com/en/en-entertainment/2026/09/29/26QQGMLYXBGVXOSL7UKGU3EZ2M",
+    "host": "biz.chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.sportschosun.com/en/celebrity/2026-09-27/202609270100180020011872",
+    "host": "sportschosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/english/kpop-culture-en/2026/09/20/QHK625VA2ZENRIS4SGYXPWATYM",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/en/hot-issues/12161158",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://mbiz.heraldcorp.com/article/10898312",
+    "host": "mbiz.heraldcorp.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/english/kpop-culture-en/2026/09/30/JXZ26MEHQFAQTAJATYLWZUOWXY",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://mydaily.co.kr/page/view/2026092715164924546",
+    "host": "mydaily.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.newsis.com/view/NISX20260927_0003804310",
+    "host": "newsis.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.mk.co.kr/news/hot-issues/12161158",
+    "host": "mk.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.tenasia.co.kr/article/2026042942044",
+    "host": "tenasia.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.starnewskorea.com/star/2026/04/28/2026042820102693602",
+    "host": "starnewskorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=794454",
+    "host": "spotvnews.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260112183443509",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/6ONoHyPKZy",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260110011249919",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260109205849832",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/pL9xFqYCCF?f=p",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://v.daum.net/v/20260109223503833",
+    "host": "v.daum.net",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.chosun.com/entertainments/broadcast/2026/01/17/GBQTOZJTMRRDCYJTHFRDMNDFGQ",
+    "host": "chosun.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.cosmopolitan.co.kr/article/1910935",
+    "host": "cosmopolitan.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://biz.heraldcorp.com/article/10898311",
+    "host": "biz.heraldcorp.com",
     "grade": "A",
     "lane": "queue"
   },
@@ -8212,63 +9220,63 @@
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUQ2O-iftmnlfrBuNsUUTofQ",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ2O-iftmnlfrBuNsUUTofQ",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUiBr0bK06imaMbLc8sAEz0A",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUBAEVMr0li9YYF8IwZHfusw",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBAEVMr0li9YYF8IwZHfusw",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUFL1sCAksD6_7JIZwwHcwjQ",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFL1sCAksD6_7JIZwwHcwjQ",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUtdz9LWNNQKUg4Xpma_40Ug",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtdz9LWNNQKUg4Xpma_40Ug",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UU9w-h_ciMmX64TcLRcb1xPg",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9w-h_ciMmX64TcLRcb1xPg",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
@@ -8282,14 +9290,14 @@
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UU-uIpGINZDL-VIHQQzJW8jw",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-uIpGINZDL-VIHQQzJW8jw",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
@@ -8512,6 +9520,13 @@
     "lane": "discard"
   },
   {
+    "page": "pages/works/alchemy-of-souls-light-and-shadow.md",
+    "url": "https://www.elle.co.kr/article/73722",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
     "page": "pages/works/alchemy-of-souls.md",
     "url": "https://dkdleljh.github.io/goyounjung/images/photos/work-alchemy-of-souls-459.webp",
     "host": "dkdleljh.github.io",
@@ -8571,6 +9586,41 @@
     "page": "pages/works/alchemy-of-souls.md",
     "url": "https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/",
     "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/alchemy-of-souls.md",
+    "url": "https://www.elle.co.kr/article/73373",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/alchemy-of-souls.md",
+    "url": "https://www.elle.co.kr/article/73482",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/alchemy-of-souls.md",
+    "url": "https://www.elle.co.kr/article/73722",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/alchemy-of-souls.md",
+    "url": "https://www.elle.co.kr/article/74068",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/alchemy-of-souls.md",
+    "url": "https://www.harpersbazaar.co.kr/article/73357",
+    "host": "harpersbazaar.co.kr",
     "grade": "A",
     "lane": "queue"
   },
@@ -8786,6 +9836,27 @@
   },
   {
     "page": "pages/works/can-this-love-be-translated.md",
+    "url": "https://www.vogue.co.kr/2025/12/18/%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b9%80%ec%84%a0%ed%98%b8%ec%9d%98-%ec%98%88%ec%b8%a1-%eb%b6%88%ea%b0%80-%eb%a1%9c%eb%a7%a8%ec%8a%a4-%ec%9d%b4-%ec%82%ac%eb%9e%91-%ed%86%b5%ec%97%ad-%eb%90%98/",
+    "host": "vogue.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/can-this-love-be-translated.md",
+    "url": "https://www.elle.co.kr/article/1896159",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/can-this-love-be-translated.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1896532",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/can-this-love-be-translated.md",
     "url": "https://dkdleljh.github.io/goyounjung/images/photos/interview-960.webp",
     "host": "dkdleljh.github.io",
     "grade": "BLOCK",
@@ -8884,13 +9955,6 @@
   },
   {
     "page": "pages/works/can-this-love-be-translated.md",
-    "url": "https://kstar.kbs.co.kr/list_view.html?idx=387125",
-    "host": "kstar.kbs.co.kr",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/works/can-this-love-be-translated.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=389846",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
@@ -8898,8 +9962,8 @@
   },
   {
     "page": "pages/works/can-this-love-be-translated.md",
-    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008402330",
-    "host": "news.sbs.co.kr",
+    "url": "https://kstar.kbs.co.kr/list_view.html?idx=387125",
+    "host": "kstar.kbs.co.kr",
     "grade": "S",
     "lane": "landed"
   },
@@ -8930,6 +9994,34 @@
     "host": "maa.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/works/deaths-game.md",
+    "url": "https://www.elle.co.kr/article/73373",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/deaths-game.md",
+    "url": "https://www.elle.co.kr/article/73482",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/deaths-game.md",
+    "url": "https://www.elle.co.kr/article/73722",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/deaths-game.md",
+    "url": "https://www.elle.co.kr/article/74068",
+    "host": "elle.co.kr",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/works/deaths-game.md",
@@ -9192,6 +10284,13 @@
   },
   {
     "page": "pages/works/light-shop.md",
+    "url": "https://www.harpersbazaar.co.kr/article/1876940",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/light-shop.md",
     "url": "https://kstar.kbs.co.kr/list_view.html?idx=343890",
     "host": "kstar.kbs.co.kr",
     "grade": "S",
@@ -9283,6 +10382,41 @@
   },
   {
     "page": "pages/works/moving.md",
+    "url": "https://www.esquirekorea.co.kr/article/80691",
+    "host": "esquirekorea.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/moving.md",
+    "url": "https://www.marieclairekorea.com/fashion/2024/06/chanel-25/",
+    "host": "marieclairekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/moving.md",
+    "url": "https://www.harpersbazaar.co.kr/article/79958",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/moving.md",
+    "url": "https://www.harpersbazaar.co.kr/article/80774",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/moving.md",
+    "url": "https://www.harpersbazaar.co.kr/article/81221",
+    "host": "harpersbazaar.co.kr",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/works/moving.md",
     "url": "https://enews.imbc.com/News/ViewAmp/508207",
     "host": "enews.imbc.com",
     "grade": "A",
@@ -9355,34 +10489,6 @@
     "page": "pages/works/moving.md",
     "url": "https://v.daum.net/v/XbouMZUNSZ",
     "host": "v.daum.net",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/works/moving.md",
-    "url": "https://www.sportsworldi.com/newsView/20230901503040",
-    "host": "sportsworldi.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/works/moving.md",
-    "url": "https://www.newstomato.com/ReadNews.aspx?no=1199951",
-    "host": "newstomato.com",
-    "grade": "BLOCK",
-    "lane": "discard"
-  },
-  {
-    "page": "pages/works/moving.md",
-    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003",
-    "host": "news.sbs.co.kr",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/works/moving.md",
-    "url": "https://www.allurekorea.com/2023/08/21/__trashed-11-2/",
-    "host": "allurekorea.com",
     "grade": "A",
     "lane": "queue"
   },

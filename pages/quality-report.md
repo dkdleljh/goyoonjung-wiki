@@ -9,8 +9,8 @@
 - `교차검증 필요`: **0**
 - `참고(2차)`: **0**
 - `요약 보강 필요`: **0**
-- `(페이지 내 표기 확인 필요)`: **53**
-- `(확인 필요)`: **57**
+- `(페이지 내 표기 확인 필요)`: **137**
+- `(확인 필요)`: **141**
 - `검증불가`: **13**
 - `추가 필요`: **3**
 - `미확정`: **2**
@@ -30,6 +30,8 @@
 - pages/interviews.md:662 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/interviews.md:670 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/interviews.md:678 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:686 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:694 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:157 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:165 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:173 · - 날짜: (페이지 내 표기 확인 필요)
@@ -40,13 +42,13 @@
 - pages/appearances.md:213 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:221 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:229 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:237 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:245 · - 날짜: (페이지 내 표기 확인 필요)
 
 ## (확인 필요) (상위 15개 위치)
 - pages/interviews.md:662 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/interviews.md:670 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/interviews.md:678 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:686 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:694 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:157 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:165 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:173 · - 날짜: (페이지 내 표기 확인 필요)
@@ -57,8 +59,6 @@
 - pages/appearances.md:213 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:221 · - 날짜: (페이지 내 표기 확인 필요)
 - pages/appearances.md:229 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:237 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:245 · - 날짜: (페이지 내 표기 확인 필요)
 
 ## 검증불가 (상위 13개 위치)
 - pages/awards.md:41 · | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
@@ -76,8 +76,8 @@
 - pages/profile.md:58 · - 상태: 검증불가(공식 근거 미확보)
 
 ## 추가 필요 (상위 3개 위치)
-- pages/pictorials/editorial.md:420 · - 링크(원문): (추가 필요)
-- pages/pictorials/editorial.md:422 · - id: (추가 필요)
+- pages/pictorials/editorial.md:532 · - 링크(원문): (추가 필요)
+- pages/pictorials/editorial.md:534 · - id: (추가 필요)
 - pages/endorsements/fashion.md:23 · - 링크(공식 영상/캠페인): (추가 필요)
 
 ## 미확정 (상위 2개 위치)

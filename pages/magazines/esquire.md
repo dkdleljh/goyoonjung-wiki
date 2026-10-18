@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-10-18 12:21 (Asia/Seoul)
+> 갱신: 2026-10-19 00:02 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -29,4 +29,8 @@
 - ['이 사랑 통역 되나요?' 믿고 보는 로코 장인 김선호와 대세고윤정이 만났다](https://www.esquirekorea.co.kr/article/1895565)  _(출처: interviews.md)_
 
 - [로코 여주 아이유와고윤정이 선택한 간절기 아우터, 트위드 자켓과 가죽 자켓](https://www.esquirekorea.co.kr/article/1901760)  _(출처: interviews.md)_
+
+- [손석구와고윤정처럼 미대 출신인 셀럽은?](https://www.esquirekorea.co.kr/article/1876898)  _(출처: interviews.md)_
+
+- [‘무빙’ 마지막화 공개 직전! 희수 그 자체인고윤정TMI 12](https://www.esquirekorea.co.kr/article/80691)  _(출처: interviews.md)_
 <!-- AUTO-CANDIDATES:END -->

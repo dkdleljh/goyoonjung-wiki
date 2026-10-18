@@ -1,31 +1,43 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-18 14:29 (Asia/Seoul)
+> 갱신: 2026-10-19 00:02 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- aaff6d08 2026-10-18 13:16:21 +0900 Add representative images and source credits for every work
+- f8c41dd2 2026-10-18 23:55:32 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
+- data/facts/awards.json
+- data/facts/evidence.json
+- data/facts/profile.json
+- data/facts/works.json
+- data/reports/archive-progress.json
+- data/reports/collectors/archive.json
+- data/reports/collectors/official-live.json
+- data/reports/collectors/youtube.json
+- data/reports/fast-task-state.json
+- data/reports/heartbeat.json
+- data/reports/measured-quality.json
+- data/reports/run-history.json
+- data/reports/source-checkpoints.json
+- pages/automation-measurements.md
+- pages/fact-conflicts.md
+- pages/facts-index.md
+- pages/future-candidates.md
+- pages/future-watch.md
+- pages/source-collection-status.md
 - pages/works/alchemy-of-souls-light-and-shadow.md
 - pages/works/alchemy-of-souls.md
+- pages/works/can-this-love-be-translated.md
 - pages/works/deaths-game.md
-- pages/works/everyone-fights-worthlessness.md
-- pages/works/he-is-psychometric.md
 - pages/works/hunt.md
-- pages/works/law-school.md
 - pages/works/light-shop.md
 - pages/works/moving-season-2.md
 - pages/works/moving.md
 - pages/works/nambeol.md
-- pages/works/resident-playbook.md
-- pages/works/sweethome-2.md
-- pages/works/sweethome.md
-- pages/works/the-school-nurse-files.md
-- sources/photos.md
 
-## 3) 오늘 실행 상태(news/2026-10-18.md)
+## 3) 오늘 실행 상태(news/2026-10-19.md)
 
 ## 실행 상태
 
@@ -39,11 +51,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 20
+- new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 54.78% (212/387)
+- duplicate_rate: 35.29% (6/17)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
-  - A: 12
-  - B: 8
+  - A: 0
+  - B: 0
 

@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-10-12 01:25 (Asia/Seoul)
+> 갱신: 2026-10-19 00:02 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -43,4 +43,28 @@
 - [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)  _(출처: pictorials/editorial.md)_
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)  _(출처: pictorials/editorial.md)_
+
+- [샤넬의 컬러를 입은 고윤정의 몽환적인 뷰티 화보 #1](https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-1/)  _(출처: pictorials/editorial.md)_
+
+- [샤넬의 컬러를 입은 고윤정의 몽환적인 뷰티 화보 #2](https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-2/)  _(출처: pictorials/editorial.md)_
+
+- [2025 마리끌레르 아시아스타어워즈에 참석한 배우 고윤정](https://www.marieclairekorea.com/celebrity/2025/09/2025asa-goyounjung/)  _(출처: pictorials/editorial.md)_
+
+- [샤넬과 고윤정이 함께한 무빙 커버](https://www.marieclairekorea.com/fashion/2024/06/chanel-25/)  _(출처: pictorials/editorial.md)_
+
+- [샤넬과 고윤정이 함께한 패션 필름](https://www.marieclairekorea.com/fashion/2024/07/chanel-26/)  _(출처: pictorials/editorial.md)_
+
+- [고윤정과 샤넬이 함께한 화보 #1](https://www.marieclairekorea.com/fashion/2024/07/chanel-27/)  _(출처: pictorials/editorial.md)_
+
+- [고윤정과 샤넬이 함께한 화보 #2](https://www.marieclairekorea.com/fashion/2024/07/chanel-28/)  _(출처: pictorials/editorial.md)_
+
+- [고윤정과 샤넬이 함께한 7월호 커버](https://www.marieclairekorea.com/fashion/2024/06/chanel-24/)  _(출처: pictorials/editorial.md)_
+
+- [고윤정, 의사된다](https://www.marieclairekorea.com/culture/lifestyle/2023/09/goyj/)  _(출처: pictorials/editorial.md)_
+
+- [눈이 부시게 #HMBD 고윤정 X 부쉐론](https://www.marieclairekorea.com/celebrity/2023/03/boucheron-gohyoonjung/)  _(출처: pictorials/editorial.md)_
+
+- [고윤정의 상반된 매력](https://www.marieclairekorea.com/celebrity/2020/05/different-attract-of-goyunjung/)  _(출처: pictorials/editorial.md)_
+
+- [베니스에 물든 고윤정](https://www.marieclairekorea.com/celebrity/2020/08/goyoonjung-in-venice/)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->

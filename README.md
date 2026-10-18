@@ -1,8 +1,8 @@
 # 고윤정 위키 (Go Youn-jung Wiki)
 
-![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.58.2-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-21-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
+![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.138.4-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-21-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-10-18
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-10-19
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -29,8 +29,8 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `aaff6d08` |
-| 최신 릴리즈 태그 | `v1.58.2` |
+| 최신 커밋 | `f8c41dd2` |
+| 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
 | 문서 생성기 | `scripts/generate_doc_portals.py` |
@@ -52,32 +52,32 @@
 - 현재 판정: `bash scripts/check_automation_health.sh`와 `make check` 통과를 운영 기준으로 삼는다.
 
 ## 최신 릴리즈
-- `v1.58.2`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.58.2
-  - 로컬 노트: `logs/releases/release-notes-v1.58.2.md`
-- `v1.58.1`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.58.1
-  - 로컬 노트: `logs/releases/release-notes-v1.58.1.md`
-- `v1.58.0`
-  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.58.0
-  - 로컬 노트: `logs/releases/release-notes-v1.58.0.md`
+- `v1.138.4`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.138.4
+  - 로컬 노트: `logs/releases/release-notes-v1.138.4.md`
+- `v1.138.3`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.138.3
+  - 로컬 노트: `logs/releases/release-notes-v1.138.3.md`
+- `v1.138.2`
+  - GitHub Release: https://github.com/dkdleljh/goyoonjung-wiki/releases/tag/v1.138.2
+  - 로컬 노트: `logs/releases/release-notes-v1.138.2.md`
 
 ## 최근 변경 요약
-- [`aaff6d08`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aaff6d08) — Add representative images and source credits for every work
-- [`16bb128c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/16bb128c) — docs: add photographs to matching wiki topics and record credits
-- [`61f79834`](https://github.com/dkdleljh/goyoonjung-wiki/commit/61f79834) — docs: sync collected wiki content for website
-- [`376be089`](https://github.com/dkdleljh/goyoonjung-wiki/commit/376be089) — fix: retire historical MAA source after agency merger
-- [`acda49dd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/acda49dd) — docs: sync collected wiki content for website
+- [`f8c41dd2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f8c41dd2) — docs: sync collected wiki content for website
+- [`c289b722`](https://github.com/dkdleljh/goyoonjung-wiki/commit/c289b722) — docs: sync collected wiki content for website
+- [`becdc3de`](https://github.com/dkdleljh/goyoonjung-wiki/commit/becdc3de) — docs: sync collected wiki content for website
+- [`b53f163e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/b53f163e) — docs: sync collected wiki content for website
+- [`289da9fd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/289da9fd) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
-- `pages/works/alchemy-of-souls-light-and-shadow.md`
-- `pages/works/alchemy-of-souls.md`
-- `pages/works/deaths-game.md`
-- `pages/works/everyone-fights-worthlessness.md`
-- `pages/works/he-is-psychometric.md`
-- `pages/works/hunt.md`
-- `pages/works/law-school.md`
-- `pages/works/light-shop.md`
+- `data/facts/awards.json`
+- `data/facts/evidence.json`
+- `data/facts/profile.json`
+- `data/facts/works.json`
+- `data/reports/archive-progress.json`
+- `data/reports/collectors/archive.json`
+- `data/reports/collectors/official-live.json`
+- `data/reports/collectors/youtube.json`
 
 ## 자주 쓰는 명령
 ```bash

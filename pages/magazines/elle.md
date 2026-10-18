@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-10-18 12:21 (Asia/Seoul)
+> 갱신: 2026-10-19 00:02 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -57,4 +57,26 @@
 - [제니·고윤정의 여름 티셔츠, 소매선 하나로 달라 보입니다](https://www.elle.co.kr/article/1906879)  _(출처: pictorials/editorial.md)_
 
 - [요즘고윤정·강민경은 왜 발가락 양말을 신을까요](https://www.elle.co.kr/article/1907070)  _(출처: pictorials/editorial.md)_
+
+- [역대급이라고 난리 난고윤정의 피부 비밀](https://www.elle.co.kr/article/1888583)  _(출처: pictorials/editorial.md)_
+
+- [고윤정뷰티 화보, 이 제품들로 완성했습니다](https://www.elle.co.kr/article/1888588)  _(출처: pictorials/editorial.md)_
+
+- [고윤정이 사용하는 화장품은 바로 이것](https://www.elle.co.kr/article/1888589)  _(출처: pictorials/editorial.md)_
+
+- [고윤정피부 실화?](https://www.elle.co.kr/article/1888602)  _(출처: pictorials/editorial.md)_
+
+- ['이사통'고윤정같은 톱스타가 나오는 로맨스 드라마 추천 3](https://www.elle.co.kr/article/1896016)  _(출처: pictorials/editorial.md)_
+
+- ['이 사랑 통역 되나요?' 김선호고윤정비하인드도 설레네](https://www.elle.co.kr/article/1896159)  _(출처: pictorials/editorial.md)_
+
+- [김선호고윤정보고 바로 검색한 '이사통' 여행 정보](https://www.elle.co.kr/article/1896195)  _(출처: pictorials/editorial.md)_
+
+- [초능력자부터 의사까지, '이사통'고윤정을 있게 한 인생캐 모음](https://www.elle.co.kr/article/1896458)  _(출처: pictorials/editorial.md)_
+
+- [올봄 하객룩 패션은고윤정만 따라하세요](https://www.elle.co.kr/article/1896518)  _(출처: pictorials/editorial.md)_
+
+- [고윤정의 정원에 들어서면 #ELLE_D에디션](https://www.elle.co.kr/article/1873039)  _(출처: pictorials/editorial.md)_
+
+- [고윤정, 어디까지 사랑스러울거야? 엘르 디에디션 커버 공개](https://www.elle.co.kr/article/1873041)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
