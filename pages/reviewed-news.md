@@ -61,3 +61,8 @@
 - [고윤정, 이병헌과 만난다&hellip;&lsquo;남벌&rsquo; 출연 확정 - 일간스포츠](https://isplus.com/article/view/isp202607070191) · VARIETY_WORK · 내용은 원문 보도 기준
 - [고윤정, 얼굴 믿고 다 하네…파리서 '멍한 표정'도 화보](https://v.daum.net/v/20260928040129745) · FASHION · 내용은 원문 보도 기준
 - [［공식］ 고윤정, 하드보일드 무협 액션 도전..이병헌과 함께 '남벌' 출연](https://www.chosun.com/entertainments/movie/2026/07/08/GM2GKN3FMZQWEMRQMNRWMYJQHA) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 무결점의 표본…몽환적 여신 아우라 ［화보］](https://biz.chosun.com/entertainment/tv/2026/10/08/GBSDSMDGMRRTOYZVGZRDGYRWGE) · FASHION · 내용은 원문 보도 기준
+- [고윤정, 눈 뗄 수 없는 몽환적 비주얼…우아함의 정석 ［화보］](https://sports.donga.com/ent/article/all/20261008/134809436/1) · 스포츠동아 · 내용은 원문 보도 기준
+- [고윤정, 눈 뗄 수 없는 몽환적 비주얼…우아함의 정석 ［화보］](https://sports.donga.com/photo?m=view&date=20261008&gid=134809436&rev=1) · 스포츠동아 · 내용은 원문 보도 기준
+- [제니·고윤정도 못 살린 ‘마니또 클럽’…시청률 0.9%로 종영 - 스타투데이](https://www.mk.co.kr/news/hot-issues/12027904) · VARIETY · 내용은 원문 보도 기준
+- [고윤정, 샤넬 서울 쇼 애프터파티서 여유 가득한 밤](https://www.topstarnews.net/news/articleView.html?idxno=16073334) · VARIETY · 내용은 원문 보도 기준
