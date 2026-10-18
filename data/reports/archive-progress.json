@@ -35,9 +35,9 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 7,
-    "checked_at": "2026-10-18T13:15:24.391882+00:00",
-    "next_scan": "2026-10-18T13:15:24.391882+00:00",
+    "page": 8,
+    "checked_at": "2026-10-18T13:25:21.755861+00:00",
+    "next_scan": "2026-10-18T13:25:21.755861+00:00",
     "status": "in_progress",
     "fingerprints": [
       "b8f39340d35ff44fbf7eb99034c0a5bfc43c781860614bd198672c4da2473af7",
@@ -45,9 +45,10 @@
       "8e7e9650ca5e67f216b400929fba93dab3e6224ca20e8a5370eca311eb8db0f2",
       "44d33fce9aaab839e7895cc9b15bc132bb3e19c85379646fd4876d302e72c9db",
       "bd97c0959c14e5a270ca5f8365b92851573160dd5396d8862e97a1ab22189a18",
-      "4643f4344d945ba0a5c76785617fa4786770928dfaad79ca06d2d7ed445ac06d"
+      "4643f4344d945ba0a5c76785617fa4786770928dfaad79ca06d2d7ed445ac06d",
+      "4f495ab391f688df33819391003b008d97ac437284e3387a23adc2691ac1119a"
     ],
-    "items_added": 37,
+    "items_added": 39,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
@@ -89,19 +90,21 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Marie Claire Korea": {
-    "page": 6,
-    "checked_at": "2026-10-18T13:00:23.292609+00:00",
-    "next_scan": "2026-10-18T13:00:23.292609+00:00",
+    "page": 7,
+    "checked_at": "2026-10-18T13:25:21.755861+00:00",
+    "next_scan": "2026-10-18T13:25:21.755861+00:00",
     "status": "in_progress",
     "fingerprints": [
       "b687253b32725500fd4b34a5553662c7998c483c49af6953c600cf7a932e7691",
       "4157680798e6428795c83d270249a92a0e4fd0d3dcf00bc2bf052f6785c9730a",
       "224754c885702f358ca87f17b1ed314585f412bf22ac822874c4cc8278083620",
       "207768325a896dd408b96f32059b407d4024e3650a8fba9da57020c7d822d705",
-      "7433def8b355ca90fc5b6305f9c0cb5018ea7ed5608cb97d5e561b9a76651bb7"
+      "7433def8b355ca90fc5b6305f9c0cb5018ea7ed5608cb97d5e561b9a76651bb7",
+      "753bc09d7171ea994a93372ecb7e2ac3caf124626a2ac46e3325acc36c1a930a"
     ],
-    "items_added": 10,
+    "items_added": 13,
     "years_observed": [
+      2020,
       2023,
       2024,
       2025,

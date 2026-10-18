@@ -38,7 +38,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-18 22:20 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 22:25 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -67,6 +67,8 @@
 - [환혼 빛과 그림자의 두 사람, 이재욱과고윤정은 서로를 놓지 않기로 결심했다.](https://www.elle.co.kr/article/73722)  _(출처: pictorials/editorial.md)_
 
 - [애절한 로맨스로 시작해 꽉 닫힌 해피엔딩! 이재욱X고윤정열연 빛난 '환혼2' 명장면 모음 #요즘드라마](https://www.elle.co.kr/article/74068)  _(출처: pictorials/editorial.md)_
+
+- [미모의고윤정, 특별출연→여주.. <환혼>의 큰 그림](https://www.harpersbazaar.co.kr/article/73357)  _(출처: pictorials/editorial.md)_
 
 - [고윤정 "동화 속 주인공 된 기분이었죠"](https://www.kgmail.kr/news/articleView.html?idxno=601718)  _(출처: interviews.md)_
 

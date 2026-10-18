@@ -557,6 +557,14 @@
 - 링크(원문): https://www.marieclairekorea.com/culture/lifestyle/2023/09/goyj/
 - 상태: 원문 메타데이터 수집
 - id: https://www.marieclairekorea.com/culture/lifestyle/2023/09/goyj/
+
+- 날짜: 2023-03-08
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 눈이 부시게 #HMBD 고윤정 X 부쉐론
+- 링크(원문): https://www.marieclairekorea.com/celebrity/2023/03/boucheron-gohyoonjung/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/celebrity/2023/03/boucheron-gohyoonjung/
 ## 2022
 - 날짜: 2022-12-12
 - 매체: 부쉐론 (Boucheron)
@@ -752,7 +760,21 @@
 - id: https://www.xportsnews.com/article/1368580
 - 비고: 데이즈드 (Daysgd) 화보
 
+- 날짜: 2020-05-11
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정의 상반된 매력
+- 링크(원문): https://www.marieclairekorea.com/celebrity/2020/05/different-attract-of-goyunjung/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/celebrity/2020/05/different-attract-of-goyunjung/
 
+- 날짜: 2020-08-24
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 베니스에 물든 고윤정
+- 링크(원문): https://www.marieclairekorea.com/celebrity/2020/08/goyoonjung-in-venice/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/celebrity/2020/08/goyoonjung-in-venice/
 ## 공식 링크
 - (S) 과거 소속사(MAA) 프로필: https://maa.co.kr/artists/go-younjung
 
@@ -1610,3 +1632,19 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/83053
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/83053
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 올 블랙도 찰떡!고윤정의 블랙 파노라마
+- 링크(원문): https://www.harpersbazaar.co.kr/article/72641
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/72641
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 미모의고윤정, 특별출연→여주.. <환혼>의 큰 그림
+- 링크(원문): https://www.harpersbazaar.co.kr/article/73357
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/73357
