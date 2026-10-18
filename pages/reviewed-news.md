@@ -16,3 +16,8 @@
 - [고윤정이 완성한 가을의 조각［화보］](https://v.daum.net/v/Bodvq71y04) · FASHION · 내용은 원문 보도 기준
 - ["I'm Youngsil?"...Awakened Go Youn-jung Turns 'We Are All Trying Here' Upside Down - MK](https://www.mk.co.kr/en/hot-issues/12054223) · EN_CAST · 내용은 원문 보도 기준
 - [コ・ユンジョン、パリの街で捉えられた女神ビジュアル···清楚な美貌に「ドキッ」 ［Nショット］ - スポータルコリア](https://jp.sportalkorea.com/news/articleView.html?idxno=34193) · JA_ALL · 내용은 원문 보도 기준
+- [［화보］ 디디에 두보X고윤정, 26 FW ‘라 비 드 파리’ 신규 캠페인 이미지 공개](https://sports.khan.co.kr/article/202610082336003) · FASHION · 내용은 원문 보도 기준
+- ['30세' 고윤정, '대세 배우' 허남준과 함께 하더니…미모 마저 잘나가네  | 텐아시아](https://www.tenasia.co.kr/article/2026092803714) · AWARDS · 내용은 원문 보도 기준
+- [고윤정, 파리에서도 연예인 아우라 못 숨겨..그냥 거리 걸었을 뿐인데 빛이 나네](https://www.sportschosun.com/entertainment/2026-09-27/202609270100180020011872) · AWARDS · 내용은 원문 보도 기준
+- [고윤정 무드 내기, 아이브로우는 '이렇게' 그려보는 게 어떨까요?](https://www.sportschosun.com/k-beauty/2026-09-22/202609220100153440009998) · AWARDS · 내용은 원문 보도 기준
+- [Go Youn-jung spotted with Galaxy Z Fold 8 as Samsung chips away at iPhone's grip on young women](https://biz.heraldcorp.com/article/10898312) · EN_ALL · 내용은 원문 보도 기준
