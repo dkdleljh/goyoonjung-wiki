@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-10-19 04:25 (Asia/Seoul) · 대상 URL: 842 (최대 100)
+> 갱신: 2026-10-19 04:50 (Asia/Seoul) · 대상 URL: 842 (최대 100)
 
-- OK: **820** / WARN: **17** / BAD: **1** / UNCHECKED: **4**
+- OK: **819** / WARN: **18** / BAD: **1** / UNCHECKED: **4**
 - 검사 범위 밖 URL과 자동 접근을 생략한 URL은 정상으로 간주하지 않습니다.
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
@@ -11,22 +11,23 @@
 
 ## WARN (차단/리다이렉트/확인 필요)
 
-- (-) https://www.osen.co.kr/article/G1112851422 · error: TimeoutError
-- (-) https://www.vodana.co.kr/ · error: URLError (cached within 7 days)
-- (-) https://www.easytomorrow.co.kr/ · error: URLError (cached within 7 days)
-- (-) https://slv.kstarfashion.com/news/articleView.html?idxno=214777 · error: URLError (cached within 7 days)
-- (400) https://www.gqkorea.co.kr/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
-- (400) https://www.allurekorea.com/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
-- (-) https://www.goodal.com/ · error: URLError (cached within 7 days)
-- (-) https://www.disneypluskr.com/ · error: URLError (cached within 7 days)
-- (-) https://maa.co.kr/ · error: URLError (cached within 7 days)
-- (-) https://www.lensme.co.kr/ · error: URLError (cached within 7 days)
-- (-) https://maa.co.kr/artists/go-younjung · error: URLError (cached within 7 days)
-- (403) https://www.armanibeauty.com/ · GET fallback (cached within 7 days)
-- (403) https://www.boucheron.com/ · GET fallback (cached within 7 days)
-- (400) https://www.wkorea.com/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
+- (-) https://www.disneypluskr.com/ · error: URLError
+- (-) https://www.easytomorrow.co.kr/ · error: URLError
+- (400) https://www.yna.co.kr/entertainment · GET fallback
+- (-) https://maa.co.kr/ · error: URLError
+- (400) https://www.wkorea.com/wp-admin/admin-ajax.php · GET fallback
+- (400) https://www.gqkorea.co.kr/wp-admin/admin-ajax.php · GET fallback
+- (400) https://www.allurekorea.com/wp-admin/admin-ajax.php · GET fallback
+- (403) https://www.armanibeauty.com/ · GET fallback
+- (-) https://www.osen.co.kr/ · error: TimeoutError
 - (-) https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792 · error: URLError (cached within 7 days)
-- (400) https://www.yna.co.kr/entertainment · GET fallback (cached within 7 days)
+- (-) https://www.osen.co.kr/article/G1112851422 · error: TimeoutError (cached within 7 days)
+- (-) https://www.lensme.co.kr/ · error: URLError (cached within 7 days)
+- (403) https://www.boucheron.com/ · GET fallback (cached within 7 days)
+- (-) https://maa.co.kr/artists/go-younjung · error: URLError (cached within 7 days)
+- (-) https://www.goodal.com/ · error: URLError (cached within 7 days)
+- (-) https://www.vodana.co.kr/ · error: URLError (cached within 7 days)
+- (-) https://slv.kstarfashion.com/news/articleView.html?idxno=214777 · error: URLError (cached within 7 days)
 - (-) https://www.osen.co.kr/article/G1112883901 · error: TimeoutError (cached within 7 days)
 
 ## UNCHECKED (미검사)
