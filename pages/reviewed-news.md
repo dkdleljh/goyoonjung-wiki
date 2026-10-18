@@ -132,3 +132,9 @@
 - [IU, Go Youn-jung, Shin Hae-sun defy ratings slump in rare weekend drama surge - The Korea Times](https://www.koreatimes.co.kr/entertainment/shows-dramas/20260505/iu-go-youn-jung-shin-hae-sun-defy-ratings-slump-in-rare-weekend-drama-surge) · EN_CAST · 내용은 원문 보도 기준
 - [고윤정, 파리서 국위선양하는 미모…정면도 옆모습도 감탄 ［MD★스타］](https://v.daum.net/v/Q9gpBgFYwg) · RYO · 내용은 원문 보도 기준
 - [XEXYMIX Proposes Winter Running Looks with Go Youn Jung and DEX, Unveils 'RX Air Light Padded Jumper'](https://www.sportschosun.com/en/culture/2026-09-24/202609240100164150010740) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung Spotted in Paris with a Pure, Effortless Look - MK](https://www.mk.co.kr/en/hot-issues/12162111) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung Shares Playful Behind-the-Scenes Photos](https://www.chosun.com/english/kpop-culture-en/2026/09/29/ZNKZCLFVMNC47BPO4LT4VCUGIA) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung Looked Like a Goddess in a Dress—But Then Came a Twist in Her Selfie - MK](https://www.mk.co.kr/en/hot-issues/12163132) · EN_ALL · 내용은 원문 보도 기준
+- [Autumn Warm Tone Season Is Here: Styling Formulas Found in Jennie, Minji, Go Youn-jung and Giselle](https://www.sportschosun.com/en/k-beauty/2026-09-11/202609110100078900005110) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung's Paris Photos Highlight Goddess-like Aura](https://www.chosun.com/english/kpop-culture-en/2026/09/27/AIKQCRVVSFEWJASS6TASCC3AHA) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung radiates goddess poise in vintage photos](https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI) · EN_ALL · 내용은 원문 보도 기준

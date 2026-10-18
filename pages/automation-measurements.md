@@ -4,14 +4,14 @@
 
 | 지표 | 실측 |
 |---|---|
-| publication_to_first_fetch_samples | 102 |
-| publication_to_first_fetch_p50_seconds | 2245780.113155 |
+| publication_to_first_fetch_samples | 108 |
+| publication_to_first_fetch_p50_seconds | 2187634.606521 |
 | publication_to_first_fetch_p95_seconds | 19366926.708552 |
-| sample_count | 84 |
-| avg_execution_seconds | 24.47 |
+| sample_count | 85 |
+| avg_execution_seconds | 24.5 |
 | execution_p95_seconds | 33.74 |
-| fast_run_success_percent | 7.23 |
-| oldest_source_success_age_minutes | 145.1 |
+| fast_run_success_percent | 7.14 |
+| oldest_source_success_age_minutes | 150.2 |
 | monitored_sources | 78 |
 | recall | 미측정 |
 | precision | 미측정 |
