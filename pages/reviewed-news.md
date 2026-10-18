@@ -51,3 +51,8 @@
 - [김대호 "연애 안 한 지 10년 넘어…이상형은 고윤정"](https://www.newsis.com/view/NISX20260619_0003676045) · VARIETY_WORK · 내용은 원문 보도 기준
 - [고윤정, 드레스 여신인 줄 알았더니…반전 셀카까지 - 스타투데이](https://www.mk.co.kr/news/hot-issues/12163132) · WORKS · 내용은 원문 보도 기준
 - [나영석, 고윤정 성격 카메라 온오프 달라…"사방팔방 돌아다녀" ('십오야')](https://plus.hankyung.com/apps/newsinside.view?aid=2026010921184&category=&sns=y) · VARIETY_TALK · 내용은 원문 보도 기준
+- [구교환, 상대역 고윤정과 사주까지 찰떡 궁합…"기가 막히게 잘 맞더라" (살롱드립)](https://www.xportsnews.com/article/2142624) · VARIETY_TALK · 내용은 원문 보도 기준
+- [서강준, 이병헌&middot;고윤정 만날까&hellip;&ldquo;영화 &lsquo;남벌&rsquo; 출연 논의 중&rdquo; ［공식］ - 일간스포츠](https://isplus.com/article/view/isp202610130117) · 일간스포츠 · 내용은 원문 보도 기준
+- [제니·고윤정·박보영 캐스팅에도…1%대 최저 시청률 찍고 결방→마지막 회 소식 전한 '마니또클럽' | 텐아시아](https://www.tenasia.co.kr/article/2026042560664) · VARIETY · 내용은 원문 보도 기준
+- [정준원, 고윤정 이어 공효진과 부부 호흡..'유부녀 킬러' 출연 ［공식］ | 스타뉴스](https://www.starnewskorea.com/star/2026/06/15/2026061514100948071) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정→윤남노, 심야식당 오픈…“난리났다” 주문 폭주에 주방 대혼돈 (마니또 클럽)](https://v.daum.net/v/20260322073726348) · VARIETY_GENERAL · 내용은 원문 보도 기준
