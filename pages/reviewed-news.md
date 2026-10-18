@@ -83,3 +83,9 @@
 - [189년 역사의 하이 주얼러 티파니앤코, 배우 고윤정 앰버서더로 선정](https://v.daum.net/v/2YXpnXe4Al) · WORKS · 내용은 원문 보도 기준
 - [［화보］ 고윤정이 완성한 가을의 조각](https://sports.khan.co.kr/article/202609170858003) · FASHION · 내용은 원문 보도 기준
 - [이병헌·고윤정, 무협 액션 영화 '남벌' 출연 | 연합뉴스](https://www.yna.co.kr/view/AKR20260708065300005) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 시대극 '남벌' 출연…이병헌과 무협 액션 호흡](https://www.dispatch.co.kr/2344909) · VARIETY_WORK · 내용은 원문 보도 기준
+- [［공식］ 고윤정, 이병헌과 호흡…‘남벌’ 출연 확정](https://sports.donga.com/ent/article/all/20260707/134254435/1) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 반짝 드레스 차림으로 미소…예능·드라마 활약 잇는다](https://www.topstarnews.net/news/articleView.html?idxno=16105174) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 이병헌과 만난다…‘남벌’ 출연 확정](https://v.daum.net/v/20260707155800017) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 이병헌 만난다...무협 액션 '남벌' 출연 확정 ［공식］](https://biz.chosun.com/entertainment/movie/2026/07/07/GM4DOMBTHA4WKN3DMVRTMYJVGE) · VARIETY_WORK · 내용은 원문 보도 기준
+- [［공식］ 우즈, 스크린 연기 도전…이병헌X고윤정 ‘남벌’ 출연](https://sports.donga.com/ent/article/all/20260723/134348815/1) · VARIETY_WORK · 내용은 원문 보도 기준
