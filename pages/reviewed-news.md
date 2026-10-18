@@ -21,3 +21,7 @@
 - [고윤정, 파리에서도 연예인 아우라 못 숨겨..그냥 거리 걸었을 뿐인데 빛이 나네](https://www.sportschosun.com/entertainment/2026-09-27/202609270100180020011872) · AWARDS · 내용은 원문 보도 기준
 - [고윤정 무드 내기, 아이브로우는 '이렇게' 그려보는 게 어떨까요?](https://www.sportschosun.com/k-beauty/2026-09-22/202609220100153440009998) · AWARDS · 내용은 원문 보도 기준
 - [Go Youn-jung spotted with Galaxy Z Fold 8 as Samsung chips away at iPhone's grip on young women](https://biz.heraldcorp.com/article/10898312) · EN_ALL · 내용은 원문 보도 기준
+- [얼굴 왜 이렇게 쓰는지 아는 사람?..고윤정, 망가져도 ‘극강 미모’](https://www.osen.co.kr/article/G1112883901) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [고윤정, 광고모델도 아닌데 갈아탔다…손에 든 '이것' 뭐길래 ［테크로그］](https://www.hankyung.com/article/202610078190g) · VARIETY_WORK · 내용은 원문 보도 기준
+- [허남준, 고윤정 때문에 펑펑 울었다…“제발 저 안 좋아하게 해주세요”](https://sports.khan.co.kr/article/202609231144003) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정 파리에 가다..'여긴 어디' 멍한 표정도 여신](https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA) · WORKS · 내용은 원문 보도 기준
