@@ -488,6 +488,14 @@
 - 링크(원문): https://www.marieclairekorea.com/fashion/2024/07/chanel-28/
 - 상태: 원문 메타데이터 수집
 - id: https://www.marieclairekorea.com/fashion/2024/07/chanel-28/
+
+- 날짜: 2024-06-13
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정과 샤넬이 함께한 7월호 커버
+- 링크(원문): https://www.marieclairekorea.com/fashion/2024/06/chanel-24/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/fashion/2024/06/chanel-24/
 ## 2023
 
 - 날짜: 2023-10-26
@@ -541,6 +549,14 @@
 - 링크(원문): https://www.allurekorea.com/2023/08/21/__trashed-11-2/
 - 상태: 공식확정
 - id: https://www.allurekorea.com/2023/08/21/__trashed-11-2/
+
+- 날짜: 2023-09-20
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 의사된다
+- 링크(원문): https://www.marieclairekorea.com/culture/lifestyle/2023/09/goyj/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/culture/lifestyle/2023/09/goyj/
 ## 2022
 - 날짜: 2022-12-12
 - 매체: 부쉐론 (Boucheron)

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T21:55:29+09:00",
+  "checked_at": "2026-10-18T22:00:30+09:00",
   "status": "failed",
   "sources": [
     {
@@ -57,31 +57,31 @@
     {
       "name": "Vogue Korea",
       "url": "https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
-      "scope": "historical pagination page 4",
+      "scope": "historical pagination page 5",
       "status": "success",
-      "fetched": 10,
-      "matched": 4,
+      "fetched": 1,
+      "matched": 0,
       "warnings": [
         "RSS media namespace declaration repaired"
       ],
-      "page": 4,
-      "page_fingerprint": "c2c05de761c7fe2f51271d39690d362799198dead74f3c5b1983634998cd2b4a",
-      "checked_at": "2026-10-18T20:30:29+09:00",
-      "last_success": "2026-10-18T20:30:29+09:00",
+      "page": 5,
+      "page_fingerprint": "e4cc5c0faada07bfecade9cc03f9c6ca75938c759020c5de4a183e62306d4508",
+      "checked_at": "2026-10-18T22:00:30+09:00",
+      "last_success": "2026-10-18T22:00:30+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Marie Claire Korea",
       "url": "https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2",
-      "scope": "historical pagination page 4",
+      "scope": "historical pagination page 5",
       "status": "success",
       "fetched": 10,
-      "matched": 6,
+      "matched": 2,
       "warnings": [],
-      "page": 4,
-      "page_fingerprint": "207768325a896dd408b96f32059b407d4024e3650a8fba9da57020c7d822d705",
-      "checked_at": "2026-10-18T21:45:35+09:00",
-      "last_success": "2026-10-18T21:45:35+09:00",
+      "page": 5,
+      "page_fingerprint": "7433def8b355ca90fc5b6305f9c0cb5018ea7ed5608cb97d5e561b9a76651bb7",
+      "checked_at": "2026-10-18T22:00:30+09:00",
+      "last_success": "2026-10-18T22:00:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -99,16 +99,14 @@
     {
       "name": "Cosmopolitan Korea",
       "url": "https://www.cosmopolitan.co.kr/search",
-      "scope": "historical pagination page 4",
-      "status": "success",
-      "fetched": 9,
-      "matched": 5,
-      "warnings": [],
-      "page": 4,
-      "page_fingerprint": "a7da40d066b9e0c9037b2f56b1b2674d7e85da360bcaf76e4c0310c882da079d",
-      "checked_at": "2026-10-18T21:45:35+09:00",
+      "scope": "historical pagination page 5",
+      "status": "failed",
+      "error": "Search result container has no article links",
+      "kind": "parse",
+      "retryable": false,
+      "checked_at": "2026-10-18T22:00:30+09:00",
       "last_success": "2026-10-18T21:45:35+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Allure Korea",
