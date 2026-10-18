@@ -1202,3 +1202,35 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/1896532
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/1896532
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 운동 욕구 MAX! 전지현,고윤정의 운동복 핏
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1865877
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1865877
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 아이유, 변우석,고윤정, 구교환? 이 조합 실화?
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1880522
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1880522
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 찐 금손 인증! 김히어라·고윤정·노윤서의 숨겨진 그림 실력이 화제?
+- 링크(원문): https://www.cosmopolitan.co.kr/article/74628
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/74628
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 요즘 대세 배우고윤정, 운동 다해도 못 잃는게 약과라고?
+- 링크(원문): https://www.cosmopolitan.co.kr/article/81411
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/81411

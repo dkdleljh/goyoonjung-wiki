@@ -98,9 +98,9 @@
   },
   "Esquire Korea": {
     "page": 3,
-    "checked_at": "2026-10-18T09:55:22.253562+00:00",
-    "next_scan": "2026-10-18T09:55:22.253562+00:00",
-    "status": "in_progress",
+    "checked_at": "2026-10-18T11:25:24.410194+00:00",
+    "next_scan": "2026-10-18T12:25:24.410194+00:00",
+    "status": "retry_pending",
     "fingerprints": [
       "00bbe1024c661c34b4336af134513dee61cfd05870e3f1a075a15fc68800c078",
       "4c616495433feab857d108128d888a58b5dd99e89e9fc8a9c6f4a4b1c873aa79"
@@ -110,23 +110,24 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Cosmopolitan Korea": {
-    "page": 3,
-    "checked_at": "2026-10-18T09:55:22.253562+00:00",
-    "next_scan": "2026-10-18T09:55:22.253562+00:00",
+    "page": 4,
+    "checked_at": "2026-10-18T11:25:24.410194+00:00",
+    "next_scan": "2026-10-18T11:25:24.410194+00:00",
     "status": "in_progress",
     "fingerprints": [
       "ce48efb8ccd568877369893e93b1168ac2c59e8a38e721c0f9d414482009e87f",
-      "357bdbe69b3f29b4c723af830203e362e7ea187ce1b92e7a9f03ffcd5e5e8ff6"
+      "357bdbe69b3f29b4c723af830203e362e7ea187ce1b92e7a9f03ffcd5e5e8ff6",
+      "a6e451d67262e3cd81fe458dfa051a8e7ff3bb9a07c2de33031ca737db3dbba7"
     ],
-    "items_added": 11,
+    "items_added": 15,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Allure Korea": {
     "page": 3,
-    "checked_at": "2026-10-18T09:55:22.253562+00:00",
-    "next_scan": "2026-10-18T09:55:22.253562+00:00",
-    "status": "in_progress",
+    "checked_at": "2026-10-18T11:25:24.410194+00:00",
+    "next_scan": "2026-10-18T12:25:24.410194+00:00",
+    "status": "retry_pending",
     "fingerprints": [
       "342f8e7664889d2020765f8299ee1588c747ee4b82b77d5a802fbd913c57b7a6",
       "631d93dbe866ef21e2f67a210f25ea0436ba03fc7f79467c2a344c8f65a0fa8b"

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T20:15:31+09:00",
+  "checked_at": "2026-10-18T20:25:27+09:00",
   "status": "failed",
   "sources": [
     {
@@ -87,44 +87,40 @@
     {
       "name": "Esquire Korea",
       "url": "https://www.esquirekorea.co.kr/search",
-      "scope": "historical pagination page 2",
-      "status": "success",
-      "fetched": 10,
-      "matched": 3,
-      "warnings": [],
-      "page": 2,
-      "page_fingerprint": "4c616495433feab857d108128d888a58b5dd99e89e9fc8a9c6f4a4b1c873aa79",
-      "checked_at": "2026-10-18T18:55:25+09:00",
+      "scope": "historical pagination page 3",
+      "status": "failed",
+      "error": "Search result container has no article links",
+      "kind": "parse",
+      "retryable": false,
+      "checked_at": "2026-10-18T20:25:27+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Cosmopolitan Korea",
       "url": "https://www.cosmopolitan.co.kr/search",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 3",
       "status": "success",
       "fetched": 18,
-      "matched": 11,
+      "matched": 4,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "357bdbe69b3f29b4c723af830203e362e7ea187ce1b92e7a9f03ffcd5e5e8ff6",
-      "checked_at": "2026-10-18T18:55:25+09:00",
-      "last_success": "2026-10-18T18:55:25+09:00",
+      "page": 3,
+      "page_fingerprint": "a6e451d67262e3cd81fe458dfa051a8e7ff3bb9a07c2de33031ca737db3dbba7",
+      "checked_at": "2026-10-18T20:25:27+09:00",
+      "last_success": "2026-10-18T20:25:27+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Allure Korea",
       "url": "https://www.allurekorea.com/wp-admin/admin-ajax.php",
-      "scope": "historical pagination page 2",
-      "status": "success",
-      "fetched": 17,
-      "matched": 0,
-      "warnings": [],
-      "page": 2,
-      "page_fingerprint": "631d93dbe866ef21e2f67a210f25ea0436ba03fc7f79467c2a344c8f65a0fa8b",
-      "checked_at": "2026-10-18T18:55:25+09:00",
+      "scope": "historical pagination page 3",
+      "status": "failed",
+      "error": "Invalid magazine search response",
+      "kind": "parse",
+      "retryable": false,
+      "checked_at": "2026-10-18T20:25:27+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Singles",
