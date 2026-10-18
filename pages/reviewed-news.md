@@ -56,3 +56,8 @@
 - [제니·고윤정·박보영 캐스팅에도…1%대 최저 시청률 찍고 결방→마지막 회 소식 전한 '마니또클럽' | 텐아시아](https://www.tenasia.co.kr/article/2026042560664) · VARIETY · 내용은 원문 보도 기준
 - [정준원, 고윤정 이어 공효진과 부부 호흡..'유부녀 킬러' 출연 ［공식］ | 스타뉴스](https://www.starnewskorea.com/star/2026/06/15/2026061514100948071) · VARIETY_WORK · 내용은 원문 보도 기준
 - [고윤정→윤남노, 심야식당 오픈…“난리났다” 주문 폭주에 주방 대혼돈 (마니또 클럽)](https://v.daum.net/v/20260322073726348) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [고윤정, 예능 신고식…이명화 성대모사·댄스 폭발 (마니또클럽)](https://sports.donga.com/ent/article/all/20260308/133484239/1) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- ['고윤정 출연 작품 아니었어?'…패션업계, 영화 같은 광고 화제](https://v.daum.net/v/20260925090156827?f=p) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 이병헌과 만난다&hellip;&lsquo;남벌&rsquo; 출연 확정 - 일간스포츠](https://isplus.com/article/view/isp202607070191) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 얼굴 믿고 다 하네…파리서 '멍한 표정'도 화보](https://v.daum.net/v/20260928040129745) · FASHION · 내용은 원문 보도 기준
+- [［공식］ 고윤정, 하드보일드 무협 액션 도전..이병헌과 함께 '남벌' 출연](https://www.chosun.com/entertainments/movie/2026/07/08/GM2GKN3FMZQWEMRQMNRWMYJQHA) · VARIETY_WORK · 내용은 원문 보도 기준
