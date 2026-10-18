@@ -1,18 +1,24 @@
 {
-  "checked_at": "2026-10-18T12:25:39+09:00",
-  "status": "failed",
+  "checked_at": "2026-10-18T12:38:16+09:00",
+  "status": "retired",
   "sources": [
     {
       "name": "MAA 등록 프로필",
       "url": "https://maa.co.kr/artists/go-younjung",
-      "scope": "configured_agency_profile",
-      "status": "failed",
-      "error": "https://maa.co.kr/artists/go-younjung: Connection timeout (5 seconds); https://www.maa.co.kr/artists/go-younjung: Connection timeout (5 seconds)",
-      "kind": "network",
-      "retryable": true,
-      "checked_at": "2026-10-18T12:25:39+09:00",
+      "scope": "historical_profile",
+      "status": "retired",
+      "reason": "MAA 흡수합병과 AAP 소속 보도를 확인해 과거 MAA 프로필의 정기 수집을 종료했다. 에이투지 공식 아티스트 소개에 고윤정이 없어 대체 프로필로 등록하지 않는다.",
+      "evidence": [
+        "https://kind.krx.co.kr/external/2026/05/08/000634/20260428000456/71769.htm",
+        "https://comp.nicebizline.com/co/CO0100M010GE.nice?nav=2&stockcd=291230",
+        "http://a2zentertainment.co.kr/main/html.php?htmid=service/image9coms.html",
+        "https://www.tenasia.co.kr/article/2026090158504"
+      ],
+      "retired_at": "2026-10-18",
+      "checked_at": "2026-10-18T12:38:16+09:00",
       "last_success": null,
-      "consecutive_failures": 2
+      "consecutive_failures": null,
+      "failures_before_retirement": 2
     }
   ]
 }

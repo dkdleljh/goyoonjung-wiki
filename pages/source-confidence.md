@@ -1,22 +1,22 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-18 12:26 (Asia/Seoul)
+> Updated: 2026-10-18 12:38 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1557
+- total_urls: 1572
 - S: 295
-- A: 550
-- B: 258
-- BLOCK: 454
+- A: 551
+- B: 266
+- BLOCK: 460
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
 | google.com | 184 | BLOCK:184 |
-| youtube.com | 156 | B:156 |
+| youtube.com | 164 | B:164 |
 | kstar.kbs.co.kr | 124 | S:124 |
 | youtu.be | 84 | B:84 |
-| maa.co.kr | 73 | BLOCK:73 |
+| maa.co.kr | 71 | BLOCK:71 |
 | marieclairekorea.com | 65 | A:65 |
 | wkorea.com | 52 | A:52 |
 | news.jtbc.co.kr | 47 | S:47 |

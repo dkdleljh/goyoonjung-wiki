@@ -1569,6 +1569,62 @@
   },
   {
     "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=v6QZ1y5Wdn0",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=Y2mUgrU3A4c",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=qdCkb---pCA",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=e7X3hPHuGco",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=MKBZ1_3rhWA",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=sxO1jVG2iBo",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=tbP6O6ubKC8",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=FFGiM0NDJIQ",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
     "url": "https://www.youtube.com/watch?v=R9LyACXS_DU",
     "host": "youtube.com",
     "grade": "B",
@@ -7896,6 +7952,13 @@
     "lane": "discard"
   },
   {
+    "page": "pages/preflight-report.md",
+    "url": "https://github.com/dkdleljh/goyoonjung-wiki.git",
+    "host": "github.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
     "page": "pages/profile.md",
     "url": "https://maa.co.kr/artists/go-younjung",
     "host": "maa.co.kr",
@@ -7915,6 +7978,34 @@
     "host": "tenasia.co.kr",
     "grade": "A",
     "lane": "queue"
+  },
+  {
+    "page": "pages/profile.md",
+    "url": "https://kind.krx.co.kr/external/2026/05/08/000634/20260428000456/71769.htm",
+    "host": "kind.krx.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/profile.md",
+    "url": "https://comp.nicebizline.com/co/CO0100M010GE.nice?nav=2&stockcd=291230",
+    "host": "comp.nicebizline.com",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/profile.md",
+    "url": "http://a2zentertainment.co.kr/main/html.php?htmid=service/image9coms.html",
+    "host": "a2zentertainment.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/profile.md",
+    "url": "http://a2zentertainment.co.kr/main/html.php?htmid=service/popMusic.html",
+    "host": "a2zentertainment.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
   },
   {
     "page": "pages/progress.md",
@@ -9493,17 +9584,31 @@
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://maa.co.kr/artists/go-younjung:",
-    "host": "maa.co.kr",
+    "url": "https://kind.krx.co.kr/external/2026/05/08/000634/20260428000456/71769.htm",
+    "host": "kind.krx.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.maa.co.kr/artists/go-younjung:",
-    "host": "maa.co.kr",
+    "url": "https://comp.nicebizline.com/co/CO0100M010GE.nice?nav=2&stockcd=291230",
+    "host": "comp.nicebizline.com",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/source-collection-status.md",
+    "url": "http://a2zentertainment.co.kr/main/html.php?htmid=service/image9coms.html",
+    "host": "a2zentertainment.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/source-collection-status.md",
+    "url": "https://www.tenasia.co.kr/article/2026090158504",
+    "host": "tenasia.co.kr",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/source-collection-status.md",
@@ -9612,7 +9717,7 @@
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBAEVMr0li9YYF8IwZHfusw",
+    "url": "https://www.youtube.com/playlist?list=UUBAEVMr0li9YYF8IwZHfusw",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
@@ -9633,7 +9738,7 @@
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ",
+    "url": "https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"

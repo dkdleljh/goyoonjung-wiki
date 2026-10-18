@@ -77,6 +77,6 @@
 - [pages/pictorials/editorial.md:798] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:806] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:814] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/profile.md:49] - 상태: 검증불가(공식 근거 미확보)
-- [pages/profile.md:56] - 상태: 검증불가(공식 근거 미확보)
+- [pages/profile.md:50] - 상태: 검증불가(공식 근거 미확보)
+- [pages/profile.md:57] - 상태: 검증불가(공식 근거 미확보)
 - [pages/sns.md:14] - 상태: **미확정(교차확인 필요)**

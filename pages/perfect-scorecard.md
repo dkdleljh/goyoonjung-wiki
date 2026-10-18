@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 121
-- urls_total(markdown): 582
-- seen_urls(db): 198
+- urls_total(markdown): 592
+- seen_urls(db): 206
 - allowlist_domains(lines): 136
 - google_news_sites(lines): 48
 - google_news_queries(lines): 20
@@ -13,14 +13,14 @@
 - youtube_feeds(lines): 24
 
 ## Scores (0~100)
-### A. Coverage tooling readiness: **85/100**
+### A. Coverage tooling readiness: **75/100**
 
 - channel_diversity: 100  (config presence + i18n + youtube + rss)
 - landing: 100  (category landing pages exist)
 - detection: 100  (quality/content-gaps reports)
-- official_work_sync: 40  (official filmography audit)
+- official_work_sync: 0  (official filmography audit)
 
-### B. Recorded automation health: **0/100**
+### B. Recorded automation health: **100/100**
 
 - pipeline: 100  (run_daily_update + steps)
 - resilience: 100  (batching + skip-reason logging)
@@ -31,8 +31,8 @@
 
 - C_current: 70  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 582  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 198  (dedupe DB size)
+- urls_total: 592  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 206  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)

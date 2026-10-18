@@ -17,17 +17,18 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`376be089`](https://github.com/dkdleljh/goyoonjung-wiki/commit/376be089) — fix: retire historical MAA source after agency merger
+- [`acda49dd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/acda49dd) — docs: sync collected wiki content for website
 - [`62cb0881`](https://github.com/dkdleljh/goyoonjung-wiki/commit/62cb0881) — fix: verify every YouTube channel and recover RSS outages via official uploads
 - [`505cc507`](https://github.com/dkdleljh/goyoonjung-wiki/commit/505cc507) — fix: repair magazine sources and recover transient collection failures
 - [`7c754c41`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7c754c41) — docs: sync collected wiki content for website
-- [`049aeda7`](https://github.com/dkdleljh/goyoonjung-wiki/commit/049aeda7) — docs: sync collected wiki content for website
-- [`66e9f64d`](https://github.com/dkdleljh/goyoonjung-wiki/commit/66e9f64d) — docs: sync collected wiki content for website
 
 ## 직전 변경 파일
-- `config/youtube-channels.txt`
-- `config/youtube-feeds.yml`
+- `config/agency-sources.json`
 - `docs/website-sync.md`
-- `scripts/auto_collect_youtube_feeds.py`
-- `scripts/run_daily_update.sh`
-- `scripts/youtube_sources.py`
-- `tests/test_source_collection.py`
+- `pages/alternative-proof-missing.md`
+- `pages/appearances.md`
+- `pages/appearances/by-year.md`
+- `pages/brand-evidence-watch.md`
+- `pages/brands/boucheron.md`
+- `pages/brands/carrot.md`

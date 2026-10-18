@@ -1,10 +1,18 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-18 12:27 (Asia/Seoul)
+> Updated: 2026-10-18 12:39 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[4K] 고윤정(Go Younjung), '성실함·긍정적·코미디 다 놓치지 않을거에요' 고윤정도 힐링하게 만든 명대사는? (‘모자무싸’ 제작발표회) - YouTube](https://www.youtube.com/watch?v=v6QZ1y5Wdn0)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [절세 미인 외모와는 딴판인 성격😲 어쩐지 초등학생미가 느껴지는 고윤정 현실 말투ㅋㅋ💖 #유퀴즈 - YouTube](https://www.youtube.com/watch?v=Y2mUgrU3A4c)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[스페셜] 20년 전 버린 딸 고윤정을 다시 찾은 ‘탑배우 엄마’ 배종옥의 속내 | 모두가 자신의 무가치함과 싸우고 있다 | JTBC 260509 방송 - YouTube](https://www.youtube.com/watch?v=qdCkb---pCA)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [🎤현장 인터뷰 | '이사통' 고윤정 "욕설 연기, 황정민 선배님 참고했죠" [투데이 '픽'/iMBC연예뉴스] - YouTube](https://www.youtube.com/watch?v=e7X3hPHuGco)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [전세계로 뻗어나가는 고윤정의 이중인격 연기?! #고윤정 #이중인격 [독특한 연예뉴스] - YouTube](https://www.youtube.com/watch?v=MKBZ1_3rhWA)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[마니또 클럽] 정해인의 마니또 대행 덱스 출동🤩 고윤정을 위한 커피의 상태가?!, MBC 260301 방송 - YouTube](https://www.youtube.com/watch?v=sxO1jVG2iBo)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[4K] 구교환-고윤정-오정세-박해준, '아직 보내주기 싫어요🥹' 배우들이 생각하는 캐릭터와의 싱크로율은? (‘모자무싸’ 제작발표회) - YouTube](https://www.youtube.com/watch?v=tbP6O6ubKC8)
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · ['모자무싸' 구교환·고윤정·박해준, 나만의 매력과 가치? "언제나 유머 잃지 않으려 노력" [비하인드] #모두가자신의무가치함과싸우고있다 #모자무싸 #고윤정 #박해준 - YouTube](https://www.youtube.com/watch?v=FFGiM0NDJIQ)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [자책이 습관된 현대인들에게...🥲｜고윤정 명대사｜모.자.무.싸｜JTBC 260517 방송 외 - YouTube](https://www.youtube.com/watch?v=R9LyACXS_DU)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [고윤정X연운경 통합본📂 예비 손주사위 본 할머니의 반응?ㅎㅎ｜모.자.무.싸｜JTBC 260524 방송 외 - YouTube](https://www.youtube.com/watch?v=Ro6b6eBUH6o)
 - 2026-10-13 · grade=B · YOUTUBE_CLIPS · [[2025 펀덱스 어워드] TV 드라마 여자 주연 | 고윤정 | 언젠가는슬기로울전공의생활 | 20251218 방송 - YouTube](https://www.youtube.com/watch?v=9xNJ2ZB5IuM)
