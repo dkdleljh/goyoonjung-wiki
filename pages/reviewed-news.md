@@ -138,3 +138,9 @@
 - [Autumn Warm Tone Season Is Here: Styling Formulas Found in Jennie, Minji, Go Youn-jung and Giselle](https://www.sportschosun.com/en/k-beauty/2026-09-11/202609110100078900005110) · EN_ALL · 내용은 원문 보도 기준
 - [Go Youn-jung's Paris Photos Highlight Goddess-like Aura](https://www.chosun.com/english/kpop-culture-en/2026/09/27/AIKQCRVVSFEWJASS6TASCC3AHA) · EN_ALL · 내용은 원문 보도 기준
 - [Go Youn-jung radiates goddess poise in vintage photos](https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung shares playful behind-the-scenes photos showing effortless charm](https://biz.chosun.com/en/en-entertainment/2026/09/29/26QQGMLYXBGVXOSL7UKGU3EZ2M) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung Can't Hide Her Celebrity Aura Even in Paris... She Shines Just Walking Down the Street](https://www.sportschosun.com/en/celebrity/2026-09-27/202609270100180020011872) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung Dazzles with Goddess-like Figure in New Photos](https://www.chosun.com/english/kpop-culture-en/2026/09/20/QHK625VA2ZENRIS4SGYXPWATYM) · EN_ALL · 내용은 원문 보도 기준
+- [All It Took Was a Brow Change... Go Youn-jung's Secret to Her "Beauty with an Aura" ［K-Beauty Club］ - MK](https://www.mk.co.kr/en/hot-issues/12161158) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung spotted with Galaxy Z Fold 8 as Samsung chips away at iPhone's grip on young women - The Herald Business](https://mbiz.heraldcorp.com/article/10898312) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung's Ageless Photos Astonish Fans](https://www.chosun.com/english/kpop-culture-en/2026/09/30/JXZ26MEHQFAQTAJATYLWZUOWXY) · EN_ALL · 내용은 원문 보도 기준
