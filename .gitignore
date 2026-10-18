@@ -29,7 +29,7 @@ temp/
 *.temp
 
 # Local virtualenv
-.venv/
+.venv
 .venv-tools/
 
 # Generated reports (do not version)

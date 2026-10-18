@@ -1,22 +1,4 @@
 {
-  "site:example.org": {
-    "last_attempt": "2026-10-18T05:40:05.632313+00:00",
-    "status": "failed",
-    "failures": 1,
-    "last_success": "2026-10-18T05:40:05.545947+00:00"
-  },
-  "query:test": {
-    "last_attempt": "2026-10-18T05:40:05.650920+00:00",
-    "status": "failed",
-    "failures": 1,
-    "last_success": "2026-10-18T05:40:05.571737+00:00"
-  },
-  "i18n:test": {
-    "last_attempt": "2026-10-18T05:40:05.668878+00:00",
-    "status": "failed",
-    "failures": 1,
-    "last_success": "2026-10-18T05:40:05.596084+00:00"
-  },
   "official:about.netflix.com": {
     "last_attempt": "2026-10-18T05:43:13.037220+00:00",
     "status": "success",
