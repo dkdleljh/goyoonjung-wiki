@@ -47,3 +47,7 @@
 - [내셔널지오그래픽, 허남준 모델 발탁…고윤정과 캠페인 영상 공개](https://www.news1.kr/industry/distribution/6300203) · 뉴스1 · 내용은 원문 보도 기준
 - [고윤정, 파리 거리서 포착된 여신 비주얼…청초한 미모에 '심쿵' ［N샷］](https://www.news1.kr/entertain/celebrity-topic/6302527) · 뉴스1 · 내용은 원문 보도 기준
 - [고윤정, 첫 예능서 댄스·성대모사…"여긴 프로의 세계"](https://www.newsis.com/view/NISX20260308_0003539257) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [［단독］고윤정, 첫 예능 전격 출연…'마니또 클럽'으로 매력 봉인 해제](https://v.daum.net/v/20260122071123454?f=m) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [김대호 "연애 안 한 지 10년 넘어…이상형은 고윤정"](https://www.newsis.com/view/NISX20260619_0003676045) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 드레스 여신인 줄 알았더니…반전 셀카까지 - 스타투데이](https://www.mk.co.kr/news/hot-issues/12163132) · WORKS · 내용은 원문 보도 기준
+- [나영석, 고윤정 성격 카메라 온오프 달라…"사방팔방 돌아다녀" ('십오야')](https://plus.hankyung.com/apps/newsinside.view?aid=2026010921184&category=&sns=y) · VARIETY_TALK · 내용은 원문 보도 기준
