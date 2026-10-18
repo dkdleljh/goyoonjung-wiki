@@ -1034,3 +1034,131 @@
 - 링크(원문): https://www.cosmopolitan.co.kr/article/1899306
 - 상태: 원문 메타데이터 수집
 - id: https://www.cosmopolitan.co.kr/article/1899306
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정의 정원에 들어서면 #ELLE_D에디션
+- 링크(원문): https://www.elle.co.kr/article/1873039
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1873039
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 어디까지 사랑스러울거야? 엘르 디에디션 커버 공개
+- 링크(원문): https://www.elle.co.kr/article/1873041
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1873041
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 피어난다
+- 링크(원문): https://www.elle.co.kr/article/1874201
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1874201
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 평범한 블랙과 그레이만으로 한겨울 난 방법
+- 링크(원문): https://www.elle.co.kr/article/1876123
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1876123
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 제니,고윤정도 반한 샤넬의 오트 쿠튀르 컬렉션
+- 링크(원문): https://www.elle.co.kr/article/1877537
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1877537
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 샤넬의 오트 쿠튀르를 느끼는 법
+- 링크(원문): https://www.elle.co.kr/article/1877592
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1877592
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 옷 주머니마다 꼭 넣고 다니는 것은?
+- 링크(원문): https://www.elle.co.kr/article/1880797
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1880797
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '언슬전'고윤정의 슬기로운 배우 생활
+- 링크(원문): https://www.elle.co.kr/article/1881023
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1881023
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정과 러브라인 시작한 '언슬전' 정준원 인생캐 #요즘드라마
+- 링크(원문): https://www.elle.co.kr/article/1881527
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1881527
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 아이유,고윤정, 윤아의 시상식 추구미는? 퇴폐미 VS 청순미
+- 링크(원문): https://www.elle.co.kr/article/1884981
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1884981
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 김선호·고윤정'이사통' 제대로 보기 전 체크 포인트 셋
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1895494
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1895494
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '이사통' 김선호·고윤정의 커플 패션도 통역될까요?
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1895929
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1895929
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: ‘만약에’ 구교환 & ‘이사통’고윤정만난다? ‘모자무싸’ 뭐길래
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1895957
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1895957
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 김선호·고윤정만 있나? ‘이사통’ 흥행으로 재발견된 배우들
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1895959
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1895959
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 현대판 공주님들 등장!고윤정, 장원영, 카리나의 로맨틱 스타일링
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1896274
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1896274
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 이사통 ‘이 사랑 통역되나요?’고윤정‘차무희’ 패션 총정리
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1896532
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1896532

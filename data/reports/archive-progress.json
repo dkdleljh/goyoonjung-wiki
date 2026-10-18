@@ -1,22 +1,23 @@
 {
   "ELLE Korea": {
-    "page": 3,
-    "checked_at": "2026-10-18T08:45:22.273807+00:00",
-    "next_scan": "2026-10-18T08:45:22.273807+00:00",
+    "page": 4,
+    "checked_at": "2026-10-18T11:00:27.349259+00:00",
+    "next_scan": "2026-10-18T11:00:27.349259+00:00",
     "status": "in_progress",
     "fingerprints": [
       "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166",
-      "f9982d4067766d38df2a71dbb4688ffbba75ad88dc725f52f88cc661efd73843"
+      "f9982d4067766d38df2a71dbb4688ffbba75ad88dc725f52f88cc661efd73843",
+      "f9d2793d0429735f45862ada29f59754a71209880239f2acd9bccddd50443cc7"
     ],
-    "items_added": 21,
+    "items_added": 31,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "W Korea": {
     "page": 3,
-    "checked_at": "2026-10-18T08:45:22.273807+00:00",
-    "next_scan": "2026-10-18T08:45:22.273807+00:00",
-    "status": "in_progress",
+    "checked_at": "2026-10-18T11:00:27.349259+00:00",
+    "next_scan": "2026-10-18T12:00:27.349259+00:00",
+    "status": "retry_pending",
     "fingerprints": [
       "f0241cce012db16453495e6300013377864543e25a5371196a9aa1c628918e8a",
       "4cec078a7999314aade87e7de94d931409f189026021a150b6e823b811446329"
@@ -32,15 +33,16 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 3,
-    "checked_at": "2026-10-18T08:45:22.273807+00:00",
-    "next_scan": "2026-10-18T08:45:22.273807+00:00",
+    "page": 4,
+    "checked_at": "2026-10-18T11:00:27.349259+00:00",
+    "next_scan": "2026-10-18T11:00:27.349259+00:00",
     "status": "in_progress",
     "fingerprints": [
       "b8f39340d35ff44fbf7eb99034c0a5bfc43c781860614bd198672c4da2473af7",
-      "b07172270600edbd4efb8c883cb946aa095ce3c77b9f2600df041c239b1204ce"
+      "b07172270600edbd4efb8c883cb946aa095ce3c77b9f2600df041c239b1204ce",
+      "8e7e9650ca5e67f216b400929fba93dab3e6224ca20e8a5370eca311eb8db0f2"
     ],
-    "items_added": 10,
+    "items_added": 16,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },

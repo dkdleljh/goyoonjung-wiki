@@ -25,7 +25,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-18 19:55 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 20:00 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -52,6 +52,8 @@
 - [고윤정-김선호의 예측 불가 로맨스 ‘이 사랑 통역 되나요?’](https://www.vogue.co.kr/2025/12/18/%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b9%80%ec%84%a0%ed%98%b8%ec%9d%98-%ec%98%88%ec%b8%a1-%eb%b6%88%ea%b0%80-%eb%a1%9c%eb%a7%a8%ec%8a%a4-%ec%9d%b4-%ec%82%ac%eb%9e%91-%ed%86%b5%ec%97%ad-%eb%90%98/)  _(출처: pictorials/editorial.md)_
 
 - ['이 사랑 통역 되나요?' 김선호고윤정비하인드도 설레네](https://www.elle.co.kr/article/1896159)  _(출처: pictorials/editorial.md)_
+
+- [이사통 ‘이 사랑 통역되나요?’고윤정‘차무희’ 패션 총정리](https://www.harpersbazaar.co.kr/article/1896532)  _(출처: pictorials/editorial.md)_
 
 - [# 인터뷰/기사 아카이브](https://dkdleljh.github.io/goyounjung/images/photos/interview-960.webp)  _(출처: interviews.md)_
 
@@ -80,8 +82,6 @@
 - [[인터뷰] 고윤정 "동화 속 주인공 된 기분이었죠"](https://www.newsis.com/view/NISX20260123_0003488532)  _(출처: interviews.md)_
 
 - [고윤정 "동화 속 주인공 된 기분이었죠"](https://www.kgmail.kr/news/articleView.html?idxno=601718)  _(출처: interviews.md)_
-
-- [김선호-고윤정, 이런 애매한 감정도 통역이 되나요?](https://kstar.kbs.co.kr/list_view.html?idx=387125)  _(출처: interviews.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스(확정)
