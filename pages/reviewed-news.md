@@ -160,3 +160,5 @@
 - [고윤정은 파리에서 6만 원대 맨투맨을 입습니다](https://www.cosmopolitan.co.kr/article/1910935) · Cosmopolitan Korea · 내용은 원문 보도 기준
 - [고윤정 설마 했는데…“결국 갈아탔다” 손에 든 ‘폰’ 뭔가 했더니](https://biz.heraldcorp.com/article/10898311) · 헤럴드경제 · 내용은 원문 보도 기준
 - [“연예인 될 재주없다” 거절했던 고윤정…10년전 대학 주점선 ‘만석 여신’](https://www.sportsseoul.com/news/read/1642299) · 스포츠서울 · 내용은 원문 보도 기준
+- [고윤정 맞아? 알고봐도 헷갈리는 비주얼…10년 전 서울여대 주점 포스터 재조명 | 텐아시아](https://www.tenasia.co.kr/article/2026101993104) · 텐아시아 · 내용은 원문 보도 기준
+- [고윤정, 10년 전 대학 축제 주점 포스터 등장…이미 여신 비주얼 "당연히 만석"](https://www.news1.kr/entertain/celebrity-topic/6323852) · 뉴스1 · 내용은 원문 보도 기준
