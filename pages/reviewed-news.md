@@ -126,3 +126,9 @@
 - [コ・ユンジョン、ドレス姿の女神かと思いきや...意外な自撮りまで - MK](https://www.mk.co.kr/jp/hot-issues/12163132) · JA_ALL · 내용은 원문 보도 기준
 - [고윤정이 마주한 새하얀 겨울](https://www.vogue.co.kr/2026/10/07/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%B4-%EB%A7%88%EC%A3%BC%ED%95%9C-%EC%83%88%ED%95%98%EC%96%80-%EA%B2%A8%EC%9A%B8) · MARITHE · 내용은 원문 보도 기준
 - [Lee Byung-hun, Go Youn-jung cast in upcoming Joseon-era action film - The Korea Times](https://www.koreatimes.co.kr/entertainment/films/20260708/lee-byung-hun-go-youn-jung-cast-in-upcoming-joseon-era-action-film) · EN_CAST · 내용은 원문 보도 기준
+- [Go Youn-jung Stars in Joseon Action 'Nambeol' and Supernatural 'Moving Season 2'](https://www.chosun.com/english/kpop-culture-en/2026/07/13/2PNKYX7MYFBAJPOBFWLF5FOWKI) · EN_CAST · 내용은 원문 보도 기준
+- [Go Youn-jung Takes on Hard-Boiled Martial Arts Action, Joins Lee Byung-hun in 'Nambal'](https://www.sportschosun.com/en/movie/2026-07-08/202607080100050020003004) · EN_CAST · 내용은 원문 보도 기준
+- [Go Youn-jung, Lee Byung-hun in Martial Arts Film 'Nambeol'](https://www.chosun.com/english/kpop-culture-en/2026/07/07/FFRPJDIJRZGOLAWADMYMS7PE3Y) · EN_CAST · 내용은 원문 보도 기준
+- [IU, Go Youn-jung, Shin Hae-sun defy ratings slump in rare weekend drama surge - The Korea Times](https://www.koreatimes.co.kr/entertainment/shows-dramas/20260505/iu-go-youn-jung-shin-hae-sun-defy-ratings-slump-in-rare-weekend-drama-surge) · EN_CAST · 내용은 원문 보도 기준
+- [고윤정, 파리서 국위선양하는 미모…정면도 옆모습도 감탄 ［MD★스타］](https://v.daum.net/v/Q9gpBgFYwg) · RYO · 내용은 원문 보도 기준
+- [XEXYMIX Proposes Winter Running Looks with Go Youn Jung and DEX, Unveils 'RX Air Light Padded Jumper'](https://www.sportschosun.com/en/culture/2026-09-24/202609240100164150010740) · EN_ALL · 내용은 원문 보도 기준
