@@ -392,6 +392,14 @@
 - 링크(원문): https://www.marieclairekorea.com/celebrity/2025/09/2025asa-goyounjung/
 - 상태: 원문 메타데이터 수집
 - id: https://www.marieclairekorea.com/celebrity/2025/09/2025asa-goyounjung/
+
+- 날짜: 2025-08-29
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬과 만난 신비로운 고윤정의 모습으로 채운 마리끌레르 9월호 디지털 커버
+- 링크(원문): https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/
 ## 2024
 - 날짜: 2024-07
 - 매체: Marie Claire Korea (마리끌레르 코리아)
@@ -448,6 +456,38 @@
 - 링크(원문): https://www.vogue.co.kr/2024/05/20/%ec%83%88%eb%a1%9c%ec%9a%b4-%ec%95%b0%eb%b0%b0%ec%84%9c%eb%8d%94-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%90%ed%95%98%eb%8a%94-%ec%83%a4%eb%84%ac-2024-25-%ed%81%ac%eb%a3%a8%ec%a6%88-%ec%bb%ac/
 - 상태: 원문 메타데이터 수집
 - id: https://www.vogue.co.kr/2024/05/20/%ec%83%88%eb%a1%9c%ec%9a%b4-%ec%95%b0%eb%b0%b0%ec%84%9c%eb%8d%94-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%90%ed%95%98%eb%8a%94-%ec%83%a4%eb%84%ac-2024-25-%ed%81%ac%eb%a3%a8%ec%a6%88-%ec%bb%ac/
+
+- 날짜: 2024-06-26
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬과 고윤정이 함께한 무빙 커버
+- 링크(원문): https://www.marieclairekorea.com/fashion/2024/06/chanel-25/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/fashion/2024/06/chanel-25/
+
+- 날짜: 2024-07-03
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬과 고윤정이 함께한 패션 필름
+- 링크(원문): https://www.marieclairekorea.com/fashion/2024/07/chanel-26/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/fashion/2024/07/chanel-26/
+
+- 날짜: 2024-07-04
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정과 샤넬이 함께한 화보 #1
+- 링크(원문): https://www.marieclairekorea.com/fashion/2024/07/chanel-27/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/fashion/2024/07/chanel-27/
+
+- 날짜: 2024-07-04
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정과 샤넬이 함께한 화보 #2
+- 링크(원문): https://www.marieclairekorea.com/fashion/2024/07/chanel-28/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/fashion/2024/07/chanel-28/
 ## 2023
 
 - 날짜: 2023-10-26
@@ -1370,3 +1410,43 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/1889999
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/1889999
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 청담동에서 난리 난 '제니ㆍ조이ㆍ현아ㆍ스테이씨 윤ㆍ고윤정' 앞머리
+- 링크(원문): https://www.cosmopolitan.co.kr/article/58117
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/58117
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정의 봄날
+- 링크(원문): https://www.cosmopolitan.co.kr/article/64826
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/64826
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 눈이 부시게고윤정
+- 링크(원문): https://www.cosmopolitan.co.kr/article/65176
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/65176
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 제니·조이·백예린·고윤정이 사랑하는 플라워 패턴 원피스
+- 링크(원문): https://www.cosmopolitan.co.kr/article/67745
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/67745
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 신예은·노윤서·고윤정신예 배우들이 유독 예뻐 보이는 이유? 바로 ‘이것’ 때문!
+- 링크(원문): https://www.cosmopolitan.co.kr/article/74461
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/74461

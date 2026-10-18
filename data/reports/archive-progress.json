@@ -85,17 +85,19 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Marie Claire Korea": {
-    "page": 4,
-    "checked_at": "2026-10-18T11:15:25.271908+00:00",
-    "next_scan": "2026-10-18T11:15:25.271908+00:00",
+    "page": 5,
+    "checked_at": "2026-10-18T12:45:29.994667+00:00",
+    "next_scan": "2026-10-18T12:45:29.994667+00:00",
     "status": "in_progress",
     "fingerprints": [
       "b687253b32725500fd4b34a5553662c7998c483c49af6953c600cf7a932e7691",
       "4157680798e6428795c83d270249a92a0e4fd0d3dcf00bc2bf052f6785c9730a",
-      "224754c885702f358ca87f17b1ed314585f412bf22ac822874c4cc8278083620"
+      "224754c885702f358ca87f17b1ed314585f412bf22ac822874c4cc8278083620",
+      "207768325a896dd408b96f32059b407d4024e3650a8fba9da57020c7d822d705"
     ],
-    "items_added": 3,
+    "items_added": 8,
     "years_observed": [
+      2024,
       2025,
       2026
     ],
@@ -103,8 +105,8 @@
   },
   "Esquire Korea": {
     "page": 3,
-    "checked_at": "2026-10-18T11:25:24.410194+00:00",
-    "next_scan": "2026-10-18T12:25:24.410194+00:00",
+    "checked_at": "2026-10-18T12:45:29.994667+00:00",
+    "next_scan": "2026-10-18T13:45:29.994667+00:00",
     "status": "retry_pending",
     "fingerprints": [
       "00bbe1024c661c34b4336af134513dee61cfd05870e3f1a075a15fc68800c078",
@@ -115,16 +117,17 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Cosmopolitan Korea": {
-    "page": 4,
-    "checked_at": "2026-10-18T11:25:24.410194+00:00",
-    "next_scan": "2026-10-18T11:25:24.410194+00:00",
+    "page": 5,
+    "checked_at": "2026-10-18T12:45:29.994667+00:00",
+    "next_scan": "2026-10-18T12:45:29.994667+00:00",
     "status": "in_progress",
     "fingerprints": [
       "ce48efb8ccd568877369893e93b1168ac2c59e8a38e721c0f9d414482009e87f",
       "357bdbe69b3f29b4c723af830203e362e7ea187ce1b92e7a9f03ffcd5e5e8ff6",
-      "a6e451d67262e3cd81fe458dfa051a8e7ff3bb9a07c2de33031ca737db3dbba7"
+      "a6e451d67262e3cd81fe458dfa051a8e7ff3bb9a07c2de33031ca737db3dbba7",
+      "a7da40d066b9e0c9037b2f56b1b2674d7e85da360bcaf76e4c0310c882da079d"
     ],
-    "items_added": 15,
+    "items_added": 20,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
