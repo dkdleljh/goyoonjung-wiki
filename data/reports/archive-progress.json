@@ -40,5 +40,48 @@
     "items_added": 6,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
+  },
+  "GQ Korea": {
+    "page": 2,
+    "checked_at": "2026-10-18T05:43:28.413367+00:00",
+    "next_scan": "2026-10-18T05:43:28.413367+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "dae624f68bbdcc2ebd5316fadabc07810fb8e8a7ea24cd368374961eb58110c7"
+    ],
+    "items_added": 0,
+    "years_observed": [
+      2022,
+      2023
+    ],
+    "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
+  },
+  "Vogue Korea": {
+    "page": 2,
+    "checked_at": "2026-10-18T05:43:28.413367+00:00",
+    "next_scan": "2026-10-18T05:43:28.413367+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b"
+    ],
+    "items_added": 0,
+    "years_observed": [
+      2026
+    ],
+    "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
+  },
+  "Marie Claire Korea": {
+    "page": 2,
+    "checked_at": "2026-10-18T05:43:28.413367+00:00",
+    "next_scan": "2026-10-18T05:43:28.413367+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "b687253b32725500fd4b34a5553662c7998c483c49af6953c600cf7a932e7691"
+    ],
+    "items_added": 0,
+    "years_observed": [
+      2026
+    ],
+    "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   }
 }
