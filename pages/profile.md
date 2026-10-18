@@ -1,5 +1,6 @@
 # 👤 프로필
 
+![인천공항에서 손으로 하트 모양을 만드는 고윤정](https://dkdleljh.github.io/goyounjung/images/photos/portrait-960.webp)
 
 ## 한눈에 보기
 

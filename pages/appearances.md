@@ -1,5 +1,6 @@
 # 🎤 방송/예능/행사(출연 기록)
 
+![제3회 청룡시리즈어워즈에 참석한 고윤정](https://dkdleljh.github.io/goyounjung/images/photos/awards-559.webp)
 
 ## 한눈에 보기
 

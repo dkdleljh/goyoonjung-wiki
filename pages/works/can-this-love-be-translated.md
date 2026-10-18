@@ -1,5 +1,6 @@
 # 🎬 이 사랑 통역 되나요? (Netflix)
 
+![이 사랑 통역 되나요? 제작발표회에서 나란히 앉은 고윤정과 김선호](https://dkdleljh.github.io/goyounjung/images/photos/press-960.webp)
 
 ## 기본 정보
 - 작품: 이 사랑 통역 되나요?

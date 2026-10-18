@@ -1,5 +1,6 @@
 # 📸 사진/화보 — 행사/포토월/시상식 (링크 아카이브)
 
+![샤넬 뷰티 관련 마리끌레르 영상 속 고윤정](https://dkdleljh.github.io/goyounjung/images/photos/chanel-720.webp)
 
 ## 템플릿
 - 날짜: YYYY-MM-DD

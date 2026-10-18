@@ -1,5 +1,6 @@
 # 인터뷰/기사 아카이브
 
+![이 사랑 통역 되나요? 인터뷰에 함께한 김선호와 고윤정](https://dkdleljh.github.io/goyounjung/images/photos/interview-960.webp)
 
 ## 한눈에 보기
 

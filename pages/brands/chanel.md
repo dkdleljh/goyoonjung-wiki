@@ -1,5 +1,7 @@
 # CHANEL
 
+![샤넬 뷰티 관련 마리끌레르 영상 속 고윤정](https://dkdleljh.github.io/goyounjung/images/photos/chanel-720.webp)
+
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
 > 갱신: 2026-10-18 12:21 (Asia/Seoul)
