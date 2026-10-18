@@ -30,3 +30,9 @@
 - [고윤정 '집순이' 고백 "산책 왜 하는지 모르겠어, 쉬는 날 아무것도 안 해"](https://v.daum.net/v/9VVtr4KpLg?f=p) · VARIETY_TALK · 내용은 원문 보도 기준
 - [구교환, 10월 영화배우 평판 1위 등극…고윤정·지창욱 제쳤다](https://sports.khan.co.kr/article/202610171211003) · 스포츠경향 · 내용은 원문 보도 기준
 - [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 | Asia Artist Awards IN KAOHSIUNG #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22882) · 스타뉴스 · 내용은 원문 보도 기준
+- [대학 때부터 예뻤던 고윤정 “실물 못 담는 전설의 주점 포스터”](https://www.sportsseoul.com/news/read/1642163) · 스포츠서울 · 내용은 원문 보도 기준
+- ['펜싱 고윤정' 양승혜, 에페 단체 결승전 출전［포토］](https://www.xportsnews.com/article/2200305) · 엑스포츠뉴스 · 내용은 원문 보도 기준
+- [고윤정, 여신컷 사이 반전 3장…컵으로 만든 '작아진 입'·터프한 표정까지 장꾸 매력 폭발 ［★해시태그］](https://www.xportsnews.com/article/2202242) · 엑스포츠뉴스 · 내용은 원문 보도 기준
+- [고윤정, 프랑스서 가을 감성 제대로…멍 때리는 순간마저 '분위기 여신' ［★해시태그］ ](https://www.xportsnews.com/article/2200984) · 엑스포츠뉴스 · 내용은 원문 보도 기준
+- ['윤정이들' 케미 무슨 일…'고윤정 닮은꼴' 제나 '어머나' 부르자 장윤정 '러브어택'으로 화답 ［★해시태그］](https://www.xportsnews.com/article/2197978) · 엑스포츠뉴스 · 내용은 원문 보도 기준
+- [고윤정, 팬들 '덕질할 맛' 나게 하네…편지 한가득 인증, 글까지 올렸다 "정말 행복합니다" ［★해시태그］](https://www.xportsnews.com/article/2203159) · 엑스포츠뉴스 · 내용은 원문 보도 기준
