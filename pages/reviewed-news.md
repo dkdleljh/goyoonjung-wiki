@@ -25,3 +25,8 @@
 - [고윤정, 광고모델도 아닌데 갈아탔다…손에 든 '이것' 뭐길래 ［테크로그］](https://www.hankyung.com/article/202610078190g) · VARIETY_WORK · 내용은 원문 보도 기준
 - [허남준, 고윤정 때문에 펑펑 울었다…“제발 저 안 좋아하게 해주세요”](https://sports.khan.co.kr/article/202609231144003) · VARIETY_WORK · 내용은 원문 보도 기준
 - [고윤정 파리에 가다..'여긴 어디' 멍한 표정도 여신](https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA) · WORKS · 내용은 원문 보도 기준
+- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22884) · 스타뉴스 · 내용은 원문 보도 기준
+- [고윤정, 얼굴 믿고 다 하네&hellip;파리서 '멍한 표정'도 화보](https://mydaily.co.kr/page/view/2026092717323954402) · 마이데일리 · 내용은 원문 보도 기준
+- [고윤정 '집순이' 고백 "산책 왜 하는지 모르겠어, 쉬는 날 아무것도 안 해"](https://v.daum.net/v/9VVtr4KpLg?f=p) · VARIETY_TALK · 내용은 원문 보도 기준
+- [구교환, 10월 영화배우 평판 1위 등극…고윤정·지창욱 제쳤다](https://sports.khan.co.kr/article/202610171211003) · 스포츠경향 · 내용은 원문 보도 기준
+- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 | Asia Artist Awards IN KAOHSIUNG #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22882) · 스타뉴스 · 내용은 원문 보도 기준
