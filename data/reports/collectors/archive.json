@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T20:00:30+09:00",
+  "checked_at": "2026-10-18T20:15:31+09:00",
   "status": "failed",
   "sources": [
     {
@@ -50,38 +50,38 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-18T18:45:26+09:00",
+      "checked_at": "2026-10-18T20:15:31+09:00",
       "last_success": "2026-10-18T14:43:34+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     {
       "name": "Vogue Korea",
       "url": "https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 3",
       "status": "success",
       "fetched": 10,
-      "matched": 3,
+      "matched": 2,
       "warnings": [
         "RSS media namespace declaration repaired"
       ],
-      "page": 2,
-      "page_fingerprint": "e1f38f15e062dc3fd7fc309ba81a7f0966223babda85e785ac516b1c5848075c",
-      "checked_at": "2026-10-18T18:45:26+09:00",
-      "last_success": "2026-10-18T18:45:26+09:00",
+      "page": 3,
+      "page_fingerprint": "f119b7433419fba7b567b44add78d5faaf2a9f11fb2657aeebe71139e8a56bd8",
+      "checked_at": "2026-10-18T20:15:31+09:00",
+      "last_success": "2026-10-18T20:15:31+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Marie Claire Korea",
       "url": "https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 3",
       "status": "success",
       "fetched": 10,
-      "matched": 3,
+      "matched": 4,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "4157680798e6428795c83d270249a92a0e4fd0d3dcf00bc2bf052f6785c9730a",
-      "checked_at": "2026-10-18T18:45:26+09:00",
-      "last_success": "2026-10-18T18:45:26+09:00",
+      "page": 3,
+      "page_fingerprint": "224754c885702f358ca87f17b1ed314585f412bf22ac822874c4cc8278083620",
+      "checked_at": "2026-10-18T20:15:31+09:00",
+      "last_success": "2026-10-18T20:15:31+09:00",
       "consecutive_failures": 0
     },
     {

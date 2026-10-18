@@ -368,6 +368,30 @@
 - 링크(원문): https://www.vogue.co.kr/2025/12/18/%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b9%80%ec%84%a0%ed%98%b8%ec%9d%98-%ec%98%88%ec%b8%a1-%eb%b6%88%ea%b0%80-%eb%a1%9c%eb%a7%a8%ec%8a%a4-%ec%9d%b4-%ec%82%ac%eb%9e%91-%ed%86%b5%ec%97%ad-%eb%90%98/
 - 상태: 원문 메타데이터 수집
 - id: https://www.vogue.co.kr/2025/12/18/%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b9%80%ec%84%a0%ed%98%b8%ec%9d%98-%ec%98%88%ec%b8%a1-%eb%b6%88%ea%b0%80-%eb%a1%9c%eb%a7%a8%ec%8a%a4-%ec%9d%b4-%ec%82%ac%eb%9e%91-%ed%86%b5%ec%97%ad-%eb%90%98/
+
+- 날짜: 2025-09-01
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬의 컬러를 입은 고윤정의 몽환적인 뷰티 화보 #1
+- 링크(원문): https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-1/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-1/
+
+- 날짜: 2025-09-02
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬의 컬러를 입은 고윤정의 몽환적인 뷰티 화보 #2
+- 링크(원문): https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-2/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-2/
+
+- 날짜: 2025-09-19
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 2025 마리끌레르 아시아스타어워즈에 참석한 배우 고윤정
+- 링크(원문): https://www.marieclairekorea.com/celebrity/2025/09/2025asa-goyounjung/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/celebrity/2025/09/2025asa-goyounjung/
 ## 2024
 - 날짜: 2024-07
 - 매체: Marie Claire Korea (마리끌레르 코리아)
@@ -408,6 +432,22 @@
 - 링크(원문): https://www.wkorea.com/2024/05/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ec%82%ac%ec%a0%81%ec%9d%b8-%ec%8b%9c%ea%b0%84/
 - 상태: 공식확정
 - id: https://www.wkorea.com/2024/05/22/%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ec%83%a4%eb%84%ac%ec%9d%98-%ec%82%ac%ec%a0%81%ec%9d%b8-%ec%8b%9c%ea%b0%84/
+
+- 날짜: 2024-05-03
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬 크루즈 2024/25 쇼에 참석한 고윤정
+- 링크(원문): https://www.vogue.co.kr/2024/05/03/%ec%83%a4%eb%84%ac-%ed%81%ac%eb%a3%a8%ec%a6%88-2024-25-%ec%87%bc%ec%97%90-%ec%b0%b8%ec%84%9d%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2024/05/03/%ec%83%a4%eb%84%ac-%ed%81%ac%eb%a3%a8%ec%a6%88-2024-25-%ec%87%bc%ec%97%90-%ec%b0%b8%ec%84%9d%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+
+- 날짜: 2024-05-20
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 새로운 앰배서더 고윤정이 말하는 샤넬 2024/25 크루즈 컬렉션
+- 링크(원문): https://www.vogue.co.kr/2024/05/20/%ec%83%88%eb%a1%9c%ec%9a%b4-%ec%95%b0%eb%b0%b0%ec%84%9c%eb%8d%94-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%90%ed%95%98%eb%8a%94-%ec%83%a4%eb%84%ac-2024-25-%ed%81%ac%eb%a3%a8%ec%a6%88-%ec%bb%ac/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2024/05/20/%ec%83%88%eb%a1%9c%ec%9a%b4-%ec%95%b0%eb%b0%b0%ec%84%9c%eb%8d%94-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%90%ed%95%98%eb%8a%94-%ec%83%a4%eb%84%ac-2024-25-%ed%81%ac%eb%a3%a8%ec%a6%88-%ec%bb%ac/
 ## 2023
 
 - 날짜: 2023-10-26
