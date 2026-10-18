@@ -35,10 +35,12 @@ jobs:
           from pathlib import Path
           try:
               heartbeat = json.loads(Path('data/reports/heartbeat.json').read_text())
+              unavailable = heartbeat.get('executor') == 'github-actions' or heartbeat.get('status') == 'failure'
               age = (datetime.now(timezone.utc) - datetime.fromisoformat(heartbeat['timestamp'])).total_seconds()
           except (OSError, ValueError, KeyError):
               age = 999999
-          due = age > 1200 or age < -300 or os.environ.get('FORCE_RECOVERY') == 'true'
+              unavailable = True
+          due = unavailable or age > 1200 or age < -300 or os.environ.get('FORCE_RECOVERY') == 'true'
           with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
               output.write(f'due={str(due).lower()}\n')
           print(f'Primary heartbeat age: {age:.0f}s; recovery required: {due}')

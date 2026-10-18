@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 from datetime import UTC, datetime
 from pathlib import Path
 from statistics import mean
@@ -24,7 +25,7 @@ def read(path: Path, default):
 def record(kind: str, started: float, rc: int, steps: list | None = None) -> dict:
     now = datetime.now(UTC)
     rows = read(HISTORY, [])
-    row = {'kind': kind, 'started_at': datetime.fromtimestamp(started, UTC).isoformat(),
+    row = {'kind': kind, 'executor': 'github-actions' if os.environ.get('GITHUB_ACTIONS') == 'true' else 'primary', 'started_at': datetime.fromtimestamp(started, UTC).isoformat(),
            'timestamp': now.isoformat(), 'duration_seconds': round(now.timestamp() - started, 2),
            'status': 'success' if rc == 0 else 'partial' if rc == 1 else 'failure', 'steps': steps or []}
     rows.append(row)
