@@ -150,3 +150,9 @@
 - [구교환, 고윤정과 "1개에서 2개, 최근 142개"…얼마나 가까워졌길래('살롱드립') | 텐아시아](https://www.tenasia.co.kr/article/2026042942044) · VARIETY_TALK · 내용은 원문 보도 기준
 - [구교환 "고윤정과 사주 기가 막히게 맞아" 연기 극찬 ［살롱드립2］ | 스타뉴스](https://www.starnewskorea.com/star/2026/04/28/2026042820102693602) · VARIETY_TALK · 내용은 원문 보도 기준
 - [［단독］고윤정, 첫 예능 전격 출연…'마니또 클럽'으로 매력 봉인 해제](https://www.spotvnews.co.kr/news/articleView.html?idxno=794454) · VARIETY_TALK · 내용은 원문 보도 기준
+- [고윤정 '집순이' 고백 "산책 왜 하는지 모르겠어, 쉬는 날 아무것도 안 해"](https://v.daum.net/v/20260112183443509) · VARIETY_TALK · 내용은 원문 보도 기준
+- [고윤정, 제나에게 수백만원대 '통 큰 선물'…100명 롱패딩·비행기표 미담까지 재조명 "언니 소리 절로나와" ［엑's 이슈］](https://v.daum.net/v/6ONoHyPKZy) · VARIETY_TALK · 내용은 원문 보도 기준
+- [김선호 "고윤정, AI처럼 예쁜데…너무 가까워져서 조롱 시작" ［RE:뷰］](https://v.daum.net/v/20260110011249919) · VARIETY_TALK · 내용은 원문 보도 기준
+- [김선호 "고윤정, AI처럼 예쁜 배우" 미모 극찬 ('십오야')［순간포착］](https://v.daum.net/v/20260109205849832) · VARIETY_TALK · 내용은 원문 보도 기준
+- [김선호 "고윤정, AI처럼 예쁜 배우" 미모 극찬 ('십오야')［순간포착］](https://v.daum.net/v/pL9xFqYCCF?f=p) · VARIETY_TALK · 내용은 원문 보도 기준
+- [나영석, 고윤정 성격 카메라 온오프 달라…"사방팔방 돌아다녀" ('십오야')](https://v.daum.net/v/20260109223503833) · VARIETY_TALK · 내용은 원문 보도 기준

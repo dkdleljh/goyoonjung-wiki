@@ -22,7 +22,15 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-18 14:23 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 21:55 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
-- (후보 없음)
+### 자동 추천(S급 우선)
+
+- ⭐ [환혼 빛과 그림자의 두 사람, 이재욱과고윤정은 서로를 놓지 않기로 결심했다.](https://www.elle.co.kr/article/73722)  _(출처: pictorials/editorial.md)_
+
+
+
+### 전체 후보
+
+- [환혼 빛과 그림자의 두 사람, 이재욱과고윤정은 서로를 놓지 않기로 결심했다.](https://www.elle.co.kr/article/73722)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->

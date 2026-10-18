@@ -1450,3 +1450,83 @@
 - 링크(원문): https://www.cosmopolitan.co.kr/article/74461
 - 상태: 원문 메타데이터 수집
 - id: https://www.cosmopolitan.co.kr/article/74461
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정의 단단한 아름다움
+- 링크(원문): https://www.elle.co.kr/article/53778
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/53778
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 오늘도 반짝반짝 빛나는고윤정의 눈부신 홀리데이
+- 링크(원문): https://www.elle.co.kr/article/61656
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/61656
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 한층 더 깊어진 로맨스!고윤정X이재욱 케미로 보는 '환혼2' 관전 포인트 #요즘드라마
+- 링크(원문): https://www.elle.co.kr/article/73373
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/73373
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 이렇게 애절해도 되는 거? <환혼> 이재욱X고윤정이 엘르에서 보여주고 간 역대급 케미
+- 링크(원문): https://www.elle.co.kr/article/73482
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/73482
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 환혼 빛과 그림자의 두 사람, 이재욱과고윤정은 서로를 놓지 않기로 결심했다.
+- 링크(원문): https://www.elle.co.kr/article/73722
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/73722
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 애절한 로맨스로 시작해 꽉 닫힌 해피엔딩! 이재욱X고윤정열연 빛난 '환혼2' 명장면 모음 #요즘드라마
+- 링크(원문): https://www.elle.co.kr/article/74068
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/74068
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 변우석→고윤정, 작품 속에서 '톱스타'로 변신한 배우들!
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1868020
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1868020
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정의 여신 웨이브 보고 가세요
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1869633
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1869633
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정은 왜 헤어 스타일도 예쁠까
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1869799
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1869799
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '조명가게'로 시동건고윤정, '언슬생'→'사랑통역' 2025년 열일!
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1876940
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1876940

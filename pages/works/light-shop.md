@@ -30,9 +30,17 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-18 14:23 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 21:55 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 자동 추천(S급 우선)
+
+- ⭐ ['조명가게'로 시동건고윤정, '언슬생'→'사랑통역' 2025년 열일!](https://www.harpersbazaar.co.kr/article/1876940)  _(출처: pictorials/editorial.md)_
+
+
 
 ### 전체 후보
+
+- ['조명가게'로 시동건고윤정, '언슬생'→'사랑통역' 2025년 열일!](https://www.harpersbazaar.co.kr/article/1876940)  _(출처: pictorials/editorial.md)_
 
 - [Disney+ <조명가게> 관련 보도/리뷰](https://kstar.kbs.co.kr/list_view.html?idx=343890)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
