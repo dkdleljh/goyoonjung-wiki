@@ -36,3 +36,9 @@
 - [고윤정, 프랑스서 가을 감성 제대로…멍 때리는 순간마저 '분위기 여신' ［★해시태그］ ](https://www.xportsnews.com/article/2200984) · 엑스포츠뉴스 · 내용은 원문 보도 기준
 - ['윤정이들' 케미 무슨 일…'고윤정 닮은꼴' 제나 '어머나' 부르자 장윤정 '러브어택'으로 화답 ［★해시태그］](https://www.xportsnews.com/article/2197978) · 엑스포츠뉴스 · 내용은 원문 보도 기준
 - [고윤정, 팬들 '덕질할 맛' 나게 하네…편지 한가득 인증, 글까지 올렸다 "정말 행복합니다" ［★해시태그］](https://www.xportsnews.com/article/2203159) · 엑스포츠뉴스 · 내용은 원문 보도 기준
+- [고윤정, 파리에 화보 찍으러 갔나…막 찍어도 ‘레전드 미모’ - MK스포츠](https://www.mksports.co.kr/news/entertain/12162117) · MK스포츠 · 내용은 원문 보도 기준
+- [“한마디에 폭풍 오열” 허남준, 고윤정과 무슨 일?…돌고래유괴단표 ‘웃픈’ 로맨스](https://www.sportsseoul.com/news/read/1637293) · 스포츠서울 · 내용은 원문 보도 기준
+- [“이런 꿀팁이?”... 고윤정, 햇빛 가리개부터 컵 받침까지 ‘갤럭시 폴드’ 200% 활용법](https://www.sportsseoul.com/news/read/1639642) · 스포츠서울 · 내용은 원문 보도 기준
+- [고윤정, 낮엔 안광 실종→밤 되니 다시 돌아온 생기](https://www.sportsseoul.com/news/read/1637796) · 스포츠서울 · 내용은 원문 보도 기준
+- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/star-ranking/22883) · 스타뉴스 · 내용은 원문 보도 기준
+- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22884?period=weekly) · 스타뉴스 · 내용은 원문 보도 기준
