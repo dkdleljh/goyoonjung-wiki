@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T23:30:24+09:00",
+  "checked_at": "2026-10-18T23:50:23+09:00",
   "status": "failed",
   "sources": [
     {
@@ -10,9 +10,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-18T22:15:26+09:00",
+      "checked_at": "2026-10-18T23:50:23+09:00",
       "last_success": "2026-10-18T21:55:29+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     {
       "name": "W Korea",
@@ -29,16 +29,14 @@
     {
       "name": "Harper’s BAZAAR Korea",
       "url": "https://www.harpersbazaar.co.kr/search",
-      "scope": "historical pagination page 7",
-      "status": "success",
-      "fetched": 7,
-      "matched": 2,
-      "warnings": [],
-      "page": 7,
-      "page_fingerprint": "4f495ab391f688df33819391003b008d97ac437284e3387a23adc2691ac1119a",
-      "checked_at": "2026-10-18T22:25:25+09:00",
+      "scope": "historical pagination page 8",
+      "status": "failed",
+      "error": "Search result container has no article links",
+      "kind": "parse",
+      "retryable": false,
+      "checked_at": "2026-10-18T23:50:23+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "GQ Korea",
@@ -60,9 +58,9 @@
       "error": "HTTP 404",
       "kind": "http",
       "retryable": false,
-      "checked_at": "2026-10-18T22:15:26+09:00",
+      "checked_at": "2026-10-18T23:50:23+09:00",
       "last_success": "2026-10-18T22:00:30+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     {
       "name": "Marie Claire Korea",
