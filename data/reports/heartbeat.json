@@ -1,15 +1,15 @@
 {
   "kind": "fast",
   "executor": "primary",
-  "started_at": "2026-10-18T15:20:07.734466+00:00",
-  "timestamp": "2026-10-18T15:20:26.786250+00:00",
-  "duration_seconds": 19.05,
+  "started_at": "2026-10-18T15:25:07.728922+00:00",
+  "timestamp": "2026-10-18T15:25:23.297308+00:00",
+  "duration_seconds": 15.57,
   "status": "partial",
   "steps": [
     {
       "name": "auto_collect_google_news.py",
       "returncode": 0,
-      "duration_seconds": 1.63
+      "duration_seconds": 2.79
     },
     {
       "name": "auto_collect_youtube_feeds.py",
@@ -19,17 +19,7 @@
     {
       "name": "official_evidence.py",
       "returncode": 1,
-      "duration_seconds": 8.37
-    },
-    {
-      "name": "review_candidates.py",
-      "returncode": 0,
-      "duration_seconds": 1.22
-    },
-    {
-      "name": "auto_collect_google_news_sites.py",
-      "returncode": 0,
-      "duration_seconds": 3.45
+      "duration_seconds": 8.43
     },
     {
       "name": "sync_media_watch_sources.py",
