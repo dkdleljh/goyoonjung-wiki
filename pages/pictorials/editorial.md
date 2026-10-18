@@ -818,3 +818,107 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/1910847
 - 상태: 공식확정
 - id: https://www.harpersbazaar.co.kr/article/1910847
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 역대급이라고 난리 난고윤정의 피부 비밀
+- 링크(원문): https://www.elle.co.kr/article/1888583
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1888583
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정뷰티 화보, 이 제품들로 완성했습니다
+- 링크(원문): https://www.elle.co.kr/article/1888588
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1888588
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 사용하는 화장품은 바로 이것
+- 링크(원문): https://www.elle.co.kr/article/1888589
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1888589
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정피부 실화?
+- 링크(원문): https://www.elle.co.kr/article/1888602
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1888602
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '이사통'고윤정같은 톱스타가 나오는 로맨스 드라마 추천 3
+- 링크(원문): https://www.elle.co.kr/article/1896016
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1896016
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '이 사랑 통역 되나요?' 김선호고윤정비하인드도 설레네
+- 링크(원문): https://www.elle.co.kr/article/1896159
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1896159
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 김선호고윤정보고 바로 검색한 '이사통' 여행 정보
+- 링크(원문): https://www.elle.co.kr/article/1896195
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1896195
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 초능력자부터 의사까지, '이사통'고윤정을 있게 한 인생캐 모음
+- 링크(원문): https://www.elle.co.kr/article/1896458
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1896458
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 올봄 하객룩 패션은고윤정만 따라하세요
+- 링크(원문): https://www.elle.co.kr/article/1896518
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1896518
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 번 헤어도 전략이 필요하다. 장원영·강민경·고윤정의 6가지 스타일
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1899051
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1899051
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 구교환·고윤정→아이유·변우석, 어느 케미가 더 좋을까?
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1899610
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1899610
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 수지·고윤정·윤아가 선택한 봄의 정답, 블랙 백
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1899791
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1899791
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정·신혜선·아이유, 주말 장악한 ‘갓벽’한 여주들
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1901924
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1901924

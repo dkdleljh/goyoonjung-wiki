@@ -7,11 +7,11 @@
 | publication_to_first_fetch_samples | 48 |
 | publication_to_first_fetch_p50_seconds | 1816238.468345 |
 | publication_to_first_fetch_p95_seconds | 15131186.466117 |
-| sample_count | 44 |
-| avg_execution_seconds | 26.42 |
+| sample_count | 45 |
+| avg_execution_seconds | 26.36 |
 | execution_p95_seconds | 35.32 |
-| fast_run_success_percent | 13.95 |
-| oldest_source_success_age_minutes | 160.0 |
+| fast_run_success_percent | 13.64 |
+| oldest_source_success_age_minutes | 165.0 |
 | monitored_sources | 78 |
 | recall | 미측정 |
 | precision | 미측정 |

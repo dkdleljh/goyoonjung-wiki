@@ -25,7 +25,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-18 17:40 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 17:45 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -34,6 +34,8 @@
 - ⭐ [‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC](https://news.jtbc.co.kr/article/NB12276427)  _(출처: appearances.md)_
 
 - ⭐ [김선호·고윤정 ‘이 사랑 통역 되나요?’, 1월 16일 넷플릭스 공개 - JTBC](https://news.jtbc.co.kr/article/NB12274544)  _(출처: appearances.md)_
+
+- ⭐ ['이 사랑 통역 되나요?' 김선호고윤정비하인드도 설레네](https://www.elle.co.kr/article/1896159)  _(출처: pictorials/editorial.md)_
 
 
 
@@ -44,6 +46,8 @@
 - [‘이 사랑 통역 되나요?’ 바라만 봐도 설레는 김선호·고윤정 - JTBC](https://news.jtbc.co.kr/article/NB12276427)  _(출처: appearances.md)_
 
 - [김선호·고윤정 ‘이 사랑 통역 되나요?’, 1월 16일 넷플릭스 공개 - JTBC](https://news.jtbc.co.kr/article/NB12274544)  _(출처: appearances.md)_
+
+- ['이 사랑 통역 되나요?' 김선호고윤정비하인드도 설레네](https://www.elle.co.kr/article/1896159)  _(출처: pictorials/editorial.md)_
 
 - [# 인터뷰/기사 아카이브](https://dkdleljh.github.io/goyounjung/images/photos/interview-960.webp)  _(출처: interviews.md)_
 
@@ -76,8 +80,6 @@
 - [김선호-고윤정, 이런 애매한 감정도 통역이 되나요?](https://kstar.kbs.co.kr/list_view.html?idx=387125)  _(출처: interviews.md)_
 
 - [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)  _(출처: appearances.md)_
-
-- ["김선호에 많이 배워"·"고윤정 센스 있고 성격 좋아"…'이 사랑 통역 되나요?' 빛나는 커플 케미 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008402330)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스(확정)
