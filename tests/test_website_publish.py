@@ -168,3 +168,24 @@ def test_corrupt_public_artifact_triggers_repair_build(tmp_path, monkeypatch):
     monkeypatch.setattr(m, 'verify', verify)
     m.publish()
     assert any(c[:3] == ('gh', 'workflow', 'run') for c in calls)
+
+
+@pytest.mark.parametrize('origin', ['https://github.com/dkdleljh/goyoonjung-wiki',
+                                  'https://github.com/dkdleljh/goyoonjung-wiki.git',
+                                  'git@github.com:dkdleljh/goyoonjung-wiki.git'])
+def test_checkout_origin_formats_are_accepted(tmp_path, monkeypatch, origin):
+    setup_publish(tmp_path, monkeypatch)
+    original = m.run
+    monkeypatch.setattr(m, 'run', lambda *args: origin if args == ('git', 'remote', 'get-url', 'origin') else original(*args))
+    assert m.prepare() == set()
+
+
+@pytest.mark.parametrize('origin', ['https://github.com/other/goyoonjung-wiki',
+                                  'https://github.com/dkdleljh/goyoonjung-wiki.evil',
+                                  'https://github.com.evil/dkdleljh/goyoonjung-wiki'])
+def test_unexpected_origin_still_rejected(tmp_path, monkeypatch, origin):
+    setup_publish(tmp_path, monkeypatch)
+    original = m.run
+    monkeypatch.setattr(m, 'run', lambda *args: origin if args == ('git', 'remote', 'get-url', 'origin') else original(*args))
+    with pytest.raises(RuntimeError, match='Unexpected origin'):
+        m.prepare()

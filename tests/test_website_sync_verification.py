@@ -104,3 +104,50 @@ def test_artifact_urls_are_verified_without_claiming_directory_cache_freshness(d
     files['index.html'] = b'corrupt exact artifact'
     with pytest.raises(RuntimeError, match='differs from build'):
         verifier.verify(artifact_urls=True)
+
+
+def test_pinned_build_survives_new_main_and_detached_checkout(deployment, monkeypatch):
+    original = verifier.git
+    def moved_git(*args):
+        if args[0] == 'branch':
+            return ''  # actions/checkout of an exact SHA
+        if args[0] == 'ls-remote':
+            pytest.fail('A deployment must not chase a moving main branch')
+        return original(*args)
+    monkeypatch.setattr(verifier, 'git', moved_git)
+    result = verifier.verify(wiki_revision='wiki-sha', site_revision='site-sha', artifact_urls=True)
+    assert result['verified_artifacts'] == 7
+    assert result['revision_scope'] == 'deployment snapshot'
+
+
+@pytest.mark.parametrize('wiki,site', [('new-wiki-sha', 'site-sha'), ('wiki-sha', 'new-site-sha')])
+def test_pin_cannot_validate_a_different_build(deployment, wiki, site):
+    with pytest.raises(RuntimeError):
+        verifier.verify(wiki_revision=wiki, site_revision=site)
+
+
+def test_pinned_verification_still_rejects_corrupt_artifacts(deployment):
+    files, _, _ = deployment
+    files['index.html'] = b'corrupt deployed bytes'
+    with pytest.raises(RuntimeError, match='differs from build'):
+        verifier.verify(wiki_revision='wiki-sha', site_revision='site-sha')
+
+
+def test_latest_main_mode_still_detects_push_during_verification(deployment, monkeypatch):
+    original = verifier.git
+    reads = 0
+    def racing_git(*args):
+        nonlocal reads
+        if args[:2] == ('ls-remote', 'origin'):
+            reads += 1
+            if reads > 1:
+                return 'new-wiki-sha\trefs/heads/main'
+        return original(*args)
+    monkeypatch.setattr(verifier, 'git', racing_git)
+    with pytest.raises(RuntimeError, match='Source changed'):
+        verifier.verify()
+
+
+def test_incomplete_snapshot_pin_is_rejected(deployment):
+    with pytest.raises(ValueError, match='Both'):
+        verifier.verify(wiki_revision='wiki-sha')

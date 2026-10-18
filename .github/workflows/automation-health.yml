@@ -15,7 +15,7 @@ jobs:
           python-version: '3.12'
       - name: Check recorded pipeline freshness and outcome
         run: |
-          python scripts/operational_status.py
+          python scripts/operational_status.py --alerts
           python - <<'PYCODE'
           import json, urllib.request
           from datetime import datetime, timezone

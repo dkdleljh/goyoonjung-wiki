@@ -53,7 +53,7 @@ def prepare() -> set[str]:
         raise RuntimeError("Collection is still running; refusing an incomplete snapshot")
     if run("git", "branch", "--show-current") != "main":
         raise RuntimeError("Publisher requires main")
-    if run("git", "remote", "get-url", "origin") not in {"https://github.com/dkdleljh/goyoonjung-wiki.git", "git@github.com:dkdleljh/goyoonjung-wiki.git"}:
+    if run("git", "remote", "get-url", "origin").removesuffix('.git') not in {"https://github.com/dkdleljh/goyoonjung-wiki", "git@github.com:dkdleljh/goyoonjung-wiki"}:
         raise RuntimeError("Unexpected origin")
     changed = changed_paths()
     rejected = sorted(p for p in changed if not allowed(p))
@@ -80,7 +80,7 @@ def sync_website_checkout() -> None:
                        text=True, timeout=180).strip()
     if command("branch", "--show-current") != "main" or command("status", "--porcelain"):
         raise RuntimeError("Website checkout needs review: expected clean main")
-    if command("remote", "get-url", "origin") not in {"https://github.com/dkdleljh/goyounjung.git", "git@github.com:dkdleljh/goyounjung.git"}:
+    if command("remote", "get-url", "origin").removesuffix('.git') not in {"https://github.com/dkdleljh/goyounjung", "git@github.com:dkdleljh/goyounjung"}:
         raise RuntimeError("Unexpected website origin")
     command("fetch", "origin", "main")
     command("merge", "--ff-only", "origin/main")

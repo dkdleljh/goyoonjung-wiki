@@ -2,7 +2,9 @@
 """Read-only automation health. Report generation never refreshes collection age."""
 from __future__ import annotations
 
+import argparse
 import json
+import os
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -10,6 +12,49 @@ from zoneinfo import ZoneInfo
 
 BASE = Path(__file__).resolve().parent.parent
 SEOUL = ZoneInfo("Asia/Seoul")
+CORE_COLLECTORS = {'auto_collect_google_news.py', 'auto_collect_youtube_feeds.py'}
+# Exit 1 is a documented partial collection result. Crashes/timeouts and unknown
+# steps still require attention; this does not turn arbitrary failures green.
+OPTIONAL_COLLECTORS = {'official_evidence.py', 'archive_backfill.py', 'youtube_archive.py',
+                       'review_candidates.py', 'check_links.py', 'auto_collect_google_news_sites.py',
+                       'auto_collect_google_news_queries.py', 'auto_collect_google_news_queries_i18n.py',
+                       'auto_collect_magazine_rss.py'}
+
+
+def alert_status(base: Path = BASE, now: datetime | None = None) -> dict:
+    """Separate service outages from recorded, noncritical source warnings."""
+    now = now or datetime.now(SEOUL)
+    errors, warnings = [], []
+    try:
+        heartbeat = json.loads((base / 'data/reports/heartbeat.json').read_text())
+        age = (now - datetime.fromisoformat(heartbeat['timestamp'])).total_seconds()
+        if not -300 <= age <= 1800:
+            errors.append(f'Collector heartbeat is stale or in the future: {age:.0f}s')
+        if heartbeat['status'] not in {'success', 'partial'}:
+            errors.append(f'Collector outcome: {heartbeat["status"]}')
+        steps = {step['name']: step for step in heartbeat['steps']}
+        state = json.loads((base / 'data/reports/fast-task-state.json').read_text())
+        for name in sorted(CORE_COLLECTORS):
+            task = state.get(name, {})
+            last_success = task.get('last_success')
+            if last_success is None or not -300 <= now.timestamp() - last_success <= 1800:
+                errors.append(f'No recent successful core collection: {name}')
+            if steps.get(name, task).get('returncode', 1) != 0:
+                errors.append(f'Core collector failed: {name}')
+        for name, step in steps.items():
+            rc = step['returncode']
+            if rc:
+                message = f'{name} exited {rc}'
+                if name in OPTIONAL_COLLECTORS and rc == 1 and not step.get('crashed'):
+                    warnings.append(message)
+                elif name not in CORE_COLLECTORS:
+                    errors.append(message)
+        if heartbeat['status'] == 'partial' and not (warnings or errors):
+            errors.append('Partial collection has no diagnostic steps')
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f'Invalid collection telemetry: {exc}')
+    return {'status': 'failure' if errors else 'partial' if warnings else 'success',
+            'errors': errors, 'warnings': warnings}
 
 
 def news_runs(base: Path = BASE) -> list[dict]:
@@ -111,6 +156,18 @@ def metrics(base: Path = BASE) -> dict:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--alerts', action='store_true', help='Fail on service outages; retain noncritical source warnings')
+    args = parser.parse_args()
+    if args.alerts:
+        result = alert_status()
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        if os.environ.get('GITHUB_ACTIONS') == 'true':
+            for level, messages in [('error', result['errors']), ('warning', result['warnings'])]:
+                for message in messages:
+                    escaped = message.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+                    print(f'::{level}::{escaped}')
+        return int(bool(result['errors']))
     result = health()
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result["status"] == "success" else 1

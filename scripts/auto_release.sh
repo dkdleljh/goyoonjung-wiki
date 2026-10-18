@@ -26,14 +26,18 @@ latest_semver_tag() {
   # Ignore legacy date-style tags like v2026.02.17 and keep a single canonical line.
   # Canonical: MAJOR >= CANONICAL_MIN_MAJOR and < 1000.
   git tag -l 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname \
-    | while read -r t; do
-        if [[ "$t" =~ $SEMVER_REGEX ]]; then
+    | { selected=''
+      while read -r t; do
+        if [[ -z "$selected" && "$t" =~ $SEMVER_REGEX ]]; then
           maj=${BASH_REMATCH[1]}
           if [ "$maj" -ge "$CANONICAL_MIN_MAJOR" ] && [ "$maj" -lt 1000 ]; then
-            echo "$t"; break
+            selected="$t"
           fi
         fi
       done
+      # Drain the producer: early exit sends git SIGPIPE under pipefail.
+      printf '%s\n' "$selected"
+    }
 }
 
 parse_semver() {
@@ -62,7 +66,7 @@ detect_bump() {
   local subjects
   subjects=$(git log --format=%s "${from_ref}..HEAD" 2>/dev/null || true)
 
-  if echo "$subjects" | grep -qE 'BREAKING CHANGE|!:'; then
+  if grep -qE 'BREAKING CHANGE|!:' <<<"$subjects"; then
     echo major; return 0
   fi
 
@@ -71,13 +75,13 @@ detect_bump() {
   files=$(git diff --name-only "${from_ref}..HEAD" 2>/dev/null || true)
 
   # breaking-ish wiring changes
-  if echo "$files" | grep -qE '^(scripts/run_daily_update\.sh|config/allowlist-domains\.txt|config/domain-grades\.yml|config/google-news-queries(\-precise|\-broad)?\.txt|config/google-news-sites\.txt)$'; then
+  if grep -qE '^(scripts/run_daily_update\.sh|config/allowlist-domains\.txt|config/domain-grades\.yml|config/google-news-queries(\-precise|\-broad)?\.txt|config/google-news-sites\.txt)$' <<<"$files"; then
     # treat as minor by default (not necessarily breaking), major only if commit flagged
     echo minor; return 0
   fi
 
   # features: new scripts/config/docs schema
-  if echo "$files" | grep -qE '^(scripts/auto_collect_|scripts/promote_|scripts/build_|scripts/compute_|config/|docs/content_schema\.md|pages/perfect-scorecard\.md|pages/promotion-queue\.md)'; then
+  if grep -qE '^(scripts/auto_collect_|scripts/promote_|scripts/build_|scripts/compute_|config/|docs/content_schema\.md|pages/perfect-scorecard\.md|pages/promotion-queue\.md)' <<<"$files"; then
     echo minor; return 0
   fi
 
@@ -110,7 +114,7 @@ if not valid:
     raise SystemExit("release: CI evidence does not match the tested main commit")
 PYVERIFY
   local tag last_tag bump major minor patch nmajor nminor npatch
-  tag=$(git tag --points-at "$RELEASE_SHA" --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n 1)
+  tag=$(git tag --points-at "$RELEASE_SHA" --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | sed -n '1p')
   last_tag=$(latest_semver_tag)
   if [ -z "$tag" ]; then
     if [ -z "$last_tag" ]; then

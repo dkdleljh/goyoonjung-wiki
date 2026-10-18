@@ -62,11 +62,13 @@ def main() -> int:
                                     stdout=output, stderr=subprocess.STDOUT, timeout=timeout, check=False).returncode
         except subprocess.TimeoutExpired:
             rc = 124
-        state[name] = {**state.get(name, {}), 'last_attempt': stamp, 'returncode': rc}
+        crashed = rc != 0 and b'Traceback (most recent call last):' in log.read_bytes()
+        state[name] = {**state.get(name, {}), 'last_attempt': stamp, 'returncode': rc, 'crashed': crashed}
         if rc == 0:
             state[name]['last_success'] = time.time()
         atomic_write(state_path, json.dumps(state, ensure_ascii=False, indent=2)+'\n')
-        steps.append({'name': name, 'returncode': rc, 'duration_seconds': round(time.time()-stamp, 2)})
+        steps.append({'name': name, 'returncode': rc, 'crashed': crashed,
+                      'duration_seconds': round(time.time()-stamp, 2)})
         print(json.dumps(steps[-1]), flush=True)
     for name in ENRICH:
         try:

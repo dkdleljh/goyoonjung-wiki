@@ -13,4 +13,6 @@ rc=0
 python3 scripts/fast_collect.py || rc=$?
 if [[ "$rc" -gt 1 ]]; then exit "$rc"; fi
 python3 scripts/publish_website_content.py
-exit "$rc"
+# Keep partial results in telemetry. Only a healthy core with optional source
+# warnings may finish successfully; publisher/transform/core failures still fail.
+python3 scripts/operational_status.py --alerts

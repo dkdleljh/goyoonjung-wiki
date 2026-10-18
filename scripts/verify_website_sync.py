@@ -41,25 +41,29 @@ def expected_source_paths() -> set[str]:
                 "data/facts/profile.json", "data/facts/works.json"} | ({"data/reports/heartbeat.json"} if "data/reports/heartbeat.json" in paths else set())
 
 
-def verify(full: bool = True, artifact_urls: bool = False) -> dict:
+def verify(full: bool = True, artifact_urls: bool = False, *,
+           wiki_revision: str | None = None, site_revision: str | None = None) -> dict:
+    if bool(wiki_revision) != bool(site_revision):
+        raise ValueError("Both deployment revisions are required")
+    pinned = bool(wiki_revision)
     if git("status", "--porcelain"):
         raise RuntimeError("Local working tree has unpublished changes")
-    if git("branch", "--show-current") != "main":
+    if not pinned and git("branch", "--show-current") != "main":
         raise RuntimeError("Local checkout is not main")
     sha = git("rev-parse", "HEAD")
-    remote = git("ls-remote", "origin", "refs/heads/main").split()[0]
+    remote = wiki_revision if pinned else git("ls-remote", "origin", "refs/heads/main").split()[0]
     if remote != sha:
         raise RuntimeError(f"Local/remote mismatch: {sha} != {remote}")
     metadata = json.loads(fetch("sync.json"))
-    site_sha = git("ls-remote", SITE_REPO, "refs/heads/main").split()[0]
+    site_sha = site_revision if pinned else git("ls-remote", SITE_REPO, "refs/heads/main").split()[0]
     site_checkout = BASE.parent / "goyounjung"
-    if (site_checkout / ".git").exists():
+    if not pinned and (site_checkout / ".git").exists():
         def site_git(*args: str) -> str:
             return subprocess.check_output(["git", "-C", str(site_checkout), *args], text=True, timeout=30).strip()
         if site_git("status", "--porcelain") or site_git("rev-parse", "HEAD") != site_sha:
             raise RuntimeError("Local website source differs from GitHub main")
     if metadata.get("revision") != sha or metadata.get("siteRevision") != site_sha:
-        raise RuntimeError("Pages has not deployed both latest repository commits")
+        raise RuntimeError("Pages has not deployed the expected repository commits")
     source_files = metadata.get("sourceFiles", [])
     names = [item["file"] for item in source_files]
     if len(names) != len(set(names)) or set(names) != expected_source_paths():
@@ -101,22 +105,27 @@ def verify(full: bool = True, artifact_urls: bool = False) -> dict:
             list(pool.map(check, items))
         count = len(items)
     # Detect a push or local edit during a long verification.
-    if git("rev-parse", "HEAD") != sha or git("status", "--porcelain") or git("ls-remote", "origin", "refs/heads/main").split()[0] != sha:
+    if git("rev-parse", "HEAD") != sha or git("status", "--porcelain"):
+        raise RuntimeError("Local source changed during verification")
+    if not pinned and git("ls-remote", "origin", "refs/heads/main").split()[0] != sha:
         raise RuntimeError("Source changed during verification; retry on the new snapshot")
-    if git("ls-remote", SITE_REPO, "refs/heads/main").split()[0] != site_sha:
+    if not pinned and git("ls-remote", SITE_REPO, "refs/heads/main").split()[0] != site_sha:
         raise RuntimeError("Website source changed during verification; retry")
     return {"status": "verified", "verified_at": datetime.now().astimezone().isoformat(),
             "wiki_revision": sha, "site_revision": site_sha, "source_files": len(source_files),
+            "revision_scope": "deployment snapshot" if pinned else "latest main",
             "documents": metadata["documents"], "verified_artifacts": count, "full": full,
             "url_scope": "exact artifact URLs; directory aliases may remain cached" if artifact_urls else "visitor directory URLs",
             "collection": metadata.get("latestRun"), "url": SITE}
 
 
-def wait_for_sync(timeout: int = 900, full: bool = True, artifact_urls: bool = False) -> dict:
+def wait_for_sync(timeout: int = 900, full: bool = True, artifact_urls: bool = False, *,
+                  wiki_revision: str | None = None, site_revision: str | None = None) -> dict:
     deadline = time.monotonic() + timeout
     while True:
         try:
-            return verify(full=full, artifact_urls=artifact_urls)
+            return verify(full=full, artifact_urls=artifact_urls,
+                          wiki_revision=wiki_revision, site_revision=site_revision)
         except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError) as exc:
             if time.monotonic() >= deadline:
                 raise RuntimeError(f"Website synchronization not verified: {exc}") from exc
@@ -140,9 +149,14 @@ def main() -> int:
     parser.add_argument("--wait", type=int, default=0, help="Maximum CDN/deployment wait in seconds")
     parser.add_argument("--quick", action="store_true", help="Compare all source hashes; skip public artifact downloads")
     parser.add_argument("--artifact-urls", action="store_true", help="Verify exact deployed files; directory aliases have independent CDN caches")
+    parser.add_argument("--wiki-revision", help="Wiki commit used by the build, paired with --site-revision")
+    parser.add_argument("--site-revision", help="Website commit used by the build, paired with --wiki-revision")
     args = parser.parse_args()
+    if bool(args.wiki_revision) != bool(args.site_revision):
+        parser.error("--wiki-revision and --site-revision must be supplied together")
     try:
-        result = wait_for_sync(args.wait, full=not args.quick, artifact_urls=args.artifact_urls)
+        result = wait_for_sync(args.wait, full=not args.quick, artifact_urls=args.artifact_urls,
+                               wiki_revision=args.wiki_revision, site_revision=args.site_revision)
         save_report(result)
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0

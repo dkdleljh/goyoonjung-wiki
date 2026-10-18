@@ -91,3 +91,15 @@ def test_publish_failure_visible_and_retry_safe(release_repo):
     env['CREATE_RC'] = '0'
     assert release(repo, env).returncode == 0
     assert git(remote, 'tag', '--list').splitlines() == ['v1.0.0', 'v1.0.1']
+
+
+def test_large_tag_history_does_not_exit_with_sigpipe(release_repo):
+    repo, remote, sha, env = release_repo
+    baseline = git(repo, 'rev-parse', 'v1.0.0')
+    # Exceed the pipe buffer so early reader termination reliably breaks git.
+    refs = ''.join(f'create refs/tags/v1.0.{i} {baseline}\n' for i in range(1, 6000))
+    subprocess.run(['git', '-C', str(repo), 'update-ref', '--stdin'], input=refs, text=True,
+                   check=True, capture_output=True)
+    result = release(repo, env)
+    assert result.returncode == 0, result.stderr
+    assert git(remote, 'rev-parse', 'v1.0.6000^{commit}') == sha
