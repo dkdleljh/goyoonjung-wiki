@@ -77,3 +77,9 @@
 - [고윤정X김도훈, '무빙2' 아닌 김태호PD 예능서 재회..."'마니또 클럽' 촬영" ［공식입장］](https://www.chosun.com/entertainments/broadcast/2026/02/03/MQ2WEZJXMFRWMYTDHBRTAODDGY) · VARIETY_GENERAL · 내용은 원문 보도 기준
 - ['美친 비주얼' 고윤정·정해인, 안방극장 찾는다…'마니또 클럽' 2기 시동](https://v.daum.net/v/20260222160244500) · VARIETY_GENERAL · 내용은 원문 보도 기준
 - [고윤정, 박명수도 놀란 깜짝 학력 고백 "대학 못 나와, 제적" (마니또클럽)［종합］](https://www.chosun.com/entertainments/broadcast/2026/03/08/HE4TQNBSGM2WMZLCGM4TSNRYHA) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [고윤정X정해인, 김태호 PD 예능서 만난다..."'마니또 클럽' 출연" ［공식입장］](https://www.chosun.com/entertainments/broadcast/2026/01/22/HBSWINBYMJSDSN3GGE3GMZJVMM) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [コ・ユンジョン、パリでぼんやり顔も女神](https://www.chosun.com/jp/culture-life-jp/2026/09/27/MIEXJTA625CCJJFNZY7PRZFH44) · JA_ALL · 내용은 원문 보도 기준
+- [고윤정, 럭셔리 향수 화보 속 강렬 눈빛…무빙2·남벌 액션 행보 잇는다](https://www.topstarnews.net/news/articleView.html?idxno=16201615) · WORKS · 내용은 원문 보도 기준
+- [189년 역사의 하이 주얼러 티파니앤코, 배우 고윤정 앰버서더로 선정](https://v.daum.net/v/2YXpnXe4Al) · WORKS · 내용은 원문 보도 기준
+- [［화보］ 고윤정이 완성한 가을의 조각](https://sports.khan.co.kr/article/202609170858003) · FASHION · 내용은 원문 보도 기준
+- [이병헌·고윤정, 무협 액션 영화 '남벌' 출연 | 연합뉴스](https://www.yna.co.kr/view/AKR20260708065300005) · VARIETY_WORK · 내용은 원문 보도 기준
