@@ -39,9 +39,10 @@
     "last_success": 1792341321.9007442
   },
   "archive_backfill.py": {
-    "last_attempt": 1792341023.7177289,
+    "last_attempt": 1792341441.5541575,
     "returncode": 1,
-    "last_success": 1792336524.3918748
+    "last_success": 1792336524.3918748,
+    "crashed": false
   },
   "youtube_archive.py": {
     "last_attempt": 1792338319.656971,

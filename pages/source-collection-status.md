@@ -16,7 +16,7 @@ retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다
 
 ## archive
 
-- 확인: 2026-10-19T01:30:26+09:00
+- 확인: 2026-10-19T01:37:24+09:00
 
 | 출처 | 상태 | 범위 | 마지막 성공 | 연속 실패 | 상세 |
 |---|---|---|---|---|---|
@@ -25,7 +25,7 @@ retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다
 | [Harper’s BAZAAR Korea](https://www.harpersbazaar.co.kr/search) | failed | historical pagination page 8 | 2026-10-18T22:25:25+09:00 | 2 | Search result container has no article links |
 | [GQ Korea](https://www.gqkorea.co.kr/wp-admin/admin-ajax.php) | failed | historical pagination page 2 | 2026-10-18T14:43:34+09:00 | 5 | Invalid magazine search response |
 | [Vogue Korea](https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95) | failed | historical pagination page 6 | 2026-10-18T22:00:30+09:00 | 3 | HTTP 404 |
-| [Marie Claire Korea](https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2) | failed | historical pagination page 7 | 2026-10-18T22:25:25+09:00 | 1 | HTTP 404 |
+| [Marie Claire Korea](https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2) | failed | historical pagination page 7 | 2026-10-18T22:25:25+09:00 | 2 | HTTP 404 |
 | [Esquire Korea](https://www.esquirekorea.co.kr/search) | failed | historical pagination page 3 | 2026-10-18T18:55:25+09:00 | 4 | Search result container has no article links |
 | [Cosmopolitan Korea](https://www.cosmopolitan.co.kr/search) | failed | historical pagination page 5 | 2026-10-18T21:45:35+09:00 | 3 | Search result container has no article links |
 | [Allure Korea](https://www.allurekorea.com/wp-admin/admin-ajax.php) | failed | historical pagination page 3 | 2026-10-18T18:55:25+09:00 | 4 | Invalid magazine search response |
