@@ -10,3 +10,9 @@
 - [AG 미녀 선수 또 발굴됐다…주인공은 고윤정 닮았다는 '미녀 검객' | 텐아시아](https://www.tenasia.co.kr/article/2026092184494) · VARIETY_TALK · 내용은 원문 보도 기준
 - [고윤정, 데뷔 전부터 완성형 미모&hellip;10년 전 대학 주점 포스터 화제 - 일간스포츠](https://isplus.com/article/view/isp202610180070) · 일간스포츠 · 내용은 원문 보도 기준
 - [고윤정이 완성한 가을의 조각［화보］](https://v.daum.net/v/20260917090011098?f=p) · FASHION · 내용은 원문 보도 기준
+- [고윤정, 가을 닮은 우아美](https://v.daum.net/v/20260821083411363?f=p) · FASHION · 내용은 원문 보도 기준
+- [“이 얼굴이 고윤정?” 대학 시절 포스터 주인공이었다…‘서울여대 여신’의 위엄](https://www.sportsseoul.com/news/read/1642092) · 스포츠서울 · 내용은 원문 보도 기준
+- [“숨멎 유발 비주얼” 고윤정, 고혹적 아우라 빛난 샤넬 화보 비하인드](https://sports.khan.co.kr/article/202609202221003) · FASHION · 내용은 원문 보도 기준
+- [고윤정이 완성한 가을의 조각［화보］](https://v.daum.net/v/Bodvq71y04) · FASHION · 내용은 원문 보도 기준
+- ["I'm Youngsil?"...Awakened Go Youn-jung Turns 'We Are All Trying Here' Upside Down - MK](https://www.mk.co.kr/en/hot-issues/12054223) · EN_CAST · 내용은 원문 보도 기준
+- [コ・ユンジョン、パリの街で捉えられた女神ビジュアル···清楚な美貌に「ドキッ」 ［Nショット］ - スポータルコリア](https://jp.sportalkorea.com/news/articleView.html?idxno=34193) · JA_ALL · 내용은 원문 보도 기준
