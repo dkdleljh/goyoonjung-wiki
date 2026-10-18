@@ -4168,5 +4168,11 @@
       "last_modified": null,
       "first_seen": "2026-10-18T22:40:22.358606+00:00"
     }
+  },
+  "http://www.osen.co.kr/article/G1112894851": {
+    "status": "retry_pending",
+    "checked_at": "2026-10-18T23:25:25.594742+00:00",
+    "next_check": "2026-10-19T05:25:25.594742+00:00",
+    "error": "Discovery URL does not belong to configured publisher"
   }
 }
