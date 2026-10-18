@@ -95,3 +95,8 @@
 - ['고윤정 출연 작품 아니었어?'…패션업계, 영화 같은 광고 화제 | 연합뉴스](https://www.yna.co.kr/view/AKR20260923185000030) · WORKS · 내용은 원문 보도 기준
 - [류승룡→고윤정, 서울드라마어워즈 수상 후보…10월 8일 MBC 생중계](https://enews.imbc.com/News/RetrieveNewsInfo/515491) · WORKS · 내용은 원문 보도 기준
 - [고윤정, 티파니 선택 받았다…블랙 드레스+다이아로 ‘여신 비주얼’](https://www.chosun.com/entertainments/enter_general/2026/08/27/MM4TGZRXGM2DEOBRGZRTMMLFHE) · WORKS · 내용은 원문 보도 기준
+- [고윤정, 여행지서 포착된 사랑스러운 일상…새 드라마·화보로 숨 가쁜 행보](https://www.topstarnews.net/news/articleView.html?idxno=16218888) · WORKS · 내용은 원문 보도 기준
+- ["우리 또 만났네요" 2500만 터졌다…고윤정·허남준에 난리 ［김소연의 얼굴전략］](https://www.hankyung.com/article/202610020253g) · WORKS · 내용은 원문 보도 기준
+- [1위 고윤정, 2위 소지섭, 3위 윤경호 | 스타뉴스](https://www.starnewskorea.com/star/2026/08/25/2026082507140631662) · WORKS · 내용은 원문 보도 기준
+- [‘제 17회 코리아드라마어워즈’ 2차 투표 시작···현빈·이준호·김고은·고윤정 후보 경쟁](https://sports.khan.co.kr/article/202608280238003) · WORKS · 내용은 원문 보도 기준
+- [고윤정 샤넬 마리끌레르 10월호 커버 공개](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power) · FASHION · 내용은 원문 보도 기준
