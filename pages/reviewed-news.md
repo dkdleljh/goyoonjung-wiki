@@ -111,3 +111,7 @@
 - [고윤정, 압도적인 분위기...‘청룡 레드카펫 장악’［케이팝 헌터스］ - 스타투데이](https://www.mk.co.kr/news/photos/12122864) · AWARDS · 내용은 원문 보도 기준
 - [고윤정 귀걸이 어디 거? 청룡 레드카펫 주얼리 총정리](https://www.cosmopolitan.co.kr/article/1907332) · AWARDS · 내용은 원문 보도 기준
 - ['청룡 2관왕' 고윤정, 트로피 양 손에 들고 활짝…비하인드 포토 공개 ［핫피플］](https://www.osen.co.kr/article/G1112851422) · AWARDS · 내용은 원문 보도 기준
+- [김고은 대상·고윤정 2관왕…아이유까지 화제된 청룡어워즈](https://v.daum.net/v/20260801063838267) · AWARDS · 내용은 원문 보도 기준
+- [고윤정, 청룡시리즈어워즈 트로피 들고 빛난 미소…‘이사통’·‘모자무싸’ 활약 잇는다](https://www.topstarnews.net/news/articleView.html?idxno=16152962) · AWARDS · 내용은 원문 보도 기준
+- [고윤정, 인형](https://www.news1.kr/photos/8036194) · AWARDS · 내용은 원문 보도 기준
+- [［제5회 BSA］ 고윤정, 글로벌 아이콘상…日 배우 쇼타 시상 의리](https://www.chosun.com/entertainments/enter_general/2026/07/31/MMYDONTBMZSWMNZYGYYDQYZUGA) · AWARDS · 내용은 원문 보도 기준
