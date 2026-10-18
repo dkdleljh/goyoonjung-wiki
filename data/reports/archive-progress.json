@@ -124,5 +124,44 @@
       2026
     ],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
+  },
+  "Singles": {
+    "page": 2,
+    "checked_at": "2026-10-18T07:45:20.712672+00:00",
+    "next_scan": "2026-10-18T07:45:20.712672+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62"
+    ],
+    "items_added": 0,
+    "years_observed": [
+      2024,
+      2025
+    ],
+    "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
+  },
+  "Arena": {
+    "page": 2,
+    "checked_at": "2026-10-18T07:45:20.712672+00:00",
+    "next_scan": "2026-10-18T07:45:20.712672+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "4aedf59c5ffda45ccd34bbcb4f0580caba0752b586f1b57cca9f8a12083726a4"
+    ],
+    "items_added": 0,
+    "years_observed": [],
+    "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
+  },
+  "Noblesse": {
+    "page": 2,
+    "checked_at": "2026-10-18T07:45:20.712672+00:00",
+    "next_scan": "2026-10-18T07:45:20.712672+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "ac0e1bb8af42a2600fe891c9e86876977439dd9f23167df753a24c8678d21cda"
+    ],
+    "items_added": 0,
+    "years_observed": [],
+    "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   }
 }
