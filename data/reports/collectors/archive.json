@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T18:55:25+09:00",
+  "checked_at": "2026-10-18T19:55:23+09:00",
   "status": "failed",
   "sources": [
     {
@@ -131,44 +131,42 @@
     {
       "name": "Singles",
       "url": "https://www.singleskorea.com/api/article-search",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
-      "fetched": 6,
-      "matched": 2,
+      "fetched": 0,
+      "matched": 0,
       "warnings": [],
-      "page": 1,
-      "page_fingerprint": "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62",
-      "checked_at": "2026-10-18T16:45:22+09:00",
-      "last_success": "2026-10-18T16:45:22+09:00",
+      "page": 2,
+      "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checked_at": "2026-10-18T19:55:23+09:00",
+      "last_success": "2026-10-18T19:55:23+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Arena",
       "url": "https://www.arenakorea.com/rss/allArticle.xml",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
       "fetched": 50,
       "matched": 0,
       "warnings": [],
-      "page": 1,
+      "page": 2,
       "page_fingerprint": "4aedf59c5ffda45ccd34bbcb4f0580caba0752b586f1b57cca9f8a12083726a4",
-      "checked_at": "2026-10-18T16:45:22+09:00",
-      "last_success": "2026-10-18T16:45:22+09:00",
+      "checked_at": "2026-10-18T19:55:23+09:00",
+      "last_success": "2026-10-18T19:55:23+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Noblesse",
       "url": "https://noblesse.com/feed/",
-      "scope": "historical pagination page 1",
-      "status": "success",
-      "fetched": 10,
-      "matched": 0,
-      "warnings": [],
-      "page": 1,
-      "page_fingerprint": "ac0e1bb8af42a2600fe891c9e86876977439dd9f23167df753a24c8678d21cda",
-      "checked_at": "2026-10-18T16:45:22+09:00",
+      "scope": "historical pagination page 2",
+      "status": "failed",
+      "error": "Invalid RSS XML: not well-formed (invalid token): line 1001, column 94",
+      "kind": "parse",
+      "retryable": false,
+      "checked_at": "2026-10-18T19:55:23+09:00",
       "last_success": "2026-10-18T16:45:22+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     }
   ]
 }
