@@ -121,3 +121,8 @@
 - [コ・ユンジョン、変顔でも圧倒的美貌](https://www.chosun.com/jp/culture-life-jp/2026/09/29/DONZN4KFHVDUDH6M7ASUK7OASQ) · JA_ALL · 내용은 원문 보도 기준
 - [眉を変えただけなのに...コ・ユンジョンの「雰囲気美人」の秘訣【K-ビューティークラブ】 - MK](https://www.mk.co.kr/jp/hot-issues/12161158) · JA_ALL · 내용은 원문 보도 기준
 - [コ・ユンジョン→キム・ヘユン、紅葉を見に行きたい女スターは？ ［スターポール］ | STARNEWS](https://www.starnewskorea.com/ja/star/2026/10/06/2026100608574841744) · JA_ALL · 내용은 원문 보도 기준
+- [コ・ヒョンジョンなの？コ・ユンジョンかと](https://www.chosun.com/jp/culture-life-jp/2026/09/30/MMEK5Q7EVBGQVAVK77BEQJL6HQ) · JA_ALL · 내용은 원문 보도 기준
+- [パリのコ・ユンジョンはきれいだ..フレンチの女神 | STARNEWS](https://www.starnewskorea.com/ja/star/2026/09/28/2026092723455379336) · JA_ALL · 내용은 원문 보도 기준
+- [コ・ユンジョン、ドレス姿の女神かと思いきや...意外な自撮りまで - MK](https://www.mk.co.kr/jp/hot-issues/12163132) · JA_ALL · 내용은 원문 보도 기준
+- [고윤정이 마주한 새하얀 겨울](https://www.vogue.co.kr/2026/10/07/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%B4-%EB%A7%88%EC%A3%BC%ED%95%9C-%EC%83%88%ED%95%98%EC%96%80-%EA%B2%A8%EC%9A%B8) · MARITHE · 내용은 원문 보도 기준
+- [Lee Byung-hun, Go Youn-jung cast in upcoming Joseon-era action film - The Korea Times](https://www.koreatimes.co.kr/entertainment/films/20260708/lee-byung-hun-go-youn-jung-cast-in-upcoming-joseon-era-action-film) · EN_CAST · 내용은 원문 보도 기준
