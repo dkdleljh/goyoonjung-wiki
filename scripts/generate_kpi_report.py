@@ -91,7 +91,7 @@ def main() -> int:
         f"- new_urls: {new_urls}",
         f"- landed_urls: {landed_urls}",
         f"- duplicate_rate: {duplicate_rate:.2%} ({duplicate_events}/{total_events})",
-        "- verified_urls_by_grade:",
+        "- collected_urls_by_source_grade (fact verification is separate):",
         f"  - S: {by_grade.get('S', 0)}",
         f"  - A: {by_grade.get('A', 0)}",
         f"  - B: {by_grade.get('B', 0)}",

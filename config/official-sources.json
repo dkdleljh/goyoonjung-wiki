@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Netflix",
+    "domain": "about.netflix.com",
+    "category": "works",
+    "url": "https://about.netflix.com/ko",
+    "first_party": true,
+    "watch_urls": [
+      "https://about.netflix.com/ko/news/netflix-renews-series-sweet-home-for-two-more-seasons"
+    ]
+  },
+  {
+    "name": "tvN",
+    "domain": "tvn.cjenm.com",
+    "category": "works",
+    "url": "https://tvn.cjenm.com/ko/",
+    "first_party": true,
+    "watch_urls": [
+      "https://tvn.cjenm.com/ko/heispsychometric/"
+    ]
+  },
+  {
+    "name": "JTBC",
+    "domain": "tv.jtbc.co.kr",
+    "category": "works",
+    "url": "https://tv.jtbc.co.kr/",
+    "first_party": true,
+    "watch_urls": [
+      "https://tv.jtbc.co.kr/wearealltryinghere"
+    ]
+  },
+  {
+    "name": "CJ ENM",
+    "domain": "cjenm.com",
+    "category": "works",
+    "url": "https://www.cjenm.com/ko/news/",
+    "first_party": true,
+    "watch_urls": []
+  },
+  {
+    "name": "Disney",
+    "domain": "thewaltdisneycompany.com",
+    "category": "works",
+    "url": "https://thewaltdisneycompany.com/news/",
+    "first_party": true,
+    "watch_urls": []
+  },
+  {
+    "name": "TVING",
+    "domain": "tving.com",
+    "category": "works",
+    "url": "https://www.tving.com/",
+    "first_party": true,
+    "watch_urls": []
+  },
+  {
+    "name": "백상예술대상",
+    "domain": "baeksangawards.co.kr",
+    "category": "awards",
+    "url": "https://www.baeksangawards.co.kr/",
+    "first_party": true,
+    "watch_urls": []
+  },
+  {
+    "name": "청룡시리즈어워즈",
+    "domain": "bsa.blueaward.co.kr",
+    "category": "awards",
+    "url": "https://bsa.blueaward.co.kr/",
+    "first_party": true,
+    "watch_urls": []
+  },
+  {
+    "name": "Chanel",
+    "domain": "chanel.com",
+    "category": "brands",
+    "url": "https://www.chanel.com/",
+    "first_party": true,
+    "watch_urls": []
+  },
+  {
+    "name": "Boucheron",
+    "domain": "boucheron.com",
+    "category": "brands",
+    "url": "https://www.boucheron.com/",
+    "first_party": true,
+    "watch_urls": []
+  },
+  {
+    "name": "Goodal",
+    "domain": "clubclio.co.kr",
+    "category": "brands",
+    "url": "https://clubclio.co.kr/shop/brandsList/121733000000000/brand/3",
+    "first_party": true,
+    "watch_urls": []
+  },
+  {
+    "name": "Penshoppe",
+    "domain": "penshoppe.com",
+    "category": "brands",
+    "url": "https://www.penshoppe.com/",
+    "first_party": true,
+    "watch_urls": []
+  }
+]

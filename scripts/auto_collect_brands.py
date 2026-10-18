@@ -58,6 +58,8 @@ def main() -> int:
     table = [[x["page"], ", ".join(x["hosts"]), x["action"], x["line"]] for x in items[:80]]
     lines = report_header("Brand Evidence Watch (auto)")
     lines += [
+        "이 문서는 기존 위키 근거의 색인입니다. 새 공식 발표의 실제 외부 조회 결과는 [수집 출처 상태](source-collection-status.md)의 official-live 항목에서 확인합니다.",
+        "",
         "## Summary",
         f"- brand_evidence_items: {len(items)}",
         f"- verify_role_items: {len(pending)}",

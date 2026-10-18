@@ -32,10 +32,19 @@ def news_runs(base: Path = BASE) -> list[dict]:
             state = "partial"
         runs.append({"timestamp": at.isoformat(), "status": state, "message": message,
                      "source": path.relative_to(base).as_posix(), "duration_seconds": None})
-    return sorted(runs, key=lambda x: x["timestamp"])
+    heartbeat = base / 'data/reports/heartbeat.json'
+    try:
+        fast = json.loads(heartbeat.read_text())
+        datetime.fromisoformat(fast['timestamp'])
+        runs.append({'timestamp':fast['timestamp'], 'status':fast['status'],
+                     'message':'frequent collector: '+', '.join(step['name']+(' OK' if step['returncode'] == 0 else ' FAIL') for step in fast.get('steps', [])),
+                     'source':'data/reports/heartbeat.json', 'duration_seconds':fast['duration_seconds']})
+    except (OSError, ValueError, KeyError):
+        pass
+    return sorted(runs, key=lambda x: datetime.fromisoformat(x['timestamp']))
 
 
-def health(base: Path = BASE, now: datetime | None = None, max_age_hours: float = 36) -> dict:
+def health(base: Path = BASE, now: datetime | None = None, max_age_hours: float = 8) -> dict:
     now = now or datetime.now(SEOUL)
     runs = news_runs(base)
     if not runs:
@@ -80,6 +89,20 @@ def metrics(base: Path = BASE) -> dict:
     completed = [r for r in runs if r["status"] in {"success", "failure", "partial"}]
     successful = [r for r in completed if r["status"] == "success"]
     today = datetime.now(SEOUL).date().isoformat()
+    history_path = base / 'data/reports/run-history.json'
+    if history_path.exists():
+        try:
+            measured = json.loads(history_path.read_text())
+        except ValueError:
+            measured = []
+        if measured:
+            from statistics import mean
+            return {"avg_execution_time": round(mean(r['duration_seconds'] for r in measured), 2),
+                    "uptime_percentage": None,
+                    "success_rate": round(100 * sum(r['status'] == 'success' for r in measured)/len(measured), 2),
+                    "total_runs_today": sum(datetime.fromisoformat(r['timestamp']).astimezone(SEOUL).date().isoformat() == today for r in measured),
+                    "sample_count": len(measured), "sample_basis": "measured individual runs",
+                    "last_successful_run": next((r['timestamp'] for r in reversed(measured) if r['status'] == 'success'), None)}
     return {"avg_execution_time": None, "uptime_percentage": None,
             "success_rate": round(100 * len(successful) / len(completed), 2) if completed else None,
             "total_runs_today": sum(r["timestamp"].startswith(today) for r in runs),

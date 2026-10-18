@@ -25,7 +25,7 @@ from urllib.parse import urlsplit
 
 BASE = Path(__file__).resolve().parent.parent
 MEDIA_WATCH = BASE / "sources" / "media-watch.md"
-ALLOWLIST = BASE / "config" / "allowlist-domains.txt"
+ALLOWLIST = BASE / "data" / "facts" / "discovered-domains.txt"
 
 SKIP = {
     "www.google.com",
@@ -64,7 +64,7 @@ def load_allowlist() -> set[str]:
 
 
 def main() -> int:
-    if not MEDIA_WATCH.exists() or not ALLOWLIST.exists():
+    if not MEDIA_WATCH.exists():
         return 0
 
     domains = extract_domains(MEDIA_WATCH.read_text(encoding="utf-8"))
@@ -75,6 +75,7 @@ def main() -> int:
         print("sync_media_watch_sources: added=0")
         return 0
 
+    ALLOWLIST.parent.mkdir(parents=True, exist_ok=True)
     with ALLOWLIST.open("a", encoding="utf-8") as f:
         f.write("\n# synced from sources/media-watch.md (auto)\n")
         for d in add:

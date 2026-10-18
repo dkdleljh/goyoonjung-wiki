@@ -5,9 +5,9 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
-WorkingDirectory=%h/goyoonjung-wiki
-ExecStart=%h/goyoonjung-wiki/.venv/bin/python scripts/automation_tick.py
+WorkingDirectory=%h/.local/share/goyoonjung-runtime/goyoonjung-wiki
+ExecStart=/usr/bin/env bash scripts/run_fast_sync.sh
 Environment=TZ=Asia/Seoul
 Environment=PYTHONUNBUFFERED=1
-TimeoutStartSec=4200
+TimeoutStartSec=900
 SuccessExitStatus=75

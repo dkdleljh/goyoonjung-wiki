@@ -1,0 +1,8 @@
+[Unit]
+Description=Daily off-host backup and restore verification
+[Timer]
+OnCalendar=*-*-* 04:35:00
+Persistent=true
+Unit=goyoonjung-wiki-backup.service
+[Install]
+WantedBy=timers.target

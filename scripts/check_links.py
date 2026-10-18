@@ -14,15 +14,17 @@ Design goals:
 
 from __future__ import annotations
 
+import json
 import re
 import socket
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from datetime import datetime
 from pathlib import Path
 from urllib.error import HTTPError
-from urllib.parse import quote, urlsplit, urlunsplit
+from urllib.parse import parse_qs, quote, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
@@ -39,34 +41,12 @@ URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
 
 SKIP_DOMAINS = (
     # Social / heavy JS
-    "youtube.com",
-    "youtu.be",
     "instagram.com",
     "facebook.com",
     "twitter.com",
     "x.com",
 
-    # Frequently blocked to bots / aggressive WAF
-    "chanel.com",
-    "boucheron.com",
-    "disneyplus.com",
-    "disneypluskr.com",
-    "tving.com",
-    "program.tving.com",
-    "yna.co.kr",
-    "about.netflix.com",
-    "goodal.com",
-    "vodana.co.kr",
-    "lensme.co.kr",
-    "easytomorrow.co.kr",
 
-    # Often blocks automated requests; report as unchecked.
-    "namu.wiki",
-    "nc.press",
-    "kstarfashion.com",
-
-    # Brand sites that commonly block bots
-    "penshoppe.com",
 )
 
 
@@ -84,7 +64,7 @@ def iter_md_files():
     for root in (PAGES_DIR, SOURCES_DIR):
         if not root.exists():
             continue
-        yield from (p for p in sorted(root.rglob("*.md")) if p != OUT and p.name != "alternative-proof-candidates.md")
+        yield from (p for p in sorted(root.rglob("*.md")) if p != OUT and p.name not in {"alternative-proof-candidates.md", "skipped-link-backlog.md"})
 
 
 def normalize_extracted_url(url: str) -> str:
@@ -135,6 +115,21 @@ def safe_url(url: str) -> str:
 
 
 def fetch_status(url: str) -> Result:
+    original = url
+    parts = urlsplit(url)
+    host = (parts.hostname or '').removeprefix('www.')
+    if host in {'youtube.com', 'youtu.be'}:
+        video = parts.path.lstrip('/') if host == 'youtu.be' else parse_qs(parts.query).get('v', [''])[0]
+        if re.fullmatch(r'[A-Za-z0-9_-]{11}', video):
+            try:
+                endpoint = 'https://www.youtube.com/oembed?format=json&url='+quote('https://www.youtube.com/watch?v='+video, safe='')
+                with urlopen(Request(endpoint, headers={'User-Agent':UA}), timeout=TIMEOUT) as response:
+                    data = json.load(response)
+                if data.get('title') and data.get('author_url'):
+                    return Result(original, 'ok', 200, 'Public video metadata and author returned')
+                return Result(original, 'warn', None, 'Video metadata incomplete')
+            except Exception as exc:
+                return Result(original, 'warn', None, 'Video metadata unavailable: '+type(exc).__name__)
     url = safe_url(url)
     # Prefer HEAD, fallback to GET
     try:
@@ -142,7 +137,10 @@ def fetch_status(url: str) -> Result:
         with urlopen(req, timeout=TIMEOUT) as resp:
             code = getattr(resp, "status", None) or 200
             if 200 <= code < 400:
-                return Result(url=url, status="ok", code=code)
+                destination = resp.geturl()
+                if isinstance(destination, str) and urlsplit(url).path not in {'', '/'} and urlsplit(destination).path in {'', '/'}:
+                    return Result(url=url, status="warn", code=code, note="Article redirected to homepage")
+                return Result(url=url, status="ok", code=code, note="HTTP reachable; factual identity not verified")
             if code in {404, 410}:
                 return Result(url=url, status="bad", code=code)
             return Result(url=url, status="warn", code=code)
@@ -159,7 +157,7 @@ def fetch_status(url: str) -> Result:
                 return Result(url=url, status="bad", code=code, note="GET fallback")
             return Result(url=url, status="warn", code=code, note="GET fallback")
     except HTTPError as e:
-        return Result(url=url, status="bad" if e.code in {404, 410} else "warn", code=e.code, note="GET fallback")
+        return Result(url=url, status="bad" if e.code in {404, 410} and "/feeds/videos.xml" not in url else "warn", code=e.code, note="RSS endpoint unavailable; collector has channel-verified uploads fallback" if "/feeds/videos.xml" in url else "GET fallback")
     except Exception as e:
         return Result(url=url, status="warn", code=None, note=f"error: {type(e).__name__}")
 
@@ -251,22 +249,35 @@ def main() -> int:
 
     results: list[Result] = []
 
-    probe_urls = []
-    for index, u in enumerate(urls):
-        host = urlsplit(u).hostname or ""
-        if index >= MAX_URLS:
-            results.append(Result(u, "unchecked", None, "outside check budget"))
-        elif any(host == d or host.endswith("." + d) for d in SKIP_DOMAINS):
-            results.append(Result(u, "unchecked", None, "skipped (heavy domain)"))
+    cache_path = BASE / 'data/reports/link-checkpoints.json'
+    try:
+        cache = json.loads(cache_path.read_text())
+    except (OSError, ValueError):
+        cache = {}
+    eligible = []
+    for u in urls:
+        host = urlsplit(u).hostname or ''
+        if any(host == d or host.endswith('.'+d) for d in SKIP_DOMAINS):
+            results.append(Result(u, 'unchecked', None, 'social platform requires source-specific verification'))
         else:
-            probe_urls.append(u)
-    # Bounded workers keep weekly checks within the runner's time budget.
-    with ThreadPoolExecutor(max_workers=16) as pool:
+            eligible.append(u)
+    probe_urls = sorted(eligible, key=lambda u: cache.get(u, {}).get('checked_at', 0))[:MAX_URLS]
+    with ThreadPoolExecutor(max_workers=8) as pool:
         for u, res in zip(probe_urls, pool.map(fetch_status, probe_urls), strict=True):
             results.append(res)
-            if res.status == "bad" and res.code == 404:
+            cache[u] = {**asdict(res), 'checked_at': time.time()}
+            if res.status == 'bad' and res.code == 404:
                 for p in url_to_paths.get(u, set()):
                     heal_tag_404(p, u)
+    for u in set(eligible) - set(probe_urls):
+        old = cache.get(u)
+        if old and time.time() - old['checked_at'] < 7 * 86400:
+            results.append(Result(u, old['status'], old['code'], old['note'] + ' (cached within 7 days)'))
+        else:
+            results.append(Result(u, 'unchecked', None, 'awaiting rotating check'))
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    from source_transport import atomic_write
+    atomic_write(cache_path, json.dumps({u:v for u,v in cache.items() if u in seen}, ensure_ascii=False, indent=2)+'\n')
 
     write_report(results, checked=len(urls))
     ok_n = sum(r.status == 'ok' for r in results)

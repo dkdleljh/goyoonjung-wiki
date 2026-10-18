@@ -43,10 +43,10 @@ def _grade_value(raw: str) -> str:
 
 
 def _iter_legacy_allowlist() -> Iterable[tuple[str, str]]:
-    if not ALLOWLIST_PATH.exists():
-        return []
     out: list[tuple[str, str]] = []
-    for raw in ALLOWLIST_PATH.read_text(encoding="utf-8").splitlines():
+    paths = [ALLOWLIST_PATH, BASE / "data/facts/discovered-domains.txt"]
+    lines = [line for path in paths if path.exists() for line in path.read_text(encoding="utf-8").splitlines()]
+    for raw in lines:
         ln = raw.strip()
         if not ln or ln.startswith("#"):
             continue

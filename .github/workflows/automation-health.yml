@@ -1,7 +1,7 @@
 name: automation-health
 on:
   schedule:
-    - cron: '35 */6 * * *'
+    - cron: '1,16,31,46 * * * *'
   workflow_dispatch:
 permissions:
   contents: read
@@ -14,4 +14,15 @@ jobs:
         with:
           python-version: '3.12'
       - name: Check recorded pipeline freshness and outcome
-        run: python scripts/operational_status.py
+        run: |
+          python scripts/operational_status.py
+          python - <<'PYCODE'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          data = json.loads(Path('data/reports/heartbeat.json').read_text())
+          age = (datetime.now(timezone.utc) - datetime.fromisoformat(data['timestamp'])).total_seconds()
+          if not -300 <= age <= 1800:
+              raise SystemExit(f'Stale fast collector: {age:.0f}s')
+          print(f'Fast collector heartbeat age {age:.0f}s; status {data["status"]}')
+          PYCODE

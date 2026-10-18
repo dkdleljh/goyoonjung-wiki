@@ -79,13 +79,15 @@ def test_network_error_is_not_broken_link():
 
 def test_skipped_and_outside_budget_never_ok(tmp_path, monkeypatch):
     page = tmp_path / 'page.md'
-    page.write_text('https://youtube.com/watch?v=1 https://example.org')
+    page.write_text('https://instagram.com/p/1 https://example.org')
     monkeypatch.setattr(links, 'iter_md_files', lambda: [page])
     monkeypatch.setattr(links, 'MAX_URLS', 1)
-    with patch.object(links, 'fetch_status') as fetch, patch.object(links, 'write_report') as report:
+    monkeypatch.setattr(links, 'BASE', tmp_path)
+    with patch.object(links, 'fetch_status', return_value=links.Result('https://example.org', 'ok', 200)) as fetch, patch.object(links, 'write_report') as report:
         links.main()
-    fetch.assert_not_called()
-    assert all(r.status == 'unchecked' for r in report.call_args.args[0])
+    fetch.assert_called_once_with('https://example.org')
+    assert next(r for r in report.call_args.args[0] if 'instagram' in r.url).status == 'unchecked'
+    assert next(r for r in report.call_args.args[0] if 'example' in r.url).status == 'ok'
 
 
 def write_run(base, at, result='성공', note='gnews:OK, agency:FAIL'):

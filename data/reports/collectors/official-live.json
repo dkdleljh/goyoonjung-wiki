@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-10-18T14:36:46+09:00",
+  "status": "failed",
+  "sources": [
+    {
+      "name": "Disney",
+      "url": "https://thewaltdisneycompany.com/news/",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "TVING",
+      "url": "https://www.tving.com/",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "백상예술대상",
+      "url": "https://www.baeksangawards.co.kr/",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "청룡시리즈어워즈",
+      "url": "https://bsa.blueaward.co.kr/",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "Netflix",
+      "url": "https://about.netflix.com/ko",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 1,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "tvN",
+      "url": "https://tvn.cjenm.com/ko/",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 1,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "JTBC",
+      "url": "https://tv.jtbc.co.kr/",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 1,
+      "index_checked": true,
+      "matched": 1,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "CJ ENM",
+      "url": "https://www.cjenm.com/ko/news/",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "Chanel",
+      "url": "https://www.chanel.com/",
+      "scope": "official search + original page",
+      "status": "failed",
+      "fetched": 0,
+      "index_checked": false,
+      "matched": 0,
+      "warnings": [
+        "Index unavailable: HTTP 403"
+      ],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": null,
+      "consecutive_failures": 3
+    },
+    {
+      "name": "Boucheron",
+      "url": "https://www.boucheron.com/",
+      "scope": "official search + original page",
+      "status": "failed",
+      "fetched": 0,
+      "index_checked": false,
+      "matched": 0,
+      "warnings": [
+        "Index unavailable: HTTP 403"
+      ],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": null,
+      "consecutive_failures": 3
+    },
+    {
+      "name": "Goodal",
+      "url": "https://clubclio.co.kr/shop/brandsList/121733000000000/brand/3",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "Penshoppe",
+      "url": "https://www.penshoppe.com/",
+      "scope": "official search + original page",
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-18T14:36:46+09:00",
+      "last_success": "2026-10-18T14:36:46+09:00",
+      "consecutive_failures": 0
+    }
+  ]
+}

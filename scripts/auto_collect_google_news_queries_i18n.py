@@ -14,6 +14,7 @@ Best-effort; returns 0.
 from __future__ import annotations
 
 import os
+import re
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -31,6 +32,7 @@ import domain_policy  # noqa: E402
 import normalize_url  # noqa: E402
 from collector_io import append_news_lines  # noqa: E402
 from google_news_resolver import resolve, warm_cache  # noqa: E402
+from source_schedule import record, search_window, select  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-queries-i18n.txt"
 
@@ -85,6 +87,8 @@ def load_queries() -> list[tuple[str, str, str, str, str]]:
     return out
 
 
+
+
 def main() -> int:
     errors = 0
     db_manager.init_db()
@@ -95,14 +99,16 @@ def main() -> int:
 
     # rolling batch
     max_queries = int(os.environ.get("MAX_QUERIES_I18N", "4"))
-    offset = int(os.environ.get("BATCH_OFFSET_I18N", "0"))
-    if max_queries > 0 and len(qlist) > max_queries:
-        qlist = (qlist[offset:] + qlist[:offset])[:max_queries]
+    qlist = select(qlist, lambda row: "i18n:" + row[0], max_queries)
 
     news_path = get_today_news_path()
     total = 0
 
     for label, query, hl, gl, ceid in qlist:
+        source_key = "i18n:" + label
+        before_errors = errors
+        record(source_key, False)
+        query = re.sub(r"when:\d+[dhmy]", "", query) + " " + search_window(source_key)
         rss_url = RSS_TEMPLATE.format(q=quote_plus(query), hl=hl, gl=gl, ceid=ceid)
         xml_data = fetch_rss(rss_url)
         if not xml_data:
@@ -178,6 +184,8 @@ def main() -> int:
         append_lines(news_path, new_lines)
         for url, source in pending:
             db_manager.add_seen_url(url, source=source)
+
+        record(source_key, errors == before_errors)
 
     print(f"auto_collect_google_news_queries_i18n: new={total}")
     print(f"source_errors={errors}")

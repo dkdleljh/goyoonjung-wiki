@@ -5,50 +5,50 @@
 - total_items: 75
 
 ## Items
-- [pages/appearances.md:156] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:164] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:172] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:180] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:188] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:196] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:204] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:212] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:220] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:228] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:236] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:244] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:252] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:260] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:268] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:276] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:284] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:292] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:300] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:308] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:316] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:324] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:332] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/appearances.md:340] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/awards.md:40] | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:41] | 2025 | 코리아 드라마 어워즈 | 여자 우수연기상 | *언젠가는 슬기로울 전공의생활* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:42] | 2025 | 펀덱스어워드 | TV 드라마 여자주연 부문 | *언젠가는 슬기로울 전공의생활* | 수상 | 검증불가(공식 근거 링크 미확보) |  | 2025년 12월 18일 |
-- [pages/awards.md:45] | 2024 | 백상예술대상(TV) | 여자 신인연기상 |  | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:46] | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:47] | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:48] | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:49] | 2022 | 부일영화상 | 신인 여자연기상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:50] | 2022 | 대종상 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:51] | 2022 | 청룡영화상 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- [pages/awards.md:52] | 2022 | 춘사국제영화제 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/appearances.md:157] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:165] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:173] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:181] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:189] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:197] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:205] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:213] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:221] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:229] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:237] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:245] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:253] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:261] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:269] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:277] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:285] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:293] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:301] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:309] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:317] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:325] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:333] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/appearances.md:341] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/awards.md:41] | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:42] | 2025 | 코리아 드라마 어워즈 | 여자 우수연기상 | *언젠가는 슬기로울 전공의생활* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:43] | 2025 | 펀덱스어워드 | TV 드라마 여자주연 부문 | *언젠가는 슬기로울 전공의생활* | 수상 | 검증불가(공식 근거 링크 미확보) |  | 2025년 12월 18일 |
+- [pages/awards.md:46] | 2024 | 백상예술대상(TV) | 여자 신인연기상 |  | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:47] | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:48] | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:49] | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:50] | 2022 | 부일영화상 | 신인 여자연기상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:51] | 2022 | 대종상 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:52] | 2022 | 청룡영화상 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- [pages/awards.md:53] | 2022 | 춘사국제영화제 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
 - [pages/encyclopedia-roadmap.md:32] - [ ] 출생지/학력/소속사 등 **확정/미확정** 표기 분리
 - [pages/endorsements/by-year.md:21] - [샤넬(CHANEL)](https://www.instagram.com/p/C6gW0vQNU1_/) — (앰버서더/프렌즈 여부 공식 확인 필요)
 - [pages/endorsements/fashion.md:23] - 링크(공식 영상/캠페인): (추가 필요)
 - [pages/endorsements/fashion.md:50] - 역할: (앰버서더/프렌즈 여부 공식 확인 필요)
 - [pages/endorsements/fashion.md:104] - 비고: 코스토니 리버시블 플리스 광고 출연 보도일. 계약 시작일은 별도 확인 필요.
 - [pages/hub.md:28] - 안전 원칙: 루머/사생활/비공식 단정은 금지하고, 미확정 항목은 검증 큐에 남긴다.
-- [pages/interviews.md:661] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/interviews.md:669] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/interviews.md:677] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/interviews.md:662] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/interviews.md:670] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/interviews.md:678] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:420] - 링크(원문): (추가 필요)
 - [pages/pictorials/editorial.md:422] - id: (추가 필요)
 - [pages/pictorials/editorial.md:614] - 날짜: (페이지 내 표기 확인 필요)
@@ -77,6 +77,6 @@
 - [pages/pictorials/editorial.md:798] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:806] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:814] - 날짜: (페이지 내 표기 확인 필요)
-- [pages/profile.md:50] - 상태: 검증불가(공식 근거 미확보)
-- [pages/profile.md:57] - 상태: 검증불가(공식 근거 미확보)
+- [pages/profile.md:51] - 상태: 검증불가(공식 근거 미확보)
+- [pages/profile.md:58] - 상태: 검증불가(공식 근거 미확보)
 - [pages/sns.md:14] - 상태: **미확정(교차확인 필요)**

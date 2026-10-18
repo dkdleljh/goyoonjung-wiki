@@ -1,12 +1,16 @@
 # Promotion Queue (auto)
 
-> Updated: 2026-10-18 12:38 (Asia/Seoul)
+> Updated: 2026-10-18 14:27 (Asia/Seoul)
 
 ## 대상(승격/정리 필요)
 - 2026-02-16 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/appearances.md · https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177
 - 2026-06-15 · 보도(2차) 오래됨 → 공식/원문 승격 필요 · pages/interviews.md · https://enews.imbc.com/News/ViewAmp/508207
 
 ## 도메인 A 등급 후보(자동 수집)
+- 2026-10-18 · grade=A · EN_ALL · [Actress Ko Yoon-jung revealed her daily life in Paris.On the 27th, Ko Yoon-jung released several pho.. - 매일경제](https://www.mk.co.kr/en/entertain/12162117)
+- 2026-10-18 · grade=A · VARIETY_TALK · [고윤정, 파리서 포착된 청순 비주얼 - 스타투데이 - 매일경제](https://www.mk.co.kr/news/hot-issues/12162111)
+- 2026-10-18 · grade=A · VARIETY_TALK · [AG 미녀 선수 또 발굴됐다…주인공은 고윤정 닮았다는 '미녀 검객' - 텐아시아](https://www.tenasia.co.kr/article/2026092184494)
+- 2026-10-18 · grade=A · 일간스포츠 · [고윤정, 데뷔 전부터 완성형 미모…10년 전 대학 주점 포스터 화제 - 일간스포츠](https://isplus.com/article/view/isp202610180070)
 - 2026-10-18 · grade=A · FASHION · [고윤정이 완성한 가을의 조각[화보] - Daum](https://v.daum.net/v/20260917090011098?f=p)
 - 2026-10-18 · grade=A · FASHION · [고윤정, 가을 닮은 우아美 - Daum](https://v.daum.net/v/20260821083411363?f=p)
 - 2026-10-18 · grade=A · 스포츠서울 · [“이 얼굴이 고윤정?” 대학 시절 포스터 주인공이었다…‘서울여대 여신’의 위엄 - 스포츠서울](https://www.sportsseoul.com/news/read/1642092)

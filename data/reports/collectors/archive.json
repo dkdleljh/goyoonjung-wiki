@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-18T14:25:15+09:00",
+  "status": "success",
+  "sources": [
+    {
+      "name": "ELLE Korea",
+      "url": "https://www.elle.co.kr/search",
+      "scope": "historical pagination page 1",
+      "status": "success",
+      "fetched": 18,
+      "matched": 12,
+      "warnings": [],
+      "page": 1,
+      "page_fingerprint": "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166",
+      "checked_at": "2026-10-18T14:25:15+09:00",
+      "last_success": "2026-10-18T14:25:15+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "W Korea",
+      "url": "https://www.wkorea.com/wp-admin/admin-ajax.php",
+      "scope": "historical pagination page 1",
+      "status": "success",
+      "fetched": 20,
+      "matched": 13,
+      "warnings": [],
+      "page": 1,
+      "page_fingerprint": "f0241cce012db16453495e6300013377864543e25a5371196a9aa1c628918e8a",
+      "checked_at": "2026-10-18T14:25:15+09:00",
+      "last_success": "2026-10-18T14:25:15+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "Harper’s BAZAAR Korea",
+      "url": "https://www.harpersbazaar.co.kr/search",
+      "scope": "historical pagination page 1",
+      "status": "success",
+      "fetched": 18,
+      "matched": 6,
+      "warnings": [],
+      "page": 1,
+      "page_fingerprint": "b8f39340d35ff44fbf7eb99034c0a5bfc43c781860614bd198672c4da2473af7",
+      "checked_at": "2026-10-18T14:25:15+09:00",
+      "last_success": "2026-10-18T14:25:15+09:00",
+      "consecutive_failures": 0
+    }
+  ]
+}

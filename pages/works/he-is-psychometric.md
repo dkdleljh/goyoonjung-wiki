@@ -17,21 +17,28 @@
 - TVING 다시보기: https://www.tving.com/contents/P000820341
 ## 공식 링크
 - https://tvn.cjenm.com/ko/heispsychometric/
-- https://www.tving.com/contents/P000820341- https://www.youtube.com/watch?v=JEnAnsSdLbQ
+- https://www.tving.com/contents/P000820341
+- https://www.youtube.com/watch?v=JEnAnsSdLbQ
 - https://tvn.cjenm.com/ko/heispsychometric/video/
 
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
-> 생성: (자동 생성 시각) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 14:23 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 전체 후보
+
+- [승승장구 고윤정... 매 작품이 ‘인생캐’!](https://kstar.kbs.co.kr/list_view.html?idx=391253)  _(출처: interviews.md)_
+
+- [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스
 - 방송 정보(공식, tvN DRAMA / YouTube): https://www.youtube.com/watch?v=JEnAnsSdLbQ
 - 공식 페이지(tvN): https://tvn.cjenm.com/ko/heispsychometric/
-- 다시보기/정보(TVING): https://www.tving.com/contents/P000820341- 예고편/클립(공식, tvN): https://tvn.cjenm.com/ko/heispsychometric/video/
+- 다시보기/정보(TVING): https://www.tving.com/contents/P000820341
+- 예고편/클립(공식, tvN): https://tvn.cjenm.com/ko/heispsychometric/video/
 
 ## 출처
 - 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

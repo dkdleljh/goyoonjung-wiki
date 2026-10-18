@@ -21,18 +21,18 @@
 
 | 연도 | 플랫폼/방송사 | 작품 | 역할 | 비고 | 근거 |
 |---:|---|---|---|---|---|
-| 2019 | tvN | 사이코메트리 그녀석 | 김소현 | 데뷔작 | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2020 | Netflix | 보건교사 안은영 | 최유진 |  | [Netflix](https://www.netflix.com/kr/title/80209129) |
-| 2020 | Netflix | 스위트홈 | 박유리 |  | [Netflix](https://www.netflix.com/kr/title/81061734) |
-| 2021 | JTBC | 로스쿨 | 전예슬 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2022 | tvN | 환혼 | 낙수 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2022 | tvN | 환혼 빛과 그림자 | 낙수 | (주요) | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2022 | 영화 | 헌트 | 조유정 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2023 | Disney+ | 무빙 | 장희수 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2023 | TVING | 이재, 곧 죽습니다 | 이지수 | 특별출연 | [MAA](https://maa.co.kr/artists/go-younjung) |
-| 2023 | Netflix | 스위트홈 2 | 박유리 | 특별출연 | [Netflix](https://www.netflix.com/kr/title/81061734) |
-| 2024 | Disney+ | 조명가게 | 장희수 | 특별출연 (무빙 세계관) | [Disney+](https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4) |
-| 2025 | tvN | 언젠가는 슬기로울 전공의생활 | 오이영 |  | [MAA](https://maa.co.kr/artists/go-younjung) |
+| 2019 | tvN | 사이코메트리 그녀석 | 김소현 | 공개 완료 · 데뷔작 | [공식 작품 페이지](https://tvn.cjenm.com/ko/heispsychometric/) |
+| 2020 | Netflix | 보건교사 안은영 | 최유진 | 공개 완료 | [Netflix](https://www.netflix.com/kr/title/80209129) |
+| 2020 | Netflix | 스위트홈 | 박유리 | 공개 완료 | [Netflix](https://www.netflix.com/kr/title/81061734) |
+| 2021 | JTBC | 로스쿨 | 전예슬 | 공개 완료 | [공식 작품 페이지](https://tv.jtbc.co.kr/lawschool) |
+| 2022 | tvN | 환혼 | 낙수 | 공개 완료 | [공식 작품 페이지](https://tvn.cjenm.com/ko/hhw1_test/) |
+| 2022 | tvN | 환혼 빛과 그림자 | 낙수 | 공개 완료 · (주요) | [공식 작품 페이지](https://tvn.cjenm.com/ko/alchemyofsouls/) |
+| 2022 | 영화 | 헌트 | 조유정 | 개봉 완료 (2022-08-10) | [KOFIC](https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792) · [한국영상자료원 배역](https://www.koreafilm.or.kr/library/search/video/114983) |
+| 2023 | Disney+ | 무빙 | 장희수 | 공개 완료 | [공식 작품 페이지](https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856) |
+| 2023 | TVING | 이재, 곧 죽습니다 | 이지수 | 공개 완료 · 특별출연 | [공식 작품 페이지](https://www.tving.com/contents/P001748996) |
+| 2023 | Netflix | 스위트홈 2 | 박유리 | 공개 완료 · 특별출연 | [Netflix](https://www.netflix.com/kr/title/81061734) |
+| 2024 | Disney+ | 조명가게 | 장희수 | 공개 완료 · 특별출연 (무빙 세계관) | [Disney+](https://www.disneyplus.com/en-hk/browse/entity-6620d99f-aac9-473b-8ff8-f248e123b5cc) |
+| 2025 | tvN | 언젠가는 슬기로울 전공의생활 | 오이영 | 공개 완료 | [공식 작품 페이지](https://www.tving.com/contents/P001768976) |
 | 2026 | Netflix | 이 사랑 통역 되나요? | 차무희 | 공개됨 (1월 16일) | [Netflix](https://www.netflix.com/kr/title/81697769) |
 | 2026 | JTBC | 모두가 자신의 무가치함과 싸우고 있다 | 변은아 | 방영 완료·종영 (4월 18일 ~ 5월 24일) | [JTBC](https://tv.jtbc.co.kr/wearealltryinghere) · [최종회](https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view) |
 

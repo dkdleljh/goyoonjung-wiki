@@ -18,7 +18,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-- [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)  _(출처: interviews.md)_
+- [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idxno=561975)  _(출처: interviews.md)_
 
 - [차은우,고윤정얼굴 천재의 만남! 마리떼 프랑소와 캠페인 영상 공개](https://www.esquirekorea.co.kr/article/1881691)  _(출처: interviews.md)_
 

@@ -308,9 +308,9 @@
 - 매체: 뉴스컬처
 - 구분: 화보
 - 제목: 고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]
-- 링크(원문): https://www.nc.press/news/articleView.html?idx=561975 (보조/차단 가능)
+- 링크(원문): https://www.nc.press/news/articleView.html?idxno=561975 (보조/차단 가능)
 - 상태: 공식확정
-- id: https://www.nc.press/news/articleView.html?idx=561975
+- id: https://www.nc.press/news/articleView.html?idxno=561975
 
 - 날짜: 2024-04-20
 - 매체: ELLE Korea x RYO

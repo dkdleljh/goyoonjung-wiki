@@ -3,14 +3,16 @@
 > Updated: 2026-10-18 (Asia/Seoul)
 
 ## Snapshot
-- pages_total: 121
-- urls_total(markdown): 592
-- seen_urls(db): 206
-- allowlist_domains(lines): 136
-- google_news_sites(lines): 48
+- pages_total: 124
+- urls_total(markdown): 624
+- seen_urls(db): 212
+- allowlist_domains: 105
+- google_news_sites: 40
 - google_news_queries(lines): 20
-- magazine_rss(lines): 68
-- youtube_feeds(lines): 24
+- magazine_sources: 12
+- youtube_channels: 12
+
+점수는 구성 요소와 기록에 따른 내부 지표이며 실제 가동률·정확도·자료 완성률이 아닙니다. [실측 결과](automation-measurements.md)를 함께 확인하세요.
 
 ## Scores (0~100)
 ### A. Coverage tooling readiness: **75/100**
@@ -20,42 +22,42 @@
 - detection: 100  (quality/content-gaps reports)
 - official_work_sync: 0  (official filmography audit)
 
-### B. Recorded automation health: **100/100**
+### B. Recorded automation health: **0/100**
 
 - pipeline: 100  (run_daily_update + steps)
 - resilience: 100  (batching + skip-reason logging)
 - observability: 100  (status/daily/lint reports)
 - runtime_guards: 100  (file presence only; does not prove deployment)
 
-### C. Content scale heuristic: **70/100**
+### C. Content scale heuristic: **71/100**
 
-- C_current: 70  (actual accumulated scale (grows over time))
+- C_current: 71  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 592  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 206  (dedupe DB size)
+- urls_total: 624  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 212  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
 
-### D. Content quality heuristic: **36/100**
+### D. Content quality heuristic: **49/100**
 
 - placeholder: 0  (debt=141)
-- link_health: 30  (measured results and report age)
+- link_health: 97  (measured results and report age)
 - lint: 100  (actual findings)
 - provenance: 100  (official vs press vs secondary)
 - coverage_readiness: 0  (official coverage audit)
 
 ## Top URL-heavy pages (top 10)
-- 201: pages/link-health.md
-- 140: pages/promotion-queue.md
+- 144: pages/promotion-queue.md
 - 99: pages/pictorials/by-year.md
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
 - 95: pages/pictorials/editorial.md
-- 63: pages/official-platform-watch.md
-- 62: pages/skipped-link-backlog.md
-- 54: pages/interviews.md
-- 52: pages/appearances.md
+- 55: pages/interviews.md
+- 54: pages/official-platform-watch.md
+- 53: pages/appearances.md
 - 52: pages/alternative-proof-candidates.md
+- 48: pages/interviews/by-year.md
+- 41: pages/candidate-pool.md
 
 ## Notes
 - A and B component values describe tooling presence; B headline uses actual run freshness and outcome.

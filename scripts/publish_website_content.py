@@ -21,7 +21,7 @@ from verify_website_sync import save_report, verify, wait_for_sync
 
 BASE = Path(__file__).resolve().parent.parent
 CONTENT_DIRS = ("pages/", "sources/", "news/", "data/facts/", "data/reports/")
-CONTENT_FILES = {"index.md", "README.md", "docs/README.md", "data/alternative_proofs.json"}
+CONTENT_FILES = {"index.md", "README.md", "docs/README.md", "data/alternative_proofs.json", "data/skipped_links.json"}
 
 
 def allowed(name: str) -> bool:
@@ -133,6 +133,13 @@ def publish(pull_only: bool = False) -> None:
     # Also retries a rejected push when no new files changed.
     run("git", "push", "origin", "HEAD:main")
     sha = run("git", "rev-parse", "HEAD")
+    if os.environ.get('PUBLISH_ASYNC') == '1':
+        # Hosted fallback cannot dispatch across repositories with GITHUB_TOKEN.
+        # The website also polls the wiki revision; local credentials can dispatch.
+        if os.environ.get('GITHUB_ACTIONS') != 'true' and not deployment_active():
+            run('gh', 'workflow', 'run', 'deploy.yml', '--repo', 'dkdleljh/goyounjung', '--ref', 'main')
+        print(f'Published wiki {sha}; deployment verification runs separately')
+        return
     try:
         result = verify(full=False)
     except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError):

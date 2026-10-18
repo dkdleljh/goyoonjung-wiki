@@ -17,18 +17,18 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
+- [`aaff6d08`](https://github.com/dkdleljh/goyoonjung-wiki/commit/aaff6d08) — Add representative images and source credits for every work
+- [`16bb128c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/16bb128c) — docs: add photographs to matching wiki topics and record credits
+- [`61f79834`](https://github.com/dkdleljh/goyoonjung-wiki/commit/61f79834) — docs: sync collected wiki content for website
 - [`376be089`](https://github.com/dkdleljh/goyoonjung-wiki/commit/376be089) — fix: retire historical MAA source after agency merger
 - [`acda49dd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/acda49dd) — docs: sync collected wiki content for website
-- [`62cb0881`](https://github.com/dkdleljh/goyoonjung-wiki/commit/62cb0881) — fix: verify every YouTube channel and recover RSS outages via official uploads
-- [`505cc507`](https://github.com/dkdleljh/goyoonjung-wiki/commit/505cc507) — fix: repair magazine sources and recover transient collection failures
-- [`7c754c41`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7c754c41) — docs: sync collected wiki content for website
 
 ## 직전 변경 파일
-- `config/agency-sources.json`
-- `docs/website-sync.md`
-- `pages/alternative-proof-missing.md`
-- `pages/appearances.md`
-- `pages/appearances/by-year.md`
-- `pages/brand-evidence-watch.md`
-- `pages/brands/boucheron.md`
-- `pages/brands/carrot.md`
+- `pages/works/alchemy-of-souls-light-and-shadow.md`
+- `pages/works/alchemy-of-souls.md`
+- `pages/works/deaths-game.md`
+- `pages/works/everyone-fights-worthlessness.md`
+- `pages/works/he-is-psychometric.md`
+- `pages/works/hunt.md`
+- `pages/works/law-school.md`
+- `pages/works/light-shop.md`

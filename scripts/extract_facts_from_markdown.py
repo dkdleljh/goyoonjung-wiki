@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import json
 import re
 
 try:
@@ -43,6 +44,22 @@ def extract_works() -> list[dict[str, object]]:
                 "extracted_at": seoul_timestamp_str(),
             }
         )
+    registry_path = PAGES.parent / 'config/work-registry.json'
+    discovered_path = FACTS / 'discovered-works.json'
+    registry = json.loads(registry_path.read_text()) if registry_path.exists() else []
+    registry += json.loads(discovered_path.read_text()) if discovered_path.exists() else []
+    overrides_path = FACTS / 'work-evidence-status.json'
+    overrides = json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
+    for row in rows:
+        match = next((r for r in registry if row['title'] in r.get('aliases', [r['title']])), None)
+        if match:
+            row['id'] = match['id']
+            row['page'] = f"pages/works/{match['slug']}.md"
+        proof = overrides.get(row['title'], {})
+        if proof:
+            row.update({k:v for k,v in proof.items() if k != 'sources'})
+            row['sources'] = list(dict.fromkeys(row['sources'] + proof.get('sources', [])))
+        row['verification'] = 'claim_evidence' if proof else 'editorial_record'
     return rows
 
 

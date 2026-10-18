@@ -156,7 +156,7 @@
   - 대체 후보: (없음)
 
 - pages/brands/marithe.md:22 · **MARITHÉ FRANÇOIS GIRBAUD**
-  - 스킵 URL: https://www.nc.press/news/articleView.html?idx=561975
+  - 스킵 URL: https://www.nc.press/news/articleView.html?idxno=561975
   - 대체 후보: (없음)
 
 - pages/interviews.md:84 · **인터뷰/기사 아카이브**
@@ -168,19 +168,19 @@
   - 대체 후보: (없음)
 
 - pages/interviews.md:290 · **인터뷰/기사 아카이브**
-  - 스킵 URL: https://www.nc.press/news/articleView.html?idx=561975
+  - 스킵 URL: https://www.nc.press/news/articleView.html?idxno=561975
   - 대체 후보: (없음)
 
 - pages/interviews.md:292 · **인터뷰/기사 아카이브**
-  - 스킵 URL: https://www.nc.press/news/articleView.html?idx=561975
+  - 스킵 URL: https://www.nc.press/news/articleView.html?idxno=561975
   - 대체 후보: (없음)
 
 - pages/pictorials/editorial.md:245 · **📸 화보/사진 — 에디토리얼/화보**
-  - 스킵 URL: https://www.nc.press/news/articleView.html?idx=561975
+  - 스킵 URL: https://www.nc.press/news/articleView.html?idxno=561975
   - 대체 후보: (없음)
 
 - pages/pictorials/editorial.md:247 · **📸 화보/사진 — 에디토리얼/화보**
-  - 스킵 URL: https://www.nc.press/news/articleView.html?idx=561975
+  - 스킵 URL: https://www.nc.press/news/articleView.html?idxno=561975
   - 대체 후보: (없음)
 
 - pages/works/moving.md:57 · **무빙 (Disney+)**

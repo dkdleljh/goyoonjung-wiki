@@ -142,10 +142,10 @@ def clamp(x: int) -> int:
 
 def score() -> list[Axis]:
     pages_total, urls_total, per = count_urls_in_pages()
-    allowlist = count_lines(CONFIG / "allowlist-domains.txt")
-    gsites = count_lines(CONFIG / "google-news-sites.txt")
+    allowlist = count_non_comment_lines(CONFIG / "allowlist-domains.txt")
+    gsites = count_non_comment_lines(CONFIG / "google-news-sites.txt")
     gqueries = count_google_query_lines()
-    yt = count_lines(CONFIG / "youtube-feeds.yml")
+    yt = sum(1 for line in (CONFIG / "youtube-feeds.yml").read_text().splitlines() if line.strip().startswith("- name:"))
     seen = get_seen_urls_count()
     audit_scores = read_official_audit_scores()
     runtime_guards = runtime_guard_score()
@@ -314,11 +314,11 @@ def write(axes: list[Axis]) -> None:
     pages_total, urls_total, per = count_urls_in_pages()
     top10 = sorted(per.items(), key=lambda kv: kv[1], reverse=True)[:10]
 
-    allowlist = count_lines(CONFIG / "allowlist-domains.txt")
-    gsites = count_lines(CONFIG / "google-news-sites.txt")
+    allowlist = count_non_comment_lines(CONFIG / "allowlist-domains.txt")
+    gsites = count_non_comment_lines(CONFIG / "google-news-sites.txt")
     gqueries = count_google_query_lines()
-    rss = count_lines(CONFIG / "magazine-rss.yml")
-    yt = count_lines(CONFIG / "youtube-feeds.yml")
+    rss = sum(1 for line in (CONFIG / "magazine-rss.yml").read_text().splitlines() if line.strip().startswith("- name:"))
+    yt = sum(1 for line in (CONFIG / "youtube-feeds.yml").read_text().splitlines() if line.strip().startswith("- name:"))
     seen = get_seen_urls_count()
 
     # Keep deterministic enough to avoid commit spam: date only.
@@ -333,11 +333,13 @@ def write(axes: list[Axis]) -> None:
         f"- pages_total: {pages_total}",
         f"- urls_total(markdown): {urls_total}",
         f"- seen_urls(db): {seen}",
-        f"- allowlist_domains(lines): {allowlist}",
-        f"- google_news_sites(lines): {gsites}",
+        f"- allowlist_domains: {allowlist}",
+        f"- google_news_sites: {gsites}",
         f"- google_news_queries(lines): {gqueries}",
-        f"- magazine_rss(lines): {rss}",
-        f"- youtube_feeds(lines): {yt}",
+        f"- magazine_sources: {rss}",
+        f"- youtube_channels: {yt}",
+        "",
+        "점수는 구성 요소와 기록에 따른 내부 지표이며 실제 가동률·정확도·자료 완성률이 아닙니다. [실측 결과](automation-measurements.md)를 함께 확인하세요.",
         "",
         "## Scores (0~100)",
     ]

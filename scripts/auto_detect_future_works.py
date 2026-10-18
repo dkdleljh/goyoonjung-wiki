@@ -35,10 +35,10 @@ def status_for(line: str) -> str:
 
 def main() -> int:
     candidates: list[dict[str, object]] = []
-    for source in [PAGES / "filmography.md", PAGES / "schedule.md", *sorted((PAGES / "works").glob("*.md"))]:
+    for source in [PAGES / "filmography.md", PAGES / "schedule.md", *sorted((PAGES / "works").glob("*.md")), *sorted((PAGES.parent / "news").glob("*.md"))[-7:]]:
         text = read_text(source)
         for line in text.splitlines():
-            if not is_future_candidate(line):
+            if not is_future_candidate(line) or not re.search(r"https?://|고윤정", line):
                 continue
             clean = re.sub(r"<[^>]+>", "", line).strip()
             if not clean:
@@ -52,6 +52,7 @@ def main() -> int:
                     "review_required": True,
                 }
             )
+    candidates = list({row["line"]: row for row in candidates}.values())
     write_json(FACTS / "future_candidates.json", candidates)
     table = [[x["source"], x["status"], "yes" if x["auto_landing"] else "queue", x["line"]] for x in candidates]
     lines = report_header("Future Watch (auto)")

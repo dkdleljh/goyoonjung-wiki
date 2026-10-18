@@ -324,9 +324,9 @@
 - 날짜: 2025-02-13
 - 매체: 뉴스컬처 (News Culture)
 - 제목: 고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]
-- 링크: https://www.nc.press/news/articleView.html?idx=561975 (보조/차단 가능)
+- 링크: https://www.nc.press/news/articleView.html?idxno=561975 (보조/차단 가능)
 - 상태: 보도(1차)
-- id: https://www.nc.press/news/articleView.html?idx=561975
+- id: https://www.nc.press/news/articleView.html?idxno=561975
 - 요약(3~5줄):
   - 고윤정의 매력이 물씬 담긴 '25 봄 캠페인 화보'가 공개됐다.
   - 바비인형 같은 매력적인 눈빛과 신비로운 분위기로 완벽하게 소화했다.

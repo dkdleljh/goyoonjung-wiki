@@ -39,24 +39,24 @@ def save_state(state: dict) -> None:
     STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def get_and_bump(key: str, mod: int) -> int:
+def get_and_bump(key: str, mod: int, step: int = 1) -> int:
     state = load_state()
     cur = int(state.get(key, 0) or 0)
     if mod <= 0:
         return 0
-    nxt = (cur + 1) % mod
+    nxt = (cur + max(1, step)) % mod
     state[key] = nxt
     save_state(state)
     return cur
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) != 4 or argv[1] != "get":
+    if len(argv) not in {4, 5} or argv[1] != "get":
         print("usage: collector_batch_state.py get <key> <mod>", file=sys.stderr)
         return 2
     key = argv[2]
     mod = int(argv[3])
-    off = get_and_bump(key, mod)
+    off = get_and_bump(key, mod, int(argv[4]) if len(argv) == 5 else 1)
     print(off)
     return 0
 

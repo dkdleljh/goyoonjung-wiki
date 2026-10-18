@@ -21,10 +21,10 @@
 - 메모: 작품별 공식 페이지 ID를 확정하기 전, 스틸/정보를 빠르게 찾기 위한 공식 앵커.
 
 - 플랫폼: Disney+
-- 구분: 검색(고윤정)
-- 링크(공식/원문): https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95
+- 구분: 무빙 공식 작품 정보
+- 링크(공식/원문): https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
 - 상태: 공식확정
-- id: https://www.disneyplus.com/ko-kr/search/%EA%B3%A0%EC%9C%A4%EC%A0%95
+- id: https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856
 - 메모: 작품별 공식 페이지 링크 확정 전, 검색 앵커로 사용.
 
 - 플랫폼: tvN

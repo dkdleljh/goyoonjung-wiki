@@ -30,7 +30,7 @@
 - 2025-05-21 · [고윤정, 오이영으로 한 뼘 더 성장](https://kstar.kbs.co.kr/list_view.html?idx=363033)
 - 2025-05-20 · ['의사 오이영' 고윤정, “매 순간 값지고 소중했던 작품](https://kstar.kbs.co.kr/list_view.html?idx=362920)
 - 2025-04-17 · [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)
-- 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)
+- 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idxno=561975)
 
 ## 2024
 - 2024-07 · [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)

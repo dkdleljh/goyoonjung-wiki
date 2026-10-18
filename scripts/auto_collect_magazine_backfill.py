@@ -59,13 +59,13 @@ SEARCH_TARGETS = [
 PAGINATION_PAGES = 4  # fetch a few pages per query to reach older content
 
 ARTICLE_PATTERNS = [
-    re.compile(r"^https?://www\\.elle\\.co\\.kr/article/\\d+", re.I),
-    re.compile(r"^https?://www\\.vogue\\.co\\.kr/\\d{4}/\\d{2}/\\d{2}/", re.I),
-    re.compile(r"^https?://www\\.harpersbazaar\\.co\\.kr/article/\\d+", re.I),
-    re.compile(r"^https?://www\\.wkorea\\.com/\\d{4}/\\d{2}/\\d{2}/", re.I),
-    re.compile(r"^https?://www\\.gqkorea\\.co\\.kr/\\d{4}/\\d{2}/\\d{2}/", re.I),
-    re.compile(r"^https?://www\\.esquirekorea\\.co\\.kr/article/\\d+", re.I),
-    re.compile(r"^https?://www\\.cosmopolitan\\.co\\.kr/article/\\d+", re.I),
+    re.compile(r"^https?://www\.elle\.co\.kr/article/\d+", re.I),
+    re.compile(r"^https?://www\.vogue\.co\.kr/\d{4}/\d{2}/\d{2}/", re.I),
+    re.compile(r"^https?://www\.harpersbazaar\.co\.kr/article/\d+", re.I),
+    re.compile(r"^https?://www\.wkorea\.com/\d{4}/\d{2}/\d{2}/", re.I),
+    re.compile(r"^https?://www\.gqkorea\.co\.kr/\d{4}/\d{2}/\d{2}/", re.I),
+    re.compile(r"^https?://www\.esquirekorea\.co\.kr/article/\d+", re.I),
+    re.compile(r"^https?://www\.cosmopolitan\.co\.kr/article/\d+", re.I),
 ]
 
 HREF_RE = re.compile(r'href=["\']([^"\']+)["\']', re.I)
@@ -164,9 +164,7 @@ def to_ymd(pub: str | None, fallback_year: str) -> str | None:
         y, mo, d = m.group(1), int(m.group(2)), int(m.group(3))
         return f"{y}-{mo:02d}-{d:02d}"
     m = re.search(r"(20\d{2})[-./](\d{1,2})", pub)
-    if m and m.group(1) == fallback_year:
-        y, mo = m.group(1), int(m.group(2))
-        return f"{y}-{mo:02d}-01"
+    # A month-only date cannot be silently converted into the first day.
     return None
 
 
@@ -199,7 +197,7 @@ def append_interview(item: Item) -> None:
         f"- 매체: {item.media}\n"
         f"- 제목: {item.title}\n"
         f"- 링크: {item.url}\n"
-        f"- 상태: 공식확정\n"
+        f"- 상태: 메타데이터 수집·내용 검증 대기\n"
         f"- id: {item.url}\n"
         "- 요약(3~5줄):\n"
         + "\n".join(summary_lines)
@@ -247,7 +245,7 @@ def append_pictorial(item: Item, kind: str) -> None:
         f"- 구분: {category}\n"
         f"- 제목: {item.title}\n"
         f"- 링크(원문): {item.url}\n"
-        f"- 상태: 공식확정\n"
+        f"- 상태: 메타데이터 수집·내용 검증 대기\n"
         f"- id: {item.url}\n"
     )
 

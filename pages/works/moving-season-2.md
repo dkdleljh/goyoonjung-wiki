@@ -19,3 +19,21 @@
 ## 관련 문서
 - [무빙 시즌 1](moving.md)
 - [필모그래피](../filmography.md)
+
+<!-- AUTO-CANDIDATES:START -->
+## 관련 링크(자동 후보)
+
+> 생성: 2026-10-18 14:36 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 자동 추천(S급 우선)
+
+- ⭐ [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
+
+
+
+### 전체 후보
+
+- [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
+
+- [모자무싸 협업과 무빙 시즌 2 촬영 소감](https://enews.imbc.com/News/ViewAmp/508207)  _(출처: interviews.md)_
+<!-- AUTO-CANDIDATES:END -->

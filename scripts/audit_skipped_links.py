@@ -32,30 +32,11 @@ OUT_JSON = BASE / "data" / "skipped_links.json"
 
 URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
 
-# Keep aligned with scripts/check_links.py SKIP_DOMAINS additions.
-SKIP_DOMAINS = {
-    "youtube.com",
-    "youtu.be",
-    "instagram.com",
-    "facebook.com",
-    "twitter.com",
-    "x.com",
-    "chanel.com",
-    "boucheron.com",
-    "disneyplus.com",
-    "disneypluskr.com",
-    "tving.com",
-    "program.tving.com",
-    "yna.co.kr",
-    "about.netflix.com",
-    "goodal.com",
-    "vodana.co.kr",
-    "lensme.co.kr",
-    "easytomorrow.co.kr",
-    "namu.wiki",
-    "nc.press",
-    "kstarfashion.com",
-}
+try:
+    from scripts.check_links import SKIP_DOMAINS
+except ImportError:
+    from check_links import SKIP_DOMAINS
+
 
 
 @dataclass(frozen=True)
@@ -71,13 +52,13 @@ def iter_md_files() -> list[Path]:
     for root in (PAGES_DIR, SOURCES_DIR):
         if not root.exists():
             continue
-        out.extend(root.rglob("*.md"))
+        out.extend(p for p in root.rglob("*.md") if p.name not in {OUT_MD.name, "link-health.md", "alternative-proof-candidates.md"})
     return sorted(out)
 
 
 def is_skipped(host: str) -> bool:
     host = host.lower()
-    return any(host.endswith(d) for d in SKIP_DOMAINS)
+    return any((host == d or host.endswith("."+d)) for d in SKIP_DOMAINS)
 
 
 def scan_file(path: Path) -> list[Hit]:

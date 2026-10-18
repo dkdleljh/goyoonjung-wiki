@@ -5,7 +5,7 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
-WorkingDirectory=%h/goyoonjung-wiki
+WorkingDirectory=%h/.local/share/goyoonjung-runtime/goyoonjung-wiki
 ExecStart=/usr/bin/env bash scripts/collect_and_sync_website.sh
 Environment=COLLECT_ONLY=1
 Environment=TZ=Asia/Seoul

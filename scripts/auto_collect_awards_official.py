@@ -64,6 +64,8 @@ def main() -> int:
     table = [[x["year"], x["ceremony"], x["category"], x["result"], x["action"]] for x in items]
     lines = report_header("Awards Official Watch (auto)")
     lines += [
+        "이 문서는 기존 위키 근거의 색인입니다. 새 공식 발표의 실제 외부 조회 결과는 [수집 출처 상태](source-collection-status.md)의 official-live 항목에서 확인합니다.",
+        "",
         "## Summary",
         f"- total_awards: {len(items)}",
         f"- needs_official_proof: {len(unresolved)}",

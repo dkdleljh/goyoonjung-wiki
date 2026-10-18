@@ -27,53 +27,53 @@
 - (없음)
 
 ## (페이지 내 표기 확인 필요) (상위 15개 위치)
-- pages/interviews.md:661 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/interviews.md:669 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/interviews.md:677 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:156 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:164 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:172 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:180 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:188 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:196 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:204 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:212 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:220 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:228 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:236 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:244 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:662 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:670 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:678 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:157 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:165 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:173 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:181 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:189 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:197 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:205 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:213 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:221 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:229 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:237 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:245 · - 날짜: (페이지 내 표기 확인 필요)
 
 ## (확인 필요) (상위 15개 위치)
-- pages/interviews.md:661 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/interviews.md:669 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/interviews.md:677 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:156 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:164 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:172 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:180 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:188 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:196 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:204 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:212 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:220 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:228 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:236 · - 날짜: (페이지 내 표기 확인 필요)
-- pages/appearances.md:244 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:662 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:670 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/interviews.md:678 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:157 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:165 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:173 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:181 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:189 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:197 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:205 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:213 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:221 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:229 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:237 · - 날짜: (페이지 내 표기 확인 필요)
+- pages/appearances.md:245 · - 날짜: (페이지 내 표기 확인 필요)
 
 ## 검증불가 (상위 13개 위치)
-- pages/awards.md:40 · | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:41 · | 2025 | 코리아 드라마 어워즈 | 여자 우수연기상 | *언젠가는 슬기로울 전공의생활* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:42 · | 2025 | 펀덱스어워드 | TV 드라마 여자주연 부문 | *언젠가는 슬기로울 전공의생활* | 수상 | 검증불가(공식 근거 링크 미확보) |  | 2025년 12월 18일 |
-- pages/awards.md:45 · | 2024 | 백상예술대상(TV) | 여자 신인연기상 |  | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:46 · | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:47 · | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:48 · | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:49 · | 2022 | 부일영화상 | 신인 여자연기상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:50 · | 2022 | 대종상 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:51 · | 2022 | 청룡영화상 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/awards.md:52 · | 2022 | 춘사국제영화제 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
-- pages/profile.md:50 · - 상태: 검증불가(공식 근거 미확보)
-- pages/profile.md:57 · - 상태: 검증불가(공식 근거 미확보)
+- pages/awards.md:41 · | 2025 | 대한민국 대중문화예술상 | 문화체육관광부 장관 표창 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:42 · | 2025 | 코리아 드라마 어워즈 | 여자 우수연기상 | *언젠가는 슬기로울 전공의생활* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:43 · | 2025 | 펀덱스어워드 | TV 드라마 여자주연 부문 | *언젠가는 슬기로울 전공의생활* | 수상 | 검증불가(공식 근거 링크 미확보) |  | 2025년 12월 18일 |
+- pages/awards.md:46 · | 2024 | 백상예술대상(TV) | 여자 신인연기상 |  | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:47 · | 2023 | 백상예술대상(영화) | 여자 신인연기상 |  | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:48 · | 2023 | 아시아콘텐츠어워즈 & 글로벌OTT어워즈 | 여자 신인연기상 | *무빙* | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:49 · | 2023 | 씨네21 | 올해의 시리즈: 올해의 신인 여자배우 |  | 수상 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:50 · | 2022 | 부일영화상 | 신인 여자연기상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:51 · | 2022 | 대종상 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:52 · | 2022 | 청룡영화상 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/awards.md:53 · | 2022 | 춘사국제영화제 | 신인여우상 | *헌트* | 후보 | 검증불가(공식 근거 링크 미확보) |  |  |
+- pages/profile.md:51 · - 상태: 검증불가(공식 근거 미확보)
+- pages/profile.md:58 · - 상태: 검증불가(공식 근거 미확보)
 
 ## 추가 필요 (상위 3개 위치)
 - pages/pictorials/editorial.md:420 · - 링크(원문): (추가 필요)

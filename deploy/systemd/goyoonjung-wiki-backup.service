@@ -1,0 +1,10 @@
+[Unit]
+Description=Verify and store wiki backup away from the primary host
+After=network-online.target
+[Service]
+Type=oneshot
+WorkingDirectory=%h/.local/share/goyoonjung-runtime/goyoonjung-wiki
+ExecStart=/usr/bin/flock -n -E 75 .locks/content-sync.lock .venv/bin/python scripts/remote_backup.py
+Environment=TZ=Asia/Seoul
+TimeoutStartSec=300
+SuccessExitStatus=75

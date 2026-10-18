@@ -16,14 +16,28 @@
 - 1화(근거용, TVING): https://www.tving.com/contents/P001768976
 ## 공식 링크
 - https://tvn.cjenm.com/ko/resident-playbook/
-- https://www.tving.com/contents/P001768976- https://www.youtube.com/watch?v=SIKJWldJHTU
+- https://www.tving.com/contents/P001768976
+- https://www.youtube.com/watch?v=SIKJWldJHTU
 
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
-> 생성: (자동 생성 시각) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 14:23 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 전체 후보
+
+- [[인터뷰] 고윤정 “사랑해 주세요, 내가 당신을 사랑하듯이” (넷플릭스 ’이 사랑 통역 되나요?‘)](https://kstar.kbs.co.kr/list_view.html?idx=391146)  _(출처: interviews.md)_
+
+- ['의사 오이영' 고윤정, “매 순간 값지고 소중했던 작품](https://kstar.kbs.co.kr/list_view.html?idx=362920)  _(출처: interviews.md)_
+
+- [고윤정, 오이영으로 한 뼘 더 성장](https://kstar.kbs.co.kr/list_view.html?idx=363033)  _(출처: interviews.md)_
+
+- [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=361830)  _(출처: appearances.md)_
+
+- [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=362628)  _(출처: appearances.md)_
+
+- [<언젠가는 슬기로울 전공의생활> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=362734)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

@@ -14,7 +14,7 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `376be089` |
+| 최신 커밋 | `aaff6d08` |
 | 최신 릴리즈 태그 | `v1.58.2` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -38,11 +38,11 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `config/agency-sources.json`
-- `docs/website-sync.md`
-- `pages/alternative-proof-missing.md`
-- `pages/appearances.md`
-- `pages/appearances/by-year.md`
+- `pages/works/alchemy-of-souls-light-and-shadow.md`
+- `pages/works/alchemy-of-souls.md`
+- `pages/works/deaths-game.md`
+- `pages/works/everyone-fights-worthlessness.md`
+- `pages/works/he-is-psychometric.md`
 
 ## 운영 핵심 페이지
 - [`pages/awards-official-watch.md`](awards-official-watch.md)

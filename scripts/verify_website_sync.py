@@ -38,7 +38,7 @@ def expected_source_paths() -> set[str]:
     paths = git("ls-files", "-z").split("\0")
     return {p for p in paths if p.startswith(("pages/", "sources/", "news/"))
             and p.endswith(".md") and not any(x in p.split("/") for x in ("templates", "checklists"))} | {
-                "data/facts/profile.json", "data/facts/works.json"}
+                "data/facts/profile.json", "data/facts/works.json"} | ({"data/reports/heartbeat.json"} if "data/reports/heartbeat.json" in paths else set())
 
 
 def verify(full: bool = True) -> dict:

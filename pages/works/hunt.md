@@ -26,7 +26,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-18 12:39 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 14:36 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -54,3 +54,8 @@
 ## 링크 박스
 - 예고편/홍보(공식): https://www.youtube.com/watch?v=CSOb8gia_mg
 - 시사회/현장(보도 1차): https://kstar.kbs.co.kr/list_view.html?idx=220920
+
+## 개봉·배역 확인
+
+- 개봉: 2022-08-10 — [KOFIC 작품 정보](https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792)
+- 고윤정의 조유정 역 — [한국영상자료원](https://www.koreafilm.or.kr/library/search/video/114983)

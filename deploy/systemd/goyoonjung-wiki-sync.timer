@@ -1,10 +1,11 @@
 [Unit]
-Description=Check wiki GitHub and Pages sync every 15 minutes
+Description=Frequent news and official-source collection
 
 [Timer]
-OnBootSec=10min
-OnUnitInactiveSec=15min
-AccuracySec=30s
+OnBootSec=2min
+OnCalendar=*-*-* *:0/5:00
+AccuracySec=15s
+Persistent=true
 Unit=goyoonjung-wiki-sync.service
 
 [Install]

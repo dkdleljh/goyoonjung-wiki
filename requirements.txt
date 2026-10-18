@@ -22,3 +22,6 @@ uvicorn[standard]>=0.30,<1
 # Modern Google News redirects; 0.2.x uses the pre-1.0 selectolax parser.
 googlenewsdecoder==0.2.1
 selectolax>=0.3.27,<1
+
+# Public playlist metadata only (no audiovisual downloads).
+yt-dlp>=2025.1,<2027

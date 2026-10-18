@@ -37,6 +37,7 @@ import normalize_url  # noqa: E402
 import relevance  # noqa: E402
 from collector_io import append_news_lines  # noqa: E402
 from google_news_resolver import resolve, warm_cache  # noqa: E402
+from source_schedule import record, search_window, select  # noqa: E402
 
 CONF_PATH = BASE / "config" / "google-news-sites.txt"
 
@@ -111,6 +112,8 @@ def append_items(path: Path, items: list[dict]) -> None:
     append_news_lines(path, [f"- [GoogleNews/{it['label']}] [{it['title']}]({it['url']}) ({it['date']})" for it in items])
 
 
+
+
 def main() -> int:
     errors = 0
     db_manager.init_db()
@@ -124,12 +127,13 @@ def main() -> int:
     total_new = 0
     # Rolling batch (round-robin)
     max_sites = int(os.environ.get("MAX_SITES", "8"))
-    offset = int(os.environ.get("BATCH_OFFSET", "0"))
-    if max_sites > 0 and len(sites) > max_sites:
-        sites = (sites[offset:] + sites[:offset])[:max_sites]
+    sites = select(sites, lambda site: "site:" + site.domain, max_sites)
 
     for s in sites:
-        q = f"site:{s.domain} {KEYWORD} when:7d"
+        source_key = "site:" + s.domain
+        before_errors = errors
+        record(source_key, False)
+        q = f"site:{s.domain} {KEYWORD} {search_window(source_key)}"
         rss_url = RSS_TEMPLATE.format(q=quote_plus(q))
         xml_data = fetch_rss(rss_url)
         if not xml_data:
@@ -210,6 +214,8 @@ def main() -> int:
         append_items(news_path, new_items)
         for url, source in pending:
             db_manager.add_seen_url(url, source=source)
+
+        record(source_key, errors == before_errors)
 
     print(f"auto_collect_google_news_sites: new={total_new}")
     print(f"source_errors={errors}")

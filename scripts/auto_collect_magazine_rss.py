@@ -197,26 +197,27 @@ def parse_hll(data: bytes) -> list[dict]:
 def collect_feed(feed: dict, keyword: str) -> tuple[list[dict], dict]:
     url = feed["url"]
     mode = feed.get("mode", "rss")
+    page = int(feed.get("page", 1))
     report = {"name": feed["name"], "url": url, "scope": feed.get("scope", "keyword_search"), "status": "failed"}
     try:
         warnings = []
         if mode == "rss":
-            rows, warnings = parse_rss(fetch(url))
+            rows, warnings = parse_rss(fetch(url + (("&" if "?" in url else "?") + f"paged={page}" if page > 1 else "")))
         elif mode == "hll_search":
-            rows = parse_hll(request(url, method="POST", json={"page": 1, "id": "artnews", "keyword": keyword, "sortOption": "latest"}))
+            rows = parse_hll(request(url, method="POST", json={"page": page, "id": "artnews", "keyword": keyword, "sortOption": "latest"}))
         elif mode == "wp_search":
             payload = json.loads(request(url, method="POST", data={"action": "get_search_custom", "posts_per_page": 20,
-                              "post_type": "post", "paged": 1, "query[s]": keyword}))
+                              "post_type": "post", "paged": page, "query[s]": keyword}))
             if not isinstance(payload, dict) or "count_posts" not in payload or not isinstance(payload.get("current_posts"), list):
                 raise SourceError("Invalid magazine search response")
-            if int(payload["count_posts"]) > 0 and not payload["current_posts"]:
+            if page == 1 and int(payload["count_posts"]) > 0 and not payload["current_posts"]:
                 raise SourceError("Search reports articles but returned none")
             rows = [{"title": r["post_title"], "url": r["permalink"], "date": r.get("post_date", "")} for r in payload["current_posts"]]
         elif mode == "singles_search":
-            payload = json.loads(request(url, params={"q": keyword, "offset": 0, "limit": 25}))
+            payload = json.loads(request(url, params={"q": keyword, "offset": (page - 1) * 25, "limit": 25}))
             if not isinstance(payload, dict) or payload.get("success") is not True or not isinstance(payload.get("articles"), list):
                 raise SourceError("Invalid Singles search response")
-            if payload.get("total", 0) > 0 and not payload["articles"]:
+            if page == 1 and payload.get("total", 0) > 0 and not payload["articles"]:
                 raise SourceError("Search reports articles but returned none")
             rows = [{"title": r["title"], "url": r["link"], "date": r.get("publishedAt", "")} for r in payload["articles"]]
         else:
@@ -231,7 +232,8 @@ def collect_feed(feed: dict, keyword: str) -> tuple[list[dict], dict]:
                 raise SourceError("Article link is outside the configured official source")
             if keyword in row["title"]:
                 matched.append(row)
-        report.update(status="success", fetched=len(rows), matched=len(matched), warnings=warnings)
+        report.update(status="success", fetched=len(rows), matched=len(matched), warnings=warnings,
+                      page=page, page_fingerprint=__import__("hashlib").sha256("|".join(row["url"] for row in rows).encode()).hexdigest())
         return matched, report
     except (SourceError, ValueError, KeyError, TypeError, AttributeError) as exc:
         report.update(error=str(exc), kind=getattr(exc, "kind", "parse"), retryable=getattr(exc, "retryable", False))
@@ -252,7 +254,7 @@ def make_entry(row: dict, feed: dict) -> Entry:
     link = row["url"]
     target = "interviews" if feed.get("type_hint") == "interview" else "editorial"
     block = "\n".join([f"- 날짜: {date}", f"- 매체: {feed['name']}", "- 구분: 화보/기사(공식 출처)",
-                         f"- 제목: {title}", f"- 링크(원문): {link}", "- 상태: 공식확정", f"- id: {link}"])
+                         f"- 제목: {title}", f"- 링크(원문): {link}", "- 상태: 원문 메타데이터 수집", f"- id: {link}"])
     return Entry(year, block, link, target)
 
 

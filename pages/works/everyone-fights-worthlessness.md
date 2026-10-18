@@ -20,3 +20,13 @@ JTBC의 첫 방송 공지와 최종회 기록을 대조했다. 이전의 ‘2026
 ## 관련 인터뷰
 - [2026년 10월 마리끌레르 인터뷰](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)
 - [인터뷰 아카이브](../interviews.md)
+
+<!-- AUTO-CANDIDATES:START -->
+## 관련 링크(자동 후보)
+
+> 생성: 2026-10-18 14:23 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 전체 후보
+
+- [고윤정, 말간 얼굴의 ‘도끼 PD’ (JTBC ‘모두가 자신의 무가치함과 싸우고 있다’)](https://kstar.kbs.co.kr/list_view.html?idx=394652)  _(출처: appearances.md)_
+<!-- AUTO-CANDIDATES:END -->

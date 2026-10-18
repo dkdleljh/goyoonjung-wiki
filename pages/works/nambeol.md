@@ -22,3 +22,37 @@
 
 ## 관련 문서
 - [필모그래피](../filmography.md)
+
+<!-- AUTO-CANDIDATES:START -->
+## 관련 링크(자동 후보)
+
+> 생성: 2026-10-18 14:36 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 자동 추천(S급 우선)
+
+- ⭐ [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
+
+- ⭐ [이병헌-고윤정이 그려낼 조선 하드보일드 액션 ‘남벌’](https://www.vogue.co.kr/2026/07/07/%ec%9d%b4%eb%b3%91%ed%97%8c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ea%b7%b8%eb%a0%a4%eb%82%bc-%ec%a1%b0%ec%84%a0-%ed%95%98%eb%93%9c%eb%b3%b4%ec%9d%bc%eb%93%9c-%ec%95%a1%ec%85%98-%eb%82%a8/)  _(출처: pictorials/editorial.md)_
+
+- ⭐ [고윤정차기작 '남벌'에 쏠린 관심(feat. 이병헌 & 이모개)](https://www.harpersbazaar.co.kr/article/1905885)  _(출처: pictorials/editorial.md)_
+
+
+
+### 전체 후보
+
+- [샤넬 10월호 커버 인터뷰 — 무빙 시즌 2와 남벌](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)  _(출처: interviews.md)_
+
+- [이병헌-고윤정이 그려낼 조선 하드보일드 액션 ‘남벌’](https://www.vogue.co.kr/2026/07/07/%ec%9d%b4%eb%b3%91%ed%97%8c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ea%b7%b8%eb%a0%a4%eb%82%bc-%ec%a1%b0%ec%84%a0-%ed%95%98%eb%93%9c%eb%b3%b4%ec%9d%bc%eb%93%9c-%ec%95%a1%ec%85%98-%eb%82%a8/)  _(출처: pictorials/editorial.md)_
+
+- [고윤정차기작 '남벌'에 쏠린 관심(feat. 이병헌 & 이모개)](https://www.harpersbazaar.co.kr/article/1905885)  _(출처: pictorials/editorial.md)_
+
+- [고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅](https://kstar.kbs.co.kr/list_view.html?idx=405372)  _(출처: appearances.md)_
+
+- [고윤정, 영화 '남벌' 캐스팅…이병헌과 첫 연기 호흡 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839)  _(출처: appearances.md)_
+
+- [이도현, '남벌' 캐스팅…이병헌·고윤정과 무협 액션 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295)  _(출처: appearances.md)_
+
+- [고윤정, '무빙 시즌2' 이어 '남벌'까지…OTT와 스크린 넘나든다 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003)  _(출처: appearances.md)_
+
+- [우즈, '남벌'로 스크린 데뷔…이병헌·고윤정과 연기 호흡 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008670658)  _(출처: appearances.md)_
+<!-- AUTO-CANDIDATES:END -->

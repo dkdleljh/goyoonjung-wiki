@@ -1,26 +1,50 @@
-# works-keywords.yml
-# 작품별 자동 후보 링크 생성(키워드 매칭) 설정
-# - work_file: pages/works/ 아래 파일명
-# - title: 표시용 제목
-# - keywords: 매칭 키워드(작품명/캐릭터명/플랫폼/별칭 등)
-
+# Generated baseline; new works are also discovered from facts automatically.
 works:
-  moving.md:
-    title: "무빙"
-    keywords: ["무빙", "장희수", "Disney+", "디즈니+"]
-
-  alchemy-of-souls.md:
-    title: "환혼: 빛과 그림자"
-    keywords: ["환혼", "빛과 그림자", "진부연", "낙수", "tvN"]
-
-  law-school.md:
-    title: "로스쿨"
-    keywords: ["로스쿨", "전예슬", "JTBC"]
-
+  he-is-psychometric.md:
+    title: "사이코메트리 그녀석"
+    keywords: ["사이코메트리 그녀석", "김소현"]
+  the-school-nurse-files.md:
+    title: "보건교사 안은영"
+    keywords: ["보건교사 안은영", "최유진"]
   sweethome.md:
     title: "스위트홈"
-    keywords: ["스위트홈", "스위트 홈", "박유리", "Netflix", "넷플릭스"]
-
+    keywords: ["스위트홈"]
+  law-school.md:
+    title: "로스쿨"
+    keywords: ["로스쿨", "전예슬"]
+  alchemy-of-souls.md:
+    title: "환혼"
+    keywords: ["환혼"]
+  alchemy-of-souls-light-and-shadow.md:
+    title: "환혼 빛과 그림자"
+    keywords: ["환혼 빛과 그림자"]
   hunt.md:
     title: "헌트"
     keywords: ["헌트", "조유정"]
+  moving.md:
+    title: "무빙"
+    keywords: ["무빙"]
+  deaths-game.md:
+    title: "이재, 곧 죽습니다"
+    keywords: ["이재, 곧 죽습니다", "이지수"]
+  sweethome-2.md:
+    title: "스위트홈 2"
+    keywords: ["스위트홈 2"]
+  light-shop.md:
+    title: "조명가게"
+    keywords: ["조명가게"]
+  resident-playbook.md:
+    title: "언젠가는 슬기로울 전공의생활"
+    keywords: ["언젠가는 슬기로울 전공의생활", "오이영"]
+  can-this-love-be-translated.md:
+    title: "이 사랑 통역 되나요?"
+    keywords: ["이 사랑 통역 되나요?", "차무희"]
+  everyone-fights-worthlessness.md:
+    title: "모두가 자신의 무가치함과 싸우고 있다"
+    keywords: ["모두가 자신의 무가치함과 싸우고 있다", "변은아"]
+  moving-season-2.md:
+    title: "무빙 시즌 2"
+    keywords: ["무빙 시즌 2"]
+  nambeol.md:
+    title: "남벌"
+    keywords: ["남벌", "애령"]

@@ -92,7 +92,7 @@ def main(check: bool = False) -> int:
         print("Missing YouTube configuration")
         return 1
     conf = parse_simple_yml(CONF_PATH.read_text(encoding="utf-8"))
-    keyword, feeds = conf.get("keyword", "고윤정"), conf.get("feeds", [])
+    feeds = conf.get("feeds", [])
     if not feeds:
         print("No YouTube sources configured")
         return 1
@@ -108,7 +108,7 @@ def main(check: bool = False) -> int:
         db_manager.init_db()
     for feed, (rows, report) in zip(feeds, results, strict=True):
         name = feed["name"]
-        related = [r for r in rows if keyword in r["title"] and relevance.is_relevant(r["title"], r["url"], name, "")]
+        related = [r for r in rows if relevance.is_relevant(r["title"], r["url"], name, "")]
         report["matched"] = len(related)
         reports.append(report)
         if check:

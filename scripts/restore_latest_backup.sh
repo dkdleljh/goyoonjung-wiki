@@ -30,7 +30,8 @@ if [ -z "$SRC_DIR" ]; then
   exit 1
 fi
 
-for item in pages scripts config sources data README.md index.md config.yaml requirements.txt requirements-dev.txt; do
+mkdir -p "$RESTORE_ROOT"
+for item in pages scripts config sources news data deploy .github README.md index.md config.yaml requirements.txt requirements-dev.txt; do
   if [ -e "$SRC_DIR/$item" ]; then
     rm -rf "$RESTORE_ROOT/$item"
     cp -a "$SRC_DIR/$item" "$RESTORE_ROOT/$item"

@@ -63,7 +63,7 @@
 - 2025-04-25 · [고윤정, 싱그러운 매력으로 여름 패션 제안](https://www.meconomynews.com/news/articleView.html?idxno=111782)
 - 2025-04-23 · [고윤정이 '여친룩 장인'으로 주목받는 이유](https://www.wkorea.com/2025/04/23/%ec%82%ac%eb%9e%91%ec%8a%a4%eb%9f%bd%ea%b3%a0%eb%8f%84-%ec%bf%a8%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ed%91%9c-%ec%97%ac%ec%b9%9c%eb%a3%a9/)
 - 2025-04-17 · [엘르 커버스타 고윤정 역시 샤넬 앰배서더 그 자체](https://www.elle.co.kr/article/1880222)
-- 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idx=561975)
+- 2025-02-13 · [고윤정, 바비인형도 울고갈 천상계 비주얼 [화보]](https://www.nc.press/news/articleView.html?idxno=561975)
 - 2025-02-13 · [렌즈미 캠페인 영상 (PANDEIA)](https://youtu.be/aRrlD-9WIbk)
 
 ## 2024

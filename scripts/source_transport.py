@@ -90,6 +90,8 @@ def save_report(collector: str, sources: list[dict]) -> None:
         if retired:
             row['failures_before_retirement'] = old.get('failures_before_retirement', old.get('consecutive_failures', 0))
         print(json.dumps(row, ensure_ascii=False), flush=True)
+    # Batches retain prior observations with their original timestamps.
+    sources = list({**previous, **{row['name']: row for row in sources}}.values())
     active = [row for row in sources if row['status'] != 'retired']
     status = 'retired' if sources and not active else ('success' if active and all(
         row['status'] == 'success' for row in active) else 'failed')

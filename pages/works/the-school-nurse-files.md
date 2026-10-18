@@ -21,10 +21,17 @@
 
 
 <!-- AUTO-CANDIDATES:START -->
-
 ## 관련 링크(자동 후보)
 
-> 생성: (자동 생성 시각) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 14:23 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+
+### 전체 후보
+
+- [[인터뷰] 고윤정은 달린다 응원할게, 너 (디즈니+ ‘무빙’)](https://kstar.kbs.co.kr/list_view.html?idx=277651)  _(출처: interviews.md)_
+
+- [정세랑 작가 "'보건교사 안은영'은 나의 장난감 칼과 비비탄총"](https://www.yna.co.kr/view/AKR20201009055300005)  _(출처: interviews.md)_
+
+- [YTN 라디오 생생경제 인터뷰](https://m.radio.ytn.co.kr/interview_view.php?id=73903&s_mcd=0206)  _(출처: interviews.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

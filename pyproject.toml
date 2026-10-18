@@ -73,6 +73,7 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "lxml>=4.9.3",
     "feedparser>=6.0.10",
+    "yt-dlp>=2025.1,<2027",
     "validators>=0.22.0",
     "bleach>=6.1.0",
 ]

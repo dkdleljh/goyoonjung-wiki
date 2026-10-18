@@ -1,0 +1,66 @@
+name: Collector failover
+on:
+  schedule:
+    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Run a recovery drill even when primary is fresh
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: collector-failover
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      COLLECT_ONLY: '1'
+      TZ: Asia/Seoul
+      GH_TOKEN: ${{ github.token }}
+      PUBLISH_ASYNC: '1'
+    steps:
+      - uses: actions/checkout@v6
+      - name: Inspect primary heartbeat without refreshing it
+        id: health
+        env:
+          FORCE_RECOVERY: ${{ inputs.force }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+          try:
+              heartbeat = json.loads(Path('data/reports/heartbeat.json').read_text())
+              age = (datetime.now(timezone.utc) - datetime.fromisoformat(heartbeat['timestamp'])).total_seconds()
+          except (OSError, ValueError, KeyError):
+              age = 999999
+          due = age > 1200 or age < -300 or os.environ.get('FORCE_RECOVERY') == 'true'
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'due={str(due).lower()}\n')
+          print(f'Primary heartbeat age: {age:.0f}s; recovery required: {due}')
+          PY
+      - uses: actions/setup-python@v6
+        if: steps.health.outputs.due == 'true'
+        with:
+          python-version: '3.12'
+      - name: Install collector dependencies
+        if: steps.health.outputs.due == 'true'
+        run: pip install -r requirements.txt
+      - name: Restore last verified state
+        if: steps.health.outputs.due == 'true'
+        run: python scripts/remote_backup.py --restore-database
+      - name: Collect and publish recovery snapshot
+        if: steps.health.outputs.due == 'true'
+        run: |
+          git config user.name 'goyoonjung-wiki automation'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rc=0
+          python scripts/fast_collect.py || rc=$?
+          if [ "$rc" -gt 1 ]; then exit "$rc"; fi
+          python scripts/remote_backup.py
+          python scripts/publish_website_content.py
+          if [ "$rc" -eq 1 ]; then echo "::warning::Recovery published with source warnings; see source-collection-status.md"; fi

@@ -23,6 +23,7 @@ Config:
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from urllib.parse import unquote
 
@@ -82,7 +83,8 @@ def is_relevant(title: str, url: str = "", source: str = "", description: str = 
     description = (description or "").strip()
 
     # Hard rule: name must appear in title OR description
-    if NAME not in title and NAME not in description:
+    aliases = re.compile(r"고윤정|go[ -]*youn[ -]*jung|go[ -]*yoon[ -]*jung|ko[ -]*yoon[ -]*jung|コ[・ ]?ユンジョン|高允贞|高允貞", re.I)
+    if not aliases.search(title + ' ' + description):
         return False
 
     bl = load_blacklist()
@@ -94,9 +96,9 @@ def is_relevant(title: str, url: str = "", source: str = "", description: str = 
             return False
 
     score = 0
-    if NAME in title:
+    if aliases.search(title):
         score += 3
-    if NAME in description:
+    if aliases.search(description):
         score += 2
     if any(tok in title for tok in CONTEXT_TOKENS):
         score += 1

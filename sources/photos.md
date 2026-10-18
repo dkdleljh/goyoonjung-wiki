@@ -8,7 +8,7 @@
 
 ![인천공항에서 손으로 하트 모양을 만드는 고윤정](https://dkdleljh.github.io/goyounjung/images/photos/portrait-960.webp)
 
-- 제작자: [티비텐](https://www.youtube.com/@_TV10)
+- 제작자: [티비텐](https://www.youtube.com/watch?v=yP0pZUyn0zc)
 - [원본 영상](https://www.youtube.com/watch?v=yP0pZUyn0zc) · [Wikimedia Commons 파일 설명](https://commons.wikimedia.org/wiki/File:Go_Youn-jung_on_January_26%2C_2025.png)
 - 이용 조건: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
@@ -32,7 +32,7 @@
 
 ![이 사랑 통역 되나요? 제작발표회에서 나란히 앉은 고윤정과 김선호](https://dkdleljh.github.io/goyounjung/images/photos/press-960.webp)
 
-- 제작자: [티비텐 (@_TV10)](https://www.youtube.com/@_TV10)
+- 제작자: [티비텐 (@_TV10)](https://www.youtube.com/shorts/-lXodlhAXzo)
 - [원본 영상](https://www.youtube.com/shorts/-lXodlhAXzo) · [Wikimedia Commons 파일 설명](https://commons.wikimedia.org/wiki/File:CTLBT_Presscon_01.jpg)
 - 이용 조건: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 

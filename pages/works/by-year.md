@@ -14,30 +14,30 @@
 - [모두가 자신의 무가치함과 싸우고 있다](../works/everyone-fights-worthlessness.md) (JTBC) — 변은아 · 방영 완료·종영 (4월 18일 ~ 5월 24일) · 근거: [JTBC](https://tv.jtbc.co.kr/wearealltryinghere) · [최종회](https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view)
 
 ## 2025
-- 언젠가는 슬기로울 전공의생활 (tvN) — 오이영 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
+- 언젠가는 슬기로울 전공의생활 (tvN) — 오이영 · 공개 완료 · 근거: [공식 작품 페이지](https://www.tving.com/contents/P001768976)
 
 ## 2024
-- 조명가게 (Disney+) — 장희수 · 특별출연 (무빙 세계관) · 근거: [Disney+](https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4)
+- 조명가게 (Disney+) — 장희수 · 공개 완료 · 특별출연 (무빙 세계관) · 근거: [Disney+](https://www.disneyplus.com/en-hk/browse/entity-6620d99f-aac9-473b-8ff8-f248e123b5cc)
 
 ## 2023
-- 무빙 (Disney+) — 장희수 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
-- 이재, 곧 죽습니다 (TVING) — 이지수 · 특별출연 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
-- [스위트홈 2](../works/sweethome-2.md) (Netflix) — 박유리 · 특별출연 · 근거: [Netflix](https://www.netflix.com/kr/title/81061734)
+- 무빙 (Disney+) — 장희수 · 공개 완료 · 근거: [공식 작품 페이지](https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856)
+- 이재, 곧 죽습니다 (TVING) — 이지수 · 공개 완료 · 특별출연 · 근거: [공식 작품 페이지](https://www.tving.com/contents/P001748996)
+- [스위트홈 2](../works/sweethome-2.md) (Netflix) — 박유리 · 공개 완료 · 특별출연 · 근거: [Netflix](https://www.netflix.com/kr/title/81061734)
 
 ## 2022
-- 환혼 (tvN) — 낙수 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
-- [환혼 빛과 그림자](../works/alchemy-of-souls-light-and-shadow.md) (tvN) — 낙수 · (주요) · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
-- 헌트 (영화) — 조유정 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
+- 환혼 (tvN) — 낙수 · 공개 완료 · 근거: [공식 작품 페이지](https://tvn.cjenm.com/ko/hhw1_test/)
+- [환혼 빛과 그림자](../works/alchemy-of-souls-light-and-shadow.md) (tvN) — 낙수 · 공개 완료 · (주요) · 근거: [공식 작품 페이지](https://tvn.cjenm.com/ko/alchemyofsouls/)
+- 헌트 (영화) — 조유정 · 개봉 완료 (2022-08-10) · 근거: [KOFIC](https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792) · [한국영상자료원 배역](https://www.koreafilm.or.kr/library/search/video/114983)
 
 ## 2021
-- 로스쿨 (JTBC) — 전예슬 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
+- 로스쿨 (JTBC) — 전예슬 · 공개 완료 · 근거: [공식 작품 페이지](https://tv.jtbc.co.kr/lawschool)
 
 ## 2020
-- 보건교사 안은영 (Netflix) — 최유진 · 근거: [Netflix](https://www.netflix.com/kr/title/80209129)
-- 스위트홈 (Netflix) — 박유리 · 근거: [Netflix](https://www.netflix.com/kr/title/81061734)
+- 보건교사 안은영 (Netflix) — 최유진 · 공개 완료 · 근거: [Netflix](https://www.netflix.com/kr/title/80209129)
+- 스위트홈 (Netflix) — 박유리 · 공개 완료 · 근거: [Netflix](https://www.netflix.com/kr/title/81061734)
 
 ## 2019
-- 사이코메트리 그녀석 (tvN) — 김소현 · 데뷔작 · 근거: [MAA](https://maa.co.kr/artists/go-younjung)
+- 사이코메트리 그녀석 (tvN) — 김소현 · 공개 완료 · 데뷔작 · 근거: [공식 작품 페이지](https://tvn.cjenm.com/ko/heispsychometric/)
 
 ---
 ※ 이 페이지는 자동 생성됩니다.

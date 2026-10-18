@@ -141,9 +141,11 @@ fi
 # Stamp immediately (we already hold the lock).
 echo "$now_epoch" > "$LAST_RUN_EPOCH_FILE" 2>/dev/null || true
 
+RUN_STARTED_EPOCH=$(date +%s)
 RUN_OK=0
 on_exit() {
   local rc=$?
+  python3 scripts/run_telemetry.py --kind daily --started "$RUN_STARTED_EPOCH" --rc "$rc" >/dev/null 2>&1 || true
   # release lock
   rmdir "$LOCK_PATH" 2>/dev/null || true
   # if not marked success, mark failure (prevents stuck '진행중')
@@ -260,7 +262,8 @@ RC_YT=$?
 CURRENT_STEP="collect:gnews-sites"
 SITES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-sites.txt 2>/dev/null | wc -l | tr -d ' ')
 SITES_TOTAL=${SITES_TOTAL:-0}
-OFFSET_SITES=$(python3 ./scripts/collector_batch_state.py get gnews_sites "$SITES_TOTAL" 2>/dev/null || echo 0)
+MAX_SITES=${MAX_SITES:-4}
+OFFSET_SITES=$(python3 ./scripts/collector_batch_state.py get gnews_sites "$SITES_TOTAL" "$MAX_SITES" 2>/dev/null || echo 0)
 MAX_SITES=${MAX_SITES:-4}
 retry 2 5 timeout 90 env MAX_SITES="$MAX_SITES" BATCH_OFFSET="$OFFSET_SITES" ./scripts/auto_collect_google_news_sites.py
 RC_GNEWS_SITES=$?
@@ -277,7 +280,8 @@ else
   QUERIES_TOTAL=$(grep -vE '^\s*(#|$)' ./config/google-news-queries.txt 2>/dev/null | wc -l | tr -d ' ')
 fi
 QUERIES_TOTAL=${QUERIES_TOTAL:-0}
-OFFSET_QUERIES=$(python3 ./scripts/collector_batch_state.py get gnews_queries "$QUERIES_TOTAL" 2>/dev/null || echo 0)
+MAX_QUERIES=${MAX_QUERIES:-4}
+OFFSET_QUERIES=$(python3 ./scripts/collector_batch_state.py get gnews_queries "$QUERIES_TOTAL" "$MAX_QUERIES" 2>/dev/null || echo 0)
 MAX_QUERIES=${MAX_QUERIES:-4}
 retry 2 5 timeout 90 env MAX_QUERIES="$MAX_QUERIES" BATCH_OFFSET="$OFFSET_QUERIES" ./scripts/auto_collect_google_news_queries.py
 RC_GNEWS_QUERIES=$?
@@ -397,6 +401,10 @@ RC_BRANDS=$?
 CURRENT_STEP="collect:future-works"
 retry 2 5 timeout 45 python3 ./scripts/auto_detect_future_works.py
 RC_FUTURE=$?
+
+CURRENT_STEP="facts:reconcile"
+retry 1 0 timeout 45 python3 ./scripts/reconcile_evidence.py
+RC_RECONCILE=$?
 
 CURRENT_STEP="facts:extract"
 retry 2 2 timeout 45 python3 ./scripts/extract_facts_from_markdown.py

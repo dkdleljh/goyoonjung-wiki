@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import json
 import re
 from datetime import datetime
 from pathlib import Path
@@ -100,6 +101,10 @@ def load_works_config():
             cfg = parse_works_keywords_yml(text)
             # Basic validation
             if cfg:
+                for row in json.loads((BASE / "data/facts/works.json").read_text()):
+                    title = row["title"]
+                    if not any(m["title"] == title for m in cfg.values()) and row.get("page"):
+                        cfg[Path(row["page"]).name] = {"title": title, "keywords": [title]}
                 return cfg
         except Exception:
             pass
@@ -212,7 +217,8 @@ def block_title(block: str) -> str:
 
 
 def mentioned(block: str, keywords) -> bool:
-    return any(k in block for k in keywords)
+    generic = {"tvN", "JTBC", "Netflix", "넷플릭스", "Disney+", "디즈니+", "TVING", "티빙"}
+    return any(k and k not in generic and k in block for k in keywords)
 
 
 def build_candidates():
@@ -278,7 +284,7 @@ def update_work_file(work_path: Path, items):
         cleaned.append((str(rel), title, url))
 
     # Limit to top N to avoid spam
-    cleaned = cleaned[:20]
+    cleaned = sorted(cleaned, key=lambda row: not is_s_tier(row[2]))[:20]
 
     new_urls = [u for _, _, u in cleaned]
     old_urls = existing_candidate_urls(txt)
