@@ -64,6 +64,7 @@ jobs:
           rc=0
           python scripts/fast_collect.py || rc=$?
           if [ "$rc" -gt 1 ]; then exit "$rc"; fi
+          python scripts/publish_website_content.py
           python scripts/remote_backup.py
           python scripts/publish_website_content.py
           if [ "$rc" -eq 1 ]; then echo "::warning::Recovery published with source warnings; see source-collection-status.md"; fi

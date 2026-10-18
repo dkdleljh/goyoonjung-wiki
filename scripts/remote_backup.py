@@ -70,6 +70,12 @@ def verify(payload: bytes) -> dict:
 
 
 def upload() -> dict:
+    # A recovery DB must not advance beyond the published documents/checkpoints.
+    pending = subprocess.check_output(['git', 'status', '--porcelain', '--untracked-files=all'],
+                                      cwd=BASE, text=True, timeout=30).splitlines()
+    pending = [line for line in pending if line[3:] != 'data/reports/remote-backup.json']
+    if pending:
+        raise RuntimeError('Publish pending changes before creating a recovery backup')
     payload = create()
     report = verify(payload)
     try:

@@ -149,3 +149,10 @@ def test_fast_poll_uses_start_time_and_retries_failed_slow_sources():
     assert 'official_evidence.py' in due
     assert 'archive_backfill.py' not in due
     assert 'auto_collect_google_news.py' not in {task[0] for task in due_tasks(1200, state)}
+
+
+def test_remote_backup_rejects_unpublished_collector_state(monkeypatch):
+    from scripts import remote_backup
+    monkeypatch.setattr(remote_backup.subprocess, 'check_output', lambda *args, **kwargs: ' M pages/new-work.md\n')
+    with pytest.raises(RuntimeError, match='Publish pending changes'):
+        remote_backup.upload()
