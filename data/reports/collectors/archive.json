@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T23:25:26+09:00",
+  "checked_at": "2026-10-18T23:30:24+09:00",
   "status": "failed",
   "sources": [
     {
@@ -86,9 +86,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-18T21:45:35+09:00",
+      "checked_at": "2026-10-18T23:30:24+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     {
       "name": "Cosmopolitan Korea",
@@ -98,9 +98,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-18T22:00:30+09:00",
+      "checked_at": "2026-10-18T23:30:24+09:00",
       "last_success": "2026-10-18T21:45:35+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     {
       "name": "Allure Korea",
@@ -110,9 +110,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-18T21:55:29+09:00",
+      "checked_at": "2026-10-18T23:30:24+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     {
       "name": "Singles",
