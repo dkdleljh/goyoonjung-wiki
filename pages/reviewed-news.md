@@ -100,3 +100,9 @@
 - [1위 고윤정, 2위 소지섭, 3위 윤경호 | 스타뉴스](https://www.starnewskorea.com/star/2026/08/25/2026082507140631662) · WORKS · 내용은 원문 보도 기준
 - [‘제 17회 코리아드라마어워즈’ 2차 투표 시작···현빈·이준호·김고은·고윤정 후보 경쟁](https://sports.khan.co.kr/article/202608280238003) · WORKS · 내용은 원문 보도 기준
 - [고윤정 샤넬 마리끌레르 10월호 커버 공개](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power) · FASHION · 내용은 원문 보도 기준
+- [고윤정, 순백의 여신…맑고 우아한 고유의 아름다움 ［화보］](https://biz.chosun.com/entertainment/enter_general/2026/09/03/HA4GMYLEHE2DGOBRGY4DAZDCMU) · FASHION · 내용은 원문 보도 기준
+- [“숨멎 유발 비주얼” 고윤정, 고혹적 아우라 빛난 샤넬 화보 비하인드](https://v.daum.net/v/20260920222309450) · FASHION · 내용은 원문 보도 기준
+- ["파리서 빛나는 아우라"… 고윤정, 모자 하나 썼을 뿐인데 '화보가 되는 일상'](https://www.spotvnews.co.kr/news/articleView.html?idxno=1009870) · FASHION · 내용은 원문 보도 기준
+- [샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox) · FASHION · 내용은 원문 보도 기준
+- [고윤정, 얼굴 믿고 다 하네…파리서 '멍한 표정'도 화보](https://v.daum.net/v/Bij7ICfzmE) · FASHION · 내용은 원문 보도 기준
+- [고윤정, 존재 자체가 예술 작품같아…고혹적 무드 ［화보］](https://biz.chosun.com/entertainment/tv/2026/09/17/MIYDCYZRGI2TKOBUG4YTIN3GME) · FASHION · 내용은 원문 보도 기준
