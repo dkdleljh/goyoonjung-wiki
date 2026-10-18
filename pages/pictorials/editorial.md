@@ -194,6 +194,14 @@
 - 링크(원문): https://www.wkorea.com/2026/09/07/%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ed%95%a8%ea%bb%98%ed%95%9c-%ed%8b%b0%ed%8c%8c%eb%8b%88-%ed%95%98%eb%93%9c%ec%9b%a8%ec%96%b4-%ec%ba%a0%ed%8e%98%ec%9d%b8/
 - 상태: 공식확정
 - id: https://www.wkorea.com/2026/09/07/%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ed%95%a8%ea%bb%98%ed%95%9c-%ed%8b%b0%ed%8c%8c%eb%8b%88-%ed%95%98%eb%93%9c%ec%9b%a8%ec%96%b4-%ec%ba%a0%ed%8e%98%ec%9d%b8/
+
+- 날짜: 2026-01-20
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 구교환-고윤정이 호흡 맞출 새 드라마는?
+- 링크(원문): https://www.vogue.co.kr/2026/01/20/%ea%b5%ac%ea%b5%90%ed%99%98-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ed%98%b8%ed%9d%a1-%eb%a7%9e%ec%b6%9c-%ec%83%88-%eb%93%9c%eb%9d%bc%eb%a7%88%eb%8a%94/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2026/01/20/%ea%b5%ac%ea%b5%90%ed%99%98-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ed%98%b8%ed%9d%a1-%eb%a7%9e%ec%b6%9c-%ec%83%88-%eb%93%9c%eb%9d%bc%eb%a7%88%eb%8a%94/
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
@@ -344,6 +352,22 @@
 - 링크(원문): https://www.wkorea.com/2025/04/23/%ec%82%ac%eb%9e%91%ec%8a%a4%eb%9f%bd%ea%b3%a0%eb%8f%84-%ec%bf%a8%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ed%91%9c-%ec%97%ac%ec%b9%9c%eb%a3%a9/
 - 상태: 공식확정
 - id: https://www.wkorea.com/2025/04/23/%ec%82%ac%eb%9e%91%ec%8a%a4%eb%9f%bd%ea%b3%a0%eb%8f%84-%ec%bf%a8%ed%95%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ed%91%9c-%ec%97%ac%ec%b9%9c%eb%a3%a9/
+
+- 날짜: 2025-10-05
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 현대적인 우아함, 고윤정의 샤넬
+- 링크(원문): https://www.vogue.co.kr/2025/10/05/%ed%98%84%eb%8c%80%ec%a0%81%ec%9d%b8-%ec%9a%b0%ec%95%84%ed%95%a8-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ec%83%a4%eb%84%ac/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2025/10/05/%ed%98%84%eb%8c%80%ec%a0%81%ec%9d%b8-%ec%9a%b0%ec%95%84%ed%95%a8-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ec%83%a4%eb%84%ac/
+
+- 날짜: 2025-12-18
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정-김선호의 예측 불가 로맨스 ‘이 사랑 통역 되나요?’
+- 링크(원문): https://www.vogue.co.kr/2025/12/18/%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b9%80%ec%84%a0%ed%98%b8%ec%9d%98-%ec%98%88%ec%b8%a1-%eb%b6%88%ea%b0%80-%eb%a1%9c%eb%a7%a8%ec%8a%a4-%ec%9d%b4-%ec%82%ac%eb%9e%91-%ed%86%b5%ec%97%ad-%eb%90%98/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2025/12/18/%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b9%80%ec%84%a0%ed%98%b8%ec%9d%98-%ec%98%88%ec%b8%a1-%eb%b6%88%ea%b0%80-%eb%a1%9c%eb%a7%a8%ec%8a%a4-%ec%9d%b4-%ec%82%ac%eb%9e%91-%ed%86%b5%ec%97%ad-%eb%90%98/
 ## 2024
 - 날짜: 2024-07
 - 매체: Marie Claire Korea (마리끌레르 코리아)

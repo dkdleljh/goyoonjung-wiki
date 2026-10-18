@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-18T17:45:24+09:00",
-  "status": "success",
+  "checked_at": "2026-10-18T18:45:26+09:00",
+  "status": "failed",
   "sources": [
     {
       "name": "ELLE Korea",
@@ -47,45 +47,43 @@
     {
       "name": "GQ Korea",
       "url": "https://www.gqkorea.co.kr/wp-admin/admin-ajax.php",
-      "scope": "historical pagination page 1",
-      "status": "success",
-      "fetched": 12,
-      "matched": 2,
-      "warnings": [],
-      "page": 1,
-      "page_fingerprint": "dae624f68bbdcc2ebd5316fadabc07810fb8e8a7ea24cd368374961eb58110c7",
-      "checked_at": "2026-10-18T14:43:34+09:00",
+      "scope": "historical pagination page 2",
+      "status": "failed",
+      "error": "Invalid magazine search response",
+      "kind": "parse",
+      "retryable": false,
+      "checked_at": "2026-10-18T18:45:26+09:00",
       "last_success": "2026-10-18T14:43:34+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Vogue Korea",
       "url": "https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
       "fetched": 10,
-      "matched": 2,
+      "matched": 3,
       "warnings": [
         "RSS media namespace declaration repaired"
       ],
-      "page": 1,
-      "page_fingerprint": "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b",
-      "checked_at": "2026-10-18T14:43:34+09:00",
-      "last_success": "2026-10-18T14:43:34+09:00",
+      "page": 2,
+      "page_fingerprint": "e1f38f15e062dc3fd7fc309ba81a7f0966223babda85e785ac516b1c5848075c",
+      "checked_at": "2026-10-18T18:45:26+09:00",
+      "last_success": "2026-10-18T18:45:26+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Marie Claire Korea",
       "url": "https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
       "fetched": 10,
-      "matched": 6,
+      "matched": 3,
       "warnings": [],
-      "page": 1,
-      "page_fingerprint": "b687253b32725500fd4b34a5553662c7998c483c49af6953c600cf7a932e7691",
-      "checked_at": "2026-10-18T14:43:34+09:00",
-      "last_success": "2026-10-18T14:43:34+09:00",
+      "page": 2,
+      "page_fingerprint": "4157680798e6428795c83d270249a92a0e4fd0d3dcf00bc2bf052f6785c9730a",
+      "checked_at": "2026-10-18T18:45:26+09:00",
+      "last_success": "2026-10-18T18:45:26+09:00",
       "consecutive_failures": 0
     },
     {
