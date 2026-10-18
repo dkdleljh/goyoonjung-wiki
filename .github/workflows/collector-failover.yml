@@ -58,6 +58,7 @@ jobs:
       - name: Collect and publish recovery snapshot
         if: steps.health.outputs.due == 'true'
         run: |
+          git remote set-url origin https://github.com/dkdleljh/goyoonjung-wiki.git
           git config user.name 'goyoonjung-wiki automation'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           rc=0

@@ -17,7 +17,7 @@ jobs:
         run: |
           python scripts/operational_status.py
           python - <<'PYCODE'
-          import json
+          import json, urllib.request
           from datetime import datetime, timezone
           from pathlib import Path
           data = json.loads(Path('data/reports/heartbeat.json').read_text())
@@ -25,4 +25,10 @@ jobs:
           if not -300 <= age <= 1800:
               raise SystemExit(f'Stale fast collector: {age:.0f}s')
           print(f'Fast collector heartbeat age {age:.0f}s; status {data["status"]}')
+          with urllib.request.urlopen('https://dkdleljh.github.io/goyounjung/sync.json', timeout=30) as response:
+              public = json.load(response)
+          published_age = (datetime.now(timezone.utc) - datetime.fromisoformat(public['latestRun']['timestamp'])).total_seconds()
+          if not -300 <= published_age <= 3600:
+              raise SystemExit(f'Published website collector snapshot stale: {published_age:.0f}s')
+          print(f'Public website reachable; collection snapshot age {published_age:.0f}s')
           PYCODE

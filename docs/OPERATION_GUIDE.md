@@ -221,3 +221,24 @@ bash scripts/cleanup_stale_running.sh
 - score가 비정상 급락하지 않았는가?
 - changelog/release가 최신 상태인가?
 - 문서가 실제 코드와 일치하는가?
+
+## 상시 수집 및 장애 복구 (2026-10-18)
+
+- 실행 전용 체크아웃: `~/.local/share/goyoonjung-runtime/goyoonjung-wiki`. 개발 작업 폴더의 수정으로 게시가 막히지 않도록 분리한다. 설치/갱신은 `bash scripts/install_unattended.sh`로 수행한다.
+- `goyoonjung-wiki-sync.timer`: 5분마다 뉴스·YouTube 우선 수집. 공식 원문은 10분, 사이트별 검색·잡지·후보 검토·과거 자료는 각 주기에 따라 순환하며, 실행당 추가 작업은 2개로 제한한다. 모든 출처를 매 5분마다 확인한다는 의미는 아니다.
+- `goyoonjung-wiki-daily.timer`: 6시간마다 전체 정리. `goyoonjung-wiki-backup.timer`: 매일 04:35에 공개 문서와 수집 DB를 외부 저장소의 `automation-backups` 브랜치에 백업하고 다운로드 복원 검증을 수행한다. 자격 증명과 비공개 파일은 백업하지 않는다.
+- `Collector failover` GitHub Actions는 5분 간격으로 예약된다. 주 서버의 기록이 20분 넘게 없거나 전체 실패이면 외부 백업으로 DB를 복원하여 대체 수집한다. 주 서버 복귀 전까지 대체 수집을 계속한다. GitHub 예약 실행은 지연될 수 있으므로 엄격한 실행 시간이나 무중단을 보장하지 않는다.
+- `automation-health`는 15분마다 수집 기록과 공개 사이트 응답/자료 신선도를 점검한다. 사이트 자체도 15분마다 저장소 변경을 확인해 배포한다. 주 서버는 수집 게시 후 즉시 배포를 요청한다.
+- 수집 실패는 체크포인트를 진전시키지 않는다. 출처별 재시도 시 마지막 성공 시점 전 2일을 겹쳐 조회한다. 과거 잡지/YouTube 수집은 페이지별로 이어가며, 검색으로 관측한 범위를 과거 전체 수집 완료로 표시하지 않는다.
+- 샤넬·부쉐론 등의 HTTP 403은 접근 제한 상태로 남긴다. 정상 출처 결과는 계속 저장·게시하지만 전체 결과는 부분 성공으로 표시할 수 있다. 페이지에 접근했다는 사실과 그 내용의 사실 확정은 구분한다.
+- 신규 작품은 공식 원문에서 배우·작품·출연 확정 관계를 확인한 주장만 자동 반영한다. 상충하는 주장은 보류하고, 취소·철회되면 검토 상태로 돌린다. 사진이 없는 신규 작품도 안내 영역과 상세 페이지가 정상 생성된다.
+- 실측: `pages/automation-measurements.md`, 출처별 결과: `pages/source-collection-status.md`, 백업 검증: `data/reports/remote-backup.json`. 수집률·정확도는 독립 정답 집합이 없어 미측정이며, 점검 점수를 사실 정확도로 해석하지 않는다.
+
+점검 명령:
+
+```bash
+systemctl --user list-timers 'goyoonjung-wiki-*'
+journalctl --user -u goyoonjung-wiki-sync.service -n 60 --no-pager
+# 외부 복구 훈련: 주 서버 수집과 겹치지 않는 시간에 실행
+# gh workflow run collector-failover.yml --repo dkdleljh/goyoonjung-wiki -f force=true
+```
