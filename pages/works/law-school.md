@@ -1,5 +1,7 @@
 # 🎬 로스쿨 (JTBC)
 
+![법정에 모인 로스쿨 출연진의 공식 홍보 이미지](https://dkdleljh.github.io/goyounjung/images/photos/work-law-school-640.webp)
+
 
 ## 기본 정보
 - 작품: 로스쿨

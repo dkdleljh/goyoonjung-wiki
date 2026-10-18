@@ -1,5 +1,7 @@
 # 🎬 사이코메트리 그녀석 (tvN)
 
+![사이코메트리 그녀석 공식 포스터 속 박진영과 신예은](https://dkdleljh.github.io/goyounjung/images/photos/work-he-is-psychometric-459.webp)
+
 
 ## 기본 정보
 - 작품: 사이코메트리 그녀석

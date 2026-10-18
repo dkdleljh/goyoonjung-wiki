@@ -1,5 +1,7 @@
 # 환혼 빛과 그림자
 
+![환혼 빛과 그림자의 고윤정 캐릭터 포스터](https://dkdleljh.github.io/goyounjung/images/photos/work-alchemy-of-souls-light-and-shadow-459.webp)
+
 ## 한눈에 보기
 - 플랫폼/방송사: tvN
 - 역할: 낙수

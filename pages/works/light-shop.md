@@ -1,5 +1,7 @@
 # 조명가게 (Light Shop)
 
+![전구 주위로 등장인물이 배치된 조명가게 공식 해외 홍보 포스터](https://dkdleljh.github.io/goyounjung/images/photos/work-light-shop-640.webp)
+
 
 ## 작품 개요
 - **장르**: 미스터리, 공포, 스릴러

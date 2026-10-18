@@ -1,5 +1,7 @@
 # 🎬 스위트홈 (Netflix)
 
+![스위트홈 시즌 1의 서이경 역 이시영 공식 장면 사진](https://dkdleljh.github.io/goyounjung/images/photos/work-sweethome-640.webp)
+
 
 ## 기본 정보
 - 작품: 스위트홈

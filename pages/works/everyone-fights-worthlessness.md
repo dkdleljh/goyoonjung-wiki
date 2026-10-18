@@ -1,5 +1,7 @@
 # 모두가 자신의 무가치함과 싸우고 있다
 
+![모두가 자신의 무가치함과 싸우고 있다 출연진의 단체 홍보 사진](https://dkdleljh.github.io/goyounjung/images/photos/work-everyone-fights-worthlessness-640.webp)
+
 ## 한눈에 보기
 - 플랫폼/방송사: JTBC (방영 기록 확인 기준)
 - 역할: 변은아

@@ -1,5 +1,7 @@
 # 무빙 (Disney+)
 
+![무빙의 장희수, 김봉석, 이강훈을 연기한 고윤정, 이정하, 김도훈의 공식 포스터](https://dkdleljh.github.io/goyounjung/images/photos/work-moving-580.webp)
+
 
 ## 기본 정보
 - 작품: 무빙

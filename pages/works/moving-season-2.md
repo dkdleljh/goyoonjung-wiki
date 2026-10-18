@@ -1,5 +1,7 @@
 # 무빙 시즌 2
 
+![무빙 시즌 2 제작 발표 보도에 실린 주요 출연진 사진 모음. 시즌 2 장면 사진이 아님](https://dkdleljh.github.io/goyounjung/images/photos/work-moving-season-2-604.webp)
+
 ## 한눈에 보기
 - 플랫폼: Disney+
 - 역할: 장희수

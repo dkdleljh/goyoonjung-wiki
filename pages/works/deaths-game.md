@@ -1,5 +1,7 @@
 # 🎬 이재, 곧 죽습니다 (TVING)
 
+![이재 곧 죽습니다에서 이지수 역을 맡은 고윤정의 공식 장면 사진](https://dkdleljh.github.io/goyounjung/images/photos/work-deaths-game-640.webp)
+
 
 ## 기본 정보
 - 작품: 이재, 곧 죽습니다

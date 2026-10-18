@@ -1,5 +1,7 @@
 # 환혼: 빛과 그림자 (tvN)
 
+![검을 가운데 두고 장욱과 무덕이가 마주 보는 환혼 공식 듀오 포스터](https://dkdleljh.github.io/goyounjung/images/photos/work-alchemy-of-souls-459.webp)
+
 
 ## 기본 정보
 - 작품: 환혼: 빛과 그림자

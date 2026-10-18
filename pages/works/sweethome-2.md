@@ -1,5 +1,7 @@
 # 스위트홈 2
 
+![스위트홈 시즌 2 공식 예고편의 송강과 이진욱 대표 이미지](https://dkdleljh.github.io/goyounjung/images/photos/work-sweethome-2-640.webp)
+
 ## 한눈에 보기
 - 플랫폼: Netflix
 - 역할: 박유리 (특별출연)

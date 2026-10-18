@@ -1,5 +1,7 @@
 # 🎬 보건교사 안은영 (Netflix)
 
+![보건교사 안은영의 정유미와 남주혁 캐릭터 포스터](https://dkdleljh.github.io/goyounjung/images/photos/work-the-school-nurse-files-640.webp)
+
 
 ## 기본 정보
 - 작품: 보건교사 안은영

@@ -1,5 +1,7 @@
 # 🎬 언젠가는 슬기로울 전공의생활 (tvN)
 
+![흰 가운을 입고 나란히 서 있는 언젠가는 슬기로울 전공의생활의 고윤정과 동료 출연진](https://dkdleljh.github.io/goyounjung/images/photos/work-resident-playbook-640.webp)
+
 
 ## 기본 정보
 - 작품: 언젠가는 슬기로울 전공의생활
