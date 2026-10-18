@@ -115,3 +115,9 @@
 - [고윤정, 청룡시리즈어워즈 트로피 들고 빛난 미소…‘이사통’·‘모자무싸’ 활약 잇는다](https://www.topstarnews.net/news/articleView.html?idxno=16152962) · AWARDS · 내용은 원문 보도 기준
 - [고윤정, 인형](https://www.news1.kr/photos/8036194) · AWARDS · 내용은 원문 보도 기준
 - [［제5회 BSA］ 고윤정, 글로벌 아이콘상…日 배우 쇼타 시상 의리](https://www.chosun.com/entertainments/enter_general/2026/07/31/MMYDONTBMZSWMNZYGYYDQYZUGA) · AWARDS · 내용은 원문 보도 기준
+- [&ldquo;와 레전드&rdquo; 고윤정, 청룡서 리즈 찍었다&hellip; 등근육 자랑까지 ［IS하이컷］ - 일간스포츠](https://isplus.com/article/view/isp202608020121) · AWARDS · 내용은 원문 보도 기준
+- [Go Youn-jung Celebrates Double Win at Blue Dragon Series Awards](https://www.chosun.com/english/kpop-culture-en/2026/08/02/4ZBQGF2FW5HATLXGXE3735G6IA) · EN_CAST · 내용은 원문 보도 기준
+- [Ko Hyun-jung stuns fans with youthful looks, draws comparisons to Go Youn-jung](https://biz.chosun.com/en/en-entertainment/2026/09/30/KVCL3FMVBJFNJCSNRKSKSSCGRM) · EN_ALL · 내용은 원문 보도 기준
+- [コ・ユンジョン、変顔でも圧倒的美貌](https://www.chosun.com/jp/culture-life-jp/2026/09/29/DONZN4KFHVDUDH6M7ASUK7OASQ) · JA_ALL · 내용은 원문 보도 기준
+- [眉を変えただけなのに...コ・ユンジョンの「雰囲気美人」の秘訣【K-ビューティークラブ】 - MK](https://www.mk.co.kr/jp/hot-issues/12161158) · JA_ALL · 내용은 원문 보도 기준
+- [コ・ユンジョン→キム・ヘユン、紅葉を見に行きたい女スターは？ ［スターポール］ | STARNEWS](https://www.starnewskorea.com/ja/star/2026/10/06/2026100608574841744) · JA_ALL · 내용은 원문 보도 기준
