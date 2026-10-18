@@ -106,3 +106,8 @@
 - [샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox) · FASHION · 내용은 원문 보도 기준
 - [고윤정, 얼굴 믿고 다 하네…파리서 '멍한 표정'도 화보](https://v.daum.net/v/Bij7ICfzmE) · FASHION · 내용은 원문 보도 기준
 - [고윤정, 존재 자체가 예술 작품같아…고혹적 무드 ［화보］](https://biz.chosun.com/entertainment/tv/2026/09/17/MIYDCYZRGI2TKOBUG4YTIN3GME) · FASHION · 내용은 원문 보도 기준
+- [고윤정, 애슬레저룩에 청순·섹시 美 (화보)](https://biz.chosun.com/entertainment/enter_general/2026/09/22/MEZGENTFMI2TMZBVGM4GKMTEMM) · FASHION · 내용은 원문 보도 기준
+- [コ・ユンジョンが惚れ込むのも無理はない···キム・ソノ、隠しきれないえくぼの笑み | STARNEWS](https://www.starnewskorea.com/ja/star/2026/09/16/2026091618304861386) · JA_ALL · 내용은 원문 보도 기준
+- [고윤정, 압도적인 분위기...‘청룡 레드카펫 장악’［케이팝 헌터스］ - 스타투데이](https://www.mk.co.kr/news/photos/12122864) · AWARDS · 내용은 원문 보도 기준
+- [고윤정 귀걸이 어디 거? 청룡 레드카펫 주얼리 총정리](https://www.cosmopolitan.co.kr/article/1907332) · AWARDS · 내용은 원문 보도 기준
+- ['청룡 2관왕' 고윤정, 트로피 양 손에 들고 활짝…비하인드 포토 공개 ［핫피플］](https://www.osen.co.kr/article/G1112851422) · AWARDS · 내용은 원문 보도 기준
