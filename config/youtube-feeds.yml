@@ -1,13 +1,15 @@
 # YouTube channel RSS feeds (official channels)
 # Purpose: collect official uploads without scraping.
 # Rule: link-only; no transcript/article text.
+# tvN Joy identity verified via https://tvn.cjenm.com/ko/ -> /user/TheChtvn
+# RSS outages fall back to the same channel's public uploads playlist, with owner verification.
 
 keyword: "고윤정"
 feeds:
   - name: "채널십오야"
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ2O-iftmnlfrBuNsUUTofQ"
-  - name: "tvN"
-    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCtx-7YigHLZx7icq0KqHhow"
+  - name: "tvN Joy"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw"
   - name: "MBCentertainment"
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A"
   - name: "MBCdrama"

@@ -12,6 +12,7 @@ mag = importlib.import_module('scripts.auto_collect_magazine_rss')
 agency = importlib.import_module('scripts.auto_collect_agency')
 transport = importlib.import_module('source_transport')
 network = importlib.import_module('network_readiness')
+youtube = importlib.import_module('youtube_sources')
 
 
 def test_missing_media_namespace_recovers_only_valid_article_metadata():
@@ -157,3 +158,75 @@ def test_git_does_not_retry_authentication_or_conflicts(error, retries, monkeypa
     with pytest.raises(RuntimeError):
         network.retry_output(['git', 'fetch'])
     assert len(calls) == retries
+
+
+CHANNEL = 'UC' + 'a' * 22
+
+
+def uploads_page(owner=CHANNEL, video_id='abcdefghijk', selected=True):
+    data = {
+        'header': {'playlistHeaderRenderer': {'playlistId': 'UU' + CHANNEL[2:],
+                    'ownerEndpoint': {'browseEndpoint': {'browseId': owner}}}},
+        'contents': {'tabs': [{'tabRenderer': {'selected': selected, 'content': {'items': [
+            {'lockupViewModel': {'contentId': video_id, 'contentType': 'LOCKUP_CONTENT_TYPE_VIDEO',
+             'metadata': {'lockupMetadataViewModel': {'title': {'content': '고윤정 인터뷰'}}}}}
+        ]}}}]},
+        'sidebar': {'lockupViewModel': {'contentId': 'recommended', 'contentType': 'LOCKUP_CONTENT_TYPE_VIDEO',
+                    'metadata': {'lockupMetadataViewModel': {'title': {'content': 'Not this channel'}}}}}
+    }
+    return ('<script>var ytInitialData = ' + json.dumps(data) + ';</script>').encode()
+
+
+def test_uploads_fallback_validates_owner_and_ignores_recommendations():
+    rows = youtube.parse_uploads(uploads_page(), CHANNEL)
+    assert rows == [{'title': '고윤정 인터뷰', 'url': 'https://www.youtube.com/watch?v=abcdefghijk', 'date': ''}]
+
+
+@pytest.mark.parametrize('kwargs', [{'owner': 'UCwrong'}, {'video_id': '../bad'}, {'selected': False}])
+def test_uploads_invalid_identity_video_or_missing_selected_list_fail(kwargs):
+    with pytest.raises(transport.SourceError):
+        youtube.parse_uploads(uploads_page(**kwargs), CHANNEL)
+
+
+def test_rss_unavailable_recovers_from_verified_official_uploads():
+    calls = []
+    def fetch(url):
+        calls.append(url)
+        if 'videos.xml' in url:
+            raise transport.SourceError('HTTP 404', 'http')
+        return uploads_page()
+    rows, report = youtube.collect_source({'name': 'Test', 'url': f'https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL}'}, fetch)
+    assert len(rows) == 1
+    assert report['status'] == 'success'
+    assert report['scope'] == 'recent_uploads_playlist'
+    assert report['warnings']
+    assert len(calls) == 2
+
+
+def test_youtube_both_sources_failed_remains_failure():
+    rows, report = youtube.collect_source({'name': 'Test', 'url': f'https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL}'}, lambda _: b'<html>Error</html>')
+    assert not rows
+    assert report['status'] == 'failed'
+
+
+def test_youtube_feed_rejects_other_channel():
+    data = b'<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015"><yt:channelId>UCwrong</yt:channelId></feed>'
+    with pytest.raises(transport.SourceError, match='identity'):
+        youtube.parse_atom(data, CHANNEL)
+
+
+def test_feed_short_channel_id_still_requires_full_author_identity():
+    data = f'<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015"><yt:channelId>{CHANNEL[2:]}</yt:channelId><author><uri>https://www.youtube.com/channel/{CHANNEL}</uri></author></feed>'.encode()
+    assert youtube.parse_atom(data, CHANNEL) == []
+    with pytest.raises(transport.SourceError, match='identity'):
+        youtube.parse_atom(data.replace(b'/channel/UC', b'/channel/XX'), CHANNEL)
+
+
+def test_access_denied_does_not_attempt_youtube_fallback():
+    calls = []
+    def fetch(url):
+        calls.append(url)
+        raise transport.SourceError('HTTP 403', 'http')
+    _, report = youtube.collect_source({'name': 'Test', 'url': f'https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL}'}, fetch)
+    assert len(calls) == 1
+    assert report['status'] == 'failed'

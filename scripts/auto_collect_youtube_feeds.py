@@ -6,18 +6,20 @@
 - De-dupes via SQLite (wiki.db) using db_manager
 - Appends link-only items into today's news/YYYY-MM-DD.md
 
-This avoids scraping YouTube HTML and is stable/unmanned.
+If RSS fails, validate the same channel’s public uploads playlist metadata.
+No video, transcript, login or private API is used.
 """
 
 from __future__ import annotations
 
+import argparse
+import json
 import os
 import sys
-import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
-from urllib.request import Request, urlopen
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 BASE = SCRIPT_DIR.parent
@@ -25,6 +27,8 @@ sys.path.append(str(SCRIPT_DIR))
 import db_manager  # noqa: E402
 import relevance  # noqa: E402
 from collector_io import append_news_lines  # noqa: E402
+from source_transport import request, save_report  # noqa: E402
+from youtube_sources import collect_source  # noqa: E402
 
 CONF_PATH = BASE / "config" / "youtube-feeds.yml"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
@@ -59,13 +63,8 @@ def parse_simple_yml(text: str) -> dict:
     return out
 
 
-def fetch(url: str) -> bytes | None:
-    try:
-        req = Request(url, headers={"User-Agent": UA})
-        with urlopen(req, timeout=TIMEOUT) as resp:
-            return resp.read()
-    except Exception:
-        return None
+def fetch(url: str) -> bytes:
+    return request(url)
 
 
 def get_today_news_path() -> Path:
@@ -88,71 +87,54 @@ def text_of(el: ET.Element | None) -> str:
     return (el.text or "").strip() if el is not None else ""
 
 
-def main() -> int:
-    errors = 0
+def main(check: bool = False) -> int:
     if not CONF_PATH.exists():
-        return 0
-
+        print("Missing YouTube configuration")
+        return 1
     conf = parse_simple_yml(CONF_PATH.read_text(encoding="utf-8"))
-    keyword = conf.get("keyword", "고윤정")
-    feeds = conf.get("feeds", [])
+    keyword, feeds = conf.get("keyword", "고윤정"), conf.get("feeds", [])
     if not feeds:
-        return 0
-
-    db_manager.init_db()
-    pending = []
-    out_lines: list[str] = []
-
-    # Rolling batch
-    max_feeds = int(os.environ.get("MAX_YT_FEEDS", "4"))
-    offset = int(os.environ.get("BATCH_OFFSET_YT", "0"))
-    if max_feeds > 0 and len(feeds) > max_feeds:
+        print("No YouTube sources configured")
+        return 1
+    # By default check every configured channel. Explicit small batches remain supported.
+    max_feeds = int(os.environ.get("MAX_YT_FEEDS", "0"))
+    offset = int(os.environ.get("BATCH_OFFSET_YT", "0")) % len(feeds)
+    if not check and max_feeds > 0 and len(feeds) > max_feeds:
         feeds = (feeds[offset:] + feeds[:offset])[:max_feeds]
-
-    for feed in feeds:
-        name = feed.get("name", "YouTube")
-        url = feed.get("url")
-        if not url:
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        results = list(pool.map(lambda feed: collect_source(feed, fetch), feeds))
+    pending, out_lines, reports = [], [], []
+    if not check:
+        db_manager.init_db()
+    for feed, (rows, report) in zip(feeds, results, strict=True):
+        name = feed["name"]
+        related = [r for r in rows if keyword in r["title"] and relevance.is_relevant(r["title"], r["url"], name, "")]
+        report["matched"] = len(related)
+        reports.append(report)
+        if check:
             continue
-        xml_data = fetch(url)
-        if not xml_data:
-            errors += 1
-            continue
-        try:
-            root = ET.fromstring(xml_data)
-        except Exception:
-            errors += 1
-            continue
-
-        # YouTube atom: entry
-        for entry in root.findall("{http://www.w3.org/2005/Atom}entry")[:15]:
-            title = text_of(entry.find("{http://www.w3.org/2005/Atom}title"))
-            link_el = entry.find("{http://www.w3.org/2005/Atom}link")
-            href = link_el.get("href") if link_el is not None else ""
-            published = text_of(entry.find("{http://www.w3.org/2005/Atom}published"))
-
-            if not title or not href:
-                continue
-            # relevance gate: require keyword in title (or description via relevance if present)
-            if keyword not in title:
-                continue
+        for row in related:
+            href = row["url"]
             if db_manager.is_url_seen(href):
                 continue
-            if not relevance.is_relevant(title, href, name, ""):
-                continue
-
-            date_str = published.replace("T", " ").replace("Z", "")[:16] if published else datetime.now().strftime("%Y-%m-%d %H:%M")
-            out_lines.append(f"- [YouTube/{name}] [{title}]({href}) ({date_str})")
+            date = row["date"].replace("T", " ").replace("Z", "")[:16] if row["date"] else "게시일 확인 필요"
+            title = " ".join(row["title"].split()).replace("[", "［").replace("]", "］")
+            out_lines.append(f"- [YouTube/{name}] [{title}]({href}) ({date})")
             pending.append((href, f"youtube:{name}"))
-            time.sleep(0.05)
-
-    append_lines(get_today_news_path(), out_lines)
-    for url, source in pending:
-        db_manager.add_seen_url(url, source=source)
-    print(f"auto_collect_youtube_feeds: new={len(out_lines)}")
+    if check:
+        print(json.dumps(reports, ensure_ascii=False, indent=2))
+    else:
+        append_lines(get_today_news_path(), out_lines)
+        for url, source in pending:
+            db_manager.add_seen_url(url, source=source)
+        save_report("youtube", reports)
+        print(f"auto_collect_youtube_feeds: new={len(out_lines)}")
+    errors = sum(r["status"] != "success" for r in reports)
     print(f"source_errors={errors}")
     return 1 if errors else 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true", help="Check all channels without writing data")
+    raise SystemExit(main(check=parser.parse_args().check))

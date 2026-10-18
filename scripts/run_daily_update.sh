@@ -246,13 +246,13 @@ CURRENT_STEP="collect:gnews"
 retry 3 10 ./scripts/auto_collect_google_news.py
 RC_GNEWS=$?
 
-# 1.505) Collect official YouTube uploads (RSS) — rolling batch
+# 1.505) Check every official YouTube source, with verified uploads fallback.
 CURRENT_STEP="collect:youtube-feeds"
 YT_TOTAL=$(grep -n "^\s*- name:" -n ./config/youtube-feeds.yml 2>/dev/null | wc -l | tr -d ' ')
 YT_TOTAL=${YT_TOTAL:-0}
 OFFSET_YT=$(python3 ./scripts/collector_batch_state.py get yt_feeds "$YT_TOTAL" 2>/dev/null || echo 0)
-MAX_YT_FEEDS=${MAX_YT_FEEDS:-3}
-retry 2 5 timeout 45 env MAX_YT_FEEDS="$MAX_YT_FEEDS" BATCH_OFFSET_YT="$OFFSET_YT" python3 ./scripts/auto_collect_youtube_feeds.py
+MAX_YT_FEEDS=${MAX_YT_FEEDS:-0}
+retry 1 0 timeout 170 env MAX_YT_FEEDS="$MAX_YT_FEEDS" BATCH_OFFSET_YT="$OFFSET_YT" python3 ./scripts/auto_collect_youtube_feeds.py
 RC_YT=$?
 
 # 1.51) Collect Google News site-filtered RSS (magazines/press)

@@ -49,6 +49,7 @@ GitHub 예약 실행은 지연되거나 장기 비활동 시 중지될 수 있�
 
 - 잡지는 `config/magazine-rss.yml`에 검증된 공식 검색/API/RSS 주소와 확인 범위를 기록합니다. ELLE·BAZAAR·Esquire·Cosmopolitan은 검색 화면의 공개 POST `/search`, W·GQ·Allure는 공개 `get_search_custom`, Singles는 공개 `/api/article-search`를 사용합니다. Vogue·Marie Claire는 검색 RSS, Arena·Noblesse는 최신 기사 RSS를 확인합니다. 최신 RSS는 과거 전체 검색을 대신하지 않습니다.
 - HTTP 200만으로 성공하지 않습니다. 검색 결과 구조·기사 제목·공식 도메인 링크를 검증하고, RSS는 XML 파싱과 필수 항목을 검사합니다. Vogue의 누락된 `media` 네임스페이스 선언만 보정하며, 다른 파싱 오류나 접근 안내 화면은 실패로 남깁니다. 제목에 고윤정이 포함된 링크만 추가하며 원문 본문을 복사하지 않습니다. 날짜가 없으면 `날짜 미상`으로 기록합니다.
+- 유튜브는 기본적으로 등록 채널 8개를 매 실행마다 확인합니다. RSS 장애 시 동일 채널의 공개 업로드 재생목록 첫 페이지를 읽고, 재생목록 ID와 소유 채널 ID를 검증한 뒤 제목·영상 링크만 사용합니다. 추천 영상·다른 채널·로그인 안내 페이지를 수집 결과로 인정하지 않습니다. 대체 경로 사용 사실과 범위를 상태 보고서에 표시하며, 두 경로가 모두 실패하면 부분성공을 유지합니다. 과거 `@tvN10`은 실제 채널명이 `t`로 확인되어, tvN 공식 홈페이지가 연결한 `tvN Joy` 채널로 교체했습니다.
 - 접속·읽기 시간 초과, 429, 5xx는 최대 2회 시도하고 재시도 전에 기다립니다. 404·403·파싱 오류는 같은 실행에서 반복하지 않습니다. 부분성공 후의 다음 수집은 기존 1시간 재시도 정책을 유지합니다.
 - 소속사 모니터는 `config/agency-sources.json`의 등록된 공식 프로필을 확인합니다. 배우 식별과 Drama/Film 작품 추출이 모두 통과해야 성공합니다. 기본 주소가 실패하면 검증된 www 별칭도 확인합니다. MAA 서버가 응답하지 않으면 실패를 유지하며, 캐시나 언론 기사를 공식 프로필 확인 성공으로 바꾸지 않습니다. 이 등록 프로필만으로 현재 소속사를 단정하지 않습니다.
 - `data/reports/collectors/`와 `pages/source-collection-status.md`에 출처별 오류 유형·재시도 가능 여부·확인 범위·마지막 성공·연속 실패 횟수를 저장합니다. 사이트 아카이브에서 상태 문서를 열 수 있습니다. 수집 자료는 원자적으로 저장하고 기존 링크를 중복 삽입하지 않습니다.
@@ -58,6 +59,7 @@ GitHub 예약 실행은 지연되거나 장기 비활동 시 중지될 수 있�
 # 실제 출처 확인만 수행: 뉴스·상태 보고서를 쓰지 않음
 .venv/bin/python scripts/auto_collect_magazine_rss.py --check
 .venv/bin/python scripts/auto_collect_agency.py --check
+.venv/bin/python scripts/auto_collect_youtube_feeds.py --check
 # 전체 실행: 수집 실패는 부분성공으로 유지하고 완료된 자료만 게시
 FORCE=1 bash scripts/collect_and_sync_website.sh
 ```
