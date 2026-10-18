@@ -144,3 +144,9 @@
 - [All It Took Was a Brow Change... Go Youn-jung's Secret to Her "Beauty with an Aura" ［K-Beauty Club］ - MK](https://www.mk.co.kr/en/hot-issues/12161158) · EN_ALL · 내용은 원문 보도 기준
 - [Go Youn-jung spotted with Galaxy Z Fold 8 as Samsung chips away at iPhone's grip on young women - The Herald Business](https://mbiz.heraldcorp.com/article/10898312) · EN_ALL · 내용은 원문 보도 기준
 - [Go Youn-jung's Ageless Photos Astonish Fans](https://www.chosun.com/english/kpop-culture-en/2026/09/30/JXZ26MEHQFAQTAJATYLWZUOWXY) · EN_ALL · 내용은 원문 보도 기준
+- [고윤정, 파리서 국위선양하는 미모&hellip;정면도 옆모습도 감탄 ［MD★스타］](https://mydaily.co.kr/page/view/2026092715164924546) · RYO · 내용은 원문 보도 기준
+- ["파리서도 빛나는 미모"…국위선양 고윤정, 철저한 자기관리 비결](https://www.newsis.com/view/NISX20260927_0003804310) · RYO · 내용은 원문 보도 기준
+- [눈썹 하나 바꿨을 뿐인데…고윤정의 ‘분위기 미인’ 비결 ［K-뷰티클럽］ - 스타투데이](https://www.mk.co.kr/news/hot-issues/12161158) · VODANA · 내용은 원문 보도 기준
+- [구교환, 고윤정과 "1개에서 2개, 최근 142개"…얼마나 가까워졌길래('살롱드립') | 텐아시아](https://www.tenasia.co.kr/article/2026042942044) · VARIETY_TALK · 내용은 원문 보도 기준
+- [구교환 "고윤정과 사주 기가 막히게 맞아" 연기 극찬 ［살롱드립2］ | 스타뉴스](https://www.starnewskorea.com/star/2026/04/28/2026042820102693602) · VARIETY_TALK · 내용은 원문 보도 기준
+- [［단독］고윤정, 첫 예능 전격 출연…'마니또 클럽'으로 매력 봉인 해제](https://www.spotvnews.co.kr/news/articleView.html?idxno=794454) · VARIETY_TALK · 내용은 원문 보도 기준
