@@ -9,6 +9,8 @@ import pytest
 @pytest.mark.parametrize('broken', [False, True])
 def test_feed_failure_is_not_reported_as_empty_success(name, broken, tmp_path, monkeypatch):
     mod = importlib.import_module('scripts.auto_collect_' + name)
+    if hasattr(mod, 'save_report'):
+        monkeypatch.setattr(mod, 'save_report', lambda *args: None)
     if hasattr(mod, 'db_manager'):
         monkeypatch.setattr(mod.db_manager, 'init_db', lambda: None)
     if hasattr(mod, 'load_sites'):

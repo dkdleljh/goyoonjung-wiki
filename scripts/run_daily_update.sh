@@ -282,9 +282,9 @@ MAX_QUERIES=${MAX_QUERIES:-4}
 retry 2 5 timeout 90 env MAX_QUERIES="$MAX_QUERIES" BATCH_OFFSET="$OFFSET_QUERIES" ./scripts/auto_collect_google_news_queries.py
 RC_GNEWS_QUERIES=$?
 
-# 1.52) Collect magazine RSS feeds
+# 1.52) Official magazine search APIs and verified RSS; internal transient retries.
 CURRENT_STEP="collect:mag-rss"
-retry 2 5 timeout 90 ./scripts/auto_collect_magazine_rss.py
+retry 1 0 timeout 170 ./scripts/auto_collect_magazine_rss.py
 RC_MAG_RSS=$?
 
 # 1.525) Collect Google News i18n queries (EN/JA)
@@ -337,7 +337,7 @@ fi
 
 # 1.8) Agency (MAA) Monitoring
 CURRENT_STEP="collect:agency"
-retry 2 10 ./scripts/auto_collect_agency.py
+retry 1 0 ./scripts/auto_collect_agency.py
 RC_AGENCY=$?
 
 # 1.9) Encyclopedia Monitoring

@@ -15,6 +15,7 @@ from contextlib import contextmanager
 from datetime import UTC, datetime
 from pathlib import Path
 
+from network_readiness import retry_output, wait_for_network
 from operational_status import health
 from verify_website_sync import save_report, verify, wait_for_sync
 
@@ -34,7 +35,8 @@ def run(*args: str) -> str:
     env = {**os.environ, "NO_HOOK_NOTIFY": "1", "GOYOONJUNG_WIKI_AUTOMATION_PUSH": "1"}
     # The publisher never runs local hooks that could send external notifications.
     command = ["git", "-c", "core.hooksPath=/dev/null", *args[1:]] if args[0] == "git" else list(args)
-    return subprocess.check_output(command, cwd=BASE, env=env, text=True, timeout=180).strip()
+    execute = retry_output if args[0] == "git" and args[1] in {"fetch", "push"} else subprocess.check_output
+    return execute(command, cwd=BASE, env=env, text=True, timeout=180).strip()
 
 
 def changed_paths() -> set[str]:
@@ -73,8 +75,9 @@ def sync_website_checkout() -> None:
         return
 
     def command(*args: str) -> str:
-        return subprocess.check_output(["git", "-c", "core.hooksPath=/dev/null", "-C", str(site), *args],
-                                       text=True, timeout=180).strip()
+        execute = retry_output if args[0] == "fetch" else subprocess.check_output
+        return execute(["git", "-c", "core.hooksPath=/dev/null", "-C", str(site), *args],
+                       text=True, timeout=180).strip()
     if command("branch", "--show-current") != "main" or command("status", "--porcelain"):
         raise RuntimeError("Website checkout needs review: expected clean main")
     if command("remote", "get-url", "origin") not in {"https://github.com/dkdleljh/goyounjung.git", "git@github.com:dkdleljh/goyounjung.git"}:
@@ -181,6 +184,7 @@ def main() -> None:
     try:
         with content_lock():
             recover_collection_marker()
+            wait_for_network()
             publish(pull_only=args.pull_only)
     except BlockingIOError:
         print("Collector or publisher active; the next timer will retry")

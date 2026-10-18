@@ -1,104 +1,82 @@
 #!/usr/bin/env python3
-"""Auto-collect official updates from MAA Agency website.
-- Source: https://maa.co.kr/artists/go-younjung
-- Logic:
-  - Fetch HTML
-  - Extract text content regarding "Drama", "Film", "AD"
-  - Limitation: The site is SPA (Nuxt). We fetch the initial HTML payload.
-    If the data is in JS, we extract it.
-  - Generates a summary of current official listing for comparison.
-  - If changes detected (logic simplified for now: just log the current snapshot),
-    append to news/YYYY-MM-DD.md
-"""
+"""Monitor the configured official profile; preserve outages and parsing failures."""
+from __future__ import annotations
 
-import os
+import argparse
+import json
 import re
 from datetime import datetime
-from urllib.request import Request, urlopen
+from pathlib import Path
 
-BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-MAA_URL = "https://maa.co.kr/artists/go-younjung"
+from bs4 import BeautifulSoup
+from collector_io import append_news_lines
+from source_transport import SourceError, request, save_report
 
-def fetch_html():
-    req = Request(MAA_URL, headers={'User-Agent': 'Mozilla/5.0'})
-    with urlopen(req, timeout=15) as resp:
-        return resp.read().decode('utf-8')
+BASE = Path(__file__).resolve().parent.parent
+CONF_PATH = BASE / 'config/agency-sources.json'
+MAA_URL = 'https://maa.co.kr/artists/go-younjung'
 
-def extract_works(html):
-    # The site renders lists. detailed parsing depends on structure.
-    # We'll look for keywords "NETFLIX", "tvN", "Disney+" appearing in the text
-    # to reconstruct a rough list of what the agency promotes.
 
-    # Simple regex to find "Title" pattern in the HTML or JSON blob
-    # Since it's Nuxt, data might be in window.__NUXT__
+def fetch_html(url: str = MAA_URL) -> str:
+    return request(url).decode('utf-8')
 
+
+def extract_works(html: str) -> list[str]:
+    soup = BeautifulSoup(html, 'html.parser')
+    for tag in soup(['script', 'style', 'nav', 'footer']):
+        tag.decompose()
+    text = soup.get_text(' ', strip=True)
+    if not re.search(r'고윤정|GO\s*YOUN[ -]?JUNG', text, re.I):
+        raise SourceError('Expected actor identity missing; refused generic/error page')
+    # Parse the actual section text, not newline formatting or platform names.
+    # Movie credits often have no platform name at all.
+    sections = re.split(r'\b(Drama(?:\s*\(pending release\))?|Film|Awards|AD|Advertising|Music Video)\b', text, flags=re.I)
     works = []
+    for index in range(1, len(sections) - 1, 2):
+        if not re.match(r'^(Drama|Film)', sections[index], re.I):
+            continue
+        for item in re.split(r'(?=\b(?:19|20)\d{2}\b)', sections[index + 1]):
+            item = ' '.join(item.split()).strip(' ,;')
+            if re.match(r'^(?:19|20)\d{2}\b', item) and len(item) > 8:
+                works.append(item)
+    return list(dict.fromkeys(works))
 
-    # Heuristic: split by lines, find lines with known platforms
-    # This is a 'monitoring' script.
 
-    # Let's try to extract cleanly if possible is hard without beautifulsoup,
-    # but we can try basic string finding.
+def main(check: bool = False) -> int:
+    config = json.loads(CONF_PATH.read_text())
+    urls = config['urls']
+    if not urls:
+        raise SourceError('No agency source configured', 'config')
+    report = {'name': config['name'], 'url': urls[0], 'scope': 'configured_agency_profile', 'status': 'failed'}
+    failures = []
+    for url in urls:
+        try:
+            print(f'Fetching official profile: {url}', flush=True)
+            works = extract_works(fetch_html(url))
+            if not works:
+                raise SourceError('Actor page has no recognized Drama/Film credits; parser needs review')
+            report.update(status='success', url=url, fetched=len(works), matched=len(works), warnings=failures)
+            if not check:
+                today = datetime.now().strftime('%Y-%m-%d')
+                append_news_lines(BASE / 'news' / f'{today}.md', [
+                    f"- [Agency] [{config['name']}]({url}) 작품 목록 확인: {len(works)}건 (변동 확인용)"
+                ])
+            break
+        except (SourceError, UnicodeError) as exc:
+            failures.append(f'{url}: {exc}')
+            report.update(error='; '.join(failures), kind=getattr(exc, 'kind', 'parse'),
+                          retryable=getattr(exc, 'retryable', False))
+    if report['status'] == 'success':
+        for key in ('error', 'kind', 'retryable'):
+            report.pop(key, None)
+    if check:
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+    else:
+        save_report('agency', [report])
+    return 0 if report['status'] == 'success' else 1
 
-    platforms = ["NETFLIX", "tvN", "Disney+", "JTBC", "TVING"]
 
-    # Remove HTML tags for text analysis
-    text = re.sub('<[^<]+?>', ' ', html)
-    lines = [f.strip() for f in text.splitlines() if f.strip()]
-
-    # Find section "Drama" or "Film"
-    capture = False
-    for line in lines:
-        if "Drama" in line or "Film" in line:
-            capture = True
-        if "Awards" in line:
-            capture = False
-
-        if capture:
-            if any(p in line for p in platforms):
-                # Clean up multiple spaces
-                clean = " ".join(line.split())
-                if len(clean) > 5:
-                    works.append(clean)
-
-    return works
-
-def main():
-    print(f"Fetching MAA: {MAA_URL}")
-    try:
-        html = fetch_html()
-    except Exception as e:
-        print(f"Failed to fetch MAA: {e}")
-        return 1
-
-    works = extract_works(html)
-    if not works:
-        print("No works found (parsing fail or empty).")
-        return 1
-
-    print(f"Found {len(works)} official work entries.")
-
-    # Log to daily news as a "Snapshot"
-    today = datetime.now().strftime("%Y-%m-%d")
-    log_path = os.path.join(BASE, "news", f"{today}.md")
-
-    snapshot_entry = f"- [Agency] MAA 공식 홈페이지 작품 리스트 확인: {len(works)}건 (변동 확인용)"
-
-    # Avoid duplicate lines
-    if os.path.exists(log_path):
-        with open(log_path, encoding="utf-8") as f:
-            if snapshot_entry in f.read():
-                return
-
-    # Create/Append
-    if not os.path.exists(log_path):
-        with open(log_path, "w", encoding="utf-8") as f:
-            f.write(f"# {today} 로그\n\n## 뉴스/업데이트\n")
-
-    with open(log_path, "a", encoding="utf-8") as f:
-        f.write(f"{snapshot_entry}\n")
-        # Optional: list them in comment or detail?
-        # f.write("  <!-- " + " | ".join(works) + " -->\n")
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check', action='store_true', help='Fetch/parse only; do not write news or reports')
+    raise SystemExit(main(check=parser.parse_args().check))

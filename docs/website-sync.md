@@ -45,6 +45,25 @@ GitHub 예약 실행은 지연되거나 장기 비활동 시 중지될 수 있�
 
 ## 수집 내구성
 
+### 출처별 정상 여부와 복구
+
+- 잡지는 `config/magazine-rss.yml`에 검증된 공식 검색/API/RSS 주소와 확인 범위를 기록합니다. ELLE·BAZAAR·Esquire·Cosmopolitan은 검색 화면의 공개 POST `/search`, W·GQ·Allure는 공개 `get_search_custom`, Singles는 공개 `/api/article-search`를 사용합니다. Vogue·Marie Claire는 검색 RSS, Arena·Noblesse는 최신 기사 RSS를 확인합니다. 최신 RSS는 과거 전체 검색을 대신하지 않습니다.
+- HTTP 200만으로 성공하지 않습니다. 검색 결과 구조·기사 제목·공식 도메인 링크를 검증하고, RSS는 XML 파싱과 필수 항목을 검사합니다. Vogue의 누락된 `media` 네임스페이스 선언만 보정하며, 다른 파싱 오류나 접근 안내 화면은 실패로 남깁니다. 제목에 고윤정이 포함된 링크만 추가하며 원문 본문을 복사하지 않습니다. 날짜가 없으면 `날짜 미상`으로 기록합니다.
+- 접속·읽기 시간 초과, 429, 5xx는 최대 2회 시도하고 재시도 전에 기다립니다. 404·403·파싱 오류는 같은 실행에서 반복하지 않습니다. 부분성공 후의 다음 수집은 기존 1시간 재시도 정책을 유지합니다.
+- 소속사 모니터는 `config/agency-sources.json`의 등록된 공식 프로필을 확인합니다. 배우 식별과 Drama/Film 작품 추출이 모두 통과해야 성공합니다. 기본 주소가 실패하면 검증된 www 별칭도 확인합니다. MAA 서버가 응답하지 않으면 실패를 유지하며, 캐시나 언론 기사를 공식 프로필 확인 성공으로 바꾸지 않습니다. 이 등록 프로필만으로 현재 소속사를 단정하지 않습니다.
+- `data/reports/collectors/`와 `pages/source-collection-status.md`에 출처별 오류 유형·재시도 가능 여부·확인 범위·마지막 성공·연속 실패 횟수를 저장합니다. 사이트 아카이브에서 상태 문서를 열 수 있습니다. 수집 자료는 원자적으로 저장하고 기존 링크를 중복 삽입하지 않습니다.
+- 수집 전 및 게시 전 GitHub 실제 연결을 최대 약 120초 기다립니다(개별 요청 시간 제한 포함). Git fetch/push의 일시 네트워크 오류는 최대 3회 시도하며, 인증 실패·원격 충돌은 중단합니다. 부팅 직후 DNS가 준비되지 않은 경우에도 다음 타이머 실행과 함께 복구합니다. `.locks/network-readiness.json`에 최근 연결 준비 결과를 기록합니다.
+
+```sh
+# 실제 출처 확인만 수행: 뉴스·상태 보고서를 쓰지 않음
+.venv/bin/python scripts/auto_collect_magazine_rss.py --check
+.venv/bin/python scripts/auto_collect_agency.py --check
+# 전체 실행: 수집 실패는 부분성공으로 유지하고 완료된 자료만 게시
+FORCE=1 bash scripts/collect_and_sync_website.sh
+```
+
+### 저장과 뉴스 주소 처리
+
 RSS 다운로드·파싱·원문 주소 해석 실패는 정상적인 새 자료 0건과 구분해 종료 코드로 전달합니다. 뉴스는 임시 파일에 기록·fsync 후 교체하고, 저장이 끝난 다음에만 중복 수집 방지 DB를 갱신합니다. 저장 후 체크포인트 전에 중단되어도 기존 URL은 중복 기록하지 않습니다.
 
 Google News 주소는 단순 HEAD 리다이렉트 대신 [googlenewsdecoder](https://github.com/SSujitX/google-news-url-decoder)로 해석합니다. 제한 시간과 배치 동시성 4를 적용하고, 성공한 원문 주소를 `.cache/news-decodes`에 보관합니다. 실패 결과는 디스크에 영구 캐시하지 않아 다음 실행에서 복구할 수 있습니다. 수집한 원문에는 기존 도메인 등급·관련성 검증을 적용합니다.
