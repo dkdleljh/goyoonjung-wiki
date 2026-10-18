@@ -66,3 +66,9 @@
 - [고윤정, 눈 뗄 수 없는 몽환적 비주얼…우아함의 정석 ［화보］](https://sports.donga.com/photo?m=view&date=20261008&gid=134809436&rev=1) · 스포츠동아 · 내용은 원문 보도 기준
 - [제니·고윤정도 못 살린 ‘마니또 클럽’…시청률 0.9%로 종영 - 스타투데이](https://www.mk.co.kr/news/hot-issues/12027904) · VARIETY · 내용은 원문 보도 기준
 - [고윤정, 샤넬 서울 쇼 애프터파티서 여유 가득한 밤](https://www.topstarnews.net/news/articleView.html?idxno=16073334) · VARIETY · 내용은 원문 보도 기준
+- [고윤정→김혜윤, 단풍 보러 같이 가고 싶은 女스타는? ［스타폴］ | 스타뉴스](https://www.starnewskorea.com/star/2026/10/06/2026100608574841744) · 스타뉴스 · 내용은 원문 보도 기준
+- [고윤정, 정해인과 특별한 인연 있었다…비밀 마니또로 엮인 사이 "배우님이신데" ('마니또클럽')](https://v.daum.net/v/20260221154644442) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [Go Youn-jung dazzles Paris with goddess aura in casual street photos](https://biz.chosun.com/en/en-entertainment/2026/09/27/LHO4UEE6IVFG7DHRLRYYXSMNAM) · EN_ALL · 내용은 원문 보도 기준
+- [고윤정, 정체불명 '위장 퀵 기사' 직접 추격…거침없는 불도저 ('마니또')](https://v.daum.net/v/20260225151725007) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [‘고윤정 효과’ 톡톡…‘마니또 클럽’ 살린 예능 새내기, 첫 예능 성공적 ［줌인］](https://v.daum.net/v/20260319060143629) · VARIETY_GENERAL · 내용은 원문 보도 기준
+- [정해인→고윤정, 예능 뜬다…'마니또 클럽', 출연 확정](https://www.dispatch.co.kr/2338820) · VARIETY_GENERAL · 내용은 원문 보도 기준
