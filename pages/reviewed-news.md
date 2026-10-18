@@ -159,3 +159,4 @@
 - [고윤정, 나영석 예능 나올까 "지금 예능 제일 잘하는 PD" ［핫피플］](https://www.chosun.com/entertainments/broadcast/2026/01/17/GBQTOZJTMRRDCYJTHFRDMNDFGQ) · VARIETY_TALK · 내용은 원문 보도 기준
 - [고윤정은 파리에서 6만 원대 맨투맨을 입습니다](https://www.cosmopolitan.co.kr/article/1910935) · Cosmopolitan Korea · 내용은 원문 보도 기준
 - [고윤정 설마 했는데…“결국 갈아탔다” 손에 든 ‘폰’ 뭔가 했더니](https://biz.heraldcorp.com/article/10898311) · 헤럴드경제 · 내용은 원문 보도 기준
+- [“연예인 될 재주없다” 거절했던 고윤정…10년전 대학 주점선 ‘만석 여신’](https://www.sportsseoul.com/news/read/1642299) · 스포츠서울 · 내용은 원문 보도 기준
