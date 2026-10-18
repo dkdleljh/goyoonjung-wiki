@@ -89,3 +89,9 @@
 - [고윤정, 이병헌과 만난다…‘남벌’ 출연 확정](https://v.daum.net/v/20260707155800017) · VARIETY_WORK · 내용은 원문 보도 기준
 - [고윤정, 이병헌 만난다...무협 액션 '남벌' 출연 확정 ［공식］](https://biz.chosun.com/entertainment/movie/2026/07/07/GM4DOMBTHA4WKN3DMVRTMYJVGE) · VARIETY_WORK · 내용은 원문 보도 기준
 - [［공식］ 우즈, 스크린 연기 도전…이병헌X고윤정 ‘남벌’ 출연](https://sports.donga.com/ent/article/all/20260723/134348815/1) · VARIETY_WORK · 내용은 원문 보도 기준
+- [이도현, 고윤정과 3번째 재회→이병헌과 첫 호흡…영화 '남벌'로 스크린 복귀 ［공식］](https://v.daum.net/v/20260720101907247) · VARIETY_WORK · 내용은 원문 보도 기준
+- [고윤정, 꽃벽 앞 우아한 핑크 드레스…'무빙2'·'남벌'로 열일 행보](https://www.topstarnews.net/news/articleView.html?idxno=16225747) · WORKS · 내용은 원문 보도 기준
+- [류승룡 "고윤정과 '무빙2' 촬영 시작, 어제 본 것 같더라" ［엑's 인터뷰］](https://v.daum.net/v/80dPPWQ95g) · WORKS · 내용은 원문 보도 기준
+- ['고윤정 출연 작품 아니었어?'…패션업계, 영화 같은 광고 화제 | 연합뉴스](https://www.yna.co.kr/view/AKR20260923185000030) · WORKS · 내용은 원문 보도 기준
+- [류승룡→고윤정, 서울드라마어워즈 수상 후보…10월 8일 MBC 생중계](https://enews.imbc.com/News/RetrieveNewsInfo/515491) · WORKS · 내용은 원문 보도 기준
+- [고윤정, 티파니 선택 받았다…블랙 드레스+다이아로 ‘여신 비주얼’](https://www.chosun.com/entertainments/enter_general/2026/08/27/MM4TGZRXGM2DEOBRGZRTMMLFHE) · WORKS · 내용은 원문 보도 기준
