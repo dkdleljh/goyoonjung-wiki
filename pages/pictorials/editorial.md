@@ -559,6 +559,30 @@
 - 링크(원문): https://www.wkorea.com/2022/12/31/%ec%9a%94%ec%a6%98-%eb%82%9c%eb%a6%ac-%eb%82%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/
 - 상태: 공식확정
 - id: https://www.wkorea.com/2022/12/31/%ec%9a%94%ec%a6%98-%eb%82%9c%eb%a6%ac-%eb%82%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+
+- 날짜: 2022-02-21
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정의 봄, 봄, 봄
+- 링크(원문): https://www.vogue.co.kr/2022/02/21/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%eb%b4%84-%eb%b4%84-%eb%b4%84/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2022/02/21/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%eb%b4%84-%eb%b4%84-%eb%b4%84/
+
+- 날짜: 2022-08-26
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 부쉐론의 여신, 고윤정
+- 링크(원문): https://www.vogue.co.kr/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+
+- 날짜: 2022-09-02
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 부쉐론과 고윤정이 창조한 미의 세계
+- 링크(원문): https://www.vogue.co.kr/2022/09/02/%eb%b6%80%ec%89%90%eb%a1%a0%ea%b3%bc-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%b0%bd%ec%a1%b0%ed%95%9c-%eb%af%b8%ec%9d%98-%ec%84%b8%ea%b3%84/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2022/09/02/%eb%b6%80%ec%89%90%eb%a1%a0%ea%b3%bc-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%b0%bd%ec%a1%b0%ed%95%9c-%eb%af%b8%ec%9d%98-%ec%84%b8%ea%b3%84/
 ## 2021
 - 날짜: 2021-04-30
 - 매체: W 코리아 (W Korea)
@@ -620,6 +644,14 @@
 - 링크(원문): https://www.wkorea.com/2021/04/30/4%ea%b0%80%ec%a7%80-%ea%b4%80%eb%8a%a5%ec%9d%98-%ed%96%a5-%ea%b3%a0%ec%9c%a4%ec%a0%95/
 - 상태: 공식확정
 - id: https://www.wkorea.com/2021/04/30/4%ea%b0%80%ec%a7%80-%ea%b4%80%eb%8a%a5%ec%9d%98-%ed%96%a5-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+
+- 날짜: 2021-02-17
+- 매체: Vogue Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 한없이 투명에 가까운, 고윤정
+- 링크(원문): https://www.vogue.co.kr/2021/02/17/%ed%95%9c%ec%97%86%ec%9d%b4-%ed%88%ac%eb%aa%85%ec%97%90-%ea%b0%80%ea%b9%8c%ec%9a%b4-%ea%b3%a0%ec%9c%a4%ec%a0%95/
+- 상태: 원문 메타데이터 수집
+- id: https://www.vogue.co.kr/2021/02/17/%ed%95%9c%ec%97%86%ec%9d%b4-%ed%88%ac%eb%aa%85%ec%97%90-%ea%b0%80%ea%b9%8c%ec%9a%b4-%ea%b3%a0%ec%9c%a4%ec%a0%95/
 ## 2020
 - 날짜: 2020-12-22
 - 매체: 엑스포츠뉴스 (Xports News)
@@ -1234,3 +1266,107 @@
 - 링크(원문): https://www.cosmopolitan.co.kr/article/81411
 - 상태: 원문 메타데이터 수집
 - id: https://www.cosmopolitan.co.kr/article/81411
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 엘르 디 에디션(D EDITION) 커버 공개
+- 링크(원문): https://www.elle.co.kr/article/1863624
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1863624
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 독보적인 매력!고윤정의 어느 일상(feat. 풍성한 머리 결)
+- 링크(원문): https://www.elle.co.kr/article/1863695
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/1863695
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정의 재발견 #ELLE_D에디션
+- 링크(원문): https://www.elle.co.kr/article/82598
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/82598
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: ELLE Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 엘르 디 에디션(D Edition) 커버 공개 #ELLE_D에디션
+- 링크(원문): https://www.elle.co.kr/article/82624
+- 상태: 원문 메타데이터 수집
+- id: https://www.elle.co.kr/article/82624
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '언슬전'고윤정·신시아→강유석·한예지...'어디에서 봤더라?'
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1880063
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1880063
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '언슬전'고윤정도 반했다! 신원호 PD 보석함 속 정준원, 누구?
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1880834
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1880834
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정은 사실 유명한 훈녀생정입니다,고윤정메이크업 포인트
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1881137
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1881137
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정·신시아→강유석, ‘언슬전’ 주연들의 차기작.zip
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1881807
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1881807
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: "알고 보면 미대생?"…고윤정·노윤서·신현빈, 의외의 공통분모!
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1882218
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1882218
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정도 나랑 같네! 요즘 갖는 사사로운 고민과 가장 행복한 순간
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1883555
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1883555
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이 요즘 유행하는 '물먹립'을 연출하는 방법
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1883689
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1883689
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 프렌치 감성 한가득!고윤정의 바자 디지털 커버
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1889998
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1889998
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정이라는 아름다움.
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1889999
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1889999

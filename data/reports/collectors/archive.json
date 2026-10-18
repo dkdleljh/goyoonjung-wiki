@@ -1,19 +1,19 @@
 {
-  "checked_at": "2026-10-18T20:25:27+09:00",
+  "checked_at": "2026-10-18T20:30:29+09:00",
   "status": "failed",
   "sources": [
     {
       "name": "ELLE Korea",
       "url": "https://www.elle.co.kr/search",
-      "scope": "historical pagination page 3",
+      "scope": "historical pagination page 4",
       "status": "success",
       "fetched": 18,
-      "matched": 11,
+      "matched": 4,
       "warnings": [],
-      "page": 3,
-      "page_fingerprint": "f9d2793d0429735f45862ada29f59754a71209880239f2acd9bccddd50443cc7",
-      "checked_at": "2026-10-18T20:00:30+09:00",
-      "last_success": "2026-10-18T20:00:30+09:00",
+      "page": 4,
+      "page_fingerprint": "c85097e4bd26dbdd7a894a4fa46ace5a361cd746e68504974bb51583e263d5f2",
+      "checked_at": "2026-10-18T20:30:29+09:00",
+      "last_success": "2026-10-18T20:30:29+09:00",
       "consecutive_failures": 0
     },
     {
@@ -31,15 +31,15 @@
     {
       "name": "Harper’s BAZAAR Korea",
       "url": "https://www.harpersbazaar.co.kr/search",
-      "scope": "historical pagination page 3",
+      "scope": "historical pagination page 4",
       "status": "success",
       "fetched": 18,
-      "matched": 6,
+      "matched": 10,
       "warnings": [],
-      "page": 3,
-      "page_fingerprint": "8e7e9650ca5e67f216b400929fba93dab3e6224ca20e8a5370eca311eb8db0f2",
-      "checked_at": "2026-10-18T20:00:30+09:00",
-      "last_success": "2026-10-18T20:00:30+09:00",
+      "page": 4,
+      "page_fingerprint": "44d33fce9aaab839e7895cc9b15bc132bb3e19c85379646fd4876d302e72c9db",
+      "checked_at": "2026-10-18T20:30:29+09:00",
+      "last_success": "2026-10-18T20:30:29+09:00",
       "consecutive_failures": 0
     },
     {
@@ -57,17 +57,17 @@
     {
       "name": "Vogue Korea",
       "url": "https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
-      "scope": "historical pagination page 3",
+      "scope": "historical pagination page 4",
       "status": "success",
       "fetched": 10,
-      "matched": 2,
+      "matched": 4,
       "warnings": [
         "RSS media namespace declaration repaired"
       ],
-      "page": 3,
-      "page_fingerprint": "f119b7433419fba7b567b44add78d5faaf2a9f11fb2657aeebe71139e8a56bd8",
-      "checked_at": "2026-10-18T20:15:31+09:00",
-      "last_success": "2026-10-18T20:15:31+09:00",
+      "page": 4,
+      "page_fingerprint": "c2c05de761c7fe2f51271d39690d362799198dead74f3c5b1983634998cd2b4a",
+      "checked_at": "2026-10-18T20:30:29+09:00",
+      "last_success": "2026-10-18T20:30:29+09:00",
       "consecutive_failures": 0
     },
     {
