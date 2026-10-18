@@ -361,8 +361,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-10-18T06:15:25.215361+00:00",
-    "next_check": "2026-10-18T12:15:25.215361+00:00",
+    "checked_at": "2026-10-18T13:15:20.231636+00:00",
+    "next_check": "2026-10-18T19:15:20.231636+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://www.tenasia.co.kr/article/2026092803714": {
@@ -559,8 +559,8 @@
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-10-18T06:30:25.943547+00:00",
-    "next_check": "2026-10-18T12:30:25.943547+00:00",
+    "checked_at": "2026-10-18T13:15:20.231636+00:00",
+    "next_check": "2026-10-18T19:15:20.231636+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA": {
@@ -4023,6 +4023,78 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-10-18T12:55:26.059620+00:00"
+    }
+  },
+  "https://www.chosun.com/entertainments/broadcast/2026/01/17/GBQTOZJTMRRDCYJTHFRDMNDFGQ": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-18T13:15:20.231636+00:00",
+    "first_seen_at": "2026-10-11 16:28:36",
+    "next_check": "2026-10-25T13:15:20.231636+00:00",
+    "metadata": {
+      "id": "d9efef35faa11a30df988060",
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/01/17/GBQTOZJTMRRDCYJTHFRDMNDFGQ/",
+      "publisher": "chosun.com",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정, 나영석 예능 나올까 \"지금 예능 제일 잘하는 PD\" [핫피플]",
+      "published_at": "2026-01-17T06:42:03.178Z",
+      "collected_at": "2026-10-18T13:15:22.024421+00:00",
+      "content_hash": "42e853c3ba3bb8f235e2bb704a2afcfbb9bf2fd0234dc055b7167b2a28a27e48",
+      "excerpt": "고윤정, 나영석 예능 나올까 지금 예능 제일 잘하는 PD 핫피플",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": "W/\"1e070-qkasIsb+J+Vv5LDuRep0PdndisQ\"",
+      "last_modified": "Sun, 18 Oct 2026 13:15:21 GMT",
+      "first_seen": "2026-10-18T13:15:22.024421+00:00"
+    }
+  },
+  "https://www.cosmopolitan.co.kr/article/1910935": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-18T13:15:20.231636+00:00",
+    "first_seen_at": "2026-10-11 16:28:31",
+    "next_check": "2026-10-25T13:15:20.231636+00:00",
+    "metadata": {
+      "id": "caa98eeed8c0b1c12ff20b87",
+      "url": "https://www.cosmopolitan.co.kr/article/1910935",
+      "publisher": "cosmopolitan.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정은 파리에서 6만 원대 맨투맨을 입습니다",
+      "published_at": "2026-10-06T16:40:00+09:00",
+      "collected_at": "2026-10-18T13:15:22.526404+00:00",
+      "content_hash": "70ad222e3903c30c6979730462a8f6337ad4acfdbdbcb056d51c498a5edaf8b2",
+      "excerpt": "고윤정이 파리에서 선보인 여행 룩이 눈길을 끌었습니다. 6만 원대 맨투맨부터 샤넬 백까지, 힘을 뺀 꾸안꾸 스타일링과 사진 속 파리 명소를 함께 살펴봤습니다.",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-18T13:15:22.526404+00:00"
+    }
+  },
+  "https://biz.heraldcorp.com/article/10898311": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-18T13:15:20.231636+00:00",
+    "first_seen_at": "2026-10-11 16:28:25",
+    "next_check": "2026-10-25T13:15:20.231636+00:00",
+    "metadata": {
+      "id": "e721113f7483fbb5aabfa596",
+      "url": "https://biz.heraldcorp.com/article/10898311",
+      "publisher": "biz.heraldcorp.com",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정 설마 했는데…“결국 갈아탔다” 손에 든 ‘폰’ 뭔가 했더니",
+      "published_at": "2026-10-10T21:40:00+09:00",
+      "collected_at": "2026-10-18T13:15:23.025009+00:00",
+      "content_hash": "4e1ab6408717972dac9ba788ff8cf0008deac922db4ca3510237162446bbe338",
+      "excerpt": "[헤럴드경제=박영훈 기자] “아이폰 사용자 고윤정, 삼성으로 갈아탔다“ 20~30대 젊은 세대들의 아이폰 타령이 옛말이 되고 있다. 특히 20~30대 젊은 여성들에게 절대적인",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-18T13:15:23.025009+00:00"
     }
   }
 }

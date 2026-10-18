@@ -40,7 +40,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-10-18 22:10 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-10-18 22:15 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -52,7 +52,7 @@
 
 - ⭐ [샤넬과 고윤정이 함께한 무빙 커버](https://www.marieclairekorea.com/fashion/2024/06/chanel-25/)  _(출처: pictorials/editorial.md)_
 
-- ⭐ [Disney Plus Korea](https://www.youtube.com/watch?v=wZR6s3rB6tk)  _(출처: pictorials/campaign.md)_
+- ⭐ [<무빙> 매력 고딩들 누구지? 이정하 &고윤정& 김도훈](https://www.harpersbazaar.co.kr/article/79958)  _(출처: pictorials/editorial.md)_
 
 
 
@@ -65,6 +65,12 @@
 - [‘무빙’ 마지막화 공개 직전! 희수 그 자체인고윤정TMI 12](https://www.esquirekorea.co.kr/article/80691)  _(출처: interviews.md)_
 
 - [샤넬과 고윤정이 함께한 무빙 커버](https://www.marieclairekorea.com/fashion/2024/06/chanel-25/)  _(출처: pictorials/editorial.md)_
+
+- [<무빙> 매력 고딩들 누구지? 이정하 &고윤정& 김도훈](https://www.harpersbazaar.co.kr/article/79958)  _(출처: pictorials/editorial.md)_
+
+- [고윤정, 또고윤정! <무빙> 끝나고, <슬의생> 스핀오프 行](https://www.harpersbazaar.co.kr/article/80774)  _(출처: pictorials/editorial.md)_
+
+- [류승룡·강풀→고윤정·이정하..<무빙>, 'ACA & GOTT' 삼켰다!](https://www.harpersbazaar.co.kr/article/81221)  _(출처: pictorials/editorial.md)_
 
 - [Disney Plus Korea](https://www.youtube.com/watch?v=wZR6s3rB6tk)  _(출처: pictorials/campaign.md)_
 
@@ -91,12 +97,6 @@
 - [[인터뷰] '무빙' 고윤정 "17 대 1 액션과 풋풋한 첫사랑, 다 가졌죠?"](https://www.ilyo.co.kr/?ac=article_view&entry_id=458232)  _(출처: interviews.md)_
 
 - ['무빙' 고윤정 "17대 1 싸움 장면, 너무 뿌듯했어요"[인터뷰]](https://v.daum.net/v/XbouMZUNSZ)  _(출처: interviews.md)_
-
-- [[톡★스타] 고윤정 "'무빙' 인기에…평소 연락 없던 지인까지도 전화"](https://www.sportsworldi.com/newsView/20230901503040)  _(출처: interviews.md)_
-
-- [(인터뷰) '무빙' 고윤정 "갖고 싶은 능력? 날라다니고 싶죠"](https://www.newstomato.com/ReadNews.aspx?no=1199951)  _(출처: interviews.md)_
-
-- [고윤정, '무빙 시즌2' 이어 '남벌'까지…OTT와 스크린 넘나든다 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008655003)  _(출처: appearances.md)_
 <!-- AUTO-CANDIDATES:END -->
 
 ## 링크 박스

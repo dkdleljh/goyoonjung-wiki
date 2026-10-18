@@ -156,3 +156,6 @@
 - [김선호 "고윤정, AI처럼 예쁜 배우" 미모 극찬 ('십오야')［순간포착］](https://v.daum.net/v/20260109205849832) · VARIETY_TALK · 내용은 원문 보도 기준
 - [김선호 "고윤정, AI처럼 예쁜 배우" 미모 극찬 ('십오야')［순간포착］](https://v.daum.net/v/pL9xFqYCCF?f=p) · VARIETY_TALK · 내용은 원문 보도 기준
 - [나영석, 고윤정 성격 카메라 온오프 달라…"사방팔방 돌아다녀" ('십오야')](https://v.daum.net/v/20260109223503833) · VARIETY_TALK · 내용은 원문 보도 기준
+- [고윤정, 나영석 예능 나올까 "지금 예능 제일 잘하는 PD" ［핫피플］](https://www.chosun.com/entertainments/broadcast/2026/01/17/GBQTOZJTMRRDCYJTHFRDMNDFGQ) · VARIETY_TALK · 내용은 원문 보도 기준
+- [고윤정은 파리에서 6만 원대 맨투맨을 입습니다](https://www.cosmopolitan.co.kr/article/1910935) · Cosmopolitan Korea · 내용은 원문 보도 기준
+- [고윤정 설마 했는데…“결국 갈아탔다” 손에 든 ‘폰’ 뭔가 했더니](https://biz.heraldcorp.com/article/10898311) · 헤럴드경제 · 내용은 원문 보도 기준

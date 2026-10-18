@@ -1,20 +1,18 @@
 {
-  "checked_at": "2026-10-18T22:00:30+09:00",
+  "checked_at": "2026-10-18T22:15:26+09:00",
   "status": "failed",
   "sources": [
     {
       "name": "ELLE Korea",
       "url": "https://www.elle.co.kr/search",
-      "scope": "historical pagination page 5",
-      "status": "success",
-      "fetched": 16,
-      "matched": 6,
-      "warnings": [],
-      "page": 5,
-      "page_fingerprint": "7d407aea08c450776d15b35ee08c0915f98ef372525553723880b4dc41080235",
-      "checked_at": "2026-10-18T21:55:29+09:00",
+      "scope": "historical pagination page 6",
+      "status": "failed",
+      "error": "Search result container has no article links",
+      "kind": "parse",
+      "retryable": false,
+      "checked_at": "2026-10-18T22:15:26+09:00",
       "last_success": "2026-10-18T21:55:29+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "W Korea",
@@ -31,15 +29,15 @@
     {
       "name": "Harper’s BAZAAR Korea",
       "url": "https://www.harpersbazaar.co.kr/search",
-      "scope": "historical pagination page 5",
+      "scope": "historical pagination page 6",
       "status": "success",
       "fetched": 18,
-      "matched": 4,
+      "matched": 8,
       "warnings": [],
-      "page": 5,
-      "page_fingerprint": "bd97c0959c14e5a270ca5f8365b92851573160dd5396d8862e97a1ab22189a18",
-      "checked_at": "2026-10-18T21:55:29+09:00",
-      "last_success": "2026-10-18T21:55:29+09:00",
+      "page": 6,
+      "page_fingerprint": "4643f4344d945ba0a5c76785617fa4786770928dfaad79ca06d2d7ed445ac06d",
+      "checked_at": "2026-10-18T22:15:26+09:00",
+      "last_success": "2026-10-18T22:15:26+09:00",
       "consecutive_failures": 0
     },
     {
@@ -57,18 +55,14 @@
     {
       "name": "Vogue Korea",
       "url": "https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
-      "scope": "historical pagination page 5",
-      "status": "success",
-      "fetched": 1,
-      "matched": 0,
-      "warnings": [
-        "RSS media namespace declaration repaired"
-      ],
-      "page": 5,
-      "page_fingerprint": "e4cc5c0faada07bfecade9cc03f9c6ca75938c759020c5de4a183e62306d4508",
-      "checked_at": "2026-10-18T22:00:30+09:00",
+      "scope": "historical pagination page 6",
+      "status": "failed",
+      "error": "HTTP 404",
+      "kind": "http",
+      "retryable": false,
+      "checked_at": "2026-10-18T22:15:26+09:00",
       "last_success": "2026-10-18T22:00:30+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Marie Claire Korea",

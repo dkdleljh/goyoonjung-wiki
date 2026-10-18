@@ -1546,3 +1546,67 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/1876940
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/1876940
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: "센터는고윤정"..윤곽 드러나는 <슬의생> 스핀오프 <슬전생>
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1860908
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1860908
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정부터 민효린까지 스타들의 한복 자태
+- 링크(원문): https://www.harpersbazaar.co.kr/article/74033
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/74033
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: '멋쁨'고윤정이 프랑스 파리를 홀린 코디는? #B_STAR일링
+- 링크(원문): https://www.harpersbazaar.co.kr/article/78245
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/78245
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: <무빙> 매력 고딩들 누구지? 이정하 &고윤정& 김도훈
+- 링크(원문): https://www.harpersbazaar.co.kr/article/79958
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/79958
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 또고윤정! <무빙> 끝나고, <슬의생> 스핀오프 行
+- 링크(원문): https://www.harpersbazaar.co.kr/article/80774
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/80774
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 류승룡·강풀→고윤정·이정하..<무빙>, 'ACA & GOTT' 삼켰다!
+- 링크(원문): https://www.harpersbazaar.co.kr/article/81221
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/81221
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정과 크러쉬의 특별한 겨울
+- 링크(원문): https://www.harpersbazaar.co.kr/article/82127
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/82127
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 서인국·박소담→고윤정·이도현...캐스팅 난리난 <이곧죽>
+- 링크(원문): https://www.harpersbazaar.co.kr/article/83053
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/83053
