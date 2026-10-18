@@ -242,3 +242,5 @@ journalctl --user -u goyoonjung-wiki-sync.service -n 60 --no-pager
 # 외부 복구 훈련: 주 서버 수집과 겹치지 않는 시간에 실행
 # gh workflow run collector-failover.yml --repo dkdleljh/goyoonjung-wiki -f force=true
 ```
+
+GitHub Pages 응답의 `Cache-Control: max-age=600`에 따라 문서 주소별 캐시가 최대 10분 남을 수 있다. 배포 CI는 `verify_website_sync.py --artifact-urls`로 실제 배포 파일 전체를 검증하며, 기본 실행은 방문자용 디렉터리 주소까지 엄격하게 확인한다. 두 검증 범위는 결과의 `url_scope`에 명시한다. 5분 수집 주기는 모든 방문자에게 5분 이내 표시됨을 보장하지 않는다.

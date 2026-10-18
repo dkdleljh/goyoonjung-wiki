@@ -87,3 +87,20 @@ def test_old_build_is_rejected_even_with_same_source_revision(deployment):
     files['artifact-manifest.json'] = json.dumps(manifest).encode()
     with pytest.raises(RuntimeError, match='different deployments'):
         verifier.verify()
+
+
+def test_artifact_urls_are_verified_without_claiming_directory_cache_freshness(deployment, monkeypatch):
+    files, _, _ = deployment
+    def fetch(path):
+        if not path or path.endswith('/'):
+            return b'older CDN alias'
+        return files[path]
+    monkeypatch.setattr(verifier, 'fetch', fetch)
+    with pytest.raises(RuntimeError, match='differs from build'):
+        verifier.verify()
+    result = verifier.verify(artifact_urls=True)
+    assert result['verified_artifacts'] == 7
+    assert 'directory aliases may remain cached' in result['url_scope']
+    files['index.html'] = b'corrupt exact artifact'
+    with pytest.raises(RuntimeError, match='differs from build'):
+        verifier.verify(artifact_urls=True)

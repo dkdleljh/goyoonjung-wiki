@@ -41,7 +41,7 @@ def expected_source_paths() -> set[str]:
                 "data/facts/profile.json", "data/facts/works.json"} | ({"data/reports/heartbeat.json"} if "data/reports/heartbeat.json" in paths else set())
 
 
-def verify(full: bool = True) -> dict:
+def verify(full: bool = True, artifact_urls: bool = False) -> dict:
     if git("status", "--porcelain"):
         raise RuntimeError("Local working tree has unpublished changes")
     if git("branch", "--show-current") != "main":
@@ -89,7 +89,7 @@ def verify(full: bool = True) -> dict:
                 raise RuntimeError(f"Unsafe artifact path: {name}")
             # /index.html and / are equivalent in Pages; use the visitor-facing URL.
             public_path = name.removesuffix("index.html") if name.endswith("/index.html") or name == "index.html" else name
-            body = fetch(public_path)
+            body = fetch(name if artifact_urls else public_path)
             if name.startswith("wiki/") and name.endswith("/index.html"):
                 source = name[len("wiki/"):-len("/index.html")] + ".md"
                 source_hash = next((entry["sha256"] for entry in source_files if entry["file"] == source), None)
@@ -108,14 +108,15 @@ def verify(full: bool = True) -> dict:
     return {"status": "verified", "verified_at": datetime.now().astimezone().isoformat(),
             "wiki_revision": sha, "site_revision": site_sha, "source_files": len(source_files),
             "documents": metadata["documents"], "verified_artifacts": count, "full": full,
+            "url_scope": "exact artifact URLs; directory aliases may remain cached" if artifact_urls else "visitor directory URLs",
             "collection": metadata.get("latestRun"), "url": SITE}
 
 
-def wait_for_sync(timeout: int = 900, full: bool = True) -> dict:
+def wait_for_sync(timeout: int = 900, full: bool = True, artifact_urls: bool = False) -> dict:
     deadline = time.monotonic() + timeout
     while True:
         try:
-            return verify(full=full)
+            return verify(full=full, artifact_urls=artifact_urls)
         except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError) as exc:
             if time.monotonic() >= deadline:
                 raise RuntimeError(f"Website synchronization not verified: {exc}") from exc
@@ -138,9 +139,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--wait", type=int, default=0, help="Maximum CDN/deployment wait in seconds")
     parser.add_argument("--quick", action="store_true", help="Compare all source hashes; skip public artifact downloads")
+    parser.add_argument("--artifact-urls", action="store_true", help="Verify exact deployed files; directory aliases have independent CDN caches")
     args = parser.parse_args()
     try:
-        result = wait_for_sync(args.wait, full=not args.quick)
+        result = wait_for_sync(args.wait, full=not args.quick, artifact_urls=args.artifact_urls)
         save_report(result)
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
