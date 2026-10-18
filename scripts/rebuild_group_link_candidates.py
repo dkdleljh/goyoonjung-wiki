@@ -209,7 +209,7 @@ def update_page(page: Path, title: str, items):
     lines.append(f"> 갱신: {now} (Asia/Seoul)\n")
 
     lines.append("## 공식 링크\n")
-    lines.append(f"- (S) 소속사(MAA) 프로필(기준): {MAA_PROFILE}\n")
+    lines.append(f"- (S) 과거 소속사(MAA) 프로필(기준): {MAA_PROFILE}\n")
     for u in official_links:
         lines.append(f"- (A/S) {u}\n")
 

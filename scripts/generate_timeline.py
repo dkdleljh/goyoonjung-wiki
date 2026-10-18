@@ -116,7 +116,7 @@ def main():
 
 ## 공식 링크
 - (내부) schedule.md: schedule.md
-- (S) 소속사(MAA) 프로필(공식 필모/커버리지 기준): https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필(공식 필모/커버리지 기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
 - (내부) pages/schedule.md (타임라인 생성 원본)

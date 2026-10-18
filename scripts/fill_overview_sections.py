@@ -71,12 +71,12 @@ DATA: dict[str, dict[str, str]] = {
     },
     "pages/profile.md": {
         "summary": "공식/검증 가능한 근거로 고윤정의 핵심 프로필 정보를 유지하는 페이지입니다.",
-        "links": "[소속사(MAA)](https://maa.co.kr/artists/go-younjung) · [필모](filmography.md) · [타임라인](timeline.md)",
+        "links": "[과거 소속사(MAA)](https://maa.co.kr/artists/go-younjung) · [필모](filmography.md) · [타임라인](timeline.md)",
         "status": "S/A 우선(일부 항목은 보조 참고로 분리 운영)",
     },
     "pages/filmography.md": {
         "summary": "작품 축(드라마/시리즈 중심)을 공식 링크 기반으로 정리한 표입니다.",
-        "links": "[소속사(MAA)](https://maa.co.kr/artists/go-younjung) · 작품별(works/*.md) · [타임라인](timeline.md)",
+        "links": "[과거 소속사(MAA)](https://maa.co.kr/artists/go-younjung) · 작품별(works/*.md) · [타임라인](timeline.md)",
         "status": "S/A 우선(플랫폼/방송사 링크 보강 지속)",
     },
     "pages/awards.md": {
@@ -116,7 +116,7 @@ DATA: dict[str, dict[str, str]] = {
     },
     "pages/sns.md": {
         "summary": "공식 채널(소속사/작품/플랫폼 등)로 연결되는 SNS/영상 링크 허브입니다.",
-        "links": "[MAA(소속사)](https://maa.co.kr/artists/go-younjung) · 공식 YouTube/Instagram(가능한 범위) · [타임라인](timeline.md)",
+        "links": "[MAA(과거 소속사)](https://maa.co.kr/artists/go-younjung) · 공식 YouTube/Instagram(가능한 범위) · [타임라인](timeline.md)",
         "status": "공식 채널 우선(차단 도메인은 대체 1차 근거 병기)",
     },
     "pages/schedule.md": {

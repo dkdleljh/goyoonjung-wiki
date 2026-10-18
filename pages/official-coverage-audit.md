@@ -1,10 +1,10 @@
 # Official Coverage Audit (auto)
 
-> Updated: 2026-10-18 12:27 (Asia/Seoul)
+> Updated: 2026-10-18 12:36 (Asia/Seoul)
 
 ## Scores
-- official_work_sync: **40/100**
-- coverage_readiness: **0/100**
+- official_work_sync: **측정 불가 (기준 출처 수집 종료)**
+- coverage_readiness: **측정 불가 (기준 출처 수집 종료)**
 
 ## Official Filmography Sync
 - official_titles: 0
@@ -23,6 +23,6 @@
 - upcoming_schedule_items: 0
 
 ## Notes
-- MAA fetch failed: HTTPSConnectionPool(host='maa.co.kr', port=443): Max retries exceeded with url: /artists/go-younjung (Caused by ConnectTimeoutError(<HTTPSConnection(host='maa.co.kr', port=443) at 0x7f6ed9f24050>, 'Connection to maa.co.kr timed out. (connect timeout=15)'))
+- MAA 수집 종료: MAA 흡수합병과 AAP 소속 보도를 확인해 과거 MAA 프로필의 정기 수집을 종료했다. 에이투지 공식 아티스트 소개에 고윤정이 없어 대체 프로필로 등록하지 않는다.
 - Awards page still contains unresolved official-proof debt.
 - SNS page still contains an unresolved official account.

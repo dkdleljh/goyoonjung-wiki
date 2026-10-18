@@ -38,7 +38,7 @@
 - 인터뷰/기사: 54
 
 ## 공식 링크
-- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
 - pages/system_status.md

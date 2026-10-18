@@ -3,7 +3,7 @@
 > 자동 생성 파일입니다. (스크립트: scripts/rebuild_tag_index.py)
 
 ## 공식 링크
-- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 - (내부) 생성 스크립트: scripts/rebuild_tag_index.py
 
 ## 출처

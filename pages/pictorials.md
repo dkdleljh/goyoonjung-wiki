@@ -8,7 +8,7 @@
 - 상태: 링크 아카이브(이미지 저장/재배포 금지) · 공식/원문 우선
 
 ## 공식 링크
-- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
 - pages/pictorials/* 문서에 포함된 매거진/브랜드 원문 링크

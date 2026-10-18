@@ -19,7 +19,7 @@
 
 ## 공식 링크
 - (S) Disney+ 공식 페이지: https://www.disneyplus.com/ko-kr/series/light-shop/3x1x2x3x4
-- (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
 
 
 ## 출처

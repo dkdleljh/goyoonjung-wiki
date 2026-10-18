@@ -74,7 +74,7 @@ def main():
         lines.append('')
 
     lines.append('## 공식 링크')
-    lines.append('- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung')
+    lines.append('- (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung')
     lines.append('')
     lines.append('## 출처')
     lines.append('- pages/system_status.md')

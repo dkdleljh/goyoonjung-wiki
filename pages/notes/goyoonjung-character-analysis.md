@@ -2,7 +2,7 @@
 
 
 ## 공식 링크
-- (S) 소속사(MAA) 프로필(작품 기준): https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필(작품 기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
 - (A) 본 문서 내 참고 링크(인터뷰/기사/작품 페이지)

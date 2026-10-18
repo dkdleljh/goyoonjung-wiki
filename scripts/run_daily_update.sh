@@ -335,10 +335,11 @@ else
   RC_LINK=0
 fi
 
-# 1.8) Agency (MAA) Monitoring
+# 1.8) Agency profile lifecycle and monitoring
 CURRENT_STEP="collect:agency"
 retry 1 0 ./scripts/auto_collect_agency.py
 RC_AGENCY=$?
+AGENCY_STATE=$(python3 -c 'import json; print(json.load(open("data/reports/collectors/agency.json"))["status"])' 2>/dev/null || echo unknown)
 
 # 1.9) Encyclopedia Monitoring
 CURRENT_STEP="collect:encyclopedia"
@@ -536,6 +537,8 @@ else
 fi
 if [ "${RC_AGENCY:-0}" -ne 0 ]; then
   NOTE="$NOTE, agency:SKIP"
+elif [ "${AGENCY_STATE:-unknown}" = retired ]; then
+  NOTE="$NOTE, agency:RETIRED"
 else
   NOTE="$NOTE, agency:OK"
 fi
@@ -718,7 +721,12 @@ fi
 
 if [ -n "$SEND_KIND" ]; then
   # Readable per-module summary
-  fmt() { local name="$1"; local rc="$2"; if [ "${rc:-0}" -eq 0 ]; then echo "$name:OK"; else echo "$name:SKIP(rc=$rc)"; fi; }
+  fmt() {
+    local name="$1"; local rc="$2"
+    if [ "${rc:-0}" -ne 0 ]; then echo "$name:SKIP(rc=$rc)"
+    elif [ "$name" = agency ] && [ "${AGENCY_STATE:-unknown}" = retired ]; then echo "$name:RETIRED"
+    else echo "$name:OK"; fi
+  }
 
   detail_lines=$(cat <<EOF
 $(fmt collect "$RC_COLLECT")

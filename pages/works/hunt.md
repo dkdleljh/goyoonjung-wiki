@@ -14,7 +14,7 @@
 
 ## 공식 링크
 - (S) 공식 예고편(배급/제작 공식 채널): https://www.youtube.com/watch?v=CSOb8gia_mg
-- (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
 
 
 ## 출처

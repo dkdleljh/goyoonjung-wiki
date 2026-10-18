@@ -10,7 +10,7 @@
 - 영문 표기는 페이지 상단에 1회만 병기하고, 본문에서는 한국어 우선.
 
 ## 공식 링크
-- (S) 소속사(MAA) 표기 참고: https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 표기 참고: https://maa.co.kr/artists/go-younjung
 
 ## 출처
 - docs/editorial_policy.md

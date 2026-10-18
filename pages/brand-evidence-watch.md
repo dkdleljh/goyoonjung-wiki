@@ -41,7 +41,7 @@
 | pages/endorsements/by-year.md | rataplan.co.kr | record_evidence | - [라타플랑(RATAPLAN)](https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157) — 뮤즈 |
 | pages/endorsements/by-year.md | youtu.be | record_evidence | - [마리떼 프랑소와 저버(MARITHÉ FRANÇOIS GIRBAUD)](https://youtu.be/76aAMPpCTb4) — 뮤즈 |
 | pages/endorsements/by-year.md | idaegu.com | record_evidence | - [SK텔레콤(SK Telecom)](https://www.idaegu.com/news/articleView.html?idxno=381461) — 모델 |
-| pages/endorsements/by-year.md | maa.co.kr | record_evidence | - (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung |
+| pages/endorsements/by-year.md | maa.co.kr | record_evidence | - (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung |
 | pages/endorsements/fashion.md | idaegu.com | record_evidence | - 링크(공식 발표): https://www.idaegu.com/news/articleView.html?idxno=381461 |
 | pages/endorsements/fashion.md | idaegu.com | record_evidence | - id: https://www.idaegu.com/news/articleView.html?idxno=381461 |
 | pages/endorsements/fashion.md | youtu.be | record_evidence | - 링크(공식 발표): https://youtu.be/76aAMPpCTb4 (자동: 공식 채널 게시물로 대체) |

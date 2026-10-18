@@ -41,4 +41,4 @@
   - https://kstar.kbs.co.kr/list_view.html?idx=363033
 
 ## 출처
-- 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 공식 채널(소속사/작품/플랫폼 등)로 연결되는 SNS/영상 링크 허브입니다.
-- 핵심 링크: [MAA(소속사)](https://maa.co.kr/artists/go-younjung) · 공식 YouTube/Instagram(가능한 범위) · [타임라인](timeline.md)
+- 핵심 링크: [MAA(과거 소속사)](https://maa.co.kr/artists/go-younjung) · 공식 YouTube/Instagram(가능한 범위) · [타임라인](timeline.md)
 - 상태: 공식 채널 우선(차단 도메인은 대체 1차 근거 병기)
 
 > 원칙: 공식/검증 가능한 계정만 기록합니다. (동명이인/사칭 방지)
@@ -24,7 +24,7 @@
 - 유튜브 채널 십오야: https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ
 
 ## 공식 링크
-- MAA(소속사): https://maa.co.kr/
+- MAA(과거 소속사): https://maa.co.kr/
 - MAA Instagram: https://www.instagram.com/maakorea/
 
 ## 출처

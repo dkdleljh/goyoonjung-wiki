@@ -4,7 +4,7 @@
 ## 한눈에 보기
 
 - 한 줄 요약: 공식/검증 가능한 근거로 고윤정의 핵심 프로필 정보를 유지하는 페이지입니다.
-- 핵심 링크: [과거 소속사(MAA) 자료](https://maa.co.kr/artists/go-younjung) · [필모](filmography.md) · [타임라인](timeline.md)
+- 핵심 링크: [소속 정보 확인 근거](#2026년-소속-정보-갱신) · [필모](filmography.md) · [타임라인](timeline.md)
 - 상태: 촬영 중 (최신 뉴스 기반)
 
 <!-- AUTO-INFOBOX:START -->
@@ -38,10 +38,11 @@
 - 소속사: AAP (2026년 보도 기준)
 
 ## 공식 링크
-- 과거 소속사(MAA) 아티스트 프로필(S): https://maa.co.kr/artists/go-younjung
+- 현재 소속사 공식 배우 프로필: 확인되지 않음.
+- [과거 MAA 프로필](https://maa.co.kr/artists/go-younjung): 과거 자료 링크이며 정기 수집은 종료했다.
 
 ## 출처(우선순위)
-- (S) 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- (S·과거 자료) MAA 아티스트 프로필: https://maa.co.kr/artists/go-younjung
 - 활동 확인: [2026-10-06 인터뷰](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)에서 무빙 시즌 2 촬영을 언급했다.
 
 ## 기본 정보(상세)
@@ -62,3 +63,7 @@
 ## 2026년 소속 정보 갱신
 - [텐아시아 2026-09-05 보도](https://www.tenasia.co.kr/article/2026090158504)가 고윤정을 AAP 소속으로 명시했다. 표시된 기사일을 사용하며 URL의 20260901을 게시일로 간주하지 않는다.
 - 정확한 계약 시작일과 MAA·AAP 간 법인 관계는 확인되지 않아 기록하지 않는다. 이전 MAA 링크는 과거 프로필 자료로 남긴다.
+
+- MAA는 에이투지엔터테인먼트에 흡수합병되었다. [2026-05-08 KRX 공시](https://kind.krx.co.kr/external/2026/05/08/000634/20260428000456/71769.htm)는 존속회사를 에이투지, 소멸회사를 MAA로 명시하고 합병기일을 2026-07-01로 예정했다. [NICE 기업정보](https://comp.nicebizline.com/co/CO0100M010GE.nice?nav=2&stockcd=291230)의 2026년 8월 계열변동에도 MAA의 흡수합병에 따른 제외가 기재되어 있다. 예정일을 실제 등기 완료일로 단정하지 않는다.
+- 2026-10-18에 [에이투지 IMAGE9COMS 아티스트 소개](http://a2zentertainment.co.kr/main/html.php?htmid=service/image9coms.html)와 [POPMUSIC 소개](http://a2zentertainment.co.kr/main/html.php?htmid=service/popMusic.html)를 확인했으나 고윤정의 이름·프로필은 없었다. 홈페이지 미등재만으로 계약 여부를 확정할 수는 없으며, 회사 합병을 배우의 에이투지 이적 근거로 사용하지 않는다.
+- MAA 프로필은 2026-10-18부터 정기 수집 대상에서 제외했다. 현재 소속사 공식 프로필을 확인하면 새 출처를 등록한다. [수집 출처 상태](source-collection-status.md)

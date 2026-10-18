@@ -121,7 +121,7 @@ def main() -> None:
 
         maa = "https://maa.co.kr/artists/go-younjung"
         if maa in txt2:
-            source_lines.append(f"- (S) 소속사(MAA) 아티스트 프로필: {maa}")
+            source_lines.append(f"- (S) 과거 소속사(MAA) 아티스트 프로필: {maa}")
 
         if source_lines:
             txt2 = replace_placeholder_block(txt2, "출처", source_lines)

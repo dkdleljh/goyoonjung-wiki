@@ -8,7 +8,7 @@
 - 상태: 탐색용(링크 박스는 공식 근거 중심으로 보강)
 
 ## 공식 링크
-- (S) 소속사(MAA) 프로필(작품/캐릭터 근거): https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필(작품/캐릭터 근거): https://maa.co.kr/artists/go-younjung
 
 ## 출처
 - pages/works/*.md (각 작품 페이지의 출처)

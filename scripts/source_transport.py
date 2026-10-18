@@ -82,19 +82,26 @@ def save_report(collector: str, sources: list[dict]) -> None:
     for row in sources:
         old = previous.get(row["name"], {})
         success = row["status"] == "success"
+        retired = row["status"] == "retired"
+        failures = 0 if success else (old.get('consecutive_failures') or 0) + 1
         row.update(checked_at=now,
                    last_success=now if success else old.get("last_success"),
-                   consecutive_failures=0 if success else old.get("consecutive_failures", 0) + 1)
+                   consecutive_failures=None if retired else failures)
+        if retired:
+            row['failures_before_retirement'] = old.get('failures_before_retirement', old.get('consecutive_failures', 0))
         print(json.dumps(row, ensure_ascii=False), flush=True)
-    report = {"checked_at": now, "status": "success" if sources and all(
-        row["status"] == "success" for row in sources) else "failed", "sources": sources}
+    active = [row for row in sources if row['status'] != 'retired']
+    status = 'retired' if sources and not active else ('success' if active and all(
+        row['status'] == 'success' for row in active) else 'failed')
+    report = {"checked_at": now, "status": status, "sources": sources}
     atomic_write(target, json.dumps(report, ensure_ascii=False, indent=2) + "\n")
     render_reports()
 
 
 def render_reports() -> None:
     lines = ["# 수집 출처 상태", "", "출처별 마지막 실제 확인 결과입니다. 새 자료 0건은 정상일 수 있지만, 접속·해석 실패는 성공으로 처리하지 않습니다.", "",
-             "전체 피드는 최근 기사 범위만 확인합니다. 과거 자료 전체를 검색했다는 뜻이 아닙니다.", ""]
+             "전체 피드는 최근 기사 범위만 확인합니다. 과거 자료 전체를 검색했다는 뜻이 아닙니다.", "",
+             "retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다. 실제 수집 성공이 아니며 활성 출처의 성공·실패 집계에서 제외합니다. 확인 시각은 종료 정책 점검 시각입니다.", ""]
     def cell(value) -> str:
         return str(value or "없음").replace("|", "\\|").replace("\n", " ")
     for path in sorted((BASE / "data/reports/collectors").glob("*.json")):
@@ -106,6 +113,10 @@ def render_reports() -> None:
             detail = row.get("error") or f"확인 {row.get('fetched', 0)}건 · 관련 {row.get('matched', 0)}건"
             if row.get("warnings"):
                 detail += " · " + "; ".join(row["warnings"])
-            lines.append(f"| [{cell(row['name'])}]({row['url']}) | {row['status']} | {cell(row.get('scope'))} | {cell(row.get('last_success'))} | {row['consecutive_failures']} | {cell(detail)} |")
+            if row['status'] == 'retired':
+                detail = row['reason'] + f" · 수집 종료: {row['retired_at']}"
+                detail += ''.join(f" · [근거 {i}]({url})" for i, url in enumerate(row['evidence'], 1))
+            failures = '해당 없음' if row['consecutive_failures'] is None else row['consecutive_failures']
+            lines.append(f"| [{cell(row['name'])}]({row['url']}) | {row['status']} | {cell(row.get('scope'))} | {cell(row.get('last_success'))} | {failures} | {cell(detail)} |")
         lines += [""]
     atomic_write(BASE / "pages/source-collection-status.md", "\n".join(lines))

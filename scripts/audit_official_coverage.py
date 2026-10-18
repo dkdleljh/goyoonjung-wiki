@@ -18,8 +18,10 @@ from urllib.parse import urlsplit
 import requests
 
 try:
+    from scripts.agency_policy import load_config
     from scripts.time_utils import seoul_timestamp_str
 except Exception:  # pragma: no cover
+    from agency_policy import load_config
     from time_utils import seoul_timestamp_str  # type: ignore
 
 BASE = Path(__file__).resolve().parent.parent
@@ -80,8 +82,8 @@ TITLE_ALIASES = {
 
 @dataclass
 class AuditResult:
-    official_work_sync: int
-    coverage_readiness: int
+    official_work_sync: int | None
+    coverage_readiness: int | None
     official_titles: list[str]
     local_titles: list[str]
     missing_from_local: list[str]
@@ -250,14 +252,18 @@ def build_audit() -> AuditResult:
     extra_in_local: list[str] = []
     corroborated_extra: list[str] = []
 
+    config = load_config()
+    retired = config.get('lifecycle') == 'retired'
     try:
+        if retired:
+            raise ValueError('Retired agency profile; no live comparison available')
         official_titles = extract_maa_titles(fetch_maa_html())
         official_map = {normalize_title(title): title for title in official_titles}
         missing_from_local = [official_map[key] for key in sorted(set(official_map) - set(local_map))]
         notes.append("MAA official filmography fetched successfully.")
     except Exception as exc:  # pragma: no cover - network depends on runtime
-        notes.append(f"MAA fetch failed: {exc}")
-        official_work_sync = 40
+        notes.append(f"MAA 수집 종료: {config['reason']}" if retired else f"MAA fetch failed: {exc}")
+        official_work_sync = None if retired else 40
     else:
         all_extra_keys = sorted(set(local_map) - set(official_map))
         for key in all_extra_keys:
@@ -287,7 +293,7 @@ def build_audit() -> AuditResult:
     )
     queue_penalty = min(25, verification_queue_items // 4)
     debt_penalty = critical_category_debt * 8 + queue_penalty
-    coverage_readiness = max(0, official_work_sync - debt_penalty)
+    coverage_readiness = None if official_work_sync is None else max(0, official_work_sync - debt_penalty)
 
     if corroborated_extra:
         notes.append("Some works are absent from MAA but corroborated by other official platform pages.")
@@ -319,14 +325,16 @@ def build_audit() -> AuditResult:
 
 def write_report(result: AuditResult) -> None:
     updated = seoul_timestamp_str()
+    def score(value: int | None) -> str:
+        return '**측정 불가 (기준 출처 수집 종료)**' if value is None else f'**{value}/100**'
     lines = [
         "# Official Coverage Audit (auto)",
         "",
         f"> Updated: {updated} (Asia/Seoul)",
         "",
         "## Scores",
-        f"- official_work_sync: **{result.official_work_sync}/100**",
-        f"- coverage_readiness: **{result.coverage_readiness}/100**",
+        f"- official_work_sync: {score(result.official_work_sync)}",
+        f"- coverage_readiness: {score(result.coverage_readiness)}",
         "",
         "## Official Filmography Sync",
         f"- official_titles: {len(result.official_titles)}",

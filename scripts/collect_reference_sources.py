@@ -21,6 +21,11 @@ from urllib.parse import quote
 
 import requests
 
+try:
+    from scripts.agency_policy import load_config
+except ImportError:
+    from agency_policy import load_config
+
 TZ = "Asia/Seoul"
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 NEWS_DIR = os.path.join(BASE, "news")
@@ -134,11 +139,15 @@ def main() -> int:
     else:
         items.append(f"- 나무위키: {NAMU_URL} (HEAD 실패: {namu.get('error')})")
 
-    maa = http_head(MAA_ARTIST_URL)
-    if maa.get("ok"):
-        items.append(f"- 소속사(MAA): {MAA_ARTIST_URL} (status: {maa.get('status')}, etag: {maa.get('etag')}, lm: {maa.get('last_modified')})")
+    config = load_config()
+    if config.get('lifecycle') == 'retired':
+        items.append(f"- 과거 소속사(MAA): {MAA_ARTIST_URL} (수집 종료: {config['reason']})")
     else:
-        items.append(f"- 소속사(MAA): {MAA_ARTIST_URL} (HEAD 실패: {maa.get('error')})")
+        maa = http_head(MAA_ARTIST_URL)
+        if maa.get("ok"):
+            items.append(f"- 과거 소속사(MAA): {MAA_ARTIST_URL} (status: {maa.get('status')}, etag: {maa.get('etag')}, lm: {maa.get('last_modified')})")
+        else:
+            items.append(f"- 과거 소속사(MAA): {MAA_ARTIST_URL} (HEAD 실패: {maa.get('error')})")
 
     # Instagram/fancafe: typically requires login/dynamic; record as unmanned skip
     items.append(f"- 인스타그램(공식): {INSTAGRAM_URL} (무인 수집: 로그인/동적 로딩 이슈로 링크만 유지)")

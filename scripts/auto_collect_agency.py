@@ -8,6 +8,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 
+from agency_policy import load_config
 from bs4 import BeautifulSoup
 from collector_io import append_news_lines
 from source_transport import SourceError, request, save_report
@@ -43,11 +44,19 @@ def extract_works(html: str) -> list[str]:
 
 
 def main(check: bool = False) -> int:
-    config = json.loads(CONF_PATH.read_text())
+    config = load_config(CONF_PATH)
     urls = config['urls']
     if not urls:
         raise SourceError('No agency source configured', 'config')
     report = {'name': config['name'], 'url': urls[0], 'scope': 'configured_agency_profile', 'status': 'failed'}
+    if config.get('lifecycle') == 'retired':
+        report.update(status='retired', scope='historical_profile', reason=config['reason'],
+                      evidence=config['evidence'], retired_at=config['retired_at'])
+        if check:
+            print(json.dumps(report, ensure_ascii=False, indent=2))
+        else:
+            save_report('agency', [report])
+        return 0
     failures = []
     for url in urls:
         try:

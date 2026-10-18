@@ -57,7 +57,7 @@
 - 승격 큐: `pages/promotion-queue.md` (자동 생성)
 
 ## 공식 링크
-- (S) 소속사(MAA) 프로필: https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필: https://maa.co.kr/artists/go-younjung
 
 ## 출처
 - docs/editorial_policy.md

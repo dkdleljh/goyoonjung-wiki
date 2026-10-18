@@ -2,7 +2,7 @@
 
 
 ## 공식 링크
-- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
 ## 출처
 - docs/editorial_policy.md
@@ -28,7 +28,7 @@
 
 ## 1. 프로필(사실) — ‘검증’ 레이어 만들기
 - [ ] `pages/profile.md`를 **근거 기반**으로 재정리
-  - [ ] 소속사(MAA) 기반 필모/기본정보 반영(1차 근거)
+  - [ ] 과거 소속사(MAA) 기반 필모/기본정보 반영(1차 근거)
   - [ ] 출생지/학력/소속사 등 **확정/미확정** 표기 분리
   - [ ] 근거 링크(최소 1개)로 “공식확정” 라인 만들기
 

@@ -48,6 +48,7 @@ def test_count_upcoming_schedule_items(tmp_path: Path, monkeypatch):
 
 
 def test_build_audit_compares_official_and_local(tmp_path: Path, monkeypatch):
+    monkeypatch.setattr(audit, 'load_config', lambda: {'lifecycle': 'active'})
     filmography = tmp_path / "filmography.md"
     filmography.write_text(
         """
@@ -92,6 +93,7 @@ def test_build_audit_compares_official_and_local(tmp_path: Path, monkeypatch):
 
 
 def test_build_audit_marks_corroborated_extra_with_official_work_page(tmp_path: Path, monkeypatch):
+    monkeypatch.setattr(audit, 'load_config', lambda: {'lifecycle': 'active'})
     filmography = tmp_path / "filmography.md"
     filmography.write_text(
         """
@@ -130,3 +132,20 @@ def test_build_audit_marks_corroborated_extra_with_official_work_page(tmp_path: 
     assert result.missing_from_local == ["Moving"]
     assert result.corroborated_extra == ["조명가게"]
     assert result.extra_in_local == []
+
+
+def test_retired_agency_has_no_live_comparison_or_success_score(tmp_path, monkeypatch):
+    filmography = tmp_path / 'filmography.md'
+    filmography.write_text('# Filmography\n')
+    monkeypatch.setattr(audit, 'FILMOGRAPHY_MD', filmography)
+    monkeypatch.setattr(audit, 'load_config', lambda: {'lifecycle': 'retired', 'reason': 'Merged'})
+    calls = []
+    monkeypatch.setattr(audit, 'fetch_maa_html', lambda: calls.append('fetch'))
+    monkeypatch.setattr(audit, 'OUT', tmp_path / 'audit.md')
+    result = audit.build_audit()
+    assert calls == []
+    assert result.official_work_sync is None
+    assert result.coverage_readiness is None
+    assert not any('fetch failed' in note for note in result.notes)
+    audit.write_report(result)
+    assert '측정 불가' in audit.OUT.read_text()

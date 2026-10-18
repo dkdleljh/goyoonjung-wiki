@@ -2,7 +2,7 @@
 
 
 ## 공식 링크
-- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 - (A) Cosmopolitan Korea: https://www.cosmopolitan.co.kr/
 - (A) Esquire Korea: https://www.esquirekorea.co.kr/
 - (A) GQ Korea: https://www.gqkorea.co.kr/

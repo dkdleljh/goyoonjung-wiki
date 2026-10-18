@@ -4,5 +4,14 @@
     "https://maa.co.kr/artists/go-younjung",
     "https://www.maa.co.kr/artists/go-younjung"
   ],
-  "note": "기존 공식 프로필 모니터링. 현 소속사 판단에 사용하지 않으며, 대체 공식 주소를 검증하기 전까지 실패를 숨기지 않는다."
+  "note": "현재 소속은 AAP(2026년 보도 기준). 새로운 공식 배우 프로필을 검증하면 활성 출처를 등록한다.",
+  "lifecycle": "retired",
+  "retired_at": "2026-10-18",
+  "reason": "MAA 흡수합병과 AAP 소속 보도를 확인해 과거 MAA 프로필의 정기 수집을 종료했다. 에이투지 공식 아티스트 소개에 고윤정이 없어 대체 프로필로 등록하지 않는다.",
+  "evidence": [
+    "https://kind.krx.co.kr/external/2026/05/08/000634/20260428000456/71769.htm",
+    "https://comp.nicebizline.com/co/CO0100M010GE.nice?nav=2&stockcd=291230",
+    "http://a2zentertainment.co.kr/main/html.php?htmid=service/image9coms.html",
+    "https://www.tenasia.co.kr/article/2026090158504"
+  ]
 }

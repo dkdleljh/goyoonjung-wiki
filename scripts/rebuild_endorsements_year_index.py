@@ -126,7 +126,7 @@ def main() -> int:
     out.append("※ 이 페이지는 자동 생성됩니다. 원문은 각 카테고리 파일을 수정하세요.")
     out.append("")
     out.append("## 공식 링크")
-    out.append("- (S) 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung")
+    out.append("- (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung")
     out.append("")
     out.append("## 출처")
     out.append("- pages/endorsements/beauty.md")

@@ -14,7 +14,7 @@
 - 공식 페이지(TVING): https://www.tving.com/contents/P001748996
 ## 공식 링크
 - (S) TVING 공식 페이지: https://www.tving.com/contents/P001748996
-- (S) 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- (S) 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
 
 
 <!-- AUTO-CANDIDATES:START -->
@@ -30,4 +30,4 @@
 - Part 1 공개: 2023-12-15 (근거: `pages/schedule.md`)
 
 ## 출처
-- 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

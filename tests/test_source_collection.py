@@ -84,6 +84,50 @@ def test_profile_outage_remains_failure_without_writing_news(tmp_path, monkeypat
     assert agency.main(check=True) == 1
 
 
+@pytest.mark.parametrize('check', [True, False])
+def test_retired_profile_makes_no_request_or_news(tmp_path, monkeypatch, check):
+    config = tmp_path / 'agency.json'
+    config.write_text(json.dumps({'name': 'Past agency', 'urls': ['https://example.org/profile'],
+                                 'lifecycle': 'retired', 'reason': 'Merged; historical profile',
+                                 'retired_at': '2026-10-18', 'evidence': ['https://example.org/disclosure']}))
+    monkeypatch.setattr(agency, 'CONF_PATH', config)
+    monkeypatch.setattr(agency, 'fetch_html', lambda *a: pytest.fail('retired source must not be fetched'))
+    monkeypatch.setattr(agency, 'append_news_lines', lambda *a: pytest.fail('must not write news'))
+    reports = []
+    monkeypatch.setattr(agency, 'save_report', lambda _, rows: reports.extend(rows))
+    assert agency.main(check=check) == 0
+    assert reports == [] if check else reports[0]['status'] == 'retired'
+
+
+@pytest.mark.parametrize('extra', [{'lifecycle': 'disabled'}, {'lifecycle': 'retired', 'reason': 'No evidence'}])
+def test_invalid_retirement_does_not_hide_failure(tmp_path, monkeypatch, extra):
+    config = tmp_path / 'agency.json'
+    config.write_text(json.dumps({'name': 'Test', 'urls': ['https://example.org/profile'], **extra}))
+    monkeypatch.setattr(agency, 'CONF_PATH', config)
+    with pytest.raises(ValueError):
+        agency.main(check=True)
+
+
+def test_retirement_preserves_history_without_fabricated_success(tmp_path, monkeypatch):
+    monkeypatch.setattr(transport, 'BASE', tmp_path)
+    source = {'name': 'Past agency', 'url': 'https://example.org/profile'}
+    transport.save_report('agency', [{**source, 'status': 'failed', 'error': 'timeout'}])
+    retired = {**source, 'status': 'retired', 'reason': 'Merged', 'retired_at': '2026-10-18',
+               'evidence': ['https://example.org/disclosure']}
+    for _ in range(2):
+        transport.save_report('agency', [retired.copy()])
+    report = json.loads((tmp_path / 'data/reports/collectors/agency.json').read_text())
+    row = report['sources'][0]
+    assert report['status'] == 'retired'
+    assert row['last_success'] is None
+    assert row['consecutive_failures'] is None
+    assert row['failures_before_retirement'] == 1
+    assert 'Merged' in (tmp_path / 'pages/source-collection-status.md').read_text()
+    # A retired source does not mask failures of an active source.
+    transport.save_report('agency', [retired.copy(), {'name': 'Active', 'url': 'https://example.org/new', 'status': 'failed'}])
+    assert json.loads((tmp_path / 'data/reports/collectors/agency.json').read_text())['status'] == 'failed'
+
+
 class Response:
     def __init__(self, code=200):
         self.status_code, self.content = code, b'content'

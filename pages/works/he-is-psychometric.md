@@ -32,4 +32,4 @@
 - 다시보기/정보(TVING): https://www.tving.com/contents/P000820341- 예고편/클립(공식, tvN): https://tvn.cjenm.com/ko/heispsychometric/video/
 
 ## 출처
-- 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

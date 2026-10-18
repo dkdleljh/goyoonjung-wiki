@@ -38,7 +38,7 @@ def build(md: str) -> str:
     birth = extract_line(md, "- 출생") or "1996-04-22"
     job = extract_line(md, "- 직업") or "배우"
     years = extract_line(md, "- 활동 기간") or "2018년 ~ 현재"
-    agency = extract_line(md, "- 소속사") or "MAA"
+    agency = extract_line(md, "- 소속사") or "확인 필요"
 
     rows = [
         START,

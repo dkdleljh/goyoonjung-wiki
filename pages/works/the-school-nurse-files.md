@@ -31,4 +31,4 @@
 - 메모: Netflix 작품 페이지는 연도 표기 중심이라, 공개일(YYYY-MM-DD)은 예고편 설명란의 “9월 25일” 표기를 근거로 `schedule.md`에 기록.
 
 ## 출처
-- 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung
+- 과거 소속사(MAA) 아티스트 프로필: https://maa.co.kr/artists/go-younjung

@@ -16,6 +16,7 @@ from pathlib import Path
 
 import domain_policy
 import normalize_url
+from agency_policy import load_config
 
 BASE = Path(__file__).resolve().parent.parent
 OUT = BASE / "pages" / "recommendations" / "official-replacement-candidates.md"
@@ -64,6 +65,8 @@ def is_official_url(url: str, policy: domain_policy.Policy) -> bool:
 
 def main() -> int:
     policy = domain_policy.load_policy()
+    agency = load_config()
+    retired_urls = set(agency["urls"]) if agency.get("lifecycle") == "retired" else set()
 
     targets: list[Path] = []
     for pat in [
@@ -95,7 +98,7 @@ def main() -> int:
 
             alt_blob = m_alt.group(1)
             alt_urls = URL_RE.findall(alt_blob)
-            official_alts = [u for u in alt_urls if is_official_url(u, policy)]
+            official_alts = [u for u in alt_urls if is_official_url(u, policy) and u not in retired_urls]
             if not official_alts:
                 continue
 
