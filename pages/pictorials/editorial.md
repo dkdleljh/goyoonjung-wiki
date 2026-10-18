@@ -946,3 +946,91 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/1901924
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/1901924
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 언슬전고윤정, 신시아, 한예지 3인 3색 사복 패션은?
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1880863
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1880863
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 미대 나온고윤정, 노윤서, 정은채 그림 실력 이 정도라고?
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1881286
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1881286
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 노제가 여름마다 하는 헤어 스타일링은? 000한 땋은 머리 모음 5
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1884033
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1884033
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 유교걸도 쌉가능! 한소희,고윤정, 박규영으로 알아보는 노출 없이 예쁜 수영복 스타일링 4
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1884834
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1884834
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 밋밋한 헤어?고윤정,지수,제니처럼 땋아보자
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1887004
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1887004
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: ‘이 사랑 통역 되나요?’ 속고윤정패션이 유독 예쁜 이유
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1895673
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1895673
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 이제는 미니멀 말고 꾸꾸꾸!고윤정, 카리나, 윤아의 '모던 로맨티시즘' 패션
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1895864
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1895864
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 얼죽코들을 위한고윤정, 다현, 박지현의 ‘벨티드 코트’ 스타일링 법!
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1896462
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1896462
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 신세경 등 탈색까지는 아니어도… 연한 눈썹이 대세가 된 이유
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1896910
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1896910
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 제니,고윤정, 채령이 선택한 내추럴 웨이브, 이렇게 다르다
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1898131
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1898131
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 트위드 재킷 코디,고윤정과 수지는 이렇게 입는다
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1899306
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1899306

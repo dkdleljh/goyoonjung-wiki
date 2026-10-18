@@ -682,3 +682,19 @@
 - 링크(원문): https://www.esquirekorea.co.kr/article/1901760
 - 상태: 공식확정
 - id: https://www.esquirekorea.co.kr/article/1901760
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Esquire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 손석구와고윤정처럼 미대 출신인 셀럽은?
+- 링크(원문): https://www.esquirekorea.co.kr/article/1876898
+- 상태: 원문 메타데이터 수집
+- id: https://www.esquirekorea.co.kr/article/1876898
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Esquire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: ‘무빙’ 마지막화 공개 직전! 희수 그 자체인고윤정TMI 12
+- 링크(원문): https://www.esquirekorea.co.kr/article/80691
+- 상태: 원문 메타데이터 수집
+- id: https://www.esquirekorea.co.kr/article/80691
