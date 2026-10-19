@@ -169,3 +169,4 @@
 - [고윤정, 10년 전 대학 축제 주점 포스터 등장…이미 여신 비주얼 "당연히 만석"](https://www.fnnews.com/news/202610190723310905) · 파이낸셜뉴스 · 내용은 원문 보도 기준
 - [コ・ユンジョン、大学時代ポスターで整形説一蹴](https://www.chosun.com/jp/culture-life-jp/2026/10/19/KZLABYP4EJBYTJUHZTVFWWNKDU) · JA_ALL · 내용은 원문 보도 기준
 - [Go Youn-jung's university poster confirms natural beauty, ends surgery rumors](https://biz.chosun.com/en/en-entertainment/2026/10/19/FMNNYBJXZZANHAXP4SD5C2KSH4) · EN_CAST · 내용은 원문 보도 기준
+- [고윤정, 대학 시절부터 ‘얼굴 천재’...10년 전 포스터에 “역시 모세의 기적” ［MK★이슈］ - 매일경제](https://www.mk.co.kr/news/entertain/12179279) · 매일경제 · 내용은 원문 보도 기준
