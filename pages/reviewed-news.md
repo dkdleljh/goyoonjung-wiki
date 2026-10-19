@@ -179,3 +179,6 @@
 - [고윤정 대학시절 축제 주점 포스터 화제…”당연히 만석이었다” | 중앙일보](https://www.joongang.co.kr/article/25470836) · 중앙일보 · 내용은 원문 보도 기준
 - [고윤정, 10년 전 대학 축제 주점 포스터 등장…이미 여신 비주얼 "당연히 만석"](https://busan.fnnews.com/news/202610190723310905) · 부산파이낸셜뉴스 · 내용은 원문 보도 기준
 - [コ・ユンジョン、『モーセの奇跡』というあだ名はなぜ？..ソウル女子大美術学部の女神「祭りポスター」が話題に ［スター・イシュー］ | STARNEWS](https://www.starnewskorea.com/ja/star/2026/10/19/2026101910190242365) · JA_ALL · 내용은 원문 보도 기준
+- [Go Yoon-jung, why the nickname "Parting of the Red Sea"?… Seoul Women's University art major beauty's "festival poster" sparks buzz ［Star Issue］ | STARNEWS](https://www.starnewskorea.com/en/star/2026/10/19/2026101910190242365) · EN_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung's university poster confirms natural beauty, ends surgery rumors](https://biz.chosun.com/en/en-entertainment/2026/10/19/FMNNYBJXZZANHAXP4SD5C2KSH4?outputType=amp) · EN_ALL · 내용은 원문 보도 기준
+- [“어딘가 달라도 예쁘긴 하네”…고윤정, 대학 주점 여신 사진에 ‘눈길’](https://sports.khan.co.kr/article/202610191105003) · 스포츠경향 · 내용은 원문 보도 기준
