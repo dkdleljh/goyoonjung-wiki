@@ -17,8 +17,8 @@
   },
   "W Korea": {
     "page": 3,
-    "checked_at": "2026-10-18T23:30:21.579250+00:00",
-    "next_scan": "2026-10-19T00:30:21.579250+00:00",
+    "checked_at": "2026-10-19T01:25:21.676372+00:00",
+    "next_scan": "2026-10-19T02:25:21.676372+00:00",
     "status": "retry_pending",
     "fingerprints": [
       "f0241cce012db16453495e6300013377864543e25a5371196a9aa1c628918e8a",
@@ -54,8 +54,8 @@
   },
   "GQ Korea": {
     "page": 2,
-    "checked_at": "2026-10-18T23:30:21.579250+00:00",
-    "next_scan": "2026-10-19T00:30:21.579250+00:00",
+    "checked_at": "2026-10-19T01:25:21.676372+00:00",
+    "next_scan": "2026-10-19T02:25:21.676372+00:00",
     "status": "retry_pending",
     "fingerprints": [
       "dae624f68bbdcc2ebd5316fadabc07810fb8e8a7ea24cd368374961eb58110c7"
@@ -182,12 +182,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Noblesse": {
-    "page": 2,
-    "checked_at": "2026-10-18T23:30:21.579250+00:00",
-    "next_scan": "2026-10-19T00:30:21.579250+00:00",
-    "status": "retry_pending",
+    "page": 3,
+    "checked_at": "2026-10-19T01:25:21.676372+00:00",
+    "next_scan": "2026-10-19T01:25:21.676372+00:00",
+    "status": "in_progress",
     "fingerprints": [
-      "ac0e1bb8af42a2600fe891c9e86876977439dd9f23167df753a24c8678d21cda"
+      "ac0e1bb8af42a2600fe891c9e86876977439dd9f23167df753a24c8678d21cda",
+      "59900f1d569eb46ee26dbb73f60ca2588eed56812a39c5f29b006197f7c65a2e"
     ],
     "items_added": 0,
     "years_observed": [],
