@@ -170,3 +170,6 @@
 - [コ・ユンジョン、大学時代ポスターで整形説一蹴](https://www.chosun.com/jp/culture-life-jp/2026/10/19/KZLABYP4EJBYTJUHZTVFWWNKDU) · JA_ALL · 내용은 원문 보도 기준
 - [Go Youn-jung's university poster confirms natural beauty, ends surgery rumors](https://biz.chosun.com/en/en-entertainment/2026/10/19/FMNNYBJXZZANHAXP4SD5C2KSH4) · EN_CAST · 내용은 원문 보도 기준
 - [고윤정, 대학 시절부터 ‘얼굴 천재’...10년 전 포스터에 “역시 모세의 기적” ［MK★이슈］ - 매일경제](https://www.mk.co.kr/news/entertain/12179279) · 매일경제 · 내용은 원문 보도 기준
+- [Go Youn-jung’s College-Era “Pub Poster” Goes Viral—She Had a Fully Polished Look Even as a Student](https://www.sportschosun.com/en/celebrity/2026-10-19/202610190100116530007603) · EN_ALL · 내용은 원문 보도 기준
+- [“A Full House Was a Given”—Go Youn-jung’s ‘Fine Arts Goddess’ Days That Took a College Festival by Storm 10 Years Ago - MK](https://www.mk.co.kr/en/hot-issues/12179236) · EN_ALL · 내용은 원문 보도 기준
+- [고윤정, 서울여대 모세의 기적 납득..주점 포스터 한장에 '성형설' 종결 ［Oh!쎈 이슈］](https://biz.chosun.com/entertainment/enter_general/2026/10/19/G4ZGCZDBHBRGCN3DGA2DMZJYHE?outputType=amp) · Chosunbiz · 내용은 원문 보도 기준
