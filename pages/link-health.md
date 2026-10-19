@@ -1,8 +1,8 @@
 # 링크 건강검진
 
-> 갱신: 2026-10-19 09:45 (Asia/Seoul) · 대상 URL: 852 (최대 100)
+> 갱신: 2026-10-19 10:00 (Asia/Seoul) · 대상 URL: 852 (최대 100)
 
-- OK: **831** / WARN: **16** / BAD: **1** / UNCHECKED: **4**
+- OK: **830** / WARN: **17** / BAD: **1** / UNCHECKED: **4**
 - 검사 범위 밖 URL과 자동 접근을 생략한 URL은 정상으로 간주하지 않습니다.
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
@@ -11,22 +11,23 @@
 
 ## WARN (차단/리다이렉트/확인 필요)
 
-- (404) https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA · RSS endpoint unavailable; collector has channel-verified uploads fallback
-- (-) https://www.disneypluskr.com/ · error: URLError (cached within 7 days)
-- (403) https://www.boucheron.com/ · GET fallback (cached within 7 days)
+- (404) https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw · RSS endpoint unavailable; collector has channel-verified uploads fallback
 - (-) https://www.goodal.com/ · error: URLError (cached within 7 days)
-- (-) https://www.lensme.co.kr/ · error: URLError (cached within 7 days)
+- (404) https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA · RSS endpoint unavailable; collector has channel-verified uploads fallback (cached within 7 days)
 - (-) https://www.vodana.co.kr/ · error: URLError (cached within 7 days)
+- (400) https://www.gqkorea.co.kr/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
 - (-) https://maa.co.kr/ · error: URLError (cached within 7 days)
-- (400) https://www.wkorea.com/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
-- (400) https://www.allurekorea.com/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
-- (-) https://www.easytomorrow.co.kr/ · error: URLError (cached within 7 days)
+- (-) https://www.disneypluskr.com/ · error: URLError (cached within 7 days)
+- (-) https://slv.kstarfashion.com/news/articleView.html?idxno=214777 · error: URLError (cached within 7 days)
 - (-) https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792 · error: URLError (cached within 7 days)
-- (400) https://www.yna.co.kr/entertainment · GET fallback (cached within 7 days)
+- (403) https://www.boucheron.com/ · GET fallback (cached within 7 days)
+- (-) https://www.lensme.co.kr/ · error: URLError (cached within 7 days)
+- (400) https://www.allurekorea.com/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
 - (-) https://maa.co.kr/artists/go-younjung · error: URLError (cached within 7 days)
 - (403) https://www.armanibeauty.com/ · GET fallback (cached within 7 days)
-- (-) https://slv.kstarfashion.com/news/articleView.html?idxno=214777 · error: URLError (cached within 7 days)
-- (400) https://www.gqkorea.co.kr/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
+- (400) https://www.wkorea.com/wp-admin/admin-ajax.php · GET fallback (cached within 7 days)
+- (400) https://www.yna.co.kr/entertainment · GET fallback (cached within 7 days)
+- (-) https://www.easytomorrow.co.kr/ · error: URLError (cached within 7 days)
 
 ## UNCHECKED (미검사)
 
