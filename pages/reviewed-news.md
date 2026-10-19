@@ -163,3 +163,7 @@
 - [고윤정 맞아? 알고봐도 헷갈리는 비주얼…10년 전 서울여대 주점 포스터 재조명 | 텐아시아](https://www.tenasia.co.kr/article/2026101993104) · 텐아시아 · 내용은 원문 보도 기준
 - [고윤정, 10년 전 대학 축제 주점 포스터 등장…이미 여신 비주얼 "당연히 만석"](https://www.news1.kr/entertain/celebrity-topic/6323852) · 뉴스1 · 내용은 원문 보도 기준
 - [고윤정, 서울여대 모세의 기적 납득..주점 포스터 한장에 '성형설' 종결 ［Oh!쎈 이슈］](https://www.osen.co.kr/article/G1112894851) · OSEN · 내용은 원문 보도 기준
+- [고윤정, 대학 시절 '주점 포스터' 확산…여대생 때도 완성형 비주얼](https://www.sportschosun.com/entertainment/2026-10-19/202610190100116530007603) · 스포츠조선 · 내용은 원문 보도 기준
+- [Go Youn-jung's College Poster Silences Plastic Surgery Rumors](https://www.chosun.com/english/kpop-culture-en/2026/10/19/63AY4OO7TZHKDBNK7B7GNUEJAY) · EN_ALL · 내용은 원문 보도 기준
+- [고윤정, 서울여대 모세의 기적 납득..주점 포스터 한장에 '성형설' 종결 ［Oh!쎈 이슈］](https://www.chosun.com/entertainments/broadcast/2026/10/19/G5RGMMBVMU2DQYLEHAZWKZJSG4) · 조선일보 · 내용은 원문 보도 기준
+- [고윤정, 10년 전 대학 축제 주점 포스터 등장…이미 여신 비주얼 "당연히 만석"](https://www.fnnews.com/news/202610190723310905) · 파이낸셜뉴스 · 내용은 원문 보도 기준
