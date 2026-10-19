@@ -182,3 +182,5 @@
 - [Go Yoon-jung, why the nickname "Parting of the Red Sea"?… Seoul Women's University art major beauty's "festival poster" sparks buzz ［Star Issue］ | STARNEWS](https://www.starnewskorea.com/en/star/2026/10/19/2026101910190242365) · EN_ALL · 내용은 원문 보도 기준
 - [Go Youn-jung's university poster confirms natural beauty, ends surgery rumors](https://biz.chosun.com/en/en-entertainment/2026/10/19/FMNNYBJXZZANHAXP4SD5C2KSH4?outputType=amp) · EN_ALL · 내용은 원문 보도 기준
 - [“어딘가 달라도 예쁘긴 하네”…고윤정, 대학 주점 여신 사진에 ‘눈길’](https://sports.khan.co.kr/article/202610191105003) · 스포츠경향 · 내용은 원문 보도 기준
+- [“만석은 당연”…고윤정, 10년 전 대학축제 뒤집은 ‘미대 여신’ 시절 - 스타투데이](https://www.mk.co.kr/news/hot-issues/12179236) · 매일경제 · 내용은 원문 보도 기준
+- [구교환, 고윤정·지창욱 제치고 영화 브랜드평판 1위…지수 97.48% 상승](https://www.sportsseoul.com/news/read/1642345) · 스포츠서울 · 내용은 원문 보도 기준
