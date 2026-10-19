@@ -1,9 +1,9 @@
 # Future Watch (auto)
 
-> Updated: 2026-10-19 23:55 (Asia/Seoul)
+> Updated: 2026-10-20 00:05 (Asia/Seoul)
 
 ## Summary
-- future_candidates: 8
+- future_candidates: 6
 
 ## Candidates
 | source | status | landing | line |
@@ -14,8 +14,6 @@
 | pages/works/nambeol.md | unknown | queue | - [고윤정의 무협, 하드보일드 액션 '남벌' 캐스팅](https://kstar.kbs.co.kr/list_view.html?idx=405372)  _(출처: appearances.md)_ |
 | pages/works/nambeol.md | unknown | queue | - [고윤정, 영화 '남벌' 캐스팅…이병헌과 첫 연기 호흡 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839)  _(출처: appearances.md)_ |
 | pages/works/nambeol.md | unknown | queue | - [이도현, '남벌' 캐스팅…이병헌·고윤정과 무협 액션 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295)  _(출처: appearances.md)_ |
-| news/2026-10-12.md | unknown | queue | - [GoogleNews/Q:BROADCAST_PR] [고윤정, 영화 '남벌' 캐스팅…이병헌과 첫 연기 호흡 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008646839) (2026-07-08 07:00) |
-| news/2026-10-12.md | unknown | queue | - [GoogleNews/Q:BROADCAST_PR] [이도현, '남벌' 캐스팅…이병헌·고윤정과 무협 액션 - SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008665295) (2026-07-20 07:00) |
 
 ## Policy
 - 루머/단일 보도는 본문 자동 확정하지 않습니다.

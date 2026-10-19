@@ -1,10 +1,12 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-19 12:01 (Asia/Seoul)
+> Updated: 2026-10-20 00:01 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-19 · grade=B · YOUTUBE_CLIPS · [일본에서 만난 인간 파파고 주호진 #이사랑통역되나요 #이사통 #고윤정 #김선호 #후쿠시 소타 #이이담 #최우성 #현리 - YouTube](https://www.youtube.com/watch?v=LepbmPl-k7k)
+- 2026-10-19 · grade=B · YOUTUBE_CLIPS · [밥 굶고 뛰쳐나간 소방관들, 고윤정이 결국 일냈다 | 미대생이 선한 대세 배우가 되기까지 #고윤정 #기부 #미담 #마니또클럽 #소방관 #무빙 #이사랑통역되나요 #연예스타방 - YouTube](https://www.youtube.com/watch?v=TmVnSCMrwqI)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [공항에서 이말 듣고 심각해짐 #고윤정 - YouTube](https://www.youtube.com/watch?v=774SkEj97Ck)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[#유퀴즈온더블럭] 윤정 언니도 나랑 똑같구나.. 얼굴 빼고💧 신입이면 무조건 공감하는 고윤정의 사회생활 필승 멘트 ㅋㅋ⭐ - YouTube](https://www.youtube.com/watch?v=syJMv5v2ML0)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [자기야 소리 싫다던 김선호 헷갈리게 만든 고윤정 #고윤정 - YouTube](https://www.youtube.com/watch?v=-2IimfvcWxc)
