@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-20T04:55:21+09:00",
+  "checked_at": "2026-10-20T05:05:25+09:00",
   "status": "failed",
   "sources": [
     {
@@ -34,9 +34,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-20T04:05:24+09:00",
+      "checked_at": "2026-10-20T05:05:25+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 16
+      "consecutive_failures": 17
     },
     {
       "name": "GQ Korea",
@@ -58,9 +58,9 @@
       "error": "HTTP 404",
       "kind": "http",
       "retryable": false,
-      "checked_at": "2026-10-20T04:05:24+09:00",
+      "checked_at": "2026-10-20T05:05:25+09:00",
       "last_success": "2026-10-18T22:00:30+09:00",
-      "consecutive_failures": 17
+      "consecutive_failures": 18
     },
     {
       "name": "Marie Claire Korea",
@@ -70,9 +70,9 @@
       "error": "HTTP 404",
       "kind": "http",
       "retryable": false,
-      "checked_at": "2026-10-20T04:05:24+09:00",
+      "checked_at": "2026-10-20T05:05:25+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 16
+      "consecutive_failures": 17
     },
     {
       "name": "Esquire Korea",
