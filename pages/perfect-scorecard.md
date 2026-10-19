@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 124
-- urls_total(markdown): 799
-- seen_urls(db): 300
+- urls_total(markdown): 801
+- seen_urls(db): 302
 - allowlist_domains: 105
 - google_news_sites: 40
 - google_news_queries(lines): 20
@@ -29,12 +29,12 @@
 - observability: 100  (status/daily/lint reports)
 - runtime_guards: 100  (file presence only; does not prove deployment)
 
-### C. Content scale heuristic: **72/100**
+### C. Content scale heuristic: **73/100**
 
-- C_current: 72  (actual accumulated scale (grows over time))
+- C_current: 73  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 799  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 300  (dedupe DB size)
+- urls_total: 801  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 302  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
@@ -49,7 +49,7 @@
 
 ## Top URL-heavy pages (top 10)
 - 199: pages/pictorials/editorial.md
-- 189: pages/reviewed-news.md
+- 191: pages/reviewed-news.md
 - 120: pages/pictorials/by-year.md
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
 - 60: pages/candidate-pool.md

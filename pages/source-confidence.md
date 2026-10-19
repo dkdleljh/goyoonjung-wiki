@@ -1,13 +1,13 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-20 00:01 (Asia/Seoul)
+> Updated: 2026-10-20 06:01 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1681
+- total_urls: 1684
 - S: 248
-- A: 834
+- A: 836
 - B: 214
-- BLOCK: 385
+- BLOCK: 386
 
 ## Top Hosts
 | host | urls | grade_counts |
