@@ -173,3 +173,6 @@
 - [Go Youn-jung’s College-Era “Pub Poster” Goes Viral—She Had a Fully Polished Look Even as a Student](https://www.sportschosun.com/en/celebrity/2026-10-19/202610190100116530007603) · EN_ALL · 내용은 원문 보도 기준
 - [“A Full House Was a Given”—Go Youn-jung’s ‘Fine Arts Goddess’ Days That Took a College Festival by Storm 10 Years Ago - MK](https://www.mk.co.kr/en/hot-issues/12179236) · EN_ALL · 내용은 원문 보도 기준
 - [고윤정, 서울여대 모세의 기적 납득..주점 포스터 한장에 '성형설' 종결 ［Oh!쎈 이슈］](https://biz.chosun.com/entertainment/enter_general/2026/10/19/G4ZGCZDBHBRGCN3DGA2DMZJYHE?outputType=amp) · Chosunbiz · 내용은 원문 보도 기준
+- [고윤정, 서울여대 주점 포스터 등장…소주 광고인 줄](https://www.newsis.com/view/NISX20261019_0003831141) · 뉴시스 · 내용은 원문 보도 기준
+- [고윤정, '모세의 기적' 별명 왜?..서울여대 미대여신 '축제 포스터' 화제 ［스타이슈］ | 스타뉴스](https://www.starnewskorea.com/star/2026/10/19/2026101910190242365) · 스타뉴스 · 내용은 원문 보도 기준
+- [10년 전 고윤정, 표지모델 과거 포착…결 다른 청순 미모](https://www.spotvnews.co.kr/news/articleView.html?idxno=1014010) · SPOTV뉴스 · 내용은 원문 보도 기준
