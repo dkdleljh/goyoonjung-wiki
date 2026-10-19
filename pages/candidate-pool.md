@@ -1,10 +1,11 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-19 00:02 (Asia/Seoul)
+> Updated: 2026-10-19 12:01 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-18 · grade=B · YOUTUBE_CLIPS · [공항에서 이말 듣고 심각해짐 #고윤정 - YouTube](https://www.youtube.com/watch?v=774SkEj97Ck)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [[#유퀴즈온더블럭] 윤정 언니도 나랑 똑같구나.. 얼굴 빼고💧 신입이면 무조건 공감하는 고윤정의 사회생활 필승 멘트 ㅋㅋ⭐ - YouTube](https://www.youtube.com/watch?v=syJMv5v2ML0)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [자기야 소리 싫다던 김선호 헷갈리게 만든 고윤정 #고윤정 - YouTube](https://www.youtube.com/watch?v=-2IimfvcWxc)
 - 2026-10-18 · grade=B · YOUTUBE_CLIPS · [남잼민VS예쁜 고윤정 #고윤정 #라요링 #추천 - YouTube](https://www.youtube.com/watch?v=eAuY-qBNsmE)
