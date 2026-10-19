@@ -191,3 +191,4 @@
 - [“실물 절대 못 담았다”…고윤정 대학시절 축제 ‘주점 포스터’ 화제](https://biz.heraldcorp.com/article/10907599) · 헤럴드경제 · 내용은 원문 보도 기준
 - [“실물 절대 못 담았다”…고윤정 대학시절 축제 ‘주점 포스터’ 화제 - 헤럴드경제](https://mbiz.heraldcorp.com/article/10907599) · 헤럴드경제 · 내용은 원문 보도 기준
 - [“사람들이 길을 비켜줬다더니”…고윤정 대학 시절 주점 포스터 확산, 모세의 기적 별명까지 소환](https://blog.naver.com/PostView.naver?blogId=yooju0913&logNo=224446983778&redirect=Dlog) · Naver Blog · 내용은 원문 보도 기준
+- [고윤정, 서울여대 주점 포스터 등장…소주 광고인 줄](https://www.fnnews.com/news/202610191033509808) · 파이낸셜뉴스 · 내용은 원문 보도 기준
