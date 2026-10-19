@@ -27,7 +27,7 @@
 - 매체: ELLE Korea
 - 구분: 화보/인터뷰
 - 제목: '이사통' 김선호 "고윤정과 온도·결 잘 맞아..행운 따른 작품"
-- 링크(원문): https://www.asiaartistawards.com/news/detail/167018/all
+- 링크(원문): https://www.asiaartistawards.com/news/detail/167018/all <!-- Broken/404: 2026-10-19 -->
 - 상태: 공식확정
 - id: https://www.asiaartistawards.com/news/detail/167018/all
 - 비고: 엘르 화보 (김선호 인터뷰에서 고윤정 언급)
@@ -36,7 +36,7 @@
 - 매체: Asia Artist Awards
 - 구분: 화보/인터뷰
 - 제목: '언슬전' 고윤정 "데뷔 후 처음 푹 쉬는 중"
-- 링크(원문): https://www.asiaartistawards.com/news/detail/129994/all
+- 링크(원문): https://www.asiaartistawards.com/news/detail/129994/all <!-- Broken/404: 2026-10-19 -->
 - 상태: 공식확정
 - id: https://www.asiaartistawards.com/news/detail/129994/all
 - 비고: ELLE 5월호 인터뷰

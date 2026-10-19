@@ -26,9 +26,9 @@
 
 - [고윤정, 샴푸의 요정…탐스러운 머릿결 [화보]](https://www.mk.co.kr/news/hot-issues/10994612)  _(출처: interviews.md)_
 
-- ['이사통' 김선호 "고윤정과 온도·결 잘 맞아..행운 따른 작품"](https://www.asiaartistawards.com/news/detail/167018/all)  _(출처: pictorials/editorial.md)_
+- ['이사통' 김선호 "고윤정과 온도·결 잘 맞아..행운 따른 작품"](https://www.asiaartistawards.com/news/detail/167018/all)  _(출처: pictorials/editorial.md)_ <!-- Broken/404: 2026-10-19 -->
 
-- ['언슬전' 고윤정 "데뷔 후 처음 푹 쉬는 중"](https://www.asiaartistawards.com/news/detail/129994/all)  _(출처: pictorials/editorial.md)_
+- ['언슬전' 고윤정 "데뷔 후 처음 푹 쉬는 중"](https://www.asiaartistawards.com/news/detail/129994/all)  _(출처: pictorials/editorial.md)_ <!-- Broken/404: 2026-10-19 -->
 
 - [고윤정, 순수한 아름다움으로 완성한 봄의 전언](https://slv.kstarfashion.com/news/articleView.html?idxno=214777)  _(출처: pictorials/editorial.md)_
 
