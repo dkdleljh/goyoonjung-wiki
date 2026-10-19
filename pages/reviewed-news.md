@@ -188,3 +188,4 @@
 - [「満席は当然」…コ・ユンジョン、10年前の学園祭を沸かせた「美大の女神」時代 - MK](https://www.mk.co.kr/jp/hot-issues/12179236) · JA_ALL · 내용은 원문 보도 기준
 - [고윤정, 데뷔 전부터 학교 뒤집어놨다…동문 “포스터 보고 누구냐고 난리”](https://www.sportsseoul.com/news/read/1642385) · 스포츠서울 · 내용은 원문 보도 기준
 - [Actress Ko Yoon-jung's beauty from college before her debut is drawing attention again.Recently, pro.. - MK](https://www.mk.co.kr/en/entertain/12179279) · EN_ALL · 내용은 원문 보도 기준
+- [“실물 절대 못 담았다”…고윤정 대학시절 축제 ‘주점 포스터’ 화제](https://biz.heraldcorp.com/article/10907599) · 헤럴드경제 · 내용은 원문 보도 기준
