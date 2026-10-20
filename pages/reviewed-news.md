@@ -198,3 +198,6 @@
 - [고윤정 &quot;'무빙2' 실망시키고 싶지 않아&hellip;70세 돼도 연기 빈칸 있을 것&quot;](https://www.mydaily.co.kr/page/view/2026102009084916479) · 마이데일리 · 내용은 원문 보도 기준
 - ['무빙' 시즌2 촬영 중인 고윤정 "다시 모이니 가슴이 웅장해져"](https://www.xportsnews.com/article/2209305) · 엑스포츠뉴스 · 내용은 원문 보도 기준
 - [고윤정 “‘무빙2’ 가슴 웅장해져...몸이 희수 기억” ［화보］ - 스타투데이](https://www.mk.co.kr/news/hot-issues/12180324) · 매일경제 · 내용은 원문 보도 기준
+- [コ・ユンジョン「『ムービング2』に胸が熱くなった…体がヒスを覚えている」【グラビア】 - MK](https://www.mk.co.kr/jp/hot-issues/12180324) · JA_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung: “‘Moving 2’ makes my heart swell ... my body remembers Hee-soo” ［Pictorial］ - MK](https://www.mk.co.kr/en/hot-issues/12180324) · EN_CAST · 내용은 원문 보도 기준
+- [고윤정, ‘무빙2’ 합류 소감 “몸이 희수 기억해 신기…가슴이 웅장해져”](https://sports.khan.co.kr/article/202610201041003) · 스포츠경향 · 내용은 원문 보도 기준
