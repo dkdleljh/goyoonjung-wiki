@@ -1648,3 +1648,11 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/73357
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/73357
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정의 순수한 아름다움, 티파니앤코와 함께한 '바자' 11월호
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1911558
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1911558
