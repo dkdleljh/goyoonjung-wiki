@@ -559,8 +559,8 @@
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-10-20T08:25:24.326640+00:00",
-    "next_check": "2026-10-20T14:25:24.326640+00:00",
+    "checked_at": "2026-10-20T14:30:22.815072+00:00",
+    "next_check": "2026-10-20T20:30:22.815072+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA": {
@@ -4543,14 +4543,14 @@
   },
   "https://mk.co.kr/amp/12179279": {
     "status": "retry_pending",
-    "checked_at": "2026-10-20T08:25:24.326640+00:00",
-    "next_check": "2026-10-20T14:25:24.326640+00:00",
+    "checked_at": "2026-10-20T14:30:22.815072+00:00",
+    "next_check": "2026-10-20T20:30:22.815072+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179279"
   },
   "https://mk.co.kr/amp/12179236": {
     "status": "retry_pending",
-    "checked_at": "2026-10-20T08:25:24.326640+00:00",
-    "next_check": "2026-10-20T14:25:24.326640+00:00",
+    "checked_at": "2026-10-20T14:30:22.815072+00:00",
+    "next_check": "2026-10-20T20:30:22.815072+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179236"
   },
   "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014010": {
@@ -5275,8 +5275,8 @@
   },
   "https://mk.co.kr/amp/12180324": {
     "status": "retry_pending",
-    "checked_at": "2026-10-20T08:25:24.326640+00:00",
-    "next_check": "2026-10-20T14:25:24.326640+00:00",
+    "checked_at": "2026-10-20T14:30:22.815072+00:00",
+    "next_check": "2026-10-20T20:30:22.815072+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12180324"
   },
   "https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115": {
@@ -5373,6 +5373,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-10-20T07:55:21.730861+00:00"
+    }
+  },
+  "https://www.topstarnews.net/news/articleView.html?idxno=16252878": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-20T14:30:22.815072+00:00",
+    "first_seen_at": "2026-10-20 14:30:10",
+    "next_check": "2026-10-27T14:30:22.815072+00:00",
+    "metadata": {
+      "id": "6d094157387917d4d4a34b46",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252878",
+      "publisher": "topstarnews.net",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정, ‘무빙2’ 촬영 근황 언급…“다시 모이니 가슴이 웅장해지더라”",
+      "published_at": "2026-10-20T23:23:14+09:00",
+      "collected_at": "2026-10-20T14:30:23.475568+00:00",
+      "content_hash": "4e4361dc0628c563d11a28fc43f1ba5b067e354777c2b302c0352e7bbe4c59bf",
+      "excerpt": "배우 고윤정이 최근 한 인터뷰를 통해 ‘무빙2’를 언급했다.",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-20T14:30:23.475568+00:00"
     }
   }
 }
