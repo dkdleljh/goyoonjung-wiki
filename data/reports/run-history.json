@@ -42795,5 +42795,14 @@
         "returncode": 0
       }
     ]
+  },
+  {
+    "kind": "daily",
+    "executor": "primary",
+    "started_at": "2026-10-20T09:00:07+00:00",
+    "timestamp": "2026-10-20T09:02:59.921035+00:00",
+    "duration_seconds": 172.92,
+    "status": "success",
+    "steps": []
   }
 ]

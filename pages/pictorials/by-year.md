@@ -35,8 +35,8 @@
 - 2026-01-20 · [구교환-고윤정이 호흡 맞출 새 드라마는?](https://www.vogue.co.kr/2026/01/20/%ea%b5%ac%ea%b5%90%ed%99%98-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ed%98%b8%ed%9d%a1-%eb%a7%9e%ec%b6%9c-%ec%83%88-%eb%93%9c%eb%9d%bc%eb%a7%88%eb%8a%94/)
 - 2026-01-14 · [넷플릭스 <이 사랑 통역 되나요?> 제작발표회](https://kstar.kbs.co.kr/list_view.html?idx=389846)
 - 2026-01-05 · [넷플릭스 <이 사랑 통역 되나요?> 관련 보도(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=389107)
-- 2026-01 · ['이사통' 김선호 "고윤정과 온도·결 잘 맞아..행운 따른 작품"](https://www.asiaartistawards.com/news/detail/167018/all) <!-- Broken/404: 2026-10-19 -->
-- 2026-01 · ['언슬전' 고윤정 "데뷔 후 처음 푹 쉬는 중"](https://www.asiaartistawards.com/news/detail/129994/all) <!-- Broken/404: 2026-10-19 -->
+- 2026-01 · ['이사통' 김선호 "고윤정과 온도·결 잘 맞아..행운 따른 작품"](https://www.asiaartistawards.com/news/detail/167018/all)
+- 2026-01 · ['언슬전' 고윤정 "데뷔 후 처음 푹 쉬는 중"](https://www.asiaartistawards.com/news/detail/129994/all)
 
 ## 2025
 - 2025-12-18 · [고윤정-김선호의 예측 불가 로맨스 ‘이 사랑 통역 되나요?’](https://www.vogue.co.kr/2025/12/18/%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b9%80%ec%84%a0%ed%98%b8%ec%9d%98-%ec%98%88%ec%b8%a1-%eb%b6%88%ea%b0%80-%eb%a1%9c%eb%a7%a8%ec%8a%a4-%ec%9d%b4-%ec%82%ac%eb%9e%91-%ed%86%b5%ec%97%ad-%eb%90%98/)
