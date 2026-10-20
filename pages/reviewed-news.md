@@ -205,3 +205,4 @@
 - [고윤정 &quot;'무빙2' 실망시키고 싶지 않아&hellip;70세 돼도 연기 빈칸 있을 것&quot;](https://mydaily.co.kr/page/view/2026102009084916479) · 마이데일리 · 내용은 원문 보도 기준
 - [Go Youn-jung: “Filming ‘Moving 2’... My heart swells when the cast reunites”](https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115) · EN_ALL · 내용은 원문 보도 기준
 - [고윤정, 극도의 순수미.."'무빙2' 다시 모이니 가슴 웅장해져"［화보］ | 스타뉴스](https://www.starnewskorea.com/star/2026/10/20/2026102014344534276) · 스타뉴스 · 내용은 원문 보도 기준
+- [コ・ユンジョン、極度の純粋美..「『ムービング2』が再び集まると胸が高鳴る」 ［グラビア］ | STARNEWS](https://www.starnewskorea.com/ja/star/2026/10/20/2026102014344534276) · JA_ALL · 내용은 원문 보도 기준
