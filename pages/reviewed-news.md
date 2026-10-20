@@ -203,3 +203,4 @@
 - [고윤정, ‘무빙2’ 합류 소감 “몸이 희수 기억해 신기…가슴이 웅장해져”](https://sports.khan.co.kr/article/202610201041003) · 스포츠경향 · 내용은 원문 보도 기준
 - [고윤정 "'무빙2' 촬영 중..함께한 배우들 다시 모이니 가슴 웅장해져"](https://www.sportschosun.com/entertainment/2026-10-20/202610200100124710008115) · 스포츠조선 · 내용은 원문 보도 기준
 - [고윤정 &quot;'무빙2' 실망시키고 싶지 않아&hellip;70세 돼도 연기 빈칸 있을 것&quot;](https://mydaily.co.kr/page/view/2026102009084916479) · 마이데일리 · 내용은 원문 보도 기준
+- [Go Youn-jung: “Filming ‘Moving 2’... My heart swells when the cast reunites”](https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115) · EN_ALL · 내용은 원문 보도 기준
