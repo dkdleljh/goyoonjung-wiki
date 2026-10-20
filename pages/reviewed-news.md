@@ -195,3 +195,4 @@
 - [고윤정, 10년 전 대학 축제 주점 포스터 등장…이미 여신 비주얼 "당연히 만석"](https://hugs.fnnews.com/article/202610190723310905) · 파이낸셜뉴스 · 내용은 원문 보도 기준
 - [고윤정의 순수한 아름다움, 티파니앤코와 함께한 '바자' 11월호](https://www.harpersbazaar.co.kr/article/1911558) · 하퍼스 바자 코리아 · 내용은 원문 보도 기준
 - [고윤정, 메이크업 최소화한 순수 화보 커버 공개](https://www.topstarnews.net/news/articleView.html?idxno=16252056) · 톱스타뉴스 · 내용은 원문 보도 기준
+- [고윤정 &quot;'무빙2' 실망시키고 싶지 않아&hellip;70세 돼도 연기 빈칸 있을 것&quot;](https://www.mydaily.co.kr/page/view/2026102009084916479) · 마이데일리 · 내용은 원문 보도 기준

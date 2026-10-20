@@ -5080,5 +5080,29 @@
       "last_modified": null,
       "first_seen": "2026-10-20T00:25:25.245009+00:00"
     }
+  },
+  "https://www.mydaily.co.kr/page/view/2026102009084916479": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-20T00:40:23.643826+00:00",
+    "first_seen_at": "2026-10-20 00:30:10",
+    "next_check": "2026-10-27T00:40:23.643826+00:00",
+    "metadata": {
+      "id": "81b5d6d5e8ceee628d428108",
+      "url": "https://www.mydaily.co.kr/page/view/2026102009084916479",
+      "publisher": "mydaily.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정 &quot;'무빙2' 실망시키고 싶지 않아&hellip;70세 돼도 연기 빈칸 있을 것&quot;",
+      "published_at": null,
+      "collected_at": "2026-10-20T00:40:24.125150+00:00",
+      "content_hash": "17abd4f8f68bc42e5c63f121535b09e22d76bdd09a4c868f6f87f1d626954391",
+      "excerpt": "/ 하퍼스 바자 코리아...",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-20T00:40:24.125150+00:00"
+    }
   }
 }
