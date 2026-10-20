@@ -5128,5 +5128,29 @@
       "last_modified": null,
       "first_seen": "2026-10-20T01:00:25.565539+00:00"
     }
+  },
+  "https://www.mk.co.kr/news/hot-issues/12180324": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-20T01:15:28.813134+00:00",
+    "first_seen_at": "2026-10-20 01:10:10",
+    "next_check": "2026-10-27T01:15:28.813134+00:00",
+    "metadata": {
+      "id": "db7bf8a25deb23a84f4c233e",
+      "url": "https://www.mk.co.kr/news/hot-issues/12180324",
+      "publisher": "mk.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정 “‘무빙2’ 가슴 웅장해져...몸이 희수 기억” [화보] - 스타투데이",
+      "published_at": "2026-10-20T10:05:59+09:00",
+      "collected_at": "2026-10-20T01:15:29.269179+00:00",
+      "content_hash": "06115082acadc6ae6b97e5a683bd934a97ae9184cf9ded81467c15f5f0e475bb",
+      "excerpt": "",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-20T01:15:29.269179+00:00"
+    }
   }
 }
