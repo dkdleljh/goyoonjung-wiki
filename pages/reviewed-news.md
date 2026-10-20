@@ -193,3 +193,4 @@
 - [“사람들이 길을 비켜줬다더니”…고윤정 대학 시절 주점 포스터 확산, 모세의 기적 별명까지 소환](https://blog.naver.com/PostView.naver?blogId=yooju0913&logNo=224446983778&redirect=Dlog) · Naver Blog · 내용은 원문 보도 기준
 - [고윤정, 서울여대 주점 포스터 등장…소주 광고인 줄](https://www.fnnews.com/news/202610191033509808) · 파이낸셜뉴스 · 내용은 원문 보도 기준
 - [고윤정, 10년 전 대학 축제 주점 포스터 등장…이미 여신 비주얼 "당연히 만석"](https://hugs.fnnews.com/article/202610190723310905) · 파이낸셜뉴스 · 내용은 원문 보도 기준
+- [고윤정의 순수한 아름다움, 티파니앤코와 함께한 '바자' 11월호](https://www.harpersbazaar.co.kr/article/1911558) · 하퍼스 바자 코리아 · 내용은 원문 보도 기준
