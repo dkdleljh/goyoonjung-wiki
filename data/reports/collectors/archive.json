@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T16:30:28+09:00",
+  "checked_at": "2026-10-21T16:40:28+09:00",
   "status": "failed",
   "sources": [
     {
@@ -10,9 +10,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-21T14:40:29+09:00",
+      "checked_at": "2026-10-21T16:40:28+09:00",
       "last_success": "2026-10-18T21:55:29+09:00",
-      "consecutive_failures": 37
+      "consecutive_failures": 38
     },
     {
       "name": "W Korea",
@@ -70,9 +70,9 @@
       "error": "HTTP 404",
       "kind": "http",
       "retryable": false,
-      "checked_at": "2026-10-21T14:40:29+09:00",
+      "checked_at": "2026-10-21T16:40:28+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 35
+      "consecutive_failures": 36
     },
     {
       "name": "Esquire Korea",
@@ -82,9 +82,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-21T14:40:29+09:00",
+      "checked_at": "2026-10-21T16:40:28+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 38
+      "consecutive_failures": 39
     },
     {
       "name": "Cosmopolitan Korea",
