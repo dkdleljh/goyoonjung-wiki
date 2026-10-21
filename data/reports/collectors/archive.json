@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T11:00:37+09:00",
+  "checked_at": "2026-10-21T11:10:32+09:00",
   "status": "failed",
   "sources": [
     {
@@ -143,12 +143,12 @@
       "url": "https://noblesse.com/feed/",
       "scope": "historical pagination page 3",
       "status": "failed",
-      "error": "Invalid RSS XML: not well-formed (invalid token): line 608, column 94",
+      "error": "Invalid RSS XML: not well-formed (invalid token): line 797, column 94",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-21T09:10:23+09:00",
+      "checked_at": "2026-10-21T11:10:32+09:00",
       "last_success": "2026-10-19T10:25:25+09:00",
-      "consecutive_failures": 26
+      "consecutive_failures": 27
     }
   ]
 }
