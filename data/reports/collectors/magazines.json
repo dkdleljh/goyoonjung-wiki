@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T18:05:31+09:00",
+  "checked_at": "2026-10-21T18:10:32+09:00",
   "status": "failed",
   "sources": [
     {
@@ -12,8 +12,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -26,8 +26,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "f0241cce012db16453495e6300013377864543e25a5371196a9aa1c628918e8a",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -40,8 +40,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "505018d9ade998e7d510901bd64ac4e84e977204981aaf85efd11d669e66c11e",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -54,8 +54,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "dae624f68bbdcc2ebd5316fadabc07810fb8e8a7ea24cd368374961eb58110c7",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -70,8 +70,8 @@
       ],
       "page": 1,
       "page_fingerprint": "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -84,8 +84,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "b687253b32725500fd4b34a5553662c7998c483c49af6953c600cf7a932e7691",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -98,8 +98,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "00bbe1024c661c34b4336af134513dee61cfd05870e3f1a075a15fc68800c078",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -112,8 +112,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "ce48efb8ccd568877369893e93b1168ac2c59e8a38e721c0f9d414482009e87f",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -126,8 +126,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "342f8e7664889d2020765f8299ee1588c747ee4b82b77d5a802fbd913c57b7a6",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -138,9 +138,9 @@
       "error": "HTTPSConnectionPool(host='www.singleskorea.com', port=443): Max retries exceeded with url: /api/article-search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&offset=0&limit=25 (Caused by NewConnectionError(\"HTTPSConnection(host='www.singleskorea.com', port=443): Failed to establish a new connection: [Errno 113] No r",
       "kind": "network",
       "retryable": true,
-      "checked_at": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
       "last_success": "2026-10-21T17:20:29+09:00",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     {
       "name": "Arena",
@@ -152,8 +152,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "1367afa19f3d82bfc0a6cc4fe958486691a96bd32b823785e6edc8379053de34",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -166,8 +166,8 @@
       "warnings": [],
       "page": 1,
       "page_fingerprint": "36eb3bf088140359014de3538683dd901835fb6fad55f30fc60a37631813efcf",
-      "checked_at": "2026-10-21T18:05:31+09:00",
-      "last_success": "2026-10-21T18:05:31+09:00",
+      "checked_at": "2026-10-21T18:10:32+09:00",
+      "last_success": "2026-10-21T18:10:32+09:00",
       "consecutive_failures": 0
     }
   ]
