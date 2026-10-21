@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T14:50:13+09:00",
+  "checked_at": "2026-10-21T14:55:16+09:00",
   "status": "success",
   "sources": [
     {
@@ -12,19 +12,22 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "tvN Joy",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -37,8 +40,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -51,19 +54,22 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "SBSNOW",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -76,8 +82,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -90,8 +96,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -101,8 +107,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -115,8 +121,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -129,8 +135,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -143,8 +149,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -157,8 +163,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-21T14:50:13+09:00",
-      "last_success": "2026-10-21T14:50:13+09:00",
+      "checked_at": "2026-10-21T14:55:16+09:00",
+      "last_success": "2026-10-21T14:55:16+09:00",
       "consecutive_failures": 0
     }
   ]
