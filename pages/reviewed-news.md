@@ -209,3 +209,4 @@
 - [고윤정, 대학 시절 사진 공개→류승룡과 촬영 호흡… “가슴이 웅장해져”](https://www.sportsseoul.com/news/read/1642745) · 스포츠서울 · 내용은 원문 보도 기준
 - [고윤정, ‘무빙2’ 촬영 근황 언급…“다시 모이니 가슴이 웅장해지더라”](https://www.topstarnews.net/news/articleView.html?idxno=16252878) · 톱스타뉴스 · 내용은 원문 보도 기준
 - [파리 르 트리아농에서 열린 '코코 마드모아젤' 파티에 참석한 고윤정 화보](https://www.marieclairekorea.com/beauty/2026/10/the-crush-night) · 마리끌레르 코리아 · 내용은 원문 보도 기준
+- [샤넬 코코 마드모아젤과 함께한 고윤정의 파리 #2](https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2) · Marie Claire Korea · 내용은 원문 보도 기준
