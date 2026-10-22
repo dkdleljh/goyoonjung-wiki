@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T03:10:23+09:00",
+  "checked_at": "2026-10-23T03:20:28+09:00",
   "status": "failed",
   "sources": [
     {
@@ -34,9 +34,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-23T02:20:23+09:00",
+      "checked_at": "2026-10-23T03:20:28+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 58
+      "consecutive_failures": 59
     },
     {
       "name": "GQ Korea",
@@ -58,9 +58,9 @@
       "error": "HTTP 404",
       "kind": "http",
       "retryable": false,
-      "checked_at": "2026-10-23T02:20:23+09:00",
+      "checked_at": "2026-10-23T03:20:28+09:00",
       "last_success": "2026-10-18T22:00:30+09:00",
-      "consecutive_failures": 59
+      "consecutive_failures": 60
     },
     {
       "name": "Marie Claire Korea",
@@ -82,9 +82,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-23T02:20:23+09:00",
+      "checked_at": "2026-10-23T03:20:28+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 59
+      "consecutive_failures": 60
     },
     {
       "name": "Cosmopolitan Korea",
