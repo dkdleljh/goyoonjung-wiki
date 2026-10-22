@@ -29,7 +29,7 @@
 - [고윤정, 얼굴 믿고 다 하네&hellip;파리서 '멍한 표정'도 화보](https://mydaily.co.kr/page/view/2026092717323954402) · 마이데일리 · 내용은 원문 보도 기준
 - [고윤정 '집순이' 고백 "산책 왜 하는지 모르겠어, 쉬는 날 아무것도 안 해"](https://v.daum.net/v/9VVtr4KpLg?f=p) · VARIETY_TALK · 내용은 원문 보도 기준
 - [구교환, 10월 영화배우 평판 1위 등극…고윤정·지창욱 제쳤다](https://sports.khan.co.kr/article/202610171211003) · 스포츠경향 · 내용은 원문 보도 기준
-- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 | Asia Artist Awards IN KAOHSIUNG #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22882) · 스타뉴스 · 내용은 원문 보도 기준
+- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 | Asia Artist Awards IN KAOHSIUNG #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22882) · 스타뉴스 · 내용은 원문 보도 기준 <!-- Broken/404: 2026-10-22 -->
 - [대학 때부터 예뻤던 고윤정 “실물 못 담는 전설의 주점 포스터”](https://www.sportsseoul.com/news/read/1642163) · 스포츠서울 · 내용은 원문 보도 기준
 - ['펜싱 고윤정' 양승혜, 에페 단체 결승전 출전［포토］](https://www.xportsnews.com/article/2200305) · 엑스포츠뉴스 · 내용은 원문 보도 기준
 - [고윤정, 여신컷 사이 반전 3장…컵으로 만든 '작아진 입'·터프한 표정까지 장꾸 매력 폭발 ［★해시태그］](https://www.xportsnews.com/article/2202242) · 엑스포츠뉴스 · 내용은 원문 보도 기준
@@ -40,8 +40,8 @@
 - [“한마디에 폭풍 오열” 허남준, 고윤정과 무슨 일?…돌고래유괴단표 ‘웃픈’ 로맨스](https://www.sportsseoul.com/news/read/1637293) · 스포츠서울 · 내용은 원문 보도 기준
 - [“이런 꿀팁이?”... 고윤정, 햇빛 가리개부터 컵 받침까지 ‘갤럭시 폴드’ 200% 활용법](https://www.sportsseoul.com/news/read/1639642) · 스포츠서울 · 내용은 원문 보도 기준
 - [고윤정, 낮엔 안광 실종→밤 되니 다시 돌아온 생기](https://www.sportsseoul.com/news/read/1637796) · 스포츠서울 · 내용은 원문 보도 기준
-- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/star-ranking/22883) · 스타뉴스 · 내용은 원문 보도 기준
-- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22884?period=weekly) · 스타뉴스 · 내용은 원문 보도 기준
+- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/star-ranking/22883) · 스타뉴스 · 내용은 원문 보도 기준 <!-- Broken/404: 2026-10-22 -->
+- [［AAA 2026 LINE-UP］ Go Youn jung 고윤정 #AAA #aaa2026 | 스타뉴스](https://www.starnewskorea.com/player/shorts/22884?period=weekly) · 스타뉴스 · 내용은 원문 보도 기준 <!-- Broken/404: 2026-10-22 -->
 - ["뷔도 고윤정도 끼네"…외국인 사로잡은 '할머니 반지'의 변신［K홀릭］](https://www.asiae.co.kr/article/2026092310211456868) · 아시아경제 · 내용은 원문 보도 기준
 - ["고윤정·덱스의 겨울 러닝룩"…젝시믹스, RX 에어라이트 패딩 공개](https://www.news1.kr/industry/distribution/6299795) · 뉴스1 · 내용은 원문 보도 기준
 - [내셔널지오그래픽, 허남준 모델 발탁…고윤정과 캠페인 영상 공개](https://www.news1.kr/industry/distribution/6300203) · 뉴스1 · 내용은 원문 보도 기준
