@@ -1,27 +1,27 @@
 {
   "official:about.netflix.com": {
-    "last_attempt": "2026-10-22T19:15:14.568759+00:00",
+    "last_attempt": "2026-10-22T19:20:14.839033+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:14.568759+00:00"
+    "last_success": "2026-10-22T19:20:14.839033+00:00"
   },
   "official:tvn.cjenm.com": {
-    "last_attempt": "2026-10-22T19:15:16.147544+00:00",
+    "last_attempt": "2026-10-22T19:20:15.044272+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:16.147544+00:00"
+    "last_success": "2026-10-22T19:20:15.044272+00:00"
   },
   "official:tv.jtbc.co.kr": {
-    "last_attempt": "2026-10-22T19:15:17.145885+00:00",
+    "last_attempt": "2026-10-22T19:20:17.658182+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:17.145885+00:00"
+    "last_success": "2026-10-22T19:20:17.658182+00:00"
   },
   "official:cjenm.com": {
-    "last_attempt": "2026-10-22T19:15:17.157633+00:00",
+    "last_attempt": "2026-10-22T19:20:17.674862+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:17.157633+00:00"
+    "last_success": "2026-10-22T19:20:17.674862+00:00"
   },
   "site:www.vogue.co.kr": {
     "last_attempt": "2026-10-22T18:55:25.926943+00:00",
@@ -72,28 +72,28 @@
     "last_success": "2026-10-22T18:50:22.047586+00:00"
   },
   "official:thewaltdisneycompany.com": {
-    "last_attempt": "2026-10-22T19:15:17.170584+00:00",
+    "last_attempt": "2026-10-22T19:20:17.686048+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:17.170584+00:00"
+    "last_success": "2026-10-22T19:20:17.686048+00:00"
   },
   "official:tving.com": {
-    "last_attempt": "2026-10-22T19:15:17.179250+00:00",
+    "last_attempt": "2026-10-22T19:20:17.698290+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:17.179250+00:00"
+    "last_success": "2026-10-22T19:20:17.698290+00:00"
   },
   "official:baeksangawards.co.kr": {
-    "last_attempt": "2026-10-22T19:15:17.188462+00:00",
+    "last_attempt": "2026-10-22T19:20:17.710295+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:17.188462+00:00"
+    "last_success": "2026-10-22T19:20:17.710295+00:00"
   },
   "official:bsa.blueaward.co.kr": {
-    "last_attempt": "2026-10-22T19:15:17.196859+00:00",
+    "last_attempt": "2026-10-22T19:20:17.723682+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:17.196859+00:00"
+    "last_success": "2026-10-22T19:20:17.723682+00:00"
   },
   "site:www.gqkorea.co.kr": {
     "last_attempt": "2026-10-22T19:15:21.003889+00:00",
@@ -150,14 +150,14 @@
     "last_success": "2026-10-22T18:30:21.194155+00:00"
   },
   "official:chanel.com": {
-    "last_attempt": "2026-10-22T19:15:17.205002+00:00",
+    "last_attempt": "2026-10-22T19:20:17.736751+00:00",
     "status": "failed",
-    "failures": 1295
+    "failures": 1296
   },
   "official:boucheron.com": {
-    "last_attempt": "2026-10-22T19:15:17.502737+00:00",
+    "last_attempt": "2026-10-22T19:20:17.748364+00:00",
     "status": "failed",
-    "failures": 1295
+    "failures": 1296
   },
   "official:goodal.com": {
     "last_attempt": "2026-10-18T05:30:11.954182+00:00",
@@ -165,16 +165,16 @@
     "failures": 1
   },
   "official:penshoppe.com": {
-    "last_attempt": "2026-10-22T19:15:19.414116+00:00",
-    "status": "success",
-    "failures": 0,
+    "last_attempt": "2026-10-22T19:20:17.814646+00:00",
+    "status": "failed",
+    "failures": 1,
     "last_success": "2026-10-22T19:15:19.414116+00:00"
   },
   "official:clubclio.co.kr": {
-    "last_attempt": "2026-10-22T19:15:18.066638+00:00",
+    "last_attempt": "2026-10-22T19:20:17.801025+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T19:15:18.066638+00:00"
+    "last_success": "2026-10-22T19:20:17.801025+00:00"
   },
   "i18n:EN_CAST": {
     "last_attempt": "2026-10-22T19:00:22.476115+00:00",
@@ -213,28 +213,28 @@
     "last_success": "2026-10-22T16:50:24.393689+00:00"
   },
   "query:GOODAL": {
-    "last_attempt": "2026-10-22T17:55:32.571463+00:00",
+    "last_attempt": "2026-10-22T19:20:19.755034+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T17:55:32.571463+00:00"
+    "last_success": "2026-10-22T19:20:19.755034+00:00"
   },
   "query:DISCOVERY": {
-    "last_attempt": "2026-10-22T17:55:33.711601+00:00",
+    "last_attempt": "2026-10-22T19:20:20.342281+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T17:55:33.711601+00:00"
+    "last_success": "2026-10-22T19:20:20.342281+00:00"
   },
   "query:MARITHE": {
-    "last_attempt": "2026-10-22T17:55:34.872323+00:00",
+    "last_attempt": "2026-10-22T19:20:20.911645+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T17:55:34.872323+00:00"
+    "last_success": "2026-10-22T19:20:20.911645+00:00"
   },
   "query:LENSME": {
-    "last_attempt": "2026-10-22T17:55:37.637842+00:00",
+    "last_attempt": "2026-10-22T19:20:21.536470+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-10-22T17:55:37.637842+00:00"
+    "last_success": "2026-10-22T19:20:21.536470+00:00"
   },
   "site:news.kbs.co.kr": {
     "last_attempt": "2026-10-22T17:05:25.255485+00:00",
