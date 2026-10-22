@@ -6,6 +6,9 @@
 ---
 
 ## 2026
+- 2026-10-22 · [샤넬 코코 마드모아젤과 함께한 고윤정의 파리 #2](https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2/)
+- 2026-10-22 · [샤넬 코코 마드모아젤과 함께한 고윤정의 파리 #1](https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color/)
+- 2026-10-22 · [파리 르 트리아농에서 열린 ‘코코 마드모아젤’ 파티에 참석한 고윤정 화보](https://www.marieclairekorea.com/beauty/2026/10/the-crush-night/)
 - 2026-10-07 · [고윤정이 마주한 새하얀 겨울](https://www.vogue.co.kr/2026/10/07/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%88%ec%a3%bc%ed%95%9c-%ec%83%88%ed%95%98%ec%96%80-%ea%b2%a8%ec%9a%b8/)
 - 2026-10-07 · [마리떼 2026 겨울 캠페인 — Love in White, Love in Winter](https://fashionseoul.com/275968)
 - 2026-10-06 · [샤넬과 고윤정이 만들어낸 아름다운 역설, 마리끌레르 10월호 커버 스토리](https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/)

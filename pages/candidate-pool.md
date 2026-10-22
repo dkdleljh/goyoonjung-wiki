@@ -1,10 +1,13 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-22 12:01 (Asia/Seoul)
+> Updated: 2026-10-23 00:04 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-22 · grade=B · YOUTUBE_CLIPS · [고윤정이 김선호앞에서 오로라 춤을 춘 이유 #이사랑통역되나요 #고윤정 #김선호 - YouTube](https://www.youtube.com/watch?v=oSBl3voJVn8)
+- 2026-10-22 · grade=B · YOUTUBE_CLIPS · [확신의 ISTP 고윤정 #유퀴즈온더블럭 - YouTube](https://www.youtube.com/watch?v=UExFBls3pBs)
+- 2026-10-22 · grade=B · YOUTUBE_CLIPS · [여배우도 귀찮은 건 나랑 같네 #고윤정 - YouTube](https://www.youtube.com/watch?v=gwaom-UTFWk)
 - 2026-10-22 · grade=B · YOUTUBE_CLIPS · [고윤정 안에 누군가 살고있다 #고윤정 - YouTube](https://www.youtube.com/watch?v=om35fyEKLfU)
 - 2026-10-19 · grade=B · YOUTUBE_CLIPS · [일본에서 만난 인간 파파고 주호진 #이사랑통역되나요 #이사통 #고윤정 #김선호 #후쿠시 소타 #이이담 #최우성 #현리 - YouTube](https://www.youtube.com/watch?v=LepbmPl-k7k)
 - 2026-10-19 · grade=B · YOUTUBE_CLIPS · [밥 굶고 뛰쳐나간 소방관들, 고윤정이 결국 일냈다 | 미대생이 선한 대세 배우가 되기까지 #고윤정 #기부 #미담 #마니또클럽 #소방관 #무빙 #이사랑통역되나요 #연예스타방 - YouTube](https://www.youtube.com/watch?v=TmVnSCMrwqI)

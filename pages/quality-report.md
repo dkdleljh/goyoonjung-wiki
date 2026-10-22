@@ -10,7 +10,7 @@
 - `참고(2차)`: **0**
 - `요약 보강 필요`: **0**
 - `(페이지 내 표기 확인 필요)`: **139**
-- `(확인 필요)`: **143**
+- `(확인 필요)`: **164**
 - `검증불가`: **13**
 - `추가 필요`: **3**
 - `미확정`: **2**
@@ -76,8 +76,8 @@
 - pages/profile.md:58 · - 상태: 검증불가(공식 근거 미확보)
 
 ## 추가 필요 (상위 3개 위치)
-- pages/pictorials/editorial.md:532 · - 링크(원문): (추가 필요)
-- pages/pictorials/editorial.md:534 · - id: (추가 필요)
+- pages/pictorials/editorial.md:556 · - 링크(원문): (추가 필요)
+- pages/pictorials/editorial.md:558 · - id: (추가 필요)
 - pages/endorsements/fashion.md:23 · - 링크(공식 영상/캠페인): (추가 필요)
 
 ## 미확정 (상위 2개 위치)

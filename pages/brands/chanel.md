@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-10-19 00:02 (Asia/Seoul)
+> 갱신: 2026-10-23 00:04 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -46,6 +46,12 @@
 
 - [샤넬의 앰배서더 배우 고윤정과 함께한 마리끌레르 10월호 커버](https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/)  _(출처: pictorials/editorial.md)_
 
+- [샤넬 코코 마드모아젤과 함께한 고윤정의 파리 #2](https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2/)  _(출처: pictorials/editorial.md)_
+
+- [샤넬 코코 마드모아젤과 함께한 고윤정의 파리 #1](https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color/)  _(출처: pictorials/editorial.md)_
+
+- [파리 르 트리아농에서 열린 ‘코코 마드모아젤’ 파티에 참석한 고윤정 화보](https://www.marieclairekorea.com/beauty/2026/10/the-crush-night/)  _(출처: pictorials/editorial.md)_
+
 - [샤넬과 고윤정이 함께한 영화적 순간 #1](https://www.marieclairekorea.com/fashion/2025/11/chanel-70/)  _(출처: pictorials/editorial.md)_
 
 - [샤넬과 고윤정이 함께한 영화적 순간 #2](https://www.marieclairekorea.com/fashion/2025/11/chanel-71/)  _(출처: pictorials/editorial.md)_
@@ -73,10 +79,4 @@
 - [고윤정과 샤넬이 함께한 화보 #2](https://www.marieclairekorea.com/fashion/2024/07/chanel-28/)  _(출처: pictorials/editorial.md)_
 
 - [고윤정과 샤넬이 함께한 7월호 커버](https://www.marieclairekorea.com/fashion/2024/06/chanel-24/)  _(출처: pictorials/editorial.md)_
-
-- [고윤정과 샤넬의 은은한 여름밤 같은 6월호 커버](https://www.elle.co.kr/article/1902676)  _(출처: pictorials/editorial.md)_
-
-- [고윤정이 샤넬 공방 컬렉션과 찍은 단 한 편의 드라마](https://www.elle.co.kr/article/1903563)  _(출처: pictorials/editorial.md)_
-
-- [제니,고윤정도 반한 샤넬의 오트 쿠튀르 컬렉션](https://www.elle.co.kr/article/1877537)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
