@@ -202,6 +202,30 @@
 - 링크(원문): https://www.vogue.co.kr/2026/01/20/%ea%b5%ac%ea%b5%90%ed%99%98-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ed%98%b8%ed%9d%a1-%eb%a7%9e%ec%b6%9c-%ec%83%88-%eb%93%9c%eb%9d%bc%eb%a7%88%eb%8a%94/
 - 상태: 원문 메타데이터 수집
 - id: https://www.vogue.co.kr/2026/01/20/%ea%b5%ac%ea%b5%90%ed%99%98-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ed%98%b8%ed%9d%a1-%eb%a7%9e%ec%b6%9c-%ec%83%88-%eb%93%9c%eb%9d%bc%eb%a7%88%eb%8a%94/
+
+- 날짜: 2026-10-22
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬 코코 마드모아젤과 함께한 고윤정의 파리 #2
+- 링크(원문): https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2/
+
+- 날짜: 2026-10-22
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 샤넬 코코 마드모아젤과 함께한 고윤정의 파리 #1
+- 링크(원문): https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color/
+
+- 날짜: 2026-10-22
+- 매체: Marie Claire Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 파리 르 트리아농에서 열린 ‘코코 마드모아젤’ 파티에 참석한 고윤정 화보
+- 링크(원문): https://www.marieclairekorea.com/beauty/2026/10/the-crush-night/
+- 상태: 원문 메타데이터 수집
+- id: https://www.marieclairekorea.com/beauty/2026/10/the-crush-night/
 ## 2025
 - 날짜: 2025-10-30
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
