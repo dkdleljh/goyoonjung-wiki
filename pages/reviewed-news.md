@@ -210,3 +210,4 @@
 - [고윤정, ‘무빙2’ 촬영 근황 언급…“다시 모이니 가슴이 웅장해지더라”](https://www.topstarnews.net/news/articleView.html?idxno=16252878) · 톱스타뉴스 · 내용은 원문 보도 기준
 - [파리 르 트리아농에서 열린 '코코 마드모아젤' 파티에 참석한 고윤정 화보](https://www.marieclairekorea.com/beauty/2026/10/the-crush-night) · 마리끌레르 코리아 · 내용은 원문 보도 기준
 - [샤넬 코코 마드모아젤과 함께한 고윤정의 파리 #2](https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2) · Marie Claire Korea · 내용은 원문 보도 기준
+- [파리 르 트리아농에서 열린 ‘코코 마드모아젤’ 파티에 참석한 고윤정 화보](https://www.marieclairekorea.com/tag/%EC%BD%94%EC%BD%94-%EB%A7%88%EB%93%9C%EB%AA%A8%EC%95%84%EC%A0%A4-%ED%81%AC%EB%9F%AC%EC%89%AC-%EC%95%95%EC%86%94%EB%A4%BC) · Marie Claire Korea · 내용은 원문 보도 기준
