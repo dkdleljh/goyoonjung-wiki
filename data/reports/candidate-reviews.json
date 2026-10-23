@@ -361,8 +361,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-10-23T03:55:28.934482+00:00",
-    "next_check": "2026-10-23T09:55:28.934482+00:00",
+    "checked_at": "2026-10-23T10:00:27.946004+00:00",
+    "next_check": "2026-10-23T16:00:27.946004+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://www.tenasia.co.kr/article/2026092803714": {
@@ -559,8 +559,8 @@
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-10-23T03:55:28.934482+00:00",
-    "next_check": "2026-10-23T09:55:28.934482+00:00",
+    "checked_at": "2026-10-23T10:00:27.946004+00:00",
+    "next_check": "2026-10-23T16:00:27.946004+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA": {
@@ -4543,14 +4543,14 @@
   },
   "https://mk.co.kr/amp/12179279": {
     "status": "retry_pending",
-    "checked_at": "2026-10-23T03:55:28.934482+00:00",
-    "next_check": "2026-10-23T09:55:28.934482+00:00",
+    "checked_at": "2026-10-23T10:00:27.946004+00:00",
+    "next_check": "2026-10-23T16:00:27.946004+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179279"
   },
   "https://mk.co.kr/amp/12179236": {
     "status": "retry_pending",
-    "checked_at": "2026-10-23T03:55:28.934482+00:00",
-    "next_check": "2026-10-23T09:55:28.934482+00:00",
+    "checked_at": "2026-10-23T10:00:27.946004+00:00",
+    "next_check": "2026-10-23T16:00:27.946004+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179236"
   },
   "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014010": {
@@ -5275,8 +5275,8 @@
   },
   "https://mk.co.kr/amp/12180324": {
     "status": "retry_pending",
-    "checked_at": "2026-10-23T03:55:28.934482+00:00",
-    "next_check": "2026-10-23T09:55:28.934482+00:00",
+    "checked_at": "2026-10-23T10:00:27.946004+00:00",
+    "next_check": "2026-10-23T16:00:27.946004+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12180324"
   },
   "https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115": {
@@ -5613,6 +5613,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-10-23T09:45:34.256963+00:00"
+    }
+  },
+  "https://mydaily.co.kr/page/view/2026102317530678529": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-23T10:00:27.946004+00:00",
+    "first_seen_at": "2026-10-23 09:50:10",
+    "next_check": "2026-10-30T10:00:27.946004+00:00",
+    "metadata": {
+      "id": "57035b9bca947ccaed01e2be",
+      "url": "https://www.mydaily.co.kr/page/view/2026102317530678529",
+      "publisher": "mydaily.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "박소담&middot;고윤정, 서인국과 낮부터 밤까지 데이트&hellip;&quot;갈비뼈 아플 정도&quot;",
+      "published_at": null,
+      "collected_at": "2026-10-23T10:00:28.570194+00:00",
+      "content_hash": "2125d1a4a8266c905998b4cf93dc3ede046e40ab65b3fbb1dbb32266bf6fdb23",
+      "excerpt": "박소담이 서인국, 고윤정과 함께 보낸 특별한 하루를 공개하며...",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-23T10:00:28.570194+00:00"
     }
   }
 }
