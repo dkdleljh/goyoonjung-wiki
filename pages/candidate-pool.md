@@ -1,10 +1,12 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-23 00:04 (Asia/Seoul)
+> Updated: 2026-10-24 00:03 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-23 · grade=B · YOUTUBE_CLIPS · [고윤정 배우가 될 생각이 없던 미대생 - YouTube](https://www.youtube.com/watch?v=6iz4J7fb8RM)
+- 2026-10-22 · grade=B · YOUTUBE_CLIPS · [애드립 할 맛 나는 귀여운 고윤정 반응 #고윤정 - YouTube](https://www.youtube.com/watch?v=nUMRPgOQfQE)
 - 2026-10-22 · grade=B · YOUTUBE_CLIPS · [고윤정이 김선호앞에서 오로라 춤을 춘 이유 #이사랑통역되나요 #고윤정 #김선호 - YouTube](https://www.youtube.com/watch?v=oSBl3voJVn8)
 - 2026-10-22 · grade=B · YOUTUBE_CLIPS · [확신의 ISTP 고윤정 #유퀴즈온더블럭 - YouTube](https://www.youtube.com/watch?v=UExFBls3pBs)
 - 2026-10-22 · grade=B · YOUTUBE_CLIPS · [여배우도 귀찮은 건 나랑 같네 #고윤정 - YouTube](https://www.youtube.com/watch?v=gwaom-UTFWk)

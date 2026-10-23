@@ -1,11 +1,11 @@
 # Operational Scorecard (auto)
 
-> Updated: 2026-10-23 (Asia/Seoul)
+> Updated: 2026-10-24 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 124
-- urls_total(markdown): 849
-- seen_urls(db): 328
+- urls_total(markdown): 912
+- seen_urls(db): 338
 - allowlist_domains: 105
 - google_news_sites: 40
 - google_news_queries(lines): 20
@@ -29,12 +29,12 @@
 - observability: 100  (status/daily/lint reports)
 - runtime_guards: 100  (file presence only; does not prove deployment)
 
-### C. Content scale heuristic: **73/100**
+### C. Content scale heuristic: **74/100**
 
-- C_current: 73  (actual accumulated scale (grows over time))
+- C_current: 74  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 849  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 328  (dedupe DB size)
+- urls_total: 912  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 338  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
@@ -48,16 +48,16 @@
 - coverage_readiness: 0  (official coverage audit)
 
 ## Top URL-heavy pages (top 10)
-- 209: pages/reviewed-news.md
+- 216: pages/reviewed-news.md
 - 203: pages/pictorials/editorial.md
 - 123: pages/pictorials/by-year.md
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
-- 64: pages/candidate-pool.md
+- 75: pages/youtube-archive.md
+- 66: pages/candidate-pool.md
 - 57: pages/interviews.md
 - 54: pages/appearances.md
 - 53: pages/official-platform-watch.md
 - 52: pages/alternative-proof-candidates.md
-- 48: pages/interviews/by-year.md
 
 ## Notes
 - A and B component values describe tooling presence; B headline uses actual run freshness and outcome.

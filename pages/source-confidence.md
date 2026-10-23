@@ -1,29 +1,29 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-23 00:03 (Asia/Seoul)
+> Updated: 2026-10-24 00:03 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1733
+- total_urls: 1824
 - S: 249
-- A: 860
-- B: 239
+- A: 873
+- B: 317
 - BLOCK: 385
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
-| youtube.com | 155 | B:155 |
+| youtube.com | 233 | B:233 |
+| marieclairekorea.com | 126 | A:126 |
 | kstar.kbs.co.kr | 120 | S:120 |
-| marieclairekorea.com | 117 | A:117 |
 | google.com | 92 | BLOCK:92 |
-| elle.co.kr | 88 | A:88 |
+| elle.co.kr | 85 | A:85 |
 | harpersbazaar.co.kr | 85 | A:85 |
 | maa.co.kr | 72 | BLOCK:72 |
 | vogue.co.kr | 67 | A:67 |
 | youtu.be | 64 | B:64 |
 | cosmopolitan.co.kr | 60 | A:60 |
 | wkorea.com | 49 | A:49 |
-| mk.co.kr | 36 | A:36 |
+| mk.co.kr | 39 | A:39 |
 | v.daum.net | 29 | A:29 |
 | starnewskorea.com | 28 | A:28 |
 | news.sbs.co.kr | 24 | S:24 |
