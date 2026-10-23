@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T21:25:24+09:00",
+  "checked_at": "2026-10-23T21:35:23+09:00",
   "status": "failed",
   "sources": [
     {
@@ -94,9 +94,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-23T19:35:28+09:00",
+      "checked_at": "2026-10-23T21:35:23+09:00",
       "last_success": "2026-10-18T21:45:35+09:00",
-      "consecutive_failures": 70
+      "consecutive_failures": 71
     },
     {
       "name": "Allure Korea",
