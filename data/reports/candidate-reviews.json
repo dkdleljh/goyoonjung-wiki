@@ -5590,5 +5590,29 @@
       "last_modified": null,
       "first_seen": "2026-10-23T08:05:24.368643+00:00"
     }
+  },
+  "https://www.mydaily.co.kr/page/view/2026102317530678529": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-23T09:45:33.728786+00:00",
+    "first_seen_at": "2026-10-23 09:40:10",
+    "next_check": "2026-10-30T09:45:33.728786+00:00",
+    "metadata": {
+      "id": "57035b9bca947ccaed01e2be",
+      "url": "https://www.mydaily.co.kr/page/view/2026102317530678529",
+      "publisher": "mydaily.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "박소담&middot;고윤정, 서인국과 낮부터 밤까지 데이트&hellip;&quot;갈비뼈 아플 정도&quot;",
+      "published_at": null,
+      "collected_at": "2026-10-23T09:45:34.256963+00:00",
+      "content_hash": "156e4f0555f224ed858bab314405047a7d8d9d73fe29ab5f4dde9138541e48b4",
+      "excerpt": "박소담이 서인국, 고윤정과 함께 보낸 특별한 하루를 공개하며...",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-23T09:45:34.256963+00:00"
+    }
   }
 }

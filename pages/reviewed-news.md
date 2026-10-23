@@ -213,3 +213,4 @@
 - [파리 르 트리아농에서 열린 ‘코코 마드모아젤’ 파티에 참석한 고윤정 화보](https://www.marieclairekorea.com/tag/%EC%BD%94%EC%BD%94-%EB%A7%88%EB%93%9C%EB%AA%A8%EC%95%84%EC%A0%A4-%ED%81%AC%EB%9F%AC%EC%89%AC-%EC%95%95%EC%86%94%EB%A4%BC) · Marie Claire Korea · 내용은 원문 보도 기준
 - [고윤정·허남준, 설원에서 다시 만났다…돌고래유괴단과 두 번째 호흡](https://www.slist.kr/news/articleView.html?idxno=775816) · 싱글리스트 · 내용은 원문 보도 기준
 - [서인국, 생일 전날인데 박소담·고윤정에 플렉스…"털린 사람이 생일이라니" ［★해시태그］](https://www.xportsnews.com/article/2210684) · WORKS · 내용은 원문 보도 기준
+- [박소담&middot;고윤정, 서인국과 낮부터 밤까지 데이트&hellip;&quot;갈비뼈 아플 정도&quot;](https://www.mydaily.co.kr/page/view/2026102317530678529) · 마이데일리 · 내용은 원문 보도 기준
