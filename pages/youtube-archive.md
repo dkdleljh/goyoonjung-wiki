@@ -53,3 +53,5 @@
 - [YouTube/JTBC Drama] [［6회 선공개］ 고윤정을 떠올리며 행복한 상상을 하는 구교환💭 ＜모두가 자신의 무가치함과 싸우고 있다＞ 5/3(일) 밤 10시 30분 방송](https://www.youtube.com/watch?v=qS766SpMI2Q) · 과거 업로드, 게시일 확인 필요
 - [YouTube/JTBC Drama] [Kim Jong-hoon stole Ko Yoon-jung's scenario](https://www.youtube.com/watch?v=w8VbUtmwTrI) · 과거 업로드, 게시일 확인 필요
 - [YouTube/JTBC Drama] [Bae Jong-ok, who heard the cold reality of Ko Yoon-jung, ＂My own daughter.＂](https://www.youtube.com/watch?v=NpMje0IrZXU) · 과거 업로드, 게시일 확인 필요
+- [YouTube/채널십오야] [［🩹3-4화 스페셜 선공개］ 선배 앞에서는 말이 많아지는 고윤정? 티키타카 오구즈(ft.심쿵)✨](https://www.youtube.com/watch?v=PutTzdHSmr0) · 과거 업로드, 게시일 확인 필요
+- [YouTube/채널십오야] [［🩹1-2화 스페셜 선공개］ 고윤정x신시아x강유석x한예지x정준원, OBGY 첫 만남 자기소개 타임⌚](https://www.youtube.com/watch?v=1bdCFMkWlkY) · 과거 업로드, 게시일 확인 필요
