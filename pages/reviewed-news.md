@@ -217,3 +217,4 @@
 - [박소담&middot;고윤정, 서인국과 낮부터 밤까지 데이트&hellip;&quot;갈비뼈 아플 정도&quot;](https://mydaily.co.kr/page/view/2026102317530678529) · 마이데일리 · 내용은 원문 보도 기준
 - [“많이 웃어 갈비뼈 아파”...박소담, 서인국·고윤정과 훈훈한 우정 - 스타투데이](https://www.mk.co.kr/news/hot-issues/12184346) · 매일경제 · 내용은 원문 보도 기준
 - [“I laughed so much my ribs hurt”... Park So-dam shares a heartwarming friendship with Seo In-guk and Go Youn-jung - MK](https://www.mk.co.kr/en/hot-issues/12184346) · EN_ALL · 내용은 원문 보도 기준
+- [「笑いすぎて肋骨が痛い」…パク・ソダム、ソ・イングク&コ・ユンジョンとの温かな友情 - MK](https://www.mk.co.kr/jp/hot-issues/12184346) · JA_ALL · 내용은 원문 보도 기준
