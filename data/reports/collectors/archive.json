@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T00:30:25+09:00",
+  "checked_at": "2026-10-24T00:35:27+09:00",
   "status": "failed",
   "sources": [
     {
@@ -34,9 +34,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-23T23:35:22+09:00",
+      "checked_at": "2026-10-24T00:35:27+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 73
+      "consecutive_failures": 74
     },
     {
       "name": "GQ Korea",
@@ -58,9 +58,9 @@
       "error": "HTTP 404",
       "kind": "http",
       "retryable": false,
-      "checked_at": "2026-10-23T23:35:22+09:00",
+      "checked_at": "2026-10-24T00:35:27+09:00",
       "last_success": "2026-10-18T22:00:30+09:00",
-      "consecutive_failures": 74
+      "consecutive_failures": 75
     },
     {
       "name": "Marie Claire Korea",
@@ -94,9 +94,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-23T23:35:22+09:00",
+      "checked_at": "2026-10-24T00:35:27+09:00",
       "last_success": "2026-10-18T21:45:35+09:00",
-      "consecutive_failures": 72
+      "consecutive_failures": 73
     },
     {
       "name": "Allure Korea",
