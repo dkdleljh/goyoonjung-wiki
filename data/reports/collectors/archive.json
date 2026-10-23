@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T02:55:24+09:00",
+  "checked_at": "2026-10-24T03:05:30+09:00",
   "status": "failed",
   "sources": [
     {
@@ -22,9 +22,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-24T02:05:26+09:00",
+      "checked_at": "2026-10-24T03:05:30+09:00",
       "last_success": "2026-10-18T17:45:24+09:00",
-      "consecutive_failures": 77
+      "consecutive_failures": 78
     },
     {
       "name": "Harper’s BAZAAR Korea",
@@ -46,9 +46,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-24T02:05:26+09:00",
+      "checked_at": "2026-10-24T03:05:30+09:00",
       "last_success": "2026-10-18T14:43:34+09:00",
-      "consecutive_failures": 78
+      "consecutive_failures": 79
     },
     {
       "name": "Vogue Korea",
@@ -106,9 +106,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-24T02:05:26+09:00",
+      "checked_at": "2026-10-24T03:05:30+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 74
+      "consecutive_failures": 75
     },
     {
       "name": "Singles",
