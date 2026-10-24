@@ -219,3 +219,4 @@
 - [“I laughed so much my ribs hurt”... Park So-dam shares a heartwarming friendship with Seo In-guk and Go Youn-jung - MK](https://www.mk.co.kr/en/hot-issues/12184346) · EN_ALL · 내용은 원문 보도 기준
 - [「笑いすぎて肋骨が痛い」…パク・ソダム、ソ・イングク&コ・ユンジョンとの温かな友情 - MK](https://www.mk.co.kr/jp/hot-issues/12184346) · JA_ALL · 내용은 원문 보도 기준
 - [고윤정, 사랑스러운 셀카로 근황…가을 무드 속 화보·광고 행보](https://www.topstarnews.net/news/articleView.html?idxno=16256763) · 톱스타뉴스 · 내용은 원문 보도 기준
+- [고윤정, 흔들려도 여신 미모..10년전 주점 포스터 걸릴 만하네 | 스타뉴스](https://www.starnewskorea.com/star/2026/10/24/2026102421172175498) · 스타뉴스 · 내용은 원문 보도 기준
