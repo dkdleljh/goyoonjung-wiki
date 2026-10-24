@@ -2917,8 +2917,8 @@
   },
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-10-24T07:20:22.460794+00:00",
-    "next_check": "2026-10-24T13:20:22.460794+00:00",
+    "checked_at": "2026-10-24T13:25:26.189913+00:00",
+    "next_check": "2026-10-24T19:25:26.189913+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://v.daum.net/v/20260801063838267": {
@@ -5757,6 +5757,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-10-24T13:10:29.984994+00:00"
+    }
+  },
+  "https://www.starnewskorea.com/ja/star/2026/10/24/2026102421172175498": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-24T13:25:26.189913+00:00",
+    "first_seen_at": "2026-10-24 13:20:23",
+    "next_check": "2026-10-31T13:25:26.189913+00:00",
+    "metadata": {
+      "id": "9cef72b80738838a37eaa56d",
+      "url": "https://www.starnewskorea.com/ja/star/2026/10/24/2026102421172175498",
+      "publisher": "starnewskorea.com",
+      "category": "news",
+      "first_party": false,
+      "title": "コ・ユンジョン、揺らいでも女神の美貌..10年前の居酒屋のポスターに引っかかってもおかしくないな | STARNEWS",
+      "published_at": "2026-10-24T22:06:04+09:00",
+      "collected_at": "2026-10-24T13:25:26.514770+00:00",
+      "content_hash": "1ce6ac7f23a30fce41143c191db799e2eadea3aaedc11d2931b803d4f259affd",
+      "excerpt": "俳優のコ·ユンジョンが格別な美貌を誇った。コ·ユンジョンは24日、自分の個人アカウントにシャネルのアンバサダーで撮った写真を数枚掲載した。公開された写真の中のコ·ユンジョンは、少し揺れた写真の中でもはっきりとした目鼻立ちを誇る。 どんな表情とポーズでも完璧な美貌を見せている。最近、コ·ユンジョンのデビュー前の大学時代の",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": "Sat, 24 Oct 2026 13:10:56 GMT",
+      "first_seen": "2026-10-24T13:25:26.514770+00:00"
     }
   }
 }
