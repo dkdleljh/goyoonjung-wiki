@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T22:35:26+09:00",
+  "checked_at": "2026-10-24T22:55:27+09:00",
   "status": "failed",
   "sources": [
     {
@@ -106,9 +106,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-24T21:55:24+09:00",
+      "checked_at": "2026-10-24T22:55:27+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 86
+      "consecutive_failures": 87
     },
     {
       "name": "Singles",
