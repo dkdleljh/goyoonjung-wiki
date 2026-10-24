@@ -221,3 +221,4 @@
 - [고윤정, 사랑스러운 셀카로 근황…가을 무드 속 화보·광고 행보](https://www.topstarnews.net/news/articleView.html?idxno=16256763) · 톱스타뉴스 · 내용은 원문 보도 기준
 - [고윤정, 흔들려도 여신 미모..10년전 주점 포스터 걸릴 만하네 | 스타뉴스](https://www.starnewskorea.com/star/2026/10/24/2026102421172175498) · 스타뉴스 · 내용은 원문 보도 기준
 - [コ・ユンジョン、揺らいでも女神の美貌..10年前の居酒屋のポスターに引っかかってもおかしくないな | STARNEWS](https://www.starnewskorea.com/ja/star/2026/10/24/2026102421172175498) · JA_ALL · 내용은 원문 보도 기준
+- [고윤정, 우아한 트위드룩…깜찍한 볼 빵빵 애교 ［N샷］](https://www.news1.kr/entertain/celebrity-topic/6330808) · 뉴스1 · 내용은 원문 보도 기준
