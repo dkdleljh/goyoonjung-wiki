@@ -72,12 +72,13 @@
     "matched": 0
   },
   "JTBC Drama": {
-    "checked_at": "2026-10-24T01:45:22.354945+00:00",
+    "checked_at": "2026-10-24T13:45:21.266018+00:00",
     "next_item": 1201,
-    "status": "in_progress",
+    "status": "retry_pending",
     "last_batch_size": 100,
-    "next_scan": "2026-10-24T01:45:22.354945+00:00",
-    "matched": 63
+    "next_scan": "2026-10-24T14:45:21.266018+00:00",
+    "matched": 63,
+    "error": "ERROR: YouTube said: The playlist does not exist."
   },
   "TVING": {
     "checked_at": "2026-10-24T02:45:24.153999+00:00",
