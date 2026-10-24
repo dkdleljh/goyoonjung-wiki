@@ -361,8 +361,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-10-24T16:50:24.219636+00:00",
-    "next_check": "2026-10-24T22:50:24.219636+00:00",
+    "checked_at": "2026-10-24T23:00:25.209098+00:00",
+    "next_check": "2026-10-25T05:00:25.209098+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://www.tenasia.co.kr/article/2026092803714": {
@@ -559,8 +559,8 @@
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-10-24T16:50:24.219636+00:00",
-    "next_check": "2026-10-24T22:50:24.219636+00:00",
+    "checked_at": "2026-10-24T23:00:25.209098+00:00",
+    "next_check": "2026-10-25T05:00:25.209098+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA": {
@@ -4543,14 +4543,14 @@
   },
   "https://mk.co.kr/amp/12179279": {
     "status": "retry_pending",
-    "checked_at": "2026-10-24T16:50:24.219636+00:00",
-    "next_check": "2026-10-24T22:50:24.219636+00:00",
+    "checked_at": "2026-10-24T23:00:25.209098+00:00",
+    "next_check": "2026-10-25T05:00:25.209098+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179279"
   },
   "https://mk.co.kr/amp/12179236": {
     "status": "retry_pending",
-    "checked_at": "2026-10-24T16:50:24.219636+00:00",
-    "next_check": "2026-10-24T22:50:24.219636+00:00",
+    "checked_at": "2026-10-24T23:00:25.209098+00:00",
+    "next_check": "2026-10-25T05:00:25.209098+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179236"
   },
   "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014010": {
@@ -5275,8 +5275,8 @@
   },
   "https://mk.co.kr/amp/12180324": {
     "status": "retry_pending",
-    "checked_at": "2026-10-24T16:50:24.219636+00:00",
-    "next_check": "2026-10-24T22:50:24.219636+00:00",
+    "checked_at": "2026-10-24T23:00:25.209098+00:00",
+    "next_check": "2026-10-25T05:00:25.209098+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12180324"
   },
   "https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115": {
@@ -5805,6 +5805,30 @@
       "etag": "\"itml3lyvvu20cf\"",
       "last_modified": null,
       "first_seen": "2026-10-24T19:00:23.075798+00:00"
+    }
+  },
+  "https://www.sportsseoul.com/news/read/1643814": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-24T23:00:25.209098+00:00",
+    "first_seen_at": "2026-10-24 22:50:10",
+    "next_check": "2026-10-31T23:00:25.209098+00:00",
+    "metadata": {
+      "id": "460de09002479f0ebd143515",
+      "url": "https://www.sportsseoul.com/news/read/1643814",
+      "publisher": "sportsseoul.com",
+      "category": "news",
+      "first_party": false,
+      "title": "“같은 고윤정 맞아?” 10년전 미대 시절 재소환…최근 SNS와 나란히 보니",
+      "published_at": "2026-10-25T07:40:00+09:00",
+      "collected_at": "2026-10-24T23:00:25.703873+00:00",
+      "content_hash": "e6fdf9fb5af67fb66afd2d24245ba3be2d1b6c132fdeb55d37059f7601384fa8",
+      "excerpt": "[스포츠서울 | 배우근 기자] 같은 사람인데 분위기는 사뭇 다르다. 배우 고윤정이 최근 SNS에 공개한 사진이 화제를 모으면서 약 10년 전 미대생 시절 모습까지 다시 소환되고 있다. 최근 사진 속 고윤정은 또렷한 이목구비와 날렵한 얼굴선이 먼저 눈에 들어온다. 반면 서울여대 현대미",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-24T23:00:25.703873+00:00"
     }
   }
 }
