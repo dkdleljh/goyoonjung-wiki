@@ -228,3 +228,4 @@
 - [장난기 가득한 볼빵빵…고윤정, ‘얼굴은 큐티 패션은 럭셔리’](https://www.sportsworldi.com/newsView/20261025503951) · 스포츠월드 · 내용은 원문 보도 기준
 - [고윤정, 명품 샤넬 입고 볼 빵빵 애교&hellip;명품보다 빛나는 미모 ［IS하이컷］ - 일간스포츠](https://isplus.com/article/view/isp202610250090) · VODANA · 내용은 원문 보도 기준
 - [고윤정, 감탄 부르는 명품 비주얼…'인간 샤넬' 만든 러닝 효과는](https://www.newsis.com/view/NISX20261025_0003840117) · 뉴시스 · 내용은 원문 보도 기준
+- [コ・ユンジョン、優雅なツイードルック···かわいいぷくぷくほっぺの愛嬌 ［Nショット］ - スポータルコリア](https://jp.sportalkorea.com/news/articleView.html?idxno=41521) · JA_ALL · 내용은 원문 보도 기준
