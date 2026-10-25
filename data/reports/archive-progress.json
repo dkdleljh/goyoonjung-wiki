@@ -36,8 +36,8 @@
   },
   "Harper’s BAZAAR Korea": {
     "page": 8,
-    "checked_at": "2026-10-25T11:00:21.238002+00:00",
-    "next_scan": "2026-10-25T12:00:21.238002+00:00",
+    "checked_at": "2026-10-25T12:00:25.987674+00:00",
+    "next_scan": "2026-10-25T13:00:25.987674+00:00",
     "status": "retry_pending",
     "fingerprints": [
       "b8f39340d35ff44fbf7eb99034c0a5bfc43c781860614bd198672c4da2473af7",
@@ -159,13 +159,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Singles": {
-    "page": 2,
-    "checked_at": "2026-10-25T11:00:21.238002+00:00",
-    "next_scan": "2026-10-25T11:00:21.238002+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62"
-    ],
+    "page": 1,
+    "checked_at": "2026-10-25T12:00:25.987674+00:00",
+    "next_scan": "2026-11-01T12:00:25.987674+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [
       2024,
@@ -174,13 +172,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Arena": {
-    "page": 2,
-    "checked_at": "2026-10-25T11:00:21.238002+00:00",
-    "next_scan": "2026-10-25T11:00:21.238002+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "374f029a1602723d206618049690c6f1517af88edaf1f6f9f5d40c413d8dd7b7"
-    ],
+    "page": 1,
+    "checked_at": "2026-10-25T12:00:25.987674+00:00",
+    "next_scan": "2026-11-01T12:00:25.987674+00:00",
+    "status": "pagination_repeated",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"

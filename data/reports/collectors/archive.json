@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T20:40:30+09:00",
+  "checked_at": "2026-10-25T21:00:27+09:00",
   "status": "failed",
   "sources": [
     {
@@ -34,9 +34,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-25T20:00:23+09:00",
+      "checked_at": "2026-10-25T21:00:27+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 103
+      "consecutive_failures": 104
     },
     {
       "name": "GQ Korea",
@@ -113,29 +113,29 @@
     {
       "name": "Singles",
       "url": "https://www.singleskorea.com/api/article-search",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
-      "fetched": 6,
-      "matched": 2,
+      "fetched": 0,
+      "matched": 0,
       "warnings": [],
-      "page": 1,
-      "page_fingerprint": "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62",
-      "checked_at": "2026-10-25T20:00:23+09:00",
-      "last_success": "2026-10-25T20:00:23+09:00",
+      "page": 2,
+      "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checked_at": "2026-10-25T21:00:27+09:00",
+      "last_success": "2026-10-25T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Arena",
       "url": "https://www.arenakorea.com/rss/allArticle.xml",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
       "fetched": 50,
       "matched": 0,
       "warnings": [],
-      "page": 1,
+      "page": 2,
       "page_fingerprint": "374f029a1602723d206618049690c6f1517af88edaf1f6f9f5d40c413d8dd7b7",
-      "checked_at": "2026-10-25T20:00:23+09:00",
-      "last_success": "2026-10-25T20:00:23+09:00",
+      "checked_at": "2026-10-25T21:00:27+09:00",
+      "last_success": "2026-10-25T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
