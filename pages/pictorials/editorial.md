@@ -1680,3 +1680,11 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/1911558
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/1911558
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Cosmopolitan Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 옥반지가 이렇게 힙하다고?고윤정·뷔가 선택한 액세서리의 정체
+- 링크(원문): https://www.cosmopolitan.co.kr/article/1911848
+- 상태: 원문 메타데이터 수집
+- id: https://www.cosmopolitan.co.kr/article/1911848

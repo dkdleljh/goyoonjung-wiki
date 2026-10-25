@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-26 00:03 (Asia/Seoul)
+> Updated: 2026-10-26 06:03 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1897
+- total_urls: 1900
 - S: 249
-- A: 884
+- A: 887
 - B: 379
 - BLOCK: 385
 
@@ -21,7 +21,7 @@
 | maa.co.kr | 72 | BLOCK:72 |
 | vogue.co.kr | 67 | A:67 |
 | youtu.be | 64 | B:64 |
-| cosmopolitan.co.kr | 60 | A:60 |
+| cosmopolitan.co.kr | 61 | A:61 |
 | wkorea.com | 49 | A:49 |
 | mk.co.kr | 39 | A:39 |
 | starnewskorea.com | 30 | A:30 |
