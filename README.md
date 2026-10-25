@@ -2,7 +2,7 @@
 
 ![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.138.4-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-21-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-10-23
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-10-25
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `3234b82e2` |
+| 최신 커밋 | `13b3fd137` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,21 +63,21 @@
   - 로컬 노트: `logs/releases/release-notes-v1.138.2.md`
 
 ## 최근 변경 요약
-- [`3234b82e2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3234b82e2) — docs: sync collected wiki content for website
-- [`bacdfe0ce`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bacdfe0ce) — docs: sync collected wiki content for website
-- [`ecf5079cb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ecf5079cb) — docs: sync collected wiki content for website
-- [`1bccd01c4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/1bccd01c4) — docs: sync collected wiki content for website
-- [`d12e9249a`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d12e9249a) — docs: sync collected wiki content for website
+- [`13b3fd137`](https://github.com/dkdleljh/goyoonjung-wiki/commit/13b3fd137) — docs: sync collected wiki content for website
+- [`509e623fc`](https://github.com/dkdleljh/goyoonjung-wiki/commit/509e623fc) — docs: sync collected wiki content for website
+- [`204e0dd88`](https://github.com/dkdleljh/goyoonjung-wiki/commit/204e0dd88) — docs: sync collected wiki content for website
+- [`2cfb0f9f7`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2cfb0f9f7) — docs: sync collected wiki content for website
+- [`2341a84e0`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2341a84e0) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
 - `data/facts/awards.json`
 - `data/facts/evidence.json`
 - `data/facts/profile.json`
 - `data/facts/works.json`
-- `data/reports/collectors/magazines.json`
 - `data/reports/collectors/official-live.json`
 - `data/reports/collectors/youtube.json`
 - `data/reports/fast-task-state.json`
+- `data/reports/heartbeat.json`
 
 ## 자주 쓰는 명령
 ```bash

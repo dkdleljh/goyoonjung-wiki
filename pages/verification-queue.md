@@ -2,7 +2,7 @@
 
 > 목적: 공식 근거 확인이 필요한 항목을 우선순위로 처리하기 위한 큐
 
-- total_items: 182
+- total_items: 236
 
 ## Items
 - [pages/appearances.md:157] - 날짜: (페이지 내 표기 확인 필요)
@@ -187,3 +187,57 @@
 - [pages/youtube-archive.md:23] - [YouTube/JTBC Drama] [＂Stepmom＂ that only Ko Yoon-jung and Han Seon-hwa sympathize with](https://www.youtube.com/watch?v=qQSpVs5Tb2k) · 과거 업로드, 게시일 확인 필요
 - [pages/youtube-archive.md:24] - [YouTube/JTBC Drama] [Ko Yoon-jung's koo kyohwan💗](https://www.youtube.com/watch?v=css4M9GxGeA) · 과거 업로드, 게시일 확인 필요
 - [pages/youtube-archive.md:25] - [YouTube/JTBC Drama] [［스페셜］ ✨나야, 영실이✨ 천재 작가 정체 밝히며 최원영에게 한방 먹인 고윤정ㅋㅋ | 모두가 자신의 무가치함과 싸우고 있다 | JTBC 260517 방송](https://www.youtube.com/watch?v=11YXtV70g8s) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:26] - [YouTube/JTBC Drama] [Ko Yoon-jung who identifies Choi Won-young 🔥](https://www.youtube.com/watch?v=YJhhJTNwBTk) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:27] - [YouTube/JTBC Drama] [Bae Jong-ok's provocation after learning that Ko Yoon-jung is ＂Yeongsil.＂](https://www.youtube.com/watch?v=am27jwyVBCY) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:28] - [YouTube/JTBC Drama] [Koo Kyohwan, who wants to spread Ko Yoon-jung's abilities around the world](https://www.youtube.com/watch?v=HsoYHgBUAwM) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:29] - [YouTube/JTBC Drama] [［10회 선공개］ 배종옥 친딸을 궁금해하는 한선화에 마음 복잡한 고윤정 ＜모두가 자신의 무가치함과 싸우고 있다＞ 5/17(일) 밤 10시 30분](https://www.youtube.com/watch?v=bCAzCQaHwW0) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:30] - [YouTube/JTBC Drama] [Ko Yoon-jung found out why Koo Kyohwan used a private loan](https://www.youtube.com/watch?v=4QY71LjDSng) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:31] - [YouTube/JTBC Drama] [Ko Yoon-jung and Han Seon-hwa were feeling the same. 😢](https://www.youtube.com/watch?v=NTnkatyVlTg) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:32] - [YouTube/JTBC Drama] [Han Seon-hwa who tells Ko Yoon-jung what she thinks 💭](https://www.youtube.com/watch?v=NVwgTHS6vaY) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:33] - [YouTube/JTBC Drama] [Koo Kyohwan, who takes a step forward from ＂fear＂ at Ko Yoon-jung's words](https://www.youtube.com/watch?v=Fm2MtS1ujfY) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:34] - [YouTube/JTBC Drama] [Koo Kyohwan delivers his acceptance speech in front of Ko Yoon-jung](https://www.youtube.com/watch?v=Iy83Rs0XkYE) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:35] - [YouTube/JTBC Drama] [Ko Yoon-jung who first reached out to Koo Kyohwan who hurt her 🥺](https://www.youtube.com/watch?v=o0tbRi7zR4c) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:36] - [YouTube/JTBC Drama] [Koo Kyo-hwan gets a nosebleed again at Go Yoon-jung's resentment 🩸 | Everyone Is Fighting Their O...](https://www.youtube.com/watch?v=NcnuXATdhiw) · 과거 업로드,
+- [pages/youtube-archive.md:37] - [YouTube/JTBC Drama] [Ko Yoon-jung who doesn't hold back at Bae Jong-ok 🔥](https://www.youtube.com/watch?v=ntAISTBONKE) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:38] - [YouTube/JTBC Drama] [［출동 엔딩］ 고윤정의 도와달라는 문자에 바로 달려가는 구교환💨 | 모두가 자신의 무가치함과 싸우고 있다 7회 | JTBC 260509 방송](https://www.youtube.com/watch?v=emVimcwPd0g) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:39] - [YouTube/JTBC Drama] [Go Youn-jung warns Bae Jong-ok, who tries to compensate for the past with money⚡ | Everyone is fi...](https://www.youtube.com/watch?v=kLmSBQi_lJs) · 과거 업로드,
+- [pages/youtube-archive.md:40] - [YouTube/JTBC Drama] [Ko Yoon-jung, who gives a blow to Bae Jong-ok who left her behind 💥](https://www.youtube.com/watch?v=jhCBBDp3BIo) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:41] - [YouTube/JTBC Drama] [Go Yoon-jung Suspects Bae Jong-ok After Choi Won-young Tells Her to Stay Out of the Movie | Every...](https://www.youtube.com/watch?v=4MiwW5e8Zzw) · 과거 업로드,
+- [pages/youtube-archive.md:42] - [YouTube/JTBC Drama] [Ko Yoon-jung and Han Seon-hwa express their inner feelings while drinking 💭](https://www.youtube.com/watch?v=b1R8XErxUGM) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:43] - [YouTube/JTBC Drama] [Go Yoon-jung freezes upon accidentally running into Bae Jong-ok 😥 | Everyone Is Fighting Their Wo...](https://www.youtube.com/watch?v=jLzNe79SXuw) · 과거 업로드,
+- [pages/youtube-archive.md:44] - [YouTube/JTBC Drama] [Ko Yoon-jung's words that melted the old game 💕](https://www.youtube.com/watch?v=KixLO_UI_Es) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:45] - [YouTube/JTBC Drama] [Koo Kyohwan and Go Yoon-jung who share their wounds with each other ❤️🩹](https://www.youtube.com/watch?v=7O_WjqTiiaI) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:46] - [YouTube/JTBC Drama] [Go Yoon-jung Decides to Use 'Young-sil' as a Pen Name ✍️ | Everyone Is Fighting Their Worthlessne...](https://www.youtube.com/watch?v=hUpgREsUGdI) · 과거 업로드,
+- [pages/youtube-archive.md:47] - [YouTube/JTBC Drama] [Go Yoon-jung has the vibe of a cold, handsome male lead💘](https://www.youtube.com/watch?v=H-c5AhqWKDA) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:48] - [YouTube/JTBC Drama] [Koo Kyo-hwan goes to find the ex-boyfriend who stole Go Yoon-jung's script](https://www.youtube.com/watch?v=aYJWlEuK3cM) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:49] - [YouTube/JTBC Drama] [Koo Kyohwan and Ko Yoon-jung became each other's resting place](https://www.youtube.com/watch?v=JJBZ-rGbY74) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:50] - [YouTube/JTBC Drama] [Ko Yoon-jung warns Bae Jong-ok, the 'my mother' who left me behind](https://www.youtube.com/watch?v=aIzJdyMZlfo) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:51] - [YouTube/JTBC Drama] [Ko Yoon-jung gave a fact bomb to Han Sun-hwa who rejected the scenario. 💥](https://www.youtube.com/watch?v=3rJC9ig0d3k) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:52] - [YouTube/JTBC Drama] [Ko Yoon-jung's answer to Park Hae-joon's question](https://www.youtube.com/watch?v=b17xnxHBFCI) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:53] - [YouTube/JTBC Drama] [［6회 선공개］ 고윤정을 떠올리며 행복한 상상을 하는 구교환💭 ＜모두가 자신의 무가치함과 싸우고 있다＞ 5/3(일) 밤 10시 30분 방송](https://www.youtube.com/watch?v=qS766SpMI2Q) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:54] - [YouTube/JTBC Drama] [Kim Jong-hoon stole Ko Yoon-jung's scenario](https://www.youtube.com/watch?v=w8VbUtmwTrI) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:55] - [YouTube/JTBC Drama] [Bae Jong-ok, who heard the cold reality of Ko Yoon-jung, ＂My own daughter.＂](https://www.youtube.com/watch?v=NpMje0IrZXU) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:56] - [YouTube/채널십오야] [［🩹3-4화 스페셜 선공개］ 선배 앞에서는 말이 많아지는 고윤정? 티키타카 오구즈(ft.심쿵)✨](https://www.youtube.com/watch?v=PutTzdHSmr0) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:57] - [YouTube/채널십오야] [［🩹1-2화 스페셜 선공개］ 고윤정x신시아x강유석x한예지x정준원, OBGY 첫 만남 자기소개 타임⌚](https://www.youtube.com/watch?v=1bdCFMkWlkY) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:58] - [YouTube/JTBC Drama] ['The Criminal Who Broke the Window' Go Yoon-jung's Absurd Reason(?) 😮 | Everyone Is Fighting Thei...](https://www.youtube.com/watch?v=gBiZSaPGeEE) · 과거 업로드,
+- [pages/youtube-archive.md:59] - [YouTube/JTBC Drama] [［Episodes 3-4 Highlights］ Countless words to overcome anxiety💥 Go Yoon-jung recognizing Koo Kyo-h...](https://www.youtube.com/watch?v=M36PZnd0DsI) · 과거 업로드,
+- [pages/youtube-archive.md:60] - [YouTube/JTBC Drama] [［Heart-fluttering Ending］ 'That Question' Koo Kyo-hwan feared💦 Heart pounding at Go Yoon-jung's a...](https://www.youtube.com/watch?v=xU7FItZi0S0) · 과거 업로드,
+- [pages/youtube-archive.md:61] - [YouTube/JTBC Drama] [🔥I Won't Hold Back🔥 Go Yoon-jung's Refreshing Counterattack Against the Old-Fashioned Representat...](https://www.youtube.com/watch?v=51032sLgOIQ) · 과거 업로드,
+- [pages/youtube-archive.md:62] - [YouTube/JTBC Drama] [A warm word of exchange for consoling Ko Yoon-jung who is sobbing. 💬](https://www.youtube.com/watch?v=NLS0Jfy0zAw) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:63] - [YouTube/JTBC Drama] [The revealed past... Ko Yoon-jung, who was abandoned by Bae Jong-ok 💧](https://www.youtube.com/watch?v=ySOH6nkVedk) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:64] - [YouTube/JTBC Drama] [Old exchange of feeling the same as Ko Yoon-jung 😮](https://www.youtube.com/watch?v=99aYK4ZLd0M) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:65] - [YouTube/JTBC Drama] [［스페셜］ 초록불을 밝혀주는 쌍방 구원 서사...🔥 구교환X고윤정 감정워치 스페셜💚 | 모두가 자신의 무가치함과 싸우고 있다 | JTBC 260425 방송](https://www.youtube.com/watch?v=saTuQ4dI75g) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:66] - [YouTube/JTBC Drama] [［걱정 엔딩］ 고윤정을 진심으로 걱정한(!) 구교환😲 홀가분한 한마디 외침🙌   | 모두가 자신의 무가치함과 싸우고 있다 3회 | JTBC 260425 방송](https://www.youtube.com/watch?v=NxaV6tOxm-U) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:67] - [YouTube/JTBC Drama] ['Mom' Marks an X❌ on Go Yoon-jung for the First Time | Everyone Is Fighting Their Own Worthlessne...](https://www.youtube.com/watch?v=VPUpJUREAo8) · 과거 업로드,
+- [pages/youtube-archive.md:68] - [YouTube/JTBC Drama] ["Is it Hwang Dong-man this time?" Go Yoon-jung enraged by ex-boyfriend's dismissive remark...🔥 | ...](https://www.youtube.com/watch?v=qOIp6glzClA) · 과거 업로드,
+- [pages/youtube-archive.md:69] - [YouTube/JTBC Drama] [Emotional Watch at Ko Yoon-jung's word. 💚](https://www.youtube.com/watch?v=CwXikVNHUsw) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:70] - [YouTube/JTBC Drama] [［3회 선공개］ 작은 성공(!)의 기쁨을 나누는 구교환과 고윤정💨＜모두가 자신의 무가치함과 싸우고 있다＞ 4/25(토) 밤 10시 40분 방송](https://www.youtube.com/watch?v=bxA0Lmbh4yk) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:71] - [YouTube/JTBC Drama] [［도약 엔딩］ 우울했던 구교환이 간절히 원했던 날씨☀️ 그리고 그보다 아름다운 고윤정✨ | 모두가 자신의 무가치함과 싸우고 있다 2회 | JTBC 260419 방송](https://www.youtube.com/watch?v=mtju953Euec) · 과거 업로드, 게시일 확인 필
+- [pages/youtube-archive.md:72] - [YouTube/JTBC Drama] [It affects others too?! Go Yoon-jung, who possesses the power of a strong mind 💥 | Everyone Is Fi...](https://www.youtube.com/watch?v=IyQONxh7Ix8) · 과거 업로드,
+- [pages/youtube-archive.md:73] - [YouTube/JTBC Drama] ["If You Have Someone You Love..." Go Yoon-jung Talks About 'Power' | Everyone Is Fighting Their O...](https://www.youtube.com/watch?v=vlfRk9RquNs) · 과거 업로드,
+- [pages/youtube-archive.md:74] - [YouTube/JTBC Drama] [Go Yoon-jung's dazzling past contrasting with her present☀️ | Everyone Is Fighting Their Own Wort...](https://www.youtube.com/watch?v=MLhOuwjcrmo) · 과거 업로드,
+- [pages/youtube-archive.md:75] - [YouTube/JTBC Drama] [스트레스 만땅💦 자신에 대한 뒷얘기를 들은 고윤정 | 모두가 자신의 무가치함과 싸우고 있다 2회 | JTBC 260419 방송](https://www.youtube.com/watch?v=Ie15Ko8hdX0) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:76] - [YouTube/JTBC Drama] ["I was terrified," Go Yoon-jung is the only one who understands Koo Kyo-hwan's heart | Everyone I...](https://www.youtube.com/watch?v=fy7s0TOHR-E) · 과거 업로드,
+- [pages/youtube-archive.md:77] - [YouTube/JTBC Drama] [Ko Yoon-jung listens to the old exchange that everyone avoided](https://www.youtube.com/watch?v=ZyYdAJDrfGs) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:78] - [YouTube/JTBC Drama] [Ko Yoon-jung, who is uncomfortable with Koo Kyohwan backstabbing](https://www.youtube.com/watch?v=ETZbmmJZy0o) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:79] - [YouTube/JTBC Drama] [［1회 선공개］ 구교환의 대본을 신랄하게 비판하는 고윤정🔥 ＜모두가 자신의 무가치함과 싸우고 있다＞ 4/18 (토) 밤 10시 40분 방송](https://www.youtube.com/watch?v=D4ts-w2SSoc) · 과거 업로드, 게시일 확인 필요

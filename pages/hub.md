@@ -1,6 +1,6 @@
 # 🧭 고윤정 위키 허브
 
-> 자동 생성 허브 · 마지막 갱신: 2026-10-23
+> 자동 생성 허브 · 마지막 갱신: 2026-10-25
 
 ## 운영/문서 링크
 - [프로젝트 README](../README.md)
@@ -14,7 +14,7 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `3234b82e2` |
+| 최신 커밋 | `13b3fd137` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -42,7 +42,7 @@
 - `data/facts/evidence.json`
 - `data/facts/profile.json`
 - `data/facts/works.json`
-- `data/reports/collectors/magazines.json`
+- `data/reports/collectors/official-live.json`
 
 ## 운영 핵심 페이지
 - [`pages/awards-official-watch.md`](awards-official-watch.md)

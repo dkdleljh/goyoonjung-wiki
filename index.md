@@ -1,6 +1,6 @@
 # 고윤정 위키 인덱스
 
-> 자동 생성 인덱스 · 마지막 갱신: 2026-10-23
+> 자동 생성 인덱스 · 마지막 갱신: 2026-10-25
 
 ## 바로 가기
 - [README.md](README.md)
@@ -17,18 +17,18 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
-- [`3234b82e2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3234b82e2) — docs: sync collected wiki content for website
-- [`bacdfe0ce`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bacdfe0ce) — docs: sync collected wiki content for website
-- [`ecf5079cb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ecf5079cb) — docs: sync collected wiki content for website
-- [`1bccd01c4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/1bccd01c4) — docs: sync collected wiki content for website
-- [`d12e9249a`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d12e9249a) — docs: sync collected wiki content for website
+- [`13b3fd137`](https://github.com/dkdleljh/goyoonjung-wiki/commit/13b3fd137) — docs: sync collected wiki content for website
+- [`509e623fc`](https://github.com/dkdleljh/goyoonjung-wiki/commit/509e623fc) — docs: sync collected wiki content for website
+- [`204e0dd88`](https://github.com/dkdleljh/goyoonjung-wiki/commit/204e0dd88) — docs: sync collected wiki content for website
+- [`2cfb0f9f7`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2cfb0f9f7) — docs: sync collected wiki content for website
+- [`2341a84e0`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2341a84e0) — docs: sync collected wiki content for website
 
 ## 직전 변경 파일
 - `data/facts/awards.json`
 - `data/facts/evidence.json`
 - `data/facts/profile.json`
 - `data/facts/works.json`
-- `data/reports/collectors/magazines.json`
 - `data/reports/collectors/official-live.json`
 - `data/reports/collectors/youtube.json`
 - `data/reports/fast-task-state.json`
+- `data/reports/heartbeat.json`
