@@ -5998,5 +5998,29 @@
       "last_modified": null,
       "first_seen": "2026-10-25T12:30:22.017899+00:00"
     }
+  },
+  "https://nwww.newsis.com/view/NISX20261025_0003840117": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-25T16:25:20.059931+00:00",
+    "first_seen_at": "2026-10-25 16:20:24",
+    "next_check": "2026-11-01T16:25:20.059931+00:00",
+    "metadata": {
+      "id": "f910f7955c7ec2e90fdddbf3",
+      "url": "https://nwww.newsis.com/view/NISX20261025_0003840117",
+      "publisher": "nwww.newsis.com",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정, 감탄 부르는 명품 비주얼…'인간 샤넬' 만든 러닝 효과는",
+      "published_at": "2026-10-25T19:51:00+09:00",
+      "collected_at": "2026-10-25T16:25:20.484986+00:00",
+      "content_hash": "e8541198b839418a323947149513c70b8d5b54d584e3f9e6e83f5a2b45f0fdc8",
+      "excerpt": "배우 고윤정이 독보적인 아우라로 세련된 명품 스타일링을 완벽히 소화했다. 24일 고윤정은 자신의 사회관계망서비스(SNS)에 샤넬 공식 계정을 태그하고 \"#CHANELFallWinter\"라는 글과 함께 여러 장의 사진을 올렸다.",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-25T16:25:20.484986+00:00"
+    }
   }
 }
