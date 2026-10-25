@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T05:35:30+09:00",
+  "checked_at": "2026-10-26T05:55:22+09:00",
   "status": "failed",
   "sources": [
     {
@@ -146,9 +146,9 @@
       "error": "Invalid RSS XML: not well-formed (invalid token): line 608, column 94",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-26T04:55:20+09:00",
+      "checked_at": "2026-10-26T05:55:22+09:00",
       "last_success": "2026-10-22T17:35:26+09:00",
-      "consecutive_failures": 54
+      "consecutive_failures": 55
     }
   ]
 }
