@@ -1681,6 +1681,20 @@
   },
   {
     "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=who8o9OBcvA",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
+    "url": "https://www.youtube.com/watch?v=FTLSeA0V0O4",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/candidate-pool.md",
     "url": "https://www.youtube.com/watch?v=HtFE5yr27mQ",
     "host": "youtube.com",
     "grade": "B",
@@ -3410,13 +3424,6 @@
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://mk.co.kr/amp/12179279",
-    "host": "mk.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
     "url": "https://mk.co.kr/amp/12180324",
     "host": "mk.co.kr",
     "grade": "A",
@@ -3431,66 +3438,10 @@
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFL1sCAksD6_7JIZwwHcwjQ",
-    "host": "youtube.com",
-    "grade": "B",
-    "lane": "pool"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.disneypluskr.com/",
-    "host": "disneypluskr.com",
-    "grade": "S",
-    "lane": "landed"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.easytomorrow.co.kr/",
-    "host": "easytomorrow.co.kr",
-    "grade": "BLOCK",
-    "lane": "discard"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.yna.co.kr/entertainment",
-    "host": "yna.co.kr",
+    "url": "https://mk.co.kr/amp/12179279",
+    "host": "mk.co.kr",
     "grade": "A",
     "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://maa.co.kr/",
-    "host": "maa.co.kr",
-    "grade": "BLOCK",
-    "lane": "discard"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.wkorea.com/wp-admin/admin-ajax.php",
-    "host": "wkorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.gqkorea.co.kr/wp-admin/admin-ajax.php",
-    "host": "gqkorea.co.kr",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.allurekorea.com/wp-admin/admin-ajax.php",
-    "host": "allurekorea.com",
-    "grade": "A",
-    "lane": "queue"
-  },
-  {
-    "page": "pages/link-health.md",
-    "url": "https://www.armanibeauty.com/",
-    "host": "armanibeauty.com",
-    "grade": "BLOCK",
-    "lane": "discard"
   },
   {
     "page": "pages/link-health.md",
@@ -3501,15 +3452,15 @@
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792",
-    "host": "m.koreanfilm.or.kr",
-    "grade": "BLOCK",
-    "lane": "discard"
+    "url": "https://www.yna.co.kr/entertainment",
+    "host": "yna.co.kr",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.goodal.com/",
-    "host": "goodal.com",
+    "url": "https://www.vodana.co.kr/",
+    "host": "vodana.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -3522,17 +3473,31 @@
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.lensme.co.kr/",
-    "host": "lensme.co.kr",
+    "url": "https://www.allurekorea.com/wp-admin/admin-ajax.php",
+    "host": "allurekorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.goodal.com/",
+    "host": "goodal.com",
     "grade": "BLOCK",
     "lane": "discard"
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://maa.co.kr/artists/go-younjung",
-    "host": "maa.co.kr",
+    "url": "https://m.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20211792",
+    "host": "m.koreanfilm.or.kr",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.disneypluskr.com/",
+    "host": "disneypluskr.com",
+    "grade": "S",
+    "lane": "landed"
   },
   {
     "page": "pages/link-health.md",
@@ -3540,6 +3505,41 @@
     "host": "boucheron.com",
     "grade": "BLOCK",
     "lane": "discard"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.wkorea.com/wp-admin/admin-ajax.php",
+    "host": "wkorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.lensme.co.kr/",
+    "host": "lensme.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.easytomorrow.co.kr/",
+    "host": "easytomorrow.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://maa.co.kr/",
+    "host": "maa.co.kr",
+    "grade": "BLOCK",
+    "lane": "discard"
+  },
+  {
+    "page": "pages/link-health.md",
+    "url": "https://www.gqkorea.co.kr/wp-admin/admin-ajax.php",
+    "host": "gqkorea.co.kr",
+    "grade": "A",
+    "lane": "queue"
   },
   {
     "page": "pages/link-health.md",
@@ -3557,15 +3557,15 @@
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A",
-    "host": "youtube.com",
-    "grade": "B",
-    "lane": "pool"
+    "url": "https://www.armanibeauty.com/",
+    "host": "armanibeauty.com",
+    "grade": "BLOCK",
+    "lane": "discard"
   },
   {
     "page": "pages/link-health.md",
-    "url": "https://www.vodana.co.kr/",
-    "host": "vodana.co.kr",
+    "url": "https://maa.co.kr/artists/go-younjung",
+    "host": "maa.co.kr",
     "grade": "BLOCK",
     "lane": "discard"
   },
@@ -10297,6 +10297,27 @@
     "lane": "queue"
   },
   {
+    "page": "pages/reviewed-news.md",
+    "url": "https://isplus.com/article/view/isp202610250090",
+    "host": "isplus.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://www.newsis.com/view/NISX20261025_0003840117",
+    "host": "newsis.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
+    "page": "pages/reviewed-news.md",
+    "url": "https://jp.sportalkorea.com/news/articleView.html?idxno=41521",
+    "host": "jp.sportalkorea.com",
+    "grade": "A",
+    "lane": "queue"
+  },
+  {
     "page": "pages/schedule.md",
     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/513316",
     "host": "enews.imbc.com",
@@ -10683,7 +10704,7 @@
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
@@ -10718,7 +10739,7 @@
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
@@ -10732,21 +10753,21 @@
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UU9w-h_ciMmX64TcLRcb1xPg",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9w-h_ciMmX64TcLRcb1xPg",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUkbJc8jMcTXwhtmN5VMwfXg",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
   },
   {
     "page": "pages/source-collection-status.md",
-    "url": "https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"
@@ -11069,6 +11090,384 @@
   {
     "page": "pages/verification-queue.md",
     "url": "https://www.youtube.com/watch?v=11YXtV70g8s",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=YJhhJTNwBTk",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=am27jwyVBCY",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=HsoYHgBUAwM",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=bCAzCQaHwW0",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=4QY71LjDSng",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=NTnkatyVlTg",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=NVwgTHS6vaY",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=Fm2MtS1ujfY",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=Iy83Rs0XkYE",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=o0tbRi7zR4c",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=NcnuXATdhiw",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=ntAISTBONKE",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=emVimcwPd0g",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=kLmSBQi_lJs",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=jhCBBDp3BIo",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=4MiwW5e8Zzw",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=b1R8XErxUGM",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=jLzNe79SXuw",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=KixLO_UI_Es",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=7O_WjqTiiaI",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=hUpgREsUGdI",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=H-c5AhqWKDA",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=aYJWlEuK3cM",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=JJBZ-rGbY74",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=aIzJdyMZlfo",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=3rJC9ig0d3k",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=b17xnxHBFCI",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=qS766SpMI2Q",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=w8VbUtmwTrI",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=NpMje0IrZXU",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=PutTzdHSmr0",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=1bdCFMkWlkY",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=gBiZSaPGeEE",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=M36PZnd0DsI",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=xU7FItZi0S0",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=51032sLgOIQ",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=NLS0Jfy0zAw",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=ySOH6nkVedk",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=99aYK4ZLd0M",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=saTuQ4dI75g",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=NxaV6tOxm-U",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=VPUpJUREAo8",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=qOIp6glzClA",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=CwXikVNHUsw",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=bxA0Lmbh4yk",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=mtju953Euec",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=IyQONxh7Ix8",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=vlfRk9RquNs",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=MLhOuwjcrmo",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=Ie15Ko8hdX0",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=fy7s0TOHR-E",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=ZyYdAJDrfGs",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=ETZbmmJZy0o",
+    "host": "youtube.com",
+    "grade": "B",
+    "lane": "pool"
+  },
+  {
+    "page": "pages/verification-queue.md",
+    "url": "https://www.youtube.com/watch?v=D4ts-w2SSoc",
     "host": "youtube.com",
     "grade": "B",
     "lane": "pool"

@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-25 12:05 (Asia/Seoul)
+> 갱신: 2026-10-26 00:04 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 13b3fd137 2026-10-25 11:55:38 +0900 docs: sync collected wiki content for website
+- ed74a0b3a 2026-10-25 23:55:33 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -37,7 +37,7 @@
 - pages/works/moving.md
 - pages/works/nambeol.md
 
-## 3) 오늘 실행 상태(news/2026-10-25.md)
+## 3) 오늘 실행 상태(news/2026-10-26.md)
 
 ## 실행 상태
 
@@ -51,11 +51,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 5
+- new_urls: 0
 - landed_urls: 0
-- duplicate_rate: 49.33% (771/1563)
+- duplicate_rate: 67.57% (25/37)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
-  - A: 5
+  - A: 0
   - B: 0
 

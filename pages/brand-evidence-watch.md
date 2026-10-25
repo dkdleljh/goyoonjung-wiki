@@ -1,6 +1,6 @@
 # Brand Evidence Watch (auto)
 
-> Updated: 2026-10-25 12:03 (Asia/Seoul)
+> Updated: 2026-10-26 00:03 (Asia/Seoul)
 
 이 문서는 기존 위키 근거의 색인입니다. 새 공식 발표의 실제 외부 조회 결과는 [수집 출처 상태](source-collection-status.md)의 official-live 항목에서 확인합니다.
 
