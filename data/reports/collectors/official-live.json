@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T22:00:22+09:00",
+  "checked_at": "2026-10-25T22:05:19+09:00",
   "status": "failed",
   "sources": [
     {
@@ -11,8 +11,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T22:00:22+09:00",
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
       "consecutive_failures": 0
     },
     {
@@ -24,19 +24,22 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T22:00:22+09:00",
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "백상예술대상",
       "url": "https://www.baeksangawards.co.kr/",
       "scope": "official search + original page",
-      "status": "failed",
-      "error": "HTTP 404",
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T21:55:20+09:00",
-      "consecutive_failures": 1
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "청룡시리즈어워즈",
@@ -47,8 +50,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T22:00:22+09:00",
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
       "consecutive_failures": 0
     },
     {
@@ -60,19 +63,22 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T22:00:22+09:00",
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "tvN",
       "url": "https://tvn.cjenm.com/ko/",
       "scope": "official search + original page",
-      "status": "failed",
-      "error": "HTTP 404",
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T21:55:20+09:00",
-      "consecutive_failures": 1
+      "status": "success",
+      "fetched": 1,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "JTBC",
@@ -83,8 +89,8 @@
       "index_checked": true,
       "matched": 1,
       "warnings": [],
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T22:00:22+09:00",
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
       "consecutive_failures": 0
     },
     {
@@ -96,8 +102,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T22:00:22+09:00",
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
       "consecutive_failures": 0
     },
     {
@@ -111,9 +117,9 @@
       "warnings": [
         "Index unavailable: HTTP 403"
       ],
-      "checked_at": "2026-10-25T22:00:22+09:00",
+      "checked_at": "2026-10-25T22:05:19+09:00",
       "last_success": null,
-      "consecutive_failures": 2074
+      "consecutive_failures": 2075
     },
     {
       "name": "Boucheron",
@@ -126,29 +132,35 @@
       "warnings": [
         "Index unavailable: HTTP 403"
       ],
-      "checked_at": "2026-10-25T22:00:22+09:00",
+      "checked_at": "2026-10-25T22:05:19+09:00",
       "last_success": null,
-      "consecutive_failures": 2074
+      "consecutive_failures": 2075
     },
     {
       "name": "Goodal",
       "url": "https://clubclio.co.kr/shop/brandsList/121733000000000/brand/3",
       "scope": "official search + original page",
-      "status": "failed",
-      "error": "HTTP 404",
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T21:55:20+09:00",
-      "consecutive_failures": 1
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "Penshoppe",
       "url": "https://www.penshoppe.com/",
       "scope": "official search + original page",
-      "status": "failed",
-      "error": "HTTP 404",
-      "checked_at": "2026-10-25T22:00:22+09:00",
-      "last_success": "2026-10-25T21:55:20+09:00",
-      "consecutive_failures": 1
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-10-25T22:05:19+09:00",
+      "last_success": "2026-10-25T22:05:19+09:00",
+      "consecutive_failures": 0
     }
   ]
 }
