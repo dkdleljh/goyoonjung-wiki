@@ -226,3 +226,4 @@
 - [고윤정, 명품 옷 입고 볼 빵빵 표정…인형 같은 비주얼에 시선 집중 | 텐아시아](https://www.tenasia.co.kr/article/2026102529354) · 텐아시아 · 내용은 원문 보도 기준
 - [고윤정, 제니만 &lsquo;인간 샤넬&rsquo;인 줄 알았더니&hellip;트위드 걸치고 인형 비주얼 ［MD★스타］](https://mydaily.co.kr/page/view/2026102509495165963) · 마이데일리 · 내용은 원문 보도 기준
 - [장난기 가득한 볼빵빵…고윤정, ‘얼굴은 큐티 패션은 럭셔리’](https://www.sportsworldi.com/newsView/20261025503951) · 스포츠월드 · 내용은 원문 보도 기준
+- [고윤정, 명품 샤넬 입고 볼 빵빵 애교&hellip;명품보다 빛나는 미모 ［IS하이컷］ - 일간스포츠](https://isplus.com/article/view/isp202610250090) · VODANA · 내용은 원문 보도 기준
