@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T04:15:32+09:00",
+  "checked_at": "2026-10-26T04:30:25+09:00",
   "status": "failed",
   "sources": [
     {
@@ -10,9 +10,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-26T02:40:28+09:00",
+      "checked_at": "2026-10-26T04:30:25+09:00",
       "last_success": "2026-10-18T21:55:29+09:00",
-      "consecutive_failures": 109
+      "consecutive_failures": 110
     },
     {
       "name": "W Korea",
@@ -70,9 +70,9 @@
       "error": "HTTP 404",
       "kind": "http",
       "retryable": false,
-      "checked_at": "2026-10-26T02:40:28+09:00",
+      "checked_at": "2026-10-26T04:30:25+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 107
+      "consecutive_failures": 108
     },
     {
       "name": "Esquire Korea",
@@ -94,9 +94,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-26T02:30:23+09:00",
+      "checked_at": "2026-10-26T04:30:25+09:00",
       "last_success": "2026-10-18T21:45:35+09:00",
-      "consecutive_failures": 105
+      "consecutive_failures": 106
     },
     {
       "name": "Allure Korea",
