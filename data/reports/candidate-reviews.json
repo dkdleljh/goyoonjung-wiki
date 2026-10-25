@@ -5854,5 +5854,29 @@
       "last_modified": null,
       "first_seen": "2026-10-25T00:35:28.455866+00:00"
     }
+  },
+  "https://mydaily.co.kr/page/view/2026102509495165963": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-25T00:55:25.072072+00:00",
+    "first_seen_at": "2026-10-25 00:55:10",
+    "next_check": "2026-11-01T00:55:25.072072+00:00",
+    "metadata": {
+      "id": "b18fd32e7bad5ce2d0aceda5",
+      "url": "https://www.mydaily.co.kr/page/view/2026102509495165963",
+      "publisher": "mydaily.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정, 제니만 &lsquo;인간 샤넬&rsquo;인 줄 알았더니&hellip;트위드 걸치고 인형 비주얼 [MD★스타]",
+      "published_at": null,
+      "collected_at": "2026-10-25T00:55:25.661928+00:00",
+      "content_hash": "9927a546e0b4e2f9225490b83336969917ec61077df2cc712dba150f9c49e278",
+      "excerpt": "고윤정./ SNS...",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-25T00:55:25.661928+00:00"
+    }
   }
 }

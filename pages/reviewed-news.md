@@ -224,3 +224,4 @@
 - [고윤정, 우아한 트위드룩…깜찍한 볼 빵빵 애교 ［N샷］](https://www.news1.kr/entertain/celebrity-topic/6330808) · 뉴스1 · 내용은 원문 보도 기준
 - [“같은 고윤정 맞아?” 10년전 미대 시절 재소환…최근 SNS와 나란히 보니](https://www.sportsseoul.com/news/read/1643814) · 스포츠서울 · 내용은 원문 보도 기준
 - [고윤정, 명품 옷 입고 볼 빵빵 표정…인형 같은 비주얼에 시선 집중 | 텐아시아](https://www.tenasia.co.kr/article/2026102529354) · 텐아시아 · 내용은 원문 보도 기준
+- [고윤정, 제니만 &lsquo;인간 샤넬&rsquo;인 줄 알았더니&hellip;트위드 걸치고 인형 비주얼 ［MD★스타］](https://mydaily.co.kr/page/view/2026102509495165963) · 마이데일리 · 내용은 원문 보도 기준
