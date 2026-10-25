@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T11:30:25+09:00",
+  "checked_at": "2026-10-25T11:40:33+09:00",
   "status": "failed",
   "sources": [
     {
@@ -22,9 +22,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-25T09:40:33+09:00",
+      "checked_at": "2026-10-25T11:40:33+09:00",
       "last_success": "2026-10-18T17:45:24+09:00",
-      "consecutive_failures": 99
+      "consecutive_failures": 100
     },
     {
       "name": "Harper’s BAZAAR Korea",
@@ -46,9 +46,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-25T09:40:33+09:00",
+      "checked_at": "2026-10-25T11:40:33+09:00",
       "last_success": "2026-10-18T14:43:34+09:00",
-      "consecutive_failures": 100
+      "consecutive_failures": 101
     },
     {
       "name": "Vogue Korea",
@@ -146,9 +146,9 @@
       "error": "Invalid RSS XML: not well-formed (invalid token): line 608, column 94",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-25T09:40:33+09:00",
+      "checked_at": "2026-10-25T11:40:33+09:00",
       "last_success": "2026-10-22T17:35:26+09:00",
-      "consecutive_failures": 42
+      "consecutive_failures": 43
     }
   ]
 }
