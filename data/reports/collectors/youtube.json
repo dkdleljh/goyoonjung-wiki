@@ -1,27 +1,33 @@
 {
-  "checked_at": "2026-10-26T09:55:15+09:00",
+  "checked_at": "2026-10-26T10:00:16+09:00",
   "status": "failed",
   "sources": [
     {
       "name": "채널십오야",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ2O-iftmnlfrBuNsUUTofQ",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UUQ2O-iftmnlfrBuNsUUTofQ",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "tvN Joy",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -34,8 +40,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -48,8 +54,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -62,8 +68,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -76,8 +82,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -90,8 +96,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -104,8 +110,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -118,36 +124,36 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "JTBC Drama",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg",
+      "url": "https://www.youtube.com/playlist?list=UUkbJc8jMcTXwhtmN5VMwfXg",
+      "scope": "recent_uploads_playlist",
+      "status": "success",
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
+      "matched": 0,
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "TVING",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg",
       "scope": "recent_uploads_feed",
       "status": "failed",
       "error": "RSS: HTTP 404; uploads playlist: Public uploads data missing; consent/error page is not success",
       "kind": "parse",
       "retryable": false,
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:50:16+09:00",
-      "consecutive_failures": 1
-    },
-    {
-      "name": "TVING",
-      "url": "https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg",
-      "scope": "recent_uploads_playlist",
-      "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 500; verified official uploads playlist instead"
-      ],
-      "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
       "last_success": "2026-10-26T09:55:15+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "TEO",
@@ -159,8 +165,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-26T09:55:15+09:00",
-      "last_success": "2026-10-26T09:55:15+09:00",
+      "checked_at": "2026-10-26T10:00:16+09:00",
+      "last_success": "2026-10-26T10:00:16+09:00",
       "consecutive_failures": 0
     }
   ]
