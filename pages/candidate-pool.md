@@ -1,10 +1,11 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-27 00:03 (Asia/Seoul)
+> Updated: 2026-10-27 06:03 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-26 · grade=B · YOUTUBE_CLIPS · [김선호 애드립에 당황한 고윤정 #예능 #고윤정 #김선호 - YouTube](https://www.youtube.com/watch?v=zILyZhJHai0)
 - 2026-10-26 · grade=B · YOUTUBE_CLIPS · [고윤정, 샤넬 트위드도 완벽 소화…우아함에 장난기까지 더한 독보적 비주얼 - YouTube](https://www.youtube.com/watch?v=j7LAxT8tJb8)
 - 2026-10-25 · grade=B · YOUTUBE_CLIPS · [웃으면 다 내려놓는 고윤정 TOP7 - YouTube](https://www.youtube.com/watch?v=who8o9OBcvA)
 - 2026-10-25 · grade=B · YOUTUBE_CLIPS · [촬영 중 금기어 말한 고윤정 #예능 #고윤정 #장도연 - YouTube](https://www.youtube.com/watch?v=FTLSeA0V0O4)
