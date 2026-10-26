@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T19:15:27+09:00",
+  "checked_at": "2026-10-26T19:30:26+09:00",
   "status": "failed",
   "sources": [
     {
@@ -22,9 +22,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-26T18:30:25+09:00",
+      "checked_at": "2026-10-26T19:30:26+09:00",
       "last_success": "2026-10-18T17:45:24+09:00",
-      "consecutive_failures": 120
+      "consecutive_failures": 121
     },
     {
       "name": "Harper’s BAZAAR Korea",
@@ -34,9 +34,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-26T18:30:25+09:00",
+      "checked_at": "2026-10-26T19:30:26+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 117
+      "consecutive_failures": 118
     },
     {
       "name": "GQ Korea",
@@ -146,9 +146,9 @@
       "error": "Invalid RSS XML: not well-formed (invalid token): line 1349, column 94",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-26T18:30:25+09:00",
+      "checked_at": "2026-10-26T19:30:26+09:00",
       "last_success": "2026-10-22T17:35:26+09:00",
-      "consecutive_failures": 62
+      "consecutive_failures": 63
     }
   ]
 }
