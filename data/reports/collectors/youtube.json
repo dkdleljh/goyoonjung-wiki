@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27T08:45:15+09:00",
+  "checked_at": "2026-10-27T08:50:16+09:00",
   "status": "success",
   "sources": [
     {
@@ -12,8 +12,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -26,13 +26,35 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "MBCentertainment",
-      "url": "https://www.youtube.com/playlist?list=UUiBr0bK06imaMbLc8sAEz0A",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A",
+      "scope": "recent_uploads_feed",
+      "status": "success",
+      "fetched": 15,
+      "matched": 0,
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "MBCdrama",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBAEVMr0li9YYF8IwZHfusw",
+      "scope": "recent_uploads_feed",
+      "status": "success",
+      "fetched": 15,
+      "matched": 0,
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "SBSNOW",
+      "url": "https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA",
       "scope": "recent_uploads_playlist",
       "status": "success",
       "fetched": 100,
@@ -40,33 +62,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
-      "consecutive_failures": 0
-    },
-    {
-      "name": "MBCdrama",
-      "url": "https://www.youtube.com/playlist?list=UUBAEVMr0li9YYF8IwZHfusw",
-      "scope": "recent_uploads_playlist",
-      "status": "success",
-      "fetched": 69,
-      "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
-      ],
-      "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
-      "consecutive_failures": 0
-    },
-    {
-      "name": "SBSNOW",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA",
-      "scope": "recent_uploads_feed",
-      "status": "success",
-      "fetched": 15,
-      "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -76,19 +73,22 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "NetflixKorea",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 500; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -98,19 +98,22 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "tvN DRAMA",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9w-h_ciMmX64TcLRcb1xPg",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UU9w-h_ciMmX64TcLRcb1xPg",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -123,13 +126,24 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "TVING",
-      "url": "https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg",
+      "scope": "recent_uploads_feed",
+      "status": "success",
+      "fetched": 15,
+      "matched": 0,
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
+      "consecutive_failures": 0
+    },
+    {
+      "name": "TEO",
+      "url": "https://www.youtube.com/playlist?list=UU-uIpGINZDL-VIHQQzJW8jw",
       "scope": "recent_uploads_playlist",
       "status": "success",
       "fetched": 100,
@@ -137,19 +151,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
-      "consecutive_failures": 0
-    },
-    {
-      "name": "TEO",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-uIpGINZDL-VIHQQzJW8jw",
-      "scope": "recent_uploads_feed",
-      "status": "success",
-      "fetched": 15,
-      "matched": 0,
-      "checked_at": "2026-10-27T08:45:15+09:00",
-      "last_success": "2026-10-27T08:45:15+09:00",
+      "checked_at": "2026-10-27T08:50:16+09:00",
+      "last_success": "2026-10-27T08:50:16+09:00",
       "consecutive_failures": 0
     }
   ]
