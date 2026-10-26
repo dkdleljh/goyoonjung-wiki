@@ -1,6 +1,6 @@
 # Future Watch (auto)
 
-> Updated: 2026-10-26 23:25 (Asia/Seoul)
+> Updated: 2026-10-26 23:30 (Asia/Seoul)
 
 ## Summary
 - future_candidates: 6
