@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27T08:20:12+09:00",
+  "checked_at": "2026-10-27T08:25:14+09:00",
   "status": "success",
   "sources": [
     {
@@ -9,8 +9,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -20,19 +20,22 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "MBCentertainment",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UUiBr0bK06imaMbLc8sAEz0A",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -42,8 +45,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -53,19 +56,22 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "JTBCEntertainment",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFL1sCAksD6_7JIZwwHcwjQ",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UUFL1sCAksD6_7JIZwwHcwjQ",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -75,8 +81,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -86,8 +92,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -97,8 +103,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -108,22 +114,19 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "TVING",
-      "url": "https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg",
-      "scope": "recent_uploads_playlist",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg",
+      "scope": "recent_uploads_feed",
       "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
-      ],
+      "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -133,8 +136,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-27T08:20:12+09:00",
-      "last_success": "2026-10-27T08:20:12+09:00",
+      "checked_at": "2026-10-27T08:25:14+09:00",
+      "last_success": "2026-10-27T08:25:14+09:00",
       "consecutive_failures": 0
     }
   ]
