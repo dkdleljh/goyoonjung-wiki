@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T20:55:20+09:00",
+  "checked_at": "2026-10-26T21:00:27+09:00",
   "status": "failed",
   "sources": [
     {
@@ -11,8 +11,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
-      "last_success": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
+      "last_success": "2026-10-26T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
@@ -24,22 +24,19 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
-      "last_success": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
+      "last_success": "2026-10-26T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "백상예술대상",
       "url": "https://www.baeksangawards.co.kr/",
       "scope": "official search + original page",
-      "status": "success",
-      "fetched": 0,
-      "index_checked": true,
-      "matched": 0,
-      "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
+      "status": "failed",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-26T21:00:27+09:00",
       "last_success": "2026-10-26T20:55:20+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "청룡시리즈어워즈",
@@ -50,8 +47,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
-      "last_success": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
+      "last_success": "2026-10-26T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
@@ -63,8 +60,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
-      "last_success": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
+      "last_success": "2026-10-26T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
@@ -76,8 +73,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
-      "last_success": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
+      "last_success": "2026-10-26T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
@@ -89,8 +86,8 @@
       "index_checked": true,
       "matched": 1,
       "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
-      "last_success": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
+      "last_success": "2026-10-26T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
@@ -102,8 +99,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
-      "last_success": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
+      "last_success": "2026-10-26T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
@@ -111,15 +108,10 @@
       "url": "https://www.chanel.com/",
       "scope": "official search + original page",
       "status": "failed",
-      "fetched": 0,
-      "index_checked": false,
-      "matched": 0,
-      "warnings": [
-        "Index unavailable: HTTP 403"
-      ],
-      "checked_at": "2026-10-26T20:55:20+09:00",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-26T21:00:27+09:00",
       "last_success": null,
-      "consecutive_failures": 2343
+      "consecutive_failures": 2344
     },
     {
       "name": "Boucheron",
@@ -132,9 +124,9 @@
       "warnings": [
         "Index unavailable: HTTP 403"
       ],
-      "checked_at": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
       "last_success": null,
-      "consecutive_failures": 2343
+      "consecutive_failures": 2344
     },
     {
       "name": "Goodal",
@@ -145,22 +137,19 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
-      "last_success": "2026-10-26T20:55:20+09:00",
+      "checked_at": "2026-10-26T21:00:27+09:00",
+      "last_success": "2026-10-26T21:00:27+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Penshoppe",
       "url": "https://www.penshoppe.com/",
       "scope": "official search + original page",
-      "status": "success",
-      "fetched": 0,
-      "index_checked": true,
-      "matched": 0,
-      "warnings": [],
-      "checked_at": "2026-10-26T20:55:20+09:00",
+      "status": "failed",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-26T21:00:27+09:00",
       "last_success": "2026-10-26T20:55:20+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     }
   ]
 }
