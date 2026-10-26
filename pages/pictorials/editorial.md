@@ -1688,3 +1688,11 @@
 - 링크(원문): https://www.cosmopolitan.co.kr/article/1911848
 - 상태: 원문 메타데이터 수집
 - id: https://www.cosmopolitan.co.kr/article/1911848
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 이렇게 귀여울 일? 직접 쓰고 그린 18문 18답
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1911929
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1911929
