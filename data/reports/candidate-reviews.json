@@ -4393,8 +4393,8 @@
   },
   "https://segye.com/ampView/20261019503806": {
     "status": "retry_pending",
-    "checked_at": "2026-10-26T02:05:23.742127+00:00",
-    "next_check": "2026-10-26T08:05:23.742127+00:00",
+    "checked_at": "2026-10-26T08:20:23.967774+00:00",
+    "next_check": "2026-10-26T14:20:23.967774+00:00",
     "error": "500 Server Error: Internal Server Error for url: https://www.segye.com:443/ampView/20261019503806"
   },
   "https://www.mk.co.kr/news/entertain/12179279": {
@@ -4543,14 +4543,14 @@
   },
   "https://mk.co.kr/amp/12179279": {
     "status": "retry_pending",
-    "checked_at": "2026-10-26T02:05:23.742127+00:00",
-    "next_check": "2026-10-26T08:05:23.742127+00:00",
+    "checked_at": "2026-10-26T08:20:23.967774+00:00",
+    "next_check": "2026-10-26T14:20:23.967774+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179279"
   },
   "https://mk.co.kr/amp/12179236": {
     "status": "retry_pending",
-    "checked_at": "2026-10-26T02:05:23.742127+00:00",
-    "next_check": "2026-10-26T08:05:23.742127+00:00",
+    "checked_at": "2026-10-26T08:20:23.967774+00:00",
+    "next_check": "2026-10-26T14:20:23.967774+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179236"
   },
   "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014010": {
@@ -4915,9 +4915,9 @@
   },
   "https://biz.heraldcorp.com/article/10907599": {
     "status": "metadata_verified",
-    "checked_at": "2026-10-19T08:05:21.040601+00:00",
+    "checked_at": "2026-10-26T08:20:23.967774+00:00",
     "first_seen_at": "2026-10-19 07:55:10",
-    "next_check": "2026-10-26T08:05:21.040601+00:00",
+    "next_check": "2026-11-02T08:20:23.967774+00:00",
     "metadata": {
       "id": "5b2b33532c2b1236d69f82da",
       "url": "https://biz.heraldcorp.com/article/10907599",
@@ -4926,8 +4926,8 @@
       "first_party": false,
       "title": "“실물 절대 못 담았다”…고윤정 대학시절 축제 ‘주점 포스터’ 화제",
       "published_at": "2026-10-19T16:47:07+09:00",
-      "collected_at": "2026-10-19T08:05:21.764991+00:00",
-      "content_hash": "503b3db799bf2aa1e9aab3b9cdc381b64feba54fb47d19f0934d10efb05ad4bf",
+      "collected_at": "2026-10-26T08:20:25.084929+00:00",
+      "content_hash": "9972d86adad5823fb97af80ddd4ef4408bc4cc311db6cd60cdef9a3c7d3848ae",
       "excerpt": "[헤럴드경제=최원혁 기자] 배우 고윤정이 데뷔 전 대학생 시절 모습이 다시 화제가 되고 있다. 최근 온라인 커뮤니티와 SNS에는 고윤정이 데뷔 전 서울여자대학교 재학 당",
       "actor_mentioned": true,
       "claims": [],
@@ -5275,8 +5275,8 @@
   },
   "https://mk.co.kr/amp/12180324": {
     "status": "retry_pending",
-    "checked_at": "2026-10-26T02:05:23.742127+00:00",
-    "next_check": "2026-10-26T08:05:23.742127+00:00",
+    "checked_at": "2026-10-26T08:20:23.967774+00:00",
+    "next_check": "2026-10-26T14:20:23.967774+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12180324"
   },
   "https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115": {
@@ -6093,6 +6093,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-10-25T23:40:21.170114+00:00"
+    }
+  },
+  "https://www.harpersbazaar.co.kr/article/1911929": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-26T08:20:23.967774+00:00",
+    "first_seen_at": "2026-10-26 08:15:10",
+    "next_check": "2026-11-02T08:20:23.967774+00:00",
+    "metadata": {
+      "id": "02d4f67ad132ca001cc69a81",
+      "url": "https://www.harpersbazaar.co.kr/article/1911929",
+      "publisher": "harpersbazaar.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정, 이렇게 귀여울 일? 직접 쓰고 그린 18문 18답",
+      "published_at": "2026-10-26T17:04:51+09:00",
+      "collected_at": "2026-10-26T08:20:24.577774+00:00",
+      "content_hash": "4fda57ba429c1c5294a021b8bc6108d4e2963f934d6fc9f722339e8809a7b341",
+      "excerpt": "좋아하는 음악부터 가방 속 필수품까지. 고윤정의 손글씨와 그림으로 완성한 특별한 인터뷰, 그리고 미공개 B컷",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-26T08:20:24.577774+00:00"
     }
   }
 }

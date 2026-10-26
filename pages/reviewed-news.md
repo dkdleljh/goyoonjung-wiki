@@ -232,3 +232,4 @@
 - [고윤정, 감탄 부르는 명품 비주얼…'인간 샤넬' 만든 러닝 효과는](https://nwww.newsis.com/view/NISX20261025_0003840117) · VARIETY_WORK · 내용은 원문 보도 기준
 - [고윤정, 유독 트위드가 잘 어울려…샤넬 입고도 레전드 ［★해시태그］](https://www.xportsnews.com/article/2211116) · 엑스포츠뉴스 · 내용은 원문 보도 기준
 - [옥반지가 이렇게 힙하다고? 고윤정·뷔가 선택한 액세서리의 정체](https://www.cosmopolitan.co.kr/article/1911848) · www.cosmopolitan.co.kr · 내용은 원문 보도 기준
+- [고윤정, 이렇게 귀여울 일? 직접 쓰고 그린 18문 18답](https://www.harpersbazaar.co.kr/article/1911929) · 하퍼스 바자 코리아 · 내용은 원문 보도 기준
