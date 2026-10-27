@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T02:30:20+09:00",
+  "checked_at": "2026-10-28T02:35:20+09:00",
   "status": "failed",
   "sources": [
     {
@@ -11,8 +11,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -24,8 +24,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -37,8 +37,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -50,8 +50,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -63,8 +63,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -76,8 +76,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -89,8 +89,8 @@
       "index_checked": true,
       "matched": 1,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -102,8 +102,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -117,9 +117,9 @@
       "warnings": [
         "Index unavailable: HTTP 403"
       ],
-      "checked_at": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
       "last_success": null,
-      "consecutive_failures": 2688
+      "consecutive_failures": 2689
     },
     {
       "name": "Boucheron",
@@ -132,9 +132,9 @@
       "warnings": [
         "Index unavailable: HTTP 403"
       ],
-      "checked_at": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
       "last_success": null,
-      "consecutive_failures": 2688
+      "consecutive_failures": 2689
     },
     {
       "name": "Goodal",
@@ -145,8 +145,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     },
     {
@@ -158,8 +158,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-28T02:30:20+09:00",
-      "last_success": "2026-10-28T02:30:20+09:00",
+      "checked_at": "2026-10-28T02:35:20+09:00",
+      "last_success": "2026-10-28T02:35:20+09:00",
       "consecutive_failures": 0
     }
   ]
