@@ -1696,3 +1696,11 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/1911929
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/1911929
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 가장 순수하고 빛나는 순간
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1911869
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1911869
