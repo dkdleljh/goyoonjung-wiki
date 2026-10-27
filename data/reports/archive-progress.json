@@ -182,15 +182,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Noblesse": {
-    "page": 4,
-    "checked_at": "2026-10-27T00:15:31.424851+00:00",
-    "next_scan": "2026-10-27T01:15:31.424851+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "ac0e1bb8af42a2600fe891c9e86876977439dd9f23167df753a24c8678d21cda",
-      "59900f1d569eb46ee26dbb73f60ca2588eed56812a39c5f29b006197f7c65a2e",
-      "f449cfd1ed298544fa274ae625394510fb7b9f5ce56c3be87e657be4c487e902"
-    ],
+    "page": 1,
+    "checked_at": "2026-10-27T02:15:29.819004+00:00",
+    "next_scan": "2026-11-03T02:15:29.819004+00:00",
+    "status": "pagination_repeated",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"

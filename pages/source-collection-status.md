@@ -16,7 +16,7 @@ retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다
 
 ## archive
 
-- 확인: 2026-10-27T11:00:30+09:00
+- 확인: 2026-10-27T11:15:30+09:00
 
 | 출처 | 상태 | 범위 | 마지막 성공 | 연속 실패 | 상세 |
 |---|---|---|---|---|---|
@@ -31,61 +31,61 @@ retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다
 | [Allure Korea](https://www.allurekorea.com/wp-admin/admin-ajax.php) | failed | historical pagination page 3 | 2026-10-18T18:55:25+09:00 | 124 | Invalid magazine search response |
 | [Singles](https://www.singleskorea.com/api/article-search) | success | historical pagination page 2 | 2026-10-25T21:00:27+09:00 | 0 | 확인 0건 · 관련 0건 |
 | [Arena](https://www.arenakorea.com/rss/allArticle.xml) | success | historical pagination page 2 | 2026-10-25T21:00:27+09:00 | 0 | 확인 50건 · 관련 0건 |
-| [Noblesse](https://noblesse.com/feed/) | failed | historical pagination page 4 | 2026-10-22T17:35:26+09:00 | 71 | Invalid RSS XML: not well-formed (invalid token): line 1349, column 94 |
+| [Noblesse](https://noblesse.com/feed/) | success | historical pagination page 4 | 2026-10-27T11:15:30+09:00 | 0 | 확인 10건 · 관련 0건 |
 
 ## magazines
 
-- 확인: 2026-10-27T10:45:30+09:00
+- 확인: 2026-10-27T11:15:28+09:00
 
 | 출처 | 상태 | 범위 | 마지막 성공 | 연속 실패 | 상세 |
 |---|---|---|---|---|---|
-| [ELLE Korea](https://www.elle.co.kr/search) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 18건 · 관련 12건 |
-| [W Korea](https://www.wkorea.com/wp-admin/admin-ajax.php) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 20건 · 관련 13건 |
-| [Harper’s BAZAAR Korea](https://www.harpersbazaar.co.kr/search) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 18건 · 관련 7건 |
-| [GQ Korea](https://www.gqkorea.co.kr/wp-admin/admin-ajax.php) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 12건 · 관련 2건 |
-| [Vogue Korea](https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 10건 · 관련 2건 · RSS media namespace declaration repaired |
-| [Marie Claire Korea](https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 10건 · 관련 8건 |
-| [Esquire Korea](https://www.esquirekorea.co.kr/search) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 18건 · 관련 3건 |
-| [Cosmopolitan Korea](https://www.cosmopolitan.co.kr/search) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 18건 · 관련 8건 |
-| [Allure Korea](https://www.allurekorea.com/wp-admin/admin-ajax.php) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 20건 · 관련 8건 |
-| [Singles](https://www.singleskorea.com/api/article-search) | success | keyword_search | 2026-10-27T10:45:30+09:00 | 0 | 확인 6건 · 관련 2건 |
-| [Arena](https://www.arenakorea.com/rss/allArticle.xml) | success | recent_feed | 2026-10-27T10:45:30+09:00 | 0 | 확인 50건 · 관련 0건 |
-| [Noblesse](https://noblesse.com/feed/) | success | recent_feed | 2026-10-27T10:45:30+09:00 | 0 | 확인 10건 · 관련 0건 |
+| [ELLE Korea](https://www.elle.co.kr/search) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 18건 · 관련 12건 |
+| [W Korea](https://www.wkorea.com/wp-admin/admin-ajax.php) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 20건 · 관련 13건 |
+| [Harper’s BAZAAR Korea](https://www.harpersbazaar.co.kr/search) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 18건 · 관련 7건 |
+| [GQ Korea](https://www.gqkorea.co.kr/wp-admin/admin-ajax.php) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 12건 · 관련 2건 |
+| [Vogue Korea](https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 10건 · 관련 2건 · RSS media namespace declaration repaired |
+| [Marie Claire Korea](https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 10건 · 관련 8건 |
+| [Esquire Korea](https://www.esquirekorea.co.kr/search) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 18건 · 관련 3건 |
+| [Cosmopolitan Korea](https://www.cosmopolitan.co.kr/search) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 18건 · 관련 8건 |
+| [Allure Korea](https://www.allurekorea.com/wp-admin/admin-ajax.php) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 20건 · 관련 8건 |
+| [Singles](https://www.singleskorea.com/api/article-search) | success | keyword_search | 2026-10-27T11:15:28+09:00 | 0 | 확인 6건 · 관련 2건 |
+| [Arena](https://www.arenakorea.com/rss/allArticle.xml) | success | recent_feed | 2026-10-27T11:15:28+09:00 | 0 | 확인 50건 · 관련 0건 |
+| [Noblesse](https://noblesse.com/feed/) | success | recent_feed | 2026-10-27T11:15:28+09:00 | 0 | 확인 10건 · 관련 0건 |
 
 ## official-live
 
-- 확인: 2026-10-27T11:10:23+09:00
+- 확인: 2026-10-27T11:15:23+09:00
 
 | 출처 | 상태 | 범위 | 마지막 성공 | 연속 실패 | 상세 |
 |---|---|---|---|---|---|
-| [Disney](https://thewaltdisneycompany.com/news/) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 0건 · 관련 0건 |
-| [TVING](https://www.tving.com/) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 0건 · 관련 0건 |
-| [백상예술대상](https://www.baeksangawards.co.kr/) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 0건 · 관련 0건 |
-| [청룡시리즈어워즈](https://bsa.blueaward.co.kr/) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 0건 · 관련 0건 |
-| [Netflix](https://about.netflix.com/ko) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 1건 · 관련 0건 |
-| [tvN](https://tvn.cjenm.com/ko/) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 1건 · 관련 0건 |
-| [JTBC](https://tv.jtbc.co.kr/) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 1건 · 관련 1건 |
-| [CJ ENM](https://www.cjenm.com/ko/news/) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 0건 · 관련 0건 |
-| [Chanel](https://www.chanel.com/) | failed | official search + original page | 없음 | 2511 | 확인 0건 · 관련 0건 · Index unavailable: HTTP 403 |
-| [Boucheron](https://www.boucheron.com/) | failed | official search + original page | 없음 | 2511 | 확인 0건 · 관련 0건 · Index unavailable: HTTP 403 |
-| [Goodal](https://clubclio.co.kr/shop/brandsList/121733000000000/brand/3) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 0건 · 관련 0건 |
-| [Penshoppe](https://www.penshoppe.com/) | success | official search + original page | 2026-10-27T11:10:23+09:00 | 0 | 확인 0건 · 관련 0건 |
+| [Disney](https://thewaltdisneycompany.com/news/) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 0건 · 관련 0건 |
+| [TVING](https://www.tving.com/) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 0건 · 관련 0건 |
+| [백상예술대상](https://www.baeksangawards.co.kr/) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 0건 · 관련 0건 |
+| [청룡시리즈어워즈](https://bsa.blueaward.co.kr/) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 0건 · 관련 0건 |
+| [Netflix](https://about.netflix.com/ko) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 1건 · 관련 0건 |
+| [tvN](https://tvn.cjenm.com/ko/) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 1건 · 관련 0건 |
+| [JTBC](https://tv.jtbc.co.kr/) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 1건 · 관련 1건 |
+| [CJ ENM](https://www.cjenm.com/ko/news/) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 0건 · 관련 0건 |
+| [Chanel](https://www.chanel.com/) | failed | official search + original page | 없음 | 2512 | 확인 0건 · 관련 0건 · Index unavailable: HTTP 403 |
+| [Boucheron](https://www.boucheron.com/) | failed | official search + original page | 없음 | 2512 | 확인 0건 · 관련 0건 · Index unavailable: HTTP 403 |
+| [Goodal](https://clubclio.co.kr/shop/brandsList/121733000000000/brand/3) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 0건 · 관련 0건 |
+| [Penshoppe](https://www.penshoppe.com/) | success | official search + original page | 2026-10-27T11:15:23+09:00 | 0 | 확인 0건 · 관련 0건 |
 
 ## youtube
 
-- 확인: 2026-10-27T11:10:15+09:00
+- 확인: 2026-10-27T11:15:14+09:00
 
 | 출처 | 상태 | 범위 | 마지막 성공 | 연속 실패 | 상세 |
 |---|---|---|---|---|---|
-| [채널십오야](https://www.youtube.com/playlist?list=UUQ2O-iftmnlfrBuNsUUTofQ) | success | recent_uploads_playlist | 2026-10-27T11:10:15+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [tvN Joy](https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw) | success | recent_uploads_playlist | 2026-10-27T11:10:15+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [MBCentertainment](https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A) | success | recent_uploads_feed | 2026-10-27T11:10:15+09:00 | 0 | 확인 15건 · 관련 0건 |
-| [MBCdrama](https://www.youtube.com/playlist?list=UUBAEVMr0li9YYF8IwZHfusw) | success | recent_uploads_playlist | 2026-10-27T11:10:15+09:00 | 0 | 확인 69건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [SBSNOW](https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA) | success | recent_uploads_feed | 2026-10-27T11:10:15+09:00 | 0 | 확인 15건 · 관련 0건 |
-| [JTBCEntertainment](https://www.youtube.com/playlist?list=UUFL1sCAksD6_7JIZwwHcwjQ) | success | recent_uploads_playlist | 2026-10-27T11:10:15+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [NetflixKorea](https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ) | success | recent_uploads_feed | 2026-10-27T11:10:15+09:00 | 0 | 확인 15건 · 관련 0건 |
-| [DisneyPlusKR](https://www.youtube.com/playlist?list=UUtdz9LWNNQKUg4Xpma_40Ug) | success | recent_uploads_playlist | 2026-10-27T11:10:15+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [tvN DRAMA](https://www.youtube.com/feeds/videos.xml?channel_id=UC9w-h_ciMmX64TcLRcb1xPg) | success | recent_uploads_feed | 2026-10-27T11:10:15+09:00 | 0 | 확인 15건 · 관련 0건 |
-| [JTBC Drama](https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg) | success | recent_uploads_feed | 2026-10-27T11:10:15+09:00 | 0 | 확인 15건 · 관련 0건 |
-| [TVING](https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg) | success | recent_uploads_playlist | 2026-10-27T11:10:15+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [TEO](https://www.youtube.com/playlist?list=UU-uIpGINZDL-VIHQQzJW8jw) | success | recent_uploads_playlist | 2026-10-27T11:10:15+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [채널십오야](https://www.youtube.com/feeds/videos.xml?channel_id=UCQ2O-iftmnlfrBuNsUUTofQ) | success | recent_uploads_feed | 2026-10-27T11:15:14+09:00 | 0 | 확인 15건 · 관련 0건 |
+| [tvN Joy](https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw) | success | recent_uploads_playlist | 2026-10-27T11:15:14+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [MBCentertainment](https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A) | success | recent_uploads_feed | 2026-10-27T11:15:14+09:00 | 0 | 확인 15건 · 관련 0건 |
+| [MBCdrama](https://www.youtube.com/playlist?list=UUBAEVMr0li9YYF8IwZHfusw) | success | recent_uploads_playlist | 2026-10-27T11:15:14+09:00 | 0 | 확인 69건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [SBSNOW](https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA) | success | recent_uploads_playlist | 2026-10-27T11:15:14+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [JTBCEntertainment](https://www.youtube.com/playlist?list=UUFL1sCAksD6_7JIZwwHcwjQ) | success | recent_uploads_playlist | 2026-10-27T11:15:14+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [NetflixKorea](https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ) | success | recent_uploads_playlist | 2026-10-27T11:15:14+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [DisneyPlusKR](https://www.youtube.com/playlist?list=UUtdz9LWNNQKUg4Xpma_40Ug) | success | recent_uploads_playlist | 2026-10-27T11:15:14+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [tvN DRAMA](https://www.youtube.com/feeds/videos.xml?channel_id=UC9w-h_ciMmX64TcLRcb1xPg) | success | recent_uploads_feed | 2026-10-27T11:15:14+09:00 | 0 | 확인 15건 · 관련 0건 |
+| [JTBC Drama](https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg) | success | recent_uploads_feed | 2026-10-27T11:15:14+09:00 | 0 | 확인 15건 · 관련 0건 |
+| [TVING](https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg) | success | recent_uploads_feed | 2026-10-27T11:15:14+09:00 | 0 | 확인 15건 · 관련 0건 |
+| [TEO](https://www.youtube.com/feeds/videos.xml?channel_id=UC-uIpGINZDL-VIHQQzJW8jw) | success | recent_uploads_feed | 2026-10-27T11:15:14+09:00 | 0 | 확인 15건 · 관련 0건 |
