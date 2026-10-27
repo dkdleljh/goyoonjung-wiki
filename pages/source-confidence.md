@@ -1,11 +1,11 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-27 18:01 (Asia/Seoul)
+> Updated: 2026-10-28 00:01 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1912
+- total_urls: 1913
 - S: 249
-- A: 895
+- A: 896
 - B: 383
 - BLOCK: 385
 
@@ -16,7 +16,7 @@
 | marieclairekorea.com | 126 | A:126 |
 | kstar.kbs.co.kr | 120 | S:120 |
 | google.com | 92 | BLOCK:92 |
-| harpersbazaar.co.kr | 89 | A:89 |
+| harpersbazaar.co.kr | 90 | A:90 |
 | elle.co.kr | 85 | A:85 |
 | maa.co.kr | 72 | BLOCK:72 |
 | vogue.co.kr | 67 | A:67 |
