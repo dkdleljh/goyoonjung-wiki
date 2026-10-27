@@ -2,7 +2,7 @@
 
 > 자동 후보 링크 페이지입니다. (키워드 매칭 기반)
 
-> 갱신: 2026-10-19 00:02 (Asia/Seoul)
+> 갱신: 2026-10-27 12:05 (Asia/Seoul)
 
 ## 공식 링크
 
@@ -75,4 +75,6 @@
 - [제니·조이·백예린·고윤정이 사랑하는 플라워 패턴 원피스](https://www.cosmopolitan.co.kr/article/67745)  _(출처: pictorials/editorial.md)_
 
 - [신예은·노윤서·고윤정신예 배우들이 유독 예뻐 보이는 이유? 바로 ‘이것’ 때문!](https://www.cosmopolitan.co.kr/article/74461)  _(출처: pictorials/editorial.md)_
+
+- [옥반지가 이렇게 힙하다고?고윤정·뷔가 선택한 액세서리의 정체](https://www.cosmopolitan.co.kr/article/1911848)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->

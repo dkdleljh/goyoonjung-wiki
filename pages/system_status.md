@@ -1,12 +1,12 @@
 # System status (auto)
 
-> Updated: 2026-10-26
+> Updated: 2026-10-27
 
 ## wiki_completeness: **0/100**
 
-placeholder debt score: debt=388
-- (페이지 내 표기 확인 필요): 139
-- (확인 필요): 218
+placeholder debt score: debt=392
+- (페이지 내 표기 확인 필요): 141
+- (확인 필요): 220
 - 검증불가: 13
 - 교차검증 필요: 0
 - 미확정: 2
@@ -20,18 +20,18 @@ checked sections: clean
 
 ## link_health: **0/100**
 
-checked at: 2026-10-25 23:55
-counts: {'OK': 984, 'WARN': 18, 'BAD': 4, 'UNCHECKED': 4}
+checked at: 2026-10-27 11:55
+counts: {'OK': 994, 'WARN': 18, 'BAD': 4, 'UNCHECKED': 4}
 score = verified OK / all discovered URLs; BAD forces zero
 
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-10-26T00:04:00+09:00
-age_hours: 0.02
-source: news/2026-10-26.md
+last_run: 2026-10-27T12:05:00+09:00
+age_hours: 0.0
+source: news/2026-10-27.md
 recorded_result: partial
-reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-26_0004.tar.gz), collect:SKIP, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:RETIRED, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_COLLECT:FAIL(1), mode:local-collection (not published)
+reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-10-27_1205.tar.gz), collect:SKIP, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:RETIRED, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_COLLECT:FAIL(1), RC_YT:FAIL(1), mode:local-collection (not published)
 max_age_hours: 8
 
 ## domain_grade_status
@@ -43,10 +43,10 @@ max_age_hours: 8
 
 ## kpi_snapshot
 
-- new_urls: 0
+- new_urls: 3
 - landed_urls: 0
-- duplicate_rate: 67.57% (25/37)
+- duplicate_rate: 55.80% (683/1224)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
-  - A: 0
-  - B: 0
+  - A: 2
+  - B: 1
