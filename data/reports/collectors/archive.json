@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T04:10:29+09:00",
+  "checked_at": "2026-10-28T04:20:28+09:00",
   "status": "failed",
   "sources": [
     {
@@ -46,9 +46,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-28T02:45:27+09:00",
+      "checked_at": "2026-10-28T04:20:28+09:00",
       "last_success": "2026-10-18T14:43:34+09:00",
-      "consecutive_failures": 140
+      "consecutive_failures": 141
     },
     {
       "name": "Vogue Korea",
@@ -58,9 +58,9 @@
       "error": "HTTP 404",
       "kind": "http",
       "retryable": false,
-      "checked_at": "2026-10-28T02:45:27+09:00",
+      "checked_at": "2026-10-28T04:20:28+09:00",
       "last_success": "2026-10-18T22:00:30+09:00",
-      "consecutive_failures": 137
+      "consecutive_failures": 138
     },
     {
       "name": "Marie Claire Korea",
@@ -94,9 +94,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-28T02:45:27+09:00",
+      "checked_at": "2026-10-28T04:20:28+09:00",
       "last_success": "2026-10-18T21:45:35+09:00",
-      "consecutive_failures": 133
+      "consecutive_failures": 134
     },
     {
       "name": "Allure Korea",
