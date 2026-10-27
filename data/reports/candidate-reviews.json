@@ -6166,5 +6166,53 @@
       "last_modified": null,
       "first_seen": "2026-10-26T23:20:24.893618+00:00"
     }
+  },
+  "https://www.harpersbazaar.co.kr/look/1911869": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-27T09:10:24.907956+00:00",
+    "first_seen_at": "2026-10-27 09:05:10",
+    "next_check": "2026-11-03T09:10:24.907956+00:00",
+    "metadata": {
+      "id": "19799dd17d9c9100033d98f6",
+      "url": "https://www.harpersbazaar.co.kr/look/1911869",
+      "publisher": "harpersbazaar.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정, 가장 순수하고 빛나는 순간 │ 하퍼스 바자 코리아",
+      "published_at": null,
+      "collected_at": "2026-10-27T09:10:25.451495+00:00",
+      "content_hash": "9c363bbae578ed9a8b3aa94744df6a0b96ea6ebdf81529d2739f70d35fae13f1",
+      "excerpt": "세계 최초의 패션 매거진다운 감각 적인 패션 화보를 만나보세요",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-27T09:10:25.451495+00:00"
+    }
+  },
+  "https://www.harpersbazaar.co.kr/article/1911869": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-27T09:10:24.907956+00:00",
+    "first_seen_at": "2026-10-27 09:00:58",
+    "next_check": "2026-11-03T09:10:24.907956+00:00",
+    "metadata": {
+      "id": "90d401f24fae3463441ae318",
+      "url": "https://www.harpersbazaar.co.kr/article/1911869",
+      "publisher": "harpersbazaar.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정, 가장 순수하고 빛나는 순간",
+      "published_at": "2026-10-27T16:55:49+09:00",
+      "collected_at": "2026-10-27T09:10:25.983302+00:00",
+      "content_hash": "dfae7e2604a659df57d17838a3e6d9178f578cfe2c554fd3f24a4a0041bcdb09",
+      "excerpt": "티파니앤코와 함께한 고윤정의 새로운 얼굴. 연기와 일상, 그리고 배우로서의 진솔한 이야기.",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-27T09:10:25.983302+00:00"
+    }
   }
 }

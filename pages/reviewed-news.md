@@ -235,3 +235,5 @@
 - [고윤정, 이렇게 귀여울 일? 직접 쓰고 그린 18문 18답](https://www.harpersbazaar.co.kr/article/1911929) · 하퍼스 바자 코리아 · 내용은 원문 보도 기준
 - [コ・ユンジョン、感嘆を呼ぶ高級ビジュアル···「人間シャネル」を作ったランニング効果は - スポータルコリア](https://jp.sportalkorea.com/news/articleView.html?idxno=41679) · JA_ALL · 내용은 원문 보도 기준
 - [리센느·박지현·에이티즈→이준호·고윤정…'2026 KGMA', 오늘(27일) 2차 티켓 오픈](https://www.slist.kr/news/articleView.html?idxno=776601) · 싱글리스트 · 내용은 원문 보도 기준
+- [고윤정, 가장 순수하고 빛나는 순간 │ 하퍼스 바자 코리아](https://www.harpersbazaar.co.kr/look/1911869) · harpersbazaar.co.kr · 내용은 원문 보도 기준
+- [고윤정, 가장 순수하고 빛나는 순간](https://www.harpersbazaar.co.kr/article/1911869) · Harper’s BAZAAR Korea · 내용은 원문 보도 기준
