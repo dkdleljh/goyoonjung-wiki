@@ -361,8 +361,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-10-26T21:10:39.892746+00:00",
-    "next_check": "2026-10-27T03:10:39.892746+00:00",
+    "checked_at": "2026-10-27T03:40:26.168670+00:00",
+    "next_check": "2026-10-27T09:40:26.168670+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://www.tenasia.co.kr/article/2026092803714": {
@@ -559,8 +559,8 @@
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-10-26T21:10:39.892746+00:00",
-    "next_check": "2026-10-27T03:10:39.892746+00:00",
+    "checked_at": "2026-10-27T03:40:26.168670+00:00",
+    "next_check": "2026-10-27T09:40:26.168670+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA": {
@@ -4171,8 +4171,8 @@
   },
   "http://www.osen.co.kr/article/G1112894851": {
     "status": "retry_pending",
-    "checked_at": "2026-10-26T21:10:39.892746+00:00",
-    "next_check": "2026-10-27T03:10:39.892746+00:00",
+    "checked_at": "2026-10-27T03:40:26.168670+00:00",
+    "next_check": "2026-10-27T09:40:26.168670+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://www.osen.co.kr/article/G1112894851": {
@@ -5281,9 +5281,9 @@
   },
   "https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115": {
     "status": "metadata_verified",
-    "checked_at": "2026-10-20T03:05:27.359194+00:00",
+    "checked_at": "2026-10-27T03:40:26.168670+00:00",
     "first_seen_at": "2026-10-20 02:50:26",
-    "next_check": "2026-10-27T03:05:27.359194+00:00",
+    "next_check": "2026-11-03T03:40:26.168670+00:00",
     "metadata": {
       "id": "76d41bb7fd99377868d8a3b5",
       "url": "https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115",
@@ -5292,8 +5292,8 @@
       "first_party": false,
       "title": "Go Youn-jung: “Filming ‘Moving 2’... My heart swells when the cast reunites”",
       "published_at": "2026-10-20T10:48:03+09:00",
-      "collected_at": "2026-10-20T03:05:27.692283+00:00",
-      "content_hash": "ffac63ccc1174d36a072d3b4550278addf951eebfcfb5a2342dabc922bb05418",
+      "collected_at": "2026-10-27T03:40:26.507732+00:00",
+      "content_hash": "77d49910c11870e0491f5b3447d1ae881edecd088d4ad7693feefba606e823e8",
       "excerpt": "[Cho Yoon-sun, reporter for Sportschosun] Actor Go Youn-jung shared her thoughts on filming Season 2 of “Moving.”",
       "actor_mentioned": true,
       "claims": [],
