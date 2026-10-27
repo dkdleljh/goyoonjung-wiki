@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-27 12:05 (Asia/Seoul)
+> 갱신: 2026-10-27 18:02 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- 0dacd8e7c 2026-10-27 11:55:42 +0900 docs: sync collected wiki content for website
+- 039802ef0 2026-10-27 17:55:36 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -12,6 +12,8 @@
 - data/facts/evidence.json
 - data/facts/profile.json
 - data/facts/works.json
+- data/reports/archive-progress.json
+- data/reports/collectors/archive.json
 - data/reports/collectors/official-live.json
 - data/reports/collectors/youtube.json
 - data/reports/fast-task-state.json
@@ -51,11 +53,11 @@
 ## 5) KPI 스냅샷
 
 ## Daily Metrics
-- new_urls: 3
+- new_urls: 6
 - landed_urls: 0
-- duplicate_rate: 55.80% (683/1224)
+- duplicate_rate: 54.11% (914/1689)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
-  - A: 2
-  - B: 1
+  - A: 3
+  - B: 3
 

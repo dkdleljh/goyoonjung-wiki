@@ -2,7 +2,7 @@
 
 > 목적: 공식 근거 확인이 필요한 항목을 우선순위로 처리하기 위한 큐
 
-- total_items: 238
+- total_items: 239
 
 ## Items
 - [pages/appearances.md:157] - 날짜: (페이지 내 표기 확인 필요)
@@ -165,6 +165,7 @@
 - [pages/pictorials/editorial.md:1676] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:1684] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:1692] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:1700] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/profile.md:51] - 상태: 검증불가(공식 근거 미확보)
 - [pages/profile.md:58] - 상태: 검증불가(공식 근거 미확보)
 - [pages/sns.md:14] - 상태: **미확정(교차확인 필요)**

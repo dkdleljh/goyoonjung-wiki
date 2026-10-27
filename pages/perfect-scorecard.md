@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 124
-- urls_total(markdown): 938
-- seen_urls(db): 366
+- urls_total(markdown): 941
+- seen_urls(db): 369
 - allowlist_domains: 105
 - google_news_sites: 40
 - google_news_queries(lines): 20
@@ -22,7 +22,7 @@
 - detection: 100  (quality/content-gaps reports)
 - official_work_sync: 0  (official filmography audit)
 
-### B. Recorded automation health: **0/100**
+### B. Recorded automation health: **100/100**
 
 - pipeline: 100  (run_daily_update + steps)
 - resilience: 100  (batching + skip-reason logging)
@@ -33,15 +33,15 @@
 
 - C_current: 74  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 938  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 366  (dedupe DB size)
+- urls_total: 941  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 369  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
 
 ### D. Content quality heuristic: **30/100**
 
-- placeholder: 0  (debt=392)
+- placeholder: 0  (debt=394)
 - link_health: 0  (measured results and report age)
 - lint: 100  (actual findings)
 - provenance: 100  (official vs press vs secondary)
@@ -49,11 +49,11 @@
 
 ## Top URL-heavy pages (top 10)
 - 233: pages/reviewed-news.md
-- 205: pages/pictorials/editorial.md
+- 206: pages/pictorials/editorial.md
 - 123: pages/pictorials/by-year.md
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
+- 77: pages/candidate-pool.md
 - 76: pages/verification-queue.md
-- 75: pages/candidate-pool.md
 - 75: pages/youtube-archive.md
 - 57: pages/interviews.md
 - 54: pages/appearances.md
