@@ -2,78 +2,6 @@
   {
     "kind": "fast",
     "executor": "primary",
-    "started_at": "2026-10-21T09:40:07.773643+00:00",
-    "timestamp": "2026-10-21T09:40:34.093180+00:00",
-    "duration_seconds": 26.32,
-    "status": "partial",
-    "steps": [
-      {
-        "name": "auto_collect_google_news.py",
-        "returncode": 0,
-        "crashed": false,
-        "duration_seconds": 1.83
-      },
-      {
-        "name": "auto_collect_youtube_feeds.py",
-        "returncode": 0,
-        "crashed": false,
-        "duration_seconds": 1.84
-      },
-      {
-        "name": "official_evidence.py",
-        "returncode": 1,
-        "crashed": false,
-        "duration_seconds": 9.38
-      },
-      {
-        "name": "auto_collect_google_news_sites.py",
-        "returncode": 0,
-        "crashed": false,
-        "duration_seconds": 3.55
-      },
-      {
-        "name": "auto_collect_magazine_rss.py",
-        "returncode": 1,
-        "crashed": false,
-        "duration_seconds": 6.97
-      },
-      {
-        "name": "sync_media_watch_sources.py",
-        "returncode": 0
-      },
-      {
-        "name": "reconcile_evidence.py",
-        "returncode": 0
-      },
-      {
-        "name": "extract_facts_from_markdown.py",
-        "returncode": 0
-      },
-      {
-        "name": "auto_detect_future_works.py",
-        "returncode": 0
-      },
-      {
-        "name": "audit_fact_conflicts.py",
-        "returncode": 0
-      },
-      {
-        "name": "rebuild_work_link_candidates.py",
-        "returncode": 0
-      },
-      {
-        "name": "render_pages_from_facts.py",
-        "returncode": 0
-      },
-      {
-        "name": "rebuild_works_year_index.py",
-        "returncode": 0
-      }
-    ]
-  },
-  {
-    "kind": "fast",
-    "executor": "primary",
     "started_at": "2026-10-21T09:45:08.232163+00:00",
     "timestamp": "2026-10-21T09:45:35.869200+00:00",
     "duration_seconds": 27.64,
@@ -142626,6 +142554,78 @@
         "returncode": 1,
         "crashed": false,
         "duration_seconds": 4.05
+      },
+      {
+        "name": "sync_media_watch_sources.py",
+        "returncode": 0
+      },
+      {
+        "name": "reconcile_evidence.py",
+        "returncode": 0
+      },
+      {
+        "name": "extract_facts_from_markdown.py",
+        "returncode": 0
+      },
+      {
+        "name": "auto_detect_future_works.py",
+        "returncode": 0
+      },
+      {
+        "name": "audit_fact_conflicts.py",
+        "returncode": 0
+      },
+      {
+        "name": "rebuild_work_link_candidates.py",
+        "returncode": 0
+      },
+      {
+        "name": "render_pages_from_facts.py",
+        "returncode": 0
+      },
+      {
+        "name": "rebuild_works_year_index.py",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "kind": "fast",
+    "executor": "primary",
+    "started_at": "2026-10-28T10:00:07.790614+00:00",
+    "timestamp": "2026-10-28T10:00:26.980437+00:00",
+    "duration_seconds": 19.19,
+    "status": "partial",
+    "steps": [
+      {
+        "name": "auto_collect_google_news.py",
+        "returncode": 0,
+        "crashed": false,
+        "duration_seconds": 1.39
+      },
+      {
+        "name": "auto_collect_youtube_feeds.py",
+        "returncode": 0,
+        "crashed": false,
+        "duration_seconds": 1.53
+      },
+      {
+        "name": "official_evidence.py",
+        "returncode": 1,
+        "crashed": false,
+        "duration_seconds": 8.99
+      },
+      {
+        "name": "auto_collect_google_news_queries.py",
+        "returncode": 0,
+        "crashed": false,
+        "duration_seconds": 3.04
+      },
+      {
+        "name": "review_candidates.py",
+        "returncode": 0,
+        "crashed": false,
+        "duration_seconds": 1.28
       },
       {
         "name": "sync_media_watch_sources.py",
