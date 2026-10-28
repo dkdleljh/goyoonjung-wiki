@@ -4162,588 +4162,588 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8478372
+    "checked_at": 1793217323.3529346
   },
   "https://www.armanibeauty.com/": {
     "url": "https://www.armanibeauty.com/",
     "status": "warn",
     "code": 403,
     "note": "GET fallback",
-    "checked_at": 1793209537.8478656
+    "checked_at": 1793217323.3529932
   },
   "https://www.tomfordbeauty.com/": {
     "url": "https://www.tomfordbeauty.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8478916
+    "checked_at": 1793217324.0058594
   },
   "https://www.yunjac.com/": {
     "url": "https://www.yunjac.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8479178
+    "checked_at": 1793217324.0060024
   },
   "https://www.espoir.com/": {
     "url": "https://www.espoir.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8479433
+    "checked_at": 1793217324.0060344
   },
   "https://rataplan.co.kr/": {
     "url": "https://rataplan.co.kr/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.847968
+    "checked_at": 1793217324.0060627
   },
   "https://marithe-official.com/": {
     "url": "https://marithe-official.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8479936
+    "checked_at": 1793217324.006091
   },
   "https://www.discovery-expedition.com/": {
     "url": "https://www.discovery-expedition.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8480194
+    "checked_at": 1793217324.0061204
   },
   "https://www.didierdubot.co.kr/": {
     "url": "https://www.didierdubot.co.kr/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8480449
+    "checked_at": 1793217324.0061498
   },
   "https://www.sktelecom.com/": {
     "url": "https://www.sktelecom.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8480701
+    "checked_at": 1793217324.0061781
   },
   "https://carrotins.com/": {
     "url": "https://carrotins.com/",
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793209537.8480966
+    "checked_at": 1793217324.006205
   },
   "https://puradakchicken.com/": {
     "url": "https://puradakchicken.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.848153
+    "checked_at": 1793217324.0062637
   },
   "https://www.nhbank.com/": {
     "url": "https://www.nhbank.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8481786
+    "checked_at": 1793217324.0062904
   },
   "https://card.nonghyup.com/": {
     "url": "https://card.nonghyup.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8482044
+    "checked_at": 1793217324.0063162
   },
   "https://www.hwgeneralins.com/": {
     "url": "https://www.hwgeneralins.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8482568
+    "checked_at": 1793217324.00637
   },
   "https://search.naver.com/search.naver?where=news&query=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://search.naver.com/search.naver?where=news&query=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8482819
+    "checked_at": 1793217324.0063965
   },
   "https://search.daum.net/search?w=news&q=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://search.daum.net/search?w=news&q=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8483586
+    "checked_at": 1793217324.006477
   },
   "https://news.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&hl=ko&gl=KR&ceid=KR%3Ako": {
     "url": "https://news.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&hl=ko&gl=KR&ceid=KR%3Ako",
     "status": "ok",
     "code": 204,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.848384
+    "checked_at": 1793217324.006503
   },
   "https://www.google.com/search?q=site%3Ayna.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Ayna.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8484101
+    "checked_at": 1793217324.006529
   },
   "https://www.newsis.com/entertainment/": {
     "url": "https://www.newsis.com/entertainment/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8484356
+    "checked_at": 1793217324.006555
   },
   "https://www.google.com/search?q=site%3Anewsis.com+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Anewsis.com+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210122.3636332
+    "checked_at": 1793217324.00658
   },
   "https://www.news1.kr/entertain/celebrity": {
     "url": "https://www.news1.kr/entertain/celebrity",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0687673
+    "checked_at": 1793217324.0066059
   },
   "https://www.google.com/search?q=site%3Anews1.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Anews1.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0688226
+    "checked_at": 1793217324.0066316
   },
   "https://www.osen.co.kr/": {
     "url": "https://www.osen.co.kr/",
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793210123.0688634
+    "checked_at": 1793217324.0066571
   },
   "https://www.google.com/search?q=site%3Aosen.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Aosen.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.068903
+    "checked_at": 1793217324.006683
   },
   "https://sports.chosun.com/entertainment/": {
     "url": "https://sports.chosun.com/entertainment/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0689414
+    "checked_at": 1793217324.0067084
   },
   "https://www.sportschosun.com/search/?query=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.sportschosun.com/search/?query=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.068977
+    "checked_at": 1793217324.0067341
   },
   "https://www.google.com/search?q=site%3Asports.chosun.com+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Asports.chosun.com+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0690157
+    "checked_at": 1793217324.0067594
   },
   "https://sports.khan.co.kr/entertainment": {
     "url": "https://sports.khan.co.kr/entertainment",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.069055
+    "checked_at": 1793217324.0067847
   },
   "https://www.google.com/search?q=site%3Asports.khan.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Asports.khan.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0690908
+    "checked_at": 1793217324.006811
   },
   "https://www.mydaily.co.kr/": {
     "url": "https://www.mydaily.co.kr/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0691268
+    "checked_at": 1793217324.0068398
   },
   "https://www.google.com/search?q=site%3Amydaily.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Amydaily.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.069153
+    "checked_at": 1793217324.0068643
   },
   "https://www.starnewskorea.com/": {
     "url": "https://www.starnewskorea.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.06918
+    "checked_at": 1793217324.2379835
   },
   "https://www.starnewskorea.com/search?searchword=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.starnewskorea.com/search?searchword=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0692062
+    "checked_at": 1793217324.2380378
   },
   "https://www.google.com/search?q=site%3Astarnewskorea.com+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Astarnewskorea.com+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.069232
+    "checked_at": 1793217324.238066
   },
   "https://tenasia.hankyung.com/": {
     "url": "https://tenasia.hankyung.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0692577
+    "checked_at": 1793217324.2380936
   },
   "https://www.google.com/search?q=site%3Atenasia.hankyung.com+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Atenasia.hankyung.com+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0692844
+    "checked_at": 1793217324.2381196
   },
   "https://www.elle.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.elle.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0693095
+    "checked_at": 1793217324.2381454
   },
   "https://www.google.com/search?q=site%3Aelle.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Aelle.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.069335
+    "checked_at": 1793217324.2381716
   },
   "https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0693598
+    "checked_at": 1793217324.2381976
   },
   "https://www.google.com/search?q=site%3Avogue.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Avogue.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0693858
+    "checked_at": 1793217324.2382236
   },
   "https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0694375
+    "checked_at": 1793217324.2403271
   },
   "https://www.google.com/search?q=site%3Aharpersbazaar.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Aharpersbazaar.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0694625
+    "checked_at": 1793217324.2403786
   },
   "https://www.google.com/search?q=site%3Awkorea.com+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Awkorea.com+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.069526
+    "checked_at": 1793217324.2761083
   },
   "https://www.google.com/search?q=site%3Agqkorea.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Agqkorea.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.069553
+    "checked_at": 1793217324.2761421
   },
   "https://www.google.com/search?q=site%3Aesquirekorea.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Aesquirekorea.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.0695794
+    "checked_at": 1793217324.3514817
   },
   "https://www.cosmopolitan.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.cosmopolitan.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.1100485
+    "checked_at": 1793217324.3680906
   },
   "https://www.google.com/search?q=site%3Acosmopolitan.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.google.com/search?q=site%3Acosmopolitan.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.1100912
+    "checked_at": 1793217324.4139907
   },
   "https://kstar.kbs.co.kr/person_view.html?idx=220921": {
     "url": "https://kstar.kbs.co.kr/person_view.html?idx=220921",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.849802
+    "checked_at": 1793217325.1751652
   },
   "https://tv.naver.com/": {
     "url": "https://tv.naver.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.8498387
+    "checked_at": 1793217325.1752138
   },
   "https://www.youtube.com/watch?v=yP0pZUyn0zc": {
     "url": "https://www.youtube.com/watch?v=yP0pZUyn0zc",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210123.849866
+    "checked_at": 1793217325.1752508
   },
   "https://commons.wikimedia.org/wiki/File:Go_Youn-jung_on_January_26%2C_2025.png": {
     "url": "https://commons.wikimedia.org/wiki/File:Go_Youn-jung_on_January_26%2C_2025.png",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.8498938
+    "checked_at": 1793217325.175288
   },
   "https://creativecommons.org/licenses/by/3.0/": {
     "url": "https://creativecommons.org/licenses/by/3.0/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.8499196
+    "checked_at": 1793217325.1753252
   },
   "https://www.youtube.com/watch?v=-_oQjHAFaqg": {
     "url": "https://www.youtube.com/watch?v=-_oQjHAFaqg",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210123.8499444
+    "checked_at": 1793217325.1753604
   },
   "https://commons.wikimedia.org/wiki/File:Go_Youn-jung_%EA%B3%A0%EC%9C%A4%EC%A0%95_at_the_3rd_Blue_Dragon_Series_Awards_2024_01.jpg": {
     "url": "https://commons.wikimedia.org/wiki/File:Go_Youn-jung_%EA%B3%A0%EC%9C%A4%EC%A0%95_at_the_3rd_Blue_Dragon_Series_Awards_2024_01.jpg",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.8499699
+    "checked_at": 1793217325.175512
   },
   "https://www.youtube.com/watch?v=Uihe2THZsco": {
     "url": "https://www.youtube.com/watch?v=Uihe2THZsco",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210123.8499973
+    "checked_at": 1793217325.1755443
   },
   "https://commons.wikimedia.org/wiki/File:Go_Youn-jung_for_Chanel_Beauty_at_the_2025_Marie_Claire_Asia_Star_Awards_%28September_2025%29_01.png": {
     "url": "https://commons.wikimedia.org/wiki/File:Go_Youn-jung_for_Chanel_Beauty_at_the_2025_Marie_Claire_Asia_Star_Awards_%28September_2025%29_01.png",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.8500226
+    "checked_at": 1793217325.1755705
   },
   "https://creativecommons.org/licenses/by/4.0/": {
     "url": "https://creativecommons.org/licenses/by/4.0/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.8500483
+    "checked_at": 1793217325.1755977
   },
   "https://www.youtube.com/shorts/-lXodlhAXzo": {
     "url": "https://www.youtube.com/shorts/-lXodlhAXzo",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4651904
+    "checked_at": 1793217325.893361
   },
   "https://commons.wikimedia.org/wiki/File:CTLBT_Presscon_01.jpg": {
     "url": "https://commons.wikimedia.org/wiki/File:CTLBT_Presscon_01.jpg",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.46524
+    "checked_at": 1793217325.8934102
   },
   "https://www.youtube.com/@star_setn": {
     "url": "https://www.youtube.com/@star_setn",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4652767
+    "checked_at": 1793217325.8934479
   },
   "https://www.youtube.com/watch?v=oZxelclA53I": {
     "url": "https://www.youtube.com/watch?v=oZxelclA53I",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210124.4653125
+    "checked_at": 1793217325.8935335
   },
   "https://commons.wikimedia.org/wiki/File:CTLBT_Interview_Seoul_01.jpg": {
     "url": "https://commons.wikimedia.org/wiki/File:CTLBT_Interview_Seoul_01.jpg",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.465349
+    "checked_at": 1793217325.8936288
   },
   "https://tvn.cjenm.com/ko/heispsychometric/photo1/": {
     "url": "https://tvn.cjenm.com/ko/heispsychometric/photo1/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.465385
+    "checked_at": 1793217325.8936684
   },
   "https://ent.sbs.co.kr/news/article.do?article_id=E10010316722&cooper=ent.sbs.co.kr": {
     "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010316722&cooper=ent.sbs.co.kr",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4654205
+    "checked_at": 1793217325.8937047
   },
   "https://prensa.disneylatino.com/press-kit/light-shop-entre-la-vida-y-la-muerte": {
     "url": "https://prensa.disneylatino.com/press-kit/light-shop-entre-la-vida-y-la-muerte",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4654586
+    "checked_at": 1793217325.8937407
   },
   "https://news.tf.co.kr/read/entertain/2027250.htm": {
     "url": "https://news.tf.co.kr/read/entertain/2027250.htm",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4655404
+    "checked_at": 1793217325.8937771
   },
   "https://tvn.cjenm.com/ko/%E3%85%8A/photo3/": {
     "url": "https://tvn.cjenm.com/ko/%E3%85%8A/photo3/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4655788
+    "checked_at": 1793217325.8938162
   },
   "https://tvn.cjenm.com/ko/alchemyofsouls/photo1/": {
     "url": "https://tvn.cjenm.com/ko/alchemyofsouls/photo1/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4656146
+    "checked_at": 1793217325.8938527
   },
   "https://www.yuljehospital.com/ko/": {
     "url": "https://www.yuljehospital.com/ko/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4656503
+    "checked_at": 1793217325.8938882
   },
   "https://www.cjenm.com/ko/featured-contents/%EC%9D%B4%EC%9E%AC-%EA%B3%A7-%EC%A3%BD%EC%8A%B5%EB%8B%88%EB%8B%A4/": {
     "url": "https://www.cjenm.com/ko/featured-contents/%EC%9D%B4%EC%9E%AC-%EA%B3%A7-%EC%A3%BD%EC%8A%B5%EB%8B%88%EB%8B%A4/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.4656858
+    "checked_at": 1793217325.8939233
   },
   "https://www.magnoliapictures.com/hunt-press-kit": {
     "url": "https://www.magnoliapictures.com/hunt-press-kit",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210124.775623
+    "checked_at": 1793217326.9743528
   },
   "https://about.netflix.com/en/news/the-school-nurse-files-starring-jung-yu-mi-and-nam-joo-hyuk-confirmed-for-september-25-release": {
     "url": "https://about.netflix.com/en/news/the-school-nurse-files-starring-jung-yu-mi-and-nam-joo-hyuk-confirmed-for-september-25-release",
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793210125.3013344
+    "checked_at": 1793217326.9743917
   },
   "https://about.netflix.com/en/news/sweet-home-season-2-main-trailer": {
     "url": "https://about.netflix.com/en/news/sweet-home-season-2-main-trailer",
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793210125.4923532
+    "checked_at": 1793217326.9744189
   },
   "https://www.youtube.com/watch?v=o6BJUZVgbH0": {
     "url": "https://www.youtube.com/watch?v=o6BJUZVgbH0",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.4923878
+    "checked_at": 1793217326.974446
   },
   "https://about.netflix.com/en/news/netflix-brings-a-variety-of-entertainment-with-7-new-korean-films-and-series": {
     "url": "https://about.netflix.com/en/news/netflix-brings-a-variety-of-entertainment-with-7-new-korean-films-and-series",
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793210125.5482814
+    "checked_at": 1793217326.974474
   },
   "https://www.wavve.com/": {
     "url": "https://www.wavve.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210125.5483315
+    "checked_at": 1793217326.9745007
   },
   "https://news.kbs.co.kr/": {
     "url": "https://news.kbs.co.kr/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210125.5483687
+    "checked_at": 1793217326.9745264
   },
   "https://imnews.imbc.com/": {
     "url": "https://imnews.imbc.com/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210125.5484438
+    "checked_at": 1793217326.9745798
   },
   "https://news.sbs.co.kr/": {
     "url": "https://news.sbs.co.kr/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210125.54848
+    "checked_at": 1793217326.9746063
   },
   "https://news.jtbc.co.kr/": {
     "url": "https://news.jtbc.co.kr/",
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793210125.5485182
+    "checked_at": 1793217326.9746323
   },
   "https://www.harpersbazaar.co.kr/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%99%94%EB%B3%B4": {
     "url": "https://www.harpersbazaar.co.kr/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95%20%ED%99%94%EB%B3%B4",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210125.5485537
+    "checked_at": 1793217326.974659
   },
   "https://www.marieclairekorea.com/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95/": {
     "url": "https://www.marieclairekorea.com/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210125.5689678
+    "checked_at": 1793217326.9749599
   },
   "https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210127.4707432
+    "checked_at": 1793217328.4187112
   },
   "https://cafe.daum.net/goyounjung.fans": {
     "url": "https://cafe.daum.net/goyounjung.fans",
@@ -5786,7 +5786,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.8482304
+    "checked_at": 1793217324.006343
   },
   "https://www.tenasia.co.kr/article/2026101993104": {
     "url": "https://www.tenasia.co.kr/article/2026101993104",
@@ -6087,7 +6087,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210125.548404
+    "checked_at": 1793217326.9745524
   },
   "https://www.xportsnews.com/article/2209305": {
     "url": "https://www.xportsnews.com/article/2209305",
@@ -6220,56 +6220,56 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.5486734
+    "checked_at": 1793217326.9747458
   },
   "https://www.youtube.com/watch?v=0EpoSxBqm6A": {
     "url": "https://www.youtube.com/watch?v=0EpoSxBqm6A",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.5486996
+    "checked_at": 1793217326.9747756
   },
   "https://www.youtube.com/watch?v=PhmAIoXoLRc": {
     "url": "https://www.youtube.com/watch?v=PhmAIoXoLRc",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.5487282
+    "checked_at": 1793217326.9748018
   },
   "https://www.youtube.com/watch?v=pcOnx6lup6I": {
     "url": "https://www.youtube.com/watch?v=pcOnx6lup6I",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.5487545
+    "checked_at": 1793217326.974828
   },
   "https://www.youtube.com/watch?v=xk1G-IxgcQM": {
     "url": "https://www.youtube.com/watch?v=xk1G-IxgcQM",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.5487795
+    "checked_at": 1793217326.9748542
   },
   "https://www.youtube.com/watch?v=8ECnuuSEL2g": {
     "url": "https://www.youtube.com/watch?v=8ECnuuSEL2g",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.5488052
+    "checked_at": 1793217326.9748802
   },
   "https://www.youtube.com/watch?v=P4OOEL9MIEI": {
     "url": "https://www.youtube.com/watch?v=P4OOEL9MIEI",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.5488331
+    "checked_at": 1793217326.9749064
   },
   "https://www.youtube.com/watch?v=1_cjCK41eTk": {
     "url": "https://www.youtube.com/watch?v=1_cjCK41eTk",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793210125.5488584
+    "checked_at": 1793217326.9749331
   },
   "https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2/": {
     "url": "https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2/",
@@ -6668,7 +6668,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793210123.069411
+    "checked_at": 1793217324.2382498
   },
   "https://www.youtube.com/watch?v=gBiZSaPGeEE": {
     "url": "https://www.youtube.com/watch?v=gBiZSaPGeEE",
@@ -6836,14 +6836,14 @@
     "status": "warn",
     "code": null,
     "note": "Video metadata unavailable: HTTPError",
-    "checked_at": 1793210125.5485914
+    "checked_at": 1793217326.9746919
   },
   "https://www.youtube.com/watch?v=nUMRPgOQfQE": {
     "url": "https://www.youtube.com/watch?v=nUMRPgOQfQE",
     "status": "warn",
     "code": null,
     "note": "Video metadata unavailable: HTTPError",
-    "checked_at": 1793210125.5486283
+    "checked_at": 1793217326.97472
   },
   "https://www.topstarnews.net/news/articleView.html?idxno=16256763": {
     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16256763",
@@ -6976,7 +6976,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793209537.848122
+    "checked_at": 1793217324.0062344
   },
   "https://www.cosmopolitan.co.kr/article/1911848": {
     "url": "https://www.cosmopolitan.co.kr/article/1911848",
@@ -7151,14 +7151,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793209537.8483071
+    "checked_at": 1793217324.0064228
   },
   "https://www.youtube.com/watch?v=uCuIfowTbCc": {
     "url": "https://www.youtube.com/watch?v=uCuIfowTbCc",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793209537.8483324
+    "checked_at": 1793217324.0064502
   },
   "https://www.youtube.com/watch?v=ZUuAgq8fSH8": {
     "url": "https://www.youtube.com/watch?v=ZUuAgq8fSH8",
