@@ -1,18 +1,18 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-28 00:01 (Asia/Seoul)
+> Updated: 2026-10-28 18:01 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1913
+- total_urls: 1916
 - S: 249
-- A: 896
-- B: 383
+- A: 897
+- B: 385
 - BLOCK: 385
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
-| youtube.com | 299 | B:299 |
+| youtube.com | 301 | B:301 |
 | marieclairekorea.com | 126 | A:126 |
 | kstar.kbs.co.kr | 120 | S:120 |
 | google.com | 92 | BLOCK:92 |
@@ -41,7 +41,7 @@
 | yna.co.kr | 17 | A:17 |
 | netflix.com | 17 | S:17 |
 | disneyplus.com | 14 | S:14 |
-| mydaily.co.kr | 14 | A:14 |
+| sportschosun.com | 14 | A:14 |
 
 ## Policy
 - S/A 출처는 자동 반영 후보입니다.
