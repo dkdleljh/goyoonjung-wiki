@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T15:00:33+09:00",
+  "checked_at": "2026-10-29T15:10:30+09:00",
   "status": "failed",
   "sources": [
     {
@@ -22,9 +22,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-29T13:40:30+09:00",
+      "checked_at": "2026-10-29T15:10:30+09:00",
       "last_success": "2026-10-18T17:45:24+09:00",
-      "consecutive_failures": 159
+      "consecutive_failures": 160
     },
     {
       "name": "Harper’s BAZAAR Korea",
@@ -34,9 +34,9 @@
       "error": "Search result container has no article links",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-29T13:40:30+09:00",
+      "checked_at": "2026-10-29T15:10:30+09:00",
       "last_success": "2026-10-18T22:25:25+09:00",
-      "consecutive_failures": 156
+      "consecutive_failures": 157
     },
     {
       "name": "GQ Korea",
@@ -106,9 +106,9 @@
       "error": "Invalid magazine search response",
       "kind": "parse",
       "retryable": false,
-      "checked_at": "2026-10-29T13:40:30+09:00",
+      "checked_at": "2026-10-29T15:10:30+09:00",
       "last_success": "2026-10-18T18:55:25+09:00",
-      "consecutive_failures": 153
+      "consecutive_failures": 154
     },
     {
       "name": "Singles",
