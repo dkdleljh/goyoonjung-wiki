@@ -526,7 +526,7 @@
 - 매체: 마리떼 프랑소와 저버 (MARITHÉ FRANÇOIS GIRBAUD)
 - 구분: 화보/캠페인
 - 제목: 고윤정, 확신의 겨울 쿨톤[화보]
-- 링크(원문): https://news.nate.com/view/20231026n28152
+- 링크(원문): https://news.nate.com/view/20231026n28152 <!-- Broken/404: 2026-10-30 -->
 - 상태: 공식확정
 - id: https://news.nate.com/view/20231026n28152
 - 비고: 2023 겨울 캠페인, 'COOL & COMFY' 콘셉트

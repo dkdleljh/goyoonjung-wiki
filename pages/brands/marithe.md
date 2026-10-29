@@ -30,7 +30,7 @@
 
 - ['Autumn Stilled' - 2025 가을 캠페인 화보](https://www.peoplegate.co.kr/2025/09/marithefranois-girbaud-25_10.html)  _(출처: pictorials/editorial.md)_
 
-- [고윤정, 확신의 겨울 쿨톤[화보]](https://news.nate.com/view/20231026n28152)  _(출처: pictorials/editorial.md)_
+- [고윤정, 확신의 겨울 쿨톤[화보]](https://news.nate.com/view/20231026n28152)  _(출처: pictorials/editorial.md)_ <!-- Broken/404: 2026-10-30 -->
 
 - [고윤정, 사랑스러운 매력 뽐내는 화보 공개](https://fashionseoul.com/224549)  _(출처: pictorials/editorial.md)_
 
