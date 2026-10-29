@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T15:25:22+09:00",
+  "checked_at": "2026-10-29T15:30:22+09:00",
   "status": "failed",
   "sources": [
     {
@@ -11,8 +11,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -24,8 +24,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -37,8 +37,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -50,8 +50,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -63,8 +63,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -76,24 +76,22 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "JTBC",
       "url": "https://tv.jtbc.co.kr/",
       "scope": "official search + original page",
-      "status": "failed",
-      "fetched": 0,
+      "status": "success",
+      "fetched": 1,
       "index_checked": true,
-      "matched": 0,
-      "warnings": [
-        "https://tv.jtbc.co.kr/wearealltryinghere: HTTPSConnectionPool(host='tv.jtbc.co.kr', port=443): Max retries exceeded with url: /wearealltryingh"
-      ],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:20:25+09:00",
-      "consecutive_failures": 1
+      "matched": 1,
+      "warnings": [],
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "CJ ENM",
@@ -104,8 +102,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -119,9 +117,9 @@
       "warnings": [
         "Index unavailable: HTTP 403"
       ],
-      "checked_at": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
       "last_success": null,
-      "consecutive_failures": 3126
+      "consecutive_failures": 3127
     },
     {
       "name": "Boucheron",
@@ -134,9 +132,9 @@
       "warnings": [
         "Index unavailable: HTTP 403"
       ],
-      "checked_at": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
       "last_success": null,
-      "consecutive_failures": 3126
+      "consecutive_failures": 3127
     },
     {
       "name": "Goodal",
@@ -147,8 +145,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -160,8 +158,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-10-29T15:25:22+09:00",
-      "last_success": "2026-10-29T15:25:22+09:00",
+      "checked_at": "2026-10-29T15:30:22+09:00",
+      "last_success": "2026-10-29T15:30:22+09:00",
       "consecutive_failures": 0
     }
   ]
