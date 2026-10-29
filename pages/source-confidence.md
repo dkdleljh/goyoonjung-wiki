@@ -1,22 +1,22 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-29 06:01 (Asia/Seoul)
+> Updated: 2026-10-30 00:01 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1920
+- total_urls: 1930
 - S: 249
-- A: 897
-- B: 389
+- A: 904
+- B: 392
 - BLOCK: 385
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
-| youtube.com | 305 | B:305 |
+| youtube.com | 308 | B:308 |
 | marieclairekorea.com | 126 | A:126 |
 | kstar.kbs.co.kr | 120 | S:120 |
+| harpersbazaar.co.kr | 94 | A:94 |
 | google.com | 92 | BLOCK:92 |
-| harpersbazaar.co.kr | 90 | A:90 |
 | elle.co.kr | 85 | A:85 |
 | maa.co.kr | 72 | BLOCK:72 |
 | vogue.co.kr | 67 | A:67 |
@@ -40,8 +40,8 @@
 | tv.jtbc.co.kr | 18 | A:18 |
 | yna.co.kr | 17 | A:17 |
 | netflix.com | 17 | S:17 |
+| sportschosun.com | 16 | A:16 |
 | disneyplus.com | 14 | S:14 |
-| sportschosun.com | 14 | A:14 |
 
 ## Policy
 - S/A 출처는 자동 반영 후보입니다.
