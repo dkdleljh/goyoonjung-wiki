@@ -6238,5 +6238,29 @@
       "last_modified": null,
       "first_seen": "2026-10-28T07:00:22.160781+00:00"
     }
+  },
+  "https://www.harpersbazaar.co.kr/article/1912217": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-29T00:30:20.396657+00:00",
+    "first_seen_at": "2026-10-29 00:25:10",
+    "next_check": "2026-11-05T00:30:20.396657+00:00",
+    "metadata": {
+      "id": "5cce3ea3e823310c0e5108f9",
+      "url": "https://www.harpersbazaar.co.kr/article/1912217",
+      "publisher": "harpersbazaar.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": " 고윤정의 알고리즘엔 뭐가 뜰까?",
+      "published_at": "2026-10-29T09:22:11+09:00",
+      "collected_at": "2026-10-29T00:30:21.000809+00:00",
+      "content_hash": "43c4bb02946662e61eac57d35661fceca8162bccb1cd015575fc07e958ad6100",
+      "excerpt": "다섯 가지 키워드로 이야기 나눈 '고윤정의 요즘' ",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-29T00:30:21.000809+00:00"
+    }
   }
 }

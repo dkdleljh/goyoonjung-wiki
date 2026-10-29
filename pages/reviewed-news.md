@@ -238,3 +238,4 @@
 - [고윤정, 가장 순수하고 빛나는 순간 │ 하퍼스 바자 코리아](https://www.harpersbazaar.co.kr/look/1911869) · harpersbazaar.co.kr · 내용은 원문 보도 기준
 - [고윤정, 가장 순수하고 빛나는 순간](https://www.harpersbazaar.co.kr/article/1911869) · Harper’s BAZAAR Korea · 내용은 원문 보도 기준
 - [눈썹만 따로 논다면…윈터·레이·고윤정의 ‘연한 눈썹’ 메이크업](https://www.sportschosun.com/ext/2026-10-28/202610280100179890012020) · 스포츠조선 · 내용은 원문 보도 기준
+- [ 고윤정의 알고리즘엔 뭐가 뜰까?](https://www.harpersbazaar.co.kr/article/1912217) · 하퍼스 바자 코리아 · 내용은 원문 보도 기준
