@@ -1,20 +1,20 @@
 {
   "auto_collect_google_news.py": {
-    "last_attempt": 1793316608.070639,
+    "last_attempt": 1793316907.8012545,
     "returncode": 0,
-    "last_success": 1793316610.3544598,
+    "last_success": 1793316909.2783232,
     "crashed": false
   },
   "auto_collect_youtube_feeds.py": {
-    "last_attempt": 1793316610.3590298,
+    "last_attempt": 1793316909.2898788,
     "returncode": 0,
-    "last_success": 1793316614.2024822,
+    "last_success": 1793316910.9706316,
     "crashed": false
   },
   "auto_collect_google_news_sites.py": {
-    "last_attempt": 1793316022.749737,
+    "last_attempt": 1793316924.819305,
     "returncode": 0,
-    "last_success": 1793316026.1398458,
+    "last_success": 1793316927.9499009,
     "crashed": false
   },
   "auto_collect_google_news_queries.py": {
@@ -24,7 +24,7 @@
     "crashed": false
   },
   "official_evidence.py": {
-    "last_attempt": 1793316614.21009,
+    "last_attempt": 1793316910.9771135,
     "returncode": 1,
     "crashed": false
   },
@@ -47,8 +47,8 @@
     "crashed": false
   },
   "archive_backfill.py": {
-    "last_attempt": 1793313321.4641912,
-    "returncode": 0,
+    "last_attempt": 1793316920.2048426,
+    "returncode": 1,
     "last_success": 1793313323.003124,
     "crashed": false
   },
