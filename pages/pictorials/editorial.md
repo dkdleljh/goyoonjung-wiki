@@ -1712,3 +1712,11 @@
 - 링크(원문): https://www.harpersbazaar.co.kr/article/1912217
 - 상태: 원문 메타데이터 수집
 - id: https://www.harpersbazaar.co.kr/article/1912217
+
+- 날짜: (페이지 내 표기 확인 필요)
+- 매체: Harper’s BAZAAR Korea
+- 구분: 화보/기사(공식 출처)
+- 제목: 고윤정, 차정원, 손나은처럼! 지금 입기 좋은 워크 재킷 5
+- 링크(원문): https://www.harpersbazaar.co.kr/article/1912108
+- 상태: 원문 메타데이터 수집
+- id: https://www.harpersbazaar.co.kr/article/1912108
