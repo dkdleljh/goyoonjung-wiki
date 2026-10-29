@@ -241,3 +241,4 @@
 - [ 고윤정의 알고리즘엔 뭐가 뜰까?](https://www.harpersbazaar.co.kr/article/1912217) · 하퍼스 바자 코리아 · 내용은 원문 보도 기준
 - [고윤정, 차정원, 손나은처럼! 지금 입기 좋은 워크 재킷 5](https://www.harpersbazaar.co.kr/article/1912108) · Harper’s BAZAAR Korea · 내용은 원문 보도 기준
 - [고윤정, ‘무빙2’ 촬영 근황 공개…“오랜만에 희수 만나”](https://sports.donga.com/ent/article/all/20261029/134931718/1) · 스포츠동아 · 내용은 원문 보도 기준
+- [［청룡랭킹］ 아이유, 9월 여자 배우부문 1위…고윤정 제치고 정상 올라](https://www.sportschosun.com/entertainment/2026-10-29/202610290100189100012998) · WORKS · 내용은 원문 보도 기준
