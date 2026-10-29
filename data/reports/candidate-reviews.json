@@ -5425,9 +5425,9 @@
   },
   "https://www.marieclairekorea.com/beauty/2026/10/the-crush-night": {
     "status": "metadata_verified",
-    "checked_at": "2026-10-22T01:25:33.225802+00:00",
+    "checked_at": "2026-10-29T01:35:25.928872+00:00",
     "first_seen_at": "2026-10-22 01:10:10",
-    "next_check": "2026-10-29T01:25:33.225802+00:00",
+    "next_check": "2026-11-05T01:35:25.928872+00:00",
     "metadata": {
       "id": "8f983e6cefced51b610299cd",
       "url": "https://www.marieclairekorea.com/beauty/2026/10/the-crush-night",
@@ -5436,8 +5436,8 @@
       "first_party": false,
       "title": "파리 르 트리아농에서 열린 '코코 마드모아젤' 파티에 참석한 고윤정 화보",
       "published_at": "2026-10-22T01:04:00+00:00",
-      "collected_at": "2026-10-22T01:25:33.815396+00:00",
-      "content_hash": "8d1bb3ebb14c68ee8cb13503b5da17871c6fe7f08fdfc0c1f81ee0c2cf0033d3",
+      "collected_at": "2026-10-29T01:35:27.203247+00:00",
+      "content_hash": "4479f398976f90e47d91058aa8cea42d80f122822a9b96807b9c4a22a6437640",
       "excerpt": "파리의 밤, 익숙한 듯 낯선 향이 퍼지기 시작했다. 코코 마드모아젤 크러쉬 압솔뤼의 탄생을 기념한 르 트리아농의 뜨거운 밤, 그 중심에서 포착한 고윤정의 자유롭고 매혹적인 순간. ",
       "actor_mentioned": true,
       "claims": [],
@@ -6261,6 +6261,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-10-29T00:30:21.000809+00:00"
+    }
+  },
+  "https://www.harpersbazaar.co.kr/article/1912108": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-29T01:35:25.928872+00:00",
+    "first_seen_at": "2026-10-29 01:20:30",
+    "next_check": "2026-11-05T01:35:25.928872+00:00",
+    "metadata": {
+      "id": "b6964690a6de3f79ce4de71a",
+      "url": "https://www.harpersbazaar.co.kr/article/1912108",
+      "publisher": "harpersbazaar.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "고윤정, 차정원, 손나은처럼! 지금 입기 좋은 워크 재킷 5",
+      "published_at": "2026-10-29T10:12:16+09:00",
+      "collected_at": "2026-10-29T01:35:26.627256+00:00",
+      "content_hash": "0470f7a5d14ded7d9e3bcae771ecffd8c58f1e2fcd565eb7fb6994ba60d19408",
+      "excerpt": "투박한 디자인부터 경쾌한 컬러까지, 가을 아우터 '워크 재킷'을 색다르게 즐기는 방법.",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-29T01:35:26.627256+00:00"
     }
   }
 }
