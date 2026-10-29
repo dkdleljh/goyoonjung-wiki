@@ -1,40 +1,40 @@
 {
   "kind": "fast",
   "executor": "primary",
-  "started_at": "2026-10-29T14:10:08.214626+00:00",
-  "timestamp": "2026-10-29T14:10:39.160139+00:00",
-  "duration_seconds": 30.95,
+  "started_at": "2026-10-29T14:15:07.940984+00:00",
+  "timestamp": "2026-10-29T14:15:28.135407+00:00",
+  "duration_seconds": 20.19,
   "status": "partial",
   "steps": [
     {
       "name": "auto_collect_google_news.py",
       "returncode": 0,
       "crashed": false,
-      "duration_seconds": 1.53
+      "duration_seconds": 1.74
     },
     {
       "name": "auto_collect_youtube_feeds.py",
       "returncode": 0,
       "crashed": false,
-      "duration_seconds": 1.44
+      "duration_seconds": 1.49
     },
     {
       "name": "official_evidence.py",
       "returncode": 1,
       "crashed": false,
-      "duration_seconds": 8.39
+      "duration_seconds": 9.24
     },
     {
-      "name": "auto_collect_magazine_rss.py",
+      "name": "auto_collect_google_news_queries_i18n.py",
       "returncode": 0,
       "crashed": false,
-      "duration_seconds": 4.67
+      "duration_seconds": 2.39
     },
     {
-      "name": "check_links.py",
-      "returncode": 1,
+      "name": "auto_collect_google_news_sites.py",
+      "returncode": 0,
       "crashed": false,
-      "duration_seconds": 12.37
+      "duration_seconds": 2.79
     },
     {
       "name": "sync_media_watch_sources.py",
