@@ -28,7 +28,7 @@
 - 2026-03-04 · [고윤정이 전하는 봄날의 속삭임](https://www.wkorea.com/2026/03/04/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%a0%84%ed%95%98%eb%8a%94-%eb%b4%84%eb%82%a0%ec%9d%98-%ec%86%8d%ec%82%ad%ec%9e%84/)
 - 2026-03-03 · [고윤정, 더블유 디지털 커버](https://www.wkorea.com/2026/03/03/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84/)
 - 2026-03-01 · [강민경, 고윤정 같은 여성스러움을 원한다면? 'ㅇㅇ'부터 바꿔 보세요!](https://www.allurekorea.com/2026/03/01/%ea%b0%95%eb%af%bc%ea%b2%bd-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b0%99%ec%9d%80-%ec%97%ac%ec%84%b1%ec%8a%a4%eb%9f%ac%ec%9b%80%ec%9d%84-%ec%9b%90%ed%95%9c%eb%8b%a4%eb%a9%b4-%e3%85%87%e3%85%87%eb%b6%80/)
-- 2026-02-27 · [디디에 두보 2026 SS 시그니처 디 캠페인](https://news.nate.com/view/20260227n09186)
+- 2026-02-27 · [디디에 두보 2026 SS 시그니처 디 캠페인](https://news.nate.com/view/20260227n09186) <!-- Broken/404: 2026-10-31 -->
 - 2026-02-18 · [AI보다 더 AI 같다! 고윤정, 카리나 메이크업 평행이론](https://www.allurekorea.com/2026/02/18/ai%eb%b3%b4%eb%8b%a4-%eb%8d%94-ai-%ea%b0%99%eb%8b%a4-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ec%b9%b4%eb%a6%ac%eb%82%98-%eb%a9%94%ec%9d%b4%ed%81%ac%ec%97%85-%ed%8f%89%ed%96%89%ec%9d%b4%eb%a1%a0/)
 - 2026-02-11 · [Within Spring - 2026 봄 캠페인 화보](https://theviewers.co.kr/View.aspx?No=3972476)
 - 2026-01-28 · [163cm 고윤정의 키 커 보이는 데일리 룩](https://www.wkorea.com/2026/01/28/163cm-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ed%82%a4-%ec%bb%a4-%eb%b3%b4%ec%9d%b4%eb%8a%94-%eb%8d%b0%ec%9d%bc%eb%a6%ac-%eb%a3%a9/)

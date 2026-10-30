@@ -27,7 +27,7 @@
 | pages/endorsements/beauty.md | youtu.be | record_evidence | - 려(RYO) 공식 캠페인(YouTube): https://youtu.be/dmS_nEQYv2I |
 | pages/endorsements/beauty.md | rataplan.co.kr | record_evidence | - 라타플랑(RATAPLAN) 공식 공지: https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157 |
 | pages/endorsements/by-year.md | yna.co.kr | record_evidence | - [내셔널지오그래픽 어패럴](https://www.yna.co.kr/amp/view/AKR20260923185000030) — 모델/캠페인 출연 |
-| pages/endorsements/by-year.md | news.nate.com | record_evidence | - [디디에 두보](https://news.nate.com/view/20260227n09186) — 모델/캠페인 출연 |
+| pages/endorsements/by-year.md | news.nate.com | record_evidence | - [디디에 두보](https://news.nate.com/view/20260227n09186) — 모델/캠페인 출연 | <!-- Broken/404: 2026-10-31 -->
 | pages/endorsements/by-year.md | lawissue.co.kr | record_evidence | - [젝시믹스](https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12) — 모델/캠페인 출연 |
 | pages/endorsements/by-year.md | news.nate.com | record_evidence | - [디디에 두보(DIDIER DUBOT)](https://news.nate.com/view/20250825n17937) — 모델 |
 | pages/endorsements/by-year.md | sisaon.co.kr | record_evidence | - [한화손해보험](https://www.sisaon.co.kr/news/articleView.html?idxno=175918) — 브랜드 전속모델 |
@@ -68,8 +68,8 @@
 | pages/endorsements/fashion.md | lawissue.co.kr | record_evidence | - id: https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12 |
 | pages/endorsements/fashion.md | yna.co.kr | record_evidence | - 링크(공식 발표): https://www.yna.co.kr/amp/view/AKR20260923185000030 |
 | pages/endorsements/fashion.md | yna.co.kr | record_evidence | - id: https://www.yna.co.kr/amp/view/AKR20260923185000030 |
-| pages/endorsements/fashion.md | news.nate.com | record_evidence | - 링크(공식 발표): https://news.nate.com/view/20260227n09186 |
-| pages/endorsements/fashion.md | news.nate.com | record_evidence | - id: https://news.nate.com/view/20260227n09186 |
+| pages/endorsements/fashion.md | news.nate.com | record_evidence | - 링크(공식 발표): https://news.nate.com/view/20260227n09186 | <!-- Broken/404: 2026-10-31 -->
+| pages/endorsements/fashion.md | news.nate.com | record_evidence | - id: https://news.nate.com/view/20260227n09186 | <!-- Broken/404: 2026-10-31 -->
 | pages/endorsements/lifestyle.md | sisaon.co.kr | record_evidence | - 링크(공식 발표): https://www.sisaon.co.kr/news/articleView.html?idxno=175918 |
 | pages/endorsements/lifestyle.md | sisaon.co.kr | record_evidence | - id: https://www.sisaon.co.kr/news/articleView.html?idxno=175918 |
 | pages/endorsements/lifestyle.md | youtu.be | record_evidence | - 링크(공식 발표): https://youtu.be/jXCnrLQJfzE (자동: 공식 채널 게시물로 대체) |

@@ -7,7 +7,7 @@
 
 ## 2026
 - [내셔널지오그래픽 어패럴](https://www.yna.co.kr/amp/view/AKR20260923185000030) — 모델/캠페인 출연
-- [디디에 두보](https://news.nate.com/view/20260227n09186) — 모델/캠페인 출연
+- [디디에 두보](https://news.nate.com/view/20260227n09186) — 모델/캠페인 출연 <!-- Broken/404: 2026-10-31 -->
 - [젝시믹스](https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12) — 모델/캠페인 출연
 
 ## 2025
