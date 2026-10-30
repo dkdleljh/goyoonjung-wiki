@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T10:20:14+09:00",
+  "checked_at": "2026-10-30T10:25:14+09:00",
   "status": "success",
   "sources": [
     {
@@ -12,8 +12,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -26,8 +26,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -37,30 +37,36 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "MBCdrama",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBAEVMr0li9YYF8IwZHfusw",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UUBAEVMr0li9YYF8IwZHfusw",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 70,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "SBSNOW",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -73,8 +79,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -87,8 +93,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -101,36 +107,30 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "tvN DRAMA",
-      "url": "https://www.youtube.com/playlist?list=UU9w-h_ciMmX64TcLRcb1xPg",
-      "scope": "recent_uploads_playlist",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9w-h_ciMmX64TcLRcb1xPg",
+      "scope": "recent_uploads_feed",
       "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
-      ],
+      "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "JTBC Drama",
-      "url": "https://www.youtube.com/playlist?list=UUkbJc8jMcTXwhtmN5VMwfXg",
-      "scope": "recent_uploads_playlist",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg",
+      "scope": "recent_uploads_feed",
       "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
-      ],
+      "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -143,8 +143,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -157,8 +157,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T10:20:14+09:00",
-      "last_success": "2026-10-30T10:20:14+09:00",
+      "checked_at": "2026-10-30T10:25:14+09:00",
+      "last_success": "2026-10-30T10:25:14+09:00",
       "consecutive_failures": 0
     }
   ]
