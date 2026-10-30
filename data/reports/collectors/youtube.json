@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-30T12:05:16+09:00",
-  "status": "success",
+  "checked_at": "2026-10-30T12:10:16+09:00",
+  "status": "failed",
   "sources": [
     {
       "name": "채널십오야",
@@ -12,22 +12,19 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "tvN Joy",
-      "url": "https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw",
-      "scope": "recent_uploads_playlist",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw",
+      "scope": "recent_uploads_feed",
       "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
-      ],
+      "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -40,8 +37,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -54,8 +51,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -68,8 +65,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -82,8 +79,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -96,36 +93,32 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "DisneyPlusKR",
-      "url": "https://www.youtube.com/playlist?list=UUtdz9LWNNQKUg4Xpma_40Ug",
-      "scope": "recent_uploads_playlist",
-      "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
-      ],
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtdz9LWNNQKUg4Xpma_40Ug",
+      "scope": "recent_uploads_feed",
+      "status": "failed",
+      "error": "RSS: HTTP 404; uploads playlist: Public uploads data missing; consent/error page is not success",
+      "kind": "parse",
+      "retryable": false,
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
       "last_success": "2026-10-30T12:05:16+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "tvN DRAMA",
-      "url": "https://www.youtube.com/playlist?list=UU9w-h_ciMmX64TcLRcb1xPg",
-      "scope": "recent_uploads_playlist",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9w-h_ciMmX64TcLRcb1xPg",
+      "scope": "recent_uploads_feed",
       "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
-      ],
+      "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -135,11 +128,11 @@
       "status": "success",
       "fetched": 100,
       "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+        "RSS unavailable: HTTP 500; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
@@ -152,22 +145,19 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "TEO",
-      "url": "https://www.youtube.com/playlist?list=UU-uIpGINZDL-VIHQQzJW8jw",
-      "scope": "recent_uploads_playlist",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-uIpGINZDL-VIHQQzJW8jw",
+      "scope": "recent_uploads_feed",
       "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
-      ],
+      "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-10-30T12:05:16+09:00",
-      "last_success": "2026-10-30T12:05:16+09:00",
+      "checked_at": "2026-10-30T12:10:16+09:00",
+      "last_success": "2026-10-30T12:10:16+09:00",
       "consecutive_failures": 0
     }
   ]
