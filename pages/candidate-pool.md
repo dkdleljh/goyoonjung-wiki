@@ -1,10 +1,12 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-30 00:01 (Asia/Seoul)
+> Updated: 2026-10-30 12:01 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-30 · grade=B · YOUTUBE_CLIPS · [나무위키 허위 사실에 해명하다 고장 난 고윤정 #고윤정 - YouTube](https://www.youtube.com/watch?v=F_iZ0ILHW5U)
+- 2026-10-29 · grade=B · YOUTUBE_CLIPS · [김태호 채널에서 나영석 찾는 고윤정ㅋㅋ - YouTube](https://www.youtube.com/watch?v=LQejwRK2GG4)
 - 2026-10-29 · grade=B · YOUTUBE_CLIPS · [카메라만 보면 떨린다더니 선배한텐 팩폭하는 고윤정 #고윤정 - YouTube](https://www.youtube.com/watch?v=fh4F-2ZWSkE)
 - 2026-10-28 · grade=B · YOUTUBE_CLIPS · [약속 취소 이야기하다 장도연 질문에 고장 난 고윤정ㅋㅋ - YouTube](https://www.youtube.com/watch?v=GYBQ92_d4JU)
 - 2026-10-28 · grade=B · YOUTUBE_CLIPS · ['고윤정 사랑해' 외치던 제나, 3달 뒤 진짜 만남ㅋㅋ #리센느 #RESCENE #안원잘부 - YouTube](https://www.youtube.com/watch?v=e7rCIazxSr8)
