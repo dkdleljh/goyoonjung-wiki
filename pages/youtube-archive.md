@@ -81,3 +81,4 @@
 - [YouTube/MBCentertainment] [［마니또 클럽］ 밥 먹다 말고 출동하는 소방대원들🥲 남은 두쫀슈 먹어서 처리하는 고윤정, MBC 260322 방송](https://www.youtube.com/watch?v=lHlTTje9uZI) · 과거 업로드, 게시일 확인 필요
 - [YouTube/MBCentertainment] [［마니또 클럽 8회 선공개］ 두쫀슈 제조 시작👩‍🍳 8쫀슈 완성하고 긴장 풀린 고윤정, MBC 260322 방송](https://www.youtube.com/watch?v=QBNUkgPXfyE) · 과거 업로드, 게시일 확인 필요
 - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 본격 두쫀슈 제조 들어간 고윤정👩‍🍳 윤남노에게 SOS 보낸 정해인, MBC 260322 방송](https://www.youtube.com/watch?v=FwpMRyEFToY) · 과거 업로드, 게시일 확인 필요
+- [YouTube/TEO] [［SUB］ 윤정아 너 내 동료가 돼라 승룡아 너 내 도도독 | EP.3 무빙 류승룡&고윤정 | 살롱드립2](https://www.youtube.com/watch?v=TEhBx4JI6RU) · 과거 업로드, 게시일 확인 필요
