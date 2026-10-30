@@ -11,7 +11,7 @@
 | avg_execution_seconds | 28.21 |
 | execution_p95_seconds | 41.75 |
 | fast_run_success_percent | 0.0 |
-| oldest_source_success_age_minutes | 144.8 |
+| oldest_source_success_age_minutes | 149.5 |
 | monitored_sources | 78 |
 | recall | 미측정 |
 | precision | 미측정 |
