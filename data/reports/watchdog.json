@@ -10,7 +10,7 @@
     [
       "check_automation_health",
       "WARN",
-      "\"2026-10-27T18:00:00+09:00\",\n  \"age_hours\": 0.05,\n  \"source\": \"news/2026-10-27.md\",\n  \"recorded_result\": \"running\",\n  \"reason\": \"auto: daily update running\",\n  \"max_age_hours\": 8\n}"
+      "\"2026-10-30T18:00:00+09:00\",\n  \"age_hours\": 0.05,\n  \"source\": \"news/2026-10-30.md\",\n  \"recorded_result\": \"running\",\n  \"reason\": \"auto: daily update running\",\n  \"max_age_hours\": 8\n}"
     ]
   ]
 }

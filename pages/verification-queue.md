@@ -2,7 +2,7 @@
 
 > 목적: 공식 근거 확인이 필요한 항목을 우선순위로 처리하기 위한 큐
 
-- total_items: 239
+- total_items: 245
 
 ## Items
 - [pages/appearances.md:157] - 날짜: (페이지 내 표기 확인 필요)
@@ -166,6 +166,8 @@
 - [pages/pictorials/editorial.md:1684] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:1692] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/pictorials/editorial.md:1700] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:1708] - 날짜: (페이지 내 표기 확인 필요)
+- [pages/pictorials/editorial.md:1716] - 날짜: (페이지 내 표기 확인 필요)
 - [pages/profile.md:51] - 상태: 검증불가(공식 근거 미확보)
 - [pages/profile.md:58] - 상태: 검증불가(공식 근거 미확보)
 - [pages/sns.md:14] - 상태: **미확정(교차확인 필요)**
@@ -244,3 +246,7 @@
 - [pages/youtube-archive.md:77] - [YouTube/JTBC Drama] [Ko Yoon-jung listens to the old exchange that everyone avoided](https://www.youtube.com/watch?v=ZyYdAJDrfGs) · 과거 업로드, 게시일 확인 필요
 - [pages/youtube-archive.md:78] - [YouTube/JTBC Drama] [Ko Yoon-jung, who is uncomfortable with Koo Kyohwan backstabbing](https://www.youtube.com/watch?v=ETZbmmJZy0o) · 과거 업로드, 게시일 확인 필요
 - [pages/youtube-archive.md:79] - [YouTube/JTBC Drama] [［1회 선공개］ 구교환의 대본을 신랄하게 비판하는 고윤정🔥 ＜모두가 자신의 무가치함과 싸우고 있다＞ 4/18 (토) 밤 10시 40분 방송](https://www.youtube.com/watch?v=D4ts-w2SSoc) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:80] - [YouTube/MBCentertainment] [［마니또 클럽］ 고윤정이 만든 두쫀슈의 맛은?! '매우 만족' 피드백에 기쁜 정해인X고윤정🙌, MBC 260322 방송](https://www.youtube.com/watch?v=PlAhIO7_GJE) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:81] - [YouTube/MBCentertainment] [［마니또 클럽］ 밥 먹다 말고 출동하는 소방대원들🥲 남은 두쫀슈 먹어서 처리하는 고윤정, MBC 260322 방송](https://www.youtube.com/watch?v=lHlTTje9uZI) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:82] - [YouTube/MBCentertainment] [［마니또 클럽 8회 선공개］ 두쫀슈 제조 시작👩‍🍳 8쫀슈 완성하고 긴장 풀린 고윤정, MBC 260322 방송](https://www.youtube.com/watch?v=QBNUkgPXfyE) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:83] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 본격 두쫀슈 제조 들어간 고윤정👩‍🍳 윤남노에게 SOS 보낸 정해인, MBC 260322 방송](https://www.youtube.com/watch?v=FwpMRyEFToY) · 과거 업로드, 게시일 확인 필요

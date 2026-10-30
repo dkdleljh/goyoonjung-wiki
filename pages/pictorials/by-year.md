@@ -99,7 +99,7 @@
 - 2024 · [푸라닭 광고 영상](https://youtu.be/NdogLAtlyys)
 
 ## 2023
-- 2023-10-26 · [고윤정, 확신의 겨울 쿨톤[화보]](https://news.nate.com/view/20231026n28152) <!-- Broken/404: 2026-10-30 -->
+- 2023-10-26 · [고윤정, 확신의 겨울 쿨톤[화보]](https://news.nate.com/view/20231026n28152)
 - 2023-09-22 · [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)
 - 2023-09-20 · [고윤정, 의사된다](https://www.marieclairekorea.com/culture/lifestyle/2023/09/goyj/)
 - 2023-08-21 · [순정 만화만큼 설레는 무빙의 봉석이와 희수, 이정하와 고윤정!](https://www.allurekorea.com/2023/08/21/__trashed-11-2/)
