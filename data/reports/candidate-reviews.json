@@ -5593,9 +5593,9 @@
   },
   "https://www.mydaily.co.kr/page/view/2026102317530678529": {
     "status": "metadata_verified",
-    "checked_at": "2026-10-23T09:45:33.728786+00:00",
+    "checked_at": "2026-10-30T09:50:19.716582+00:00",
     "first_seen_at": "2026-10-23 09:40:10",
-    "next_check": "2026-10-30T09:45:33.728786+00:00",
+    "next_check": "2026-11-06T09:50:19.716582+00:00",
     "metadata": {
       "id": "57035b9bca947ccaed01e2be",
       "url": "https://www.mydaily.co.kr/page/view/2026102317530678529",
@@ -5604,8 +5604,8 @@
       "first_party": false,
       "title": "박소담&middot;고윤정, 서인국과 낮부터 밤까지 데이트&hellip;&quot;갈비뼈 아플 정도&quot;",
       "published_at": null,
-      "collected_at": "2026-10-23T09:45:34.256963+00:00",
-      "content_hash": "156e4f0555f224ed858bab314405047a7d8d9d73fe29ab5f4dde9138541e48b4",
+      "collected_at": "2026-10-30T09:50:21.654287+00:00",
+      "content_hash": "3b543ce780d2ce43c5fc017fadaccf1694f4270b8c1a7716a23de8c08f568841",
       "excerpt": "박소담이 서인국, 고윤정과 함께 보낸 특별한 하루를 공개하며...",
       "actor_mentioned": true,
       "claims": [],
@@ -6357,6 +6357,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-10-29T08:45:24.703392+00:00"
+    }
+  },
+  "https://en.sedaily.com/technology/2026/10/30/disney-launches-7000-won-ad-tier-to-escape-last-place-in": {
+    "status": "irrelevant",
+    "checked_at": "2026-10-30T09:50:19.716582+00:00",
+    "first_seen_at": "2026-10-30 09:45:22",
+    "next_check": "2026-11-06T09:50:19.716582+00:00",
+    "metadata": {
+      "id": "a0ac6f7033ee12312f1914cb",
+      "url": "https://en.sedaily.com/technology/2026/10/30/disney-launches-7000-won-ad-tier-to-escape-last-place-in",
+      "publisher": "en.sedaily.com",
+      "category": "news",
+      "first_party": false,
+      "title": "Disney+ Launches 7,000-Won Ad Tier to Escape Last Place in Korea",
+      "published_at": "2026-10-30T18:05:19+09:00",
+      "collected_at": "2026-10-30T09:50:21.179076+00:00",
+      "content_hash": "7f72f2114a34f39ac52fe59037bddd330fb11399376773361a8373640df05d76",
+      "excerpt": "Disney+ is launching a 7,000-won ad-supported plan in Korea, half the price of its premium tier, as it tries to shed last place in users.",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-10-30T09:50:21.179076+00:00"
     }
   }
 }
