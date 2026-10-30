@@ -58,7 +58,7 @@
 - 2025-09-02 · [샤넬의 컬러를 입은 고윤정의 몽환적인 뷰티 화보 #2](https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-2/)
 - 2025-09-01 · [샤넬의 컬러를 입은 고윤정의 몽환적인 뷰티 화보 #1](https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-1/)
 - 2025-08-29 · [샤넬과 만난 신비로운 고윤정의 모습으로 채운 마리끌레르 9월호 디지털 커버](https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/)
-- 2025-08-25 · [대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]](https://news.nate.com/view/20250825n17937)
+- 2025-08-25 · [대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]](https://news.nate.com/view/20250825n17937) <!-- Broken/404: 2026-10-31 -->
 - 2025-06-17 · [고윤정, '하퍼스 바자' 7월호 커버 장식](https://www.harpersbazaar.co.kr/article/1883281)
 - 2025-05-26 · [Go ZERO, Now ZERO](https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/)
 - 2025-05-21 · [<언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=363033)

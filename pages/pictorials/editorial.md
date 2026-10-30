@@ -258,7 +258,7 @@
 - 매체: 디디에 두보 (DIDIER DUBOT)
 - 구분: 화보/캠페인
 - 제목: 대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]
-- 링크(원문): https://news.nate.com/view/20250825n17937
+- 링크(원문): https://news.nate.com/view/20250825n17937 <!-- Broken/404: 2026-10-31 -->
 - 상태: 공식확정
 - id: https://news.nate.com/view/20250825n17937
 - 비고: 2025 FW '듀얼 디디(Dual D.D) 컬렉션' 광고 캠페인

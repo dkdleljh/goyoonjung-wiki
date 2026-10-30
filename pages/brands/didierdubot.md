@@ -19,5 +19,5 @@
 
 ## 관련 링크(자동 후보)
 
-- [대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]](https://news.nate.com/view/20250825n17937)  _(출처: endorsements/fashion.md)_
+- [대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]](https://news.nate.com/view/20250825n17937)  _(출처: endorsements/fashion.md)_ <!-- Broken/404: 2026-10-31 -->
 <!-- AUTO-CANDIDATES:END -->
