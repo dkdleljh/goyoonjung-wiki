@@ -1,18 +1,18 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-10-31 00:01 (Asia/Seoul)
+> Updated: 2026-10-31 12:01 (Asia/Seoul)
 
 ## Summary
-- total_urls: 1942
+- total_urls: 1957
 - S: 249
 - A: 904
-- B: 404
-- BLOCK: 385
+- B: 418
+- BLOCK: 386
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
-| youtube.com | 320 | B:320 |
+| youtube.com | 334 | B:334 |
 | marieclairekorea.com | 126 | A:126 |
 | kstar.kbs.co.kr | 120 | S:120 |
 | harpersbazaar.co.kr | 94 | A:94 |
@@ -34,9 +34,9 @@
 | esquirekorea.co.kr | 21 | A:21 |
 | instagram.com | 20 | B:20 |
 | chosun.com | 20 | A:20 |
+| news.nate.com | 19 | BLOCK:19 |
 | allurekorea.com | 19 | A:19 |
 | enews.imbc.com | 18 | A:18 |
-| news.nate.com | 18 | BLOCK:18 |
 | tv.jtbc.co.kr | 18 | A:18 |
 | yna.co.kr | 17 | A:17 |
 | netflix.com | 17 | S:17 |
