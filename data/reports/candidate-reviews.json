@@ -6406,5 +6406,29 @@
       "last_modified": null,
       "first_seen": "2026-10-31T21:05:21.145752+00:00"
     }
+  },
+  "https://www.edaily.co.kr/News/Read?newsId=01118486645641456&mediaCodeNo=257": {
+    "status": "metadata_verified",
+    "checked_at": "2026-10-31T22:10:20.839200+00:00",
+    "first_seen_at": "2026-10-31 22:10:09",
+    "next_check": "2026-11-07T22:10:20.839200+00:00",
+    "metadata": {
+      "id": "0b613407f8c316e4368de648",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01118486645641456&mediaCodeNo=257",
+      "publisher": "edaily.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "\"얼굴 보느라 몰랐네\"…어깨까지 내려온 고윤정의 귀걸이[누구템]",
+      "published_at": "2026-11-01T07:07:02+09:00",
+      "collected_at": "2026-10-31T22:10:21.409283+00:00",
+      "content_hash": "c301859a4d439784e18b1edc4f9653255f97fb7d46a1f4cfb66e9ee2d9a06f3f",
+      "excerpt": "배우 고윤정이 귀에서 어깨선까지 길게 늘어지는 독특한 디자인의 귀걸이를 선보여 눈길을 끌었다.   고윤정의 개인 SNS에 게재된 촬영현장 사진과 제품 사진. (사진=고윤정 인스타그램·디디에두보 홈페이지 캡처)고윤정은 지난 9월 28일 자신의 사회관계망서비스(SNS)에...",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": "Sat, 31 Oct 2026 22:10:20 GMT",
+      "first_seen": "2026-10-31T22:10:21.409283+00:00"
+    }
   }
 }
