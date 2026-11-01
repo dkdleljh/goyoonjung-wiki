@@ -112,3 +112,5 @@
 - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 제니X덱스 다음은 정해인X고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=jnqpG3sIEgc) · 과거 업로드, 게시일 확인 필요
 - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 박명수 바로 알아보고 신난 고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=7r45BUVIY6M) · 과거 업로드, 게시일 확인 필요
 - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 모든 게 신기한 예능 새내기 고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=HCf4tjqtJeU) · 과거 업로드, 게시일 확인 필요
+- [YouTube/MBCentertainment] [［마니또 클럽］ 정해인X고윤정, 선물 전달 추격전, MBC 260222 방송](https://www.youtube.com/watch?v=bog8uOI0VlU) · 과거 업로드, 게시일 확인 필요
+- [YouTube/MBCentertainment] [［놀면 뭐하니?］ 박명수 이상형은 고윤정?!😅 바로 경찰서로 향하는 유재석, MBC 260214 방송](https://www.youtube.com/watch?v=jfLoPFMqKuw) · 과거 업로드, 게시일 확인 필요
