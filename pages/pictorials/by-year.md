@@ -28,7 +28,7 @@
 - 2026-03-04 · [고윤정이 전하는 봄날의 속삭임](https://www.wkorea.com/2026/03/04/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%a0%84%ed%95%98%eb%8a%94-%eb%b4%84%eb%82%a0%ec%9d%98-%ec%86%8d%ec%82%ad%ec%9e%84/)
 - 2026-03-03 · [고윤정, 더블유 디지털 커버](https://www.wkorea.com/2026/03/03/%ea%b3%a0%ec%9c%a4%ec%a0%95-%eb%8d%94%eb%b8%94%ec%9c%a0-%eb%94%94%ec%a7%80%ed%84%b8-%ec%bb%a4%eb%b2%84/)
 - 2026-03-01 · [강민경, 고윤정 같은 여성스러움을 원한다면? 'ㅇㅇ'부터 바꿔 보세요!](https://www.allurekorea.com/2026/03/01/%ea%b0%95%eb%af%bc%ea%b2%bd-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ea%b0%99%ec%9d%80-%ec%97%ac%ec%84%b1%ec%8a%a4%eb%9f%ac%ec%9b%80%ec%9d%84-%ec%9b%90%ed%95%9c%eb%8b%a4%eb%a9%b4-%e3%85%87%e3%85%87%eb%b6%80/)
-- 2026-02-27 · [디디에 두보 2026 SS 시그니처 디 캠페인](https://news.nate.com/view/20260227n09186) <!-- Broken/404: 2026-10-31 -->
+- 2026-02-27 · [디디에 두보 2026 SS 시그니처 디 캠페인](https://news.nate.com/view/20260227n09186)
 - 2026-02-18 · [AI보다 더 AI 같다! 고윤정, 카리나 메이크업 평행이론](https://www.allurekorea.com/2026/02/18/ai%eb%b3%b4%eb%8b%a4-%eb%8d%94-ai-%ea%b0%99%eb%8b%a4-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ec%b9%b4%eb%a6%ac%eb%82%98-%eb%a9%94%ec%9d%b4%ed%81%ac%ec%97%85-%ed%8f%89%ed%96%89%ec%9d%b4%eb%a1%a0/)
 - 2026-02-11 · [Within Spring - 2026 봄 캠페인 화보](https://theviewers.co.kr/View.aspx?No=3972476)
 - 2026-01-28 · [163cm 고윤정의 키 커 보이는 데일리 룩](https://www.wkorea.com/2026/01/28/163cm-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%98-%ed%82%a4-%ec%bb%a4-%eb%b3%b4%ec%9d%b4%eb%8a%94-%eb%8d%b0%ec%9d%bc%eb%a6%ac-%eb%a3%a9/)
@@ -58,7 +58,7 @@
 - 2025-09-02 · [샤넬의 컬러를 입은 고윤정의 몽환적인 뷰티 화보 #2](https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-2/)
 - 2025-09-01 · [샤넬의 컬러를 입은 고윤정의 몽환적인 뷰티 화보 #1](https://www.marieclairekorea.com/beauty/2025/09/whisper-of-a-gesture-1/)
 - 2025-08-29 · [샤넬과 만난 신비로운 고윤정의 모습으로 채운 마리끌레르 9월호 디지털 커버](https://www.marieclairekorea.com/beauty/2025/08/chanel-beauty-go-youn-jung/)
-- 2025-08-25 · [대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]](https://news.nate.com/view/20250825n17937) <!-- Broken/404: 2026-10-31 -->
+- 2025-08-25 · [대문자 S라인 드러낸 고윤정, 깊이 있는 우아함의 정수[스타화보]](https://news.nate.com/view/20250825n17937)
 - 2025-06-17 · [고윤정, '하퍼스 바자' 7월호 커버 장식](https://www.harpersbazaar.co.kr/article/1883281)
 - 2025-05-26 · [Go ZERO, Now ZERO](https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/)
 - 2025-05-21 · [<언젠가는 슬기로울 전공의생활> 관련 기사(사진/스틸 포함 가능)](https://kstar.kbs.co.kr/list_view.html?idx=363033)
@@ -99,7 +99,7 @@
 - 2024 · [푸라닭 광고 영상](https://youtu.be/NdogLAtlyys)
 
 ## 2023
-- 2023-10-26 · [고윤정, 확신의 겨울 쿨톤[화보]](https://news.nate.com/view/20231026n28152) <!-- Broken/404: 2026-10-31 -->
+- 2023-10-26 · [고윤정, 확신의 겨울 쿨톤[화보]](https://news.nate.com/view/20231026n28152)
 - 2023-09-22 · [마지막까지 무빙이 무빙했다! | [무빙] 비하인드 메이킹 | 디즈니+](https://www.youtube.com/watch?v=wZR6s3rB6tk)
 - 2023-09-20 · [고윤정, 의사된다](https://www.marieclairekorea.com/culture/lifestyle/2023/09/goyj/)
 - 2023-08-21 · [순정 만화만큼 설레는 무빙의 봉석이와 희수, 이정하와 고윤정!](https://www.allurekorea.com/2023/08/21/__trashed-11-2/)

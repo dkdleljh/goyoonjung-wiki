@@ -2,7 +2,7 @@
 
 > 목적: 공식 근거 확인이 필요한 항목을 우선순위로 처리하기 위한 큐
 
-- total_items: 245
+- total_items: 276
 
 ## Items
 - [pages/appearances.md:157] - 날짜: (페이지 내 표기 확인 필요)
@@ -250,3 +250,34 @@
 - [pages/youtube-archive.md:81] - [YouTube/MBCentertainment] [［마니또 클럽］ 밥 먹다 말고 출동하는 소방대원들🥲 남은 두쫀슈 먹어서 처리하는 고윤정, MBC 260322 방송](https://www.youtube.com/watch?v=lHlTTje9uZI) · 과거 업로드, 게시일 확인 필요
 - [pages/youtube-archive.md:82] - [YouTube/MBCentertainment] [［마니또 클럽 8회 선공개］ 두쫀슈 제조 시작👩‍🍳 8쫀슈 완성하고 긴장 풀린 고윤정, MBC 260322 방송](https://www.youtube.com/watch?v=QBNUkgPXfyE) · 과거 업로드, 게시일 확인 필요
 - [pages/youtube-archive.md:83] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 본격 두쫀슈 제조 들어간 고윤정👩‍🍳 윤남노에게 SOS 보낸 정해인, MBC 260322 방송](https://www.youtube.com/watch?v=FwpMRyEFToY) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:84] - [YouTube/TEO] [［SUB］ 윤정아 너 내 동료가 돼라 승룡아 너 내 도도독 | EP.3 무빙 류승룡&고윤정 | 살롱드립2](https://www.youtube.com/watch?v=TEhBx4JI6RU) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:85] - [YouTube/MBCentertainment] [［마니또 클럽］ 디저트 담당 고윤정의 실수😅 드디어 다 같이 만든 첫 한 상!, MBC 260315 방송](https://www.youtube.com/watch?v=cKjSKAE0lbw) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:86] - [YouTube/MBCentertainment] [［마니또 클럽］ 특별한 주방으로 변신✨ 긴장한 고윤정X김도훈의 댄스, MBC 260315 방송](https://www.youtube.com/watch?v=rOUAaZrIswQ) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:87] - [YouTube/MBCentertainment] [［마니또 클럽］ ＂윤정아~ 윤정아~＂😍 고윤정 옆에 붙은 홍진경X박명수, MBC 260315 방송](https://www.youtube.com/watch?v=wNu2TXYMymg) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:88] - [YouTube/MBCentertainment] [［마니또 클럽］ 떡갈비와 슈크림 맛보기😋 진실의 미간 폭발하는 고윤정, MBC 260315 방송](https://www.youtube.com/watch?v=Nwqj11gWWYU) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:89] - [YouTube/MBCentertainment] [［마니또 클럽］ 카다이프 쏟은 고윤정😱 윤남노의 차별 대우에 섭섭한 김도훈, MBC 260315 방송](https://www.youtube.com/watch?v=-BRpP4slPUY) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:90] - [YouTube/MBCentertainment] [［마니또 클럽 7회 예고 30초 ver.］ 오늘의 디저트 담당 고윤정😋 두쫀슈에 무슨 일이?!, MBC 260315 방송](https://www.youtube.com/watch?v=VbIgYqi1sMY) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:91] - [YouTube/MBCentertainment] [［마니또 클럽］ 몰래 라면 끓여먹은 고윤정X김도훈🍜 박명수X홍진경의 혹독한 예능 훈련🤣, MBC 260308 방송](https://www.youtube.com/watch?v=mS7bCuVTdlo) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:92] - [YouTube/MBCentertainment] [［마니또 클럽］ 드디어 마주한 마니또들😅 고윤정X정해인의 숨 막히는 떠보기 배틀, MBC 260308 방송](https://www.youtube.com/watch?v=8991YxgAuBc) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:93] - [YouTube/MBCentertainment] [［마니또 클럽］ 고윤정이 박명수를 위해 손수 만든 홍삼 케이크🎂 과연 잘 전달할 수 있을까?!, MBC 260308 방송](https://www.youtube.com/watch?v=N1P8shHHxWc) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:94] - [YouTube/MBCentertainment] [［마니또 클럽］ 우왕좌왕 마니또 대행 덱스💦 충격받은 고윤정에게 배달 성공?!, MBC 260308 방송](https://www.youtube.com/watch?v=-wQqrtKXkDs) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:95] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 뜨거움을 못 느끼는 고윤정, MBC 260308 방송](https://www.youtube.com/watch?v=4EYqKQVNlAA) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:96] - [YouTube/MBCentertainment] [［마니또 클럽］ 도망치는 고윤정, MBC 260308 방송](https://www.youtube.com/watch?v=98Zdq3t68fw) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:97] - [YouTube/MBCentertainment] [［마니또 클럽］ 정해인의 마니또 대행 덱스 출동🤩 고윤정을 위한 커피의 상태가?!, MBC 260301 방송](https://www.youtube.com/watch?v=sxO1jVG2iBo) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:98] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 고윤정 사연, MBC 260301 방송](https://www.youtube.com/watch?v=kCWRtQHOod4) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:99] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 박명수의 허를 찌른 고윤정의 라디오 사연📻 혼자 힘 빼는 박명수💦, MBC 260301 방송](https://www.youtube.com/watch?v=xuYoHdKLRRg) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:100] - [YouTube/MBCentertainment] [［마니또 클럽 5회 예고 30초 ver.］ 박명수 라디오에 사연 보낸 고윤정📻 기습에 발칵 뒤집어진 박명수, MBC 260301 방송](https://www.youtube.com/watch?v=7-fUkPJB71Q) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:101] - [YouTube/MBCentertainment] [［마니또 클럽］ 박명수 취향 맞춤 고윤정의 빵 선물🥐 괜히 버럭 하는 박명수, MBC 260222 방송](https://www.youtube.com/watch?v=OOolNSnvHzA) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:102] - [YouTube/MBCentertainment] [［마니또 클럽］ 정해인→고윤정 두 번째 선물 전달🥹 취향 저격 선물에 감동받은 고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=VpQ7-wXpJIQ) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:103] - [YouTube/MBCentertainment] [［마니또 클럽］ 퀵기사로 위장 잠입한 정해인🏃‍♀️ 정해인 추격하는 고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=yPzGVpny5rA) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:104] - [YouTube/MBCentertainment] [［마니또 클럽］ 진정한 두친자 고윤정🧆 고윤정의 발길을 붙잡은 두바이 쫀득 쿠키, MBC 260222 방송](https://www.youtube.com/watch?v=tcjOpQ2J0Kc) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:105] - [YouTube/MBCentertainment] [［마니또 클럽］ 고윤정에 대해 공부하는 정해인🤩 고윤정을 위한 선물 계획은?!, MBC 260222 방송](https://www.youtube.com/watch?v=Lnss4szyhWQ) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:106] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 고윤정의 박명수 그림, MBC 260222 방송](https://www.youtube.com/watch?v=uNF_CG6_caI) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:107] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 고윤정X박명수 추격전, MBC 260222 방송](https://www.youtube.com/watch?v=_Zndxrk8jCc) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:108] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 고윤정의 짜장면 먹방, MBC 260222 방송](https://www.youtube.com/watch?v=G4QgzCuKCpI) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:109] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 고윤정의 두쫀쿠 나눔, MBC 260222 방송](https://www.youtube.com/watch?v=5CguzOWOSVg) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:110] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 고윤정, 박명수 녹화장에 기습!, MBC 260222 방송](https://www.youtube.com/watch?v=0m4DDcq5fxs) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:111] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 고윤정→박명수 직접 그린 캐리커처🥰 스릴 넘치는 선물 배달 작전!, MBC 260222 방송](https://www.youtube.com/watch?v=x-_GfgGq6oY) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:112] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 제니X덱스 다음은 정해인X고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=jnqpG3sIEgc) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:113] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 박명수 바로 알아보고 신난 고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=7r45BUVIY6M) · 과거 업로드, 게시일 확인 필요
+- [pages/youtube-archive.md:114] - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 모든 게 신기한 예능 새내기 고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=HCf4tjqtJeU) · 과거 업로드, 게시일 확인 필요

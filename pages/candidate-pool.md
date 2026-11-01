@@ -1,10 +1,12 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-10-31 18:01 (Asia/Seoul)
+> Updated: 2026-11-01 12:02 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-10-31 · grade=B · YOUTUBE_CLIPS · [무명일 때 병문안 온 단 한 사람 #고윤정 #김선호 #이사통 - YouTube](https://www.youtube.com/watch?v=iAt7p3x9WVg)
+- 2026-10-31 · grade=B · YOUTUBE_CLIPS · [떡볶이만 시켜서 서운해하는 고윤정ㅋㅋ - YouTube](https://www.youtube.com/watch?v=liGLSNnBV9o)
 - 2026-10-31 · grade=B · YOUTUBE_CLIPS · [괜찮다던 장도연, 고윤정 대답에 바로 철회ㅋㅋ #고윤정 #살롱드립 #예능 #쇼츠 #shorts - YouTube](https://www.youtube.com/watch?v=VFL9kEL90Qw)
 - 2026-10-31 · grade=B · YOUTUBE_CLIPS · [카메라만 보면 떨린다더니 선배한텐 팩폭하는 고윤정 #고윤정 - YouTube](https://www.youtube.com/watch?v=gcRf8JuaHw8)
 - 2026-10-30 · grade=B · YOUTUBE_CLIPS · [고윤정이 무빙 희수를 탐낸 이유 - YouTube](https://www.youtube.com/watch?v=o99kABrtFbQ)

@@ -1,10 +1,10 @@
 # 데일리 리포트
 
-> 갱신: 2026-10-30 18:02 (Asia/Seoul)
+> 갱신: 2026-11-01 12:02 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- d58a225c8 2026-10-30 17:55:35 +0900 docs: sync collected wiki content for website
+- 7c4c853cc 2026-11-01 11:55:43 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
@@ -12,11 +12,13 @@
 - data/facts/evidence.json
 - data/facts/profile.json
 - data/facts/works.json
+- data/reports/archive-progress.json
+- data/reports/collectors/archive.json
+- data/reports/collectors/magazines.json
 - data/reports/collectors/official-live.json
 - data/reports/collectors/youtube.json
 - data/reports/fast-task-state.json
 - data/reports/heartbeat.json
-- data/reports/link-checkpoints.json
 - data/reports/measured-quality.json
 - data/reports/run-history.json
 - data/reports/source-checkpoints.json
@@ -25,7 +27,6 @@
 - pages/facts-index.md
 - pages/future-candidates.md
 - pages/future-watch.md
-- pages/link-health.md
 - pages/source-collection-status.md
 - pages/works/alchemy-of-souls-light-and-shadow.md
 - pages/works/alchemy-of-souls.md
@@ -37,7 +38,7 @@
 - pages/works/moving.md
 - pages/works/nambeol.md
 
-## 3) 오늘 실행 상태(news/2026-10-30.md)
+## 3) 오늘 실행 상태(news/2026-11-01.md)
 
 ## 실행 상태
 
@@ -53,9 +54,9 @@
 ## Daily Metrics
 - new_urls: 3
 - landed_urls: 0
-- duplicate_rate: 73.12% (990/1354)
+- duplicate_rate: 38.39% (286/745)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
-  - A: 0
-  - B: 3
+  - A: 2
+  - B: 1
 
