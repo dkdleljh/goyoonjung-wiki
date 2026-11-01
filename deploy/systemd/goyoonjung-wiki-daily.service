@@ -13,7 +13,6 @@ Environment=PYTHONUNBUFFERED=1
 TimeoutStartSec=4200
 Restart=on-failure
 RestartSec=300
-SuccessExitStatus=75
 
 [Install]
 WantedBy=default.target
