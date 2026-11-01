@@ -116,13 +116,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Singles": {
-    "page": 2,
-    "checked_at": "2026-11-01T12:45:21.557250+00:00",
-    "next_scan": "2026-11-01T12:45:21.557250+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T13:45:23.472725+00:00",
+    "next_scan": "2026-11-08T13:45:23.472725+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [
       2024,
@@ -131,13 +129,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Arena": {
-    "page": 2,
-    "checked_at": "2026-11-01T12:45:21.557250+00:00",
-    "next_scan": "2026-11-01T12:45:21.557250+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "248b842a59d3b7023f9c62475d30cf3641014be41002f3250dee9fd445fdbdb3"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T13:45:23.472725+00:00",
+    "next_scan": "2026-11-08T13:45:23.472725+00:00",
+    "status": "pagination_repeated",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
