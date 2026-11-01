@@ -29,6 +29,14 @@ def fetch(path: str) -> bytes:
         return response.read()
 
 
+def fetch_versioned(path: str, version: str) -> bytes:
+    """Check the same revision URL used by the browser freshness redirect."""
+    url = SITE + quote(path, safe="/") + "?v=" + quote(version, safe="")
+    req = Request(url, headers={"User-Agent": "goyounjung-sync-verifier/1"})
+    with urlopen(req, timeout=30) as response:
+        return response.read()
+
+
 def safe_path(name: str) -> bool:
     p = PurePosixPath(name)
     return bool(name) and not p.is_absolute() and ".." not in p.parts and "\\" not in name
@@ -41,7 +49,7 @@ def expected_source_paths() -> set[str]:
                 "data/facts/profile.json", "data/facts/works.json"} | ({"data/reports/heartbeat.json", "data/reports/link-checkpoints.json"} & set(paths))
 
 
-def verify(full: bool = True, artifact_urls: bool = False, *,
+def verify(full: bool = True, artifact_urls: bool = False, *, versioned_urls: bool = False,
            wiki_revision: str | None = None, site_revision: str | None = None) -> dict:
     if bool(wiki_revision) != bool(site_revision):
         raise ValueError("Both deployment revisions are required")
@@ -54,8 +62,10 @@ def verify(full: bool = True, artifact_urls: bool = False, *,
     remote = wiki_revision if pinned else git("ls-remote", "origin", "refs/heads/main").split()[0]
     if remote != sha:
         raise RuntimeError(f"Local/remote mismatch: {sha} != {remote}")
-    metadata = json.loads(fetch("sync.json"))
     site_sha = site_revision if pinned else git("ls-remote", SITE_REPO, "refs/heads/main").split()[0]
+    version = sha[:12] + "-" + site_sha[:12]
+    read = (lambda path: fetch_versioned(path, version)) if versioned_urls else fetch
+    metadata = json.loads(read("sync.json"))
     site_checkout = BASE.parent / "goyounjung"
     if not pinned and (site_checkout / ".git").exists():
         def site_git(*args: str) -> str:
@@ -77,7 +87,7 @@ def verify(full: bool = True, artifact_urls: bool = False, *,
             raise RuntimeError(f"Source content mismatch: {name}")
     count = 0
     if full:
-        manifest = json.loads(fetch("artifact-manifest.json"))
+        manifest = json.loads(read("artifact-manifest.json"))
         if any(manifest.get(k) != metadata.get(k) for k in ("revision", "siteRevision", "builtAt")):
             raise RuntimeError("CDN manifest and metadata belong to different deployments")
         items = manifest.get("files", [])
@@ -93,7 +103,7 @@ def verify(full: bool = True, artifact_urls: bool = False, *,
                 raise RuntimeError(f"Unsafe artifact path: {name}")
             # /index.html and / are equivalent in Pages; use the visitor-facing URL.
             public_path = name.removesuffix("index.html") if name.endswith("/index.html") or name == "index.html" else name
-            body = fetch(name if artifact_urls else public_path)
+            body = read(name if artifact_urls else public_path)
             if name.startswith("wiki/") and name.endswith("/index.html"):
                 source = name[len("wiki/"):-len("/index.html")] + ".md"
                 source_hash = next((entry["sha256"] for entry in source_files if entry["file"] == source), None)
@@ -115,16 +125,18 @@ def verify(full: bool = True, artifact_urls: bool = False, *,
             "wiki_revision": sha, "site_revision": site_sha, "source_files": len(source_files),
             "revision_scope": "deployment snapshot" if pinned else "latest main",
             "documents": metadata["documents"], "verified_artifacts": count, "full": full,
-            "url_scope": "exact artifact URLs; directory aliases may remain cached" if artifact_urls else "visitor directory URLs",
+            "url_scope": ("version URLs; unversioned CDN caches not checked; " if versioned_urls else "") +
+                         ("exact artifact URLs; directory aliases may remain cached" if artifact_urls else "visitor directory URLs"),
+            "versioned_urls": versioned_urls,
             "collection": metadata.get("latestRun"), "url": SITE}
 
 
-def wait_for_sync(timeout: int = 900, full: bool = True, artifact_urls: bool = False, *,
+def wait_for_sync(timeout: int = 900, full: bool = True, artifact_urls: bool = False, *, versioned_urls: bool = False,
                   wiki_revision: str | None = None, site_revision: str | None = None) -> dict:
     deadline = time.monotonic() + timeout
     while True:
         try:
-            return verify(full=full, artifact_urls=artifact_urls,
+            return verify(full=full, artifact_urls=artifact_urls, versioned_urls=versioned_urls,
                           wiki_revision=wiki_revision, site_revision=site_revision)
         except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError) as exc:
             if time.monotonic() >= deadline:
@@ -149,13 +161,14 @@ def main() -> int:
     parser.add_argument("--wait", type=int, default=0, help="Maximum CDN/deployment wait in seconds")
     parser.add_argument("--quick", action="store_true", help="Compare all source hashes; skip public artifact downloads")
     parser.add_argument("--artifact-urls", action="store_true", help="Verify exact deployed files; directory aliases have independent CDN caches")
+    parser.add_argument("--versioned-urls", action="store_true", help="Verify browser revision URLs without waiting for unrelated old CDN entries")
     parser.add_argument("--wiki-revision", help="Wiki commit used by the build, paired with --site-revision")
     parser.add_argument("--site-revision", help="Website commit used by the build, paired with --wiki-revision")
     args = parser.parse_args()
     if bool(args.wiki_revision) != bool(args.site_revision):
         parser.error("--wiki-revision and --site-revision must be supplied together")
     try:
-        result = wait_for_sync(args.wait, full=not args.quick, artifact_urls=args.artifact_urls,
+        result = wait_for_sync(args.wait, full=not args.quick, artifact_urls=args.artifact_urls, versioned_urls=args.versioned_urls,
                                wiki_revision=args.wiki_revision, site_revision=args.site_revision)
         save_report(result)
         print(json.dumps(result, ensure_ascii=False, indent=2))

@@ -134,9 +134,9 @@ def test_clean_remote_update_fast_forwards_real_git(tmp_path, monkeypatch):
     assert (local / 'pages/profile.md').read_text() == 'remote update'
 
 
-def test_existing_deployment_is_awaited_without_duplicate_dispatch(tmp_path, monkeypatch):
+def test_queued_deployment_is_awaited_without_duplicate_dispatch(tmp_path, monkeypatch):
     calls = setup_publish(tmp_path, monkeypatch)
-    monkeypatch.setattr(m, 'deployment_active', lambda: True)
+    monkeypatch.setattr(m, 'deployment_queued', lambda: True)
     m.publish()
     assert not any(c[:3] == ('gh', 'workflow', 'run') for c in calls)
 
@@ -189,3 +189,31 @@ def test_unexpected_origin_still_rejected(tmp_path, monkeypatch, origin):
     monkeypatch.setattr(m, 'run', lambda *args: origin if args == ('git', 'remote', 'get-url', 'origin') else original(*args))
     with pytest.raises(RuntimeError, match='Unexpected origin'):
         m.prepare()
+
+
+@pytest.mark.parametrize('statuses, expected', [
+    (['in_progress'], False), (['completed'], False),
+    (['in_progress', 'pending'], True), (['queued'], True),
+])
+def test_running_old_snapshot_does_not_suppress_next_build(monkeypatch, statuses, expected):
+    import json
+    monkeypatch.setattr(m, 'run', lambda *args: json.dumps([{'status': s} for s in statuses]))
+    assert m.deployment_queued() is expected
+
+
+def test_async_publish_queues_after_running_build(tmp_path, monkeypatch):
+    calls = setup_publish(tmp_path, monkeypatch)
+    monkeypatch.setenv('PUBLISH_ASYNC', '1')
+    monkeypatch.delenv('GITHUB_ACTIONS', raising=False)
+    monkeypatch.setattr(m, 'deployment_queued', lambda: False)
+    m.publish()
+    assert any(c[:3] == ('gh', 'workflow', 'run') for c in calls)
+
+
+def test_async_publish_does_not_replace_existing_pending_build(tmp_path, monkeypatch):
+    calls = setup_publish(tmp_path, monkeypatch)
+    monkeypatch.setenv('PUBLISH_ASYNC', '1')
+    monkeypatch.delenv('GITHUB_ACTIONS', raising=False)
+    monkeypatch.setattr(m, 'deployment_queued', lambda: True)
+    m.publish()
+    assert not any(c[:3] == ('gh', 'workflow', 'run') for c in calls)

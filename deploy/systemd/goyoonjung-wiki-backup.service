@@ -4,7 +4,8 @@ After=network-online.target
 [Service]
 Type=oneshot
 WorkingDirectory=%h/goyoonjung-wiki
-ExecStart=/usr/bin/flock -n -E 75 .locks/content-sync.lock .venv/bin/python scripts/remote_backup.py
+ExecStart=/usr/bin/flock -w 900 -E 75 .locks/content-sync.lock .venv/bin/python scripts/remote_backup.py
 Environment=TZ=Asia/Seoul
-TimeoutStartSec=300
-SuccessExitStatus=75
+TimeoutStartSec=1200
+Restart=on-failure
+RestartSec=300

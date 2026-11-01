@@ -88,10 +88,13 @@ def sync_website_checkout() -> None:
         raise RuntimeError("Unpublished website code requires review")
 
 
-def deployment_active() -> bool:
+def deployment_queued() -> bool:
     raw = run("gh", "run", "list", "--repo", "dkdleljh/goyounjung", "--workflow", "deploy.yml",
               "--branch", "main", "--limit", "10", "--json", "status")
-    return any(row["status"] != "completed" for row in json.loads(raw or "[]"))
+    # A running build has already checked out its snapshot. Reserve one newer
+    # run so its completion cannot leave freshly pushed content unpublished.
+    return any(row["status"] in {"queued", "pending", "requested", "waiting"}
+               for row in json.loads(raw or "[]"))
 
 
 def full_check_due(result: dict) -> bool:
@@ -136,14 +139,14 @@ def publish(pull_only: bool = False) -> None:
     if os.environ.get('PUBLISH_ASYNC') == '1':
         # Hosted fallback cannot dispatch across repositories with GITHUB_TOKEN.
         # The website also polls the wiki revision; local credentials can dispatch.
-        if os.environ.get('GITHUB_ACTIONS') != 'true' and not deployment_active():
+        if os.environ.get('GITHUB_ACTIONS') != 'true' and not deployment_queued():
             run('gh', 'workflow', 'run', 'deploy.yml', '--repo', 'dkdleljh/goyounjung', '--ref', 'main')
         print(f'Published wiki {sha}; deployment verification runs separately')
         return
     try:
         result = verify(full=False)
     except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError):
-        if not deployment_active():
+        if not deployment_queued():
             run("gh", "workflow", "run", "deploy.yml", "--repo", "dkdleljh/goyounjung", "--ref", "main")
         result = wait_for_sync(timeout=900, full=True)
     else:
@@ -151,7 +154,7 @@ def publish(pull_only: bool = False) -> None:
             try:
                 result = verify(full=True)
             except (RuntimeError, OSError, ValueError, KeyError, subprocess.SubprocessError):
-                if not deployment_active():
+                if not deployment_queued():
                     run("gh", "workflow", "run", "deploy.yml", "--repo", "dkdleljh/goyounjung", "--ref", "main")
                 result = wait_for_sync(timeout=900, full=True)
     save_report(result)

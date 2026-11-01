@@ -12,7 +12,8 @@ import verify_website_sync as verifier
 @pytest.fixture
 def deployment(tmp_path, monkeypatch):
     inputs = {'pages/profile.md': '# Profile\n', 'data/facts/profile.json': '{}', 'data/facts/works.json': '[]'}
-    sha = lambda value: hashlib.sha256(value).hexdigest()
+    def sha(value):
+        return hashlib.sha256(value).hexdigest()
     for name, text in inputs.items():
         file = tmp_path / name
         file.parent.mkdir(parents=True, exist_ok=True)
@@ -151,3 +152,32 @@ def test_latest_main_mode_still_detects_push_during_verification(deployment, mon
 def test_incomplete_snapshot_pin_is_rejected(deployment):
     with pytest.raises(ValueError, match='Both'):
         verifier.verify(wiki_revision='wiki-sha')
+
+
+def test_versioned_verification_is_honest_about_cache_scope(deployment, monkeypatch):
+    files, _, _ = deployment
+    seen = []
+    def read(path, version):
+        seen.append(version)
+        return files[path + 'index.html' if not path or path.endswith('/') else path]
+    monkeypatch.setattr(verifier, 'fetch_versioned', read)
+    monkeypatch.setattr(verifier, 'fetch', lambda path: b'old CDN response')
+    result = verifier.verify(versioned_urls=True, artifact_urls=True)
+    assert result['verified_artifacts'] == 7
+    assert result['versioned_urls'] is True
+    assert 'unversioned CDN caches not checked' in result['url_scope']
+    assert set(seen) == {'wiki-sha-site-sha'}
+    files['index.html'] = b'corrupt latest bytes'
+    with pytest.raises(RuntimeError, match='differs from build'):
+        verifier.verify(versioned_urls=True, artifact_urls=True)
+
+
+def test_versioned_transport_preserves_query_and_quotes_filename(monkeypatch):
+    import io
+    requests = []
+    def open_url(request, **kwargs):
+        requests.append(request.full_url)
+        return io.BytesIO(b'content')
+    monkeypatch.setattr(verifier, 'urlopen', open_url)
+    assert verifier.fetch_versioned('wiki/a b/index.html', 'abc-def') == b'content'
+    assert requests == [verifier.SITE + 'wiki/a%20b/index.html?v=abc-def']
