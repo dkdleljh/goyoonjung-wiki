@@ -1,19 +1,37 @@
 # 데일리 리포트
 
-> 갱신: 2026-11-01 17:53 (Asia/Seoul)
+> 갱신: 2026-11-01 18:06 (Asia/Seoul)
 
 ## 1) 최신 커밋
 
-- bf457fdf6 2026-11-01 17:49:59 +0900 fix: queue fresh deployments and distinguish revision cache verification
+- 2b02bd616 2026-11-01 17:58:23 +0900 docs: sync collected wiki content for website
 
 ## 2) 변경 파일(최근 커밋 기준)
 
-- deploy/systemd/goyoonjung-wiki-backup.service
-- docs/website-sync.md
-- scripts/publish_website_content.py
-- scripts/verify_website_sync.py
-- tests/test_website_publish.py
-- tests/test_website_sync_verification.py
+- data/facts/awards.json
+- data/facts/profile.json
+- data/facts/works.json
+- data/reports/candidate-reviews.json
+- data/reports/fast-task-state.json
+- data/reports/heartbeat.json
+- data/reports/link-checkpoints.json
+- data/reports/measured-quality.json
+- data/reports/run-history.json
+- pages/automation-measurements.md
+- pages/fact-conflicts.md
+- pages/facts-index.md
+- pages/future-candidates.md
+- pages/future-watch.md
+- pages/link-health.md
+- pages/works/alchemy-of-souls-light-and-shadow.md
+- pages/works/alchemy-of-souls.md
+- pages/works/can-this-love-be-translated.md
+- pages/works/deaths-game.md
+- pages/works/hunt.md
+- pages/works/light-shop.md
+- pages/works/moving-season-2.md
+- pages/works/moving.md
+- pages/works/nambeol.md
 
 ## 3) 오늘 실행 상태(news/2026-11-01.md)
 
@@ -31,7 +49,7 @@
 ## Daily Metrics
 - new_urls: 5
 - landed_urls: 0
-- duplicate_rate: 43.77% (471/1076)
+- duplicate_rate: 43.76% (473/1081)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
   - A: 3

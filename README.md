@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `bf457fdf6` |
+| 최신 커밋 | `2b02bd616` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,19 +63,21 @@
   - 로컬 노트: `logs/releases/release-notes-v1.138.2.md`
 
 ## 최근 변경 요약
-- [`bf457fdf6`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bf457fdf6) — fix: queue fresh deployments and distinguish revision cache verification
-- [`d54b842b6`](https://github.com/dkdleljh/goyoonjung-wiki/commit/d54b842b6) — docs: sync collected wiki content for website
-- [`e88ac74f1`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e88ac74f1) — docs: sync collected wiki content for website
-- [`bf7a6b753`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bf7a6b753) — fix: recognize verified archive pagination boundaries
-- [`659a28cd9`](https://github.com/dkdleljh/goyoonjung-wiki/commit/659a28cd9) — docs: sync collected wiki content for website
+- [`2b02bd616`](https://github.com/dkdleljh/goyoonjung-wiki/commit/2b02bd616) — docs: sync collected wiki content for website
+- [`140328e5b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/140328e5b) — docs: sync collected wiki content for website
+- [`068a3cddb`](https://github.com/dkdleljh/goyoonjung-wiki/commit/068a3cddb) — docs: sync collected wiki content for website
+- [`0959b1e98`](https://github.com/dkdleljh/goyoonjung-wiki/commit/0959b1e98) — fix: retry missed daily work and check failover core health
+- [`5d25c6c64`](https://github.com/dkdleljh/goyoonjung-wiki/commit/5d25c6c64) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
-- `deploy/systemd/goyoonjung-wiki-backup.service`
-- `docs/website-sync.md`
-- `scripts/publish_website_content.py`
-- `scripts/verify_website_sync.py`
-- `tests/test_website_publish.py`
-- `tests/test_website_sync_verification.py`
+- `data/facts/awards.json`
+- `data/facts/profile.json`
+- `data/facts/works.json`
+- `data/reports/candidate-reviews.json`
+- `data/reports/fast-task-state.json`
+- `data/reports/heartbeat.json`
+- `data/reports/link-checkpoints.json`
+- `data/reports/measured-quality.json`
 
 ## 자주 쓰는 명령
 ```bash

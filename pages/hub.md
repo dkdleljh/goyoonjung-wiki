@@ -14,7 +14,7 @@
 ## 운영 상태표
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `bf457fdf6` |
+| 최신 커밋 | `2b02bd616` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -38,11 +38,11 @@
 - [스케줄](schedule.md)
 
 ## 최근 변경 파일
-- `deploy/systemd/goyoonjung-wiki-backup.service`
-- `docs/website-sync.md`
-- `scripts/publish_website_content.py`
-- `scripts/verify_website_sync.py`
-- `tests/test_website_publish.py`
+- `data/facts/awards.json`
+- `data/facts/profile.json`
+- `data/facts/works.json`
+- `data/reports/candidate-reviews.json`
+- `data/reports/fast-task-state.json`
 
 ## 운영 핵심 페이지
 - [`pages/awards-official-watch.md`](awards-official-watch.md)
