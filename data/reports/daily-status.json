@@ -1,10 +1,10 @@
 {
   "kind": "daily",
   "executor": "primary",
-  "started_at": "2026-11-01T09:03:54+00:00",
-  "timestamp": "2026-11-01T09:06:39.207210+00:00",
-  "duration_seconds": 165.21,
-  "status": "partial",
+  "started_at": "2026-11-01T15:02:48+00:00",
+  "timestamp": "2026-11-01T15:05:22.119698+00:00",
+  "duration_seconds": 154.12,
+  "status": "success",
   "steps": [
     {
       "name": "RC_AGENCY",
@@ -92,7 +92,7 @@
     },
     {
       "name": "RC_LINK",
-      "returncode": 1
+      "returncode": 0
     },
     {
       "name": "RC_MAG_RSS",

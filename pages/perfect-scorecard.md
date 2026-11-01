@@ -1,11 +1,11 @@
 # Operational Scorecard (auto)
 
-> Updated: 2026-11-01 (Asia/Seoul)
+> Updated: 2026-11-02 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 124
-- urls_total(markdown): 996
-- seen_urls(db): 397
+- urls_total(markdown): 997
+- seen_urls(db): 399
 - allowlist_domains: 105
 - google_news_sites: 40
 - google_news_queries(lines): 20
@@ -22,7 +22,7 @@
 - detection: 100  (quality/content-gaps reports)
 - official_work_sync: 0  (official filmography audit)
 
-### B. Recorded automation health: **0/100**
+### B. Recorded automation health: **100/100**
 
 - pipeline: 100  (run_daily_update + steps)
 - resilience: 100  (batching + skip-reason logging)
@@ -33,8 +33,8 @@
 
 - C_current: 74  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 996  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 397  (dedupe DB size)
+- urls_total: 997  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 399  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
@@ -53,8 +53,8 @@
 - 123: pages/pictorials/by-year.md
 - 113: pages/verification-queue.md
 - 112: pages/youtube-archive.md
+- 95: pages/candidate-pool.md
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
-- 94: pages/candidate-pool.md
 - 57: pages/interviews.md
 - 54: pages/appearances.md
 - 53: pages/official-platform-watch.md
