@@ -154,6 +154,11 @@ def parse_rss(data: bytes) -> tuple[list[dict], list[str]]:
     if not data:
         raise SourceError("No response", "network", True)
     warnings = []
+    # XML 1.0 forbids these control bytes, including a BEL found in Noblesse's
+    # embedded HTML. Remove only those bytes; malformed structure still fails.
+    data, removed = re.subn(rb'[\x00-\x08\x0b\x0c\x0e-\x1f]', b'', data)
+    if removed:
+        warnings.append(f'XML-forbidden control bytes removed: {removed}')
     # Vogue emits media:thumbnail without declaring the standard media namespace.
     # Repair only that declaration; other malformed XML remains a failure.
     if b"media:thumbnail" in data and b"xmlns:media=" not in data:

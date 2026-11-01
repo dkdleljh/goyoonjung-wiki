@@ -8,7 +8,7 @@
 
 - (S) 과거 소속사(MAA) 프로필(기준): https://maa.co.kr/artists/go-younjung
 
-- (A/S) https://www.goodal.com/
+- (A/S) https://clubclio.co.kr/shop/brandsList/121733000000000/brand/3
 
 
 ## 출처

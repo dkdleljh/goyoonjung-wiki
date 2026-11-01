@@ -1,0 +1,190 @@
+{
+  "kind": "daily",
+  "executor": "primary",
+  "started_at": "2026-11-01T08:17:06+00:00",
+  "timestamp": "2026-11-01T08:19:54.398321+00:00",
+  "duration_seconds": 168.4,
+  "status": "partial",
+  "steps": [
+    {
+      "name": "RC_AGENCY",
+      "returncode": 0
+    },
+    {
+      "name": "RC_AWARDS_OFFICIAL",
+      "returncode": 0
+    },
+    {
+      "name": "RC_AWARD_PROOF",
+      "returncode": 0
+    },
+    {
+      "name": "RC_AWARD_PROOF_AUTO",
+      "returncode": 0
+    },
+    {
+      "name": "RC_BRANDS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_CAND",
+      "returncode": 0
+    },
+    {
+      "name": "RC_COLLECT",
+      "returncode": 0
+    },
+    {
+      "name": "RC_DASH",
+      "returncode": 0
+    },
+    {
+      "name": "RC_ENCY",
+      "returncode": 0
+    },
+    {
+      "name": "RC_ENDO_DATES",
+      "returncode": 0
+    },
+    {
+      "name": "RC_FACTS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_FACT_CONFLICTS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_FACT_RENDER",
+      "returncode": 0
+    },
+    {
+      "name": "RC_FUTURE",
+      "returncode": 0
+    },
+    {
+      "name": "RC_GNEWS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_GNEWS_I18N",
+      "returncode": 0
+    },
+    {
+      "name": "RC_GNEWS_QUERIES",
+      "returncode": 0
+    },
+    {
+      "name": "RC_GNEWS_SITES",
+      "returncode": 0
+    },
+    {
+      "name": "RC_INT_SUM",
+      "returncode": 0
+    },
+    {
+      "name": "RC_KPI",
+      "returncode": 0
+    },
+    {
+      "name": "RC_LEAD",
+      "returncode": 0
+    },
+    {
+      "name": "RC_LINK",
+      "returncode": 1
+    },
+    {
+      "name": "RC_MAG_RSS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_MV_CAND",
+      "returncode": 0
+    },
+    {
+      "name": "RC_OFFICIAL_AUDIT",
+      "returncode": 0
+    },
+    {
+      "name": "RC_OFFICIAL_PLATFORMS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_PERF",
+      "returncode": 0
+    },
+    {
+      "name": "RC_POOL",
+      "returncode": 0
+    },
+    {
+      "name": "RC_PORTAL_NEWS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_PROMOTE_APP",
+      "returncode": 0
+    },
+    {
+      "name": "RC_PROMOTE_ENDO",
+      "returncode": 0
+    },
+    {
+      "name": "RC_PROMOTE_SAFE",
+      "returncode": 0
+    },
+    {
+      "name": "RC_PROMOTE_WORK",
+      "returncode": 0
+    },
+    {
+      "name": "RC_QUEUE",
+      "returncode": 0
+    },
+    {
+      "name": "RC_RECONCILE",
+      "returncode": 0
+    },
+    {
+      "name": "RC_SAN_NEWS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_SCHED",
+      "returncode": 0
+    },
+    {
+      "name": "RC_SOURCE_CONF",
+      "returncode": 0
+    },
+    {
+      "name": "RC_STATUS",
+      "returncode": 0
+    },
+    {
+      "name": "RC_SUGGEST",
+      "returncode": 0
+    },
+    {
+      "name": "RC_SYNC_WATCH",
+      "returncode": 0
+    },
+    {
+      "name": "RC_TVOTT_CAND",
+      "returncode": 0
+    },
+    {
+      "name": "RC_VISUAL",
+      "returncode": 0
+    },
+    {
+      "name": "RC_YT",
+      "returncode": 0
+    },
+    {
+      "name": "RC_YT_DATES",
+      "returncode": 0
+    }
+  ]
+}

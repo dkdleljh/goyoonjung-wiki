@@ -145,7 +145,15 @@ RUN_STARTED_EPOCH=$(date +%s)
 RUN_OK=0
 on_exit() {
   local rc=$?
-  python3 scripts/run_telemetry.py --kind daily --started "$RUN_STARTED_EPOCH" --rc "$rc" >/dev/null 2>&1 || true
+  local telemetry_rc=$rc
+  local step_results=()
+  local rc_name
+  for rc_name in ${!RC_@}; do
+    step_results+=(--result "$rc_name:${!rc_name}")
+  done
+  if [ "$RUN_OK" -ne 1 ] && [ "$telemetry_rc" -lt 2 ]; then telemetry_rc=2; fi
+  python3 scripts/run_telemetry.py --kind daily --started "$RUN_STARTED_EPOCH" --rc "$telemetry_rc" "${step_results[@]}" >/dev/null 2>&1 || true
+  echo "rc=${telemetry_rc} run_id=${RUN_ID} at=${NOW} step=${CURRENT_STEP}" > "$STATUS_FILE"
   # release lock
   rmdir "$LOCK_PATH" 2>/dev/null || true
   # if not marked success, mark failure (prevents stuck '진행중')
@@ -478,8 +486,10 @@ set -e
 python3 ./scripts/update_readme_today_links.py >/dev/null 2>&1 || true
 python3 ./scripts/update_index_last_updated.py >/dev/null 2>&1 || true
 
-./scripts/update_indexes.sh >/dev/null
-./scripts/lint_wiki.sh >/dev/null
+CURRENT_STEP="build:indexes"
+./scripts/update_indexes.sh >>"$RUN_LOG" 2>&1
+CURRENT_STEP="build:lint"
+./scripts/lint_wiki.sh >>"$RUN_LOG" 2>&1
 
 # Backup (doesn't enter git)
 # Frequent runs can create too many tar.gz files. By default, create at most 1 backup per day.

@@ -17,7 +17,7 @@ from urllib.parse import quote_plus, urljoin, urlsplit
 import requests
 from bs4 import BeautifulSoup
 from google_news_resolver import resolve as decode_google_news_url
-from source_schedule import record, search_window
+from source_schedule import record, retry_due, search_window
 from source_transport import atomic_write, request, save_report
 
 BASE = Path(__file__).resolve().parents[1]
@@ -138,10 +138,13 @@ def main() -> int:
     sources = all_sources
     reports = []
     snapshot = dict(evidence)
+    previous = {r['name']: r for r in load(BASE/'data/reports/collectors/official-live.json', {}).get('sources', [])}
     def collect_one(source):
         evidence = dict(snapshot)
         updates = {}
         key = 'official:'+source['domain']
+        if not retry_due(key) and source['name'] in previous:
+            return source, {**previous[source['name']], 'deferred': True}, updates
         report = {'name': source['name'], 'url': source['url'], 'scope': 'official search + original page', 'status': 'failed'}
         try:
             direct_urls = []
@@ -189,7 +192,8 @@ def main() -> int:
     with ThreadPoolExecutor(max_workers=4) as pool:
         for source, report, updates in pool.map(collect_one, sources):
             evidence.update(updates)
-            record('official:'+source['domain'], report['status'] == 'success')
+            if not report.get('deferred'):
+                record('official:'+source['domain'], report['status'] == 'success')
             reports.append(report)
             atomic_write(EVIDENCE, json.dumps(list(evidence.values()), ensure_ascii=False, indent=2)+'\n')
     atomic_write(EVIDENCE, json.dumps(list(evidence.values()), ensure_ascii=False, indent=2)+'\n')

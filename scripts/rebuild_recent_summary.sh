@@ -12,21 +12,18 @@ OUT="$NEWS/README.md"
   echo
   echo "## 최근 7일 요약"
 
-  found=0
-  ls -1 "$NEWS"/*.md 2>/dev/null | grep -E '/[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$' | sort -r | head -n 7 | while read -r f; do
-      found=1
-      bn=$(basename "$f" .md)
-      # Take first non-empty bullet under the title section as a mini summary, fallback to file link only
-      summary=$(awk 'NF{print; exit}' "$f" | tr -d '\r')
-      echo "- [$bn]($bn.md)"
-  done
+  python3 - "$NEWS" <<'PY'
+import re
+import sys
+from pathlib import Path
 
-  # If nothing printed by the loop (files empty or no match), we handle that check differently or assume if ls fails loop doesn't run.
-  # Since found variable won't bubble up from pipe easily in bash 3.2 without shopt lastpipe...
-  # A simple check: if no files in glob, ls fails or grep fails.
-  if ! ls "$NEWS"/*.md >/dev/null 2>&1; then
-      echo "- (아직 로그가 없습니다.)"
-  fi
+files = sorted((p for p in Path(sys.argv[1]).glob('*.md')
+                if re.fullmatch(r'\d{4}-\d{2}-\d{2}\.md', p.name)), reverse=True)[:7]
+for path in files:
+    print(f'- [{path.stem}]({path.name})')
+if not files:
+    print('- (아직 로그가 없습니다.)')
+PY
 } > "$OUT"
 
 echo "$OUT"

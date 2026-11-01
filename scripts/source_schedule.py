@@ -42,3 +42,16 @@ def select(items: list, key, limit: int) -> list:
     state = load()
     # Fair retries: oldest attempt first; failed sources retain their old coverage watermark.
     return sorted(items, key=lambda item: state.get(key(item), {}).get('last_attempt', ''))[:limit or len(items)]
+
+
+def retry_due(key: str, now: datetime | None = None) -> bool:
+    """Back off persistent source failures without changing the last outcome."""
+    row = load().get(key, {})
+    if row.get('status') != 'failed':
+        return True
+    try:
+        elapsed = ((now or datetime.now(UTC)) - datetime.fromisoformat(row['last_attempt'])).total_seconds()
+        delay = min(86400, 300 * 2 ** min(8, max(0, int(row.get('failures', 1)) - 1)))
+        return elapsed < 0 or elapsed >= delay
+    except (KeyError, ValueError, TypeError):
+        return True

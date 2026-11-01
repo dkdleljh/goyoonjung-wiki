@@ -17,18 +17,18 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
-- [`7c4c853cc`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7c4c853cc) — docs: sync collected wiki content for website
-- [`496a31a43`](https://github.com/dkdleljh/goyoonjung-wiki/commit/496a31a43) — docs: sync collected wiki content for website
-- [`312e54326`](https://github.com/dkdleljh/goyoonjung-wiki/commit/312e54326) — docs: sync collected wiki content for website
-- [`5b4c9fe07`](https://github.com/dkdleljh/goyoonjung-wiki/commit/5b4c9fe07) — docs: sync collected wiki content for website
-- [`9a4c09be2`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9a4c09be2) — docs: sync collected wiki content for website
+- [`ae9dd28b1`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ae9dd28b1) — docs: sync collected wiki content for website
+- [`26e7d992f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/26e7d992f) — docs: sync collected wiki content for website
+- [`542dbc14b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/542dbc14b) — docs: sync collected wiki content for website
+- [`f3d4248c4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f3d4248c4) — docs: sync collected wiki content for website
+- [`dafb227ff`](https://github.com/dkdleljh/goyoonjung-wiki/commit/dafb227ff) — docs: sync collected wiki content for website
 
 ## 직전 변경 파일
 - `data/facts/awards.json`
 - `data/facts/evidence.json`
 - `data/facts/profile.json`
 - `data/facts/works.json`
-- `data/reports/archive-progress.json`
-- `data/reports/collectors/archive.json`
-- `data/reports/collectors/magazines.json`
+- `data/reports/candidate-reviews.json`
 - `data/reports/collectors/official-live.json`
+- `data/reports/collectors/youtube.json`
+- `data/reports/fast-task-state.json`

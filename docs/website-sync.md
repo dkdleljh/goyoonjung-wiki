@@ -1,71 +1,68 @@
-# 홈페이지 동기화
+# 홈페이지 동기화와 운영
 
-- 공개 주소: https://dkdleljh.github.io/goyounjung/
-- 홈페이지 소스: https://github.com/dkdleljh/goyounjung
-- 콘텐츠 원본: 이 저장소의 `main` 브랜치. 홈페이지에서 내용을 별도로 수정하지 않습니다.
+공개 주소: https://dkdleljh.github.io/goyounjung/
 
-## 자동 경로
+## 원본과 실행 경로
 
-이 호스트의 `goyoonjung-wiki-daily.timer`가 매일 00·06·12·18시에 수집합니다. 달력 타이머의 Persistent 설정과 부팅 후 실행으로 전원 종료 중 놓친 실행을 복구합니다. `collect_and_sync_website.sh`가 원격 main 확인 → 수집 → 문서 커밋·푸시 → 홈페이지 배포 → 실제 공개 결과 검증을 수행합니다. 별도의 `goyoonjung-wiki-sync.timer`는 15분 간격으로 `automation_tick.py`를 실행합니다. 정상 수집은 6시간, 부분성공은 1시간, 실패·중단·기록 없음은 15분 이후 재수집합니다. 최근 수집이 완료되었으면 게시만 재시도합니다. 사전 확인부터 수집·게시·배포 검증까지 같은 OS 파일 잠금을 유지하며, 잠금 충돌은 종료 코드 75로 다음 실행에 넘깁니다.
+- 위키의 유일한 운영 원본은 `/home/zenith/goyoonjung-wiki`다. 수집 데이터, SQLite, 상태, Python 환경과 코드가 함께 있다.
+- 과거 `/home/zenith/.local/share/goyoonjung-runtime/goyoonjung-wiki`는 같은 원본을 가리키는 호환 심볼릭 링크다. 별도 복사본을 편집하지 않는다.
+- 웹 코드 원본은 `/home/zenith/goyounjung`, 공개 문서 원본은 위키 GitHub main이다. 웹 `.wiki`는 로컬 위키를 가리킨다.
+- 원격 소스 변경은 clean main에서 fast-forward로만 받는다. 수동 변경이나 분기는 보존한 채 중단하며 강제 푸시하지 않는다.
 
-호스트가 켜져 있고 인터넷과 기존 `gh` 로그인이 유효해야 합니다. 위키와 홈페이지 소스의 원격 변경은 로컬이 깨끗하고 fast-forward가 가능할 때만 자동으로 내려받습니다. 로컬 변경과 원격 변경이 동시에 있거나 분기되면 보존한 채 중단합니다. 홈페이지도 GitHub Actions에서 6시간마다 위키 main을 다시 읽습니다.
+## 실행 주기 (한국 시간)
 
-## 검증 범위
+| 작업 | 실제 설정 | 역할 |
+|---|---|---|
+| 빠른 수집·게시 | 매 5분, `goyoonjung-wiki-sync.timer` | `run_fast_sync.sh`로 주요 뉴스·영상과 순환 수집, 변환, GitHub 게시 |
+| 일일 전체 작업 | 00:02·06:02·12:02·18:02 | `collect_and_sync_website.sh`로 전체 수집·인덱스·백업·게시 |
+| 원격 백업 | 04:35 | 공개 자료와 SQLite를 별도 GitHub 브랜치로 보내고 다시 내려받아 복원 검증 |
+| 로컬 웹 빌드 | 매시 02분부터 5분 간격 | 커밋된 원본으로 격리 빌드·테스트·링크 검사 후 미리보기 교체 |
+| 공개 웹 빌드 | 사이트 main push / dispatch / GitHub 15분 예약 | 원본 커밋이 달라졌을 때만 빌드 |
 
-- 로컬 위키 HEAD와 GitHub main, 홈페이지 `sync.json`의 위키·사이트 커밋을 비교합니다. 로컬 홈페이지 체크아웃이 있으면 이 저장소도 깨끗하고 원격 main과 같아야 합니다.
-- Git이 추적하는 공개 Markdown 전체와 프로필·작품 JSON의 파일 목록 및 SHA-256을 대조합니다. 작성용 templates/checklists, 실행 DB·로그·비밀 설정은 공개 대상이 아닙니다.
-- `artifact-manifest.json`으로 실제 공개 HTML·검색 색인·CSS 등 모든 배포 파일을 다운로드하여 빌드 결과의 SHA-256과 비교합니다. 각 위키 페이지에도 원본 해시를 표시해 출처를 연결합니다.
-- 배포가 필요한 게시에서는 최대 15분 동안 CDN 캐시 갱신과 실제 반영을 기다립니다. GitHub 배포 작업도 공개 파일을 검증하고 불일치 시 실패합니다. 변경 없는 정기 확인에서도 하루에 한 번 공개 파일 전수 검사를 수행합니다. 이미 배포가 진행 중이면 중복 배포를 만들지 않고 기다립니다.
-- 최신 결과는 `.locks/website-sync-status.json`, 마지막 전수 검사 성공 결과는 `.locks/website-sync-full.json`에 저장됩니다. 검증은 그 시점의 스냅샷을 확인하며 이후 변경까지 보장하지 않습니다.
+일일 작업은 빠른 수집 잠금이 풀리기를 최대 900초 기다린다. 실제 오류에는 systemd가 5분 뒤 재시도한다. 같은 호스트에서는 단일 OS 파일 잠금으로 수집·게시를 보호한다. 사용자 linger와 Persistent 타이머로 로그인 여부와 놓친 예약을 처리한다. GitHub 예약 실행은 지연될 수 있으며 분 단위 복구 SLA를 의미하지 않는다.
 
-```sh
-# 실제 공개 파일 전수 검사
-.venv/bin/python scripts/verify_website_sync.py --wait 120
-# 원격 확인, 안전한 콘텐츠 게시 및 필요 시 배포 검증
-.venv/bin/python scripts/publish_website_content.py
-systemctl --user status goyoonjung-wiki-daily.timer goyoonjung-wiki-sync.timer
-journalctl --user -u goyoonjung-wiki-sync.service -n 80
-```
+## 상태 판정
 
-## 업로드 조건
+- 빠른 작업의 실제 완료 시각과 단계는 `data/reports/heartbeat.json`에 기록한다.
+- 일일 작업의 완료 시각, 각 단계 종료 코드, 성공/부분성공/실패는 `data/reports/daily-status.json`에 기록한다. `.locks/last-run-status.txt`도 종료 때 갱신한다.
+- 선택 외부 출처의 부분 실패는 경고로 보존하고, 핵심 수집·자료 변환·인덱스·게시 실패는 서비스 실패로 보고한다. 부분성공을 완전 성공으로 쓰지 않는다.
+- 원격 health 검사는 빠른 작업뿐 아니라 일일 결과의 실패·노후화도 확인한다.
+- GitHub 게시 성공은 곧바로 공개 반영 성공이라는 의미가 아니다. 공개 사이트의 `sync.json`과 Actions 배포 결과로 확인한다.
 
-수집은 `COLLECT_ONLY=1`로 실행합니다. 게시기는 완료된 성공/부분성공 기록을 확인하고, 지정된 pages/sources/news/data/facts/data/reports 및 index.md/README.md/docs/README.md/alternative_proofs.json 문서만 커밋합니다. 코드 변경, 알 수 없는 파일, 손상 JSON, 진행 중 수집, 원격 분기가 발생하면 업로드를 중단합니다. 삭제도 변경으로 기록됩니다. 강제 푸시 및 알림 전송은 하지 않습니다. 부분성공 시 홈페이지에 그 사실을 표시하고 수집 서비스는 실패 상태를 유지합니다.
+## 배포 검사와 최신 화면
 
-수동 코드 변경은 검토·테스트 후 별도 커밋하고 푸시해야 자동 게시가 재개됩니다. 충돌 시 로컬 변경을 보존하고 원격 main과 병합한 뒤 다시 실행하세요. 홈페이지 코드도 로컬에서 자동 커밋하지 않습니다.
+웹 배포는 단위 검사 → 사진 없는 신규 작품 검사 → 실제 빌드 → 내부 링크 검사 → Chromium 검색·분류·사진·모바일 검사 → Pages 업로드 순서다. 실패하면 기존 공개 사이트를 유지한다.
 
-GitHub 예약 실행은 지연되거나 장기 비활동 시 중지될 수 있습니다. 웹사이트는 마지막 배포를 계속 제공합니다. 수집 시간이 36시간을 넘으면 화면에 확인 필요 상태를 표시합니다. 사이트 재배포로 수집 시간을 갱신하지 않습니다.
+`sync.json`에는 위키/사이트 커밋, 원본 해시, 빌드 시각, 실제 수집 결과가 있다. `artifact-manifest.json`에는 배포 파일의 SHA-256이 있다. 배포 후 검증은 빌드에 사용한 커밋을 고정해서 수행하며, 검사 도중 새로운 원본 커밋으로 바뀌어도 이전 배포를 잘못 실패시키지 않는다.
 
-## 무인 복구와 한계
+디렉터리 주소와 `index.html` 주소는 CDN에서 서로 다른 캐시를 받을 수 있다. 각각의 검사 범위를 구분한다. 페이지 진입 시 최신 배포 정보를 확인해 오래된 화면이면 버전 URL로 한 번 갱신하며, 읽는 중에는 새 자료 안내 링크를 제공한다. 배포 정보 요청이 실패하면 읽을 수 있는 기존 페이지를 유지한다.
 
-- 강제 종료·재부팅 시 OS 잠금은 자동 해제됩니다. 다음 실행이 잠금을 얻은 뒤 남은 빈 수집 표시 폴더를 제거합니다. 실제 진행 중 작업의 잠금은 해제하지 않습니다.
-- `.locks/automation-tick.json`에 자동 실행 단계, 종료 코드와 수집 상태를 저장합니다. 동기화 실패와 외부 수집원의 부분 실패는 별도 기록입니다.
-- 수집 후 처리까지 마쳐야 완료로 기록합니다. Git 푸시 실패 시 로컬 커밋을 보존하고 다음 틱에서 재시도합니다. 배포 실패 시 마지막 정상 사이트를 유지하면서 다음 틱에서 다시 요청합니다.
-- 로그인하지 않은 상태에서도 실행하도록 사용자 linger를 활성화합니다. 이 호스트가 켜져 있고 인터넷·GitHub 자격 증명이 유효해야 새 수집과 로컬 동기화가 가능합니다. 소스 사이트의 차단·삭제·변경, 인증 철회, 실제 Git 병합 충돌까지 무조건 자동 해결한다고 보장하지 않습니다.
-- 수집 대상은 설정된 RSS·언론·공식 출처입니다. 새로운 인터넷 자료 전부를 발견하거나 검증 없이 프로필을 자동 확정하는 시스템은 아닙니다. 출처 검증을 통과하지 않은 후보는 별도 보관합니다.
+로컬 미리보기는 http://127.0.0.1:4322/goyounjung/ 이다. `goyounjung-preview.service`가 검증된 릴리스만 제공한다. 새 빌드가 실패하면 이전 릴리스를 유지한다. 수동으로 Astro preview를 띄운 오래된 프로세스에 의존하지 않는다. 공개 배포와 로컬 빌드는 별도 시점일 수 있으므로 `sync.json`의 원본 커밋으로 대조한다.
 
-## 수집 내구성
+웹 의존성의 호환 자동 업데이트는 테스트와 빌드를 통과한 lockfile만 커밋·푸시한다. 다른 편집·원격 분기·예상하지 않은 저장소는 자동 게시하지 않는다. 실패한 푸시는 안전 조건을 다시 검사한 뒤 재시도한다. main push가 전체 웹 배포 검사를 실행한다.
 
-### 출처별 정상 여부와 복구
+## 콘텐츠 보존과 외부 출처
 
-- 잡지는 `config/magazine-rss.yml`에 검증된 공식 검색/API/RSS 주소와 확인 범위를 기록합니다. ELLE·BAZAAR·Esquire·Cosmopolitan은 검색 화면의 공개 POST `/search`, W·GQ·Allure는 공개 `get_search_custom`, Singles는 공개 `/api/article-search`를 사용합니다. Vogue·Marie Claire는 검색 RSS, Arena·Noblesse는 최신 기사 RSS를 확인합니다. 최신 RSS는 과거 전체 검색을 대신하지 않습니다.
-- HTTP 200만으로 성공하지 않습니다. 검색 결과 구조·기사 제목·공식 도메인 링크를 검증하고, RSS는 XML 파싱과 필수 항목을 검사합니다. Vogue의 누락된 `media` 네임스페이스 선언만 보정하며, 다른 파싱 오류나 접근 안내 화면은 실패로 남깁니다. 제목에 고윤정이 포함된 링크만 추가하며 원문 본문을 복사하지 않습니다. 날짜가 없으면 `날짜 미상`으로 기록합니다.
-- 유튜브는 기본적으로 등록 채널 8개를 매 실행마다 확인합니다. RSS 장애 시 동일 채널의 공개 업로드 재생목록 첫 페이지를 읽고, 재생목록 ID와 소유 채널 ID를 검증한 뒤 제목·영상 링크만 사용합니다. 추천 영상·다른 채널·로그인 안내 페이지를 수집 결과로 인정하지 않습니다. 대체 경로 사용 사실과 범위를 상태 보고서에 표시하며, 두 경로가 모두 실패하면 부분성공을 유지합니다. 과거 `@tvN10`은 실제 채널명이 `t`로 확인되어, tvN 공식 홈페이지가 연결한 `tvN Joy` 채널로 교체했습니다.
-- 접속·읽기 시간 초과, 429, 5xx는 최대 2회 시도하고 재시도 전에 기다립니다. 404·403·파싱 오류는 같은 실행에서 반복하지 않습니다. 부분성공 후의 다음 수집은 기존 1시간 재시도 정책을 유지합니다.
-- 소속사 모니터는 `config/agency-sources.json`의 수집 생명주기를 따릅니다. MAA는 흡수합병 및 소속 변경 근거를 확인해 2026-10-18 `retired`로 전환했습니다. 종료 이유·근거·날짜가 없는 비활성 설정은 오류입니다. 종료 출처는 요청하지 않고 `retired`를 기록하며 마지막 실제 성공 시각과 종료 전 실패 횟수를 보존합니다. 활성 수집 실패를 성공으로 바꾸지 않습니다. 에이투지 홈페이지에는 고윤정 프로필이 없어 대체 출처로 등록하지 않았습니다. 새 공식 배우 프로필을 검증한 뒤 `active`로 변경해야 합니다. 소속사 기준 필모 감사는 측정 불가로 표시합니다.
-- `data/reports/collectors/`와 `pages/source-collection-status.md`에 출처별 오류 유형·재시도 가능 여부·확인 범위·마지막 성공·연속 실패 횟수를 저장합니다. 사이트 아카이브에서 상태 문서를 열 수 있습니다. 수집 자료는 원자적으로 저장하고 기존 링크를 중복 삽입하지 않습니다.
-- 수집 전 및 게시 전 GitHub 실제 연결을 최대 약 120초 기다립니다(개별 요청 시간 제한 포함). Git fetch/push의 일시 네트워크 오류는 최대 3회 시도하며, 인증 실패·원격 충돌은 중단합니다. 부팅 직후 DNS가 준비되지 않은 경우에도 다음 타이머 실행과 함께 복구합니다. `.locks/network-readiness.json`에 최근 연결 준비 결과를 기록합니다.
+자동 후보 생성기는 `AUTO-CANDIDATES` 마커 내부만 갱신하고 앞뒤 사진과 수동 설명을 보존한다. 외부 원문은 복제하지 않고 제목·URL·제한된 검증 메타데이터를 사용한다. 개별 사실은 원문 근거로 검토하며 후보·미확정 자료를 확정 사실로 승격하지 않는다.
+
+- XML 파서는 누락된 media namespace와 XML 1.0에서 금지된 제어 바이트만 제한적으로 보정하고 보정 사실을 기록한다. 구조가 깨진 RSS나 HTML 응답은 여전히 실패다.
+- 공식 출처가 계속 실패하면 최대 24시간까지 재시도를 늦춘다. 대기 중에는 마지막 실패 시각·횟수·내용을 유지하며 성공이나 새 확인으로 만들지 않는다.
+- 실제 404/410 원문은 웹에서 확인 불가 표시로 보존한다. HTTP 403, TLS 오류, 일시 오류를 삭제로 단정하지 않는다. 인증서 검증은 끄지 않는다.
+- POST 검색 API는 일반 GET 게시물 링크와 구분한다. 소속사 MAA의 과거 프로필은 종료 근거를 보존한 역사적 출처이며 활성 수집 대상이 아니다.
+- Google News·유튜브의 실패는 새 자료 0건과 구분한다. 확인할 수 없는 후보는 검증 대기열에 보존한다.
+
+## 운영 명령
 
 ```sh
-# 실제 출처 확인만 수행: 뉴스·상태 보고서를 쓰지 않음
-.venv/bin/python scripts/auto_collect_magazine_rss.py --check
-.venv/bin/python scripts/auto_collect_agency.py --check
-.venv/bin/python scripts/auto_collect_youtube_feeds.py --check
-# 전체 실행: 수집 실패는 부분성공으로 유지하고 완료된 자료만 게시
-FORCE=1 bash scripts/collect_and_sync_website.sh
+systemctl --user status goyoonjung-wiki-sync.service goyoonjung-wiki-daily.service
+systemctl --user list-timers 'goyoonjung*' 'goyounjung*'
+cd /home/zenith/goyoonjung-wiki
+.venv/bin/python scripts/operational_status.py --alerts
+.venv/bin/python scripts/daily_status.py
+# 현재 로컬 원본과 공개 최신 main의 엄격한 대조
+.venv/bin/python scripts/verify_website_sync.py --wait 900
+# 실제 파일 URL은 별도 캐시 범위로 검사
+.venv/bin/python scripts/verify_website_sync.py --artifact-urls --wait 900
 ```
 
-### 저장과 뉴스 주소 처리
-
-RSS 다운로드·파싱·원문 주소 해석 실패는 정상적인 새 자료 0건과 구분해 종료 코드로 전달합니다. 뉴스는 임시 파일에 기록·fsync 후 교체하고, 저장이 끝난 다음에만 중복 수집 방지 DB를 갱신합니다. 저장 후 체크포인트 전에 중단되어도 기존 URL은 중복 기록하지 않습니다.
-
-Google News 주소는 단순 HEAD 리다이렉트 대신 [googlenewsdecoder](https://github.com/SSujitX/google-news-url-decoder)로 해석합니다. 제한 시간과 배치 동시성 4를 적용하고, 성공한 원문 주소를 `.cache/news-decodes`에 보관합니다. 실패 결과는 디스크에 영구 캐시하지 않아 다음 실행에서 복구할 수 있습니다. 수집한 원문에는 기존 도메인 등급·관련성 검증을 적용합니다.
+전체 콘텐츠의 사실 정확도, 모든 인터넷 자료의 수집률, 외부 서비스의 가동을 보장하지 않는다. 기록된 성공은 명시된 검사 범위에 한정한다.

@@ -5,12 +5,14 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
-WorkingDirectory=%h/.local/share/goyoonjung-runtime/goyoonjung-wiki
+WorkingDirectory=%h/goyoonjung-wiki
 ExecStart=/usr/bin/env bash scripts/collect_and_sync_website.sh
 Environment=COLLECT_ONLY=1
 Environment=TZ=Asia/Seoul
 Environment=PYTHONUNBUFFERED=1
 TimeoutStartSec=4200
+Restart=on-failure
+RestartSec=300
 SuccessExitStatus=75
 
 [Install]

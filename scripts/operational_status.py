@@ -51,6 +51,12 @@ def alert_status(base: Path = BASE, now: datetime | None = None) -> dict:
                     errors.append(message)
         if heartbeat['status'] == 'partial' and not (warnings or errors):
             errors.append('Partial collection has no diagnostic steps')
+        daily_path = base / 'data/reports/daily-status.json'
+        if daily_path.exists():
+            from daily_status import classify
+            daily = classify(json.loads(daily_path.read_text()))
+            errors.extend('daily: '+message for message in daily['errors'])
+            warnings.extend('daily: '+message for message in daily['warnings'])
     except (OSError, ValueError, KeyError, TypeError) as exc:
         errors.append(f'Invalid collection telemetry: {exc}')
     return {'status': 'failure' if errors else 'partial' if warnings else 'success',

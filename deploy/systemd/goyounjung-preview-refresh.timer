@@ -1,0 +1,10 @@
+[Unit]
+Description=Keep local archive preview current
+
+[Timer]
+OnBootSec=1min
+OnCalendar=*-*-* *:02/5:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

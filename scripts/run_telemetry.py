@@ -32,6 +32,8 @@ def record(kind: str, started: float, rc: int, steps: list | None = None) -> dic
     atomic_write(HISTORY, json.dumps(rows[-2000:], ensure_ascii=False, indent=2) + '\n')
     if kind == 'fast':
         atomic_write(BASE / 'data/reports/heartbeat.json', json.dumps(row, ensure_ascii=False, indent=2) + '\n')
+    if kind == 'daily':
+        atomic_write(BASE / 'data/reports/daily-status.json', json.dumps(row, ensure_ascii=False, indent=2) + '\n')
     return row
 
 
@@ -79,7 +81,9 @@ if __name__ == '__main__':
     parser.add_argument('--kind')
     parser.add_argument('--started', type=float)
     parser.add_argument('--rc', type=int, default=0)
+    parser.add_argument('--result', action='append', default=[])
     args = parser.parse_args()
     if args.kind:
-        record(args.kind, args.started, args.rc)
+        steps = [{'name': item.rsplit(':', 1)[0], 'returncode': int(item.rsplit(':', 1)[1])} for item in args.result]
+        record(args.kind, args.started, args.rc, steps)
     print(json.dumps(report(), ensure_ascii=False))

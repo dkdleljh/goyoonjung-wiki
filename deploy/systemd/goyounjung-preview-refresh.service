@@ -1,0 +1,9 @@
+[Unit]
+Description=Build current committed wiki and website for local preview
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/goyoonjung-wiki
+Environment=PATH=/home/zenith/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/python3 scripts/refresh_local_site.py
+TimeoutStartSec=900

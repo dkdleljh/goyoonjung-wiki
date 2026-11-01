@@ -103,7 +103,7 @@ echo phase >> phases
     result = subprocess.run(['bash', 'scripts/collect_and_sync_website.sh'], cwd=tmp_path,
                             env=dict(os.environ), timeout=10)
     assert result.returncode == 0
-    assert (tmp_path / 'phases').read_text().splitlines() == ['phase'] * 3
+    assert (tmp_path / 'phases').read_text().splitlines() == ['phase'] * 4
 
 
 def test_busy_tick_does_not_delay_next_collection(tmp_path, monkeypatch):

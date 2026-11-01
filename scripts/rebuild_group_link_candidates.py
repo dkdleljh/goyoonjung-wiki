@@ -52,7 +52,7 @@ OFFICIAL_LINKS_BY_PAGE = {
     # brands (site links can be blocked; still useful as official references)
     "brands/chanel.md": ["https://www.chanel.com/kr/"],
     "brands/boucheron.md": ["https://www.boucheron.com/"],
-    "brands/goodal.md": ["https://www.goodal.com/"],
+    "brands/goodal.md": ["https://clubclio.co.kr/shop/brandsList/121733000000000/brand/3"],
     "brands/vodana.md": ["https://www.vodana.co.kr/"],
     "brands/lensme.md": ["https://www.lensme.co.kr/"],
 }
@@ -227,14 +227,14 @@ def update_page(page: Path, title: str, items):
 
     content = "\n".join([START, "\n".join(auto).rstrip(), END])
 
-    # Keep any manual notes below markers if present
+    # Only replace the generated block. Photographs and editorial notes on
+    # either side belong to the editor, even when the candidate URLs change.
     if START in txt and END in txt:
-        # keep everything after END
-        after = re.split(re.escape(END), txt, maxsplit=1, flags=0)
-        tail = after[1] if len(after) == 2 else "\n"
-        new_txt = "\n".join(lines).rstrip() + "\n\n" + content + "\n" + tail
+        before, remaining = txt.split(START, 1)
+        _, after = remaining.split(END, 1)
+        new_txt = before + content + after
     else:
-        new_txt = "\n".join(lines).rstrip() + "\n\n" + content + "\n"
+        new_txt = (txt.rstrip() if txt.strip() else "\n".join(lines).rstrip()) + "\n\n" + content + "\n"
 
     new_txt = new_txt.rstrip() + "\n"
     if new_txt != txt:

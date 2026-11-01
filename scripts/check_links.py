@@ -118,6 +118,10 @@ def fetch_status(url: str) -> Result:
     original = url
     parts = urlsplit(url)
     host = (parts.hostname or '').removeprefix('www.')
+    if host in {'wkorea.com', 'gqkorea.co.kr', 'allurekorea.com'} and parts.path == '/wp-admin/admin-ajax.php':
+        return Result(original, 'unchecked', None, 'Read-only POST search API; validated by magazine collector, not a GET article')
+    if host == 'maa.co.kr':
+        return Result(original, 'unchecked', None, 'Retired historical agency; see config/agency-sources.json')
     if host in {'youtube.com', 'youtu.be'}:
         video = parts.path.lstrip('/') if host == 'youtu.be' else parse_qs(parts.query).get('v', [''])[0]
         if re.fullmatch(r'[A-Za-z0-9_-]{11}', video):
@@ -152,6 +156,9 @@ def fetch_status(url: str) -> Result:
         with urlopen(req, timeout=TIMEOUT) as resp:
             code = getattr(resp, "status", None) or 200
             if 200 <= code < 400:
+                destination = resp.geturl()
+                if isinstance(destination, str) and parts.path not in {'', '/'} and urlsplit(destination).path in {'', '/'}:
+                    return Result(original, 'warn', code, 'Article redirected to homepage')
                 return Result(url=url, status="ok", code=code, note="GET fallback")
             if code in {404, 410}:
                 return Result(url=url, status="bad", code=code, note="GET fallback")

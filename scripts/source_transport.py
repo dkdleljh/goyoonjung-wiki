@@ -81,6 +81,10 @@ def save_report(collector: str, sources: list[dict]) -> None:
     now = datetime.now().astimezone().isoformat(timespec="seconds")
     for row in sources:
         old = previous.get(row["name"], {})
+        if row.get('deferred'):
+            # The last failed check remains visible, with its original age and
+            # count. A cooldown is neither a fresh failure nor a success.
+            continue
         success = row["status"] == "success"
         retired = row["status"] == "retired"
         failures = 0 if success else (old.get('consecutive_failures') or 0) + 1
@@ -115,6 +119,8 @@ def render_reports() -> None:
             detail = row.get("error") or f"확인 {row.get('fetched', 0)}건 · 관련 {row.get('matched', 0)}건"
             if row.get("warnings"):
                 detail += " · " + "; ".join(row["warnings"])
+            if row.get('deferred'):
+                detail += ' · 재시도 대기(최대 24시간); 마지막 실제 확인 결과 유지'
             if row['status'] == 'retired':
                 detail = row['reason'] + f" · 수집 종료: {row['retired_at']}"
                 detail += ''.join(f" · [근거 {i}]({url})" for i, url in enumerate(row['evidence'], 1))
