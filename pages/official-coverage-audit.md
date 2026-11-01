@@ -1,6 +1,6 @@
 # Official Coverage Audit (auto)
 
-> Updated: 2026-11-01 17:19 (Asia/Seoul)
+> Updated: 2026-11-01 17:31 (Asia/Seoul)
 
 ## Scores
 - official_work_sync: **측정 불가 (기준 출처 수집 종료)**

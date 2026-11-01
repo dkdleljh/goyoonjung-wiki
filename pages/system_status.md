@@ -20,15 +20,15 @@ checked sections: clean
 
 ## link_health: **0/100**
 
-checked at: 2026-11-01 17:18
-counts: {'OK': 1048, 'WARN': 17, 'BAD': 4, 'UNCHECKED': 8}
+checked at: 2026-11-01 17:30
+counts: {'OK': 1049, 'WARN': 16, 'BAD': 4, 'UNCHECKED': 9}
 score = verified OK / all discovered URLs; BAD forces zero
 
 ## automation_health: **0/100**
 
 status: partial
-last_run: 2026-11-01T17:19:00+09:00
-age_hours: 0.01
+last_run: 2026-11-01T17:31:00+09:00
+age_hours: 0.02
 source: news/2026-11-01.md
 recorded_result: partial
 reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-11-01_1202.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, link-health:SKIP, portal-news:OK, san-news:OK, agency:RETIRED, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, RC_LINK:FAIL(1), mode:local-collection (not published)
@@ -45,7 +45,7 @@ max_age_hours: 8
 
 - new_urls: 5
 - landed_urls: 0
-- duplicate_rate: 43.47% (446/1026)
+- duplicate_rate: 43.81% (464/1059)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
   - A: 3

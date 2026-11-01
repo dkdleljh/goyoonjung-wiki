@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `ae9dd28b1` |
+| 최신 커밋 | `3ab811bc3` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,21 +63,21 @@
   - 로컬 노트: `logs/releases/release-notes-v1.138.2.md`
 
 ## 최근 변경 요약
+- [`3ab811bc3`](https://github.com/dkdleljh/goyoonjung-wiki/commit/3ab811bc3) — docs: sync collected wiki content for website
+- [`8bfb39bbc`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8bfb39bbc) — fix: preserve wiki content and recover reliable collection and previews
 - [`ae9dd28b1`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ae9dd28b1) — docs: sync collected wiki content for website
 - [`26e7d992f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/26e7d992f) — docs: sync collected wiki content for website
 - [`542dbc14b`](https://github.com/dkdleljh/goyoonjung-wiki/commit/542dbc14b) — docs: sync collected wiki content for website
-- [`f3d4248c4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f3d4248c4) — docs: sync collected wiki content for website
-- [`dafb227ff`](https://github.com/dkdleljh/goyoonjung-wiki/commit/dafb227ff) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
 - `data/facts/awards.json`
 - `data/facts/evidence.json`
 - `data/facts/profile.json`
 - `data/facts/works.json`
-- `data/reports/candidate-reviews.json`
+- `data/reports/archive-progress.json`
+- `data/reports/collectors/archive.json`
 - `data/reports/collectors/official-live.json`
 - `data/reports/collectors/youtube.json`
-- `data/reports/fast-task-state.json`
 
 ## 자주 쓰는 명령
 ```bash
