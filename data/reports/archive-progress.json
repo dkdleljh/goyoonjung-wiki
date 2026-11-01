@@ -1,29 +1,20 @@
 {
   "ELLE Korea": {
-    "page": 6,
-    "checked_at": "2026-11-01T08:28:57.640810+00:00",
-    "next_scan": "2026-11-01T09:28:57.640810+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166",
-      "f9982d4067766d38df2a71dbb4688ffbba75ad88dc725f52f88cc661efd73843",
-      "f9d2793d0429735f45862ada29f59754a71209880239f2acd9bccddd50443cc7",
-      "c85097e4bd26dbdd7a894a4fa46ace5a361cd746e68504974bb51583e263d5f2",
-      "7d407aea08c450776d15b35ee08c0915f98ef372525553723880b4dc41080235"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:07.344590+00:00",
+    "next_scan": "2026-11-08T08:35:07.344590+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 41,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "W Korea": {
-    "page": 3,
-    "checked_at": "2026-11-01T06:50:34.318179+00:00",
-    "next_scan": "2026-11-01T07:50:34.318179+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "f0241cce012db16453495e6300013377864543e25a5371196a9aa1c628918e8a",
-      "4cec078a7999314aade87e7de94d931409f189026021a150b6e823b811446329"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:00.828824+00:00",
+    "next_scan": "2026-11-08T08:35:00.828824+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 13,
     "years_observed": [
       2021,
@@ -35,31 +26,21 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 8,
-    "checked_at": "2026-11-01T06:50:34.318179+00:00",
-    "next_scan": "2026-11-01T07:50:34.318179+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "b8f39340d35ff44fbf7eb99034c0a5bfc43c781860614bd198672c4da2473af7",
-      "b07172270600edbd4efb8c883cb946aa095ce3c77b9f2600df041c239b1204ce",
-      "8e7e9650ca5e67f216b400929fba93dab3e6224ca20e8a5370eca311eb8db0f2",
-      "44d33fce9aaab839e7895cc9b15bc132bb3e19c85379646fd4876d302e72c9db",
-      "bd97c0959c14e5a270ca5f8365b92851573160dd5396d8862e97a1ab22189a18",
-      "4643f4344d945ba0a5c76785617fa4786770928dfaad79ca06d2d7ed445ac06d",
-      "4f495ab391f688df33819391003b008d97ac437284e3387a23adc2691ac1119a"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:00.828824+00:00",
+    "next_scan": "2026-11-08T08:35:00.828824+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 39,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "GQ Korea": {
-    "page": 2,
-    "checked_at": "2026-11-01T07:05:26.045706+00:00",
-    "next_scan": "2026-11-01T08:05:26.045706+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "dae624f68bbdcc2ebd5316fadabc07810fb8e8a7ea24cd368374961eb58110c7"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:05.822352+00:00",
+    "next_scan": "2026-11-08T08:35:05.822352+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [
       2022,
@@ -68,17 +49,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Vogue Korea": {
-    "page": 6,
-    "checked_at": "2026-11-01T07:05:26.045706+00:00",
-    "next_scan": "2026-11-01T08:05:26.045706+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b",
-      "e1f38f15e062dc3fd7fc309ba81a7f0966223babda85e785ac516b1c5848075c",
-      "f119b7433419fba7b567b44add78d5faaf2a9f11fb2657aeebe71139e8a56bd8",
-      "c2c05de761c7fe2f51271d39690d362799198dead74f3c5b1983634998cd2b4a",
-      "e4cc5c0faada07bfecade9cc03f9c6ca75938c759020c5de4a183e62306d4508"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:05.822352+00:00",
+    "next_scan": "2026-11-08T08:35:05.822352+00:00",
+    "status": "pagination_unavailable",
+    "fingerprints": [],
     "items_added": 9,
     "years_observed": [
       2021,
@@ -90,18 +65,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Marie Claire Korea": {
-    "page": 7,
-    "checked_at": "2026-11-01T08:28:57.640810+00:00",
-    "next_scan": "2026-11-01T09:28:57.640810+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "b687253b32725500fd4b34a5553662c7998c483c49af6953c600cf7a932e7691",
-      "4157680798e6428795c83d270249a92a0e4fd0d3dcf00bc2bf052f6785c9730a",
-      "224754c885702f358ca87f17b1ed314585f412bf22ac822874c4cc8278083620",
-      "207768325a896dd408b96f32059b407d4024e3650a8fba9da57020c7d822d705",
-      "7433def8b355ca90fc5b6305f9c0cb5018ea7ed5608cb97d5e561b9a76651bb7",
-      "753bc09d7171ea994a93372ecb7e2ac3caf124626a2ac46e3325acc36c1a930a"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:07.344590+00:00",
+    "next_scan": "2026-11-08T08:35:07.344590+00:00",
+    "status": "pagination_unavailable",
+    "fingerprints": [],
     "items_added": 13,
     "years_observed": [
       2020,
@@ -113,42 +81,31 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Esquire Korea": {
-    "page": 3,
-    "checked_at": "2026-11-01T08:28:57.640810+00:00",
-    "next_scan": "2026-11-01T09:28:57.640810+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "00bbe1024c661c34b4336af134513dee61cfd05870e3f1a075a15fc68800c078",
-      "4c616495433feab857d108128d888a58b5dd99e89e9fc8a9c6f4a4b1c873aa79"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:07.344590+00:00",
+    "next_scan": "2026-11-08T08:35:07.344590+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 2,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Cosmopolitan Korea": {
-    "page": 5,
-    "checked_at": "2026-11-01T07:05:26.045706+00:00",
-    "next_scan": "2026-11-01T08:05:26.045706+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "ce48efb8ccd568877369893e93b1168ac2c59e8a38e721c0f9d414482009e87f",
-      "357bdbe69b3f29b4c723af830203e362e7ea187ce1b92e7a9f03ffcd5e5e8ff6",
-      "a6e451d67262e3cd81fe458dfa051a8e7ff3bb9a07c2de33031ca737db3dbba7",
-      "a7da40d066b9e0c9037b2f56b1b2674d7e85da360bcaf76e4c0310c882da079d"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:05.822352+00:00",
+    "next_scan": "2026-11-08T08:35:05.822352+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 20,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Allure Korea": {
-    "page": 3,
-    "checked_at": "2026-11-01T06:50:34.318179+00:00",
-    "next_scan": "2026-11-01T07:50:34.318179+00:00",
-    "status": "retry_pending",
-    "fingerprints": [
-      "342f8e7664889d2020765f8299ee1588c747ee4b82b77d5a802fbd913c57b7a6",
-      "631d93dbe866ef21e2f67a210f25ea0436ba03fc7f79467c2a344c8f65a0fa8b"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-01T08:35:00.828824+00:00",
+    "next_scan": "2026-11-08T08:35:00.828824+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [
       2022,

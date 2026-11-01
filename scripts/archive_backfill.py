@@ -38,7 +38,7 @@ def main() -> int:
             end = report['fetched'] == 0 or repeated
             state[feed['name']] = {'page': 1 if end else page + 1, 'checked_at': now.isoformat(),
                 'next_scan': (now + timedelta(days=7)).isoformat() if end else now.isoformat(),
-                'status': 'pagination_repeated' if repeated else 'end_of_results' if end else 'in_progress',
+                'status': report.get('boundary_status') or ('pagination_repeated' if repeated else 'end_of_results' if end else 'in_progress'),
                 'fingerprints': [] if end else (old.get('fingerprints', []) + [report['page_fingerprint']])[-500:],
                 'items_added': old.get('items_added', 0) + added,
                 'years_observed': sorted(set(old.get('years_observed', []) + [e.year for e in entries if e.year])),

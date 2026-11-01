@@ -180,7 +180,7 @@ def parse_rss(data: bytes) -> tuple[list[dict], list[str]]:
     return rows, warnings
 
 
-def parse_hll(data: bytes) -> list[dict]:
+def parse_hll(data: bytes, page: int = 1) -> list[dict]:
     soup = BeautifulSoup(data.decode("utf-8"), "html.parser")
     container = soup.select_one(".atc_list")
     if container is None:
@@ -195,6 +195,9 @@ def parse_hll(data: bytes) -> list[dict]:
             raise SourceError("Article title missing from search result")
         rows.append({"title": title.get_text("", strip=True), "url": a["href"], "date": ""})
     if not rows:
+        pages = [int(a['data-page']) for a in soup.select('a[data-page]') if str(a['data-page']).isdigit() and int(a['data-page']) > 0]
+        if page > 1 and pages and max(pages) < page and soup.select_one('a.btn_next.disabled') and container.select_one('ul') is not None and not container.select('li'):
+            return []
         raise SourceError("Search result container has no article links")
     return rows
 
@@ -207,14 +210,29 @@ def collect_feed(feed: dict, keyword: str) -> tuple[list[dict], dict]:
     try:
         warnings = []
         if mode == "rss":
-            rows, warnings = parse_rss(fetch(url + (("&" if "?" in url else "?") + f"paged={page}" if page > 1 else "")))
+            try:
+                rows, warnings = parse_rss(fetch(url + (("&" if "?" in url else "?") + f"paged={page}" if page > 1 else "")))
+            except SourceError as exc:
+                if page <= 1 or exc.kind != 'http' or str(exc) != 'HTTP 404':
+                    raise
+                # Some WordPress feeds return 404 past their exposed history.
+                # Verify the current feed before resetting the archive cursor,
+                # and explicitly avoid claiming complete historical coverage.
+                current, repaired = parse_rss(fetch(url))
+                rows, warnings = [], repaired + [f'Archive page {page} returns 404; current feed valid ({len(current)} items). Historical boundary is unconfirmed.']
+                report['boundary_status'] = 'pagination_unavailable'
         elif mode == "hll_search":
-            rows = parse_hll(request(url, method="POST", json={"page": page, "id": "artnews", "keyword": keyword, "sortOption": "latest"}))
+            rows = parse_hll(request(url, method="POST", json={"page": page, "id": "artnews", "keyword": keyword, "sortOption": "latest"}), page=page)
         elif mode == "wp_search":
             payload = json.loads(request(url, method="POST", data={"action": "get_search_custom", "posts_per_page": 20,
                               "post_type": "post", "paged": page, "query[s]": keyword}))
-            if not isinstance(payload, dict) or "count_posts" not in payload or not isinstance(payload.get("current_posts"), list):
+            if not isinstance(payload, dict) or not str(payload.get('count_posts', '')).isdigit():
                 raise SourceError("Invalid magazine search response")
+            total = int(payload['count_posts'])
+            if 'current_posts' not in payload and page > 1 and total <= (page - 1) * 20:
+                payload['current_posts'] = []
+            if not isinstance(payload.get('current_posts'), list):
+                raise SourceError('Invalid magazine search response')
             if page == 1 and int(payload["count_posts"]) > 0 and not payload["current_posts"]:
                 raise SourceError("Search reports articles but returned none")
             rows = [{"title": r["post_title"], "url": r["permalink"], "date": r.get("post_date", "")} for r in payload["current_posts"]]
