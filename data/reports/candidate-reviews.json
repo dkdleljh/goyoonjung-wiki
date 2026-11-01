@@ -6430,5 +6430,29 @@
       "last_modified": "Sat, 31 Oct 2026 22:10:20 GMT",
       "first_seen": "2026-10-31T22:10:21.409283+00:00"
     }
+  },
+  "https://www.newsen.com/news_view.php?uid=202610312037136110": {
+    "status": "irrelevant",
+    "checked_at": "2026-11-01T04:00:22.884608+00:00",
+    "first_seen_at": "2026-11-01 03:55:10",
+    "next_check": "2026-11-08T04:00:22.884608+00:00",
+    "metadata": {
+      "id": "007e24ef5a778140e4972d43",
+      "url": "https://www.newsen.com/news_view.php?uid=202610312037136110",
+      "publisher": "newsen.com",
+      "category": "news",
+      "first_party": false,
+      "title": "ìí ¿øÆø ¼ÒÀç ¿µÈ­ °ÅÀý ¿ìÁî, È­·ÁÇÑ ¹è¿ì µ¥ºß¡¥ÀÌº´Çå °íÀ±Á¤ ÀÌµµÇö°ú ÇÔ²²(¾ÆÇü)",
+      "published_at": "2026-11-01 05:56:55",
+      "collected_at": "2026-11-01T04:00:23.243690+00:00",
+      "content_hash": "1e9cba49780f12620c4731d438e4a51944a804f3139f3930c6b28a3f36c716c1",
+      "excerpt": "»ó¾÷¿µÈ­ µ¥ºß¸¦ ¾ÕµÐ °¡¼ö ¿ìÁî°¡ È­·ÁÇÑ ¹è¿ì ¶óÀÎ¾÷À» °ø°³Çß´Ù.   10¿ù 31ÀÏ ¹æ¼ÛµÈ JTBC ¿¹´É &#039;¾Æ´Â Çü´Ô&#039;(ÀÌÇÏ &#039;¾ÆÇü&#039;) 549È¸¿¡¼­´Â ³ëÀ» °­±Õ¼",
+      "actor_mentioned": false,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-01T04:00:23.243690+00:00"
+    }
   }
 }
