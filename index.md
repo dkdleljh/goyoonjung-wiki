@@ -17,11 +17,11 @@
 - 자세한 내용: [CHANGELOG.md](CHANGELOG.md)
 
 ## 최근 변경 5개
-- [`6e88744c5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/6e88744c5) — docs: sync collected wiki content for website
-- [`0d32f56fc`](https://github.com/dkdleljh/goyoonjung-wiki/commit/0d32f56fc) — docs: sync collected wiki content for website
-- [`0e435fe5f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/0e435fe5f) — docs: sync collected wiki content for website
-- [`7a472ab2c`](https://github.com/dkdleljh/goyoonjung-wiki/commit/7a472ab2c) — docs: sync collected wiki content for website
-- [`4e766a864`](https://github.com/dkdleljh/goyoonjung-wiki/commit/4e766a864) — docs: sync collected wiki content for website
+- [`e9d0858cd`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e9d0858cd) — docs: sync collected wiki content for website
+- [`e38ef6f36`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e38ef6f36) — docs: sync collected wiki content for website
+- [`ee3cee43f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ee3cee43f) — docs: sync collected wiki content for website
+- [`55ebcae7e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/55ebcae7e) — docs: sync collected wiki content for website
+- [`cb105553e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/cb105553e) — docs: sync collected wiki content for website
 
 ## 직전 변경 파일
 - `data/facts/awards.json`
