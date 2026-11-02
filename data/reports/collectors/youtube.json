@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T13:15:15+09:00",
+  "checked_at": "2026-11-02T13:20:14+09:00",
   "status": "success",
   "sources": [
     {
@@ -9,8 +9,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -23,8 +23,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -37,8 +37,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -48,8 +48,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -62,8 +62,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -73,22 +73,19 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "NetflixKorea",
-      "url": "https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ",
-      "scope": "recent_uploads_playlist",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ",
+      "scope": "recent_uploads_feed",
       "status": "success",
-      "fetched": 100,
-      "warnings": [
-        "RSS unavailable: HTTP 500; verified official uploads playlist instead"
-      ],
+      "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -101,8 +98,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -112,19 +109,22 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "JTBC Drama",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg",
-      "scope": "recent_uploads_feed",
+      "url": "https://www.youtube.com/playlist?list=UUkbJc8jMcTXwhtmN5VMwfXg",
+      "scope": "recent_uploads_playlist",
       "status": "success",
-      "fetched": 15,
+      "fetched": 100,
+      "warnings": [
+        "RSS unavailable: HTTP 404; verified official uploads playlist instead"
+      ],
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -137,8 +137,8 @@
         "RSS unavailable: HTTP 404; verified official uploads playlist instead"
       ],
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     },
     {
@@ -148,8 +148,8 @@
       "status": "success",
       "fetched": 15,
       "matched": 0,
-      "checked_at": "2026-11-02T13:15:15+09:00",
-      "last_success": "2026-11-02T13:15:15+09:00",
+      "checked_at": "2026-11-02T13:20:14+09:00",
+      "last_success": "2026-11-02T13:20:14+09:00",
       "consecutive_failures": 0
     }
   ]
