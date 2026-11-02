@@ -361,8 +361,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-02T03:10:28.892608+00:00",
-    "next_check": "2026-11-02T09:10:28.892608+00:00",
+    "checked_at": "2026-11-02T09:15:28.860897+00:00",
+    "next_check": "2026-11-02T15:15:28.860897+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://www.tenasia.co.kr/article/2026092803714": {
@@ -559,8 +559,8 @@
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-02T03:10:28.892608+00:00",
-    "next_check": "2026-11-02T09:10:28.892608+00:00",
+    "checked_at": "2026-11-02T09:15:28.860897+00:00",
+    "next_check": "2026-11-02T15:15:28.860897+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA": {
@@ -2917,8 +2917,8 @@
   },
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-02T03:10:28.892608+00:00",
-    "next_check": "2026-11-02T09:10:28.892608+00:00",
+    "checked_at": "2026-11-02T09:15:28.860897+00:00",
+    "next_check": "2026-11-02T15:15:28.860897+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://v.daum.net/v/20260801063838267": {
@@ -4171,8 +4171,8 @@
   },
   "http://www.osen.co.kr/article/G1112894851": {
     "status": "retry_pending",
-    "checked_at": "2026-11-02T03:10:28.892608+00:00",
-    "next_check": "2026-11-02T09:10:28.892608+00:00",
+    "checked_at": "2026-11-02T09:15:28.860897+00:00",
+    "next_check": "2026-11-02T15:15:28.860897+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://www.osen.co.kr/article/G1112894851": {
@@ -4939,9 +4939,9 @@
   },
   "https://mbiz.heraldcorp.com/article/10907599": {
     "status": "metadata_verified",
-    "checked_at": "2026-10-26T09:05:20.760410+00:00",
+    "checked_at": "2026-11-02T09:15:28.860897+00:00",
     "first_seen_at": "2026-10-19 08:45:10",
-    "next_check": "2026-11-02T09:05:20.760410+00:00",
+    "next_check": "2026-11-09T09:15:28.860897+00:00",
     "metadata": {
       "id": "166074c01f5e7c98caac336e",
       "url": "https://mbiz.heraldcorp.com/article/10907599",
@@ -4950,8 +4950,8 @@
       "first_party": false,
       "title": "“실물 절대 못 담았다”…고윤정 대학시절 축제 ‘주점 포스터’ 화제 - 헤럴드경제",
       "published_at": "2026-10-19T16:47:07+09:00",
-      "collected_at": "2026-10-26T09:05:21.480141+00:00",
-      "content_hash": "23d4f3ee988e2d761fa4b0d48a32b81ae924cfbc5fe8c17bb4f9bdab7be9e8ce",
+      "collected_at": "2026-11-02T09:15:29.910245+00:00",
+      "content_hash": "cdb97270cdb800c4011e16d2e04ee0df19d52587ac052c253aa768916846e07b",
       "excerpt": "[헤럴드경제=최원혁 기자] 배우 고윤정이 데뷔 전 대학생 시절 모습이 다시 화제가 되고 있다. 최근 온라인 커뮤니티와 SNS에는 고윤정이 데뷔 전 서울여자대학교 재학 당",
       "actor_mentioned": true,
       "claims": [],
