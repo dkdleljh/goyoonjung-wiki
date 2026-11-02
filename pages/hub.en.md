@@ -1,6 +1,6 @@
 # 🧭 Go Youn-jung Wiki Hub
 
-> Auto-generated hub · last updated: 2026-11-02
+> Auto-generated hub · last updated: 2026-11-03
 
 ## Ops / Docs
 - [Project README](../README.md)
@@ -14,7 +14,7 @@
 ## Status table
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `e9d0858cd` |
+| 최신 커밋 | `1307ef481` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
