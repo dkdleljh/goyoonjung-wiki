@@ -361,8 +361,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-02T09:15:28.860897+00:00",
-    "next_check": "2026-11-02T15:15:28.860897+00:00",
+    "checked_at": "2026-11-02T15:35:25.158568+00:00",
+    "next_check": "2026-11-02T21:35:25.158568+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://www.tenasia.co.kr/article/2026092803714": {
@@ -559,8 +559,8 @@
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-02T09:15:28.860897+00:00",
-    "next_check": "2026-11-02T15:15:28.860897+00:00",
+    "checked_at": "2026-11-02T15:35:25.158568+00:00",
+    "next_check": "2026-11-02T21:35:25.158568+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/entertainment/enter_general/2026/09/27/GQYTGODBMQ4TKZTEMU3TAN3DHA": {
@@ -2917,8 +2917,8 @@
   },
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-02T09:15:28.860897+00:00",
-    "next_check": "2026-11-02T15:15:28.860897+00:00",
+    "checked_at": "2026-11-02T15:35:25.158568+00:00",
+    "next_check": "2026-11-02T21:35:25.158568+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://v.daum.net/v/20260801063838267": {
@@ -4171,8 +4171,8 @@
   },
   "http://www.osen.co.kr/article/G1112894851": {
     "status": "retry_pending",
-    "checked_at": "2026-11-02T09:15:28.860897+00:00",
-    "next_check": "2026-11-02T15:15:28.860897+00:00",
+    "checked_at": "2026-11-02T15:35:25.158568+00:00",
+    "next_check": "2026-11-02T21:35:25.158568+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://www.osen.co.kr/article/G1112894851": {
@@ -4987,9 +4987,9 @@
   },
   "https://www.fnnews.com/news/202610191033509808": {
     "status": "metadata_verified",
-    "checked_at": "2026-10-26T15:25:21.057577+00:00",
+    "checked_at": "2026-11-02T15:35:25.158568+00:00",
     "first_seen_at": "2026-10-19 15:05:10",
-    "next_check": "2026-11-02T15:25:21.057577+00:00",
+    "next_check": "2026-11-09T15:35:25.158568+00:00",
     "metadata": {
       "id": "27be5f71510347c13baf4d5e",
       "url": "https://www.fnnews.com/news/202610191033509808",
@@ -4998,8 +4998,8 @@
       "first_party": false,
       "title": "고윤정, 서울여대 주점 포스터 등장…소주 광고인 줄",
       "published_at": "2026-10-19T10:33:52+09:00",
-      "collected_at": "2026-10-26T15:25:21.480517+00:00",
-      "content_hash": "735f147e7a379d617129dc4f32f8632c5de67b68b872ebfdb086eb877d1a7043",
+      "collected_at": "2026-11-02T15:35:26.062162+00:00",
+      "content_hash": "971c91daafe1b439c26d6599cc7549c0910a89575bdb3bacfd4956818c5ce6e0",
       "excerpt": "[서울=뉴시스]박재민 인턴 기자 = 배우 고윤정의 대학교 시절 주점 홍보 포스터가 온라인에서 화제를 모으고 있다. 최근 온라인 소셜미디어에는 고윤정이 서울여자대학교 현대미술과 재학 당시 촬영한 주점 홍보 포스터가 올라왔다. 공개된 포스터에는 \"서울여자대학교 ..",
       "actor_mentioned": true,
       "claims": [],
