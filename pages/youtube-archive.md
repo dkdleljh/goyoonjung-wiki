@@ -114,3 +114,17 @@
 - [YouTube/MBCentertainment] [［마니또 클럽 선공개］ 모든 게 신기한 예능 새내기 고윤정, MBC 260222 방송](https://www.youtube.com/watch?v=HCf4tjqtJeU) · 과거 업로드, 게시일 확인 필요
 - [YouTube/MBCentertainment] [［마니또 클럽］ 정해인X고윤정, 선물 전달 추격전, MBC 260222 방송](https://www.youtube.com/watch?v=bog8uOI0VlU) · 과거 업로드, 게시일 확인 필요
 - [YouTube/MBCentertainment] [［놀면 뭐하니?］ 박명수 이상형은 고윤정?!😅 바로 경찰서로 향하는 유재석, MBC 260214 방송](https://www.youtube.com/watch?v=jfLoPFMqKuw) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Lee Jae-wook & Go Youn-jung being Daeho’s best couple in Alchemy of Souls Part 2 | #SwoonWorthy ［EN］](https://www.youtube.com/watch?v=xnoS32kajcU) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Lee Jae-wook and Go Youn-jung make a perfect pair together ⚔️ | Alchemy of Souls Part 2 Ep 10 ［EN］](https://www.youtube.com/watch?v=T5wffWl2DQI) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Lee Jae-wook and Go Youn-jung are officially husband and wife | Alchemy of Souls Part 2 Ep 10 ［EN］](https://www.youtube.com/watch?v=P-4LO1vgNgY) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Go Youn-jung tearfully leaves Lee Jae-wook behind | Alchemy of Souls Part 2 Ep 8 ［ENG SUB］](https://www.youtube.com/watch?v=IpXM0VrhAYo) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Lee Jae-wook responds to Go Youn-jung’s words with a kiss | Alchemy of Souls Part 2 Ep 7 ［ENG SUB］](https://www.youtube.com/watch?v=LF1rmoy0qBw) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Go Youn-jung and Shin Seung-ho try to  save Hwang Min-hyun | Alchemy of Souls Part 2 Ep 7 ［ENG SUB］](https://www.youtube.com/watch?v=9F0-Q3dwmN4) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Lee Jae-wook is jealous of Go Youn-jung’s date with Hwang Min-hyun | Alchemy of Souls Part 2 Ep 6](https://www.youtube.com/watch?v=RkT8I_kVDX4) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Lee Jae-wook, Go Youn-jung, Hwang Min-hyun, Shin Seung-ho, & Yoo In-soo play Jenga ［ENG SUB］](https://www.youtube.com/watch?v=bQZxwsK6A7E) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Lee Jae-wook pulls Go Youn-jung in for a kiss | Alchemy of Souls Part 2 Ep 4 ［ENG SUB］](https://www.youtube.com/watch?v=EVYGOTtUB9o) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Lee Jae-wook secretly helps Go Youn-jung find her way back | Alchemy of Souls Part 2 Ep 4 ［EN SUB］](https://www.youtube.com/watch?v=c1xmSFeGqbE) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Hwang Min-hyun helps a drenched Go Youn-jung cover up | Alchemy of Souls Part 2 Ep 3 ［ENG SUB］](https://www.youtube.com/watch?v=sCuhvpQmgj8) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Hwang Min-hyun is surprised by Go Youn-jung’s honesty | Alchemy of Souls Part 2 Ep 2 ［ENG SUB］](https://www.youtube.com/watch?v=aDsKA4Nj4iA) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Go Youn-jung is excited to spend the night with Lee Jae-wook | Alchemy of Souls Part 2 Ep 2 ［EN SUB］](https://www.youtube.com/watch?v=bts1JhfvtFc) · 과거 업로드, 게시일 확인 필요
+- [YouTube/NetflixKorea] [Go Youn-jung asks Lee Jae-wook to marry her | Alchemy of Souls Part 2 Ep 1 ［ENG SUB］](https://www.youtube.com/watch?v=ukxvimnPlhY) · 과거 업로드, 게시일 확인 필요
