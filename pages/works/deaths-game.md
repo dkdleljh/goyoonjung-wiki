@@ -22,9 +22,11 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-11-03 12:05 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-11-03 12:15 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
+
+- ⭐ [‘환혼: 빛과 그림자’, 이재욱·고윤정 로맨스 케미 - JTBC](https://news.jtbc.co.kr/article/NB12106600)  _(출처: appearances.md)_
 
 - ⭐ [한층 더 깊어진 로맨스!고윤정X이재욱 케미로 보는 '환혼2' 관전 포인트 #요즘드라마](https://www.elle.co.kr/article/73373)  _(출처: pictorials/editorial.md)_
 
@@ -37,6 +39,8 @@
 
 
 ### 전체 후보
+
+- [‘환혼: 빛과 그림자’, 이재욱·고윤정 로맨스 케미 - JTBC](https://news.jtbc.co.kr/article/NB12106600)  _(출처: appearances.md)_
 
 - [한층 더 깊어진 로맨스!고윤정X이재욱 케미로 보는 '환혼2' 관전 포인트 #요즘드라마](https://www.elle.co.kr/article/73373)  _(출처: pictorials/editorial.md)_
 

@@ -38,7 +38,7 @@
 <!-- AUTO-CANDIDATES:START -->
 ## 관련 링크(자동 후보)
 
-> 생성: 2026-11-03 12:05 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
+> 생성: 2026-11-03 12:15 (Asia/Seoul) — 키워드 매칭 기반 자동 후보이며, 최종 반영은 사람이 검토합니다.
 
 ### 자동 추천(S급 우선)
 
@@ -46,11 +46,11 @@
 
 - ⭐ [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
 
+- ⭐ [‘환혼: 빛과 그림자’, 이재욱·고윤정 로맨스 케미 - JTBC](https://news.jtbc.co.kr/article/NB12106600)  _(출처: appearances.md)_
+
 - ⭐ [한층 더 깊어진 로맨스!고윤정X이재욱 케미로 보는 '환혼2' 관전 포인트 #요즘드라마](https://www.elle.co.kr/article/73373)  _(출처: pictorials/editorial.md)_
 
 - ⭐ [이렇게 애절해도 되는 거? <환혼> 이재욱X고윤정이 엘르에서 보여주고 간 역대급 케미](https://www.elle.co.kr/article/73482)  _(출처: pictorials/editorial.md)_
-
-- ⭐ [환혼 빛과 그림자의 두 사람, 이재욱과고윤정은 서로를 놓지 않기로 결심했다.](https://www.elle.co.kr/article/73722)  _(출처: pictorials/editorial.md)_
 
 
 
@@ -59,6 +59,8 @@
 - [현대적인 우아함, 고윤정의 샤넬](https://www.vogue.co.kr/2025/10/05/현대적인-우아함-고윤정의-샤넬/)  _(출처: interviews.md)_
 
 - [고윤정과 함께한 화보와 인터뷰](https://www.marieclairekorea.com/fashion/2024/07/chanel-29/)  _(출처: interviews.md)_
+
+- [‘환혼: 빛과 그림자’, 이재욱·고윤정 로맨스 케미 - JTBC](https://news.jtbc.co.kr/article/NB12106600)  _(출처: appearances.md)_
 
 - [한층 더 깊어진 로맨스!고윤정X이재욱 케미로 보는 '환혼2' 관전 포인트 #요즘드라마](https://www.elle.co.kr/article/73373)  _(출처: pictorials/editorial.md)_
 
