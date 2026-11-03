@@ -73,19 +73,19 @@ retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다
 
 ## youtube
 
-- 확인: 2026-11-03T15:01:12+09:00
+- 확인: 2026-11-03T15:05:17+09:00
 
 | 출처 | 상태 | 범위 | 마지막 성공 | 연속 실패 | 상세 |
 |---|---|---|---|---|---|
-| [채널십오야](https://www.youtube.com/playlist?list=UUQ2O-iftmnlfrBuNsUUTofQ) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [tvN Joy](https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw) | failed | recent_uploads_feed | 2026-11-03T14:55:16+09:00 | 1 | RSS: HTTP 404; uploads playlist: Response ended prematurely |
-| [MBCentertainment](https://www.youtube.com/playlist?list=UUiBr0bK06imaMbLc8sAEz0A) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [MBCdrama](https://www.youtube.com/playlist?list=UUBAEVMr0li9YYF8IwZHfusw) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 70건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [SBSNOW](https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [JTBCEntertainment](https://www.youtube.com/playlist?list=UUFL1sCAksD6_7JIZwwHcwjQ) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [NetflixKorea](https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [DisneyPlusKR](https://www.youtube.com/playlist?list=UUtdz9LWNNQKUg4Xpma_40Ug) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [tvN DRAMA](https://www.youtube.com/playlist?list=UU9w-h_ciMmX64TcLRcb1xPg) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [JTBC Drama](https://www.youtube.com/playlist?list=UUkbJc8jMcTXwhtmN5VMwfXg) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [TVING](https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
-| [TEO](https://www.youtube.com/playlist?list=UU-uIpGINZDL-VIHQQzJW8jw) | success | recent_uploads_playlist | 2026-11-03T15:01:12+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [채널십오야](https://www.youtube.com/playlist?list=UUQ2O-iftmnlfrBuNsUUTofQ) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [tvN Joy](https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [MBCentertainment](https://www.youtube.com/playlist?list=UUiBr0bK06imaMbLc8sAEz0A) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [MBCdrama](https://www.youtube.com/playlist?list=UUBAEVMr0li9YYF8IwZHfusw) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 70건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [SBSNOW](https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [JTBCEntertainment](https://www.youtube.com/playlist?list=UUFL1sCAksD6_7JIZwwHcwjQ) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [NetflixKorea](https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [DisneyPlusKR](https://www.youtube.com/playlist?list=UUtdz9LWNNQKUg4Xpma_40Ug) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [tvN DRAMA](https://www.youtube.com/playlist?list=UU9w-h_ciMmX64TcLRcb1xPg) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [JTBC Drama](https://www.youtube.com/playlist?list=UUkbJc8jMcTXwhtmN5VMwfXg) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [TVING](https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
+| [TEO](https://www.youtube.com/playlist?list=UU-uIpGINZDL-VIHQQzJW8jw) | success | recent_uploads_playlist | 2026-11-03T15:05:17+09:00 | 0 | 확인 100건 · 관련 0건 · RSS unavailable: HTTP 404; verified official uploads playlist instead |
