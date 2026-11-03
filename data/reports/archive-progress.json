@@ -139,13 +139,14 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Noblesse": {
-    "page": 3,
-    "checked_at": "2026-11-03T03:45:24.706576+00:00",
-    "next_scan": "2026-11-03T03:45:24.706576+00:00",
+    "page": 4,
+    "checked_at": "2026-11-03T04:45:29.020749+00:00",
+    "next_scan": "2026-11-03T04:45:29.020749+00:00",
     "status": "in_progress",
     "fingerprints": [
       "cf0e58cd3977cb85feb9a4a550df5b01458aa85628aef62655144db728fc5824",
-      "8249cad2ed9eb3996a03587cbe8b678bc2fee46757a18aa5d99213499f20b11f"
+      "8249cad2ed9eb3996a03587cbe8b678bc2fee46757a18aa5d99213499f20b11f",
+      "bd8f6a34260078227569e77d17e645c455ffffd5c68e3476e60a4ced3015ca66"
     ],
     "items_added": 0,
     "years_observed": [],
