@@ -1,18 +1,18 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-11-03 00:04 (Asia/Seoul)
+> Updated: 2026-11-03 12:04 (Asia/Seoul)
 
 ## Summary
-- total_urls: 2021
+- total_urls: 2024
 - S: 249
 - A: 905
-- B: 481
+- B: 484
 - BLOCK: 386
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
-| youtube.com | 397 | B:397 |
+| youtube.com | 400 | B:400 |
 | marieclairekorea.com | 126 | A:126 |
 | kstar.kbs.co.kr | 120 | S:120 |
 | harpersbazaar.co.kr | 94 | A:94 |
