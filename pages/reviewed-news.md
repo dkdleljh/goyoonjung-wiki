@@ -244,3 +244,5 @@
 - [［청룡랭킹］ 아이유, 9월 여자 배우부문 1위…고윤정 제치고 정상 올라](https://www.sportschosun.com/entertainment/2026-10-29/202610290100189100012998) · WORKS · 내용은 원문 보도 기준
 - [IU tops September’s Female Actor category, beating Go Youn-jung to claim first place](https://www.sportschosun.com/en/celebrity/2026-10-29/202610290100189100012998) · EN_CAST · 내용은 원문 보도 기준
 - ["얼굴 보느라 몰랐네"…어깨까지 내려온 고윤정의 귀걸이［누구템］](https://www.edaily.co.kr/News/Read?newsId=01118486645641456&mediaCodeNo=257) · 이데일리 · 내용은 원문 보도 기준
+- [막 찍어도 인생샷..고윤정, 꾸밈없는 일상 사진도 화보 | 스타뉴스](https://www.starnewskorea.com/star/2026/11/04/2026110423223155579) · 스타뉴스 · 내용은 원문 보도 기준
+- [고윤정, 메이크업 대기실 셀카…‘무빙2’ 촬영 속 변함없는 미모](https://www.topstarnews.net/news/articleView.html?idxno=16268509) · 톱스타뉴스 · 내용은 원문 보도 기준
