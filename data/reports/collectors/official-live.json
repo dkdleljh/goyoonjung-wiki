@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T01:57:51+09:00",
+  "checked_at": "2026-11-07T06:56:17+09:00",
   "status": "failed",
   "sources": [
     {
@@ -11,8 +11,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
-      "last_success": "2026-11-07T01:57:51+09:00",
+      "checked_at": "2026-11-07T06:56:17+09:00",
+      "last_success": "2026-11-07T06:56:17+09:00",
       "consecutive_failures": 0
     },
     {
@@ -24,22 +24,24 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
-      "last_success": "2026-11-07T01:57:51+09:00",
+      "checked_at": "2026-11-07T06:56:17+09:00",
+      "last_success": "2026-11-07T06:56:17+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "백상예술대상",
       "url": "https://www.baeksangawards.co.kr/",
       "scope": "official search + original page",
-      "status": "success",
+      "status": "failed",
       "fetched": 0,
-      "index_checked": true,
+      "index_checked": false,
       "matched": 0,
-      "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
+      "warnings": [
+        "Index unavailable: Connection timeout (5 seconds)"
+      ],
+      "checked_at": "2026-11-07T06:56:17+09:00",
       "last_success": "2026-11-07T01:57:51+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "청룡시리즈어워즈",
@@ -52,10 +54,9 @@
       "warnings": [
         "Index unavailable: Connection timeout (5 seconds)"
       ],
-      "checked_at": "2026-11-06T07:22:20+09:00",
+      "checked_at": "2026-11-07T06:56:17+09:00",
       "last_success": "2026-11-04T00:00:22+09:00",
-      "consecutive_failures": 9,
-      "deferred": true
+      "consecutive_failures": 10
     },
     {
       "name": "Netflix",
@@ -66,8 +67,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
-      "last_success": "2026-11-07T01:57:51+09:00",
+      "checked_at": "2026-11-07T06:56:17+09:00",
+      "last_success": "2026-11-07T06:56:17+09:00",
       "consecutive_failures": 0
     },
     {
@@ -79,22 +80,25 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
-      "last_success": "2026-11-07T01:57:51+09:00",
+      "checked_at": "2026-11-07T06:56:17+09:00",
+      "last_success": "2026-11-07T06:56:17+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "JTBC",
       "url": "https://tv.jtbc.co.kr/",
       "scope": "official search + original page",
-      "status": "success",
-      "fetched": 1,
-      "index_checked": true,
-      "matched": 1,
-      "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
+      "status": "failed",
+      "fetched": 0,
+      "index_checked": false,
+      "matched": 0,
+      "warnings": [
+        "Index unavailable: Connection timeout (5 seconds)",
+        "https://tv.jtbc.co.kr/wearealltryinghere: HTTPSConnectionPool(host='tv.jtbc.co.kr', port=443): Max retries exceeded with url: /wearealltryingh"
+      ],
+      "checked_at": "2026-11-07T06:56:17+09:00",
       "last_success": "2026-11-07T01:57:51+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "CJ ENM",
@@ -105,8 +109,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
-      "last_success": "2026-11-07T01:57:51+09:00",
+      "checked_at": "2026-11-07T06:56:17+09:00",
+      "last_success": "2026-11-07T06:56:17+09:00",
       "consecutive_failures": 0
     },
     {
@@ -150,8 +154,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
-      "last_success": "2026-11-07T01:57:51+09:00",
+      "checked_at": "2026-11-07T06:56:17+09:00",
+      "last_success": "2026-11-07T06:56:17+09:00",
       "consecutive_failures": 0
     },
     {
@@ -163,8 +167,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-07T01:57:51+09:00",
-      "last_success": "2026-11-07T01:57:51+09:00",
+      "checked_at": "2026-11-07T06:56:17+09:00",
+      "last_success": "2026-11-07T06:56:17+09:00",
       "consecutive_failures": 0
     }
   ]

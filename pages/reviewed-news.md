@@ -251,3 +251,5 @@
 - [何気なく撮っても人生ショット..コ・ユンジョン、飾らない日常写真もグラビアに | STARNEWS](https://www.starnewskorea.com/ja/star/2026/11/04/2026110423223155579) · JA_ALL · 내용은 원문 보도 기준
 - [고윤정, 이렇게 털털한 사람이었나&hellip;상추 들고 먹방까지 '반전 일상'](https://mydaily.co.kr/page/view/2026110509222825863) · 마이데일리 · 내용은 원문 보도 기준
 - [고윤정, 한 손에 쌈 들고 오물오물…먹방 중에도 무결점 미모 - 매일경제](https://www.mk.co.kr/news/entertain/12198087) · 매일경제 · 내용은 원문 보도 기준
+- ['고윤정·전소영→션' 리센느, 의리 지원군 봤더니..인맥 美쳤다 ［핫피플］](https://biz.chosun.com/entertainment/enter_general/2026/11/06/G4YDGY3EGU4DQMZWHBQWINBQMY?outputType=amp) · Chosunbiz · 내용은 원문 보도 기준
+- [Every shot is a life-defining photo… Go Youn-jung’s unadorned daily-life photos look like a magazine spread | STARNEWS](https://www.starnewskorea.com/en/star/2026/11/04/2026110423223155579) · EN_ALL · 내용은 원문 보도 기준
