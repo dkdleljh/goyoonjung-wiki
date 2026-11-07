@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T03:51:41+09:00",
+  "checked_at": "2026-11-08T07:22:30+09:00",
   "status": "failed",
   "sources": [
     {
@@ -11,8 +11,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -24,8 +24,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -37,8 +37,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -52,10 +52,9 @@
       "warnings": [
         "Index unavailable: Connection timeout (5 seconds)"
       ],
-      "checked_at": "2026-11-07T06:56:17+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
       "last_success": "2026-11-04T00:00:22+09:00",
-      "consecutive_failures": 10,
-      "deferred": true
+      "consecutive_failures": 11
     },
     {
       "name": "Netflix",
@@ -66,8 +65,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -79,8 +78,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -92,8 +91,8 @@
       "index_checked": true,
       "matched": 1,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -105,8 +104,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -150,8 +149,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -163,8 +162,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T03:51:41+09:00",
-      "last_success": "2026-11-08T03:51:41+09:00",
+      "checked_at": "2026-11-08T07:22:30+09:00",
+      "last_success": "2026-11-08T07:22:30+09:00",
       "consecutive_failures": 0
     }
   ]
