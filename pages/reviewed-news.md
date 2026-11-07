@@ -253,3 +253,6 @@
 - [고윤정, 한 손에 쌈 들고 오물오물…먹방 중에도 무결점 미모 - 매일경제](https://www.mk.co.kr/news/entertain/12198087) · 매일경제 · 내용은 원문 보도 기준
 - ['고윤정·전소영→션' 리센느, 의리 지원군 봤더니..인맥 美쳤다 ［핫피플］](https://biz.chosun.com/entertainment/enter_general/2026/11/06/G4YDGY3EGU4DQMZWHBQWINBQMY?outputType=amp) · Chosunbiz · 내용은 원문 보도 기준
 - [Every shot is a life-defining photo… Go Youn-jung’s unadorned daily-life photos look like a magazine spread | STARNEWS](https://www.starnewskorea.com/en/star/2026/11/04/2026110423223155579) · EN_ALL · 내용은 원문 보도 기준
+- [리센느, &lsquo;베스트 메모리&rsquo; 수상&hellip;&rdquo;고윤정에게 받아 뜻깊어, 리마인 고마워&rdquo; ［2026 KGMA］ - 일간스포츠](https://isplus.com/article/view/isp202611070349) · 일간스포츠 · 내용은 원문 보도 기준
+- [리센느 제나, 고윤정과 오늘(7일) KGMA서 만난다&hellip;&rdquo;쇼케이스 후 예쁘다고&rdquo; ［IS하이컷］ - 일간스포츠](https://isplus.com/article/view/isp202611070017) · 일간스포츠 · 내용은 원문 보도 기준
+- [コ・ユンジョン、チョン・ソヨン、ショーンも応援…リセンヌの豪華人脈](https://www.chosun.com/jp/culture-life-jp/2026/11/06/U7NQMAHYLREBDFHDL4OZ5ZXKSI) · JA_ALL · 내용은 원문 보도 기준
