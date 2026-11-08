@@ -1516,588 +1516,588 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712667.8438697
+    "checked_at": 1794178171.584526
   },
   "https://www.wkorea.com/2022/12/31/%ec%9a%94%ec%a6%98-%eb%82%9c%eb%a6%ac-%eb%82%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/": {
     "url": "https://www.wkorea.com/2022/12/31/%ec%9a%94%ec%a6%98-%eb%82%9c%eb%a6%ac-%eb%82%9c-%ea%b3%a0%ec%9c%a4%ec%a0%95/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712667.8439162
+    "checked_at": 1794178171.5855758
   },
   "https://www.insight.co.kr/news/336193": {
     "url": "https://www.insight.co.kr/news/336193",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712667.8439438
+    "checked_at": 1794178171.5855906
   },
   "https://www.wkorea.com/2021/04/30/4%ea%b0%80%ec%a7%80-%ea%b4%80%eb%8a%a5%ec%9d%98-%ed%96%a5-%ea%b3%a0%ec%9c%a4%ec%a0%95/": {
     "url": "https://www.wkorea.com/2021/04/30/4%ea%b0%80%ec%a7%80-%ea%b4%80%eb%8a%a5%ec%9d%98-%ed%96%a5-%ea%b3%a0%ec%9c%a4%ec%a0%95/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712667.8439713
+    "checked_at": 1794178171.5855997
   },
   "https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712667.9410186
+    "status": "warn",
+    "code": 403,
+    "note": "GET fallback",
+    "checked_at": 1794178171.5856102
   },
   "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%9C%A4%EC%A0%95",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712667.941068
+    "checked_at": 1794178171.5856194
   },
   "https://about.netflix.com/ko/news/can-this-love-be-translated-wt-confirmed-for-production": {
     "url": "https://about.netflix.com/ko/news/can-this-love-be-translated-wt-confirmed-for-production",
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793712668.723584
+    "checked_at": 1794178171.5856383
   },
   "https://ys-dl.tistory.com/entry/%EC%9D%B4-%EC%82%AC%EB%9E%91-%ED%86%B5%EC%97%AD%EB%90%98%EB%82%98%EC%9A%94-%EC%B4%AC%EC%98%81%EC%A7%80-36%EA%B3%B3%EC%9D%84-%EC%95%8C%EB%A0%A4%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%A4%91": {
     "url": "https://ys-dl.tistory.com/entry/%EC%9D%B4-%EC%82%AC%EB%9E%91-%ED%86%B5%EC%97%AD%EB%90%98%EB%82%98%EC%9A%94-%EC%B4%AC%EC%98%81%EC%A7%80-36%EA%B3%B3%EC%9D%84-%EC%95%8C%EB%A0%A4%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%A4%91",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7236328
+    "checked_at": 1794178172.0771282
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EB%84%A5%EC%8B%A0%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%A7%88%EA%B3%A1%EC%A4%91%EC%95%99%EB%A1%9C%20172%20%EB%A7%88%EA%B3%A1%EB%82%98%EB%A3%A8%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EB%84%A5%EC%8B%A0%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%A7%88%EA%B3%A1%EC%A4%91%EC%95%99%EB%A1%9C%20172%20%EB%A7%88%EA%B3%A1%EB%82%98%EB%A3%A8%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7236707
+    "checked_at": 1794178172.0771425
   },
   "https://www.google.com/maps/search/?api=1&query=37.5962144%2C126.9391908": {
     "url": "https://www.google.com/maps/search/?api=1&query=37.5962144%2C126.9391908",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7237077
+    "checked_at": 1794178172.0771513
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EC%9C%84%EC%8A%A4%EA%B7%B8%EB%9E%9C%EB%93%9C%ED%98%B8%ED%85%94%20%EC%84%9C%EC%9A%B8%20%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EC%97%B0%ED%9D%AC%EB%A1%9C%20353%20%ED%99%8D%EC%A0%9C%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EC%9C%84%EC%8A%A4%EA%B7%B8%EB%9E%9C%EB%93%9C%ED%98%B8%ED%85%94%20%EC%84%9C%EC%9A%B8%20%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EC%97%B0%ED%9D%AC%EB%A1%9C%20353%20%ED%99%8D%EC%A0%9C%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7237434
+    "checked_at": 1794178172.07716
   },
   "https://www.google.com/maps/search/?api=1&query=%ED%8F%AC%EC%98%B9%EB%82%A8%20%EB%8B%B9%EC%82%B0%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EB%8B%B9%EC%82%B0%EB%A1%9C48%EA%B8%B8%2015%20%EB%8B%B9%EC%82%B0%EC%97%AD4%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%ED%8F%AC%EC%98%B9%EB%82%A8%20%EB%8B%B9%EC%82%B0%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EB%8B%B9%EC%82%B0%EB%A1%9C48%EA%B8%B8%2015%20%EB%8B%B9%EC%82%B0%EC%97%AD4%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7237804
+    "checked_at": 1794178172.0771682
   },
   "https://www.google.com/maps/search/?api=1&query=37.5297648%2C126.930814": {
     "url": "https://www.google.com/maps/search/?api=1&query=37.5297648%2C126.930814",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7238164
+    "checked_at": 1794178172.0771766
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%B2%9C%EC%A3%BC%EA%B5%90%EB%8F%84%EB%A6%BC%EB%8F%99%EA%B5%90%ED%9A%8C%20%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EB%8F%84%EC%98%81%EB%A1%9C22%EA%B8%B8%2022": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%B2%9C%EC%A3%BC%EA%B5%90%EB%8F%84%EB%A6%BC%EB%8F%99%EA%B5%90%ED%9A%8C%20%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EB%8F%84%EC%98%81%EB%A1%9C22%EA%B8%B8%2022",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7238536
+    "checked_at": 1794178172.0771842
   },
   "https://www.google.com/maps/search/?api=1&query=%EB%A5%B4%EB%8B%A4%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%98%AC%EB%A6%BC%ED%94%BD%EB%8C%80%EB%A1%9C%202085-96%20%EB%8F%99%EC%9E%91%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EB%A5%B4%EB%8B%A4%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%98%AC%EB%A6%BC%ED%94%BD%EB%8C%80%EB%A1%9C%202085-96%20%EB%8F%99%EC%9E%91%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7238898
+    "checked_at": 1794178172.0771928
   },
   "https://www.google.com/maps/search/?api=1&query=%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80%28CG%EC%B6%94%EC%A0%95%29%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%84%9C%EB%B9%99%EA%B3%A0%EB%A1%9C%20137%20%EC%9D%B4%EC%B4%8C%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80%28CG%EC%B6%94%EC%A0%95%29%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%84%9C%EB%B9%99%EA%B3%A0%EB%A1%9C%20137%20%EC%9D%B4%EC%B4%8C%EC%97%AD2%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7239265
+    "checked_at": 1794178172.0772011
   },
   "https://www.google.com/maps/search/?api=1&query=%EB%85%B9%EC%82%AC%ED%8F%89%EC%97%AD%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%85%B9%EC%82%AC%ED%8F%89%EB%8C%80%EB%A1%9C%20%EC%A7%80%ED%95%98%20195": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EB%85%B9%EC%82%AC%ED%8F%89%EC%97%AD%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%85%B9%EC%82%AC%ED%8F%89%EB%8C%80%EB%A1%9C%20%EC%A7%80%ED%95%98%20195",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793712668.7239654
+    "checked_at": 1794178172.077209
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%ED%8E%98%20%EB%8D%94%20%EB%B8%8C%EB%A0%88%EC%9D%B4%EB%B8%8C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%85%B9%EC%82%AC%ED%8F%89%EB%8C%80%EB%A1%9C%20170%20%EB%85%B9%EC%82%AC%ED%8F%89%EC%97%AD3%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%ED%8E%98%20%EB%8D%94%20%EB%B8%8C%EB%A0%88%EC%9D%B4%EB%B8%8C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%85%B9%EC%82%AC%ED%8F%89%EB%8C%80%EB%A1%9C%20170%20%EB%85%B9%EC%82%AC%ED%8F%89%EC%97%AD3%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.4911063
+    "checked_at": 1794178172.0772173
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%ED%83%9C%EC%9B%90%20%ED%8E%8D%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9D%B4%ED%83%9C%EC%9B%90%EB%A1%9C27%EA%B0%80%EA%B8%B8%2050%20%EC%9D%B4%ED%83%9C%EC%9B%90%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%ED%83%9C%EC%9B%90%20%ED%8E%8D%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9D%B4%ED%83%9C%EC%9B%90%EB%A1%9C27%EA%B0%80%EA%B8%B8%2050%20%EC%9D%B4%ED%83%9C%EC%9B%90%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.6750276
+    "checked_at": 1794178172.0772264
   },
   "https://www.google.com/maps/search/?api=1&query=%EB%A0%88%EC%9D%B4%EC%96%B4%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A47%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EA%B0%95%EB%8C%80%EB%A1%9C98%EA%B0%80%EA%B8%B8%207": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EB%A0%88%EC%9D%B4%EC%96%B4%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A47%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EA%B0%95%EB%8C%80%EB%A1%9C98%EA%B0%80%EA%B8%B8%207",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.6840336
+    "checked_at": 1794178172.0772352
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%ED%9D%A5%EC%8B%9C%EC%9E%A5%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9A%A9%EC%82%B0%EB%8F%992%EA%B0%80%201-457": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%ED%9D%A5%EC%8B%9C%EC%9E%A5%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9A%A9%EC%82%B0%EB%8F%992%EA%B0%80%201-457",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.6840746
+    "checked_at": 1794178172.0772436
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%8B%9C%EC%A6%88%EB%84%90%ED%85%8C%EC%9D%B4%EB%B8%94%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%8B%A0%ED%9D%A5%EB%A1%9C%2095-21": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%8B%9C%EC%A6%88%EB%84%90%ED%85%8C%EC%9D%B4%EB%B8%94%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%8B%A0%ED%9D%A5%EB%A1%9C%2095-21",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.6841078
+    "checked_at": 1794178172.0772521
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%B2%AD%ED%8C%8C%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%84%9C%EA%B3%84%EB%8F%99%20217-2%20%EC%84%9C%EC%9A%B8%EC%97%AD15%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%B2%AD%ED%8C%8C%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%84%9C%EA%B3%84%EB%8F%99%20217-2%20%EC%84%9C%EC%9A%B8%EC%97%AD15%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.6841362
+    "checked_at": 1794178172.0772595
   },
   "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%EC%B6%A9%EC%A0%95%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A4%91%EB%A6%BC%EB%A1%9C%2021%20%EC%B6%A9%EC%A0%95%EB%A1%9C%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%EC%B6%A9%EC%A0%95%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A4%91%EB%A6%BC%EB%A1%9C%2021%20%EC%B6%A9%EC%A0%95%EB%A1%9C%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.6841643
+    "checked_at": 1794178172.0772643
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%84%9C%EC%86%8C%EB%AC%B8%EB%A1%9C11%EA%B8%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A0%95%EB%8F%99%2034-29%20%EC%8B%9C%EC%B2%AD%EC%97%AD10%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%84%9C%EC%86%8C%EB%AC%B8%EB%A1%9C11%EA%B8%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A0%95%EB%8F%99%2034-29%20%EC%8B%9C%EC%B2%AD%EC%97%AD10%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.6841958
+    "checked_at": 1794178172.0772703
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%A0%95%EB%8F%99%EA%B8%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A0%95%EB%8F%99%EA%B8%B8%2033%20%EC%8B%9C%EC%B2%AD%EC%97%AD10%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%95%EB%8F%99%EA%B8%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%A0%95%EB%8F%99%EA%B8%B8%2033%20%EC%8B%9C%EC%B2%AD%EC%97%AD10%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.8689723
+    "checked_at": 1794178172.0772758
   },
   "https://www.google.com/maps/search/?api=1&query=%EB%A1%AF%EB%8D%B0%ED%98%B8%ED%85%94%20%EC%84%9C%EC%9A%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%9D%84%EC%A7%80%EB%A1%9C%2030%20%EC%9D%84%EC%A7%80%EB%A1%9C%EC%9E%85%EA%B5%AC%EC%97%AD8%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EB%A1%AF%EB%8D%B0%ED%98%B8%ED%85%94%20%EC%84%9C%EC%9A%B8%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%9D%84%EC%A7%80%EB%A1%9C%2030%20%EC%9D%84%EC%A7%80%EB%A1%9C%EC%9E%85%EA%B5%AC%EC%97%AD8%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.8690093
+    "checked_at": 1794178172.0772805
   },
   "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EC%9D%B4%EC%BB%A4%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B2%AD%EA%B3%84%EC%B2%9C%EB%A1%9C%2040%20%EC%A2%85%EA%B0%81%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EC%9D%B4%EC%BB%A4%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B2%AD%EA%B3%84%EC%B2%9C%EB%A1%9C%2040%20%EC%A2%85%EA%B0%81%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.8690388
+    "checked_at": 1794178172.077286
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%9D%84%EC%A7%80%EC%A0%95%EB%B0%80%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B0%BD%EA%B2%BD%EA%B6%81%EB%A1%9C5%EA%B8%B8%2032%20%EC%9D%84%EC%A7%80%EB%A1%9C4%EA%B0%80%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%9D%84%EC%A7%80%EC%A0%95%EB%B0%80%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B0%BD%EA%B2%BD%EA%B6%81%EB%A1%9C5%EA%B8%B8%2032%20%EC%9D%84%EC%A7%80%EB%A1%9C4%EA%B0%80%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713524.8690681
+    "checked_at": 1794178172.0772908
   },
   "https://www.google.com/maps/search/?api=1&query=%EB%8C%80%EB%A6%BC%EC%83%81%EA%B0%80%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%9D%84%EC%A7%80%EB%A1%9C%20157%20%EC%9D%84%EC%A7%80%EB%A1%9C4%EA%B0%80%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EB%8C%80%EB%A6%BC%EC%83%81%EA%B0%80%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%9D%84%EC%A7%80%EB%A1%9C%20157%20%EC%9D%84%EC%A7%80%EB%A1%9C4%EA%B0%80%EC%97%AD1%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713525.0198667
+    "checked_at": 1794178172.077296
   },
   "https://www.google.com/maps/search/?api=1&query=%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%8B%B0%EC%B9%98%20%EC%95%BD%EC%88%98%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8F%99%ED%98%B8%EB%A1%9C17%EA%B8%B8%2013%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%8B%B0%EC%B9%98%20%EC%95%BD%EC%88%98%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8F%99%ED%98%B8%EB%A1%9C17%EA%B8%B8%2013%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD5%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713525.050434
+    "checked_at": 1794178172.077301
   },
   "https://www.google.com/maps/search/?api=1&query=%EC%95%B0%EB%B0%B0%EC%84%9C%EB%8D%94%20%EC%84%9C%EC%9A%B8%20%ED%92%80%EB%A7%8C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8F%99%ED%98%B8%EB%A1%9C%20287%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD6%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EC%95%B0%EB%B0%B0%EC%84%9C%EB%8D%94%20%EC%84%9C%EC%9A%B8%20%ED%92%80%EB%A7%8C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8F%99%ED%98%B8%EB%A1%9C%20287%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD6%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713525.05047
+    "checked_at": 1794178172.077306
   },
   "https://www.google.com/maps/search/?api=1&query=%EB%82%A8%EC%82%B0%ED%83%80%EC%9B%8C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%82%A8%EC%82%B0%EA%B3%B5%EC%9B%90%EA%B8%B8%20105%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD6%EB%B2%88%EC%B6%9C%EA%B5%AC": {
     "url": "https://www.google.com/maps/search/?api=1&query=%EB%82%A8%EC%82%B0%ED%83%80%EC%9B%8C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EB%82%A8%EC%82%B0%EA%B3%B5%EC%9B%90%EA%B8%B8%20105%20%EB%8F%99%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD6%EB%B2%88%EC%B6%9C%EA%B5%AC",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713525.0504997
+    "checked_at": 1794178172.0773113
   },
   "https://www.youtube.com/watch?v=TiTWX_KfEc0": {
     "url": "https://www.youtube.com/watch?v=TiTWX_KfEc0",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.0525873
+    "checked_at": 1794178172.077316
   },
   "https://youtu.be/p3lwXW6nT5U": {
     "url": "https://youtu.be/p3lwXW6nT5U",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.2631273
+    "checked_at": 1794178172.0773208
   },
   "https://youtu.be/hV1sOJLuMN8": {
     "url": "https://youtu.be/hV1sOJLuMN8",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.2631638
+    "checked_at": 1794178172.0773265
   },
   "https://youtu.be/dmS_nEQYv2I": {
     "url": "https://youtu.be/dmS_nEQYv2I",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.263191
+    "checked_at": 1794178172.0773315
   },
   "https://youtu.be/TrDLHYVJ4w8": {
     "url": "https://youtu.be/TrDLHYVJ4w8",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.2632182
+    "checked_at": 1794178172.0773365
   },
   "https://youtu.be/NdogLAtlyys": {
     "url": "https://youtu.be/NdogLAtlyys",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.263247
+    "checked_at": 1794178172.077341
   },
   "https://youtu.be/aRrlD-9WIbk": {
     "url": "https://youtu.be/aRrlD-9WIbk",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.2632735
+    "checked_at": 1794178172.0773458
   },
   "https://youtu.be/ZH1Y1l1OmTY": {
     "url": "https://youtu.be/ZH1Y1l1OmTY",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.271928
+    "checked_at": 1794178172.0773504
   },
   "https://youtu.be/jXCnrLQJfzE": {
     "url": "https://youtu.be/jXCnrLQJfzE",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.2719758
+    "checked_at": 1794178172.0773547
   },
   "https://youtu.be/76aAMPpCTb4": {
     "url": "https://youtu.be/76aAMPpCTb4",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.3022568
+    "checked_at": 1794178172.0773592
   },
   "https://youtu.be/c_VCPdtEA6A": {
     "url": "https://youtu.be/c_VCPdtEA6A",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.3023093
+    "checked_at": 1794178172.0773637
   },
   "https://www.nc.press/news/articleView.html?idxno=561975": {
     "url": "https://www.nc.press/news/articleView.html?idxno=561975",
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793713525.3023462
+    "checked_at": 1794178174.1512825
   },
   "https://www.youtube.com/watch?v=v6QZ1y5Wdn0": {
     "url": "https://www.youtube.com/watch?v=v6QZ1y5Wdn0",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.3191962
+    "checked_at": 1794178174.1512947
   },
   "https://www.youtube.com/watch?v=Y2mUgrU3A4c": {
     "url": "https://www.youtube.com/watch?v=Y2mUgrU3A4c",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.4287608
+    "checked_at": 1794178174.1513016
   },
   "https://www.youtube.com/watch?v=qdCkb---pCA": {
     "url": "https://www.youtube.com/watch?v=qdCkb---pCA",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.4618204
+    "checked_at": 1794178174.1513076
   },
   "https://www.youtube.com/watch?v=e7X3hPHuGco": {
     "url": "https://www.youtube.com/watch?v=e7X3hPHuGco",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.4724572
+    "checked_at": 1794178174.1513133
   },
   "https://www.youtube.com/watch?v=MKBZ1_3rhWA": {
     "url": "https://www.youtube.com/watch?v=MKBZ1_3rhWA",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.4838758
+    "checked_at": 1794178175.653437
   },
   "https://www.youtube.com/watch?v=sxO1jVG2iBo": {
     "url": "https://www.youtube.com/watch?v=sxO1jVG2iBo",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.4839237
+    "checked_at": 1794178175.6534455
   },
   "https://www.youtube.com/watch?v=tbP6O6ubKC8": {
     "url": "https://www.youtube.com/watch?v=tbP6O6ubKC8",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.5277443
+    "checked_at": 1794178175.653452
   },
   "https://www.youtube.com/watch?v=FFGiM0NDJIQ": {
     "url": "https://www.youtube.com/watch?v=FFGiM0NDJIQ",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.5523179
+    "checked_at": 1794178175.6534643
   },
   "https://www.youtube.com/watch?v=R9LyACXS_DU": {
     "url": "https://www.youtube.com/watch?v=R9LyACXS_DU",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.56646
+    "checked_at": 1794178175.653499
   },
   "https://www.youtube.com/watch?v=Ro6b6eBUH6o": {
     "url": "https://www.youtube.com/watch?v=Ro6b6eBUH6o",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.6215315
+    "checked_at": 1794178175.6535048
   },
   "https://www.youtube.com/watch?v=9xNJ2ZB5IuM": {
     "url": "https://www.youtube.com/watch?v=9xNJ2ZB5IuM",
-    "status": "ok",
-    "code": 200,
-    "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.6685686
+    "status": "warn",
+    "code": null,
+    "note": "Video metadata unavailable: HTTPError",
+    "checked_at": 1794178175.6535108
   },
   "https://www.youtube.com/watch?v=CQHj8crL1so": {
     "url": "https://www.youtube.com/watch?v=CQHj8crL1so",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.6841242
+    "checked_at": 1794178175.6535175
   },
   "https://www.youtube.com/watch?v=-BRpP4slPUY": {
     "url": "https://www.youtube.com/watch?v=-BRpP4slPUY",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.6856172
+    "checked_at": 1794178175.6535234
   },
   "https://www.youtube.com/watch?v=tcjOpQ2J0Kc": {
     "url": "https://www.youtube.com/watch?v=tcjOpQ2J0Kc",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.693321
+    "checked_at": 1794178175.6535516
   },
   "https://www.youtube.com/watch?v=wNu2TXYMymg": {
     "url": "https://www.youtube.com/watch?v=wNu2TXYMymg",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.735113
+    "checked_at": 1794178175.6535594
   },
   "https://www.youtube.com/watch?v=JWcRHDEI6BQ": {
     "url": "https://www.youtube.com/watch?v=JWcRHDEI6BQ",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.7622294
+    "checked_at": 1794178175.6535652
   },
   "https://www.youtube.com/watch?v=9WTmRv0HVyE": {
     "url": "https://www.youtube.com/watch?v=9WTmRv0HVyE",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.773148
+    "checked_at": 1794178175.653571
   },
   "https://www.youtube.com/watch?v=TDxHlvZzcEg": {
     "url": "https://www.youtube.com/watch?v=TDxHlvZzcEg",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713525.8229666
+    "checked_at": 1794178175.6535766
   },
   "https://www.youtube.com/watch?v=yUSSJugtqeQ": {
     "url": "https://www.youtube.com/watch?v=yUSSJugtqeQ",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1801527
+    "checked_at": 1794178175.6536267
   },
   "https://www.youtube.com/watch?v=R94aEVp_cgg": {
     "url": "https://www.youtube.com/watch?v=R94aEVp_cgg",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.180179
+    "checked_at": 1794178175.6536317
   },
   "https://www.youtube.com/watch?v=DP63tJrW-A0": {
     "url": "https://www.youtube.com/watch?v=DP63tJrW-A0",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.180205
+    "checked_at": 1794178175.653638
   },
   "https://www.youtube.com/watch?v=CNSkB8WOHVU": {
     "url": "https://www.youtube.com/watch?v=CNSkB8WOHVU",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1802325
+    "checked_at": 1794178175.6536427
   },
   "https://www.youtube.com/watch?v=89mLojkEDSI": {
     "url": "https://www.youtube.com/watch?v=89mLojkEDSI",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1802585
+    "checked_at": 1794178175.6536515
   },
   "https://www.youtube.com/watch?v=clyEWYStr0I": {
     "url": "https://www.youtube.com/watch?v=clyEWYStr0I",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1802855
+    "checked_at": 1794178175.6536705
   },
   "https://www.youtube.com/watch?v=5ZV20aeJWSo": {
     "url": "https://www.youtube.com/watch?v=5ZV20aeJWSo",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1803112
+    "checked_at": 1794178175.6536756
   },
   "https://www.youtube.com/watch?v=E3h_-_CCVKc": {
     "url": "https://www.youtube.com/watch?v=E3h_-_CCVKc",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1803381
+    "checked_at": 1794178175.6536806
   },
   "https://www.youtube.com/watch?v=2uQ4ryFFFzM": {
     "url": "https://www.youtube.com/watch?v=2uQ4ryFFFzM",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.180364
+    "checked_at": 1794178175.6536891
   },
   "https://www.youtube.com/watch?v=YAvlwawl7G4": {
     "url": "https://www.youtube.com/watch?v=YAvlwawl7G4",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1804218
+    "checked_at": 1794178175.6537244
   },
   "https://www.youtube.com/watch?v=VpQ7-wXpJIQ": {
     "url": "https://www.youtube.com/watch?v=VpQ7-wXpJIQ",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1804483
+    "checked_at": 1794178175.6537495
   },
   "https://www.youtube.com/watch?v=lMuvBJqGiw0": {
     "url": "https://www.youtube.com/watch?v=lMuvBJqGiw0",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1804745
+    "checked_at": 1794178175.6537883
   },
   "https://www.youtube.com/watch?v=MsYmvJm-QqU": {
     "url": "https://www.youtube.com/watch?v=MsYmvJm-QqU",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.180501
+    "checked_at": 1794178175.6537952
   },
   "https://www.youtube.com/watch?v=gLd_LV2gp64": {
     "url": "https://www.youtube.com/watch?v=gLd_LV2gp64",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.181059
+    "checked_at": 1794178175.6538365
   },
   "https://www.youtube.com/watch?v=u_JMAEVGZIo": {
     "url": "https://www.youtube.com/watch?v=u_JMAEVGZIo",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1810944
+    "checked_at": 1794178175.6538427
   },
   "https://www.youtube.com/watch?v=jfLoPFMqKuw": {
     "url": "https://www.youtube.com/watch?v=jfLoPFMqKuw",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1811213
+    "checked_at": 1794178175.6538482
   },
   "https://www.youtube.com/watch?v=qto9g591ri8": {
     "url": "https://www.youtube.com/watch?v=qto9g591ri8",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.181148
+    "checked_at": 1794178175.653854
   },
   "https://www.youtube.com/watch?v=st94grzdM3I": {
     "url": "https://www.youtube.com/watch?v=st94grzdM3I",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1811757
+    "checked_at": 1794178175.6538591
   },
   "https://www.youtube.com/watch?v=peoBf9wFHNM": {
     "url": "https://www.youtube.com/watch?v=peoBf9wFHNM",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1812022
+    "checked_at": 1794178175.6538644
   },
   "https://www.youtube.com/watch?v=xuYoHdKLRRg": {
     "url": "https://www.youtube.com/watch?v=xuYoHdKLRRg",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.1812294
+    "checked_at": 1794178175.6538703
   },
   "https://www.youtube.com/watch?v=O8snpZWJKjE": {
     "url": "https://www.youtube.com/watch?v=O8snpZWJKjE",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793713527.181983
+    "checked_at": 1794178175.6539042
   },
   "https://www.youtube.com/watch?v=UIyN_9iAhzA": {
     "url": "https://www.youtube.com/watch?v=UIyN_9iAhzA",
@@ -5926,21 +5926,21 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713525.835502
+    "checked_at": 1794178175.653586
   },
   "https://biz.chosun.com/en/en-entertainment/2026/10/19/FMNNYBJXZZANHAXP4SD5C2KSH4?outputType=amp": {
     "url": "https://biz.chosun.com/en/en-entertainment/2026/10/19/FMNNYBJXZZANHAXP4SD5C2KSH4?outputType=amp",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713527.1800797
+    "checked_at": 1794178175.6536148
   },
   "https://sports.khan.co.kr/article/202610191105003": {
     "url": "https://sports.khan.co.kr/article/202610191105003",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713527.1801238
+    "checked_at": 1794178175.6536214
   },
   "https://www.mk.co.kr/news/hot-issues/12179236": {
     "url": "https://www.mk.co.kr/news/hot-issues/12179236",
@@ -6101,7 +6101,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1793713525.4724936
+    "checked_at": 1794178175.6534214
   },
   "https://www.mk.co.kr/jp/hot-issues/12180324": {
     "url": "https://www.mk.co.kr/jp/hot-issues/12180324",
@@ -6619,7 +6619,7 @@
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1793713527.1803901
+    "checked_at": 1794178175.6537175
   },
   "https://www.youtube.com/watch?v=PutTzdHSmr0": {
     "url": "https://www.youtube.com/watch?v=PutTzdHSmr0",
@@ -7200,7 +7200,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1793712667.9411125
+    "checked_at": 1794178171.585629
   },
   "https://www.youtube.com/watch?v=cKjSKAE0lbw": {
     "url": "https://www.youtube.com/watch?v=cKjSKAE0lbw",
@@ -7615,69 +7615,6 @@
     "note": "HTTP reachable; factual identity not verified",
     "checked_at": 1794036997.764744
   },
-  "https://www.youtube.com/playlist?list=UUQ2O-iftmnlfrBuNsUUTofQ": {
-    "url": "https://www.youtube.com/playlist?list=UUQ2O-iftmnlfrBuNsUUTofQ",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036997.7647521
-  },
-  "https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw": {
-    "url": "https://www.youtube.com/playlist?list=UU78PMQprrZTbU0IlMDsYZPw",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036997.764759
-  },
-  "https://www.youtube.com/playlist?list=UUiBr0bK06imaMbLc8sAEz0A": {
-    "url": "https://www.youtube.com/playlist?list=UUiBr0bK06imaMbLc8sAEz0A",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036997.7647648
-  },
-  "https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA": {
-    "url": "https://www.youtube.com/playlist?list=UUcOYEm78CpaZQvPE6LtoSeA",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036997.7647862
-  },
-  "https://www.youtube.com/playlist?list=UUFL1sCAksD6_7JIZwwHcwjQ": {
-    "url": "https://www.youtube.com/playlist?list=UUFL1sCAksD6_7JIZwwHcwjQ",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036998.829312
-  },
-  "https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ": {
-    "url": "https://www.youtube.com/playlist?list=UUpiCK8c6PBktcxq7Az_t4RQ",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036998.829323
-  },
-  "https://www.youtube.com/playlist?list=UUtdz9LWNNQKUg4Xpma_40Ug": {
-    "url": "https://www.youtube.com/playlist?list=UUtdz9LWNNQKUg4Xpma_40Ug",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036998.8293295
-  },
-  "https://www.youtube.com/playlist?list=UUkbJc8jMcTXwhtmN5VMwfXg": {
-    "url": "https://www.youtube.com/playlist?list=UUkbJc8jMcTXwhtmN5VMwfXg",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036998.8293493
-  },
-  "https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg": {
-    "url": "https://www.youtube.com/playlist?list=UUNIiH_4ArJNd_cDZApZ7AFg",
-    "status": "ok",
-    "code": 200,
-    "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1794036999.6837428
-  },
   "https://isplus.com/article/view/isp202611070349": {
     "url": "https://isplus.com/article/view/isp202611070349",
     "status": "ok",
@@ -7719,5 +7656,75 @@
     "code": 404,
     "note": "RSS endpoint unavailable; collector has channel-verified uploads fallback",
     "checked_at": 1794101575.6675708
+  },
+  "https://www.xportsnews.com/article/2216643": {
+    "url": "https://www.xportsnews.com/article/2216643",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.3027534
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ2O-iftmnlfrBuNsUUTofQ": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ2O-iftmnlfrBuNsUUTofQ",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.30277
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC78PMQprrZTbU0IlMDsYZPw",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.30278
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiBr0bK06imaMbLc8sAEz0A",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.3027928
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcOYEm78CpaZQvPE6LtoSeA",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.302802
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UCFL1sCAksD6_7JIZwwHcwjQ": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFL1sCAksD6_7JIZwwHcwjQ",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.3028123
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpiCK8c6PBktcxq7Az_t4RQ",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.3028226
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UCtdz9LWNNQKUg4Xpma_40Ug": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtdz9LWNNQKUg4Xpma_40Ug",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.302832
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbJc8jMcTXwhtmN5VMwfXg",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.3028395
+  },
+  "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg": {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIiH_4ArJNd_cDZApZ7AFg",
+    "status": "ok",
+    "code": 200,
+    "note": "HTTP reachable; factual identity not verified",
+    "checked_at": 1794178171.30285
   }
 }
