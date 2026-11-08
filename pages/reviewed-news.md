@@ -256,3 +256,4 @@
 - [리센느, &lsquo;베스트 메모리&rsquo; 수상&hellip;&rdquo;고윤정에게 받아 뜻깊어, 리마인 고마워&rdquo; ［2026 KGMA］ - 일간스포츠](https://isplus.com/article/view/isp202611070349) · 일간스포츠 · 내용은 원문 보도 기준
 - [리센느 제나, 고윤정과 오늘(7일) KGMA서 만난다&hellip;&rdquo;쇼케이스 후 예쁘다고&rdquo; ［IS하이컷］ - 일간스포츠](https://isplus.com/article/view/isp202611070017) · 일간스포츠 · 내용은 원문 보도 기준
 - [コ・ユンジョン、チョン・ソヨン、ショーンも応援…リセンヌの豪華人脈](https://www.chosun.com/jp/culture-life-jp/2026/11/06/U7NQMAHYLREBDFHDL4OZ5ZXKSI) · JA_ALL · 내용은 원문 보도 기준
+- [고윤정, '닮은꼴' 리센느 제나와 많이 친해졌네…신곡 응원에 "쇼케이스 후 예쁘다고" ［엑's 이슈］ ](https://www.xportsnews.com/article/2216643) · 엑스포츠뉴스 · 내용은 원문 보도 기준

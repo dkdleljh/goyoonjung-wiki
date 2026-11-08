@@ -10,11 +10,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "W Korea": {
-    "page": 1,
-    "checked_at": "2026-11-01T08:35:00.828824+00:00",
-    "next_scan": "2026-11-08T08:35:00.828824+00:00",
-    "status": "end_of_results",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-08T14:37:03.161172+00:00",
+    "next_scan": "2026-11-08T14:37:03.161172+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "8989de169c36c1442d858d58b5b445da583b799251d7fa5cb241438553c1512c"
+    ],
     "items_added": 13,
     "years_observed": [
       2021,
@@ -26,11 +28,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 1,
-    "checked_at": "2026-11-01T08:35:00.828824+00:00",
-    "next_scan": "2026-11-08T08:35:00.828824+00:00",
-    "status": "end_of_results",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-08T14:37:03.161172+00:00",
+    "next_scan": "2026-11-08T14:37:03.161172+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "8c45249a7c3edd1d2e9b84f2ea826862aa623c16c0880be5477714a0481e736d"
+    ],
     "items_added": 39,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
@@ -101,11 +105,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Allure Korea": {
-    "page": 1,
-    "checked_at": "2026-11-01T08:35:00.828824+00:00",
-    "next_scan": "2026-11-08T08:35:00.828824+00:00",
-    "status": "end_of_results",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-08T14:37:03.161172+00:00",
+    "next_scan": "2026-11-08T14:37:03.161172+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "342f8e7664889d2020765f8299ee1588c747ee4b82b77d5a802fbd913c57b7a6"
+    ],
     "items_added": 0,
     "years_observed": [
       2022,

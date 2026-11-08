@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T16:54:29+09:00",
+  "checked_at": "2026-11-08T23:37:02+09:00",
   "status": "failed",
   "sources": [
     {
@@ -11,8 +11,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T16:54:29+09:00",
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
       "consecutive_failures": 0
     },
     {
@@ -24,24 +24,22 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T16:54:29+09:00",
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "백상예술대상",
       "url": "https://www.baeksangawards.co.kr/",
       "scope": "official search + original page",
-      "status": "failed",
+      "status": "success",
       "fetched": 0,
-      "index_checked": false,
+      "index_checked": true,
       "matched": 0,
-      "warnings": [
-        "Index unavailable: Connection timeout (5 seconds)"
-      ],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T10:32:52+09:00",
-      "consecutive_failures": 1
+      "warnings": [],
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "청룡시리즈어워즈",
@@ -68,8 +66,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T16:54:29+09:00",
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
       "consecutive_failures": 0
     },
     {
@@ -81,25 +79,22 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T16:54:29+09:00",
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "JTBC",
       "url": "https://tv.jtbc.co.kr/",
       "scope": "official search + original page",
-      "status": "failed",
-      "fetched": 0,
-      "index_checked": false,
-      "matched": 0,
-      "warnings": [
-        "Index unavailable: Connection timeout (5 seconds)",
-        "https://tv.jtbc.co.kr/wearealltryinghere: HTTPSConnectionPool(host='tv.jtbc.co.kr', port=443): Max retries exceeded with url: /wearealltryingh"
-      ],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T10:32:52+09:00",
-      "consecutive_failures": 1
+      "status": "success",
+      "fetched": 1,
+      "index_checked": true,
+      "matched": 1,
+      "warnings": [],
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "CJ ENM",
@@ -110,8 +105,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T16:54:29+09:00",
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
       "consecutive_failures": 0
     },
     {
@@ -155,8 +150,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T16:54:29+09:00",
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
       "consecutive_failures": 0
     },
     {
@@ -168,8 +163,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-08T16:54:29+09:00",
-      "last_success": "2026-11-08T16:54:29+09:00",
+      "checked_at": "2026-11-08T23:37:02+09:00",
+      "last_success": "2026-11-08T23:37:02+09:00",
       "consecutive_failures": 0
     }
   ]
