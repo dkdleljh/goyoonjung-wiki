@@ -257,3 +257,5 @@
 - [리센느 제나, 고윤정과 오늘(7일) KGMA서 만난다&hellip;&rdquo;쇼케이스 후 예쁘다고&rdquo; ［IS하이컷］ - 일간스포츠](https://isplus.com/article/view/isp202611070017) · 일간스포츠 · 내용은 원문 보도 기준
 - [コ・ユンジョン、チョン・ソヨン、ショーンも応援…リセンヌの豪華人脈](https://www.chosun.com/jp/culture-life-jp/2026/11/06/U7NQMAHYLREBDFHDL4OZ5ZXKSI) · JA_ALL · 내용은 원문 보도 기준
 - [고윤정, '닮은꼴' 리센느 제나와 많이 친해졌네…신곡 응원에 "쇼케이스 후 예쁘다고" ［엑's 이슈］ ](https://www.xportsnews.com/article/2216643) · 엑스포츠뉴스 · 내용은 원문 보도 기준
+- [Actress Ko Yoon-jung revealed her daily life.On the 4th, Ko Yoon-jung posted several pictures of her.. - MK](https://www.mk.co.kr/en/entertain/12198087) · EN_ALL · 내용은 원문 보도 기준
+- [［★해시태그］ 쌈 싸먹는 고윤정, 과일 먹는 고윤정…일상이 화보집](https://www.xportsnews.com/article/2215863) · www.xportsnews.com · 내용은 원문 보도 기준
