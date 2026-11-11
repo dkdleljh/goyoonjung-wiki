@@ -259,3 +259,5 @@
 - [고윤정, '닮은꼴' 리센느 제나와 많이 친해졌네…신곡 응원에 "쇼케이스 후 예쁘다고" ［엑's 이슈］ ](https://www.xportsnews.com/article/2216643) · 엑스포츠뉴스 · 내용은 원문 보도 기준
 - [Actress Ko Yoon-jung revealed her daily life.On the 4th, Ko Yoon-jung posted several pictures of her.. - MK](https://www.mk.co.kr/en/entertain/12198087) · EN_ALL · 내용은 원문 보도 기준
 - [［★해시태그］ 쌈 싸먹는 고윤정, 과일 먹는 고윤정…일상이 화보집](https://www.xportsnews.com/article/2215863) · www.xportsnews.com · 내용은 원문 보도 기준
+- [［공식］ 서강준, 결국 고윤정과 만남 불발됐다…이병헌 오른팔 역 고사 "출연 논의했지만" | 텐아시아](https://www.tenasia.co.kr/article/2026111103364) · 텐아시아 · 내용은 원문 보도 기준
+- [［포토］고윤정, 큐카드보다 작은 얼굴 - 일간스포츠](https://isplus.com/article/view/isp202611070393) · VARIETY_WORK · 내용은 원문 보도 기준

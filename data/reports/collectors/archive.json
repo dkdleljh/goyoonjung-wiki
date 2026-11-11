@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T02:59:10+09:00",
+  "checked_at": "2026-11-12T02:25:28+09:00",
   "status": "success",
   "sources": [
     {
@@ -133,43 +133,43 @@
     {
       "name": "Singles",
       "url": "https://www.singleskorea.com/api/article-search",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 1",
       "status": "success",
-      "fetched": 0,
-      "matched": 0,
+      "fetched": 6,
+      "matched": 2,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T22:45:24+09:00",
-      "last_success": "2026-11-01T22:45:24+09:00",
+      "page": 1,
+      "page_fingerprint": "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62",
+      "checked_at": "2026-11-12T02:25:28+09:00",
+      "last_success": "2026-11-12T02:25:28+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Arena",
       "url": "https://www.arenakorea.com/rss/allArticle.xml",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 1",
       "status": "success",
       "fetched": 50,
       "matched": 0,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "248b842a59d3b7023f9c62475d30cf3641014be41002f3250dee9fd445fdbdb3",
-      "checked_at": "2026-11-01T22:45:24+09:00",
-      "last_success": "2026-11-01T22:45:24+09:00",
+      "page": 1,
+      "page_fingerprint": "58422ddedcaaa1018ae7ecc145a8c4a716f99634cb337e46b56017d72bc019cb",
+      "checked_at": "2026-11-12T02:25:28+09:00",
+      "last_success": "2026-11-12T02:25:28+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Noblesse",
       "url": "https://noblesse.com/feed/",
-      "scope": "historical pagination page 18",
+      "scope": "historical pagination page 19",
       "status": "success",
       "fetched": 10,
       "matched": 0,
       "warnings": [],
-      "page": 18,
+      "page": 19,
       "page_fingerprint": "69082203791c3ceb7156abf046669a953e7caefacf3edbca0a4c0f7925333397",
-      "checked_at": "2026-11-08T03:51:43+09:00",
-      "last_success": "2026-11-08T03:51:43+09:00",
+      "checked_at": "2026-11-12T02:25:28+09:00",
+      "last_success": "2026-11-12T02:25:28+09:00",
       "consecutive_failures": 0
     }
   ]

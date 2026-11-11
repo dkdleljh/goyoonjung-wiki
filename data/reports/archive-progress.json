@@ -134,11 +134,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Singles": {
-    "page": 1,
-    "checked_at": "2026-11-01T13:45:23.472725+00:00",
-    "next_scan": "2026-11-08T13:45:23.472725+00:00",
-    "status": "end_of_results",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-11T17:25:24.506998+00:00",
+    "next_scan": "2026-11-11T17:25:24.506998+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62"
+    ],
     "items_added": 0,
     "years_observed": [
       2024,
@@ -147,40 +149,23 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Arena": {
-    "page": 1,
-    "checked_at": "2026-11-01T13:45:23.472725+00:00",
-    "next_scan": "2026-11-08T13:45:23.472725+00:00",
-    "status": "pagination_repeated",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-11T17:25:24.506998+00:00",
+    "next_scan": "2026-11-11T17:25:24.506998+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "58422ddedcaaa1018ae7ecc145a8c4a716f99634cb337e46b56017d72bc019cb"
+    ],
     "items_added": 0,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Noblesse": {
-    "page": 19,
-    "checked_at": "2026-11-07T18:51:42.294085+00:00",
-    "next_scan": "2026-11-07T18:51:42.294085+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "cf0e58cd3977cb85feb9a4a550df5b01458aa85628aef62655144db728fc5824",
-      "8249cad2ed9eb3996a03587cbe8b678bc2fee46757a18aa5d99213499f20b11f",
-      "bd8f6a34260078227569e77d17e645c455ffffd5c68e3476e60a4ced3015ca66",
-      "6e18f71f068c278e1fd6911a93e0c233dad8820a72478189f18f38ac07a37739",
-      "e4d8f6edad404e14984926426c9f1511aa4d44cf4583d0a52e5def0630ddec52",
-      "c808c4dbc23954b5c40d1481f629bf04edf42d6afffffcab881c355ae181c3c9",
-      "e16af78bd5a45c70bea316530bc53237d1eec354cd3935e9c3f9ba0058730921",
-      "6683b8e0c4291759c1afd4b70178a496253ca92d29f8630808b4d987a7903a1b",
-      "fafbe4ffe64e2e8f9088a498e68d32c254eb29a8d0e4389fe2db6e2243f764aa",
-      "7b48e658352b86a47a03d85be55c69e45d1361c061ff42b4f4e882dc44438e8c",
-      "31e0d85df2004db31e9c6a8cea154ba997149cbf1f76c93c0caea3580c70a107",
-      "4d40e851cedc69f7008c96eb502d676bcd021f37bd4220ba740c16e4a0eb5c13",
-      "437136457baa8859ae54df9b99a0613e35c18149e40bc79ccb19c1c0ef97ac7f",
-      "850c75f84d63d66871e9d15e5c71b7b9b56d2c251fdad9cddec70c66db6a7f0a",
-      "ae89b0a334c03a2377e993e9dddb246aede1d4c406a7cc7bbbc200d25b73ef61",
-      "7e9243e539a95777960f952c074d6a203f5f21fb1a06ab2f76de6db9f01ba832",
-      "224a4882cb17997aa9a78aeb04f6d9b20a367e631c7741bed8d68a7886a898dd",
-      "69082203791c3ceb7156abf046669a953e7caefacf3edbca0a4c0f7925333397"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-11T17:25:24.506998+00:00",
+    "next_scan": "2026-11-18T17:25:24.506998+00:00",
+    "status": "pagination_repeated",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
