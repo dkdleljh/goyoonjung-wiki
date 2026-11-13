@@ -261,3 +261,5 @@
 - [［★해시태그］ 쌈 싸먹는 고윤정, 과일 먹는 고윤정…일상이 화보집](https://www.xportsnews.com/article/2215863) · www.xportsnews.com · 내용은 원문 보도 기준
 - [［공식］ 서강준, 결국 고윤정과 만남 불발됐다…이병헌 오른팔 역 고사 "출연 논의했지만" | 텐아시아](https://www.tenasia.co.kr/article/2026111103364) · 텐아시아 · 내용은 원문 보도 기준
 - [［포토］고윤정, 큐카드보다 작은 얼굴 - 일간스포츠](https://isplus.com/article/view/isp202611070393) · VARIETY_WORK · 내용은 원문 보도 기준
+- [コ・ユンジョン、『トンマンさん』のク・ギョファンを訪ねた | STARNEWS](https://www.starnewskorea.com/ja/star/2026/11/13/2026111308053459904) · JA_CAST · 내용은 원문 보도 기준
+- [고윤정, '동만씨' 구교환 찾아갔다 | 스타뉴스](https://www.starnewskorea.com/star/2026/11/13/2026111308053459904) · 스타뉴스 · 내용은 원문 보도 기준

@@ -44,13 +44,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "GQ Korea": {
-    "page": 2,
-    "checked_at": "2026-11-09T09:38:47.324227+00:00",
-    "next_scan": "2026-11-09T09:38:47.324227+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "dae624f68bbdcc2ebd5316fadabc07810fb8e8a7ea24cd368374961eb58110c7"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-13T21:47:15.527212+00:00",
+    "next_scan": "2026-11-20T21:47:15.527212+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [
       2022,
@@ -59,12 +57,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Vogue Korea": {
-    "page": 2,
-    "checked_at": "2026-11-09T09:38:47.324227+00:00",
-    "next_scan": "2026-11-09T09:38:47.324227+00:00",
+    "page": 3,
+    "checked_at": "2026-11-13T21:47:15.527212+00:00",
+    "next_scan": "2026-11-13T21:47:15.527212+00:00",
     "status": "in_progress",
     "fingerprints": [
-      "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b"
+      "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b",
+      "e1f38f15e062dc3fd7fc309ba81a7f0966223babda85e785ac516b1c5848075c"
     ],
     "items_added": 9,
     "years_observed": [
@@ -107,12 +106,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Cosmopolitan Korea": {
-    "page": 2,
-    "checked_at": "2026-11-09T09:38:47.324227+00:00",
-    "next_scan": "2026-11-09T09:38:47.324227+00:00",
+    "page": 3,
+    "checked_at": "2026-11-13T21:47:15.527212+00:00",
+    "next_scan": "2026-11-13T21:47:15.527212+00:00",
     "status": "in_progress",
     "fingerprints": [
-      "93b764fc9a389a84ab312cc5284446b9973d5a2ae57a8d7312fb54c8e3785693"
+      "93b764fc9a389a84ab312cc5284446b9973d5a2ae57a8d7312fb54c8e3785693",
+      "433573f04037c0231d8322cc8d8f56d2b38cb87270d762ef640d123899f92a2a"
     ],
     "items_added": 20,
     "years_observed": [],
