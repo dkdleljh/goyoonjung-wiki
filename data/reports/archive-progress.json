@@ -1,11 +1,12 @@
 {
   "ELLE Korea": {
-    "page": 2,
-    "checked_at": "2026-11-10T17:59:02.928167+00:00",
-    "next_scan": "2026-11-10T17:59:02.928167+00:00",
+    "page": 3,
+    "checked_at": "2026-11-14T19:49:11.134682+00:00",
+    "next_scan": "2026-11-14T19:49:11.134682+00:00",
     "status": "in_progress",
     "fingerprints": [
-      "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166"
+      "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166",
+      "f9982d4067766d38df2a71dbb4688ffbba75ad88dc725f52f88cc661efd73843"
     ],
     "items_added": 41,
     "years_observed": [],
@@ -76,12 +77,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Marie Claire Korea": {
-    "page": 2,
-    "checked_at": "2026-11-10T17:59:02.928167+00:00",
-    "next_scan": "2026-11-10T17:59:02.928167+00:00",
+    "page": 3,
+    "checked_at": "2026-11-14T19:49:11.134682+00:00",
+    "next_scan": "2026-11-14T19:49:11.134682+00:00",
     "status": "in_progress",
     "fingerprints": [
-      "cbf5b8e1d033f505f3b8af6751cb5a3db6a45cbea8c64dc9d6db1dd83939b0dd"
+      "cbf5b8e1d033f505f3b8af6751cb5a3db6a45cbea8c64dc9d6db1dd83939b0dd",
+      "f1ffae3e75ad936b360e87e4fd53732daafab5b10cea75abc8c31020ea83e0c8"
     ],
     "items_added": 13,
     "years_observed": [
@@ -94,12 +96,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Esquire Korea": {
-    "page": 2,
-    "checked_at": "2026-11-10T17:59:02.928167+00:00",
-    "next_scan": "2026-11-10T17:59:02.928167+00:00",
+    "page": 3,
+    "checked_at": "2026-11-14T19:49:11.134682+00:00",
+    "next_scan": "2026-11-14T19:49:11.134682+00:00",
     "status": "in_progress",
     "fingerprints": [
-      "00bbe1024c661c34b4336af134513dee61cfd05870e3f1a075a15fc68800c078"
+      "00bbe1024c661c34b4336af134513dee61cfd05870e3f1a075a15fc68800c078",
+      "4c616495433feab857d108128d888a58b5dd99e89e9fc8a9c6f4a4b1c873aa79"
     ],
     "items_added": 2,
     "years_observed": [],

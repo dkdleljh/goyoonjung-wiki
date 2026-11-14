@@ -263,3 +263,8 @@
 - [［포토］고윤정, 큐카드보다 작은 얼굴 - 일간스포츠](https://isplus.com/article/view/isp202611070393) · VARIETY_WORK · 내용은 원문 보도 기준
 - [コ・ユンジョン、『トンマンさん』のク・ギョファンを訪ねた | STARNEWS](https://www.starnewskorea.com/ja/star/2026/11/13/2026111308053459904) · JA_CAST · 내용은 원문 보도 기준
 - [고윤정, '동만씨' 구교환 찾아갔다 | 스타뉴스](https://www.starnewskorea.com/star/2026/11/13/2026111308053459904) · 스타뉴스 · 내용은 원문 보도 기준
+- [디디에 두보, 고윤정 ‘홀리데이 캠페인’ 공개](https://sports.khan.co.kr/article/202611142226003) · 스포츠경향 · 내용은 원문 보도 기준
+- [Go Youn-jung Visits 'Mr. Dongman' Koo Kyo-hwan | STARNEWS](https://www.starnewskorea.com/en/star/2026/11/13/2026111308053459904) · EN_ALL · 내용은 원문 보도 기준
+- [이동욱, 서강준 하차한 &lsquo;남벌&rsquo; 합류할까&hellip;이병헌&middot;고윤정 만남 &ldquo;검토 중&rdquo; ［공식］ - 일간스포츠](https://isplus.com/article/view/isp202611120161) · 일간스포츠 · 내용은 원문 보도 기준
+- [［포토］고윤정, 숲속의 여신처럼 - 일간스포츠](https://isplus.com/article/view/isp202611070392) · 일간스포츠 · 내용은 원문 보도 기준
+- [［포토］고윤정, 작지만 무대를 가득 채우는 존재감 - 일간스포츠](https://isplus.com/article/view/isp202611070379) · 일간스포츠 · 내용은 원문 보도 기준
