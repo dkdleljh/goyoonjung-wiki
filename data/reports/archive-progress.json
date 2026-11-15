@@ -40,14 +40,15 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "ELLE Korea": {
-    "page": 4,
-    "checked_at": "2026-11-15T18:45:22.700633+00:00",
-    "next_scan": "2026-11-15T18:45:22.700633+00:00",
+    "page": 5,
+    "checked_at": "2026-11-15T21:45:20.055890+00:00",
+    "next_scan": "2026-11-15T21:45:20.055890+00:00",
     "status": "in_progress",
     "fingerprints": [
       "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166",
       "f9982d4067766d38df2a71dbb4688ffbba75ad88dc725f52f88cc661efd73843",
-      "f9d2793d0429735f45862ada29f59754a71209880239f2acd9bccddd50443cc7"
+      "f9d2793d0429735f45862ada29f59754a71209880239f2acd9bccddd50443cc7",
+      "c85097e4bd26dbdd7a894a4fa46ace5a361cd746e68504974bb51583e263d5f2"
     ],
     "items_added": 41,
     "years_observed": [],
@@ -92,14 +93,15 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Marie Claire Korea": {
-    "page": 4,
-    "checked_at": "2026-11-15T18:45:22.700633+00:00",
-    "next_scan": "2026-11-15T18:45:22.700633+00:00",
+    "page": 5,
+    "checked_at": "2026-11-15T21:45:20.055890+00:00",
+    "next_scan": "2026-11-15T21:45:20.055890+00:00",
     "status": "in_progress",
     "fingerprints": [
       "cbf5b8e1d033f505f3b8af6751cb5a3db6a45cbea8c64dc9d6db1dd83939b0dd",
       "f1ffae3e75ad936b360e87e4fd53732daafab5b10cea75abc8c31020ea83e0c8",
-      "314b92bf9edb6b81a1053ef2822e34ddd80a7465d1c0e0661285be2482e8edf6"
+      "314b92bf9edb6b81a1053ef2822e34ddd80a7465d1c0e0661285be2482e8edf6",
+      "0417d0ae75cc589cc989c16e158c4d783099d0be57696169b28f066a11444e4c"
     ],
     "items_added": 13,
     "years_observed": [
@@ -447,14 +449,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "W Korea": {
-    "page": 3,
-    "checked_at": "2026-11-15T19:45:21.726267+00:00",
-    "next_scan": "2026-11-15T19:45:21.726267+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "8989de169c36c1442d858d58b5b445da583b799251d7fa5cb241438553c1512c",
-      "f1067b334813e18eafe9f0e96e7c7f726f4aff2cdafe5a798fad1b78661b85bb"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-15T21:45:20.055890+00:00",
+    "next_scan": "2026-11-22T21:45:20.055890+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 13,
     "years_observed": [
       2021,
