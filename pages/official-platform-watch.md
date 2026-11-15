@@ -1,11 +1,11 @@
 # Official Platform Watch (auto)
 
-> Updated: 2026-11-03 12:04 (Asia/Seoul)
+> Updated: 2026-11-04 00:03 (Asia/Seoul)
 
 이 문서는 기존 위키 근거의 색인입니다. 새 공식 발표의 실제 외부 조회 결과는 [수집 출처 상태](source-collection-status.md)의 official-live 항목에서 확인합니다.
 
 ## Summary
-- official_platform_links: 88
+- official_platform_links: 90
 
 ## Links
 | title | host | grade | url |
@@ -19,6 +19,7 @@
 | 환혼 (tvN) | youtube.com | B | https://www.youtube.com/watch?v=TiTWX_KfEc0 |
 | 환혼 (tvN) | youtube.com | B | https://www.youtube.com/watch?v=z8x19hQejYo |
 | 환혼 (tvN) | youtube.com | B | https://www.youtube.com/watch?v=tYTPRqjgCzs |
+| 환혼 (tvN) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12106600 |
 | 환혼 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=277651 |
 | 작품 — 연도별 인덱스 | netflix.com | S | https://www.netflix.com/kr/title/81697769 |
 | 작품 — 연도별 인덱스 | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/wearealltryinghere |
@@ -47,6 +48,7 @@
 | 이 사랑 통역 되나요? (Netflix) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
 | 이재, 곧 죽습니다 (TVING) | tving.com | S | https://www.tving.com/contents/P001748996 |
 | 이재, 곧 죽습니다 (TVING) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
+| 이재, 곧 죽습니다 (TVING) | news.jtbc.co.kr | S | https://news.jtbc.co.kr/article/NB12106600 |
 | 모두가 자신의 무가치함과 싸우고 있다 | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/wearealltryinghere |
 | 모두가 자신의 무가치함과 싸우고 있다 | youtube.com | B | https://www.youtube.com/watch?v=51XurKBSgMo |
 | 모두가 자신의 무가치함과 싸우고 있다 | tv.jtbc.co.kr | A | https://tv.jtbc.co.kr/clip/pr10011927/pm10071855/vo10924351/view |
@@ -88,8 +90,6 @@
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=361830 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362628 |
 | 언젠가는 슬기로울 전공의생활 (tvN) | kstar.kbs.co.kr | S | https://kstar.kbs.co.kr/list_view.html?idx=362734 |
-| 언젠가는 슬기로울 전공의생활 (tvN) | maa.co.kr | BLOCK | https://maa.co.kr/artists/go-younjung |
-| 스위트홈 2 | netflix.com | S | https://www.netflix.com/kr/title/81061734 |
 
 ## Policy
 - S급 공식 링크는 본문 자동 확정 후보입니다.

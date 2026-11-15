@@ -1,18 +1,18 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-11-03 12:04 (Asia/Seoul)
+> Updated: 2026-11-04 00:04 (Asia/Seoul)
 
 ## Summary
-- total_urls: 2024
-- S: 249
-- A: 905
-- B: 484
+- total_urls: 2042
+- S: 253
+- A: 907
+- B: 496
 - BLOCK: 386
 
 ## Top Hosts
 | host | urls | grade_counts |
 |---|---|---|
-| youtube.com | 400 | B:400 |
+| youtube.com | 412 | B:412 |
 | marieclairekorea.com | 126 | A:126 |
 | kstar.kbs.co.kr | 120 | S:120 |
 | harpersbazaar.co.kr | 94 | A:94 |
@@ -26,11 +26,11 @@
 | mk.co.kr | 39 | A:39 |
 | starnewskorea.com | 30 | A:30 |
 | v.daum.net | 29 | A:29 |
+| news.jtbc.co.kr | 25 | S:25 |
 | news.sbs.co.kr | 24 | S:24 |
 | dkdleljh.github.io | 23 | BLOCK:23 |
 | tving.com | 22 | S:22 |
 | tvn.cjenm.com | 22 | S:22 |
-| news.jtbc.co.kr | 21 | S:21 |
 | esquirekorea.co.kr | 21 | A:21 |
 | instagram.com | 20 | B:20 |
 | chosun.com | 20 | A:20 |

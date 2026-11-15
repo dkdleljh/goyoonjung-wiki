@@ -244,3 +244,32 @@
 - [［청룡랭킹］ 아이유, 9월 여자 배우부문 1위…고윤정 제치고 정상 올라](https://www.sportschosun.com/entertainment/2026-10-29/202610290100189100012998) · WORKS · 내용은 원문 보도 기준
 - [IU tops September’s Female Actor category, beating Go Youn-jung to claim first place](https://www.sportschosun.com/en/celebrity/2026-10-29/202610290100189100012998) · EN_CAST · 내용은 원문 보도 기준
 - ["얼굴 보느라 몰랐네"…어깨까지 내려온 고윤정의 귀걸이［누구템］](https://www.edaily.co.kr/News/Read?newsId=01118486645641456&mediaCodeNo=257) · 이데일리 · 내용은 원문 보도 기준
+- [고윤정, 메이크업 대기실 셀카…‘무빙2’ 촬영 속 변함없는 미모](https://www.topstarnews.net/news/articleView.html?idxno=16268509) · 톱스타뉴스 · 내용은 원문 보도 기준
+- [막 찍어도 인생샷..고윤정, 꾸밈없는 일상 사진도 화보 | 스타뉴스](https://www.starnewskorea.com/star/2026/11/04/2026110423223155579) · 스타뉴스 · 내용은 원문 보도 기준
+- [Every shot is a life-defining photo… Go Youn-jung’s unadorned daily-life photos look like a magazine spread | STARNEWS](https://www.starnewskorea.com/en/star/2026/11/04/2026110423223155579) · EN_ALL · 내용은 원문 보도 기준
+- [何気なく撮っても人生ショット..コ・ユンジョン、飾らない日常写真もグラビアに | STARNEWS](https://www.starnewskorea.com/ja/star/2026/11/04/2026110423223155579) · JA_ALL · 내용은 원문 보도 기준
+- [고윤정, 이렇게 털털한 사람이었나&hellip;상추 들고 먹방까지 '반전 일상'](https://mydaily.co.kr/page/view/2026110509222825863) · 마이데일리 · 내용은 원문 보도 기준
+- [［★해시태그］ 쌈 싸먹는 고윤정, 과일 먹는 고윤정…일상이 화보집](https://www.xportsnews.com/article/2215863) · www.xportsnews.com · 내용은 원문 보도 기준
+- [고윤정, 이렇게 털털한 사람이었나&hellip;상추 들고 먹방까지 '반전 일상'](https://www.mydaily.co.kr/page/view/2026110509222825863) · 마이데일리 · 내용은 원문 보도 기준
+- [고윤정, 한 손에 쌈 들고 오물오물…먹방 중에도 무결점 미모 - 매일경제](https://www.mk.co.kr/news/entertain/12198087) · 매일경제 · 내용은 원문 보도 기준
+- [고윤정, 꽃단장 해놓고 이번엔 '헬스 보이' 콘셉트…또 이런 사진 찍었네 | 텐아시아](https://www.tenasia.co.kr/article/2026110578914) · 텐아시아 · 내용은 원문 보도 기준
+- ['30세' 고윤정, 리센느 노래 틀어놓고 '입삐죽' …머리 손질 중에도 미모 이 정도 | 텐아시아](https://www.tenasia.co.kr/article/2026110583364) · WORKS · 내용은 원문 보도 기준
+- ['고윤정·전소영→션' 리센느, 의리 지원군 봤더니..인맥 美쳤다 ［핫피플］](https://www.chosun.com/entertainments/broadcast/2026/11/06/MZSTKZDGGBSDMMBQGMZTCNZWGU) · 조선일보 · 내용은 원문 보도 기준
+- ['고윤정·전소영→션' 리센느, 의리 지원군 봤더니..인맥 美쳤다 ［핫피플］](https://biz.chosun.com/entertainment/enter_general/2026/11/06/G4YDGY3EGU4DQMZWHBQWINBQMY) · Chosunbiz · 내용은 원문 보도 기준
+- [コ・ユンジョン、チョン・ソヨン、ショーンも応援…リセンヌの豪華人脈](https://www.chosun.com/jp/culture-life-jp/2026/11/06/U7NQMAHYLREBDFHDL4OZ5ZXKSI) · JA_ALL · 내용은 원문 보도 기준
+- ['고윤정·전소영→션' 리센느, 의리 지원군 봤더니..인맥 美쳤다 ［핫피플］](https://www.osen.co.kr/article/G1112905134) · OSEN · 내용은 원문 보도 기준
+- ['고윤정·전소영→션' 리센느, 의리 지원군 봤더니..인맥 美쳤다 ［핫피플］](https://biz.chosun.com/entertainment/enter_general/2026/11/06/G4YDGY3EGU4DQMZWHBQWINBQMY?outputType=amp) · Chosunbiz · 내용은 원문 보도 기준
+- [고윤정, '닮은꼴' 리센느 제나와 많이 친해졌네…신곡 응원에 "쇼케이스 후 예쁘다고" ［엑's 이슈］ ](https://www.xportsnews.com/article/2216643) · 엑스포츠뉴스 · 내용은 원문 보도 기준
+- [리센느 제나, 고윤정과 오늘(7일) KGMA서 만난다&hellip;&rdquo;쇼케이스 후 예쁘다고&rdquo; ［IS하이컷］ - 일간스포츠](https://isplus.com/article/view/isp202611070017) · 일간스포츠 · 내용은 원문 보도 기준
+- [리센느, &lsquo;베스트 메모리&rsquo; 수상&hellip;&rdquo;고윤정에게 받아 뜻깊어, 리마인 고마워&rdquo; ［2026 KGMA］ - 일간스포츠](https://isplus.com/article/view/isp202611070349) · 일간스포츠 · 내용은 원문 보도 기준
+- [［포토］고윤정, 작지만 무대를 가득 채우는 존재감 - 일간스포츠](https://isplus.com/article/view/isp202611070379) · 일간스포츠 · 내용은 원문 보도 기준
+- [［포토］고윤정, 숲속의 여신처럼 - 일간스포츠](https://isplus.com/article/view/isp202611070392) · 일간스포츠 · 내용은 원문 보도 기준
+- [［포토］고윤정, 큐카드보다 작은 얼굴 - 일간스포츠](https://isplus.com/article/view/isp202611070393) · WORKS · 내용은 원문 보도 기준
+- [［공식］ 서강준, 결국 고윤정과 만남 불발됐다…이병헌 오른팔 역 고사 "출연 논의했지만" | 텐아시아](https://www.tenasia.co.kr/article/2026111103364) · 텐아시아 · 내용은 원문 보도 기준
+- [롱코트 입는 날엔 고윤정처럼 느슨하게 땋아보세요](https://www.cosmopolitan.co.kr/article/1912921) · Cosmopolitan Korea · 내용은 원문 보도 기준
+- [이동욱, 서강준 하차한 &lsquo;남벌&rsquo; 합류할까&hellip;이병헌&middot;고윤정 만남 &ldquo;검토 중&rdquo; ［공식］ - 일간스포츠](https://isplus.com/article/view/isp202611120161) · 일간스포츠 · 내용은 원문 보도 기준
+- [고윤정, '동만씨' 구교환 찾아갔다 | 스타뉴스](https://www.starnewskorea.com/star/2026/11/13/2026111308053459904) · 스타뉴스 · 내용은 원문 보도 기준
+- [コ・ユンジョン、『トンマンさん』のク・ギョファンを訪ねた | STARNEWS](https://www.starnewskorea.com/ja/star/2026/11/13/2026111308053459904) · JA_ALL · 내용은 원문 보도 기준
+- [Go Youn-jung Visits 'Mr. Dongman' Koo Kyo-hwan | STARNEWS](https://www.starnewskorea.com/en/star/2026/11/13/2026111308053459904) · EN_ALL · 내용은 원문 보도 기준
+- [고윤정, 디디에 두보 ‘홀리데이 캠페인’ 공개](https://www.slist.kr/news/articleView.html?idxno=781428) · 싱글리스트 · 내용은 원문 보도 기준
+- [디디에 두보, 고윤정 ‘홀리데이 캠페인’ 공개](https://sports.khan.co.kr/article/202611142226003) · 스포츠경향 · 내용은 원문 보도 기준

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-03T23:45:23+09:00",
+  "checked_at": "2026-11-16T00:45:26+09:00",
   "status": "success",
   "sources": [
     {
@@ -12,22 +12,22 @@
       "warnings": [],
       "page": 6,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:10+09:00",
-      "last_success": "2026-11-01T17:35:10+09:00",
+      "checked_at": "2026-11-09T08:45:31+09:00",
+      "last_success": "2026-11-09T08:45:31+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "W Korea",
       "url": "https://www.wkorea.com/wp-admin/admin-ajax.php",
-      "scope": "historical pagination page 3",
+      "scope": "historical pagination page 1",
       "status": "success",
-      "fetched": 0,
-      "matched": 0,
+      "fetched": 20,
+      "matched": 13,
       "warnings": [],
-      "page": 3,
-      "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:05+09:00",
-      "last_success": "2026-11-01T17:35:05+09:00",
+      "page": 1,
+      "page_fingerprint": "8989de169c36c1442d858d58b5b445da583b799251d7fa5cb241438553c1512c",
+      "checked_at": "2026-11-16T00:45:26+09:00",
+      "last_success": "2026-11-16T00:45:26+09:00",
       "consecutive_failures": 0
     },
     {
@@ -40,8 +40,8 @@
       "warnings": [],
       "page": 8,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:05+09:00",
-      "last_success": "2026-11-01T17:35:05+09:00",
+      "checked_at": "2026-11-09T11:00:31+09:00",
+      "last_success": "2026-11-09T11:00:31+09:00",
       "consecutive_failures": 0
     },
     {
@@ -54,8 +54,8 @@
       "warnings": [],
       "page": 2,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:07+09:00",
-      "last_success": "2026-11-01T17:35:07+09:00",
+      "checked_at": "2026-11-15T23:45:25+09:00",
+      "last_success": "2026-11-15T23:45:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -72,8 +72,8 @@
       ],
       "page": 6,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:07+09:00",
-      "last_success": "2026-11-01T17:35:07+09:00",
+      "checked_at": "2026-11-09T08:45:31+09:00",
+      "last_success": "2026-11-09T08:45:31+09:00",
       "consecutive_failures": 0
     },
     {
@@ -89,8 +89,8 @@
       ],
       "page": 7,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:10+09:00",
-      "last_success": "2026-11-01T17:35:10+09:00",
+      "checked_at": "2026-11-09T11:00:31+09:00",
+      "last_success": "2026-11-09T11:00:31+09:00",
       "consecutive_failures": 0
     },
     {
@@ -103,8 +103,8 @@
       "warnings": [],
       "page": 3,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:10+09:00",
-      "last_success": "2026-11-01T17:35:10+09:00",
+      "checked_at": "2026-11-09T02:40:30+09:00",
+      "last_success": "2026-11-09T02:40:30+09:00",
       "consecutive_failures": 0
     },
     {
@@ -117,8 +117,8 @@
       "warnings": [],
       "page": 5,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:07+09:00",
-      "last_success": "2026-11-01T17:35:07+09:00",
+      "checked_at": "2026-11-09T07:45:29+09:00",
+      "last_success": "2026-11-09T07:45:29+09:00",
       "consecutive_failures": 0
     },
     {
@@ -131,8 +131,8 @@
       "warnings": [],
       "page": 3,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T17:35:05+09:00",
-      "last_success": "2026-11-01T17:35:05+09:00",
+      "checked_at": "2026-11-09T01:40:26+09:00",
+      "last_success": "2026-11-09T01:40:26+09:00",
       "consecutive_failures": 0
     },
     {
@@ -145,8 +145,8 @@
       "warnings": [],
       "page": 2,
       "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-01T22:45:24+09:00",
-      "last_success": "2026-11-01T22:45:24+09:00",
+      "checked_at": "2026-11-09T03:45:29+09:00",
+      "last_success": "2026-11-09T03:45:29+09:00",
       "consecutive_failures": 0
     },
     {
@@ -158,25 +158,23 @@
       "matched": 0,
       "warnings": [],
       "page": 2,
-      "page_fingerprint": "248b842a59d3b7023f9c62475d30cf3641014be41002f3250dee9fd445fdbdb3",
-      "checked_at": "2026-11-01T22:45:24+09:00",
-      "last_success": "2026-11-01T22:45:24+09:00",
+      "page_fingerprint": "a05f6acf43c3bba204ddaf8a40327fdfeb4308777fe756ed004ccd039026e25d",
+      "checked_at": "2026-11-09T03:45:29+09:00",
+      "last_success": "2026-11-09T03:45:29+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Noblesse",
       "url": "https://noblesse.com/feed/",
-      "scope": "historical pagination page 13",
+      "scope": "historical pagination page 289",
       "status": "success",
       "fetched": 10,
       "matched": 0,
-      "warnings": [
-        "XML-forbidden control bytes removed: 1"
-      ],
-      "page": 13,
-      "page_fingerprint": "437136457baa8859ae54df9b99a0613e35c18149e40bc79ccb19c1c0ef97ac7f",
-      "checked_at": "2026-11-03T23:45:23+09:00",
-      "last_success": "2026-11-03T23:45:23+09:00",
+      "warnings": [],
+      "page": 289,
+      "page_fingerprint": "6355e5f2a9ce9a754490153ccee29470325be67e7feb2c2e1089247be1960cfa",
+      "checked_at": "2026-11-16T00:45:26+09:00",
+      "last_success": "2026-11-16T00:45:26+09:00",
       "consecutive_failures": 0
     }
   ]

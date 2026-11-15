@@ -128,3 +128,4 @@
 - [YouTube/NetflixKorea] [Hwang Min-hyun is surprised by Go Youn-jung’s honesty | Alchemy of Souls Part 2 Ep 2 ［ENG SUB］](https://www.youtube.com/watch?v=aDsKA4Nj4iA) · 과거 업로드, 게시일 확인 필요
 - [YouTube/NetflixKorea] [Go Youn-jung is excited to spend the night with Lee Jae-wook | Alchemy of Souls Part 2 Ep 2 ［EN SUB］](https://www.youtube.com/watch?v=bts1JhfvtFc) · 과거 업로드, 게시일 확인 필요
 - [YouTube/NetflixKorea] [Go Youn-jung asks Lee Jae-wook to marry her | Alchemy of Souls Part 2 Ep 1 ［ENG SUB］](https://www.youtube.com/watch?v=ukxvimnPlhY) · 과거 업로드, 게시일 확인 필요
+- [YouTube/DisneyPlusKR] [고윤정의 당찬 첫인상!ㅣ［무빙］ 짤터뷰ㅣ디즈니+](https://www.youtube.com/watch?v=jOQbCBiAiQw) · 과거 업로드, 게시일 확인 필요

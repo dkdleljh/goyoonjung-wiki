@@ -1,12 +1,12 @@
 # System status (auto)
 
-> Updated: 2026-11-03
+> Updated: 2026-11-04
 
 ## wiki_completeness: **0/100**
 
-placeholder debt score: debt=437
+placeholder debt score: debt=451
 - (페이지 내 표기 확인 필요): 145
-- (확인 필요): 261
+- (확인 필요): 275
 - 검증불가: 13
 - 교차검증 필요: 0
 - 미확정: 2
@@ -20,18 +20,18 @@ checked sections: clean
 
 ## link_health: **0/100**
 
-checked at: 2026-11-03 12:00
-counts: {'OK': 1046, 'WARN': 21, 'BAD': 4, 'UNCHECKED': 9}
+checked at: 2026-11-04 00:00
+counts: {'OK': 1061, 'WARN': 21, 'BAD': 4, 'UNCHECKED': 9}
 score = verified OK / all discovered URLs; BAD forces zero
 
 ## automation_health: **100/100**
 
 status: success
-last_run: 2026-11-03T12:05:00+09:00
+last_run: 2026-11-04T00:05:00+09:00
 age_hours: 0.01
-source: news/2026-11-03.md
+source: news/2026-11-04.md
 recorded_result: success
-reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-11-03_0005.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:RETIRED, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, mode:local-collection (not published)
+reason: auto: done (indexes:OK,lint:OK,backup:goyoonjung-wiki_2026-11-04_0005.tar.gz), collect:OK, gnews:OK, gnews-sites:OK, gnews-queries:OK, mag-rss:OK, sched:OK, portal-news:OK, san-news:OK, agency:RETIRED, ency:OK, promote-suggest:OK, lead-suggest:OK, awards-proof-suggest:OK, awards-proof-auto:OK, official-audit:OK, promote-safe:OK, endo-dates:OK, interview-sum:OK, work-candidates:OK, status-update:OK, visual:OK, dashboard:OK, mode:local-collection (not published)
 max_age_hours: 8
 
 ## domain_grade_status
@@ -43,10 +43,10 @@ max_age_hours: 8
 
 ## kpi_snapshot
 
-- new_urls: 1
-- landed_urls: 1
-- duplicate_rate: 53.90% (228/423)
+- new_urls: 0
+- landed_urls: 0
+- duplicate_rate: 50.00% (2/4)
 - collected_urls_by_source_grade (fact verification is separate):
-  - S: 1
+  - S: 0
   - A: 0
   - B: 0
