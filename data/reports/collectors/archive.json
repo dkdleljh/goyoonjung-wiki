@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T02:45:26+09:00",
+  "checked_at": "2026-11-16T03:45:27+09:00",
   "status": "success",
   "sources": [
     {
@@ -47,29 +47,29 @@
     {
       "name": "ELLE Korea",
       "url": "https://www.elle.co.kr/search",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 3",
       "status": "success",
       "fetched": 18,
-      "matched": 9,
+      "matched": 11,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "f9982d4067766d38df2a71dbb4688ffbba75ad88dc725f52f88cc661efd73843",
-      "checked_at": "2026-11-15T04:49:18+09:00",
-      "last_success": "2026-11-15T04:49:18+09:00",
+      "page": 3,
+      "page_fingerprint": "f9d2793d0429735f45862ada29f59754a71209880239f2acd9bccddd50443cc7",
+      "checked_at": "2026-11-16T03:45:27+09:00",
+      "last_success": "2026-11-16T03:45:27+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Esquire Korea",
       "url": "https://www.esquirekorea.co.kr/search",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 3",
       "status": "success",
-      "fetched": 10,
-      "matched": 3,
+      "fetched": 0,
+      "matched": 0,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "4c616495433feab857d108128d888a58b5dd99e89e9fc8a9c6f4a4b1c873aa79",
-      "checked_at": "2026-11-15T04:49:18+09:00",
-      "last_success": "2026-11-15T04:49:18+09:00",
+      "page": 3,
+      "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checked_at": "2026-11-16T03:45:27+09:00",
+      "last_success": "2026-11-16T03:45:27+09:00",
       "consecutive_failures": 0
     },
     {
@@ -103,15 +103,15 @@
     {
       "name": "Marie Claire Korea",
       "url": "https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 3",
       "status": "success",
       "fetched": 10,
-      "matched": 1,
+      "matched": 4,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "f1ffae3e75ad936b360e87e4fd53732daafab5b10cea75abc8c31020ea83e0c8",
-      "checked_at": "2026-11-15T04:49:18+09:00",
-      "last_success": "2026-11-15T04:49:18+09:00",
+      "page": 3,
+      "page_fingerprint": "314b92bf9edb6b81a1053ef2822e34ddd80a7465d1c0e0661285be2482e8edf6",
+      "checked_at": "2026-11-16T03:45:27+09:00",
+      "last_success": "2026-11-16T03:45:27+09:00",
       "consecutive_failures": 0
     },
     {
