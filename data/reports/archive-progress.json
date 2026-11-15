@@ -79,14 +79,15 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 4,
-    "checked_at": "2026-11-15T16:45:23.768124+00:00",
-    "next_scan": "2026-11-15T16:45:23.768124+00:00",
+    "page": 5,
+    "checked_at": "2026-11-15T19:45:21.726267+00:00",
+    "next_scan": "2026-11-15T19:45:21.726267+00:00",
     "status": "in_progress",
     "fingerprints": [
       "8c45249a7c3edd1d2e9b84f2ea826862aa623c16c0880be5477714a0481e736d",
       "8cb16dcef8a28872acb5e2ce766d218c4c12f6735e44b4af8d79524fec034e5c",
-      "730902bade122fa6c5ee511768b4b3cb7af1171d5e967813953b053b20078d51"
+      "730902bade122fa6c5ee511768b4b3cb7af1171d5e967813953b053b20078d51",
+      "e5b0b942e6e3887d345f1a2c030826f39404787a2c9046b9b2aee50e62edc631"
     ],
     "items_added": 39,
     "years_observed": [],
@@ -113,9 +114,9 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Noblesse": {
-    "page": 290,
-    "checked_at": "2026-11-15T15:45:23.825448+00:00",
-    "next_scan": "2026-11-15T15:45:23.825448+00:00",
+    "page": 291,
+    "checked_at": "2026-11-15T19:45:21.726267+00:00",
+    "next_scan": "2026-11-15T19:45:21.726267+00:00",
     "status": "in_progress",
     "fingerprints": [
       "cf0e58cd3977cb85feb9a4a550df5b01458aa85628aef62655144db728fc5824",
@@ -406,7 +407,8 @@
       "bbdc201b1fc9948b2106282ba75d47404d15e9bb506eaf6fe2f0a76246a69bf6",
       "8ee569cbbbd0c0434df8fd1f468fc192e13c1e56a219bc7e3440cb35ed5dbe90",
       "747c0ef05579161d7df0fc5a53c639246a0c53b4ee5117a5ca7cdae6269c3f4a",
-      "6355e5f2a9ce9a754490153ccee29470325be67e7feb2c2e1089247be1960cfa"
+      "6355e5f2a9ce9a754490153ccee29470325be67e7feb2c2e1089247be1960cfa",
+      "b4148ab8808389b206034dcf2373e163d49db79d212c6f1d22bb125604fe8bd4"
     ],
     "items_added": 0,
     "years_observed": [],
@@ -446,12 +448,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "W Korea": {
-    "page": 2,
-    "checked_at": "2026-11-15T15:45:23.825448+00:00",
-    "next_scan": "2026-11-15T15:45:23.825448+00:00",
+    "page": 3,
+    "checked_at": "2026-11-15T19:45:21.726267+00:00",
+    "next_scan": "2026-11-15T19:45:21.726267+00:00",
     "status": "in_progress",
     "fingerprints": [
-      "8989de169c36c1442d858d58b5b445da583b799251d7fa5cb241438553c1512c"
+      "8989de169c36c1442d858d58b5b445da583b799251d7fa5cb241438553c1512c",
+      "f1067b334813e18eafe9f0e96e7c7f726f4aff2cdafe5a798fad1b78661b85bb"
     ],
     "items_added": 13,
     "years_observed": [

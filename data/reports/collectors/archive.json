@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T03:45:27+09:00",
+  "checked_at": "2026-11-16T04:45:25+09:00",
   "status": "success",
   "sources": [
     {
@@ -89,15 +89,15 @@
     {
       "name": "Harper’s BAZAAR Korea",
       "url": "https://www.harpersbazaar.co.kr/search",
-      "scope": "historical pagination page 3",
+      "scope": "historical pagination page 4",
       "status": "success",
       "fetched": 18,
-      "matched": 7,
+      "matched": 8,
       "warnings": [],
-      "page": 3,
-      "page_fingerprint": "730902bade122fa6c5ee511768b4b3cb7af1171d5e967813953b053b20078d51",
-      "checked_at": "2026-11-16T01:45:25+09:00",
-      "last_success": "2026-11-16T01:45:25+09:00",
+      "page": 4,
+      "page_fingerprint": "e5b0b942e6e3887d345f1a2c030826f39404787a2c9046b9b2aee50e62edc631",
+      "checked_at": "2026-11-16T04:45:25+09:00",
+      "last_success": "2026-11-16T04:45:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -117,15 +117,15 @@
     {
       "name": "Noblesse",
       "url": "https://noblesse.com/feed/",
-      "scope": "historical pagination page 289",
+      "scope": "historical pagination page 290",
       "status": "success",
       "fetched": 10,
       "matched": 0,
       "warnings": [],
-      "page": 289,
-      "page_fingerprint": "6355e5f2a9ce9a754490153ccee29470325be67e7feb2c2e1089247be1960cfa",
-      "checked_at": "2026-11-16T00:45:26+09:00",
-      "last_success": "2026-11-16T00:45:26+09:00",
+      "page": 290,
+      "page_fingerprint": "b4148ab8808389b206034dcf2373e163d49db79d212c6f1d22bb125604fe8bd4",
+      "checked_at": "2026-11-16T04:45:25+09:00",
+      "last_success": "2026-11-16T04:45:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -161,15 +161,15 @@
     {
       "name": "W Korea",
       "url": "https://www.wkorea.com/wp-admin/admin-ajax.php",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
-      "fetched": 20,
-      "matched": 13,
+      "fetched": 19,
+      "matched": 0,
       "warnings": [],
-      "page": 1,
-      "page_fingerprint": "8989de169c36c1442d858d58b5b445da583b799251d7fa5cb241438553c1512c",
-      "checked_at": "2026-11-16T00:45:26+09:00",
-      "last_success": "2026-11-16T00:45:26+09:00",
+      "page": 2,
+      "page_fingerprint": "f1067b334813e18eafe9f0e96e7c7f726f4aff2cdafe5a798fad1b78661b85bb",
+      "checked_at": "2026-11-16T04:45:25+09:00",
+      "last_success": "2026-11-16T04:45:25+09:00",
       "consecutive_failures": 0
     }
   ]
