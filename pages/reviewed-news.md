@@ -273,3 +273,7 @@
 - [Go Youn-jung Visits 'Mr. Dongman' Koo Kyo-hwan | STARNEWS](https://www.starnewskorea.com/en/star/2026/11/13/2026111308053459904) · EN_ALL · 내용은 원문 보도 기준
 - [고윤정, 디디에 두보 ‘홀리데이 캠페인’ 공개](https://www.slist.kr/news/articleView.html?idxno=781428) · 싱글리스트 · 내용은 원문 보도 기준
 - [디디에 두보, 고윤정 ‘홀리데이 캠페인’ 공개](https://sports.khan.co.kr/article/202611142226003) · 스포츠경향 · 내용은 원문 보도 기준
+- ['30세' 고윤정, 리센느 노래 틀어놓고 '입삐죽' …머리 손질 중에도 미모 이 정도 | 텐아시아](https://www.tenasia.co.kr/article/2026110583364) · 텐아시아 · 내용은 원문 보도 기준
+- [Actress Ko Yoon-jung revealed her daily life.On the 4th, Ko Yoon-jung posted several pictures of her.. - MK](https://www.mk.co.kr/en/entertain/12198087) · EN_ALL · 내용은 원문 보도 기준
+- [［포토］고윤정, 큐카드보다 작은 얼굴 - 일간스포츠](https://isplus.com/article/view/isp202611070393) · VARIETY_WORK · 내용은 원문 보도 기준
+- [コ・ユンジョン、『トンマンさん』のク・ギョファンを訪ねた | STARNEWS](https://www.starnewskorea.com/ja/star/2026/11/13/2026111308053459904) · JA_CAST · 내용은 원문 보도 기준
