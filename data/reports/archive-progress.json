@@ -1,13 +1,10 @@
 {
   "Allure Korea": {
-    "page": 3,
-    "checked_at": "2026-11-12T20:23:18.432619+00:00",
-    "next_scan": "2026-11-12T20:23:18.432619+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "342f8e7664889d2020765f8299ee1588c747ee4b82b77d5a802fbd913c57b7a6",
-      "631d93dbe866ef21e2f67a210f25ea0436ba03fc7f79467c2a344c8f65a0fa8b"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-15T17:45:22.215266+00:00",
+    "next_scan": "2026-11-22T17:45:22.215266+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [
       2022,
@@ -31,13 +28,14 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Cosmopolitan Korea": {
-    "page": 3,
-    "checked_at": "2026-11-13T21:47:15.527212+00:00",
-    "next_scan": "2026-11-13T21:47:15.527212+00:00",
+    "page": 4,
+    "checked_at": "2026-11-15T17:45:22.215266+00:00",
+    "next_scan": "2026-11-15T17:45:22.215266+00:00",
     "status": "in_progress",
     "fingerprints": [
       "93b764fc9a389a84ab312cc5284446b9973d5a2ae57a8d7312fb54c8e3785693",
-      "433573f04037c0231d8322cc8d8f56d2b38cb87270d762ef640d123899f92a2a"
+      "433573f04037c0231d8322cc8d8f56d2b38cb87270d762ef640d123899f92a2a",
+      "4655c68582989982daa6e10a6d6ac88c1b67c02957b8218a324d3e59a275aef5"
     ],
     "items_added": 20,
     "years_observed": [],
@@ -429,13 +427,14 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Vogue Korea": {
-    "page": 3,
-    "checked_at": "2026-11-13T21:47:15.527212+00:00",
-    "next_scan": "2026-11-13T21:47:15.527212+00:00",
+    "page": 4,
+    "checked_at": "2026-11-15T17:45:22.215266+00:00",
+    "next_scan": "2026-11-15T17:45:22.215266+00:00",
     "status": "in_progress",
     "fingerprints": [
       "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b",
-      "e1f38f15e062dc3fd7fc309ba81a7f0966223babda85e785ac516b1c5848075c"
+      "e1f38f15e062dc3fd7fc309ba81a7f0966223babda85e785ac516b1c5848075c",
+      "f119b7433419fba7b567b44add78d5faaf2a9f11fb2657aeebe71139e8a56bd8"
     ],
     "items_added": 9,
     "years_observed": [
