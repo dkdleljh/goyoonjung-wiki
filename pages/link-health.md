@@ -1,59 +1,64 @@
 # 링크 건강검진
 
-> 갱신: 2026-11-14 17:11 (Asia/Seoul) · 대상 URL: 1115 (최대 100)
+> 갱신: 2026-11-15 11:55 (Asia/Seoul) · 대상 URL: 1120 (최대 100)
 
-- OK: **632** / WARN: **41** / BAD: **3** / UNCHECKED: **439**
+- OK: **618** / WARN: **46** / BAD: **3** / UNCHECKED: **453**
 - 검사 범위 밖 URL과 자동 접근을 생략한 URL은 정상으로 간주하지 않습니다.
 
 ## BAD (수정/교체 권장 — 404는 자동 태깅됨)
 
-- (404) https://mk.co.kr/amp/12179236 · GET fallback
-- (404) https://mk.co.kr/amp/12162117 · GET fallback
 - (404) https://mk.co.kr/amp/12179279 · GET fallback (cached within 7 days)
+- (404) https://mk.co.kr/amp/12162117 · GET fallback (cached within 7 days)
+- (404) https://mk.co.kr/amp/12179236 · GET fallback (cached within 7 days)
 
 ## WARN (차단/리다이렉트/확인 필요)
 
-- (500) https://segye.com/ampView/20261019503806 · GET fallback
-- (-) https://www.harpersbazaar.co.kr/article/1869799 · error: URLError
-- (-) https://www.cosmopolitan.co.kr/article/58117 · error: URLError
-- (-) https://www.cosmopolitan.co.kr/article/64826 · error: URLError
-- (-) https://www.cosmopolitan.co.kr/article/65176 · error: URLError
-- (-) https://www.cosmopolitan.co.kr/article/67745 · error: URLError
-- (-) https://www.cosmopolitan.co.kr/article/74461 · error: URLError
-- (-) https://www.elle.co.kr/article/53778 · error: URLError
-- (-) https://www.elle.co.kr/article/61656 · error: URLError
-- (-) https://www.elle.co.kr/article/73373 · error: URLError
-- (-) https://www.elle.co.kr/article/73482 · error: URLError
-- (-) https://www.elle.co.kr/article/73722 · error: URLError
-- (-) https://www.elle.co.kr/article/74068 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/1876940 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/1860908 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/74033 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/78245 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/79958 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/80774 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/81221 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/82127 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/83053 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/72641 · error: URLError
-- (-) https://www.harpersbazaar.co.kr/article/73357 · error: URLError
-- (-) https://www.youtube.com/watch?v=4xQyMVgtIXQ · Video metadata unavailable: HTTPError
-- (-) https://www.harpersbazaar.co.kr/article/1911558 · error: URLError
-- (-) https://www.youtube.com/watch?v=x-_GfgGq6oY · Video metadata unavailable: URLError (cached within 7 days)
-- (403) https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 · GET fallback (cached within 7 days)
+- (403) https://www.news1.kr/photos/8036194 · GET fallback
+- (-) https://www.youtube.com/watch?v=GYBQ92_d4JU · Video metadata unavailable: HTTPError
+- (403) https://www.chanel.com/kr/beauty/ · GET fallback
+- (403) https://www.chanel.com/ · GET fallback
+- (-) https://www.disneypluskr.com/ · error: URLError
+- (-) https://www.easytomorrow.co.kr/ · error: URLError
+- (400) https://www.yna.co.kr/entertainment · GET fallback
+- (-) https://www.harpersbazaar.co.kr/article/82127 · error: URLError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/79958 · error: URLError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/78245 · error: URLError (cached within 7 days)
+- (-) https://www.cosmopolitan.co.kr/article/64826 · error: URLError (cached within 7 days)
 - (403) https://www.news1.kr/industry/distribution/6300203 · GET fallback (cached within 7 days)
-- (-) https://slv.kstarfashion.com/news/articleView.html?idxno=214777 · error: URLError (cached within 7 days)
-- (-) https://www.cosinkorea.com/news/article.html?no=37792 · error: URLError (cached within 7 days)
-- (-) https://www.youtube.com/watch?v=RuxvdOq_nuI · Video metadata unavailable: HTTPError (cached within 7 days)
-- (-) https://www.youtube.com/watch?v=gcRf8JuaHw8 · Video metadata unavailable: HTTPError (cached within 7 days)
-- (-) https://www.youtube.com/watch?v=9xNJ2ZB5IuM · Video metadata unavailable: HTTPError (cached within 7 days)
-- (403) https://www.news1.kr/entertain/celebrity-topic/6302527 · GET fallback (cached within 7 days)
-- (-) https://www.youtube.com/watch?v=TfCfnCJprkg · Video metadata unavailable: HTTPError (cached within 7 days)
-- (-) https://www.youtube.com/watch?v=VFL9kEL90Qw · Video metadata unavailable: HTTPError (cached within 7 days)
-- (403) https://extmovie.com/movietalk/86419918 · GET fallback (cached within 7 days)
 - (-) https://www.youtube.com/watch?v=HtFE5yr27mQ · Video metadata unavailable: HTTPError (cached within 7 days)
-- (-) https://www.youtube.com/watch?v=1Fev1h1R3TU · Video metadata unavailable: HTTPError (cached within 7 days)
+- (-) https://www.elle.co.kr/article/74068 · error: URLError (cached within 7 days)
+- (-) https://www.cosmopolitan.co.kr/article/65176 · error: URLError (cached within 7 days)
+- (-) https://www.cosmopolitan.co.kr/article/74461 · error: URLError (cached within 7 days)
+- (-) https://www.cosmopolitan.co.kr/article/58117 · error: URLError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/1869799 · error: URLError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/80774 · error: URLError (cached within 7 days)
 - (403) https://www.news1.kr/industry/distribution/6299795 · GET fallback (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/73357 · error: URLError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/1911558 · error: URLError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/74033 · error: URLError (cached within 7 days)
+- (403) https://namu.wiki/w/%EA%B3%A0%EC%9C%A4%EC%A0%95 · GET fallback (cached within 7 days)
+- (-) https://www.youtube.com/watch?v=9xNJ2ZB5IuM · Video metadata unavailable: HTTPError (cached within 7 days)
+- (-) https://www.youtube.com/watch?v=4xQyMVgtIXQ · Video metadata unavailable: HTTPError (cached within 7 days)
+- (-) https://www.cosmopolitan.co.kr/article/67745 · error: URLError (cached within 7 days)
+- (-) https://www.elle.co.kr/article/61656 · error: URLError (cached within 7 days)
+- (-) https://www.youtube.com/watch?v=x-_GfgGq6oY · Video metadata unavailable: URLError (cached within 7 days)
+- (-) https://www.cosinkorea.com/news/article.html?no=37792 · error: URLError (cached within 7 days)
+- (-) https://www.youtube.com/watch?v=VFL9kEL90Qw · Video metadata unavailable: HTTPError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/1876940 · error: URLError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/1860908 · error: URLError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/81221 · error: URLError (cached within 7 days)
+- (-) https://www.elle.co.kr/article/73373 · error: URLError (cached within 7 days)
+- (-) https://www.youtube.com/watch?v=TfCfnCJprkg · Video metadata unavailable: HTTPError (cached within 7 days)
+- (-) https://www.elle.co.kr/article/53778 · error: URLError (cached within 7 days)
+- (-) https://www.youtube.com/watch?v=1Fev1h1R3TU · Video metadata unavailable: HTTPError (cached within 7 days)
+- (403) https://www.news1.kr/entertain/celebrity-topic/6302527 · GET fallback (cached within 7 days)
+- (-) https://www.elle.co.kr/article/73722 · error: URLError (cached within 7 days)
+- (-) https://www.youtube.com/watch?v=gcRf8JuaHw8 · Video metadata unavailable: HTTPError (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/83053 · error: URLError (cached within 7 days)
+- (-) https://www.elle.co.kr/article/73482 · error: URLError (cached within 7 days)
+- (500) https://segye.com/ampView/20261019503806 · GET fallback (cached within 7 days)
+- (-) https://www.harpersbazaar.co.kr/article/72641 · error: URLError (cached within 7 days)
+- (-) https://www.youtube.com/watch?v=RuxvdOq_nuI · Video metadata unavailable: HTTPError (cached within 7 days)
 
 ## UNCHECKED (미검사)
 
@@ -61,199 +66,199 @@
 - (-) https://www.instagram.com/p/CWvduIJt1P2/ · social platform requires source-specific verification
 - (-) https://www.instagram.com/goyounjung/ · social platform requires source-specific verification
 - (-) https://www.instagram.com/maakorea/ · social platform requires source-specific verification
-- (-) https://star.ytn.co.kr/_sn/0117_202505091128555812 · awaiting rotating check
-- (-) https://www.yna.co.kr/search/index?query=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://www.boucheron.com/ · awaiting rotating check
-- (-) https://tv.jtbc.co.kr/lawschool · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=bts1JhfvtFc · awaiting rotating check
-- (-) https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://www.starnewskorea.com/star/2026/01/23/2026012314184745216 · awaiting rotating check
-- (-) https://mbiz.heraldcorp.com/article/10907599 · awaiting rotating check
-- (-) https://www.chosun.com/english/kpop-culture-en/2026/07/07/FFRPJDIJRZGOLAWADMYMS7PE3Y · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Asports.khan.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=277651 · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=391146 · awaiting rotating check
-- (-) https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox · awaiting rotating check
-- (-) https://www.gqkorea.co.kr/wp-admin/admin-ajax.php · awaiting rotating check
-- (-) https://www.netflix.com/kr/title/81697769 · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Aosen.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=e7rCIazxSr8 · awaiting rotating check
-- (-) https://www.harpersbazaar.co.kr/article/1911929 · awaiting rotating check
-- (-) https://fashionseoul.com/275968 · awaiting rotating check
-- (-) https://www.tenasia.co.kr/article/2026101993104 · awaiting rotating check
-- (-) https://www.nhbank.com/ · awaiting rotating check
-- (-) https://www.mk.co.kr/news/hot-issues/11941579 · awaiting rotating check
-- (-) https://www.osen.co.kr/ · awaiting rotating check
-- (-) https://www.marieclairekorea.com/beauty/2026/10/the-crush-night · awaiting rotating check
-- (-) https://www.wkorea.com/2026/06/22/고윤정과-샤넬의-향기로운-여정/ · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=B5IQqZDSRjk · awaiting rotating check
-- (-) https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://news.sbs.co.kr/news/endPage.do?news_id=N1008410876 · awaiting rotating check
-- (-) https://www.starnewskorea.com/ja/star/2026/10/06/2026100608574841744 · awaiting rotating check
-- (-) https://www.mk.co.kr/en/hot-issues/12179236 · awaiting rotating check
-- (-) https://www.hwgeneralins.com/ · awaiting rotating check
-- (-) https://fashionseoul.com/224549 · awaiting rotating check
-- (-) https://www.yna.co.kr/amp/view/AKR20260923185000030 · awaiting rotating check
-- (-) https://biz.chosun.com/entertainment/enter_general/2026/10/19/G4ZGCZDBHBRGCN3DGA2DMZJYHE?outputType=amp · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=RkT8I_kVDX4 · awaiting rotating check
-- (-) https://www.tving.com/contents/P001768976 · awaiting rotating check
-- (-) https://www.elle.co.kr/article/1902676 · awaiting rotating check
-- (-) https://maa.co.kr/ · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=gwaom-UTFWk · awaiting rotating check
-- (-) https://biz.chosun.com/en/en-entertainment/2026/09/30/KVCL3FMVBJFNJCSNRKSKSSCGRM · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=399141 · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-sweethome-2-640.webp · awaiting rotating check
-- (-) http://www.breaknews.com/935054 · awaiting rotating check
-- (-) https://www.singleskorea.com/api/article-search · awaiting rotating check
-- (-) https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=sCuhvpQmgj8 · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-sweethome-640.webp · awaiting rotating check
-- (-) https://v.daum.net/v/20260801063838267 · awaiting rotating check
-- (-) https://news.jtbc.co.kr/article/NB12294664 · awaiting rotating check
-- (-) https://www.marieclairekorea.com/beauty/2026/04/vanilla-sky-1/ · awaiting rotating check
-- (-) https://noblesse.com/feed/ · awaiting rotating check
-- (-) https://www.mk.co.kr/en/hot-issues/12163132 · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-he-is-psychometric-459.webp · awaiting rotating check
-- (-) https://www.starnewskorea.com/ja/star/2026/10/20/2026102014344534276 · awaiting rotating check
-- (-) https://www.tomfordbeauty.com/ · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=bQZxwsK6A7E · awaiting rotating check
-- (-) https://bsa.blueaward.co.kr/bbs/board.php?bo_table=bsa_awards&history_no=3 · awaiting rotating check
-- (-) https://www.news1.kr/entertain/interview/6048953 · awaiting rotating check
-- (-) https://www.vogue.co.kr/2024/05/03/%EC%83%A4%EB%84%AC-%ED%81%AC%EB%A3%A8%EC%A6%88-2024-25-%EC%87%BC%EC%97%90-%EC%B0%B8%EC%84%9D%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%A0%95/ · awaiting rotating check
-- (-) https://tvn.cjenm.com/ko/alchemyofsouls/ · awaiting rotating check
-- (-) https://biz.chosun.com/entertainment/tv/2026/09/17/MIYDCYZRGI2TKOBUG4YTIN3GME · awaiting rotating check
-- (-) https://www.wkorea.com/2026/06/02/%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%8c%eb%82%9c-%ec%83%a4%eb%84%ac-%ea%b3%b5%eb%b0%a9-%eb%a7%88%ec%82%ac%eb%a1%9c/ · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=2YpDoXOh_44 · awaiting rotating check
-- (-) https://www.mydaily.co.kr/ · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/awards-559.webp · awaiting rotating check
-- (-) https://v.daum.net/v/Q9gpBgFYwg · awaiting rotating check
-- (-) https://www.sportschosun.com/en/movie/2026-07-08/202607080100050020003004 · awaiting rotating check
-- (-) https://www.rnx.kr/news/articleView.html?idxno=335348 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=LN0-DaAz4_k · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=Uihe2THZsco · awaiting rotating check
-- (-) https://tvn.cjenm.com/ko/hhw1_test/ · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-moving-580.webp · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=362628 · awaiting rotating check
-- (-) https://www.starnewskorea.com/ · awaiting rotating check
-- (-) https://www.news1.kr/entertain/celebrity-topic/6323852 · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Amydaily.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://search.naver.com/search.naver?where=news&query=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://news.nate.com/view/20250825n17937 · awaiting rotating check
-- (-) https://www.elle.co.kr/article/1880222 · awaiting rotating check
-- (-) https://news.sbs.co.kr/news/endPage.do?news_id=N1008402376 · awaiting rotating check
-- (-) https://www.cjenm.com/ko/news/ · awaiting rotating check
-- (-) https://mbiz.heraldcorp.com/article/10898312 · awaiting rotating check
-- (-) https://www.fnnews.com/news/202610191033509808 · awaiting rotating check
-- (-) https://news.jtbc.co.kr/article/NB12304140 · awaiting rotating check
-- (-) https://news.sbs.co.kr/ · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=oZxelclA53I · awaiting rotating check
-- (-) https://www.nc.press/news/articleView.html?idxno=605970 · awaiting rotating check
-- (-) https://www.starnewskorea.com/star/2026/10/19/2026101910190242365 · awaiting rotating check
-- (-) https://enews.imbc.com/News/RetrieveNewsInfo/513316 · awaiting rotating check
-- (-) https://news.jtbc.co.kr/article/NB12299711 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=1bdCFMkWlkY · awaiting rotating check
-- (-) https://www.koreatimes.co.kr/entertainment/films/20260708/lee-byung-hun-go-youn-jung-cast-in-upcoming-joseon-era-action-film · awaiting rotating check
-- (-) https://commons.wikimedia.org/wiki/File:Go_Youn-jung_%EA%B3%A0%EC%9C%A4%EC%A0%95_at_the_3rd_Blue_Dragon_Series_Awards_2024_01.jpg · awaiting rotating check
-- (-) https://isplus.com/article/view/isp202608020121 · awaiting rotating check
-- (-) https://maa.co.kr/artists/go-younjung · awaiting rotating check
-- (-) https://www.topstarnews.net/news/articleView.html?idxno=16252056 · awaiting rotating check
-- (-) https://imnews.imbc.com/ · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Avogue.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-alchemy-of-souls-459.webp · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Anews1.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://www.sportschosun.com/en/celebrity/2026-10-19/202610190100116530007603 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=nUMRPgOQfQE · awaiting rotating check
-- (-) https://www.marieclairekorea.com/fashion/2026/09/k-soft-power/ · awaiting rotating check
-- (-) https://www.yunjac.com/ · awaiting rotating check
-- (-) https://www.marieclairekorea.com/beauty/2026/04/chanel-beauty-sublimage-goyounjung/ · awaiting rotating check
-- (-) https://www.goodal.com/ · awaiting rotating check
-- (-) https://www.mk.co.kr/news/hot-issues/12161158 · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-light-shop-640.webp · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=Nc2t2oCMkxU · awaiting rotating check
-- (-) https://v.daum.net/v/pL9xFqYCCF?f=p · awaiting rotating check
-- (-) https://www.esquirekorea.co.kr/article/1881691 · awaiting rotating check
-- (-) https://tv.jtbc.co.kr/replay/pr10011289/pm10062037/ep20125473/view · awaiting rotating check
-- (-) https://www.harpersbazaar.co.kr/search · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=r42b0PfppHs · awaiting rotating check
-- (-) https://marithe-official.com/ · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=PutTzdHSmr0 · awaiting rotating check
-- (-) https://www.starnewskorea.com/ja/star/2026/09/28/2026092723455379336 · awaiting rotating check
-- (-) https://www.koreafilm.or.kr/library/search/video/114983 · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=362920 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=c1xmSFeGqbE · awaiting rotating check
-- (-) https://biz.chosun.com/entertainment/enter_general/2026/09/22/MEZGENTFMI2TMZBVGM4GKMTEMM · awaiting rotating check
-- (-) https://v.daum.net/v/Bij7ICfzmE · awaiting rotating check
-- (-) https://www.wkorea.com/wp-admin/admin-ajax.php · awaiting rotating check
-- (-) https://www.youtube.com/channel/UCQ2O-iftmnlfrBuNsUUTofQ · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-law-school-640.webp · awaiting rotating check
-- (-) https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157 · awaiting rotating check
-- (-) https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/ · awaiting rotating check
-- (-) https://mk.co.kr/amp/12180324 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=bog8uOI0VlU · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=UExFBls3pBs · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=o6BJUZVgbH0 · awaiting rotating check
-- (-) https://www.baeksangawards.co.kr/ · awaiting rotating check
-- (-) https://www.marieclairekorea.com/fashion/fashion_pictorial/2026/10/quiet-paradox/ · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-nambeol-640.webp · awaiting rotating check
-- (-) https://carrotins.com/ · awaiting rotating check
-- (-) https://www.sportschosun.com/en/k-beauty/2026-09-11/202609110100078900005110 · awaiting rotating check
-- (-) https://www.starnewskorea.com/star/2026/04/28/2026042820102693602 · awaiting rotating check
-- (-) https://www.magnoliapictures.com/hunt-press-kit · awaiting rotating check
-- (-) https://v.daum.net/v/20260109205849832 · awaiting rotating check
-- (-) https://www.marieclairekorea.com/fashion/2025/11/chanel-71/ · awaiting rotating check
-- (-) https://www.sportschosun.com/en/culture/2026-09-24/202609240100164150010740 · awaiting rotating check
-- (-) https://news.jtbc.co.kr/article/NB12294742 · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=389846 · awaiting rotating check
-- (-) https://www.wkorea.com/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/ · awaiting rotating check
-- (-) https://news.tf.co.kr/read/entertain/2027250.htm · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=343890 · awaiting rotating check
-- (-) https://www.chanel.com/kr/ · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=zILyZhJHai0 · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Atenasia.hankyung.com+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://www.discovery-expedition.com/ · awaiting rotating check
-- (-) https://www.chosun.com/entertainments/broadcast/2026/01/17/GBQTOZJTMRRDCYJTHFRDMNDFGQ · awaiting rotating check
-- (-) https://www.cosmopolitan.co.kr/article/1911848 · awaiting rotating check
-- (-) https://www.marieclairekorea.com/celebrity/2025/11/2025-asa-beyondcinema-2/ · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Agqkorea.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Aelle.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://ent.sbs.co.kr/news/article.do?article_id=E10010316722&cooper=ent.sbs.co.kr · awaiting rotating check
-- (-) https://www.chosun.com/english/kpop-culture-en/2026/09/29/ZNKZCLFVMNC47BPO4LT4VCUGIA · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=1_cjCK41eTk · awaiting rotating check
-- (-) https://www.koreatimes.co.kr/entertainment/shows-dramas/20260505/iu-go-youn-jung-shin-hae-sun-defy-ratings-slump-in-rare-weekend-drama-surge · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=98Zdq3t68fw · awaiting rotating check
-- (-) https://www.spotvnews.co.kr/news/articleView.html?idxno=1009870 · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Awkorea.com+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://www.topstarnews.net/news/articleView.html?idxno=16268509 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=N1P8shHHxWc · awaiting rotating check
-- (-) https://www.elle.co.kr/search · awaiting rotating check
-- (-) https://www.peoplegate.co.kr/2025/09/marithefranois-girbaud-25_10.html · awaiting rotating check
-- (-) https://www.news1.kr/entertain/celebrity-topic/6330808 · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-resident-playbook-640.webp · awaiting rotating check
+- (-) https://www.wavve.com/ · awaiting rotating check
+- (-) https://www.sisaweek.com/news/articleView.html?idxno=233219 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-the-school-nurse-files-640.webp · awaiting rotating check
+- (-) https://www.gqkorea.co.kr/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/ · awaiting rotating check
 - (-) https://kstar.kbs.co.kr/list_view.html?idx=363033 · awaiting rotating check
-- (-) https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 · awaiting rotating check
-- (-) https://www.chosun.com/english/kpop-culture-en/2026/09/27/AIKQCRVVSFEWJASS6TASCC3AHA · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=2aKjCQtvItg · awaiting rotating check
-- (-) https://news.jtbc.co.kr/article/NB12276427 · awaiting rotating check
-- (-) https://www.sportsseoul.com/news/read/1642299 · awaiting rotating check
-- (-) https://www.fnnews.com/news/202610190723310905 · awaiting rotating check
-- (-) https://card.nonghyup.com/ · awaiting rotating check
-- (-) http://www.inews24.com/view/1991164 · awaiting rotating check
-- (-) https://www.tenasia.co.kr/article/2026110583364 · awaiting rotating check
-- (-) https://www.chosun.com/jp/culture-life-jp/2026/09/29/DONZN4KFHVDUDH6M7ASUK7OASQ · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Ayna.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://biz.heraldcorp.com/article/10898311 · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-everyone-fights-worthlessness-640.webp · awaiting rotating check
-- (-) https://www.xportsnews.com/article/2209305 · awaiting rotating check
+- (-) http://www.breaknews.com/935054 · awaiting rotating check
+- (-) https://puradakchicken.com/ · awaiting rotating check
+- (-) https://thewaltdisneycompany.com/news/ · awaiting rotating check
+- (-) https://www.yna.co.kr/amp/view/AKR20260923185000030 · awaiting rotating check
+- (-) https://www.elle.co.kr/article/1903563 · awaiting rotating check
+- (-) https://www.yna.co.kr/view/AKR20201009055300005 · awaiting rotating check
+- (-) https://www.harpersbazaar.co.kr/ · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=xk1G-IxgcQM · awaiting rotating check
+- (-) https://www.google.com/search?q=site%3Awkorea.com+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://imnews.imbc.com/ · awaiting rotating check
+- (-) https://news.jtbc.co.kr/article/NB12291543 · awaiting rotating check
+- (-) https://www.marieclairekorea.com/beauty/2026/10/the-crush-night/ · awaiting rotating check
+- (-) https://www.topstarnews.net/news/articleView.html?idxno=16268509 · awaiting rotating check
+- (-) https://www.marieclairekorea.com/beauty/2026/10/paris-in-absolu-color-2/ · awaiting rotating check
+- (-) https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157 · awaiting rotating check
+- (-) https://www.google.com/search?q=site%3Aelle.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-alchemy-of-souls-459.webp · awaiting rotating check
+- (-) https://www.cjenm.com/ko/news/ · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=EVYGOTtUB9o · awaiting rotating check
+- (-) https://www.gqkorea.co.kr/ · awaiting rotating check
+- (-) https://www.google.com/search?q=site%3Asports.khan.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
 - (-) https://www.google.com/search?q=site%3Astarnewskorea.com+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://commons.wikimedia.org/wiki/File:CTLBT_Presscon_01.jpg · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=TmVnSCMrwqI · awaiting rotating check
-- (-) https://www.newsis.com/view/NISX20261019_0003831141 · awaiting rotating check
-- (-) https://www.google.com/search?q=site%3Acosmopolitan.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
-- (-) https://theviewers.co.kr/View.aspx?No=3972476 · awaiting rotating check
-- (-) https://www.youtube.com/watch?v=-_oQjHAFaqg · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=397104 · awaiting rotating check
-- (-) https://www.starnewskorea.com/star/2026/11/04/2026110423223155579 · awaiting rotating check
+- (-) https://www.google.com/search?q=site%3Anewsis.com+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://biz.chosun.com/entertainment/enter_general/2026/11/06/G4YDGY3EGU4DQMZWHBQWINBQMY?outputType=amp · awaiting rotating check
+- (-) https://www.starnewskorea.com/stview.php?no=2023043020331863820 · awaiting rotating check
+- (-) https://extmovie.com/movietalk/86419918 · awaiting rotating check
+- (-) https://mydaily.co.kr/page/view/2026110509222825863 · awaiting rotating check
+- (-) https://www.armanibeauty.com/ · awaiting rotating check
+- (-) https://jp.sportalkorea.com/news/articleView.html?idxno=41679 · awaiting rotating check
+- (-) https://news.tf.co.kr/read/entertain/2027250.htm · awaiting rotating check
+- (-) https://www.elle.co.kr/article/1902676 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-law-school-640.webp · awaiting rotating check
+- (-) https://www.cosmopolitan.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://www.vogue.co.kr/2026/07/07/%ec%9d%b4%eb%b3%91%ed%97%8c-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ea%b7%b8%eb%a0%a4%eb%82%bc-%ec%a1%b0%ec%84%a0-%ed%95%98%eb%93%9c%eb%b3%b4%ec%9d%bc%eb%93%9c-%ec%95%a1%ec%85%98-%eb%82%a8/ · awaiting rotating check
+- (-) https://www.xportsnews.com/article/2208757 · awaiting rotating check
+- (-) https://www.starnewskorea.com/star/2026/01/23/2026012314184745216 · awaiting rotating check
+- (-) https://www.news1.kr/entertain/celebrity · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=396661 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=uCuIfowTbCc · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=6iz4J7fb8RM · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=gwaom-UTFWk · awaiting rotating check
+- (-) https://www.idaegu.com/news/articleView.html?idxno=381461 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=-wQqrtKXkDs · awaiting rotating check
+- (-) https://www.mhns.co.kr/news/articleView.html?idxno=560092 · awaiting rotating check
+- (-) https://www.esquirekorea.co.kr/search · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=391253 · awaiting rotating check
+- (-) https://www.vogue.co.kr/ · awaiting rotating check
+- (-) https://card.nonghyup.com/ · awaiting rotating check
+- (-) https://www.news1.kr/entertain/celebrity-topic/6330808 · awaiting rotating check
+- (-) https://www.netflix.com/kr/title/81061734 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-everyone-fights-worthlessness-640.webp · awaiting rotating check
+- (-) https://www.elle.co.kr/article/1907070 · awaiting rotating check
 - (-) https://www.youtube.com/watch?v=kCWRtQHOod4 · awaiting rotating check
-- (-) https://dkdleljh.github.io/goyounjung/images/photos/press-960.webp · awaiting rotating check
-- (-) https://www.osen.co.kr/article/G1112851422 · awaiting rotating check
-- (-) https://kstar.kbs.co.kr/list_view.html?idx=362734 · awaiting rotating check
+- (-) https://news.sbs.co.kr/ · awaiting rotating check
+- (-) https://commons.wikimedia.org/wiki/File:CTLBT_Presscon_01.jpg · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=395293 · awaiting rotating check
+- (-) https://www.sportsworldi.com/newsView/20261025503951 · awaiting rotating check
+- (-) https://www.gpkorea.com/news/articleView.html?idxno=97354 · awaiting rotating check
+- (-) https://www.marieclairekorea.com/fashion/2025/10/leather-jacket-4/ · awaiting rotating check
+- (-) https://www.news1.kr/entertain/interview/6048953 · awaiting rotating check
+- (-) https://www.harpersbazaar.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=391146 · awaiting rotating check
+- (-) https://bsa.blueaward.co.kr/bbs/board.php?bo_table=bsa_awards&history_no=3 · awaiting rotating check
+- (-) https://news.sbs.co.kr/news/endPage.do?news_id=N1008362847 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=c1xmSFeGqbE · awaiting rotating check
+- (-) https://www.wkorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://news.mt.co.kr/mtview.php?no=2023082509437220377 · awaiting rotating check
+- (-) https://www.harpersbazaar.co.kr/article/1907200 · awaiting rotating check
+- (-) https://www.peoplegate.co.kr/2025/09/marithefranois-girbaud-25_10.html · awaiting rotating check
+- (-) https://www.google.com/search?q=site%3Avogue.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-moving-580.webp · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=8991YxgAuBc · awaiting rotating check
+- (-) https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115 · awaiting rotating check
+- (-) http://www.interview365.com/news/articleView.html?idxno=104424 · awaiting rotating check
+- (-) https://fashionseoul.com/275968 · awaiting rotating check
+- (-) https://www.fnnews.com/news/202610191033509808 · awaiting rotating check
+- (-) https://www.sportschosun.com/entertainment/2026-02-16/202602160100103840007177 · awaiting rotating check
+- (-) https://www.mk.co.kr/en/hot-issues/12179236 · awaiting rotating check
+- (-) https://www.amoremall.com/ · awaiting rotating check
+- (-) https://www.didierdubot.co.kr/ · awaiting rotating check
+- (-) https://about.netflix.com/ko · awaiting rotating check
+- (-) https://www.netflix.com/kr/title/80209129 · awaiting rotating check
+- (-) https://commons.wikimedia.org/wiki/File:Go_Youn-jung_for_Chanel_Beauty_at_the_2025_Marie_Claire_Asia_Star_Awards_%28September_2025%29_01.png · awaiting rotating check
+- (-) https://www.gqkorea.co.kr/2023/09/20/%ec%8a%ac%ea%b8%b0%eb%a1%9c%ec%9a%b4-%ec%9d%98%ec%82%ac%ec%83%9d%ed%99%9c-%ec%8a%a4%ed%95%80%ec%98%a4%ed%94%84-%ea%b3%a0%ec%9c%a4%ec%a0%95-%ec%a3%bc%ec%9d%b8%ea%b3%b5/ · awaiting rotating check
+- (-) https://www.google.com/search?q=site%3Aharpersbazaar.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://www.harpersbazaar.co.kr/article/1903817 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-he-is-psychometric-459.webp · awaiting rotating check
+- (-) https://news.jtbc.co.kr/article/NB12294664 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=LepbmPl-k7k · awaiting rotating check
+- (-) https://www.news1.kr/entertain/celebrity-topic/6323852 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=o6BJUZVgbH0 · awaiting rotating check
+- (-) https://www.cosmopolitan.co.kr/article/1911848 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=1bdCFMkWlkY · awaiting rotating check
+- (-) https://www.baeksangawards.co.kr/ · awaiting rotating check
+- (-) https://ent.sbs.co.kr/news/article.do?article_id=E10010318881 · awaiting rotating check
+- (-) https://www.starnewskorea.com/ · awaiting rotating check
+- (-) https://www.lawissue.co.kr/view.php?ud=202606041207144463204ead0791_12 · awaiting rotating check
+- (-) https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://www.newsis.com/view/NISX20260123_0003488532 · awaiting rotating check
+- (-) https://www.mk.co.kr/news/hot-issues/10994612 · awaiting rotating check
+- (-) https://www.starnewskorea.com/en/star/2026/11/04/2026110423223155579 · awaiting rotating check
+- (-) https://www.sportschosun.com/en/celebrity/2026-10-19/202610190100116530007603 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-alchemy-of-souls-light-and-shadow-459.webp · awaiting rotating check
+- (-) https://www.wkorea.com/2024/05/17/%eb%9d%bc%eb%94%94%ec%98%a4-%ec%83%a4%eb%84%ac%ec%97%90-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%93%b1%ec%9e%a5%ed%96%88%eb%8b%a4/ · awaiting rotating check
+- (-) https://www.meconomynews.com/news/articleView.html?idxno=111782 · awaiting rotating check
+- (-) https://www.starnewskorea.com/stview.php?no=2021061016204618571 · awaiting rotating check
+- (-) https://www.sportschosun.com/entertainment/2026-10-19/202610190100116530007603 · awaiting rotating check
+- (-) https://www.harpersbazaar.co.kr/article/1910847 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=yP0pZUyn0zc · awaiting rotating check
+- (-) https://www.heraldpop.com/view.php?ud=202308231155508000692_1 · awaiting rotating check
+- (-) https://www.elle.co.kr/article/1899222 · awaiting rotating check
+- (-) https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%A1%B0%EB%AA%85%EA%B0%80%EA%B2%8C · awaiting rotating check
+- (-) https://tenasia.hankyung.com/ · awaiting rotating check
+- (-) https://biz.chosun.com/en/en-entertainment/2026/10/19/FMNNYBJXZZANHAXP4SD5C2KSH4 · awaiting rotating check
+- (-) https://www.marieclairekorea.com/ · awaiting rotating check
+- (-) https://www.starnewskorea.com/search?searchword=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=8ECnuuSEL2g · awaiting rotating check
+- (-) https://www.starnewskorea.com/stview.php?no=2022063010405847866 · awaiting rotating check
+- (-) https://www.ilyo.co.kr/?ac=article_view&entry_id=458232 · awaiting rotating check
+- (-) https://www.vodana.co.kr/ · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=362628 · awaiting rotating check
+- (-) https://news.jtbc.co.kr/article/NB12279720 · awaiting rotating check
+- (-) https://tvn.cjenm.com/ko/alchemyofsouls/photo1/ · awaiting rotating check
+- (-) https://www.vogue.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-sweethome-640.webp · awaiting rotating check
+- (-) https://www.mydaily.co.kr/page/view/2026020313291419433 · awaiting rotating check
+- (-) https://www.gqkorea.co.kr/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=PhmAIoXoLRc · awaiting rotating check
+- (-) https://news.google.com/search?q=%EA%B3%A0%EC%9C%A4%EC%A0%95&hl=ko&gl=KR&ceid=KR%3Ako · awaiting rotating check
+- (-) https://www.marieclairekorea.com/celebrity/2025/11/2025-asa-beyondcinema-2/ · awaiting rotating check
+- (-) https://www.sportsseoul.com/news/read/1642385 · awaiting rotating check
+- (-) https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/ · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=2YpDoXOh_44 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=-_oQjHAFaqg · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=bts1JhfvtFc · awaiting rotating check
+- (-) https://www.google.com/search?q=site%3Atenasia.hankyung.com+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://www.boucheron.com/ · awaiting rotating check
+- (-) https://www.disneyplus.com/ko-kr/browse/entity-44e36964-f5f2-4c67-a2b0-aa3d609fc856 · awaiting rotating check
+- (-) https://www.rnx.kr/news/articleView.html?idxno=335348 · awaiting rotating check
+- (-) https://www.nhbank.com/ · awaiting rotating check
+- (-) https://about.netflix.com/ko/news/sweet-home-season-2-date-announcement · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=P4OOEL9MIEI · awaiting rotating check
+- (-) https://theviewers.co.kr/View.aspx?No=3972476 · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=389107 · awaiting rotating check
+- (-) https://news.sbs.co.kr/news/endPage.do?news_id=N1008410876 · awaiting rotating check
+- (-) https://news.jtbc.co.kr/ · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=nUMRPgOQfQE · awaiting rotating check
+- (-) https://tvn.cjenm.com/ko/heispsychometric/photo1/ · awaiting rotating check
+- (-) https://www.youtube.com/playlist?list=PLr0T5CaHaPwVWLdtQIwORp6OT6hlvfVAN · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/work-resident-playbook-640.webp · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=LN0-DaAz4_k · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=393465 · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/awards-559.webp · awaiting rotating check
+- (-) https://www.goodal.com/ · awaiting rotating check
+- (-) https://mk.co.kr/amp/12180324 · awaiting rotating check
+- (-) https://www.google.com/search?q=site%3Aosen.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95 · awaiting rotating check
+- (-) https://www.esquirekorea.co.kr/ · awaiting rotating check
+- (-) https://news.jtbc.co.kr/article/NB12314528 · awaiting rotating check
+- (-) https://www.etnews.com/20230823000317 · awaiting rotating check
+- (-) https://www.newsis.com/view/NISX20261019_0003831141 · awaiting rotating check
+- (-) https://www.youtube.com/@star_setn · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=fv747hMr9bo · awaiting rotating check
+- (-) https://www.marieclairekorea.com/tag/%EA%B3%A0%EC%9C%A4%EC%A0%95/ · awaiting rotating check
+- (-) https://www.cosmopolitan.co.kr/ · awaiting rotating check
+- (-) https://dkdleljh.github.io/goyounjung/images/photos/chanel-720.webp · awaiting rotating check
+- (-) https://cafe.daum.net/goyounjung.fans · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=362920 · awaiting rotating check
+- (-) https://creativecommons.org/licenses/by/4.0/ · awaiting rotating check
+- (-) https://tvn.cjenm.com/ko/%E3%85%8A/photo3/ · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=xnoS32kajcU · awaiting rotating check
+- (-) https://www.elle.co.kr/article/1880222 · awaiting rotating check
+- (-) https://www.harpersbazaar.co.kr/article/1911869 · awaiting rotating check
+- (-) https://news.jtbc.co.kr/article/NB12294929 · awaiting rotating check
+- (-) https://about.netflix.com/en/news/netflix-brings-a-variety-of-entertainment-with-7-new-korean-films-and-series · awaiting rotating check
+- (-) https://www.starnewskorea.com/ja/star/2026/10/19/2026101910190242365 · awaiting rotating check
+- (-) https://www.mk.co.kr/news/hot-issues/11941579 · awaiting rotating check
+- (-) https://www.youtube.com/watch?v=bog8uOI0VlU · awaiting rotating check
+- (-) https://www.cosmopolitan.co.kr/search · awaiting rotating check
+- (-) https://www.movist.com/star3d/read.asp?id=39058&type=32 · awaiting rotating check
+- (-) https://busan.fnnews.com/news/202610190723310905 · awaiting rotating check
+- (-) https://www.wkorea.com/2026/09/07/%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95%ea%b3%bc-%ed%95%a8%ea%bb%98%ed%95%9c-%ed%8b%b0%ed%8c%8c%eb%8b%88-%ed%95%98%eb%93%9c%ec%9b%a8%ec%96%b4-%ec%ba%a0%ed%8e%98%ec%9d%b8/ · awaiting rotating check
+- (-) https://www.sportsworldi.com/newsView/20230901503040 · awaiting rotating check
+- (-) https://www.topstarnews.net/news/articleView.html?idxno=16252056 · awaiting rotating check
+- (-) https://www.vogue.co.kr/2025/05/26/go-zero-now-zero/ · awaiting rotating check
+- (-) https://www.sportsseoul.com/news/read/1643814 · awaiting rotating check
+- (-) https://bsa.blueaward.co.kr/ · awaiting rotating check
+- (-) https://www.yna.co.kr/view/AKR20260518043500005 · awaiting rotating check
+- (-) https://www.singleskorea.com/api/article-search · awaiting rotating check
+- (-) https://sports.donga.com/ent/article/all/20250912/132373328/1 · awaiting rotating check
+- (-) https://kstar.kbs.co.kr/list_view.html?idx=220920 · awaiting rotating check
+- (-) https://commons.wikimedia.org/wiki/File:Go_Youn-jung_%EA%B3%A0%EC%9C%A4%EC%A0%95_at_the_3rd_Blue_Dragon_Series_Awards_2024_01.jpg · awaiting rotating check
