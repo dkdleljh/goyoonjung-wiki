@@ -1,10 +1,19 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-11-04 00:05 (Asia/Seoul)
+> Updated: 2026-11-16 01:18 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-11-14 · grade=B · YOUTUBE_CLIPS · [Kim Seon-ho & Go Youn-jung: The Story and Best Moments in 3 Minutes 💘 | Can This Love Be Translated? - YouTube](https://www.youtube.com/watch?v=cXjP6D0FG3g)
+- 2026-11-11 · grade=B · YOUTUBE_CLIPS · [제나가 만나고 싶어 했던 고윤정, 이번엔 인스타에 뭘 올렸을까? - YouTube](https://www.youtube.com/watch?v=11UE4BWTI9Y)
+- 2026-11-08 · grade=B · YOUTUBE_CLIPS · [고윤정이 직접 시상하자 성덕 제나 수상소감 - YouTube](https://www.youtube.com/watch?v=DCUNSOcmqv0)
+- 2026-11-06 · grade=B · YOUTUBE_CLIPS · [다정하게 대해줬다가 고윤정에게 물린 김선호ㅋㅋ | 이 사랑 통역 되나요? #shorts - YouTube](https://www.youtube.com/watch?v=397AwDgOIvI)
+- 2026-11-06 · grade=B · YOUTUBE_CLIPS · [애드립치는 것도 카와이한 고윤정 #고윤정 - YouTube](https://www.youtube.com/watch?v=NWGjwNuZJt8)
+- 2026-11-05 · grade=B · YouTube · [고윤정 SNS 게시물에 리센느 팬들이 감동한 이유 / YTN star - YouTube](https://www.youtube.com/watch?v=zoWkoFHI9PA)
+- 2026-11-05 · grade=B · YOUTUBE_CLIPS · [두 배우도 못가리는 진정한 씬스틸러 #예능 #고윤정 #김선호 #이은지 - YouTube](https://www.youtube.com/watch?v=n_xjhISyfzQ)
+- 2026-11-04 · grade=B · YOUTUBE_CLIPS · [수학 선생님 딸이 제일 싫어하는 과목 = 수학🤣 학창 시절 엄마도 포기한 수포자였던 고윤정ㅋㅋ #유퀴즈 - YouTube](https://www.youtube.com/watch?v=Q0jCKQ8HrK8)
+- 2026-11-04 · grade=B · YOUTUBE_CLIPS · [고윤정도 보는 밈 ㅋㅋ #고윤정 - YouTube](https://www.youtube.com/watch?v=-m5jewIIQ8Y)
 - 2026-11-02 · grade=B · YOUTUBE_CLIPS · [고윤정 카리나 다음 장도연 여행팀 된 이재욱 - YouTube](https://www.youtube.com/watch?v=TfCfnCJprkg)
 - 2026-11-01 · grade=B · YOUTUBE_CLIPS · [류승룡의 차은우 발언 / 고윤정 한마디로 정리 - YouTube](https://www.youtube.com/watch?v=9MpVW5Aby-I)
 - 2026-11-01 · grade=B · YOUTUBE_CLIPS · [대답 안 하는 김선호 잡도리하는 고윤정 ㅋㅋㅋ - YouTube](https://www.youtube.com/watch?v=2YpDoXOh_44)

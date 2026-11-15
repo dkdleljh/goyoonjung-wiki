@@ -77,4 +77,6 @@
 - [신예은·노윤서·고윤정신예 배우들이 유독 예뻐 보이는 이유? 바로 ‘이것’ 때문!](https://www.cosmopolitan.co.kr/article/74461)  _(출처: pictorials/editorial.md)_
 
 - [옥반지가 이렇게 힙하다고?고윤정·뷔가 선택한 액세서리의 정체](https://www.cosmopolitan.co.kr/article/1911848)  _(출처: pictorials/editorial.md)_
+
+- [롱코트 입는 날엔고윤정처럼 느슨하게 땋아보세요](https://www.cosmopolitan.co.kr/article/1912921)  _(출처: pictorials/editorial.md)_
 <!-- AUTO-CANDIDATES:END -->
