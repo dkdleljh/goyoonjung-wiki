@@ -25,30 +25,26 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Cosmopolitan Korea": {
-    "page": 5,
-    "checked_at": "2026-11-15T20:45:22.172112+00:00",
-    "next_scan": "2026-11-15T20:45:22.172112+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "93b764fc9a389a84ab312cc5284446b9973d5a2ae57a8d7312fb54c8e3785693",
-      "433573f04037c0231d8322cc8d8f56d2b38cb87270d762ef640d123899f92a2a",
-      "4655c68582989982daa6e10a6d6ac88c1b67c02957b8218a324d3e59a275aef5",
-      "8812936223a4275bb20f57a55b4bd2d7998bc2d0aadda3704137c22f91662dae"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-15T23:45:22.737431+00:00",
+    "next_scan": "2026-11-22T23:45:22.737431+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 20,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "ELLE Korea": {
-    "page": 5,
-    "checked_at": "2026-11-15T21:45:20.055890+00:00",
-    "next_scan": "2026-11-15T21:45:20.055890+00:00",
+    "page": 6,
+    "checked_at": "2026-11-15T23:45:22.737431+00:00",
+    "next_scan": "2026-11-15T23:45:22.737431+00:00",
     "status": "in_progress",
     "fingerprints": [
       "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166",
       "f9982d4067766d38df2a71dbb4688ffbba75ad88dc725f52f88cc661efd73843",
       "f9d2793d0429735f45862ada29f59754a71209880239f2acd9bccddd50443cc7",
-      "c85097e4bd26dbdd7a894a4fa46ace5a361cd746e68504974bb51583e263d5f2"
+      "c85097e4bd26dbdd7a894a4fa46ace5a361cd746e68504974bb51583e263d5f2",
+      "7d407aea08c450776d15b35ee08c0915f98ef372525553723880b4dc41080235"
     ],
     "items_added": 41,
     "years_observed": [],
@@ -94,15 +90,16 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Marie Claire Korea": {
-    "page": 5,
-    "checked_at": "2026-11-15T21:45:20.055890+00:00",
-    "next_scan": "2026-11-15T21:45:20.055890+00:00",
+    "page": 6,
+    "checked_at": "2026-11-15T23:45:22.737431+00:00",
+    "next_scan": "2026-11-15T23:45:22.737431+00:00",
     "status": "in_progress",
     "fingerprints": [
       "cbf5b8e1d033f505f3b8af6751cb5a3db6a45cbea8c64dc9d6db1dd83939b0dd",
       "f1ffae3e75ad936b360e87e4fd53732daafab5b10cea75abc8c31020ea83e0c8",
       "314b92bf9edb6b81a1053ef2822e34ddd80a7465d1c0e0661285be2482e8edf6",
-      "0417d0ae75cc589cc989c16e158c4d783099d0be57696169b28f066a11444e4c"
+      "0417d0ae75cc589cc989c16e158c4d783099d0be57696169b28f066a11444e4c",
+      "3ea4d056609aeaf2bebc83efb03b07513a093cfa4f60610af0e2639bdb81886b"
     ],
     "items_added": 13,
     "years_observed": [
