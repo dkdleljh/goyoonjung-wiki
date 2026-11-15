@@ -18,12 +18,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Arena": {
-    "page": 2,
-    "checked_at": "2026-11-11T17:25:24.506998+00:00",
-    "next_scan": "2026-11-11T17:25:24.506998+00:00",
+    "page": 3,
+    "checked_at": "2026-11-15T16:45:23.768124+00:00",
+    "next_scan": "2026-11-15T16:45:23.768124+00:00",
     "status": "in_progress",
     "fingerprints": [
-      "58422ddedcaaa1018ae7ecc145a8c4a716f99634cb337e46b56017d72bc019cb"
+      "58422ddedcaaa1018ae7ecc145a8c4a716f99634cb337e46b56017d72bc019cb",
+      "2078f0e08a70e27e0fa2d6b8bce83d0b189ba14ef28a1525e5559ac96dde6288"
     ],
     "items_added": 0,
     "years_observed": [],
@@ -82,13 +83,14 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 3,
-    "checked_at": "2026-11-12T20:23:18.432619+00:00",
-    "next_scan": "2026-11-12T20:23:18.432619+00:00",
+    "page": 4,
+    "checked_at": "2026-11-15T16:45:23.768124+00:00",
+    "next_scan": "2026-11-15T16:45:23.768124+00:00",
     "status": "in_progress",
     "fingerprints": [
       "8c45249a7c3edd1d2e9b84f2ea826862aa623c16c0880be5477714a0481e736d",
-      "8cb16dcef8a28872acb5e2ce766d218c4c12f6735e44b4af8d79524fec034e5c"
+      "8cb16dcef8a28872acb5e2ce766d218c4c12f6735e44b4af8d79524fec034e5c",
+      "730902bade122fa6c5ee511768b4b3cb7af1171d5e967813953b053b20078d51"
     ],
     "items_added": 39,
     "years_observed": [],
@@ -414,13 +416,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Singles": {
-    "page": 2,
-    "checked_at": "2026-11-11T17:25:24.506998+00:00",
-    "next_scan": "2026-11-11T17:25:24.506998+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-15T16:45:23.768124+00:00",
+    "next_scan": "2026-11-22T16:45:23.768124+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 0,
     "years_observed": [
       2024,

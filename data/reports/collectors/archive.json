@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T00:45:26+09:00",
+  "checked_at": "2026-11-16T01:45:25+09:00",
   "status": "success",
   "sources": [
     {
@@ -19,15 +19,15 @@
     {
       "name": "Arena",
       "url": "https://www.arenakorea.com/rss/allArticle.xml",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
       "fetched": 50,
       "matched": 0,
       "warnings": [],
-      "page": 1,
-      "page_fingerprint": "58422ddedcaaa1018ae7ecc145a8c4a716f99634cb337e46b56017d72bc019cb",
-      "checked_at": "2026-11-12T02:25:28+09:00",
-      "last_success": "2026-11-12T02:25:28+09:00",
+      "page": 2,
+      "page_fingerprint": "2078f0e08a70e27e0fa2d6b8bce83d0b189ba14ef28a1525e5559ac96dde6288",
+      "checked_at": "2026-11-16T01:45:25+09:00",
+      "last_success": "2026-11-16T01:45:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -89,15 +89,15 @@
     {
       "name": "Harper’s BAZAAR Korea",
       "url": "https://www.harpersbazaar.co.kr/search",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 3",
       "status": "success",
       "fetched": 18,
-      "matched": 5,
+      "matched": 7,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "8cb16dcef8a28872acb5e2ce766d218c4c12f6735e44b4af8d79524fec034e5c",
-      "checked_at": "2026-11-13T05:23:25+09:00",
-      "last_success": "2026-11-13T05:23:25+09:00",
+      "page": 3,
+      "page_fingerprint": "730902bade122fa6c5ee511768b4b3cb7af1171d5e967813953b053b20078d51",
+      "checked_at": "2026-11-16T01:45:25+09:00",
+      "last_success": "2026-11-16T01:45:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -131,15 +131,15 @@
     {
       "name": "Singles",
       "url": "https://www.singleskorea.com/api/article-search",
-      "scope": "historical pagination page 1",
+      "scope": "historical pagination page 2",
       "status": "success",
-      "fetched": 6,
-      "matched": 2,
+      "fetched": 0,
+      "matched": 0,
       "warnings": [],
-      "page": 1,
-      "page_fingerprint": "470c451523c53fae08fede665f38dff6f3f9698dd0570bbb080732d2a47e4d62",
-      "checked_at": "2026-11-12T02:25:28+09:00",
-      "last_success": "2026-11-12T02:25:28+09:00",
+      "page": 2,
+      "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checked_at": "2026-11-16T01:45:25+09:00",
+      "last_success": "2026-11-16T01:45:25+09:00",
       "consecutive_failures": 0
     },
     {
