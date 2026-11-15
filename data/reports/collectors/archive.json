@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T06:45:26+09:00",
+  "checked_at": "2026-11-16T07:45:25+09:00",
   "status": "success",
   "sources": [
     {
@@ -89,15 +89,15 @@
     {
       "name": "Harper’s BAZAAR Korea",
       "url": "https://www.harpersbazaar.co.kr/search",
-      "scope": "historical pagination page 4",
+      "scope": "historical pagination page 5",
       "status": "success",
       "fetched": 18,
-      "matched": 8,
+      "matched": 5,
       "warnings": [],
-      "page": 4,
-      "page_fingerprint": "e5b0b942e6e3887d345f1a2c030826f39404787a2c9046b9b2aee50e62edc631",
-      "checked_at": "2026-11-16T04:45:25+09:00",
-      "last_success": "2026-11-16T04:45:25+09:00",
+      "page": 5,
+      "page_fingerprint": "c669d95dc77b7f8c7539166d91c3dd05fac0336d46eff13ba6507dad808e000f",
+      "checked_at": "2026-11-16T07:45:25+09:00",
+      "last_success": "2026-11-16T07:45:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -117,15 +117,15 @@
     {
       "name": "Noblesse",
       "url": "https://noblesse.com/feed/",
-      "scope": "historical pagination page 290",
+      "scope": "historical pagination page 291",
       "status": "success",
       "fetched": 10,
       "matched": 0,
       "warnings": [],
-      "page": 290,
-      "page_fingerprint": "b4148ab8808389b206034dcf2373e163d49db79d212c6f1d22bb125604fe8bd4",
-      "checked_at": "2026-11-16T04:45:25+09:00",
-      "last_success": "2026-11-16T04:45:25+09:00",
+      "page": 291,
+      "page_fingerprint": "95eeae1baa867687a8bf6e99cb87a61c0c1d33710cbdabf3404d19e9ed642c9d",
+      "checked_at": "2026-11-16T07:45:25+09:00",
+      "last_success": "2026-11-16T07:45:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -145,17 +145,17 @@
     {
       "name": "Vogue Korea",
       "url": "https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
-      "scope": "historical pagination page 4",
+      "scope": "historical pagination page 5",
       "status": "success",
-      "fetched": 10,
-      "matched": 4,
+      "fetched": 1,
+      "matched": 0,
       "warnings": [
         "RSS media namespace declaration repaired"
       ],
-      "page": 4,
-      "page_fingerprint": "c2c05de761c7fe2f51271d39690d362799198dead74f3c5b1983634998cd2b4a",
-      "checked_at": "2026-11-16T05:45:24+09:00",
-      "last_success": "2026-11-16T05:45:24+09:00",
+      "page": 5,
+      "page_fingerprint": "e4cc5c0faada07bfecade9cc03f9c6ca75938c759020c5de4a183e62306d4508",
+      "checked_at": "2026-11-16T07:45:25+09:00",
+      "last_success": "2026-11-16T07:45:25+09:00",
       "consecutive_failures": 0
     },
     {
