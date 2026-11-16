@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T05:30:23+09:00",
+  "checked_at": "2026-11-17T05:35:22+09:00",
   "status": "failed",
   "sources": [
     {
@@ -22,14 +22,11 @@
       "name": "CJ ENM",
       "url": "https://www.cjenm.com/ko/news/",
       "scope": "official search + original page",
-      "status": "success",
-      "fetched": 0,
-      "index_checked": true,
-      "matched": 0,
-      "warnings": [],
-      "checked_at": "2026-11-17T05:30:23+09:00",
+      "status": "failed",
+      "error": "HTTP 429",
+      "checked_at": "2026-11-17T05:35:22+09:00",
       "last_success": "2026-11-17T05:30:23+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Chanel",
@@ -56,8 +53,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T05:30:23+09:00",
-      "last_success": "2026-11-17T05:30:23+09:00",
+      "checked_at": "2026-11-17T05:35:22+09:00",
+      "last_success": "2026-11-17T05:35:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -68,7 +65,8 @@
       "error": "HTTP 429",
       "checked_at": "2026-11-17T05:30:23+09:00",
       "last_success": "2026-11-17T05:25:21+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 1,
+      "deferred": true
     },
     {
       "name": "JTBC",
@@ -79,8 +77,8 @@
       "index_checked": true,
       "matched": 1,
       "warnings": [],
-      "checked_at": "2026-11-17T05:30:23+09:00",
-      "last_success": "2026-11-17T05:30:23+09:00",
+      "checked_at": "2026-11-17T05:35:22+09:00",
+      "last_success": "2026-11-17T05:35:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -91,7 +89,8 @@
       "error": "HTTP 429",
       "checked_at": "2026-11-17T05:30:23+09:00",
       "last_success": "2026-11-17T05:25:21+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 1,
+      "deferred": true
     },
     {
       "name": "Penshoppe",
@@ -102,8 +101,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T05:30:23+09:00",
-      "last_success": "2026-11-17T05:30:23+09:00",
+      "checked_at": "2026-11-17T05:35:22+09:00",
+      "last_success": "2026-11-17T05:35:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -115,8 +114,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T05:30:23+09:00",
-      "last_success": "2026-11-17T05:30:23+09:00",
+      "checked_at": "2026-11-17T05:35:22+09:00",
+      "last_success": "2026-11-17T05:35:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -128,8 +127,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T05:30:23+09:00",
-      "last_success": "2026-11-17T05:30:23+09:00",
+      "checked_at": "2026-11-17T05:35:22+09:00",
+      "last_success": "2026-11-17T05:35:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -141,8 +140,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T05:30:23+09:00",
-      "last_success": "2026-11-17T05:30:23+09:00",
+      "checked_at": "2026-11-17T05:35:22+09:00",
+      "last_success": "2026-11-17T05:35:22+09:00",
       "consecutive_failures": 0
     },
     {
@@ -154,8 +153,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T05:30:23+09:00",
-      "last_success": "2026-11-17T05:30:23+09:00",
+      "checked_at": "2026-11-17T05:35:22+09:00",
+      "last_success": "2026-11-17T05:35:22+09:00",
       "consecutive_failures": 0
     }
   ]
