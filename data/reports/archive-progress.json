@@ -68,36 +68,21 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 8,
-    "checked_at": "2026-11-16T01:45:28.757695+00:00",
-    "next_scan": "2026-11-16T01:45:28.757695+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "8c45249a7c3edd1d2e9b84f2ea826862aa623c16c0880be5477714a0481e736d",
-      "8cb16dcef8a28872acb5e2ce766d218c4c12f6735e44b4af8d79524fec034e5c",
-      "730902bade122fa6c5ee511768b4b3cb7af1171d5e967813953b053b20078d51",
-      "e5b0b942e6e3887d345f1a2c030826f39404787a2c9046b9b2aee50e62edc631",
-      "c669d95dc77b7f8c7539166d91c3dd05fac0336d46eff13ba6507dad808e000f",
-      "f30302a8ee61283def94c98a7a4780a129a28c538afa158457138fef32e716a4",
-      "715f427a8323c4edbbc705d5215078c753fc5646adc7c173891e581b7b7b866e"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-16T02:45:29.167523+00:00",
+    "next_scan": "2026-11-23T02:45:29.167523+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 39,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Marie Claire Korea": {
-    "page": 7,
-    "checked_at": "2026-11-16T01:45:28.757695+00:00",
-    "next_scan": "2026-11-16T01:45:28.757695+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "cbf5b8e1d033f505f3b8af6751cb5a3db6a45cbea8c64dc9d6db1dd83939b0dd",
-      "f1ffae3e75ad936b360e87e4fd53732daafab5b10cea75abc8c31020ea83e0c8",
-      "314b92bf9edb6b81a1053ef2822e34ddd80a7465d1c0e0661285be2482e8edf6",
-      "0417d0ae75cc589cc989c16e158c4d783099d0be57696169b28f066a11444e4c",
-      "3ea4d056609aeaf2bebc83efb03b07513a093cfa4f60610af0e2639bdb81886b",
-      "c2aeb3f764ef30a50084d816f4813dbe5163e3650271d61a04a8ad8e4da1e815"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-16T02:45:29.167523+00:00",
+    "next_scan": "2026-11-23T02:45:29.167523+00:00",
+    "status": "pagination_unavailable",
+    "fingerprints": [],
     "items_added": 13,
     "years_observed": [
       2020,
@@ -109,9 +94,9 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Noblesse": {
-    "page": 293,
-    "checked_at": "2026-11-16T00:45:28.511826+00:00",
-    "next_scan": "2026-11-16T00:45:28.511826+00:00",
+    "page": 294,
+    "checked_at": "2026-11-16T02:45:29.167523+00:00",
+    "next_scan": "2026-11-16T02:45:29.167523+00:00",
     "status": "in_progress",
     "fingerprints": [
       "cf0e58cd3977cb85feb9a4a550df5b01458aa85628aef62655144db728fc5824",
@@ -405,7 +390,8 @@
       "6355e5f2a9ce9a754490153ccee29470325be67e7feb2c2e1089247be1960cfa",
       "b4148ab8808389b206034dcf2373e163d49db79d212c6f1d22bb125604fe8bd4",
       "95eeae1baa867687a8bf6e99cb87a61c0c1d33710cbdabf3404d19e9ed642c9d",
-      "ec4c809370a01537829a030a0037001dd26185fffbdb69012671eab19188a66e"
+      "ec4c809370a01537829a030a0037001dd26185fffbdb69012671eab19188a66e",
+      "a5b197cf154700d7a82a9a1e06d691a124bb5d63dc844104f579716e05ce8f55"
     ],
     "items_added": 0,
     "years_observed": [],
