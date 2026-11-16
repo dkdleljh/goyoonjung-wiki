@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T00:45:22+09:00",
+  "checked_at": "2026-11-17T01:45:22+09:00",
   "status": "success",
   "sources": [
     {
@@ -120,15 +120,15 @@
     {
       "name": "Noblesse",
       "url": "https://noblesse.com/feed/",
-      "scope": "historical pagination page 306",
+      "scope": "historical pagination page 307",
       "status": "success",
       "fetched": 10,
       "matched": 0,
       "warnings": [],
-      "page": 306,
-      "page_fingerprint": "6caed7bbb24727fd2a0cfb3d8f7f7f129e907456b76c66b4a0e055db401c2021",
-      "checked_at": "2026-11-17T00:45:22+09:00",
-      "last_success": "2026-11-17T00:45:22+09:00",
+      "page": 307,
+      "page_fingerprint": "2a83e0dc756f617a8d9c4a376eee7a5da565de58513d894e2bc4005b1c28841f",
+      "checked_at": "2026-11-17T01:45:22+09:00",
+      "last_success": "2026-11-17T01:45:22+09:00",
       "consecutive_failures": 0
     },
     {
