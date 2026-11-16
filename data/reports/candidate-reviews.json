@@ -1,20 +1,20 @@
 {
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T05:25:32.476195+00:00",
-    "next_check": "2026-11-16T11:25:32.476195+00:00",
+    "checked_at": "2026-11-16T11:35:23.815812+00:00",
+    "next_check": "2026-11-16T17:35:23.815812+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T05:25:32.476195+00:00",
-    "next_check": "2026-11-16T11:25:32.476195+00:00",
+    "checked_at": "2026-11-16T11:35:23.815812+00:00",
+    "next_check": "2026-11-16T17:35:23.815812+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.osen.co.kr/article/G1112894851": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T05:25:32.476195+00:00",
-    "next_check": "2026-11-16T11:25:32.476195+00:00",
+    "checked_at": "2026-11-16T11:35:23.815812+00:00",
+    "next_check": "2026-11-16T17:35:23.815812+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI": {
@@ -1123,8 +1123,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T05:25:32.476195+00:00",
-    "next_check": "2026-11-16T11:25:32.476195+00:00",
+    "checked_at": "2026-11-16T11:35:23.815812+00:00",
+    "next_check": "2026-11-16T17:35:23.815812+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://mk.co.kr/amp/12179236": {
@@ -1609,8 +1609,8 @@
   },
   "https://segye.com/ampView/20261019503806": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T05:25:32.476195+00:00",
-    "next_check": "2026-11-16T11:25:32.476195+00:00",
+    "checked_at": "2026-11-16T11:35:23.815812+00:00",
+    "next_check": "2026-11-16T17:35:23.815812+00:00",
     "error": "500 Server Error: Internal Server Error for url: https://www.segye.com:443/ampView/20261019503806"
   },
   "https://sports.donga.com/ent/article/all/20260225/133418102/1": {
