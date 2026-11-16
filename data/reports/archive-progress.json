@@ -74,16 +74,17 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 6,
-    "checked_at": "2026-11-15T22:45:22.449447+00:00",
-    "next_scan": "2026-11-15T22:45:22.449447+00:00",
+    "page": 7,
+    "checked_at": "2026-11-16T00:45:28.511826+00:00",
+    "next_scan": "2026-11-16T00:45:28.511826+00:00",
     "status": "in_progress",
     "fingerprints": [
       "8c45249a7c3edd1d2e9b84f2ea826862aa623c16c0880be5477714a0481e736d",
       "8cb16dcef8a28872acb5e2ce766d218c4c12f6735e44b4af8d79524fec034e5c",
       "730902bade122fa6c5ee511768b4b3cb7af1171d5e967813953b053b20078d51",
       "e5b0b942e6e3887d345f1a2c030826f39404787a2c9046b9b2aee50e62edc631",
-      "c669d95dc77b7f8c7539166d91c3dd05fac0336d46eff13ba6507dad808e000f"
+      "c669d95dc77b7f8c7539166d91c3dd05fac0336d46eff13ba6507dad808e000f",
+      "f30302a8ee61283def94c98a7a4780a129a28c538afa158457138fef32e716a4"
     ],
     "items_added": 39,
     "years_observed": [],
@@ -112,9 +113,9 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Noblesse": {
-    "page": 292,
-    "checked_at": "2026-11-15T22:45:22.449447+00:00",
-    "next_scan": "2026-11-15T22:45:22.449447+00:00",
+    "page": 293,
+    "checked_at": "2026-11-16T00:45:28.511826+00:00",
+    "next_scan": "2026-11-16T00:45:28.511826+00:00",
     "status": "in_progress",
     "fingerprints": [
       "cf0e58cd3977cb85feb9a4a550df5b01458aa85628aef62655144db728fc5824",
@@ -407,7 +408,8 @@
       "747c0ef05579161d7df0fc5a53c639246a0c53b4ee5117a5ca7cdae6269c3f4a",
       "6355e5f2a9ce9a754490153ccee29470325be67e7feb2c2e1089247be1960cfa",
       "b4148ab8808389b206034dcf2373e163d49db79d212c6f1d22bb125604fe8bd4",
-      "95eeae1baa867687a8bf6e99cb87a61c0c1d33710cbdabf3404d19e9ed642c9d"
+      "95eeae1baa867687a8bf6e99cb87a61c0c1d33710cbdabf3404d19e9ed642c9d",
+      "ec4c809370a01537829a030a0037001dd26185fffbdb69012671eab19188a66e"
     ],
     "items_added": 0,
     "years_observed": [],
@@ -427,17 +429,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Vogue Korea": {
-    "page": 6,
-    "checked_at": "2026-11-15T22:45:22.449447+00:00",
-    "next_scan": "2026-11-15T22:45:22.449447+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b",
-      "e1f38f15e062dc3fd7fc309ba81a7f0966223babda85e785ac516b1c5848075c",
-      "f119b7433419fba7b567b44add78d5faaf2a9f11fb2657aeebe71139e8a56bd8",
-      "c2c05de761c7fe2f51271d39690d362799198dead74f3c5b1983634998cd2b4a",
-      "e4cc5c0faada07bfecade9cc03f9c6ca75938c759020c5de4a183e62306d4508"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-16T00:45:28.511826+00:00",
+    "next_scan": "2026-11-23T00:45:28.511826+00:00",
+    "status": "pagination_unavailable",
+    "fingerprints": [],
     "items_added": 9,
     "years_observed": [
       2021,

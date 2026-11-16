@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T08:45:30+09:00",
+  "checked_at": "2026-11-16T09:45:32+09:00",
   "status": "success",
   "sources": [
     {
@@ -89,15 +89,15 @@
     {
       "name": "Harper’s BAZAAR Korea",
       "url": "https://www.harpersbazaar.co.kr/search",
-      "scope": "historical pagination page 5",
+      "scope": "historical pagination page 6",
       "status": "success",
       "fetched": 18,
-      "matched": 5,
+      "matched": 6,
       "warnings": [],
-      "page": 5,
-      "page_fingerprint": "c669d95dc77b7f8c7539166d91c3dd05fac0336d46eff13ba6507dad808e000f",
-      "checked_at": "2026-11-16T07:45:25+09:00",
-      "last_success": "2026-11-16T07:45:25+09:00",
+      "page": 6,
+      "page_fingerprint": "f30302a8ee61283def94c98a7a4780a129a28c538afa158457138fef32e716a4",
+      "checked_at": "2026-11-16T09:45:32+09:00",
+      "last_success": "2026-11-16T09:45:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -117,15 +117,15 @@
     {
       "name": "Noblesse",
       "url": "https://noblesse.com/feed/",
-      "scope": "historical pagination page 291",
+      "scope": "historical pagination page 292",
       "status": "success",
       "fetched": 10,
       "matched": 0,
       "warnings": [],
-      "page": 291,
-      "page_fingerprint": "95eeae1baa867687a8bf6e99cb87a61c0c1d33710cbdabf3404d19e9ed642c9d",
-      "checked_at": "2026-11-16T07:45:25+09:00",
-      "last_success": "2026-11-16T07:45:25+09:00",
+      "page": 292,
+      "page_fingerprint": "ec4c809370a01537829a030a0037001dd26185fffbdb69012671eab19188a66e",
+      "checked_at": "2026-11-16T09:45:32+09:00",
+      "last_success": "2026-11-16T09:45:32+09:00",
       "consecutive_failures": 0
     },
     {
@@ -145,17 +145,19 @@
     {
       "name": "Vogue Korea",
       "url": "https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95",
-      "scope": "historical pagination page 5",
+      "scope": "historical pagination page 6",
       "status": "success",
-      "fetched": 1,
+      "boundary_status": "pagination_unavailable",
+      "fetched": 0,
       "matched": 0,
       "warnings": [
-        "RSS media namespace declaration repaired"
+        "RSS media namespace declaration repaired",
+        "Archive page 6 returns 404; current feed valid (10 items). Historical boundary is unconfirmed."
       ],
-      "page": 5,
-      "page_fingerprint": "e4cc5c0faada07bfecade9cc03f9c6ca75938c759020c5de4a183e62306d4508",
-      "checked_at": "2026-11-16T07:45:25+09:00",
-      "last_success": "2026-11-16T07:45:25+09:00",
+      "page": 6,
+      "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checked_at": "2026-11-16T09:45:32+09:00",
+      "last_success": "2026-11-16T09:45:32+09:00",
       "consecutive_failures": 0
     },
     {
