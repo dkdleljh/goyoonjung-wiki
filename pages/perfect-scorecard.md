@@ -1,11 +1,11 @@
 # Operational Scorecard (auto)
 
-> Updated: 2026-11-16 (Asia/Seoul)
+> Updated: 2026-11-17 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 124
-- urls_total(markdown): 1054
-- seen_urls(db): 466
+- urls_total(markdown): 1055
+- seen_urls(db): 467
 - allowlist_domains: 105
 - google_news_sites: 40
 - google_news_queries(lines): 20
@@ -33,8 +33,8 @@
 
 - C_current: 76  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 1054  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 466  (dedupe DB size)
+- urls_total: 1055  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 467  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
@@ -53,7 +53,7 @@
 - 128: pages/verification-queue.md
 - 127: pages/youtube-archive.md
 - 123: pages/pictorials/by-year.md
-- 105: pages/candidate-pool.md
+- 106: pages/candidate-pool.md
 - 95: pages/notes/translation-love-filming-locations-google-maps.md
 - 57: pages/interviews.md
 - 55: pages/appearances.md

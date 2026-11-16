@@ -2,7 +2,7 @@
 
 ![Repo](https://img.shields.io/badge/repo-goyoonjung-wiki-111827?style=flat-square) ![Latest Tag](https://img.shields.io/badge/latest-v1.138.4-2563eb?style=flat-square) ![Docs](https://img.shields.io/badge/docs-21-059669?style=flat-square) ![Automation](https://img.shields.io/badge/automation-daily__update-7c3aed?style=flat-square)
 
-> 자동 생성 포털 문서 · 마지막 갱신: 2026-11-16
+> 자동 생성 포털 문서 · 마지막 갱신: 2026-11-17
 
 이 저장소는 **링크 중심 위키**이면서 동시에 **무인 자동화 운영 저장소**입니다.
 
@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `ec55a6be4` |
+| 최신 커밋 | `e5bbf737e` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,11 +63,11 @@
   - 로컬 노트: `logs/releases/release-notes-v1.138.2.md`
 
 ## 최근 변경 요약
-- [`ec55a6be4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ec55a6be4) — docs: sync collected wiki content for website
-- [`253c268c6`](https://github.com/dkdleljh/goyoonjung-wiki/commit/253c268c6) — docs: sync collected wiki content for website
-- [`94fdff07e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/94fdff07e) — docs: sync collected wiki content for website
-- [`191d07761`](https://github.com/dkdleljh/goyoonjung-wiki/commit/191d07761) — docs: sync collected wiki content for website
-- [`111d096b5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/111d096b5) — docs: sync collected wiki content for website
+- [`e5bbf737e`](https://github.com/dkdleljh/goyoonjung-wiki/commit/e5bbf737e) — docs: sync collected wiki content for website
+- [`47de13162`](https://github.com/dkdleljh/goyoonjung-wiki/commit/47de13162) — docs: sync collected wiki content for website
+- [`9c314f7c4`](https://github.com/dkdleljh/goyoonjung-wiki/commit/9c314f7c4) — docs: sync collected wiki content for website
+- [`ea2c79e00`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ea2c79e00) — docs: sync collected wiki content for website
+- [`a0a5f61f5`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a0a5f61f5) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
 - `data/facts/awards.json`
