@@ -1,20 +1,20 @@
 {
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T11:35:23.815812+00:00",
-    "next_check": "2026-11-16T17:35:23.815812+00:00",
+    "checked_at": "2026-11-16T17:40:25.706211+00:00",
+    "next_check": "2026-11-16T23:40:25.706211+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T11:35:23.815812+00:00",
-    "next_check": "2026-11-16T17:35:23.815812+00:00",
+    "checked_at": "2026-11-16T17:40:25.706211+00:00",
+    "next_check": "2026-11-16T23:40:25.706211+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.osen.co.kr/article/G1112894851": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T11:35:23.815812+00:00",
-    "next_check": "2026-11-16T17:35:23.815812+00:00",
+    "checked_at": "2026-11-16T17:40:25.706211+00:00",
+    "next_check": "2026-11-16T23:40:25.706211+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI": {
@@ -1027,9 +1027,9 @@
   },
   "https://jp.sportalkorea.com/news/articleView.html?idxno=41679": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-09T17:40:22.085828+00:00",
+    "checked_at": "2026-11-16T17:40:25.706211+00:00",
     "first_seen_at": "2026-10-26 17:20:22",
-    "next_check": "2026-11-16T17:40:22.085828+00:00",
+    "next_check": "2026-11-23T17:40:25.706211+00:00",
     "metadata": {
       "id": "7da2383882204d1f2dc112b5",
       "url": "https://jp.sportalkorea.com/news/articleView.html?idxno=41679",
@@ -1038,8 +1038,8 @@
       "first_party": false,
       "title": "コ・ユンジョン、感嘆を呼ぶ高級ビジュアル···「人間シャネル」を作ったランニング効果は - スポータルコリア",
       "published_at": "2026-10-25T19:51:00+09:00",
-      "collected_at": "2026-11-09T17:40:22.915143+00:00",
-      "content_hash": "17e631ea19908a71783498952bb4c8d20a6d663c1da7f5f73aeb3429a6df197b",
+      "collected_at": "2026-11-16T17:40:26.555402+00:00",
+      "content_hash": "3dcc51d855e98feae9bcaef835c5912ad361a58302ad8d09fbf13ddd54535787",
       "excerpt": "[ソウル=ニューシス]イ・ジュンヒョン インターン記者 = 女優コ・ユンジョンが独特のオーラで洗練された高級スタイリングを完璧にこなした。24日、コ・ユンジョンは自身のソーシャルネ",
       "actor_mentioned": true,
       "claims": [],
@@ -1123,8 +1123,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T11:35:23.815812+00:00",
-    "next_check": "2026-11-16T17:35:23.815812+00:00",
+    "checked_at": "2026-11-16T17:40:25.706211+00:00",
+    "next_check": "2026-11-16T23:40:25.706211+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://mk.co.kr/amp/12179236": {
@@ -1609,8 +1609,8 @@
   },
   "https://segye.com/ampView/20261019503806": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T11:35:23.815812+00:00",
-    "next_check": "2026-11-16T17:35:23.815812+00:00",
+    "checked_at": "2026-11-16T17:40:25.706211+00:00",
+    "next_check": "2026-11-16T23:40:25.706211+00:00",
     "error": "500 Server Error: Internal Server Error for url: https://www.segye.com:443/ampView/20261019503806"
   },
   "https://sports.donga.com/ent/article/all/20260225/133418102/1": {
