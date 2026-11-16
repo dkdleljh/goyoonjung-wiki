@@ -1,20 +1,20 @@
 {
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-15T23:25:25.704955+00:00",
-    "next_check": "2026-11-16T05:25:25.704955+00:00",
+    "checked_at": "2026-11-16T05:25:32.476195+00:00",
+    "next_check": "2026-11-16T11:25:32.476195+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-15T23:25:25.704955+00:00",
-    "next_check": "2026-11-16T05:25:25.704955+00:00",
+    "checked_at": "2026-11-16T05:25:32.476195+00:00",
+    "next_check": "2026-11-16T11:25:32.476195+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.osen.co.kr/article/G1112894851": {
     "status": "retry_pending",
-    "checked_at": "2026-11-15T23:25:25.704955+00:00",
-    "next_check": "2026-11-16T05:25:25.704955+00:00",
+    "checked_at": "2026-11-16T05:25:32.476195+00:00",
+    "next_check": "2026-11-16T11:25:32.476195+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI": {
@@ -1123,8 +1123,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-15T23:25:25.704955+00:00",
-    "next_check": "2026-11-16T05:25:25.704955+00:00",
+    "checked_at": "2026-11-16T05:25:32.476195+00:00",
+    "next_check": "2026-11-16T11:25:32.476195+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://mk.co.kr/amp/12179236": {
@@ -1609,8 +1609,8 @@
   },
   "https://segye.com/ampView/20261019503806": {
     "status": "retry_pending",
-    "checked_at": "2026-11-15T23:25:25.704955+00:00",
-    "next_check": "2026-11-16T05:25:25.704955+00:00",
+    "checked_at": "2026-11-16T05:25:32.476195+00:00",
+    "next_check": "2026-11-16T11:25:32.476195+00:00",
     "error": "500 Server Error: Internal Server Error for url: https://www.segye.com:443/ampView/20261019503806"
   },
   "https://sports.donga.com/ent/article/all/20260225/133418102/1": {
@@ -4063,9 +4063,9 @@
   },
   "https://www.mk.co.kr/en/entertain/12179279": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-09T05:25:27.903433+00:00",
+    "checked_at": "2026-11-16T05:25:32.476195+00:00",
     "first_seen_at": "2026-10-19 04:50:28",
-    "next_check": "2026-11-16T05:25:27.903433+00:00",
+    "next_check": "2026-11-23T05:25:32.476195+00:00",
     "metadata": {
       "id": "fdd47668bc317b69f3152785",
       "url": "https://www.mk.co.kr/en/entertain/12179279",
@@ -4074,8 +4074,8 @@
       "first_party": false,
       "title": "Actress Ko Yoon-jung's beauty from college before her debut is drawing attention again.Recently, pro.. - MK",
       "published_at": "2026-10-19T09:59:30+09:00",
-      "collected_at": "2026-11-09T05:25:28.722877+00:00",
-      "content_hash": "1d7e2485e3a23c109cf684a7750c403615b69b09180d53b8f126094aa2a61211",
+      "collected_at": "2026-11-16T05:25:33.309830+00:00",
+      "content_hash": "3c7ead43afde261f754a9863e41a2db244b143bae805ca3d8cf860013cd28c02",
       "excerpt": "Actress Ko Yoon-jung's beauty from college before her debut is drawing attention again.Recently, promotional posters for festival bars that Ko Yoon-jung photogr",
       "actor_mentioned": true,
       "claims": [],
