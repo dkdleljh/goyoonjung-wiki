@@ -30,16 +30,16 @@
     "last_success": "2026-11-16T19:00:25.780477+00:00"
   },
   "official:about.netflix.com": {
-    "last_attempt": "2026-11-16T20:05:15.740929+00:00",
+    "last_attempt": "2026-11-16T20:10:16.456437+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:15.740929+00:00"
+    "last_success": "2026-11-16T20:10:16.456437+00:00"
   },
   "official:baeksangawards.co.kr": {
-    "last_attempt": "2026-11-16T20:05:20.930733+00:00",
+    "last_attempt": "2026-11-16T20:10:20.847288+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:20.930733+00:00"
+    "last_success": "2026-11-16T20:10:20.847288+00:00"
   },
   "official:boucheron.com": {
     "last_attempt": "2026-11-16T12:10:20.488553+00:00",
@@ -47,10 +47,10 @@
     "failures": 4017
   },
   "official:bsa.blueaward.co.kr": {
-    "last_attempt": "2026-11-16T20:05:20.963501+00:00",
+    "last_attempt": "2026-11-16T20:10:20.862240+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:20.963501+00:00"
+    "last_success": "2026-11-16T20:10:20.862240+00:00"
   },
   "official:chanel.com": {
     "last_attempt": "2026-11-16T12:10:20.409528+00:00",
@@ -58,16 +58,16 @@
     "failures": 4017
   },
   "official:cjenm.com": {
-    "last_attempt": "2026-11-16T20:05:19.455884+00:00",
+    "last_attempt": "2026-11-16T20:10:20.789788+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:19.455884+00:00"
+    "last_success": "2026-11-16T20:10:20.789788+00:00"
   },
   "official:clubclio.co.kr": {
-    "last_attempt": "2026-11-16T20:05:21.117003+00:00",
+    "last_attempt": "2026-11-16T20:10:21.506555+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:21.117003+00:00"
+    "last_success": "2026-11-16T20:10:21.506555+00:00"
   },
   "official:penshoppe.com": {
     "last_attempt": "2026-11-16T20:05:24.711648+00:00",
@@ -76,33 +76,33 @@
     "last_success": "2026-11-16T20:00:25.835834+00:00"
   },
   "official:thewaltdisneycompany.com": {
-    "last_attempt": "2026-11-16T20:05:19.474494+00:00",
+    "last_attempt": "2026-11-16T20:10:20.805766+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:19.474494+00:00"
+    "last_success": "2026-11-16T20:10:20.805766+00:00"
   },
   "official:tv.jtbc.co.kr": {
-    "last_attempt": "2026-11-16T20:05:19.431059+00:00",
+    "last_attempt": "2026-11-16T20:10:20.768206+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:19.431059+00:00"
+    "last_success": "2026-11-16T20:10:20.768206+00:00"
   },
   "official:tving.com": {
-    "last_attempt": "2026-11-16T20:05:20.885104+00:00",
+    "last_attempt": "2026-11-16T20:10:20.826143+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:20.885104+00:00"
+    "last_success": "2026-11-16T20:10:20.826143+00:00"
   },
   "official:tvn.cjenm.com": {
-    "last_attempt": "2026-11-16T20:05:16.742006+00:00",
+    "last_attempt": "2026-11-16T20:10:16.684185+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T20:05:16.742006+00:00"
+    "last_success": "2026-11-16T20:10:16.684185+00:00"
   },
   "query:AWARDS": {
-    "last_attempt": "2026-11-16T18:50:29.952104+00:00",
-    "status": "success",
-    "failures": 0,
+    "last_attempt": "2026-11-16T20:10:23.823235+00:00",
+    "status": "failed",
+    "failures": 1,
     "last_success": "2026-11-16T18:50:29.952104+00:00"
   },
   "query:BROADCAST_PR": {
@@ -112,10 +112,10 @@
     "last_success": "2026-11-16T19:40:25.106946+00:00"
   },
   "query:CARROT": {
-    "last_attempt": "2026-11-16T18:50:29.462192+00:00",
+    "last_attempt": "2026-11-16T20:10:23.814348+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T18:50:29.462192+00:00"
+    "last_success": "2026-11-16T20:10:23.814348+00:00"
   },
   "query:DISCOVERY": {
     "last_attempt": "2026-11-16T19:55:38.378031+00:00",
@@ -124,10 +124,10 @@
     "last_success": "2026-11-16T19:55:38.378031+00:00"
   },
   "query:FASHION": {
-    "last_attempt": "2026-11-16T18:50:30.478278+00:00",
+    "last_attempt": "2026-11-16T20:10:24.744872+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T18:50:30.478278+00:00"
+    "last_success": "2026-11-16T20:10:24.744872+00:00"
   },
   "query:GOODAL": {
     "last_attempt": "2026-11-16T19:55:37.914766+00:00",
@@ -166,9 +166,9 @@
     "last_success": "2026-11-16T19:20:27.223081+00:00"
   },
   "query:PURADAK": {
-    "last_attempt": "2026-11-16T18:50:29.034621+00:00",
-    "status": "success",
-    "failures": 0,
+    "last_attempt": "2026-11-16T20:10:22.776188+00:00",
+    "status": "failed",
+    "failures": 1,
     "last_success": "2026-11-16T18:50:29.034621+00:00"
   },
   "query:RYO": {
@@ -226,9 +226,9 @@
     "last_success": "2026-11-16T17:50:27.562692+00:00"
   },
   "site:imnews.imbc.com": {
-    "last_attempt": "2026-11-16T17:30:25.986401+00:00",
-    "status": "success",
-    "failures": 0,
+    "last_attempt": "2026-11-16T20:10:26.854345+00:00",
+    "status": "failed",
+    "failures": 1,
     "last_success": "2026-11-16T17:30:25.986401+00:00"
   },
   "site:isplus.com": {
@@ -250,21 +250,21 @@
     "last_success": "2026-11-16T18:35:23.587479+00:00"
   },
   "site:news.jtbc.co.kr": {
-    "last_attempt": "2026-11-16T17:30:28.017572+00:00",
+    "last_attempt": "2026-11-16T20:10:28.002613+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T17:30:28.017572+00:00"
+    "last_success": "2026-11-16T20:10:28.002613+00:00"
   },
   "site:news.kbs.co.kr": {
-    "last_attempt": "2026-11-16T17:30:24.622698+00:00",
+    "last_attempt": "2026-11-16T20:10:26.234963+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-16T17:30:24.622698+00:00"
+    "last_success": "2026-11-16T20:10:26.234963+00:00"
   },
   "site:news.sbs.co.kr": {
-    "last_attempt": "2026-11-16T17:30:25.561859+00:00",
-    "status": "success",
-    "failures": 0,
+    "last_attempt": "2026-11-16T20:10:26.243331+00:00",
+    "status": "failed",
+    "failures": 1,
     "last_success": "2026-11-16T17:30:25.561859+00:00"
   },
   "site:osen.co.kr": {
