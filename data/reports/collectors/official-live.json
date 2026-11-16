@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T08:35:22+09:00",
+  "checked_at": "2026-11-17T08:40:25+09:00",
   "status": "failed",
   "sources": [
     {
@@ -26,7 +26,8 @@
       "error": "HTTP 429",
       "checked_at": "2026-11-17T08:35:22+09:00",
       "last_success": "2026-11-17T08:30:21+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 1,
+      "deferred": true
     },
     {
       "name": "Chanel",
@@ -53,8 +54,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T08:35:22+09:00",
-      "last_success": "2026-11-17T08:35:22+09:00",
+      "checked_at": "2026-11-17T08:40:25+09:00",
+      "last_success": "2026-11-17T08:40:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -66,8 +67,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T08:35:22+09:00",
-      "last_success": "2026-11-17T08:35:22+09:00",
+      "checked_at": "2026-11-17T08:40:25+09:00",
+      "last_success": "2026-11-17T08:40:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -79,22 +80,19 @@
       "index_checked": true,
       "matched": 1,
       "warnings": [],
-      "checked_at": "2026-11-17T08:35:22+09:00",
-      "last_success": "2026-11-17T08:35:22+09:00",
+      "checked_at": "2026-11-17T08:40:25+09:00",
+      "last_success": "2026-11-17T08:40:25+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Netflix",
       "url": "https://about.netflix.com/ko",
       "scope": "official search + original page",
-      "status": "success",
-      "fetched": 1,
-      "index_checked": true,
-      "matched": 0,
-      "warnings": [],
-      "checked_at": "2026-11-17T08:35:22+09:00",
+      "status": "failed",
+      "error": "HTTP 429",
+      "checked_at": "2026-11-17T08:40:25+09:00",
       "last_success": "2026-11-17T08:35:22+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Penshoppe",
@@ -105,8 +103,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T08:35:22+09:00",
-      "last_success": "2026-11-17T08:35:22+09:00",
+      "checked_at": "2026-11-17T08:40:25+09:00",
+      "last_success": "2026-11-17T08:40:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -118,20 +116,22 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T08:35:22+09:00",
-      "last_success": "2026-11-17T08:35:22+09:00",
+      "checked_at": "2026-11-17T08:40:25+09:00",
+      "last_success": "2026-11-17T08:40:25+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "tvN",
       "url": "https://tvn.cjenm.com/ko/",
       "scope": "official search + original page",
-      "status": "failed",
-      "error": "HTTP 429",
-      "checked_at": "2026-11-17T08:30:21+09:00",
-      "last_success": "2026-11-17T08:25:25+09:00",
-      "consecutive_failures": 1,
-      "deferred": true
+      "status": "success",
+      "fetched": 1,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-11-17T08:40:25+09:00",
+      "last_success": "2026-11-17T08:40:25+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "백상예술대상",
@@ -142,8 +142,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T08:35:22+09:00",
-      "last_success": "2026-11-17T08:35:22+09:00",
+      "checked_at": "2026-11-17T08:40:25+09:00",
+      "last_success": "2026-11-17T08:40:25+09:00",
       "consecutive_failures": 0
     },
     {
@@ -155,8 +155,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T08:35:22+09:00",
-      "last_success": "2026-11-17T08:35:22+09:00",
+      "checked_at": "2026-11-17T08:40:25+09:00",
+      "last_success": "2026-11-17T08:40:25+09:00",
       "consecutive_failures": 0
     }
   ]
