@@ -35,17 +35,11 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "ELLE Korea": {
-    "page": 6,
-    "checked_at": "2026-11-15T23:45:22.737431+00:00",
-    "next_scan": "2026-11-15T23:45:22.737431+00:00",
-    "status": "in_progress",
-    "fingerprints": [
-      "a4d4665af4fb6050e5531fba0f79b8ca8e51b08a33205856dd2f3e7214e54166",
-      "f9982d4067766d38df2a71dbb4688ffbba75ad88dc725f52f88cc661efd73843",
-      "f9d2793d0429735f45862ada29f59754a71209880239f2acd9bccddd50443cc7",
-      "c85097e4bd26dbdd7a894a4fa46ace5a361cd746e68504974bb51583e263d5f2",
-      "7d407aea08c450776d15b35ee08c0915f98ef372525553723880b4dc41080235"
-    ],
+    "page": 1,
+    "checked_at": "2026-11-16T01:45:28.757695+00:00",
+    "next_scan": "2026-11-23T01:45:28.757695+00:00",
+    "status": "end_of_results",
+    "fingerprints": [],
     "items_added": 41,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
@@ -74,9 +68,9 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 7,
-    "checked_at": "2026-11-16T00:45:28.511826+00:00",
-    "next_scan": "2026-11-16T00:45:28.511826+00:00",
+    "page": 8,
+    "checked_at": "2026-11-16T01:45:28.757695+00:00",
+    "next_scan": "2026-11-16T01:45:28.757695+00:00",
     "status": "in_progress",
     "fingerprints": [
       "8c45249a7c3edd1d2e9b84f2ea826862aa623c16c0880be5477714a0481e736d",
@@ -84,23 +78,25 @@
       "730902bade122fa6c5ee511768b4b3cb7af1171d5e967813953b053b20078d51",
       "e5b0b942e6e3887d345f1a2c030826f39404787a2c9046b9b2aee50e62edc631",
       "c669d95dc77b7f8c7539166d91c3dd05fac0336d46eff13ba6507dad808e000f",
-      "f30302a8ee61283def94c98a7a4780a129a28c538afa158457138fef32e716a4"
+      "f30302a8ee61283def94c98a7a4780a129a28c538afa158457138fef32e716a4",
+      "715f427a8323c4edbbc705d5215078c753fc5646adc7c173891e581b7b7b866e"
     ],
     "items_added": 39,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Marie Claire Korea": {
-    "page": 6,
-    "checked_at": "2026-11-15T23:45:22.737431+00:00",
-    "next_scan": "2026-11-15T23:45:22.737431+00:00",
+    "page": 7,
+    "checked_at": "2026-11-16T01:45:28.757695+00:00",
+    "next_scan": "2026-11-16T01:45:28.757695+00:00",
     "status": "in_progress",
     "fingerprints": [
       "cbf5b8e1d033f505f3b8af6751cb5a3db6a45cbea8c64dc9d6db1dd83939b0dd",
       "f1ffae3e75ad936b360e87e4fd53732daafab5b10cea75abc8c31020ea83e0c8",
       "314b92bf9edb6b81a1053ef2822e34ddd80a7465d1c0e0661285be2482e8edf6",
       "0417d0ae75cc589cc989c16e158c4d783099d0be57696169b28f066a11444e4c",
-      "3ea4d056609aeaf2bebc83efb03b07513a093cfa4f60610af0e2639bdb81886b"
+      "3ea4d056609aeaf2bebc83efb03b07513a093cfa4f60610af0e2639bdb81886b",
+      "c2aeb3f764ef30a50084d816f4813dbe5163e3650271d61a04a8ad8e4da1e815"
     ],
     "items_added": 13,
     "years_observed": [
