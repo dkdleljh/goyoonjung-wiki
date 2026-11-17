@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 124
-- urls_total(markdown): 1055
-- seen_urls(db): 467
+- urls_total(markdown): 1056
+- seen_urls(db): 469
 - allowlist_domains: 105
 - google_news_sites: 40
 - google_news_queries(lines): 20
@@ -22,7 +22,7 @@
 - detection: 100  (quality/content-gaps reports)
 - official_work_sync: 0  (official filmography audit)
 
-### B. Recorded automation health: **100/100**
+### B. Recorded automation health: **0/100**
 
 - pipeline: 100  (run_daily_update + steps)
 - resilience: 100  (batching + skip-reason logging)
@@ -33,8 +33,8 @@
 
 - C_current: 76  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 1055  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 467  (dedupe DB size)
+- urls_total: 1056  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 469  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
