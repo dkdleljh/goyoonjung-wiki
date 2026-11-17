@@ -1,11 +1,12 @@
 {
   "DisneyPlusKR": {
-    "checked_at": "2026-11-17T04:45:27.243597+00:00",
+    "checked_at": "2026-11-17T15:50:24.679837+00:00",
     "next_item": 6401,
-    "status": "in_progress",
+    "status": "retry_pending",
     "last_batch_size": 100,
-    "next_scan": "2026-11-17T04:45:27.243597+00:00",
-    "matched": 1
+    "next_scan": "2026-11-17T16:50:24.679837+00:00",
+    "matched": 1,
+    "error": "ERROR: YouTube said: The playlist does not exist."
   },
   "JTBC Drama": {
     "checked_at": "2026-11-17T07:45:24.603064+00:00",
