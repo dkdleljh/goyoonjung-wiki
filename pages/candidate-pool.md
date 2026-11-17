@@ -1,10 +1,11 @@
 # Candidate Pool (auto)
 
-> Updated: 2026-11-17 18:05 (Asia/Seoul)
+> Updated: 2026-11-18 00:05 (Asia/Seoul)
 
 B 등급 도메인 링크 보관소입니다. 자동 승격하지 않으며 수동 검증 대상으로만 유지합니다.
 
 ## Items
+- 2026-11-17 · grade=B · YOUTUBE_CLIPS · [고윤정 첫 오디션이 기생충? 최종 후보가 된 뜻밖의 이유 - YouTube](https://www.youtube.com/watch?v=oRt37TuEoqc)
 - 2026-11-17 · grade=B · YOUTUBE_CLIPS · [고윤정은 첫 연기를 어떻게 준비했을까 - YouTube](https://www.youtube.com/watch?v=6B0AzRd2Xaw)
 - 2026-11-17 · grade=B · YOUTUBE_CLIPS · [얼굴은 공주인데 말투는 장군인 고윤정ㅋㅋ - YouTube](https://www.youtube.com/watch?v=RrpWCu9_9t8)
 - 2026-11-16 · grade=B · YOUTUBE_CLIPS · [고윤정이 "그림은 혼자 그리잖아요"라고 말한 이유 | 무빙·언슬전·이 사랑 통역 되나요? - YouTube](https://www.youtube.com/watch?v=f47KCksVRlA)
