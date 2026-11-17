@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T10:35:26+09:00",
+  "checked_at": "2026-11-17T10:40:26+09:00",
   "status": "failed",
   "sources": [
     {
@@ -27,8 +27,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T10:35:26+09:00",
-      "last_success": "2026-11-17T10:35:26+09:00",
+      "checked_at": "2026-11-17T10:40:26+09:00",
+      "last_success": "2026-11-17T10:40:26+09:00",
       "consecutive_failures": 0
     },
     {
@@ -56,8 +56,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T10:35:26+09:00",
-      "last_success": "2026-11-17T10:35:26+09:00",
+      "checked_at": "2026-11-17T10:40:26+09:00",
+      "last_success": "2026-11-17T10:40:26+09:00",
       "consecutive_failures": 0
     },
     {
@@ -69,8 +69,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T10:35:26+09:00",
-      "last_success": "2026-11-17T10:35:26+09:00",
+      "checked_at": "2026-11-17T10:40:26+09:00",
+      "last_success": "2026-11-17T10:40:26+09:00",
       "consecutive_failures": 0
     },
     {
@@ -82,8 +82,8 @@
       "index_checked": true,
       "matched": 1,
       "warnings": [],
-      "checked_at": "2026-11-17T10:35:26+09:00",
-      "last_success": "2026-11-17T10:35:26+09:00",
+      "checked_at": "2026-11-17T10:40:26+09:00",
+      "last_success": "2026-11-17T10:40:26+09:00",
       "consecutive_failures": 0
     },
     {
@@ -94,7 +94,8 @@
       "error": "HTTP 429",
       "checked_at": "2026-11-17T10:35:26+09:00",
       "last_success": "2026-11-17T10:30:26+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 1,
+      "deferred": true
     },
     {
       "name": "Penshoppe",
@@ -109,7 +110,8 @@
       ],
       "checked_at": "2026-11-17T10:35:26+09:00",
       "last_success": "2026-11-17T10:30:26+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 1,
+      "deferred": true
     },
     {
       "name": "TVING",
@@ -120,20 +122,22 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T10:35:26+09:00",
-      "last_success": "2026-11-17T10:35:26+09:00",
+      "checked_at": "2026-11-17T10:40:26+09:00",
+      "last_success": "2026-11-17T10:40:26+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "tvN",
       "url": "https://tvn.cjenm.com/ko/",
       "scope": "official search + original page",
-      "status": "failed",
-      "error": "HTTP 429",
-      "checked_at": "2026-11-17T10:30:26+09:00",
-      "last_success": "2026-11-17T10:25:20+09:00",
-      "consecutive_failures": 1,
-      "deferred": true
+      "status": "success",
+      "fetched": 1,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-11-17T10:40:26+09:00",
+      "last_success": "2026-11-17T10:40:26+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "백상예술대상",
@@ -144,8 +148,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T10:35:26+09:00",
-      "last_success": "2026-11-17T10:35:26+09:00",
+      "checked_at": "2026-11-17T10:40:26+09:00",
+      "last_success": "2026-11-17T10:40:26+09:00",
       "consecutive_failures": 0
     },
     {
@@ -157,8 +161,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T10:35:26+09:00",
-      "last_success": "2026-11-17T10:35:26+09:00",
+      "checked_at": "2026-11-17T10:40:26+09:00",
+      "last_success": "2026-11-17T10:40:26+09:00",
       "consecutive_failures": 0
     }
   ]
