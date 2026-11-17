@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T16:00:23+09:00",
+  "checked_at": "2026-11-17T16:05:21+09:00",
   "status": "failed",
   "sources": [
     {
@@ -27,8 +27,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T16:00:23+09:00",
-      "last_success": "2026-11-17T16:00:23+09:00",
+      "checked_at": "2026-11-17T16:05:21+09:00",
+      "last_success": "2026-11-17T16:05:21+09:00",
       "consecutive_failures": 0
     },
     {
@@ -56,35 +56,29 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T16:00:23+09:00",
-      "last_success": "2026-11-17T16:00:23+09:00",
+      "checked_at": "2026-11-17T16:05:21+09:00",
+      "last_success": "2026-11-17T16:05:21+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "Goodal",
       "url": "https://clubclio.co.kr/shop/brandsList/121733000000000/brand/3",
       "scope": "official search + original page",
-      "status": "success",
-      "fetched": 0,
-      "index_checked": true,
-      "matched": 0,
-      "warnings": [],
-      "checked_at": "2026-11-17T16:00:23+09:00",
+      "status": "failed",
+      "error": "HTTP 429",
+      "checked_at": "2026-11-17T16:05:21+09:00",
       "last_success": "2026-11-17T16:00:23+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "JTBC",
       "url": "https://tv.jtbc.co.kr/",
       "scope": "official search + original page",
-      "status": "success",
-      "fetched": 1,
-      "index_checked": true,
-      "matched": 1,
-      "warnings": [],
-      "checked_at": "2026-11-17T16:00:23+09:00",
+      "status": "failed",
+      "error": "HTTP 429",
+      "checked_at": "2026-11-17T16:05:21+09:00",
       "last_success": "2026-11-17T16:00:23+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Netflix",
@@ -94,7 +88,8 @@
       "error": "HTTP 429",
       "checked_at": "2026-11-17T16:00:23+09:00",
       "last_success": "2026-11-17T15:55:26+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 1,
+      "deferred": true
     },
     {
       "name": "Penshoppe",
@@ -105,8 +100,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T16:00:23+09:00",
-      "last_success": "2026-11-17T16:00:23+09:00",
+      "checked_at": "2026-11-17T16:05:21+09:00",
+      "last_success": "2026-11-17T16:05:21+09:00",
       "consecutive_failures": 0
     },
     {
@@ -118,8 +113,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T16:00:23+09:00",
-      "last_success": "2026-11-17T16:00:23+09:00",
+      "checked_at": "2026-11-17T16:05:21+09:00",
+      "last_success": "2026-11-17T16:05:21+09:00",
       "consecutive_failures": 0
     },
     {
@@ -131,8 +126,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-17T16:00:23+09:00",
-      "last_success": "2026-11-17T16:00:23+09:00",
+      "checked_at": "2026-11-17T16:05:21+09:00",
+      "last_success": "2026-11-17T16:05:21+09:00",
       "consecutive_failures": 0
     },
     {
@@ -143,18 +138,21 @@
       "error": "HTTP 429",
       "checked_at": "2026-11-17T16:00:23+09:00",
       "last_success": "2026-11-17T15:55:26+09:00",
-      "consecutive_failures": 1
+      "consecutive_failures": 1,
+      "deferred": true
     },
     {
       "name": "청룡시리즈어워즈",
       "url": "https://bsa.blueaward.co.kr/",
       "scope": "official search + original page",
-      "status": "failed",
-      "error": "HTTP 429",
-      "checked_at": "2026-11-17T15:55:26+09:00",
-      "last_success": "2026-11-17T15:50:23+09:00",
-      "consecutive_failures": 1,
-      "deferred": true
+      "status": "success",
+      "fetched": 0,
+      "index_checked": true,
+      "matched": 0,
+      "warnings": [],
+      "checked_at": "2026-11-17T16:05:21+09:00",
+      "last_success": "2026-11-17T16:05:21+09:00",
+      "consecutive_failures": 0
     }
   ]
 }
