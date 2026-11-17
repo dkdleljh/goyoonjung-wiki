@@ -1,10 +1,10 @@
 {
   "kind": "daily",
   "executor": "primary",
-  "started_at": "2026-11-17T03:02:50+00:00",
-  "timestamp": "2026-11-17T03:06:00.083165+00:00",
-  "duration_seconds": 190.08,
-  "status": "partial",
+  "started_at": "2026-11-17T09:02:48+00:00",
+  "timestamp": "2026-11-17T09:05:24.076251+00:00",
+  "duration_seconds": 156.08,
+  "status": "success",
   "steps": [
     {
       "name": "RC_AGENCY",
@@ -72,11 +72,11 @@
     },
     {
       "name": "RC_GNEWS_QUERIES",
-      "returncode": 1
+      "returncode": 0
     },
     {
       "name": "RC_GNEWS_SITES",
-      "returncode": 1
+      "returncode": 0
     },
     {
       "name": "RC_INT_SUM",
