@@ -4687,9 +4687,9 @@
   },
   "https://www.mk.co.kr/news/hot-issues/12180324": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-10T01:45:27.375135+00:00",
+    "checked_at": "2026-11-17T02:00:30.328762+00:00",
     "first_seen_at": "2026-10-20 01:10:10",
-    "next_check": "2026-11-17T01:45:27.375135+00:00",
+    "next_check": "2026-11-24T02:00:30.328762+00:00",
     "metadata": {
       "id": "db7bf8a25deb23a84f4c233e",
       "url": "https://www.mk.co.kr/news/hot-issues/12180324",
@@ -4698,8 +4698,8 @@
       "first_party": false,
       "title": "고윤정 “‘무빙2’ 가슴 웅장해져...몸이 희수 기억” [화보] - 스타투데이",
       "published_at": "2026-10-20T10:05:59+09:00",
-      "collected_at": "2026-11-10T01:45:28.233861+00:00",
-      "content_hash": "3acc98b184a1aa4c5dc0dad48cca61d8c02f9fd1dd45b5985f8272be6ee001bc",
+      "collected_at": "2026-11-17T02:00:32.260387+00:00",
+      "content_hash": "918507dd0ea4f7d517ff94664c02b64c4fecdf80a320db683d5d55204a4b000a",
       "excerpt": "",
       "actor_mentioned": true,
       "claims": [],
@@ -7591,9 +7591,9 @@
   },
   "https://www.xportsnews.com/article/2209305": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-10T01:45:27.375135+00:00",
+    "checked_at": "2026-11-17T02:00:30.328762+00:00",
     "first_seen_at": "2026-10-20 01:00:10",
-    "next_check": "2026-11-17T01:45:27.375135+00:00",
+    "next_check": "2026-11-24T02:00:30.328762+00:00",
     "metadata": {
       "id": "10c1db613ee94dfd23219468",
       "url": "https://www.xportsnews.com/article/2209305",
@@ -7602,8 +7602,8 @@
       "first_party": false,
       "title": "'무빙' 시즌2 촬영 중인 고윤정 \"다시 모이니 가슴이 웅장해져\"",
       "published_at": "2026-10-20T09:55:41+09:00",
-      "collected_at": "2026-11-10T01:45:28.456538+00:00",
-      "content_hash": "081a88e8073b332b831232d771fea58be0831e3c269987a4f93de3739014d24d",
+      "collected_at": "2026-11-17T02:00:32.554983+00:00",
+      "content_hash": "d66446e6571c0bfa30d0aa258883190ca0b69544761a58a201d7840cdd660332",
       "excerpt": "(엑스포츠뉴스 김현정 기자) 배우 고윤정이 '무빙2'를 언급했다.패션 매거진 '하퍼스 바자' 코리아에서 고윤정과 함께한 11월호 커버 2종과 책 속에 숨겨져 있는 인사이드 커버 1종을 공개했다.고윤정은 최근 티파니의 새로운 앰버서더로 발탁돼 이번 촬영을 함께했다. 화보의 콘셉트는 ‘Po",
       "actor_mentioned": true,
       "claims": [],
@@ -7755,6 +7755,30 @@
       "etag": "1794742260487",
       "last_modified": null,
       "first_seen": "2026-10-18T10:05:23.562593+00:00"
+    }
+  },
+  "https://www.chosun.com/english/kpop-culture-en/2026/11/17/CHWLRAQYHNGI7MUR56ARLDV6RI": {
+    "status": "irrelevant",
+    "checked_at": "2026-11-17T02:00:30.328762+00:00",
+    "first_seen_at": "2026-11-17 01:50:36",
+    "next_check": "2026-11-24T02:00:30.328762+00:00",
+    "metadata": {
+      "id": "e44e5baba4a95fc77d372502",
+      "url": "https://www.chosun.com/english/kpop-culture-en/2026/11/17/CHWLRAQYHNGI7MUR56ARLDV6RI/",
+      "publisher": "chosun.com",
+      "category": "news",
+      "first_party": false,
+      "title": "Lee Dong-wook Cast as Warrior in Hive Media's 'Nambeol'",
+      "published_at": "2026-11-17T01:32:28.064Z",
+      "collected_at": "2026-11-17T02:00:31.612954+00:00",
+      "content_hash": "d90bf7e91b789ab7bdbbc54d1cce23957f4d34b95a2aa108459695184ccc8f78",
+      "excerpt": "Lee Dong-wook Cast as Warrior in Hive Medias Nambeol Actor to play Goryeo Special Forces warrior Yoon Gwan in Lee Mo-gaes historical action film alongside Lee B",
+      "actor_mentioned": false,
+      "claims": [],
+      "status": "fetched",
+      "etag": "W/\"1e50d-psCMZkmjXLG1lmNEW/MbqfoZbfE\"",
+      "last_modified": "Tue, 17 Nov 2026 01:47:41 GMT",
+      "first_seen": "2026-11-17T02:00:31.612954+00:00"
     }
   }
 }
