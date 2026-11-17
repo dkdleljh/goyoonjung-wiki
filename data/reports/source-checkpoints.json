@@ -30,16 +30,16 @@
     "last_success": "2026-11-17T06:25:28.715272+00:00"
   },
   "official:about.netflix.com": {
-    "last_attempt": "2026-11-17T07:20:16.419153+00:00",
+    "last_attempt": "2026-11-17T07:25:15.260669+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T07:20:16.419153+00:00"
+    "last_success": "2026-11-17T07:25:15.260669+00:00"
   },
   "official:baeksangawards.co.kr": {
-    "last_attempt": "2026-11-17T07:15:21.523838+00:00",
-    "status": "failed",
-    "failures": 1,
-    "last_success": "2026-11-17T07:10:20.556589+00:00"
+    "last_attempt": "2026-11-17T07:25:19.566675+00:00",
+    "status": "success",
+    "failures": 0,
+    "last_success": "2026-11-17T07:25:19.566675+00:00"
   },
   "official:boucheron.com": {
     "last_attempt": "2026-11-16T12:10:20.488553+00:00",
@@ -47,10 +47,10 @@
     "failures": 4017
   },
   "official:bsa.blueaward.co.kr": {
-    "last_attempt": "2026-11-17T07:20:23.158995+00:00",
+    "last_attempt": "2026-11-17T07:25:19.613911+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T07:20:23.158995+00:00"
+    "last_success": "2026-11-17T07:25:19.613911+00:00"
   },
   "official:chanel.com": {
     "last_attempt": "2026-11-16T12:10:20.409528+00:00",
@@ -58,22 +58,22 @@
     "failures": 4017
   },
   "official:cjenm.com": {
-    "last_attempt": "2026-11-17T07:20:22.832540+00:00",
+    "last_attempt": "2026-11-17T07:25:19.497664+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T07:20:22.832540+00:00"
+    "last_success": "2026-11-17T07:25:19.497664+00:00"
   },
   "official:clubclio.co.kr": {
-    "last_attempt": "2026-11-17T07:20:24.554103+00:00",
+    "last_attempt": "2026-11-17T07:25:19.779703+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T07:20:24.554103+00:00"
+    "last_success": "2026-11-17T07:25:19.779703+00:00"
   },
   "official:penshoppe.com": {
-    "last_attempt": "2026-11-17T07:20:24.570708+00:00",
+    "last_attempt": "2026-11-17T07:25:22.090715+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T07:20:24.570708+00:00"
+    "last_success": "2026-11-17T07:25:22.090715+00:00"
   },
   "official:thewaltdisneycompany.com": {
     "last_attempt": "2026-11-17T07:20:22.930160+00:00",
@@ -82,22 +82,22 @@
     "last_success": "2026-11-17T07:15:21.126331+00:00"
   },
   "official:tv.jtbc.co.kr": {
-    "last_attempt": "2026-11-17T07:20:22.760793+00:00",
+    "last_attempt": "2026-11-17T07:25:19.471212+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T07:20:22.760793+00:00"
+    "last_success": "2026-11-17T07:25:19.471212+00:00"
   },
   "official:tving.com": {
-    "last_attempt": "2026-11-17T07:15:21.225959+00:00",
-    "status": "failed",
-    "failures": 1,
-    "last_success": "2026-11-17T07:10:20.475271+00:00"
-  },
-  "official:tvn.cjenm.com": {
-    "last_attempt": "2026-11-17T07:20:19.323097+00:00",
+    "last_attempt": "2026-11-17T07:25:19.527799+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T07:20:19.323097+00:00"
+    "last_success": "2026-11-17T07:25:19.527799+00:00"
+  },
+  "official:tvn.cjenm.com": {
+    "last_attempt": "2026-11-17T07:25:18.871336+00:00",
+    "status": "success",
+    "failures": 0,
+    "last_success": "2026-11-17T07:25:18.871336+00:00"
   },
   "query:AWARDS": {
     "last_attempt": "2026-11-17T07:10:23.885011+00:00",
@@ -136,9 +136,9 @@
     "last_success": "2026-11-17T04:25:30.442405+00:00"
   },
   "query:KBS연예": {
-    "last_attempt": "2026-11-17T06:25:30.796125+00:00",
+    "last_attempt": "2026-11-17T07:25:31.104911+00:00",
     "status": "failed",
-    "failures": 1,
+    "failures": 2,
     "last_success": "2026-11-17T05:15:26.622439+00:00"
   },
   "query:LENSME": {
@@ -154,15 +154,15 @@
     "last_success": "2026-11-17T05:50:33.739277+00:00"
   },
   "query:OFFICIAL_OTT": {
-    "last_attempt": "2026-11-17T06:25:30.780267+00:00",
+    "last_attempt": "2026-11-17T07:25:31.095976+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T06:25:30.780267+00:00"
+    "last_success": "2026-11-17T07:25:31.095976+00:00"
   },
   "query:OFFICIAL_TV": {
-    "last_attempt": "2026-11-17T06:25:29.787898+00:00",
+    "last_attempt": "2026-11-17T07:25:29.985660+00:00",
     "status": "failed",
-    "failures": 1,
+    "failures": 2,
     "last_success": "2026-11-17T05:15:25.583350+00:00"
   },
   "query:PURADAK": {
@@ -178,10 +178,10 @@
     "last_success": "2026-11-17T06:35:32.168928+00:00"
   },
   "query:VARIETY": {
-    "last_attempt": "2026-11-17T06:25:31.817618+00:00",
+    "last_attempt": "2026-11-17T07:25:32.200292+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-17T06:25:31.817618+00:00"
+    "last_success": "2026-11-17T07:25:32.200292+00:00"
   },
   "query:VARIETY_GENERAL": {
     "last_attempt": "2026-11-17T07:15:31.449370+00:00",
