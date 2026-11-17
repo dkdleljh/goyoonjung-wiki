@@ -7852,5 +7852,29 @@
       "last_modified": "Tue, 17 Nov 2026 04:46:34 GMT",
       "first_seen": "2026-11-17T04:55:25.861785+00:00"
     }
+  },
+  "https://www.news1.kr/industry/distribution/6357147": {
+    "status": "metadata_verified",
+    "checked_at": "2026-11-17T09:00:25.018440+00:00",
+    "first_seen_at": "2026-11-17 08:50:11",
+    "next_check": "2026-11-24T09:00:25.018440+00:00",
+    "metadata": {
+      "id": "3b4016d018c2deb02c6c7813",
+      "url": "https://www.news1.kr/industry/distribution/6357147",
+      "publisher": "news1.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "\"고윤정·허남준 효과 톡톡\"…내셔널지오그래픽, 코스토니 흥행 ",
+      "published_at": "2026-11-17T17:40:50+09:00",
+      "collected_at": "2026-11-17T09:00:26.222102+00:00",
+      "content_hash": "50f904a90edf48d232ceafa4400f7603f8c2a057a6a0ec28222c647e96416459",
+      "excerpt": "1차 물량 판매율 70% 기록…캠페인 영상 화제 내셔널지오그래픽 어패럴은 26FW(가을·겨울) 시즌 주력 플리스 '코스토니'가 배우 고윤정과 허남준이 함께한 캠페인 화제성에 힘입어 1차 물량의 판매율이 70%를 …",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": "\"fv2kciefpc26kp\"",
+      "last_modified": null,
+      "first_seen": "2026-11-17T09:00:26.222102+00:00"
+    }
   }
 }
