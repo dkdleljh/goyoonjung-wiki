@@ -5479,9 +5479,9 @@
   },
   "https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-10T03:50:32.453707+00:00",
+    "checked_at": "2026-11-17T04:05:24.321435+00:00",
     "first_seen_at": "2026-10-20 02:50:26",
-    "next_check": "2026-11-17T03:50:32.453707+00:00",
+    "next_check": "2026-11-24T04:05:24.321435+00:00",
     "metadata": {
       "id": "76d41bb7fd99377868d8a3b5",
       "url": "https://www.sportschosun.com/en/celebrity/2026-10-20/202610200100124710008115",
@@ -5490,8 +5490,8 @@
       "first_party": false,
       "title": "Go Youn-jung: “Filming ‘Moving 2’... My heart swells when the cast reunites”",
       "published_at": "2026-10-20T10:48:03+09:00",
-      "collected_at": "2026-11-10T03:50:33.197974+00:00",
-      "content_hash": "1dd21594613270964c574d6c27afb4eada2f9b4a06c90d529f0debb2f9193ea2",
+      "collected_at": "2026-11-17T04:05:25.642857+00:00",
+      "content_hash": "5b46ea8d36c05e29da6e512a741ddaa1f3361df187bddc402d6e662af43ba990",
       "excerpt": "[Cho Yoon-sun, reporter for Sportschosun] Actor Go Youn-jung shared her thoughts on filming Season 2 of “Moving.”",
       "actor_mentioned": true,
       "claims": [],
@@ -7803,6 +7803,30 @@
       "etag": "W/\"48386-/mNbmzdu7WEC84NO7Vnyv3tzt6Y\"",
       "last_modified": "Tue, 17 Nov 2026 03:07:14 GMT",
       "first_seen": "2026-11-17T03:15:34.447029+00:00"
+    }
+  },
+  "https://www.chosun.com/jp/culture-life-jp/2026/11/17/4NS5CCVKQNAYDM7XQMHVKAY3XA": {
+    "status": "irrelevant",
+    "checked_at": "2026-11-17T04:05:24.321435+00:00",
+    "first_seen_at": "2026-11-17 04:00:29",
+    "next_check": "2026-11-24T04:05:24.321435+00:00",
+    "metadata": {
+      "id": "f5896813e905b9bb003a2fe3",
+      "url": "https://www.chosun.com/jp/culture-life-jp/2026/11/17/4NS5CCVKQNAYDM7XQMHVKAY3XA/",
+      "publisher": "chosun.com",
+      "category": "news",
+      "first_party": false,
+      "title": "イ・ドンウク、『南伐』出演確定…『ソウルの春』『ハルビン』制作会社の新作",
+      "published_at": "2026-11-17T02:03:32.714Z",
+      "collected_at": "2026-11-17T04:05:25.313632+00:00",
+      "content_hash": "56c7ddaea0236513bbfac7e945f0210ca96ccc5372adb5e3debe00362739e562",
+      "excerpt": "イ・ドンウク、『南伐』出演確定『ソウルの春』『ハルビン』制作会社の新作",
+      "actor_mentioned": false,
+      "claims": [],
+      "status": "fetched",
+      "etag": "W/\"19c4f-CHpZ4YnlscOhfuhbJmGhVKL/SP8\"",
+      "last_modified": "Tue, 17 Nov 2026 03:50:50 GMT",
+      "first_seen": "2026-11-17T04:05:25.313632+00:00"
     }
   }
 }
