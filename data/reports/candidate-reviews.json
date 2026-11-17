@@ -1,14 +1,14 @@
 {
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T17:40:25.706211+00:00",
-    "next_check": "2026-11-16T23:40:25.706211+00:00",
+    "checked_at": "2026-11-17T00:00:25.148154+00:00",
+    "next_check": "2026-11-17T06:00:25.148154+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T17:40:25.706211+00:00",
-    "next_check": "2026-11-16T23:40:25.706211+00:00",
+    "checked_at": "2026-11-17T00:00:25.148154+00:00",
+    "next_check": "2026-11-17T06:00:25.148154+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.osen.co.kr/article/G1112894851": {
@@ -1123,8 +1123,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-16T17:40:25.706211+00:00",
-    "next_check": "2026-11-16T23:40:25.706211+00:00",
+    "checked_at": "2026-11-17T00:00:25.148154+00:00",
+    "next_check": "2026-11-17T06:00:25.148154+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://mk.co.kr/amp/12179236": {
@@ -5383,9 +5383,9 @@
   },
   "https://www.slist.kr/news/articleView.html?idxno=776601": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-09T23:50:22.975900+00:00",
+    "checked_at": "2026-11-17T00:00:25.148154+00:00",
     "first_seen_at": "2026-10-26 23:15:09",
-    "next_check": "2026-11-16T23:50:22.975900+00:00",
+    "next_check": "2026-11-24T00:00:25.148154+00:00",
     "metadata": {
       "id": "a63766f778aeae5f554f3d4f",
       "url": "https://www.slist.kr/news/articleView.html?idxno=776601",
@@ -5394,8 +5394,8 @@
       "first_party": false,
       "title": "리센느·박지현·에이티즈→이준호·고윤정…'2026 KGMA', 오늘(27일) 2차 티켓 오픈",
       "published_at": "2026-10-27T08:02:11+09:00",
-      "collected_at": "2026-11-09T23:50:24.074256+00:00",
-      "content_hash": "f1d900648d907f1f9ca8fd48a24a7279de6e6fef73491d6333acfc81ff809d29",
+      "collected_at": "2026-11-17T00:00:26.257413+00:00",
+      "content_hash": "60686e3dbef05fc8424089d618cfdb21f93c0d29027c80caf0d7ebd59ced97c7",
       "excerpt": "'제3회 코리아 그랜드 뮤직 어워즈(2026 KGMA)'가 국내 관객을 대상으로 플로어석 추가 예매를 진행한다.KGMA 조직위원회는 27일 오후 6시 공식 예매처 NOL(놀)을 통해 2차 티켓 판매를 시작한다고 밝혔다. 이번 예매에서는 앞서 판매된 좌석과 별도로 무대에 가까운 플로어석이",
       "actor_mentioned": true,
       "claims": [],
