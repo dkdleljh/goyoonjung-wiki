@@ -278,3 +278,4 @@
 - [［포토］고윤정, 큐카드보다 작은 얼굴 - 일간스포츠](https://isplus.com/article/view/isp202611070393) · VARIETY_WORK · 내용은 원문 보도 기준
 - [コ・ユンジョン、『トンマンさん』のク・ギョファンを訪ねた | STARNEWS](https://www.starnewskorea.com/ja/star/2026/11/13/2026111308053459904) · JA_CAST · 내용은 원문 보도 기준
 - ["고윤정·허남준 효과 톡톡"…내셔널지오그래픽, 코스토니 흥행 ](https://www.news1.kr/industry/distribution/6357147) · 뉴스1 · 내용은 원문 보도 기준
+- ['재혼황후' 신민아, 11월 영화배우 브랜드평판 1위…고윤정 2위·구교환 3위](https://www.slist.kr/news/articleView.html?idxno=782968) · 싱글리스트 · 내용은 원문 보도 기준
