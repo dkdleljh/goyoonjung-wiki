@@ -9,7 +9,7 @@
 ---
 
 ## 통신사/종합(팩트 체크용)
-- 연합뉴스(연예 섹션): https://www.yna.co.kr/entertainment
+- 연합뉴스(연예 섹션): https://www.yna.co.kr/entertainment <!-- Broken/404: 2026-11-18 -->
   - 내부 검색(고윤정): https://www.yna.co.kr/search/index?query=%EA%B3%A0%EC%9C%A4%EC%A0%95
   - 구글 사이트검색: https://www.google.com/search?q=site%3Ayna.co.kr+%EA%B3%A0%EC%9C%A4%EC%A0%95
 - 뉴시스(연예/문화): https://www.newsis.com/entertainment/
