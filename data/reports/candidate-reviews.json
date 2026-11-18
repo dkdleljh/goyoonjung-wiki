@@ -1,14 +1,14 @@
 {
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T06:25:32.265722+00:00",
-    "next_check": "2026-11-18T12:25:32.265722+00:00",
+    "checked_at": "2026-11-18T12:35:24.579021+00:00",
+    "next_check": "2026-11-18T18:35:24.579021+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T06:25:32.265722+00:00",
-    "next_check": "2026-11-18T12:25:32.265722+00:00",
+    "checked_at": "2026-11-18T12:35:24.579021+00:00",
+    "next_check": "2026-11-18T18:35:24.579021+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.osen.co.kr/article/G1112894851": {
@@ -1123,8 +1123,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T06:25:32.265722+00:00",
-    "next_check": "2026-11-18T12:25:32.265722+00:00",
+    "checked_at": "2026-11-18T12:35:24.579021+00:00",
+    "next_check": "2026-11-18T18:35:24.579021+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://mk.co.kr/amp/12179236": {
@@ -7375,9 +7375,9 @@
   },
   "https://www.topstarnews.net/news/articleView.html?idxno=16268509": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-11T12:20:24.308599+00:00",
+    "checked_at": "2026-11-18T12:35:24.579021+00:00",
     "first_seen_at": "2026-11-04 12:05:10",
-    "next_check": "2026-11-18T12:20:24.308599+00:00",
+    "next_check": "2026-11-25T12:35:24.579021+00:00",
     "metadata": {
       "id": "d87c07af44d81686fc92ec9d",
       "url": "https://www.topstarnews.net/news/articleView.html?idxno=16268509",
@@ -7386,8 +7386,8 @@
       "first_party": false,
       "title": "고윤정, 메이크업 대기실 셀카…‘무빙2’ 촬영 속 변함없는 미모",
       "published_at": "2026-11-04T20:58:48+09:00",
-      "collected_at": "2026-11-11T12:20:25.525017+00:00",
-      "content_hash": "c40b9686bb3caf10c550983329f64ce9747fe0ab3b14624e9301dfe0d2837e6c",
+      "collected_at": "2026-11-18T12:35:26.363398+00:00",
+      "content_hash": "97bb66deb464df54bd4760424da62495a16bf783b8b61a223f18a56143c11739",
       "excerpt": "고윤정이 메이크업 대기실에서 찍은 거울 셀카로 근황을 전했다. 올해 다수의 드라마와 예능에서 활약한 그는 현재 디즈니플러스 시리즈 ‘무빙 2’ 촬영에 한창이며, 다양한 플랫폼을 오가며 주연 활동을 이어가고 있다.",
       "actor_mentioned": true,
       "claims": [],
