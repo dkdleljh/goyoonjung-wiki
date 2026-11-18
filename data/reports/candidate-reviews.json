@@ -1,14 +1,14 @@
 {
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T00:20:23.997637+00:00",
-    "next_check": "2026-11-18T06:20:23.997637+00:00",
+    "checked_at": "2026-11-18T06:25:32.265722+00:00",
+    "next_check": "2026-11-18T12:25:32.265722+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T00:20:23.997637+00:00",
-    "next_check": "2026-11-18T06:20:23.997637+00:00",
+    "checked_at": "2026-11-18T06:25:32.265722+00:00",
+    "next_check": "2026-11-18T12:25:32.265722+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.osen.co.kr/article/G1112894851": {
@@ -1123,8 +1123,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T00:20:23.997637+00:00",
-    "next_check": "2026-11-18T06:20:23.997637+00:00",
+    "checked_at": "2026-11-18T06:25:32.265722+00:00",
+    "next_check": "2026-11-18T12:25:32.265722+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://mk.co.kr/amp/12179236": {
@@ -6535,9 +6535,9 @@
   },
   "https://www.starnewskorea.com/ja/star/2026/11/11/2026111114115761932": {
     "status": "irrelevant",
-    "checked_at": "2026-11-11T06:10:28.360413+00:00",
+    "checked_at": "2026-11-18T06:25:32.265722+00:00",
     "first_seen_at": "2026-11-11 05:55:34",
-    "next_check": "2026-11-18T06:10:28.360413+00:00",
+    "next_check": "2026-11-25T06:25:32.265722+00:00",
     "metadata": {
       "id": "864f90a2077ad09e88cc2ebd",
       "url": "https://www.starnewskorea.com/ja/star/2026/11/11/2026111114115761932",
@@ -6546,14 +6546,14 @@
       "first_party": false,
       "title": "ソ・ガンジュン、イ・ビョンホンとの会談は不発に..『ナムボル』側「協議したが出演はNO」 [公式] | STARNEWS",
       "published_at": "2026-11-11T14:27:08+09:00",
-      "collected_at": "2026-11-11T06:10:29.096268+00:00",
-      "content_hash": "9d516d86f5997a2a27f75bacfe7a4498df5e9ada11b657614656d4c08cc96387",
+      "collected_at": "2026-11-18T06:25:33.389364+00:00",
+      "content_hash": "90db37ebfc4bb391c789278cbd2a9fae116a301fdd017054a58e702538104570",
       "excerpt": "俳優のソ·ガンジュンが映画「乱伐」の出演を議論したが、最終的に合流しないことにした。 11日、映画「乱伐」の製作会社であるHIVE Media Corp側はスターニュースに「ソ·ガンジュン俳優が『乱伐』の出演を議論したのは事実だが、最終的に出演しないことにした」と明らかにした。 製作会社側によればソ·ガンジュンは「乱伐",
       "actor_mentioned": false,
       "claims": [],
       "status": "fetched",
       "etag": null,
-      "last_modified": "Wed, 11 Nov 2026 05:27:30 GMT",
+      "last_modified": "Wed, 18 Nov 2026 06:25:32 GMT",
       "first_seen": "2026-11-11T06:10:29.096268+00:00"
     }
   },
