@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20T01:28:31+09:00",
+  "checked_at": "2026-11-20T01:37:47+09:00",
   "status": "failed",
   "sources": [
     {
@@ -27,8 +27,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:28:31+09:00",
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
       "consecutive_failures": 0
     },
     {
@@ -51,14 +51,16 @@
       "name": "Disney",
       "url": "https://thewaltdisneycompany.com/news/",
       "scope": "official search + original page",
-      "status": "success",
+      "status": "failed",
       "fetched": 0,
-      "index_checked": true,
+      "index_checked": false,
       "matched": 0,
-      "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
+      "warnings": [
+        "Index unavailable: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      ],
+      "checked_at": "2026-11-20T01:37:47+09:00",
       "last_success": "2026-11-20T01:28:31+09:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "name": "Goodal",
@@ -69,8 +71,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:28:31+09:00",
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
       "consecutive_failures": 0
     },
     {
@@ -82,8 +84,8 @@
       "index_checked": true,
       "matched": 1,
       "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:28:31+09:00",
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
       "consecutive_failures": 0
     },
     {
@@ -95,8 +97,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:28:31+09:00",
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
       "consecutive_failures": 0
     },
     {
@@ -108,24 +110,22 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:28:31+09:00",
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
       "consecutive_failures": 0
     },
     {
       "name": "TVING",
       "url": "https://www.tving.com/",
       "scope": "official search + original page",
-      "status": "failed",
+      "status": "success",
       "fetched": 0,
-      "index_checked": false,
+      "index_checked": true,
       "matched": 0,
-      "warnings": [
-        "Index unavailable: DNS resolution failed"
-      ],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:20:45+09:00",
-      "consecutive_failures": 1
+      "warnings": [],
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
+      "consecutive_failures": 0
     },
     {
       "name": "tvN",
@@ -136,8 +136,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:28:31+09:00",
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
       "consecutive_failures": 0
     },
     {
@@ -149,8 +149,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:28:31+09:00",
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
       "consecutive_failures": 0
     },
     {
@@ -162,8 +162,8 @@
       "index_checked": true,
       "matched": 0,
       "warnings": [],
-      "checked_at": "2026-11-20T01:28:31+09:00",
-      "last_success": "2026-11-20T01:28:31+09:00",
+      "checked_at": "2026-11-20T01:37:47+09:00",
+      "last_success": "2026-11-20T01:37:47+09:00",
       "consecutive_failures": 0
     }
   ]
