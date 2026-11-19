@@ -35,22 +35,22 @@ retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다
 
 ## magazines
 
-- 확인: 2026-11-20T01:15:41+09:00
+- 확인: 2026-11-20T01:45:21+09:00
 
 | 출처 | 상태 | 범위 | 마지막 성공 | 연속 실패 | 상세 |
 |---|---|---|---|---|---|
-| [Allure Korea](https://www.allurekorea.com/wp-admin/admin-ajax.php) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 20건 · 관련 8건 |
-| [Arena](https://www.arenakorea.com/rss/allArticle.xml) | success | recent_feed | 2026-11-20T01:15:41+09:00 | 0 | 확인 50건 · 관련 0건 |
-| [Cosmopolitan Korea](https://www.cosmopolitan.co.kr/search) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 18건 · 관련 8건 |
-| [ELLE Korea](https://www.elle.co.kr/search) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 18건 · 관련 12건 |
-| [Esquire Korea](https://www.esquirekorea.co.kr/search) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 18건 · 관련 3건 |
-| [GQ Korea](https://www.gqkorea.co.kr/wp-admin/admin-ajax.php) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 12건 · 관련 2건 |
-| [Harper’s BAZAAR Korea](https://www.harpersbazaar.co.kr/search) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 18건 · 관련 9건 |
-| [Marie Claire Korea](https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 10건 · 관련 8건 |
-| [Noblesse](https://noblesse.com/feed/) | success | recent_feed | 2026-11-20T01:15:41+09:00 | 0 | 확인 10건 · 관련 0건 |
-| [Singles](https://www.singleskorea.com/api/article-search) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 6건 · 관련 2건 |
-| [Vogue Korea](https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 10건 · 관련 2건 · RSS media namespace declaration repaired |
-| [W Korea](https://www.wkorea.com/wp-admin/admin-ajax.php) | success | keyword_search | 2026-11-20T01:15:41+09:00 | 0 | 확인 20건 · 관련 13건 |
+| [Allure Korea](https://www.allurekorea.com/wp-admin/admin-ajax.php) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 20건 · 관련 8건 |
+| [Arena](https://www.arenakorea.com/rss/allArticle.xml) | success | recent_feed | 2026-11-20T01:45:21+09:00 | 0 | 확인 50건 · 관련 0건 |
+| [Cosmopolitan Korea](https://www.cosmopolitan.co.kr/search) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 18건 · 관련 8건 |
+| [ELLE Korea](https://www.elle.co.kr/search) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 18건 · 관련 12건 |
+| [Esquire Korea](https://www.esquirekorea.co.kr/search) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 18건 · 관련 3건 |
+| [GQ Korea](https://www.gqkorea.co.kr/wp-admin/admin-ajax.php) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 12건 · 관련 2건 |
+| [Harper’s BAZAAR Korea](https://www.harpersbazaar.co.kr/search) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 18건 · 관련 9건 |
+| [Marie Claire Korea](https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 10건 · 관련 8건 |
+| [Noblesse](https://noblesse.com/feed/) | success | recent_feed | 2026-11-20T01:45:21+09:00 | 0 | 확인 10건 · 관련 0건 |
+| [Singles](https://www.singleskorea.com/api/article-search) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 6건 · 관련 2건 |
+| [Vogue Korea](https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 10건 · 관련 2건 · RSS media namespace declaration repaired |
+| [W Korea](https://www.wkorea.com/wp-admin/admin-ajax.php) | success | keyword_search | 2026-11-20T01:45:21+09:00 | 0 | 확인 20건 · 관련 13건 |
 
 ## official-live
 
