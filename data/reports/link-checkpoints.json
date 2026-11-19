@@ -67,7 +67,7 @@
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1795111531.0863867
+    "checked_at": 1795119035.1953933
   },
   "https://about.netflix.com/": {
     "url": "https://about.netflix.com/",
@@ -179,7 +179,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.622931
+    "checked_at": 1795119034.2541165
   },
   "https://biz.chosun.com/entertainment/enter_general/2026/10/19/G4ZGCZDBHBRGCN3DGA2DMZJYHE?outputType=amp": {
     "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/19/G4ZGCZDBHBRGCN3DGA2DMZJYHE?outputType=amp",
@@ -249,7 +249,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110628.7940078
+    "checked_at": 1795119031.4284487
   },
   "https://bsa.blueaward.co.kr/": {
     "url": "https://bsa.blueaward.co.kr/",
@@ -599,7 +599,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.7486765
+    "checked_at": 1795119034.256319
   },
   "https://imnews.imbc.com/": {
     "url": "https://imnews.imbc.com/",
@@ -641,7 +641,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.7027457
+    "checked_at": 1795119034.2558506
   },
   "https://isplus.com/article/view/isp202611070017": {
     "url": "https://isplus.com/article/view/isp202611070017",
@@ -956,14 +956,14 @@
     "status": "bad",
     "code": 404,
     "note": "GET fallback",
-    "checked_at": 1795111531.0851464
+    "checked_at": 1795119035.1926441
   },
   "https://mk.co.kr/amp/12179279": {
     "url": "https://mk.co.kr/amp/12179279",
     "status": "bad",
     "code": 404,
     "note": "GET fallback",
-    "checked_at": 1795111531.0769
+    "checked_at": 1795119034.36599
   },
   "https://mk.co.kr/amp/12180324": {
     "url": "https://mk.co.kr/amp/12180324",
@@ -991,7 +991,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6230195
+    "checked_at": 1795119034.254195
   },
   "https://mydaily.co.kr/page/view/2026101811451289251": {
     "url": "https://mydaily.co.kr/page/view/2026101811451289251",
@@ -1012,14 +1012,14 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6238832
+    "checked_at": 1795119034.2549314
   },
   "https://mydaily.co.kr/page/view/2026102509495165963": {
     "url": "https://mydaily.co.kr/page/view/2026102509495165963",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.888037
+    "checked_at": 1795119034.256408
   },
   "https://mydaily.co.kr/page/view/2026110509222825863": {
     "url": "https://mydaily.co.kr/page/view/2026110509222825863",
@@ -1362,7 +1362,7 @@
     "status": "warn",
     "code": 500,
     "note": "GET fallback",
-    "checked_at": 1795111531.0863545
+    "checked_at": 1795119035.1953595
   },
   "https://slv.kstarfashion.com/news/articleView.html?idxno=214777": {
     "url": "https://slv.kstarfashion.com/news/articleView.html?idxno=214777",
@@ -1467,7 +1467,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110628.7939668
+    "checked_at": 1795119031.4283884
   },
   "https://sports.khan.co.kr/article/202610082336003": {
     "url": "https://sports.khan.co.kr/article/202610082336003",
@@ -1964,7 +1964,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111529.9078643
+    "checked_at": 1795119034.2556834
   },
   "https://www.baeksangawards.co.kr/": {
     "url": "https://www.baeksangawards.co.kr/",
@@ -3693,7 +3693,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110628.701233
+    "checked_at": 1795119031.4040508
   },
   "https://www.harpersbazaar.co.kr/": {
     "url": "https://www.harpersbazaar.co.kr/",
@@ -3721,14 +3721,14 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.9281392
+    "checked_at": 1795119034.256549
   },
   "https://www.harpersbazaar.co.kr/article/1869633": {
     "url": "https://www.harpersbazaar.co.kr/article/1869633",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.9565165
+    "checked_at": 1795119034.2690842
   },
   "https://www.harpersbazaar.co.kr/article/1869799": {
     "url": "https://www.harpersbazaar.co.kr/article/1869799",
@@ -4288,7 +4288,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.702662
+    "checked_at": 1795119034.2557929
   },
   "https://www.marieclairekorea.com/celebrity/2025/09/2025asa-goyounjung/": {
     "url": "https://www.marieclairekorea.com/celebrity/2025/09/2025asa-goyounjung/",
@@ -4316,35 +4316,35 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.7030013
+    "checked_at": 1795119034.2559597
   },
   "https://www.marieclairekorea.com/fashion/2024/06/chanel-25/": {
     "url": "https://www.marieclairekorea.com/fashion/2024/06/chanel-25/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.7027004
+    "checked_at": 1795119034.2558212
   },
   "https://www.marieclairekorea.com/fashion/2024/07/chanel-26/": {
     "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-26/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.702773
+    "checked_at": 1795119034.2558782
   },
   "https://www.marieclairekorea.com/fashion/2024/07/chanel-27/": {
     "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-27/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.7029417
+    "checked_at": 1795119034.2559042
   },
   "https://www.marieclairekorea.com/fashion/2024/07/chanel-28/": {
     "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-28/",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.7029748
+    "checked_at": 1795119034.255931
   },
   "https://www.marieclairekorea.com/fashion/2024/07/chanel-29/": {
     "url": "https://www.marieclairekorea.com/fashion/2024/07/chanel-29/",
@@ -4442,7 +4442,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.703296
+    "checked_at": 1795119034.256264
   },
   "https://www.mk.co.kr/en/entertain/12198087": {
     "url": "https://www.mk.co.kr/en/entertain/12198087",
@@ -4624,7 +4624,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6233215
+    "checked_at": 1795119034.254423
   },
   "https://www.movist.com/star3d/read.asp?id=39058&type=32": {
     "url": "https://www.movist.com/star3d/read.asp?id=39058&type=32",
@@ -4736,7 +4736,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.7026224
+    "checked_at": 1795119034.2557652
   },
   "https://www.news1.kr/entertain/celebrity-topic/6323852": {
     "url": "https://www.news1.kr/entertain/celebrity-topic/6323852",
@@ -4764,14 +4764,14 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.4336908
+    "checked_at": 1795119034.2557116
   },
   "https://www.news1.kr/industry/distribution/6300203": {
     "url": "https://www.news1.kr/industry/distribution/6300203",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.7025719
+    "checked_at": 1795119034.2557378
   },
   "https://www.news1.kr/photos/8036194": {
     "url": "https://www.news1.kr/photos/8036194",
@@ -4827,7 +4827,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.62391
+    "checked_at": 1795119034.2549615
   },
   "https://www.newstomato.com/ReadNews.aspx?no=1199951": {
     "url": "https://www.newstomato.com/ReadNews.aspx?no=1199951",
@@ -4862,7 +4862,7 @@
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1795110628.641339
+    "checked_at": 1795119031.3728344
   },
   "https://www.osen.co.kr/article/G1112894851": {
     "url": "https://www.osen.co.kr/article/G1112894851",
@@ -5023,7 +5023,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110628.6412835
+    "checked_at": 1795119031.2178507
   },
   "https://www.sportschosun.com/entertainment/2026-10-19/202610190100116530007603": {
     "url": "https://www.sportschosun.com/entertainment/2026-10-19/202610190100116530007603",
@@ -5058,7 +5058,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110628.6413116
+    "checked_at": 1795119031.2178853
   },
   "https://www.sportschosun.com/search/?query=%EA%B3%A0%EC%9C%A4%EC%A0%95": {
     "url": "https://www.sportschosun.com/search/?query=%EA%B3%A0%EC%9C%A4%EC%A0%95",
@@ -5072,21 +5072,21 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6233594
+    "checked_at": 1795119034.2544513
   },
   "https://www.sportsseoul.com/news/read/1637796": {
     "url": "https://www.sportsseoul.com/news/read/1637796",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111529.8262331
+    "checked_at": 1795119034.2556546
   },
   "https://www.sportsseoul.com/news/read/1639642": {
     "url": "https://www.sportsseoul.com/news/read/1639642",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6233962
+    "checked_at": 1795119034.2544792
   },
   "https://www.sportsseoul.com/news/read/1642092": {
     "url": "https://www.sportsseoul.com/news/read/1642092",
@@ -5100,7 +5100,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6230624
+    "checked_at": 1795119034.2542243
   },
   "https://www.sportsseoul.com/news/read/1642299": {
     "url": "https://www.sportsseoul.com/news/read/1642299",
@@ -5254,7 +5254,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795111530.8880732
+    "checked_at": 1795119034.2564356
   },
   "https://www.starnewskorea.com/ja/star/2026/11/04/2026110423223155579": {
     "url": "https://www.starnewskorea.com/ja/star/2026/11/04/2026110423223155579",
@@ -5282,7 +5282,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6229804
+    "checked_at": 1795119034.2541628
   },
   "https://www.starnewskorea.com/player/shorts/22884?period=weekly": {
     "url": "https://www.starnewskorea.com/player/shorts/22884?period=weekly",
@@ -5429,7 +5429,7 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110628.6412523
+    "checked_at": 1795119031.2177937
   },
   "https://www.tenasia.co.kr/article/2026101993104": {
     "url": "https://www.tenasia.co.kr/article/2026101993104",
@@ -5884,35 +5884,35 @@
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6232085
+    "checked_at": 1795119034.2543387
   },
   "https://www.xportsnews.com/article/2200305": {
     "url": "https://www.xportsnews.com/article/2200305",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6231
+    "checked_at": 1795119034.2542536
   },
   "https://www.xportsnews.com/article/2200984": {
     "url": "https://www.xportsnews.com/article/2200984",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6231728
+    "checked_at": 1795119034.254312
   },
   "https://www.xportsnews.com/article/2202242": {
     "url": "https://www.xportsnews.com/article/2202242",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6231368
+    "checked_at": 1795119034.2542844
   },
   "https://www.xportsnews.com/article/2203159": {
     "url": "https://www.xportsnews.com/article/2203159",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6232452
+    "checked_at": 1795119034.2543664
   },
   "https://www.xportsnews.com/article/2208757": {
     "url": "https://www.xportsnews.com/article/2208757",
@@ -6038,7 +6038,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7030563
+    "checked_at": 1795119034.2560146
   },
   "https://www.youtube.com/watch?v=-BRpP4slPUY": {
     "url": "https://www.youtube.com/watch?v=-BRpP4slPUY",
@@ -6073,7 +6073,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.8881013
+    "checked_at": 1795119034.2564647
   },
   "https://www.youtube.com/watch?v=0m4DDcq5fxs": {
     "url": "https://www.youtube.com/watch?v=0m4DDcq5fxs",
@@ -6101,7 +6101,7 @@
     "status": "warn",
     "code": null,
     "note": "Video metadata unavailable: HTTPError",
-    "checked_at": 1795110631.623752
+    "checked_at": 1795119034.254794
   },
   "https://www.youtube.com/watch?v=1_cjCK41eTk": {
     "url": "https://www.youtube.com/watch?v=1_cjCK41eTk",
@@ -6122,14 +6122,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.70327
+    "checked_at": 1795119034.2562366
   },
   "https://www.youtube.com/watch?v=2NGZc4YJvJs": {
     "url": "https://www.youtube.com/watch?v=2NGZc4YJvJs",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7032428
+    "checked_at": 1795119034.2562082
   },
   "https://www.youtube.com/watch?v=2ViPUie3LPQ": {
     "url": "https://www.youtube.com/watch?v=2ViPUie3LPQ",
@@ -6164,14 +6164,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.70311
+    "checked_at": 1795119034.2560704
   },
   "https://www.youtube.com/watch?v=3rJC9ig0d3k": {
     "url": "https://www.youtube.com/watch?v=3rJC9ig0d3k",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.7826624
+    "checked_at": 1795119034.2554853
   },
   "https://www.youtube.com/watch?v=4EYqKQVNlAA": {
     "url": "https://www.youtube.com/watch?v=4EYqKQVNlAA",
@@ -6185,14 +6185,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.410934
+    "checked_at": 1795119034.2551801
   },
   "https://www.youtube.com/watch?v=4QY71LjDSng": {
     "url": "https://www.youtube.com/watch?v=4QY71LjDSng",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6237783
+    "checked_at": 1795119034.2548218
   },
   "https://www.youtube.com/watch?v=4xQyMVgtIXQ": {
     "url": "https://www.youtube.com/watch?v=4xQyMVgtIXQ",
@@ -6255,14 +6255,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.969541
+    "checked_at": 1795119034.277272
   },
   "https://www.youtube.com/watch?v=7O_WjqTiiaI": {
     "url": "https://www.youtube.com/watch?v=7O_WjqTiiaI",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.5917628
+    "checked_at": 1795119034.2552934
   },
   "https://www.youtube.com/watch?v=7r45BUVIY6M": {
     "url": "https://www.youtube.com/watch?v=7r45BUVIY6M",
@@ -6395,7 +6395,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7863464
+    "checked_at": 1795119034.2563744
   },
   "https://www.youtube.com/watch?v=ETZbmmJZy0o": {
     "url": "https://www.youtube.com/watch?v=ETZbmmJZy0o",
@@ -6444,7 +6444,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6238565
+    "checked_at": 1795119034.2549038
   },
   "https://www.youtube.com/watch?v=FqIkgS4DoEQ": {
     "url": "https://www.youtube.com/watch?v=FqIkgS4DoEQ",
@@ -6479,7 +6479,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.5960145
+    "checked_at": 1795119034.2553482
   },
   "https://www.youtube.com/watch?v=HCf4tjqtJeU": {
     "url": "https://www.youtube.com/watch?v=HCf4tjqtJeU",
@@ -6493,7 +6493,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6236138
+    "checked_at": 1795119034.2546518
   },
   "https://www.youtube.com/watch?v=HtFE5yr27mQ": {
     "url": "https://www.youtube.com/watch?v=HtFE5yr27mQ",
@@ -6535,7 +6535,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6239362
+    "checked_at": 1795119034.2549891
   },
   "https://www.youtube.com/watch?v=IyQONxh7Ix8": {
     "url": "https://www.youtube.com/watch?v=IyQONxh7Ix8",
@@ -6556,7 +6556,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.612483
+    "checked_at": 1795119034.2554038
   },
   "https://www.youtube.com/watch?v=JWcRHDEI6BQ": {
     "url": "https://www.youtube.com/watch?v=JWcRHDEI6BQ",
@@ -6570,7 +6570,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.5917222
+    "checked_at": 1795119034.2552655
   },
   "https://www.youtube.com/watch?v=LF1rmoy0qBw": {
     "url": "https://www.youtube.com/watch?v=LF1rmoy0qBw",
@@ -6654,14 +6654,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.623805
+    "checked_at": 1795119034.2548504
   },
   "https://www.youtube.com/watch?v=NVwgTHS6vaY": {
     "url": "https://www.youtube.com/watch?v=NVwgTHS6vaY",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6238313
+    "checked_at": 1795119034.2548773
   },
   "https://www.youtube.com/watch?v=Nc2t2oCMkxU": {
     "url": "https://www.youtube.com/watch?v=Nc2t2oCMkxU",
@@ -6675,14 +6675,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.3967268
+    "checked_at": 1795119034.2550437
   },
   "https://www.youtube.com/watch?v=NpMje0IrZXU": {
     "url": "https://www.youtube.com/watch?v=NpMje0IrZXU",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.8261967
+    "checked_at": 1795119034.255627
   },
   "https://www.youtube.com/watch?v=Nwqj11gWWYU": {
     "url": "https://www.youtube.com/watch?v=Nwqj11gWWYU",
@@ -6717,7 +6717,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7486362
+    "checked_at": 1795119034.2562916
   },
   "https://www.youtube.com/watch?v=P-4LO1vgNgY": {
     "url": "https://www.youtube.com/watch?v=P-4LO1vgNgY",
@@ -6794,7 +6794,7 @@
     "status": "warn",
     "code": null,
     "note": "Video metadata unavailable: HTTPError",
-    "checked_at": 1795111530.7783885
+    "checked_at": 1795119034.256347
   },
   "https://www.youtube.com/watch?v=SIKJWldJHTU": {
     "url": "https://www.youtube.com/watch?v=SIKJWldJHTU",
@@ -6808,7 +6808,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7031639
+    "checked_at": 1795119034.2561266
   },
   "https://www.youtube.com/watch?v=T5wffWl2DQI": {
     "url": "https://www.youtube.com/watch?v=T5wffWl2DQI",
@@ -6885,7 +6885,7 @@
     "status": "warn",
     "code": null,
     "note": "Video metadata unavailable: HTTPError",
-    "checked_at": 1795110631.6236715
+    "checked_at": 1795119034.254708
   },
   "https://www.youtube.com/watch?v=VPUpJUREAo8": {
     "url": "https://www.youtube.com/watch?v=VPUpJUREAo8",
@@ -6934,14 +6934,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6235425
+    "checked_at": 1795119034.254594
   },
   "https://www.youtube.com/watch?v=ZUuAgq8fSH8": {
     "url": "https://www.youtube.com/watch?v=ZUuAgq8fSH8",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.612512
+    "checked_at": 1795119034.2554317
   },
   "https://www.youtube.com/watch?v=ZqY2aicD2TY": {
     "url": "https://www.youtube.com/watch?v=ZqY2aicD2TY",
@@ -6976,28 +6976,28 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7031362
+    "checked_at": 1795119034.2560992
   },
   "https://www.youtube.com/watch?v=aIzJdyMZlfo": {
     "url": "https://www.youtube.com/watch?v=aIzJdyMZlfo",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.746169
+    "checked_at": 1795119034.2554588
   },
   "https://www.youtube.com/watch?v=aYJWlEuK3cM": {
     "url": "https://www.youtube.com/watch?v=aYJWlEuK3cM",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.612442
+    "checked_at": 1795119034.2553766
   },
   "https://www.youtube.com/watch?v=am27jwyVBCY": {
     "url": "https://www.youtube.com/watch?v=am27jwyVBCY",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6235783
+    "checked_at": 1795119034.2546222
   },
   "https://www.youtube.com/watch?v=aoieZ18zXzY": {
     "url": "https://www.youtube.com/watch?v=aoieZ18zXzY",
@@ -7011,21 +7011,21 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.7949135
+    "checked_at": 1795119034.2555413
   },
   "https://www.youtube.com/watch?v=b1R8XErxUGM": {
     "url": "https://www.youtube.com/watch?v=b1R8XErxUGM",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.4109807
+    "checked_at": 1795119034.25521
   },
   "https://www.youtube.com/watch?v=bCAzCQaHwW0": {
     "url": "https://www.youtube.com/watch?v=bCAzCQaHwW0",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6236446
+    "checked_at": 1795119034.2546794
   },
   "https://www.youtube.com/watch?v=bQZxwsK6A7E": {
     "url": "https://www.youtube.com/watch?v=bQZxwsK6A7E",
@@ -7081,7 +7081,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7031908
+    "checked_at": 1795119034.2561533
   },
   "https://www.youtube.com/watch?v=css4M9GxGeA": {
     "url": "https://www.youtube.com/watch?v=css4M9GxGeA",
@@ -7109,21 +7109,21 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7030835
+    "checked_at": 1795119034.2560432
   },
   "https://www.youtube.com/watch?v=ekrzbiuBYZE": {
     "url": "https://www.youtube.com/watch?v=ekrzbiuBYZE",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.8881295
+    "checked_at": 1795119034.2564921
   },
   "https://www.youtube.com/watch?v=emVimcwPd0g": {
     "url": "https://www.youtube.com/watch?v=emVimcwPd0g",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.4087732
+    "checked_at": 1795119034.2550972
   },
   "https://www.youtube.com/watch?v=fh4F-2ZWSkE": {
     "url": "https://www.youtube.com/watch?v=fh4F-2ZWSkE",
@@ -7172,7 +7172,7 @@
     "status": "warn",
     "code": null,
     "note": "Video metadata unavailable: HTTPError",
-    "checked_at": 1795110631.6236985
+    "checked_at": 1795119034.2547367
   },
   "https://www.youtube.com/watch?v=gwaom-UTFWk": {
     "url": "https://www.youtube.com/watch?v=gwaom-UTFWk",
@@ -7186,7 +7186,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.5917916
+    "checked_at": 1795119034.255321
   },
   "https://www.youtube.com/watch?v=iAt7p3x9WVg": {
     "url": "https://www.youtube.com/watch?v=iAt7p3x9WVg",
@@ -7200,14 +7200,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6232834
+    "checked_at": 1795119034.2543938
   },
   "https://www.youtube.com/watch?v=jLzNe79SXuw": {
     "url": "https://www.youtube.com/watch?v=jLzNe79SXuw",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.5485187
+    "checked_at": 1795119034.2552388
   },
   "https://www.youtube.com/watch?v=jOQbCBiAiQw": {
     "url": "https://www.youtube.com/watch?v=jOQbCBiAiQw",
@@ -7228,7 +7228,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.4088554
+    "checked_at": 1795119034.2551522
   },
   "https://www.youtube.com/watch?v=jnqpG3sIEgc": {
     "url": "https://www.youtube.com/watch?v=jnqpG3sIEgc",
@@ -7256,7 +7256,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.4088142
+    "checked_at": 1795119034.2551246
   },
   "https://www.youtube.com/watch?v=lHlTTje9uZI": {
     "url": "https://www.youtube.com/watch?v=lHlTTje9uZI",
@@ -7277,7 +7277,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7032168
+    "checked_at": 1795119034.2561812
   },
   "https://www.youtube.com/watch?v=liGLSNnBV9o": {
     "url": "https://www.youtube.com/watch?v=liGLSNnBV9o",
@@ -7312,14 +7312,14 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.4087183
+    "checked_at": 1795119034.2550702
   },
   "https://www.youtube.com/watch?v=o0tbRi7zR4c": {
     "url": "https://www.youtube.com/watch?v=o0tbRi7zR4c",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.3966699
+    "checked_at": 1795119034.2550166
   },
   "https://www.youtube.com/watch?v=o6BJUZVgbH0": {
     "url": "https://www.youtube.com/watch?v=o6BJUZVgbH0",
@@ -7333,7 +7333,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.623725
+    "checked_at": 1795119034.2547643
   },
   "https://www.youtube.com/watch?v=oSBl3voJVn8": {
     "url": "https://www.youtube.com/watch?v=oSBl3voJVn8",
@@ -7396,7 +7396,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.7949524
+    "checked_at": 1795119034.2555687
   },
   "https://www.youtube.com/watch?v=qdCkb---pCA": {
     "url": "https://www.youtube.com/watch?v=qdCkb---pCA",
@@ -7452,7 +7452,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.9013374
+    "checked_at": 1795119034.2565207
   },
   "https://www.youtube.com/watch?v=saTuQ4dI75g": {
     "url": "https://www.youtube.com/watch?v=saTuQ4dI75g",
@@ -7487,7 +7487,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111530.7030277
+    "checked_at": 1795119034.2559862
   },
   "https://www.youtube.com/watch?v=tYTPRqjgCzs": {
     "url": "https://www.youtube.com/watch?v=tYTPRqjgCzs",
@@ -7571,7 +7571,7 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795111529.8113556
+    "checked_at": 1795119034.255598
   },
   "https://www.youtube.com/watch?v=wNu2TXYMymg": {
     "url": "https://www.youtube.com/watch?v=wNu2TXYMymg",
@@ -7935,21 +7935,21 @@
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.6234322
+    "checked_at": 1795119034.2545078
   },
   "https://www.youtube.com/watch?v=RrpWCu9_9t8": {
     "url": "https://www.youtube.com/watch?v=RrpWCu9_9t8",
     "status": "ok",
     "code": 200,
     "note": "Public video metadata and author returned",
-    "checked_at": 1795110631.623469
+    "checked_at": 1795119034.2545376
   },
   "https://www.news1.kr/industry/distribution/6357147": {
     "url": "https://www.news1.kr/industry/distribution/6357147",
     "status": "ok",
     "code": 200,
     "note": "HTTP reachable; factual identity not verified",
-    "checked_at": 1795110631.6235075
+    "checked_at": 1795119034.254566
   },
   "https://www.youtube.com/watch?v=oRt37TuEoqc": {
     "url": "https://www.youtube.com/watch?v=oRt37TuEoqc",
@@ -7963,6 +7963,6 @@
     "status": "ok",
     "code": 200,
     "note": "GET fallback",
-    "checked_at": 1795111529.7827027
+    "checked_at": 1795119034.2555132
   }
 }
