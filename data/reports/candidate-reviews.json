@@ -1129,26 +1129,26 @@
   },
   "https://mk.co.kr/amp/12179236": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T18:26:41.713155+00:00",
-    "next_check": "2026-11-19T00:26:41.713155+00:00",
+    "checked_at": "2026-11-19T00:45:27.359223+00:00",
+    "next_check": "2026-11-19T06:45:27.359223+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179236"
   },
   "https://mk.co.kr/amp/12179279": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T18:26:41.713155+00:00",
-    "next_check": "2026-11-19T00:26:41.713155+00:00",
+    "checked_at": "2026-11-19T00:45:27.359223+00:00",
+    "next_check": "2026-11-19T06:45:27.359223+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179279"
   },
   "https://mk.co.kr/amp/12180324": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T18:26:41.713155+00:00",
-    "next_check": "2026-11-19T00:26:41.713155+00:00",
+    "checked_at": "2026-11-19T00:45:27.359223+00:00",
+    "next_check": "2026-11-19T06:45:27.359223+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12180324"
   },
   "https://mk.co.kr/amp/12198087": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T18:26:41.713155+00:00",
-    "next_check": "2026-11-19T00:26:41.713155+00:00",
+    "checked_at": "2026-11-19T00:45:27.359223+00:00",
+    "next_check": "2026-11-19T06:45:27.359223+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12198087"
   },
   "https://mydaily.co.kr/page/view/2026092715164924546": {
@@ -1609,8 +1609,8 @@
   },
   "https://segye.com/ampView/20261019503806": {
     "status": "retry_pending",
-    "checked_at": "2026-11-18T18:26:41.713155+00:00",
-    "next_check": "2026-11-19T00:26:41.713155+00:00",
+    "checked_at": "2026-11-19T00:45:27.359223+00:00",
+    "next_check": "2026-11-19T06:45:27.359223+00:00",
     "error": "500 Server Error: Internal Server Error for url: https://www.segye.com:443/ampView/20261019503806"
   },
   "https://sports.donga.com/ent/article/all/20260225/133418102/1": {
@@ -3703,9 +3703,9 @@
   },
   "https://www.harpersbazaar.co.kr/article/1912217": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-12T00:45:24.009669+00:00",
+    "checked_at": "2026-11-19T00:45:27.359223+00:00",
     "first_seen_at": "2026-10-29 00:25:10",
-    "next_check": "2026-11-19T00:45:24.009669+00:00",
+    "next_check": "2026-11-26T00:45:27.359223+00:00",
     "metadata": {
       "id": "5cce3ea3e823310c0e5108f9",
       "url": "https://www.harpersbazaar.co.kr/article/1912217",
@@ -3714,8 +3714,8 @@
       "first_party": false,
       "title": " 고윤정의 알고리즘엔 뭐가 뜰까?",
       "published_at": "2026-10-29T09:22:11+09:00",
-      "collected_at": "2026-11-12T00:45:25.066130+00:00",
-      "content_hash": "2a2c201e0040113ce9a4f99bd4adbec2fd1cae6b71155a3f0e719e5d75ed1cf5",
+      "collected_at": "2026-11-19T00:45:28.431005+00:00",
+      "content_hash": "aeeb284dde6520e972c896e1f5f04a8c703cec0b27a0e921eb61d1176989b054",
       "excerpt": "다섯 가지 키워드로 이야기 나눈 '고윤정의 요즘' ",
       "actor_mentioned": true,
       "claims": [],
