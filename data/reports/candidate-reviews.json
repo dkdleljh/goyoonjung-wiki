@@ -1,20 +1,20 @@
 {
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T01:00:29.322869+00:00",
-    "next_check": "2026-11-19T07:00:29.322869+00:00",
+    "checked_at": "2026-11-19T07:15:33.432003+00:00",
+    "next_check": "2026-11-19T13:15:33.432003+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T01:00:29.322869+00:00",
-    "next_check": "2026-11-19T07:00:29.322869+00:00",
+    "checked_at": "2026-11-19T07:15:33.432003+00:00",
+    "next_check": "2026-11-19T13:15:33.432003+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.osen.co.kr/article/G1112894851": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T01:00:29.322869+00:00",
-    "next_check": "2026-11-19T07:00:29.322869+00:00",
+    "checked_at": "2026-11-19T07:15:33.432003+00:00",
+    "next_check": "2026-11-19T13:15:33.432003+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI": {
@@ -1123,8 +1123,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T01:00:29.322869+00:00",
-    "next_check": "2026-11-19T07:00:29.322869+00:00",
+    "checked_at": "2026-11-19T07:15:33.432003+00:00",
+    "next_check": "2026-11-19T13:15:33.432003+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://mk.co.kr/amp/12179236": {
@@ -7087,9 +7087,9 @@
   },
   "https://www.tenasia.co.kr/article/2026110583364": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-12T07:05:31.551218+00:00",
+    "checked_at": "2026-11-19T07:15:33.432003+00:00",
     "first_seen_at": "2026-11-05 06:50:36",
-    "next_check": "2026-11-19T07:05:31.551218+00:00",
+    "next_check": "2026-11-26T07:15:33.432003+00:00",
     "metadata": {
       "id": "4f7c223294e32465ca8d604a",
       "url": "https://www.tenasia.co.kr/article/2026110583364",
@@ -7098,8 +7098,8 @@
       "first_party": false,
       "title": "'30세' 고윤정, 리센느 노래 틀어놓고 '입삐죽' …머리 손질 중에도 미모 이 정도 | 텐아시아",
       "published_at": "2026-11-05T15:30:00+09:00",
-      "collected_at": "2026-11-12T07:05:32.792959+00:00",
-      "content_hash": "ef479cf9c9da738f708d638537dc2f9e9d703e017c9e2d3b9f5dc7b2f9d6b174",
+      "collected_at": "2026-11-19T07:15:34.476471+00:00",
+      "content_hash": "913dcc3497bbd98a6f27d4060dd95996de6e9609b2db6869a35b1a20a096fc41",
       "excerpt": "배우 고윤정이 꾸밈없는 일상에서도 돋보이는 청순한 비주얼을 공개했다. 고윤정은 최근 자신의 인스타그램에 리센느 노래를 배경음악으로 설정한 뒤 고양이와 하트 이모지를 담은 멘트를 남기며 사진을 올렸다. 공개된 사진 속 고윤정은 연한 청색 데님 셔츠를 입고 긴 검은 머리를...",
       "actor_mentioned": true,
       "claims": [],
