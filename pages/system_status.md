@@ -20,14 +20,14 @@ checked sections: clean
 
 ## link_health: **0/100**
 
-checked at: 2026-11-18 23:45
-counts: {'OK': 1102, 'WARN': 24, 'BAD': 6, 'UNCHECKED': 9}
+checked at: 2026-11-19 12:00
+counts: {'OK': 1103, 'WARN': 24, 'BAD': 6, 'UNCHECKED': 9}
 score = verified OK / all discovered URLs; BAD forces zero
 
 ## automation_health: **100/100**
 
 status: success
-last_run: 2026-11-19T00:05:00+09:00
+last_run: 2026-11-19T12:05:00+09:00
 age_hours: 0.01
 source: news/2026-11-19.md
 recorded_result: success
@@ -43,10 +43,10 @@ max_age_hours: 8
 
 ## kpi_snapshot
 
-- new_urls: 0
+- new_urls: 1
 - landed_urls: 0
-- duplicate_rate: 16.67% (3/18)
+- duplicate_rate: 33.78% (275/814)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
-  - A: 0
+  - A: 1
   - B: 0

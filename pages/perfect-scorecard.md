@@ -4,8 +4,8 @@
 
 ## Snapshot
 - pages_total: 124
-- urls_total(markdown): 1059
-- seen_urls(db): 476
+- urls_total(markdown): 1060
+- seen_urls(db): 477
 - allowlist_domains: 105
 - google_news_sites: 40
 - google_news_queries(lines): 20
@@ -33,8 +33,8 @@
 
 - C_current: 76  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 1059  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 476  (dedupe DB size)
+- urls_total: 1060  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 477  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
@@ -48,7 +48,7 @@
 - coverage_readiness: 0  (official coverage audit)
 
 ## Top URL-heavy pages (top 10)
-- 273: pages/reviewed-news.md
+- 274: pages/reviewed-news.md
 - 209: pages/pictorials/editorial.md
 - 128: pages/verification-queue.md
 - 127: pages/youtube-archive.md
