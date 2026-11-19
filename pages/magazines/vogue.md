@@ -40,7 +40,7 @@
 
 - [새로운 앰배서더 고윤정이 말하는 샤넬 2024/25 크루즈 컬렉션](https://www.vogue.co.kr/2024/05/20/%ec%83%88%eb%a1%9c%ec%9a%b4-%ec%95%b0%eb%b0%b0%ec%84%9c%eb%8d%94-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%eb%a7%90%ed%95%98%eb%8a%94-%ec%83%a4%eb%84%ac-2024-25-%ed%81%ac%eb%a3%a8%ec%a6%88-%ec%bb%ac/)  _(출처: pictorials/editorial.md)_
 
-- [고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼](http://www.breaknews.com/935054)  _(출처: pictorials/editorial.md)_
+- [고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼](http://www.breaknews.com/935054)  _(출처: pictorials/editorial.md)_ <!-- Broken/404: 2026-11-19 -->
 
 - [고윤정의 봄, 봄, 봄](https://www.vogue.co.kr/2022/02/21/%EA%B3%A0%EC%9C%A4%EC%A0%95%EC%9D%98-%EB%B4%84-%EB%B4%84-%EB%B4%84/)  _(출처: pictorials/editorial.md)_
 

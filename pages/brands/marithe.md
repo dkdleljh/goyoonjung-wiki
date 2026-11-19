@@ -34,7 +34,7 @@
 
 - [고윤정, 사랑스러운 매력 뽐내는 화보 공개](https://fashionseoul.com/224549)  _(출처: pictorials/editorial.md)_
 
-- [고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼](http://www.breaknews.com/935054)  _(출처: pictorials/editorial.md)_
+- [고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼](http://www.breaknews.com/935054)  _(출처: pictorials/editorial.md)_ <!-- Broken/404: 2026-11-19 -->
 
 - [마리떼 2026 겨울 캠페인 — Love in White, Love in Winter](https://fashionseoul.com/275968)  _(출처: pictorials/campaign.md)_
 

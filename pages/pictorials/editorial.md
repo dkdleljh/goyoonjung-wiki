@@ -603,7 +603,7 @@
 - 매체: Vogue Korea x 마리떼 프랑소와 저버
 - 구분: 화보
 - 제목: 고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼
-- 링크(원문): http://www.breaknews.com/935054
+- 링크(원문): http://www.breaknews.com/935054 <!-- Broken/404: 2026-11-19 -->
 - 상태: 공식확정
 - id: http://www.breaknews.com/935054
 - 비고: Vogue Korea 12월호, 'One Fine Day' 콘셉트

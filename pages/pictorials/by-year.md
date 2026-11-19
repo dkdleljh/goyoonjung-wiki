@@ -115,7 +115,7 @@
 - 2022-12-26 · [반전미 넘치는 배우 고윤정](https://www.allurekorea.com/2022/12/26/%eb%b0%98%ec%a0%84%eb%af%b8-%eb%84%98%ec%b9%98%eb%8a%94-%eb%b0%b0%ec%9a%b0-%ea%b3%a0%ec%9c%a4%ec%a0%95/)
 - 2022-12-12 · [배우 고윤정, 부쉐론과 함께한 'EOY 캠페인' 홀리데이 화보 공개](https://www.rnx.kr/news/articleView.html?idxno=335348)
 - 2022-12-01 · [라타플랑(공식 사이트 게시글)](https://rataplan.co.kr/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/1157)
-- 2022-11-22 · [고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼](http://www.breaknews.com/935054)
+- 2022-11-22 · [고윤정 화보, '2030 여성들 워너비' 다운 남다른 스타일..물오른 여신 비주얼](http://www.breaknews.com/935054) <!-- Broken/404: 2026-11-19 -->
 - 2022-09-02 · [부쉐론과 고윤정이 창조한 미의 세계](https://www.vogue.co.kr/2022/09/02/%eb%b6%80%ec%89%90%eb%a1%a0%ea%b3%bc-%ea%b3%a0%ec%9c%a4%ec%a0%95%ec%9d%b4-%ec%b0%bd%ec%a1%b0%ed%95%9c-%eb%af%b8%ec%9d%98-%ec%84%b8%ea%b3%84/)
 - 2022-08-26 · [부쉐론의 여신, 고윤정](https://www.vogue.co.kr/2022/08/26/%EB%B6%80%EC%89%90%EB%A1%A0%EC%9D%98-%EC%97%AC%EC%8B%A0-%EA%B3%A0%EC%9C%A4%EC%A0%95/)
 - 2022-08-26 · [부쉐론의 여신, 고윤정](https://www.wkorea.com/2022/08/26/%eb%b6%80%ec%89%90%eb%a1%a0%ec%9d%98-%ec%97%ac%ec%8b%a0-%ea%b3%a0%ec%9c%a4%ec%a0%95/)
