@@ -1129,26 +1129,26 @@
   },
   "https://mk.co.kr/amp/12179236": {
     "status": "retry_pending",
-    "checked_at": "2026-11-20T01:20:27.575303+00:00",
-    "next_check": "2026-11-20T07:20:27.575303+00:00",
+    "checked_at": "2026-11-20T07:20:31.162302+00:00",
+    "next_check": "2026-11-20T13:20:31.162302+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179236"
   },
   "https://mk.co.kr/amp/12179279": {
     "status": "retry_pending",
-    "checked_at": "2026-11-20T01:20:27.575303+00:00",
-    "next_check": "2026-11-20T07:20:27.575303+00:00",
+    "checked_at": "2026-11-20T07:20:31.162302+00:00",
+    "next_check": "2026-11-20T13:20:31.162302+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179279"
   },
   "https://mk.co.kr/amp/12180324": {
     "status": "retry_pending",
-    "checked_at": "2026-11-20T01:20:27.575303+00:00",
-    "next_check": "2026-11-20T07:20:27.575303+00:00",
+    "checked_at": "2026-11-20T07:20:31.162302+00:00",
+    "next_check": "2026-11-20T13:20:31.162302+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12180324"
   },
   "https://mk.co.kr/amp/12198087": {
     "status": "retry_pending",
-    "checked_at": "2026-11-20T01:20:27.575303+00:00",
-    "next_check": "2026-11-20T07:20:27.575303+00:00",
+    "checked_at": "2026-11-20T07:20:31.162302+00:00",
+    "next_check": "2026-11-20T13:20:31.162302+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12198087"
   },
   "https://mydaily.co.kr/page/view/2026092715164924546": {
@@ -8020,5 +8020,35 @@
       "last_modified": null,
       "first_seen": "2026-11-20T06:45:27.197938+00:00"
     }
+  },
+  "https://www.osen.co.kr/article/G1112912789": {
+    "status": "metadata_verified",
+    "checked_at": "2026-11-20T07:20:31.162302+00:00",
+    "first_seen_at": "2026-11-20 07:20:13",
+    "next_check": "2026-11-27T07:20:31.162302+00:00",
+    "metadata": {
+      "id": "d61e4aca891c31a77373de2b",
+      "url": "https://www.osen.co.kr/article/G1112912789",
+      "publisher": "osen.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "류승룡·김무열·지창욱·황인엽·고윤정, ‘골든디스크’ 시상자 출격…하노이 달군다",
+      "published_at": "2026-11-20T16:09+09:00",
+      "collected_at": "2026-11-20T07:20:32.037989+00:00",
+      "content_hash": "9768b70ffb6283d486632f6875a7c392db6a5ff418ff3dbeeee8469b7e630f59",
+      "excerpt": "배우 류승룡, 김무열, 지창욱, 황인엽, 고윤정이 ‘제41회 골든디스크어워즈’ 시상자로 나서 글로벌 음악 축제를 더욱 빛낸다. 20일...",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-20T07:20:32.037989+00:00"
+    }
+  },
+  "http://www.osen.co.kr/article/G1112912789": {
+    "status": "retry_pending",
+    "checked_at": "2026-11-20T07:20:31.162302+00:00",
+    "next_check": "2026-11-20T13:20:31.162302+00:00",
+    "error": "Discovery URL does not belong to configured publisher"
   }
 }
