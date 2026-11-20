@@ -29,7 +29,7 @@
 ## 상태 요약
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `43d727965` |
+| 최신 커밋 | `ae822ed04` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -63,21 +63,21 @@
   - 로컬 노트: `logs/releases/release-notes-v1.138.2.md`
 
 ## 최근 변경 요약
-- [`43d727965`](https://github.com/dkdleljh/goyoonjung-wiki/commit/43d727965) — docs: sync collected wiki content for website
-- [`b0f7c39e1`](https://github.com/dkdleljh/goyoonjung-wiki/commit/b0f7c39e1) — docs: sync collected wiki content for website
-- [`8fe7b42ca`](https://github.com/dkdleljh/goyoonjung-wiki/commit/8fe7b42ca) — docs: sync collected wiki content for website
-- [`f171cb09a`](https://github.com/dkdleljh/goyoonjung-wiki/commit/f171cb09a) — docs: sync collected wiki content for website
-- [`56a411ec6`](https://github.com/dkdleljh/goyoonjung-wiki/commit/56a411ec6) — docs: sync collected wiki content for website
+- [`ae822ed04`](https://github.com/dkdleljh/goyoonjung-wiki/commit/ae822ed04) — docs: sync collected wiki content for website
+- [`b3ec2eb2f`](https://github.com/dkdleljh/goyoonjung-wiki/commit/b3ec2eb2f) — docs: sync collected wiki content for website
+- [`bc225c881`](https://github.com/dkdleljh/goyoonjung-wiki/commit/bc225c881) — docs: sync collected wiki content for website
+- [`a5b226e79`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a5b226e79) — docs: sync collected wiki content for website
+- [`a928b8524`](https://github.com/dkdleljh/goyoonjung-wiki/commit/a928b8524) — docs: sync collected wiki content for website
 
 ## 최근 변경 파일
 - `data/facts/awards.json`
 - `data/facts/evidence.json`
 - `data/facts/profile.json`
 - `data/facts/works.json`
+- `data/reports/candidate-reviews.json`
 - `data/reports/collectors/official-live.json`
 - `data/reports/collectors/youtube.json`
 - `data/reports/fast-task-state.json`
-- `data/reports/heartbeat.json`
 
 ## 자주 쓰는 명령
 ```bash
