@@ -280,3 +280,4 @@
 - ["고윤정·허남준 효과 톡톡"…내셔널지오그래픽, 코스토니 흥행 ](https://www.news1.kr/industry/distribution/6357147) · 뉴스1 · 내용은 원문 보도 기준
 - ['재혼황후' 신민아, 11월 영화배우 브랜드평판 1위…고윤정 2위·구교환 3위](https://www.slist.kr/news/articleView.html?idxno=782968) · 싱글리스트 · 내용은 원문 보도 기준
 - [류승룡·김무열·지창욱·황인엽·고윤정, 골든디스크어워즈 시상자로 하노이 찾는다](https://www.topstarnews.net/news/articleView.html?idxno=16281264) · 톱스타뉴스 · 내용은 원문 보도 기준
+- ['무빙' 류승룡·고윤정 부녀→김무열·지창욱...'제41회 골든디스크어워즈' 시상자 출격](https://www.slist.kr/news/articleView.html?idxno=783389) · 싱글리스트 · 내용은 원문 보도 기준

@@ -1,20 +1,20 @@
 {
   "http://www.inews24.com/view/1991164": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:50:29.642353+00:00",
-    "next_check": "2026-11-20T01:50:29.642353+00:00",
+    "checked_at": "2026-11-20T02:10:27.592900+00:00",
+    "next_check": "2026-11-20T08:10:27.592900+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.inews24.com/view/2008864": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:50:29.642353+00:00",
-    "next_check": "2026-11-20T01:50:29.642353+00:00",
+    "checked_at": "2026-11-20T02:10:27.592900+00:00",
+    "next_check": "2026-11-20T08:10:27.592900+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "http://www.osen.co.kr/article/G1112894851": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:50:29.642353+00:00",
-    "next_check": "2026-11-20T01:50:29.642353+00:00",
+    "checked_at": "2026-11-20T02:10:27.592900+00:00",
+    "next_check": "2026-11-20T08:10:27.592900+00:00",
     "error": "Discovery URL does not belong to configured publisher"
   },
   "https://biz.chosun.com/en/en-entertainment/2026/09/20/FXB5PLKOTVEW5JFXLAIO4I2UCI": {
@@ -1123,8 +1123,8 @@
   },
   "https://mk.co.kr/amp/12162117": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:50:29.642353+00:00",
-    "next_check": "2026-11-20T01:50:29.642353+00:00",
+    "checked_at": "2026-11-20T02:10:27.592900+00:00",
+    "next_check": "2026-11-20T08:10:27.592900+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12162117"
   },
   "https://mk.co.kr/amp/12179236": {
@@ -7923,6 +7923,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-11-20T01:20:28.690689+00:00"
+    }
+  },
+  "https://www.slist.kr/news/articleView.html?idxno=783389": {
+    "status": "metadata_verified",
+    "checked_at": "2026-11-20T02:10:27.592900+00:00",
+    "first_seen_at": "2026-11-20 02:00:11",
+    "next_check": "2026-11-27T02:10:27.592900+00:00",
+    "metadata": {
+      "id": "9fa316bde6905d6be5ee33de",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=783389",
+      "publisher": "slist.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "'무빙' 류승룡·고윤정 부녀→김무열·지창욱...'제41회 골든디스크어워즈' 시상자 출격",
+      "published_at": "2026-11-20T10:02:39+09:00",
+      "collected_at": "2026-11-20T02:10:28.501646+00:00",
+      "content_hash": "38e696d4d766aaae75e230590c9775928c5a323df1c891fc0e7d7daa7bd793c9",
+      "excerpt": "배우 류승룡, 김무열, 지창욱, 황인엽, 고윤정이 '제41회 골든디스크어워즈' 시상자로 나선다.20일 주최·주관사 HLL에 따르면 다섯 배우는 내년 1월 9일부터 10일까지 베트남 하노이 VEC(Vietnam Exposition Center) 야외 특설무대에서 열리는 '제41회 골든디스",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-20T02:10:28.501646+00:00"
     }
   }
 }
