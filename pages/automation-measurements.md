@@ -10,8 +10,8 @@
 | sample_count | 2000 |
 | avg_execution_seconds | 30.89 |
 | execution_p95_seconds | 72.94 |
-| fast_run_success_percent | 0.2 |
-| oldest_source_success_age_minutes | 160.1 |
+| fast_run_success_percent | 0.15 |
+| oldest_source_success_age_minutes | 165.0 |
 | monitored_sources | 77 |
 | recall | 미측정 |
 | precision | 미측정 |
