@@ -8122,5 +8122,29 @@
       "last_modified": null,
       "first_seen": "2026-11-20T08:30:31.642916+00:00"
     }
+  },
+  "https://newsen.com/news_view.php?uid=202611201012296310": {
+    "status": "irrelevant",
+    "checked_at": "2026-11-20T16:25:34.730392+00:00",
+    "first_seen_at": "2026-11-20 16:25:12",
+    "next_check": "2026-11-27T16:25:34.730392+00:00",
+    "metadata": {
+      "id": "a2bc91db53798389754ab4c5",
+      "url": "https://newsen.com/news_view.php?uid=202611201012296310",
+      "publisher": "newsen.com",
+      "category": "news",
+      "first_party": false,
+      "title": "·ù½Â·æ ±è¹«¿­ ÁöÃ¢¿í¡æ°íÀ±Á¤, °ñµçµð½ºÅ© ¶á´Ù¡¥½Ã»óÀÚ Ãâ°Ý",
+      "published_at": "2026-11-20 10:17:34",
+      "collected_at": "2026-11-20T16:25:35.593999+00:00",
+      "content_hash": "fd80abeb5dddacc520a2653c32f39c1c656ed885fba512c1146f0529b021a292",
+      "excerpt": "¹è¿ì ·ù½Â·æ, ±è¹«¿­, ÁöÃ¢¿í, È²ÀÎ¿±, °íÀ±Á¤ÀÌ &#039;Á¦41È¸ °ñµçµð½ºÅ©¾î¿öÁî&#039; ½Ã»óÀÚ·Î ³ª¼±´Ù.  &#039;°ñµçµð½ºÅ©¾î¿öÁî&#039;ÀÇ ÁÖÃÖ¡¤ÁÖ°ü»ç HLLÀº 11¿ù 20ÀÏ ",
+      "actor_mentioned": false,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-20T16:25:35.593999+00:00"
+    }
   }
 }
