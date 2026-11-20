@@ -30,16 +30,16 @@
     "last_success": "2026-11-20T17:25:28.220165+00:00"
   },
   "official:about.netflix.com": {
-    "last_attempt": "2026-11-20T17:30:20.265048+00:00",
+    "last_attempt": "2026-11-20T17:35:20.395598+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:20.265048+00:00"
+    "last_success": "2026-11-20T17:35:20.395598+00:00"
   },
   "official:baeksangawards.co.kr": {
-    "last_attempt": "2026-11-20T17:30:22.925844+00:00",
+    "last_attempt": "2026-11-20T17:35:22.960840+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:22.925844+00:00"
+    "last_success": "2026-11-20T17:35:22.960840+00:00"
   },
   "official:boucheron.com": {
     "last_attempt": "2026-11-20T01:50:22.403767+00:00",
@@ -47,10 +47,10 @@
     "failures": 4021
   },
   "official:bsa.blueaward.co.kr": {
-    "last_attempt": "2026-11-20T17:30:22.938787+00:00",
+    "last_attempt": "2026-11-20T17:35:23.074709+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:22.938787+00:00"
+    "last_success": "2026-11-20T17:35:23.074709+00:00"
   },
   "official:chanel.com": {
     "last_attempt": "2026-11-20T01:50:22.298701+00:00",
@@ -58,46 +58,46 @@
     "failures": 4021
   },
   "official:cjenm.com": {
-    "last_attempt": "2026-11-20T17:30:22.649841+00:00",
+    "last_attempt": "2026-11-20T17:35:22.635655+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:22.649841+00:00"
+    "last_success": "2026-11-20T17:35:22.635655+00:00"
   },
   "official:clubclio.co.kr": {
-    "last_attempt": "2026-11-20T17:30:23.288477+00:00",
+    "last_attempt": "2026-11-20T17:35:23.279745+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:23.288477+00:00"
+    "last_success": "2026-11-20T17:35:23.279745+00:00"
   },
   "official:penshoppe.com": {
-    "last_attempt": "2026-11-20T17:30:25.161269+00:00",
+    "last_attempt": "2026-11-20T17:35:24.165523+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:25.161269+00:00"
+    "last_success": "2026-11-20T17:35:24.165523+00:00"
   },
   "official:thewaltdisneycompany.com": {
-    "last_attempt": "2026-11-20T17:30:22.714925+00:00",
+    "last_attempt": "2026-11-20T17:35:22.722268+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:22.714925+00:00"
+    "last_success": "2026-11-20T17:35:22.722268+00:00"
   },
   "official:tv.jtbc.co.kr": {
-    "last_attempt": "2026-11-20T17:30:22.590312+00:00",
+    "last_attempt": "2026-11-20T17:35:22.568969+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:22.590312+00:00"
+    "last_success": "2026-11-20T17:35:22.568969+00:00"
   },
   "official:tving.com": {
-    "last_attempt": "2026-11-20T17:30:22.838582+00:00",
+    "last_attempt": "2026-11-20T17:35:22.851022+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:22.838582+00:00"
+    "last_success": "2026-11-20T17:35:22.851022+00:00"
   },
   "official:tvn.cjenm.com": {
-    "last_attempt": "2026-11-20T17:30:21.812885+00:00",
+    "last_attempt": "2026-11-20T17:35:21.263278+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T17:30:21.812885+00:00"
+    "last_success": "2026-11-20T17:35:21.263278+00:00"
   },
   "query:AWARDS": {
     "last_attempt": "2026-11-20T16:30:27.746815+00:00",
@@ -106,10 +106,10 @@
     "last_success": "2026-11-20T16:30:27.746815+00:00"
   },
   "query:BROADCAST_PR": {
-    "last_attempt": "2026-11-20T16:02:03.267097+00:00",
+    "last_attempt": "2026-11-20T17:35:26.526602+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T16:02:03.267097+00:00"
+    "last_success": "2026-11-20T17:35:26.526602+00:00"
   },
   "query:CARROT": {
     "last_attempt": "2026-11-20T16:30:26.565984+00:00",
@@ -172,10 +172,10 @@
     "last_success": "2026-11-20T16:30:26.120773+00:00"
   },
   "query:RYO": {
-    "last_attempt": "2026-11-20T16:02:04.081590+00:00",
-    "status": "failed",
-    "failures": 1,
-    "last_success": "2026-11-20T14:45:24.239595+00:00"
+    "last_attempt": "2026-11-20T17:35:27.405663+00:00",
+    "status": "success",
+    "failures": 0,
+    "last_success": "2026-11-20T17:35:27.405663+00:00"
   },
   "query:VARIETY": {
     "last_attempt": "2026-11-20T17:03:38.911778+00:00",
@@ -190,10 +190,10 @@
     "last_success": "2026-11-20T16:45:31.646867+00:00"
   },
   "query:VARIETY_TALK": {
-    "last_attempt": "2026-11-20T16:02:01.431110+00:00",
+    "last_attempt": "2026-11-20T17:35:26.051989+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T16:02:01.431110+00:00"
+    "last_success": "2026-11-20T17:35:26.051989+00:00"
   },
   "query:VARIETY_WORK": {
     "last_attempt": "2026-11-20T16:45:28.947402+00:00",
@@ -202,10 +202,10 @@
     "last_success": "2026-11-20T16:45:28.947402+00:00"
   },
   "query:VODANA": {
-    "last_attempt": "2026-11-20T16:02:04.069901+00:00",
+    "last_attempt": "2026-11-20T17:35:26.957048+00:00",
     "status": "success",
     "failures": 0,
-    "last_success": "2026-11-20T16:02:04.069901+00:00"
+    "last_success": "2026-11-20T17:35:26.957048+00:00"
   },
   "query:WORKS": {
     "last_attempt": "2026-11-20T16:45:27.831028+00:00",
