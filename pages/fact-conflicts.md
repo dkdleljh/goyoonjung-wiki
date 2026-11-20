@@ -1,6 +1,6 @@
 # Fact Conflict Audit (auto)
 
-> Updated: 2026-11-20 22:55 (Asia/Seoul)
+> Updated: 2026-11-20 23:01 (Asia/Seoul)
 
 ## Summary
 - conflicts: 0
