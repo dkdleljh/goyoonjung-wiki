@@ -2863,9 +2863,9 @@
   },
   "https://www.chosun.com/english/kpop-culture-en/2026/10/23/LZZTRCWXQ5CR7KCNAQ53GA3TSY": {
     "status": "irrelevant",
-    "checked_at": "2026-11-13T07:45:33.011023+00:00",
+    "checked_at": "2026-11-20T07:55:31.686657+00:00",
     "first_seen_at": "2026-10-23 07:20:26",
-    "next_check": "2026-11-20T07:45:33.011023+00:00",
+    "next_check": "2026-11-27T07:55:31.686657+00:00",
     "metadata": {
       "id": "7e81398ada54f13d2fae813f",
       "url": "https://www.chosun.com/english/kpop-culture-en/2026/10/23/LZZTRCWXQ5CR7KCNAQ53GA3TSY/",
@@ -2874,14 +2874,14 @@
       "first_party": false,
       "title": "Song Hye-kyo Joins Stylist's Husband's New Agency",
       "published_at": "2026-10-23T06:56:21.477Z",
-      "collected_at": "2026-11-13T07:45:34.627541+00:00",
-      "content_hash": "fb34efc06010561ee0acf48afdd163db08f53a28496ebb24bdb82c0f6378e51b",
+      "collected_at": "2026-11-20T07:55:34.102595+00:00",
+      "content_hash": "b4d680c75363e0953efdd58fa878033f609e709eddaec9dd492bad362762f2b8",
       "excerpt": "Song Hye-kyo Joins Stylists Husbands New Agency Actress partners with CEO Shin Jae-ho, husband of her 20-year stylist, after 14 years with UAA",
       "actor_mentioned": false,
       "claims": [],
       "status": "fetched",
-      "etag": "W/\"1eea4-lVs1GxQajOkle/M6J90PzgAWcAg\"",
-      "last_modified": "Fri, 13 Nov 2026 07:45:34 GMT",
+      "etag": "W/\"1e99a-PLJsYuSpJb3YlKihZ5X6y3aoSs0\"",
+      "last_modified": "Fri, 20 Nov 2026 07:55:33 GMT",
       "first_seen": "2026-10-23T07:20:30.534743+00:00"
     }
   },
@@ -8050,5 +8050,29 @@
     "checked_at": "2026-11-20T07:20:31.162302+00:00",
     "next_check": "2026-11-20T13:20:31.162302+00:00",
     "error": "Discovery URL does not belong to configured publisher"
+  },
+  "https://www.newsis.com/view/NISX20261120_0003877073": {
+    "status": "metadata_verified",
+    "checked_at": "2026-11-20T07:55:31.686657+00:00",
+    "first_seen_at": "2026-11-20 07:55:12",
+    "next_check": "2026-11-27T07:55:31.686657+00:00",
+    "metadata": {
+      "id": "2229c41cdf6363084010b6e2",
+      "url": "https://www.newsis.com/view/NISX20261120_0003877073",
+      "publisher": "newsis.com",
+      "category": "news",
+      "first_party": false,
+      "title": "류승룡·김무열·지창욱·황인엽·고윤정, '제41회 골든디스크' 시상자 출격",
+      "published_at": "2026-11-20T16:46:11+09:00",
+      "collected_at": "2026-11-20T07:55:32.932632+00:00",
+      "content_hash": "fef6768f39be4cde3fc682d7e53c9269c40d1e85000095adaa35c03f633940fd",
+      "excerpt": "[서울=뉴시스]이재훈 기자 = 배우 류승룡, 김무열, 지창욱, 황인엽, 고윤정이 '제41회 골든디스크어워즈' 시상자로 무대에 오른다.주최·주관사 HLL은 이들 5인이 2027년 1월 9~10일 베트남 하노이 VEC(Vietnam Exposition Center) 야외 특설무대에서 열리는",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-20T07:55:32.932632+00:00"
+    }
   }
 }
