@@ -1129,26 +1129,26 @@
   },
   "https://mk.co.kr/amp/12179236": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:10:22.904329+00:00",
-    "next_check": "2026-11-20T01:10:22.904329+00:00",
+    "checked_at": "2026-11-20T01:20:27.575303+00:00",
+    "next_check": "2026-11-20T07:20:27.575303+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179236"
   },
   "https://mk.co.kr/amp/12179279": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:10:22.904329+00:00",
-    "next_check": "2026-11-20T01:10:22.904329+00:00",
+    "checked_at": "2026-11-20T01:20:27.575303+00:00",
+    "next_check": "2026-11-20T07:20:27.575303+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12179279"
   },
   "https://mk.co.kr/amp/12180324": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:10:22.904329+00:00",
-    "next_check": "2026-11-20T01:10:22.904329+00:00",
+    "checked_at": "2026-11-20T01:20:27.575303+00:00",
+    "next_check": "2026-11-20T07:20:27.575303+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12180324"
   },
   "https://mk.co.kr/amp/12198087": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:10:22.904329+00:00",
-    "next_check": "2026-11-20T01:10:22.904329+00:00",
+    "checked_at": "2026-11-20T01:20:27.575303+00:00",
+    "next_check": "2026-11-20T07:20:27.575303+00:00",
     "error": "404 Client Error: Not Found for url: https://www.mk.co.kr/amp/12198087"
   },
   "https://mydaily.co.kr/page/view/2026092715164924546": {
@@ -1609,8 +1609,8 @@
   },
   "https://segye.com/ampView/20261019503806": {
     "status": "retry_pending",
-    "checked_at": "2026-11-19T19:10:22.904329+00:00",
-    "next_check": "2026-11-20T01:10:22.904329+00:00",
+    "checked_at": "2026-11-20T01:20:27.575303+00:00",
+    "next_check": "2026-11-20T07:20:27.575303+00:00",
     "error": "500 Server Error: Internal Server Error for url: https://www.segye.com:443/ampView/20261019503806"
   },
   "https://sports.donga.com/ent/article/all/20260225/133418102/1": {
@@ -7899,6 +7899,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-11-18T22:30:25.353742+00:00"
+    }
+  },
+  "https://www.topstarnews.net/news/articleView.html?idxno=16281264": {
+    "status": "metadata_verified",
+    "checked_at": "2026-11-20T01:20:27.575303+00:00",
+    "first_seen_at": "2026-11-20 01:20:11",
+    "next_check": "2026-11-27T01:20:27.575303+00:00",
+    "metadata": {
+      "id": "a71252f0648fc0a33b8bd8f2",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16281264",
+      "publisher": "topstarnews.net",
+      "category": "news",
+      "first_party": false,
+      "title": "류승룡·김무열·지창욱·황인엽·고윤정, 골든디스크어워즈 시상자로 하노이 찾는다",
+      "published_at": "2026-11-20T10:10:20+09:00",
+      "collected_at": "2026-11-20T01:20:28.690689+00:00",
+      "content_hash": "6fe208fa2464883a369bacd102a534083ca0343e68d0b5f11971d66d103c63f4",
+      "excerpt": "제41회 골든디스크어워즈가 2027년 1월 베트남 하노이 VEC 야외 특설무대에서 열리며 류승룡·김무열·지창욱·황인엽·고윤정이 시상자로 참석해 K팝 아티스트들의 수상을 발표한다.",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-20T01:20:28.690689+00:00"
     }
   }
 }
