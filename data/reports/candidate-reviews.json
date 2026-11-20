@@ -3079,9 +3079,9 @@
   },
   "https://www.chosun.com/entertainments/broadcast/2026/11/06/MZSTKZDGGBSDMMBQGMZTCNZWGU": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-13T02:10:33.190148+00:00",
+    "checked_at": "2026-11-20T02:25:29.851540+00:00",
     "first_seen_at": "2026-11-06 02:05:11",
-    "next_check": "2026-11-20T02:10:33.190148+00:00",
+    "next_check": "2026-11-27T02:25:29.851540+00:00",
     "metadata": {
       "id": "c92834acf5d5c39f8581984d",
       "url": "https://www.chosun.com/entertainments/broadcast/2026/11/06/MZSTKZDGGBSDMMBQGMZTCNZWGU/",
@@ -3090,14 +3090,14 @@
       "first_party": false,
       "title": "'고윤정·전소영→션' 리센느, 의리 지원군 봤더니..인맥 美쳤다 [핫피플]",
       "published_at": "2026-11-06T01:56:38.670Z",
-      "collected_at": "2026-11-13T02:10:34.972690+00:00",
-      "content_hash": "81cb50b05c9a1b1124483d34390844e8b02d8a1319a499a8eb9adc87fc525c4b",
+      "collected_at": "2026-11-20T02:25:32.088935+00:00",
+      "content_hash": "73b8f9264bbc1f156fb347f40f6c95aa2785fb68968d7d265c8a73ef42d212c5",
       "excerpt": "그룹 리센느가 신보 PULSE를 발매하고 음원 차트 상위권을 석권하며 주목받고 있습니다. 고윤정, 전소영, 션 등 스타들의 응원 속에 본격적인 활동에 돌입하며 팬들의 높은 관심을 증명하고 있습니다.",
       "actor_mentioned": true,
       "claims": [],
       "status": "fetched",
-      "etag": "W/\"1ed42-pRXE9LUpQUdtDywP++JXT7V4IKY\"",
-      "last_modified": "Fri, 13 Nov 2026 02:10:34 GMT",
+      "etag": "W/\"1f0a0-LgMpxX+Wx3eqi2LeS3UPWYedqus\"",
+      "last_modified": "Fri, 20 Nov 2026 02:25:32 GMT",
       "first_seen": "2026-11-06T02:05:52.238040+00:00"
     }
   },
@@ -7947,6 +7947,30 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-11-20T02:10:28.501646+00:00"
+    }
+  },
+  "https://sports.khan.co.kr/article/202611201112003": {
+    "status": "metadata_verified",
+    "checked_at": "2026-11-20T02:25:29.851540+00:00",
+    "first_seen_at": "2026-11-20 02:20:11",
+    "next_check": "2026-11-27T02:25:29.851540+00:00",
+    "metadata": {
+      "id": "887dcf9c565b25df992134ec",
+      "url": "https://sports.khan.co.kr/article/202611201112003",
+      "publisher": "sports.khan.co.kr",
+      "category": "news",
+      "first_party": false,
+      "title": "류승룡·김무열·지창욱·고윤정, 2026 골든디스크 출격",
+      "published_at": "2026-11-20T11:12:00+09:00",
+      "collected_at": "2026-11-20T02:25:31.003902+00:00",
+      "content_hash": "f14f6389c80320308ea39ab8dda0646d6cb6b71ea3794fd4d3e747025d514bd7",
+      "excerpt": "배우 류승룡, 김무열, 지창욱, 황인엽, 고윤정 등 톱배우들이 ‘제41회 골든디스크어워즈’에 출격한다. 20일 ‘골든디스크어워즈’의 주최·주관사 HLL은 “류승룡, 김무열, 지창욱, 황인엽, 고윤정이 2027년...",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-20T02:25:31.003902+00:00"
     }
   }
 }
