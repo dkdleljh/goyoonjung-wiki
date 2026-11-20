@@ -1,11 +1,11 @@
 # Operational Scorecard (auto)
 
-> Updated: 2026-11-20 (Asia/Seoul)
+> Updated: 2026-11-21 (Asia/Seoul)
 
 ## Snapshot
 - pages_total: 124
-- urls_total(markdown): 1064
-- seen_urls(db): 481
+- urls_total(markdown): 1071
+- seen_urls(db): 488
 - allowlist_domains: 105
 - google_news_sites: 40
 - google_news_queries(lines): 20
@@ -33,8 +33,8 @@
 
 - C_current: 76  (actual accumulated scale (grows over time))
 - C_capacity: 100  (system capacity / coverage potential)
-- urls_total: 1064  (unique Markdown URLs, not independent facts)
-- seen_urls_db: 481  (dedupe DB size)
+- urls_total: 1071  (unique Markdown URLs, not independent facts)
+- seen_urls_db: 488  (dedupe DB size)
 - source_width: 100  (allowlist/sites/queries/yt)
 - work_pages: 17  (pages/works/*.md)
 - i18n: 100  (i18n query support)
@@ -48,7 +48,7 @@
 - coverage_readiness: 0  (official coverage audit)
 
 ## Top URL-heavy pages (top 10)
-- 277: pages/reviewed-news.md
+- 283: pages/reviewed-news.md
 - 209: pages/pictorials/editorial.md
 - 128: pages/verification-queue.md
 - 127: pages/youtube-archive.md

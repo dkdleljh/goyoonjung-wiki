@@ -1,13 +1,13 @@
 # Source Confidence Report (auto)
 
-> Updated: 2026-11-20 12:03 (Asia/Seoul)
+> Updated: 2026-11-21 00:04 (Asia/Seoul)
 
 ## Summary
-- total_urls: 2118
-- S: 257
-- A: 944
+- total_urls: 2127
+- S: 258
+- A: 951
 - B: 530
-- BLOCK: 387
+- BLOCK: 388
 
 ## Top Hosts
 | host | urls | grade_counts |
@@ -26,8 +26,8 @@
 | mk.co.kr | 43 | A:43 |
 | starnewskorea.com | 36 | A:36 |
 | v.daum.net | 29 | A:29 |
+| news.jtbc.co.kr | 27 | S:27 |
 | news.sbs.co.kr | 27 | S:27 |
-| news.jtbc.co.kr | 26 | S:26 |
 | dkdleljh.github.io | 23 | BLOCK:23 |
 | tving.com | 22 | S:22 |
 | tvn.cjenm.com | 22 | S:22 |
