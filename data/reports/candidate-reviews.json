@@ -7615,9 +7615,9 @@
   },
   "https://www.xportsnews.com/article/2210684": {
     "status": "metadata_verified",
-    "checked_at": "2026-11-13T08:25:26.350350+00:00",
+    "checked_at": "2026-11-20T08:30:29.921232+00:00",
     "first_seen_at": "2026-10-23 08:00:23",
-    "next_check": "2026-11-20T08:25:26.350350+00:00",
+    "next_check": "2026-11-27T08:30:29.921232+00:00",
     "metadata": {
       "id": "85a61008607b253db4503324",
       "url": "https://www.xportsnews.com/article/2210684",
@@ -7626,8 +7626,8 @@
       "first_party": false,
       "title": "서인국, 생일 전날인데 박소담·고윤정에 플렉스…\"털린 사람이 생일이라니\" [★해시태그]",
       "published_at": "2026-10-23T14:07:23+09:00",
-      "collected_at": "2026-11-13T08:25:27.081703+00:00",
-      "content_hash": "0e7fab3253b95cf34108dff3fd5a3e89e7f74d4777496e1b443736fec7213ffe",
+      "collected_at": "2026-11-20T08:30:31.956002+00:00",
+      "content_hash": "b94796eb89d5afe6e89c80a3e5dfd5b4cbdafe9ce7df5c0881ba5426e8fc4d35",
       "excerpt": "​(엑스포츠뉴스 이창규 기자) 배우 박소담이 서인국, 고윤정과 하루 종일 데이트를 즐긴 근황을 전했다.박소담은 지난 22일 자신의 계정에 별다른 설명 없이 사진을 게재했다.공개된 사진에는 박소담이 고윤정, 서인국과 함께 한 소품샵을 방문해 거울 셀카를 찍는 모습이 담겼다.​이어 그는 \"",
       "actor_mentioned": true,
       "claims": [],
@@ -8073,6 +8073,54 @@
       "etag": null,
       "last_modified": null,
       "first_seen": "2026-11-20T07:55:32.932632+00:00"
+    }
+  },
+  "https://star.fnnews.com/ampArticle/202611201440321928": {
+    "status": "metadata_verified",
+    "checked_at": "2026-11-20T08:30:29.921232+00:00",
+    "first_seen_at": "2026-11-20 08:30:12",
+    "next_check": "2026-11-27T08:30:29.921232+00:00",
+    "metadata": {
+      "id": "d66a2d43bb2a6617f64e37ae",
+      "url": "https://star.fnnews.com/ampArticle/202611201440321928",
+      "publisher": "star.fnnews.com",
+      "category": "news",
+      "first_party": false,
+      "title": "류승룡·김무열·지창욱·황인엽·고윤정, '골디 어워즈' 시상자 출격",
+      "published_at": null,
+      "collected_at": "2026-11-20T08:30:31.326397+00:00",
+      "content_hash": "6beb2086810b56c7d23841076139de23c9c7fe9faa84806c77bf946ebe4de4fa",
+      "excerpt": "배우 류승룡, 김무열, 지창욱, 황인엽, 고윤정이 '제41회 골든디스크어워즈' 시상자로 나선다.  주최·주관사 HLL은 20일 다섯 배우가 2027년 1월 9일과 10일 베트남 하노이 VEC(Vietnam Exposition Center) ..",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-20T08:30:31.326397+00:00"
+    }
+  },
+  "https://www.xportsnews.com/article/2221567": {
+    "status": "metadata_verified",
+    "checked_at": "2026-11-20T08:30:29.921232+00:00",
+    "first_seen_at": "2026-11-20 08:20:13",
+    "next_check": "2026-11-27T08:30:29.921232+00:00",
+    "metadata": {
+      "id": "2f0e8534db1eec420fc62f24",
+      "url": "https://www.xportsnews.com/article/2221567",
+      "publisher": "xportsnews.com",
+      "category": "news",
+      "first_party": false,
+      "title": "배우 시상식인 줄…류승룡·고윤정·김무열까지, 골든디스크 시상자 라인업 '깜짝'",
+      "published_at": "2026-11-20T17:11:14+09:00",
+      "collected_at": "2026-11-20T08:30:31.642916+00:00",
+      "content_hash": "583d7416cdab7ede27272fb9c2b918bd5fd6055cb296b1393ac09ad87e30a30a",
+      "excerpt": "(엑스포츠뉴스 정민경 기자) 배우 류승룡, 김무열, 지창욱, 황인엽, 고윤정이 '제41회 골든디스크어워즈' 시상자로 나선다. 내로라하는 배우들이 대거 출격하며 화려한 라인업을 완성했다.20일 '골든디스크어워즈'의 주최·주관사 HLL은 \"류승룡, 김무열, 지창욱, 황인엽, 고윤정이 202",
+      "actor_mentioned": true,
+      "claims": [],
+      "status": "fetched",
+      "etag": null,
+      "last_modified": null,
+      "first_seen": "2026-11-20T08:30:31.642916+00:00"
     }
   }
 }
