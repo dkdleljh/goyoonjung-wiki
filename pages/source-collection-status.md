@@ -16,7 +16,7 @@ retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다
 
 ## archive
 
-- 확인: 2026-11-21T04:55:26+09:00
+- 확인: 2026-11-21T12:55:21+09:00
 
 | 출처 | 상태 | 범위 | 마지막 성공 | 연속 실패 | 상세 |
 |---|---|---|---|---|---|
@@ -28,7 +28,7 @@ retired는 근거를 확인해 정기 수집을 종료한 과거 출처입니다
 | [GQ Korea](https://www.gqkorea.co.kr/wp-admin/admin-ajax.php) | success | historical pagination page 2 | 2026-11-15T23:45:25+09:00 | 0 | 확인 0건 · 관련 0건 |
 | [Harper’s BAZAAR Korea](https://www.harpersbazaar.co.kr/search) | success | historical pagination page 8 | 2026-11-16T11:45:36+09:00 | 0 | 확인 0건 · 관련 0건 |
 | [Marie Claire Korea](https://www.marieclairekorea.com/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95&feed=rss2) | success | historical pagination page 7 | 2026-11-16T11:45:36+09:00 | 0 | 확인 0건 · 관련 0건 · Archive page 7 returns 404; current feed valid (10 items). Historical boundary is unconfirmed. |
-| [Noblesse](https://noblesse.com/feed/) | success | historical pagination page 406 | 2026-11-21T04:55:26+09:00 | 0 | 확인 10건 · 관련 0건 |
+| [Noblesse](https://noblesse.com/feed/) | success | historical pagination page 407 | 2026-11-21T12:55:21+09:00 | 0 | 확인 10건 · 관련 0건 |
 | [Singles](https://www.singleskorea.com/api/article-search) | success | historical pagination page 2 | 2026-11-16T01:45:25+09:00 | 0 | 확인 0건 · 관련 0건 |
 | [Vogue Korea](https://www.vogue.co.kr/feed/?s=%EA%B3%A0%EC%9C%A4%EC%A0%95) | success | historical pagination page 6 | 2026-11-16T09:45:32+09:00 | 0 | 확인 0건 · 관련 0건 · RSS media namespace declaration repaired; Archive page 6 returns 404; current feed valid (10 items). Historical boundary is unconfirmed. |
 | [W Korea](https://www.wkorea.com/wp-admin/admin-ajax.php) | success | historical pagination page 3 | 2026-11-16T06:45:26+09:00 | 0 | 확인 0건 · 관련 0건 |
