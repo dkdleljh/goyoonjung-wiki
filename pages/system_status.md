@@ -4,9 +4,9 @@
 
 ## wiki_completeness: **0/100**
 
-placeholder debt score: debt=456
+placeholder debt score: debt=457
 - (페이지 내 표기 확인 필요): 147
-- (확인 필요): 278
+- (확인 필요): 279
 - 검증불가: 13
 - 교차검증 필요: 0
 - 미확정: 2
@@ -20,14 +20,14 @@ checked sections: clean
 
 ## link_health: **0/100**
 
-checked at: 2026-11-20 23:55
-counts: {'OK': 1112, 'WARN': 26, 'BAD': 5, 'UNCHECKED': 9}
+checked at: 2026-11-21 12:54
+counts: {'OK': 1115, 'WARN': 24, 'BAD': 6, 'UNCHECKED': 9}
 score = verified OK / all discovered URLs; BAD forces zero
 
 ## automation_health: **100/100**
 
 status: success
-last_run: 2026-11-21T00:05:00+09:00
+last_run: 2026-11-21T13:01:00+09:00
 age_hours: 0.01
 source: news/2026-11-21.md
 recorded_result: success
@@ -43,10 +43,10 @@ max_age_hours: 8
 
 ## kpi_snapshot
 
-- new_urls: 0
+- new_urls: 4
 - landed_urls: 0
-- duplicate_rate: 57.14% (16/28)
+- duplicate_rate: 53.51% (572/1069)
 - collected_urls_by_source_grade (fact verification is separate):
   - S: 0
-  - A: 0
+  - A: 4
   - B: 0

@@ -14,7 +14,7 @@
 ## Status table
 | 항목 | 값 |
 |---|---|
-| 최신 커밋 | `36e965e51` |
+| 최신 커밋 | `28fd5a89f` |
 | 최신 릴리즈 태그 | `v1.138.4` |
 | docs 문서 수 | `21` |
 | 운영 페이지 수 | `19` |
@@ -32,10 +32,10 @@
 
 ## Recently changed files
 - `data/facts/awards.json`
-- `data/facts/evidence.json`
 - `data/facts/profile.json`
 - `data/facts/works.json`
-- `data/reports/collectors/official-live.json`
+- `data/reports/archive-progress.json`
+- `data/reports/collectors/archive.json`
 
 ## Ops pages
 - [`pages/awards-official-watch.md`](awards-official-watch.md)
