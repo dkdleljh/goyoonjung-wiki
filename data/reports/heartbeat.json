@@ -1,40 +1,40 @@
 {
   "kind": "fast",
   "executor": "github-actions",
-  "started_at": "2026-11-22T00:56:39.290691+00:00",
-  "timestamp": "2026-11-22T00:57:33.960728+00:00",
-  "duration_seconds": 54.67,
+  "started_at": "2026-11-22T07:41:19.070687+00:00",
+  "timestamp": "2026-11-22T07:41:39.314889+00:00",
+  "duration_seconds": 20.24,
   "status": "partial",
   "steps": [
     {
       "name": "auto_collect_google_news.py",
       "returncode": 0,
       "crashed": false,
-      "duration_seconds": 0.82
+      "duration_seconds": 0.97
     },
     {
       "name": "auto_collect_youtube_feeds.py",
       "returncode": 0,
       "crashed": false,
-      "duration_seconds": 0.52
+      "duration_seconds": 0.72
     },
     {
       "name": "official_evidence.py",
       "returncode": 1,
       "crashed": false,
-      "duration_seconds": 8.89
+      "duration_seconds": 8.01
     },
     {
-      "name": "youtube_archive.py",
+      "name": "auto_collect_google_news_sites.py",
       "returncode": 0,
       "crashed": false,
-      "duration_seconds": 36.47
+      "duration_seconds": 1.17
     },
     {
-      "name": "auto_collect_magazine_rss.py",
+      "name": "review_candidates.py",
       "returncode": 0,
       "crashed": false,
-      "duration_seconds": 7.34
+      "duration_seconds": 8.68
     },
     {
       "name": "sync_media_watch_sources.py",
