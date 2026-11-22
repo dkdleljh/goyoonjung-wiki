@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T05:55:27+09:00",
+  "checked_at": "2026-11-23T00:41:04+09:00",
   "status": "success",
   "sources": [
     {
@@ -75,15 +75,15 @@
     {
       "name": "GQ Korea",
       "url": "https://www.gqkorea.co.kr/wp-admin/admin-ajax.php",
-      "scope": "historical pagination page 2",
+      "scope": "historical pagination page 1",
       "status": "success",
-      "fetched": 0,
-      "matched": 0,
+      "fetched": 12,
+      "matched": 2,
       "warnings": [],
-      "page": 2,
-      "page_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "checked_at": "2026-11-15T23:45:25+09:00",
-      "last_success": "2026-11-15T23:45:25+09:00",
+      "page": 1,
+      "page_fingerprint": "dae624f68bbdcc2ebd5316fadabc07810fb8e8a7ea24cd368374961eb58110c7",
+      "checked_at": "2026-11-23T00:41:04+09:00",
+      "last_success": "2026-11-23T00:41:04+09:00",
       "consecutive_failures": 0
     },
     {
@@ -120,15 +120,15 @@
     {
       "name": "Noblesse",
       "url": "https://noblesse.com/feed/",
-      "scope": "historical pagination page 424",
+      "scope": "historical pagination page 425",
       "status": "success",
       "fetched": 10,
       "matched": 0,
       "warnings": [],
-      "page": 424,
-      "page_fingerprint": "4956c78c4d91355cd95313bab694f55167146078a69bf1e271626ea1a9dac002",
-      "checked_at": "2026-11-22T05:55:27+09:00",
-      "last_success": "2026-11-22T05:55:27+09:00",
+      "page": 425,
+      "page_fingerprint": "4a2de2b2b223403fe896ae3098b974fec8453bdaa6c2adc94fdb0d98dfc8519e",
+      "checked_at": "2026-11-23T00:41:04+09:00",
+      "last_success": "2026-11-23T00:41:04+09:00",
       "consecutive_failures": 0
     },
     {

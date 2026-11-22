@@ -55,11 +55,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "GQ Korea": {
-    "page": 1,
-    "checked_at": "2026-11-15T14:45:23.124006+00:00",
-    "next_scan": "2026-11-22T14:45:23.124006+00:00",
-    "status": "end_of_results",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-22T15:41:00.251749+00:00",
+    "next_scan": "2026-11-22T15:41:00.251749+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "dae624f68bbdcc2ebd5316fadabc07810fb8e8a7ea24cd368374961eb58110c7"
+    ],
     "items_added": 0,
     "years_observed": [
       2022,
@@ -94,9 +96,9 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Noblesse": {
-    "page": 425,
-    "checked_at": "2026-11-21T20:55:26.612602+00:00",
-    "next_scan": "2026-11-21T20:55:26.612602+00:00",
+    "page": 426,
+    "checked_at": "2026-11-22T15:41:00.251749+00:00",
+    "next_scan": "2026-11-22T15:41:00.251749+00:00",
     "status": "in_progress",
     "fingerprints": [
       "cf0e58cd3977cb85feb9a4a550df5b01458aa85628aef62655144db728fc5824",
@@ -522,7 +524,8 @@
       "1c71b9f23d7bc822893e9b48178360dd567709c5e867e647164af793a0a641ec",
       "a5bd547a39ba732bf93440059731d04728a33826704df3681d6e67b0137ac143",
       "5bfb8d723929cc48a27f475c0a34d49e5a579a17abfd37b5a7cc828f4749e91a",
-      "4956c78c4d91355cd95313bab694f55167146078a69bf1e271626ea1a9dac002"
+      "4956c78c4d91355cd95313bab694f55167146078a69bf1e271626ea1a9dac002",
+      "4a2de2b2b223403fe896ae3098b974fec8453bdaa6c2adc94fdb0d98dfc8519e"
     ],
     "items_added": 0,
     "years_observed": [],
