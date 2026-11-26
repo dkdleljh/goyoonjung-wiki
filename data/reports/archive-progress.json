@@ -41,11 +41,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "ELLE Korea": {
-    "page": 1,
-    "checked_at": "2026-11-16T01:45:28.757695+00:00",
-    "next_scan": "2026-11-23T01:45:28.757695+00:00",
-    "status": "end_of_results",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-26T20:04:48.619171+00:00",
+    "next_scan": "2026-11-26T20:04:48.619171+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "55bffeb6f7e3b167836a7d37187cac50ff54ef734addd4d33cae9c4300fdc494"
+    ],
     "items_added": 41,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
@@ -78,11 +80,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Harper’s BAZAAR Korea": {
-    "page": 1,
-    "checked_at": "2026-11-16T02:45:29.167523+00:00",
-    "next_scan": "2026-11-23T02:45:29.167523+00:00",
-    "status": "end_of_results",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-26T20:04:48.619171+00:00",
+    "next_scan": "2026-11-26T20:04:48.619171+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "8c45249a7c3edd1d2e9b84f2ea826862aa623c16c0880be5477714a0481e736d"
+    ],
     "items_added": 39,
     "years_observed": [],
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
@@ -555,11 +559,13 @@
     "coverage": "검색으로 관측한 범위이며 과거 전체 수집 완료를 의미하지 않음"
   },
   "Vogue Korea": {
-    "page": 1,
-    "checked_at": "2026-11-16T00:45:28.511826+00:00",
-    "next_scan": "2026-11-23T00:45:28.511826+00:00",
-    "status": "pagination_unavailable",
-    "fingerprints": [],
+    "page": 2,
+    "checked_at": "2026-11-26T20:04:48.619171+00:00",
+    "next_scan": "2026-11-26T20:04:48.619171+00:00",
+    "status": "in_progress",
+    "fingerprints": [
+      "52d784334718d72deb873bc37304c36c793473ac7e8ceb0688a6277800a99d9b"
+    ],
     "items_added": 9,
     "years_observed": [
       2021,
